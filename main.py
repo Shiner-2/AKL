@@ -10,7 +10,7 @@ def solve_no_hole_anti_k_labeling(graph, k, width):
     #     print("Width must be greater than 1")
     #     return
     global top_id
-    solver = Solver(name='g3')
+    solver = Solver(name='g4')
     clauses = [[-1]]
     n = len(graph)
     block = (k - 1) // width
