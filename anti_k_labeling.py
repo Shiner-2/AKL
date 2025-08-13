@@ -1,19 +1,22 @@
 from pysat.solvers import Solver
 from itertools import combinations
 from pysat.pb import PBEnc
+import time
 
 
 # Global variable
 top_id = 2
 
 INPUT_FILE = 'input.txt'  # Default input file path
-CUR_WIDTH = 4
+CUR_WIDTH = [6, 7]
 
 def solve_no_hole_anti_k_labeling(graph, k, width):
+    start = time.time()
     # if width == 1:
     #     print("Width must be greater than 1")
     #     return
     global top_id
+    top_id = 2
     solver = Solver(name='g4')
     clauses = [[-1]]
     n = len(graph)
@@ -103,7 +106,7 @@ def solve_no_hole_anti_k_labeling(graph, k, width):
                     label = block_id * width + index
                     order.append(x[i][label])
                 clauses.extend(SCL_AMO(order, R, i, block_id, width))
-    print(len(clauses) - kk)
+    # print(len(clauses) - kk)
     # Exactly one
     kk = len(clauses)
     for i in range(1, n + 1):
@@ -114,7 +117,7 @@ def solve_no_hole_anti_k_labeling(graph, k, width):
             tmp.append(R[i][block_id][width])
         tmp.append(R[i][block][last_block_size])
         clauses.extend(Exactly_One1(tmp))
-    print(len(clauses) - kk)
+    # print(len(clauses) - kk)
     # Every label must be used at least once
 
     for label in range(1, k + 1):
@@ -159,7 +162,7 @@ def solve_no_hole_anti_k_labeling(graph, k, width):
     #                 for labelv in range(labelu + 1, min(k + 1, labelu + width)):
     #                     clauses.append([-x[u][labelu], -x[v][labelv]])
 
-    print(len(clauses) - kk)
+    # print(len(clauses) - kk)
     # Write clauses to a file
     # with open("clauses_output.txt", "w") as file:
     #     for clause in clauses:
@@ -228,12 +231,14 @@ def solve_no_hole_anti_k_labeling(graph, k, width):
                     ok = False
                     reasons.append(f"Edge ({u},{v}) violates distance: |{lu}-{lv}| < {width}")
                 else:
-                    # continue
+                    continue
                     print(f"Edge ({u},{v}): |{lu}-{lv}| = {abs(lu - lv)} (>= {width})")
 
         return ok, reasons
 
     if solver.solve():
+        end = time.time()
+        print(f"Time taken: {end - start} seconds")
         model = solver.get_model()
         labels = extract_labels(model, x, n, k)
         ok, reasons = check_solution(graph, labels, k, width)
@@ -247,6 +252,8 @@ def solve_no_hole_anti_k_labeling(graph, k, width):
         # for v in range(1, n + 1):
         #     print(f"Vertex {v} -> label {labels[v]}")
     else:
+        end = time.time()
+        print(f"Time taken: {end - start} seconds")
         print("No solution exists")
 
 def SCL_AMO(order, R, i, block_id, width):
@@ -392,6 +399,6 @@ if __name__ == "__main__":
         # 14: []
     }
     graph = read_input(INPUT_FILE)  # Replace with your input file path
-    k = 21
-    width = 5     # Có thể thay đổi width nằm trong khoảng [1,k-1]
-    solve_no_hole_anti_k_labeling(graph, k, width)
+    k = len(graph)
+    for width in CUR_WIDTH:
+        solve_no_hole_anti_k_labeling(graph, k, width)

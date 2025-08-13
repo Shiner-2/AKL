@@ -1,19 +1,22 @@
 from pysat.solvers import Solver
 from itertools import combinations
 from pysat.pb import PBEnc
-
+import time
+from pysat.card import CardEnc
 
 # Global variable
 top_id = 2
 
 INPUT_FILE = 'input2.txt'  # Default input file path
-CUR_WIDTH = 39
+CUR_WIDTH = [219,220]
 
 def solve_no_hole_anti_k_labeling(graph, k, width):
+    start = time.time()
     # if width == 1:
     #     print("Width must be greater than 1")
     #     return
     global top_id
+    top_id = 2
     solver = Solver(name='g4')
     clauses = [[-1]]
     n = len(graph)
@@ -66,7 +69,7 @@ def solve_no_hole_anti_k_labeling(graph, k, width):
             tmp.append(tmp2)
         R.append(tmp)
 
-    # clauses.extend(Symetry_breaking(graph, x))
+    clauses.extend(Symetry_breaking(graph, x))
 
     kk = len(clauses)
     # Encode SCL <= 1
@@ -103,7 +106,7 @@ def solve_no_hole_anti_k_labeling(graph, k, width):
                     label = block_id * width + index
                     order.append(x[i][label])
                 clauses.extend(SCL_AMO(order, R, i, block_id, width))
-    print(len(clauses) - kk)
+    # print(len(clauses) - kk)
     # Exactly one
     kk = len(clauses)
     for i in range(1, n + 1):
@@ -114,7 +117,7 @@ def solve_no_hole_anti_k_labeling(graph, k, width):
             tmp.append(R[i][block_id][width])
         tmp.append(R[i][block][last_block_size])
         clauses.extend(Exactly_One1(tmp))
-    print(len(clauses) - kk)
+    # print(len(clauses) - kk)
     # Every label must be used at least once
 
     for label in range(1, k + 1):
@@ -159,7 +162,7 @@ def solve_no_hole_anti_k_labeling(graph, k, width):
     #                 for labelv in range(labelu + 1, min(k + 1, labelu + width)):
     #                     clauses.append([-x[u][labelu], -x[v][labelv]])
 
-    print(len(clauses) - kk)
+    # print(len(clauses) - kk)
     # Write clauses to a file
     # with open("clauses_output.txt", "w") as file:
     #     for clause in clauses:
@@ -184,6 +187,14 @@ def solve_no_hole_anti_k_labeling(graph, k, width):
     solver.append_formula(clauses)
     print(f"Number of variables: {solver.nof_vars()}")
     print(f"Number of clauses: {solver.nof_clauses()}")
+    # Write DIMACS CNF instead of solving
+    cnf_filename = f"anti_k_labeling_n{n}_k{k}_w{width}.cnf"
+    with open(cnf_filename, "w") as f:
+        f.write(f"p cnf {solver.nof_vars()} {len(clauses)}\n")
+        for cl in clauses:
+            f.write(" ".join(map(str, cl)) + " 0\n")
+    print(f"CNF written to {cnf_filename}")
+    return
     if solver.solve():
         # for i in range(1, n + 1):
         #     for label in range(1, k + 1):
@@ -192,6 +203,8 @@ def solve_no_hole_anti_k_labeling(graph, k, width):
         print("Solution found:")
     else:
         print("No solution exists")
+    end = time.time()
+    print(f"Time taken: {end - start} seconds")
 
 def SCL_AMO(order, R, i, block_id, width):
     # x <=> order
@@ -260,6 +273,13 @@ def Exactly_One1(variables):
         clauses.append(clause)
 
     return clauses
+
+def Exactly_One3(variables, encoding=1):
+    # Exactly one variable in 'variables' must be True using cardinality encoding
+    global top_id
+    cnf = CardEnc.equals(lits=variables, bound=1, encoding=encoding, top_id=top_id)
+    top_id = cnf.nv
+    return list(cnf.clauses)
 
 
 def Exactly_One(variables):
@@ -337,8 +357,8 @@ if __name__ == "__main__":
     }
     graph = read_input(INPUT_FILE)  # Replace with your input file path
     k = len(graph)
-    width = CUR_WIDTH     # Có thể thay đổi width nằm trong khoảng [1,k-1]
-    solve_no_hole_anti_k_labeling(graph, k, width)
+    for width in CUR_WIDTH:     # Có thể thay đổi width nằm trong khoảng [1,k-1]
+        solve_no_hole_anti_k_labeling(graph, k, width)
     # if solution:
     #     print(f"Found no-hole solution with minimum edge difference of {min_diff}:")
     #     used_labels = set(solution.values())
