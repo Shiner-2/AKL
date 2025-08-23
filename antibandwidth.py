@@ -3,12 +3,15 @@ from itertools import combinations
 from pysat.pb import PBEnc
 import time
 from pysat.card import CardEnc
+import os
+
+#  ./painless/build/release/painless_release cnf/anti_k_labeling_n592_k592_w104.cnf   -c=4   -solver=cckk -no-model
 
 # Global variable
 top_id = 2
 
-INPUT_FILE = 'input2.txt'  # Default input file path
-CUR_WIDTH = [219,220]
+INPUT_FILE = 'input.txt'  # Default input file path
+CUR_WIDTH = [6,7]
 
 def solve_no_hole_anti_k_labeling(graph, k, width):
     start = time.time()
@@ -17,7 +20,7 @@ def solve_no_hole_anti_k_labeling(graph, k, width):
     #     return
     global top_id
     top_id = 2
-    solver = Solver(name='g4')
+    solver = Solver(name='Cadical195')
     clauses = [[-1]]
     n = len(graph)
     block = (k - 1) // width
@@ -184,17 +187,20 @@ def solve_no_hole_anti_k_labeling(graph, k, width):
     #         for block_id in range(1, len(R[i])):
     #             file.write(" ".join(map(str, R[i][block_id])) + "\n")
     #     file.write(content)
+
+    
     solver.append_formula(clauses)
     print(f"Number of variables: {solver.nof_vars()}")
     print(f"Number of clauses: {solver.nof_clauses()}")
-    # Write DIMACS CNF instead of solving
-    cnf_filename = f"anti_k_labeling_n{n}_k{k}_w{width}.cnf"
+    # # Write DIMACS CNF instead of solving
+    folder_path = "C:/Users/Admin/Desktop/Lab/AKL/cnf"
+    cnf_filename = os.path.join(folder_path, f"anti_k_labeling_n{n}_k{k}_w{width}.cnf")
     with open(cnf_filename, "w") as f:
         f.write(f"p cnf {solver.nof_vars()} {len(clauses)}\n")
         for cl in clauses:
             f.write(" ".join(map(str, cl)) + " 0\n")
     print(f"CNF written to {cnf_filename}")
-    return
+    # return
     if solver.solve():
         # for i in range(1, n + 1):
         #     for label in range(1, k + 1):

@@ -2,22 +2,23 @@ from pysat.solvers import Solver
 from itertools import combinations
 from pysat.pb import PBEnc
 import time
+from pysat.card import CardEnc
+import os
+import glob
 
+#  ./painless/build/release/painless_release cnf/anti_k_labeling_n592_k592_w104.cnf   -c=4   -solver=cckk -no-model
 
 # Global variable
 top_id = 2
 
-INPUT_FILE = 'input.txt'  # Default input file path
-CUR_WIDTH = [6, 7]
-
-def solve_no_hole_anti_k_labeling(graph, k, width):
+def solve_no_hole_anti_k_labeling(graph, k, width, filename):
     start = time.time()
     # if width == 1:
     #     print("Width must be greater than 1")
     #     return
     global top_id
     top_id = 2
-    solver = Solver(name='g4')
+    solver = Solver(name='Cadical195')
     clauses = [[-1]]
     n = len(graph)
     block = (k - 1) // width
@@ -69,7 +70,7 @@ def solve_no_hole_anti_k_labeling(graph, k, width):
             tmp.append(tmp2)
         R.append(tmp)
 
-    # clauses.extend(Symetry_breaking(graph, x))
+    clauses.extend(Symetry_breaking(graph, x))
 
     kk = len(clauses)
     # Encode SCL <= 1
@@ -184,77 +185,37 @@ def solve_no_hole_anti_k_labeling(graph, k, width):
     #         for block_id in range(1, len(R[i])):
     #             file.write(" ".join(map(str, R[i][block_id])) + "\n")
     #     file.write(content)
+
+    
     solver.append_formula(clauses)
     print(f"Number of variables: {solver.nof_vars()}")
     print(f"Number of clauses: {solver.nof_clauses()}")
-
-    def extract_labels(model, x, n, k):
-        labels = {}
-        for i in range(1, n + 1):
-            lab = None
-            for label in range(1, k + 1):
-                if model[x[i][label] - 1] > 0:
-                    pos_labels = [l for l in range(1, k + 1) if model[x[i][l] - 1] > 0]
-                    if pos_labels:
-                        lab = pos_labels[0]
-                        if len(pos_labels) > 1:
-                            print(f"Vertex {i} has multiple labels: {pos_labels}")
-                    break
-            labels[i] = lab
-        return labels
-
-    def check_solution(graph, labels, k, width):
-        ok = True
-        reasons = []
-
-        # 1. Each vertex has exactly one label
-        for v, lab in labels.items():
-            if lab is None:
-                ok = False
-                reasons.append(f"Vertex {v} has no label")
-
-        # 2. Every label 1..k used at least once
-        used = {lab for lab in labels.values() if lab is not None}
-        for lab in range(1, k + 1):
-            if lab not in used:
-                ok = False
-                reasons.append(f"Label {lab} unused")
-
-        # 3. Edge constraint: |label(u) - label(v)| >= width
-        for u in graph:
-            for v in graph[u]:
-                lu = labels[u]
-                lv = labels[v]
-                if lu is None or lv is None:
-                    continue
-                if abs(lu - lv) < width:
-                    ok = False
-                    reasons.append(f"Edge ({u},{v}) violates distance: |{lu}-{lv}| < {width}")
-                else:
-                    continue
-                    print(f"Edge ({u},{v}): |{lu}-{lv}| = {abs(lu - lv)} (>= {width})")
-
-        return ok, reasons
-
+    # Write DIMACS CNF instead of solving
+    # folder_path = "C:/Users/Admin/Desktop/Lab/AKL/cnf"
+    # folder_path = os.path.join(folder_path, f"{filename}_n{n}_k{k}")
+    # if not os.path.exists(folder_path):
+    #     os.makedirs(folder_path)
+    # cnf_filename = os.path.join(folder_path, f"{filename}_n{n}_k{k}_w{width}.cnf")
+    # with open(cnf_filename, "w") as f:
+    #     f.write(f"p cnf {solver.nof_vars()} {len(clauses)}\n")
+    #     for cl in clauses:
+    #         f.write(" ".join(map(str, cl)) + " 0\n")
+    # print(f"CNF written to {cnf_filename}")
+    # return
     if solver.solve():
+        # for i in range(1, n + 1):
+        #     for label in range(1, k + 1):
+        #         if solver.get_model()[x[i][label] - 1] > 0:
+        #             print(f"Vertex {i} is assigned label {label}")
+        print(f"Solution found: {width}")
         end = time.time()
         print(f"Time taken: {end - start} seconds")
-        model = solver.get_model()
-        labels = extract_labels(model, x, n, k)
-        ok, reasons = check_solution(graph, labels, k, width)
-        if ok:
-            print("Solution found and verified.")
-        else:
-            print("Solution found but violates constraints:")
-            for r in reasons:
-                print("  -", r)
-        # Optional: print labeling
-        # for v in range(1, n + 1):
-        #     print(f"Vertex {v} -> label {labels[v]}")
+        return True
     else:
+        print("No solution exists")
         end = time.time()
         print(f"Time taken: {end - start} seconds")
-        print("No solution exists")
+        return False
 
 def SCL_AMO(order, R, i, block_id, width):
     # x <=> order
@@ -324,6 +285,13 @@ def Exactly_One1(variables):
 
     return clauses
 
+def Exactly_One3(variables, encoding=1):
+    # Exactly one variable in 'variables' must be True using cardinality encoding
+    global top_id
+    cnf = CardEnc.equals(lits=variables, bound=1, encoding=encoding, top_id=top_id)
+    top_id = cnf.nv
+    return list(cnf.clauses)
+
 
 def Exactly_One(variables):
     clauses = []
@@ -378,6 +346,38 @@ def read_input(file_path):
 
     return graph
 
+def cnf():
+    folder_path = "data/11. hb"
+    files = glob.glob(f"{folder_path}/*")
+    lst = []
+    filename = []
+    upper_bound = [220,220,136,24,17,22,39,9,35,35,79,112,13,51,64,104,9,8,102,36,326,7,256,14]
+    for file in files:
+        lst.append(folder_path + "/" + os.path.basename(file))
+        filename.append(os.path.basename(file))
+    print(lst)
+    for i in range(4,len(lst)):
+        graph = read_input(lst[i])
+        k = len(graph)-5
+        left = 2
+        right = upper_bound[i]
+        file = filename[i]
+        ans = 0
+        while left <= right:
+            width = (left + right) // 2
+            if solve_no_hole_anti_k_labeling(graph, k, width, file):
+                # Try smaller width
+                ans = width
+                left = width + 1
+            else:
+                # Try larger width
+                right = width - 1
+        print(f"Maximum width for {file} is {ans}")
+        break
+        # for width in range(2, upper_bound[i] + 1):
+        #     file = filename[i]
+        #     solve_no_hole_anti_k_labeling(graph, k, width, file)
+
 # Example usage
 if __name__ == "__main__":
     # Example graph: Path with 4 vertices (0-1-2-3)
@@ -398,7 +398,16 @@ if __name__ == "__main__":
         # 13: [],
         # 14: []
     }
-    graph = read_input(INPUT_FILE)  # Replace with your input file path
-    k = len(graph)
-    for width in CUR_WIDTH:
-        solve_no_hole_anti_k_labeling(graph, k, width)
+    cnf()
+    # graph = read_input(INPUT_FILE)  # Replace with your input file path
+    # k = len(graph)
+    # for width in CUR_WIDTH:     # Có thể thay đổi width nằm trong khoảng [1,k-1]
+    #     solve_no_hole_anti_k_labeling(graph, k, width)
+    # if solution:
+    #     print(f"Found no-hole solution with minimum edge difference of {min_diff}:")
+    #     used_labels = set(solution.values())
+    #     print(f"Used labels: {sorted(used_labels)} (all labels from 1 to {k} are used)")
+    #     for v in sorted(solution):
+    #         print(f"Vertex {v}: Label {solution[v]}")
+    # else:
+    #     print("No solution exists")
