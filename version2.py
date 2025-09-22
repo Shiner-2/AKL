@@ -14,7 +14,7 @@ import sys
 top_id = 2
 
 def solve_no_hole_anti_k_labeling(graph, k, width, queue):
-    log_file = open("log.txt", "a", encoding="utf-8", buffering=1)
+    log_file = open("log2.txt", "a", encoding="utf-8", buffering=1)
     sys.stdout = log_file
     if width <= 1:
         print("Width must be greater than 1!!!!!!!!!!!!")
@@ -28,102 +28,71 @@ def solve_no_hole_anti_k_labeling(graph, k, width, queue):
     solver = Solver(name='Cadical195')
     clauses = [[-1]]
     n = len(graph)
-    block = (k - 1) // width
-    last_block_size = k - (block) * width
     # Each block container width number of labels
     # Create a 2D list to hold the labels for each vertex
     x = [[1]]
     # x[i][label] i là số thứ tự của đỉnh, label là nhãn được gán của đỉnh nó x[i][label] = 1 nghĩa là nhãn label được gán cho đỉnh i
     for i in range(1, n + 1):
         tmp = [1]
-        for label in range(1, k + 1):
+        for j in range(1, k + 1):
             tmp.append(top_id)
             top_id += 1
         x.append(tmp)
     
-    L = [[[1]]]
-    # L[i][block_id][index] left block, i là số thứ tự của đỉnh, block_id là id của block, index là vị trí trong block
+    L = [[1]]
+    # L[i][j] từ trái sang phải, nếu có ít nhất 1 nhãn trong block j được gán cho đỉnh i thì L[i][j] = 1
     for i in range(1, n + 1):
-        tmp = [[1]]
-        for block_id in range(1, block + 1):
-            tmp2 = [1]
-            if block_id == 1:
-                for index in range(1, width + 1):
-                    tmp2.append(top_id)
-                    top_id += 1
-            else:
-                for index in range(1, width):
-                    tmp2.append(top_id)
-                    top_id += 1
-            tmp.append(tmp2)
+        tmp = [1]
+        for j in range(1, k + 1):
+            tmp.append(top_id)
+            top_id += 1
         L.append(tmp)
 
-    R = [[[1]]]
-    # R[i][block_id][index] right block i là số thứ tự của đỉnh, block_id là id của block, index là vị trí trong block
+    R = [[1]]
+    # R[i][j] từ phải sang trái, nếu có ít nhất 1 nhãn trong block j được gán cho đỉnh i thì R[i][j] = 1
     for i in range(1, n + 1):
-        tmp = [[1]]
-        for block_id in range(1, block + 1):
-            tmp2 = [1]
-            if block_id == block:
-                # Last block may not be full
-                last_block_size = k - (block) * width
-                for index in range(1, last_block_size + 1):
-                    tmp2.append(top_id)
-                    top_id += 1
-            else:
-                for index in range(1, width + 1):
-                    tmp2.append(top_id)
-                    top_id += 1
-            tmp.append(tmp2)
+        tmp = [1]
+        for j in range(1, k + 1):
+            tmp.append(top_id)
+            top_id += 1
         R.append(tmp)
 
     clauses.extend(Symetry_breaking(graph, x))
 
-    kk = len(clauses)
-    # Encode SCL <= 1
+    # Link x and L
+
     for i in range(1, n + 1):
-    
-        for block_id in range(1, block + 1):
-            order = [-1]
-            # order[index] replace x[i][label] for convenience in encoding since stair case is different between odd and even block_id
-            if block_id == 1:
-                for index in range(1, width + 1):
-                    label = block_id * width - index + 1
-                    order.append(x[i][label])
-                clauses.extend(SCL_AMO(order, L, i, block_id, width))
-            else:
-                for index in range(1, width):
-                    label = block_id * width - index + 1
-                    order.append(x[i][label])
-                clauses.extend(SCL_AMO(order, L, i, block_id, width - 1))
-        
-        for block_id in range(1, block + 1):
-            
-            if block_id == block:
-                # Last block may not be full
-                order = [-1]
-                # order[index] replace x[i][label] for convenience in encoding since stair case is different between odd and even block_id
-                for index in range(1, last_block_size + 1):
-                    label = block_id * width + index
-                    order.append(x[i][label])
-                clauses.extend(SCL_AMO(order, R, i, block_id, last_block_size))
-            else:    
-                order = [-1]
-                # order[index] replace x[i][label] for convenience in encoding since stair case is different between odd and even block_id
-                for index in range(1, width + 1):
-                    label = block_id * width + index
-                    order.append(x[i][label])
-                clauses.extend(SCL_AMO(order, R, i, block_id, width))
+        xx = [1]
+        LL = [1]
+        for label in range(1, k + 1):
+            xx.append(x[i][label])
+            LL.append(L[i][label])
+        clauses.extend(SCL_AMO(xx, LL, k))
+
+    # Link x and R
+    for i in range(1, n + 1):
+        xx = [1]
+        RR = [1]
+        for label in range(1, k + 1):
+            RR.append(R[i][label])
+        for label in range(k, 0, -1):
+            xx.append(x[i][label])
+        clauses.extend(SCL_AMO(xx, RR, k))
+
+    # Link L and R
+    # for i in range(1, n + 1):
+    #     for label in range(1, k + 1):
+    #         clauses.append([-L[i][label], R[i][k - label + 1]])
+    #         clauses.append([-R[i][k - label + 1], L[i][label]])
+
     # print(len(clauses) - kk)
     # Exactly one
     kk = len(clauses)
     for i in range(1, n + 1):
         tmp = []
         # Collect variables for EO
-        tmp.append(L[i][1][width])
-        for block_id in range(1, block):
-            tmp.append(R[i][block_id][width])
-        tmp.append(R[i][block][last_block_size])
+        for label in range(1, k + 1):
+            tmp.append(x[i][label])
         clauses.extend(Exactly_One1(tmp))
     # print(len(clauses) - kk)
 
@@ -133,37 +102,50 @@ def solve_no_hole_anti_k_labeling(graph, k, width, queue):
         clause = []
         for i in range(1, n + 1):
             clause.append(x[i][label])
-        # clauses.extend(Exactly_One1(clause))
+
         clauses.append(clause)
 
     # Label cant be use more than n-k+1 times
-    for label in range(1, k + 1):
-        variables = []
-        for i in range(1, n + 1):
-            variables.append(x[i][label])
-        clauses.extend(At_Most_K(variables, 4))
+    # for label in range(1, k + 1):
+    #     variables = []
+    #     for i in range(1, n + 1):
+    #         variables.append(x[i][label])
+    #     clauses.extend(At_Most_K(variables, 4))
 
     # Hai đỉnh được nối với nhau không được gán nhãn có hiệu tuyệt đối nhỏ hơn width
     # TODO: check this again
     # kk = len(clauses)
+
+
+
     for u in graph:
         for v in graph[u]:
-            clauses.append([-L[u][1][width], -L[v][1][width]])
-            for label in range(2, k - width + 2):
-                block_id = (label - 1) // width + 1
-                if label % width == 1:
-                    clauses.append([-R[u][block_id-1][width], -R[v][block_id-1][width]])
-                else:
-                    lu = L[u][block_id][width - (label - 1) % width]
-                    ru = R[u][block_id][(label - 1) % width]
-                    
-                    lv = L[v][block_id][width - (label - 1) % width]
-                    rv = R[v][block_id][(label - 1) % width] 
-                    
-                    clauses.append([-lu, -lv])
-                    clauses.append([-lu, -rv])
-                    clauses.append([-ru, -lv])
-                    clauses.append([-ru, -rv])
+            for labelu in range(1, k + 1):
+                minv = max(0, labelu - width)
+                maxv = min(k + 1, labelu + width)
+                if minv == 0:
+                    clauses.append([-x[u][labelu], R[v][k - labelu - width + 1]])
+                    clauses.append([-x[u][labelu], -L[v][labelu + width - 1]])
+                if maxv == k + 1:
+                    clauses.append([-x[u][labelu], L[v][labelu - width]])
+                    clauses.append([-x[u][labelu], -R[v][k - labelu + width]])
+                if minv > 0 and maxv < k + 1:
+                    clauses.append([-x[u][labelu], L[v][labelu - width], R[v][k - labelu - width + 1]])
+
+
+            for labelv in range(1, k + 1):
+                minu = max(0, labelv - width)
+                maxu = min(k + 1, labelv + width)
+                if minu == 0:
+                    clauses.append([-x[v][labelv], R[u][k - labelv - width + 1]])
+                    clauses.append([-x[v][labelv], -L[u][labelv + width - 1]])
+                if maxu == k + 1:
+                    clauses.append([-x[v][labelv], L[u][labelv - width]])
+                    clauses.append([-x[v][labelv], -R[u][k - labelv + width]])
+                if minu > 0 and maxu < k + 1:
+                    clauses.append([-x[v][labelv], L[u][labelv - width], R[u][k - labelv - width + 1]])
+
+
 
     # IMPORTANT: test code
     # for u in graph:
@@ -240,7 +222,7 @@ def solve_no_hole_anti_k_labeling(graph, k, width, queue):
         print(f"Time taken: {end - start} seconds", flush=True)
         return False
 
-def SCL_AMO(order, R, i, block_id, width):
+def SCL_AMO(x, R, k):
     # x <=> order
     # x1 <= 1 <=> R1
     # x1 + x2 <= 1 <=> R2
@@ -251,23 +233,23 @@ def SCL_AMO(order, R, i, block_id, width):
     
     # Formula in 4.1
     # Formula (9)
-    for index in range(1, width + 1):
-        clauses.append([-order[index], R[i][block_id][index]])
+    for index in range(1, k + 1):
+        clauses.append([-x[index], R[index]])
 
     # Formula (10)
-    for index in range(1, width):
-        clauses.append([-R[i][block_id][index], R[i][block_id][index + 1]])
+    for index in range(1, k):
+        clauses.append([-R[index], R[index + 1]])
 
     # Formula (11)
-    clauses.append([order[1], -R[i][block_id][1]])
+    clauses.append([x[1], -R[1]])
 
     # Formula (12)
-    for index in range(2, width + 1):
-        clauses.append([order[index], R[i][block_id][index-1], -R[i][block_id][index]])
+    for index in range(2, k + 1):
+        clauses.append([x[index], R[index-1], -R[index]])
 
     # Formula (13)
-    for index in range(2, width + 1):
-        clauses.append([-order[index], -R[i][block_id][index-1]])
+    for index in range(2, k + 1):
+        clauses.append([-x[index], -R[index-1]])
 
     return clauses
 
@@ -376,7 +358,7 @@ def read_input(file_path):
     return graph
 
 def run_test_with_timeout(graph, k, width, timeout_sec=1800):
-    log_file = open("log.txt", "a", encoding="utf-8", buffering=1)
+    log_file = open("log2.txt", "a", encoding="utf-8", buffering=1)
     sys.stdout = log_file
     global res2
     start = time.time()
@@ -408,6 +390,7 @@ res = [["filename", "k", "width", "num_vars", "num_clauses", "verdict", "time"]]
 res2 = []
 
 def binary_search_for_ans(graph, k, left, right, file, timeout_sec=1800):
+    log_file = open("log2.txt", "a", encoding="utf-8", buffering=1)
     global res
     global res2
     res.append([file, None, None, None, None, None, None])
@@ -424,11 +407,28 @@ def binary_search_for_ans(graph, k, left, right, file, timeout_sec=1800):
             time_left -= time.time() - time_start
             left = width + 1
             ans = width
+
+            # print("$$$$")
+            # print("SAT")
+            # print("$$$$")
+            # # Delete later
+            # break
+            # # Delete later
+
             if time_left <= 0.5:
                 if ans == -9999:
                     return -9999
                 return -ans
         else:
+            
+            # print("$$$$")
+            # print("UNSAT")
+            # print("$$$$")
+            
+            # # Delete later
+            # break
+            # # Delete later
+
             res2.append(round(time.time() - time_start, 2))
             res.append(res2)
             res2 = []
@@ -440,42 +440,8 @@ def binary_search_for_ans(graph, k, left, right, file, timeout_sec=1800):
             right = width - 1
     return ans
 
-def tuantu_for_ans(graph, k, cnt, file, timeout_sec=1800):
-    global res
-    global res2
-    res.append([file, None, None, None, None, None, None])
-    time_left = timeout_sec
-    ans = -9999
-    while True:
-        width = cnt
-        time_start = time.time()
-        res2.extend([file, k, width])
-        if run_test_with_timeout(graph, k, width, time_left):
-            res2.append(round(time.time() - time_start, 2))
-            res.append(res2)
-            res2 = []
-            time_left -= time.time() - time_start
-            cnt += 1
-            ans = width
-            if time_left <= 0.5:
-                if ans == -9999:
-                    return -9999
-                return -ans
-        else:
-            res2.append(round(time.time() - time_start, 2))
-            res.append(res2)
-            res2 = []
-            time_left -= time.time() - time_start
-            if time_left <= 0.5:
-                if ans == -9999:
-                    return -9999
-                return -ans
-            break
-    return ans
-
-
-def write_to_excel(data, output_file='output/output42.xlsx'):
-    log_file = open("log.txt", "a", encoding="utf-8", buffering=1)
+def write_to_excel(data, output_file='output/output22.xlsx'):
+    log_file = open("log2.txt", "a", encoding="utf-8", buffering=1)
     sys.stdout = log_file
     try:
         df = pd.DataFrame(data)
@@ -485,14 +451,13 @@ def write_to_excel(data, output_file='output/output42.xlsx'):
         print(f"Error writing to Excel: {e}")
 
 def cnf():
-    log_file = open("log.txt", "w", encoding="utf-8", buffering=1)
+    log_file = open("log2.txt", "w", encoding="utf-8", buffering=1)
     sys.stdout = log_file
     folder_path = "data/11. hb"
     files = glob.glob(f"{folder_path}/*")
     lst = []
     filename = []
     upper_bound = [220,220,136,24,17,22,39,9,35,35,79,112,13,51,64,104,9,8,102,36,326,7,256,14]
-    lower_bound = [168,172,115,19,11,15,25,3,2, 2, 51, 83, 5,43, 2,  2,2,2, 94,22,  2,2,  2, 2]
     for file in files:
         lst.append(folder_path + "/" + os.path.basename(file))
         filename.append(os.path.basename(file))
@@ -506,8 +471,7 @@ def cnf():
         file = filename[i]
         ans = -9999
         time_limit = 1800
-        # ans = binary_search_for_ans(graph, k, left, right, file, time_limit)
-        ans = tuantu_for_ans(graph, k, lower_bound[i], file, time_limit)
+        ans = binary_search_for_ans(graph, k, left, right, file, time_limit)
         print("$$$$")
         print(ans)
         print("$$$$")
@@ -521,7 +485,6 @@ def cnf():
             else:
                 print(f"Maximum width before timeout for {file} is {-ans}")
             print("time out")
-        break
     write_to_excel(res)
 
 def write_cnf_file(clauses, solver, n, k, width, filename="output.cnf"):

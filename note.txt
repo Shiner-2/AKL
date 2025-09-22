@@ -1,0 +1,2 @@
+Biểu diễn bằng CPLEX với Gurobi, thêm config upperbound và lowerbound
+thử dùng thêm lowerbound vào nữa, lấy thử 80% của lowerrbound

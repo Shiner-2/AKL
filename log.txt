@@ -1,0 +1,41 @@
+Number of variables: 1214532
+Number of clauses: 3282088
+Solution found: 168
+Time taken: 41.680824518203735 seconds
+[Test k=384, w=168] Time: 42.38 seconds
+Found a solution 168
+Number of variables: 1215026
+Number of clauses: 3281722
+Solution found: 169
+Time taken: 32.131468057632446 seconds
+[Test k=384, w=169] Time: 32.84 seconds
+Found a solution 169
+Number of variables: 1215520
+Number of clauses: 3281356
+Solution found: 170
+Time taken: 22.46432876586914 seconds
+[Test k=384, w=170] Time: 23.17 seconds
+Found a solution 170
+Number of variables: 1216014
+Number of clauses: 3280990
+Solution found: 171
+Time taken: 576.3030781745911 seconds
+[Test k=384, w=171] Time: 577.0 seconds
+Found a solution 171
+Number of variables: 1216508
+Number of clauses: 3280624
+Solution found: 172
+Time taken: 649.9802665710449 seconds
+[Test k=384, w=172] Time: 650.69 seconds
+Found a solution 172
+Number of variables: 1217002
+Number of clauses: 3280258
+[Test k=384, w=173] Time: 474.04 seconds
+No solution found 173
+$$$$
+-172
+$$$$
+Time taken for 494_bus.mtx.rnd with k = 384: 1800.1240181922913 seconds
+Maximum width before timeout for 494_bus.mtx.rnd is 172
+time out
+Data written to output/output42.xlsx
