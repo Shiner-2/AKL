@@ -1,0 +1,631 @@
+Number of variables: 1832
+Number of clauses: 10669
+Solution found: 4
+Time taken: 0.023999452590942383 seconds
+[Test k=24, w=4] Time: 0.38 seconds
+Found a solution 4
+Number of variables: 1832
+Number of clauses: 10883
+Solution found: 5
+Time taken: 0.019998550415039062 seconds
+[Test k=24, w=5] Time: 0.39 seconds
+Found a solution 5
+Number of variables: 1741
+Number of clauses: 10290
+Solution found: 6
+Time taken: 0.08976936340332031 seconds
+[Test k=24, w=6] Time: 0.44 seconds
+Found a solution 6
+Number of variables: 1801
+Number of clauses: 10418
+No solution exists
+Time taken: 0.011999130249023438 seconds
+[Test k=24, w=7] Time: 0.35 seconds
+No solution found 7
+$$$$
+6
+$$$$
+Time taken for A-pores_1.mtx.rnd with k = 24: 1.568568229675293 seconds
+Maximum width for A-pores_1.mtx.rnd is 6
+Number of variables: 1985
+Number of clauses: 10435
+Solution found: 7
+Time taken: 0.010998725891113281 seconds
+[Test k=25, w=7] Time: 0.35 seconds
+Found a solution 7
+Number of variables: 2049
+Number of clauses: 10324
+No solution exists
+Time taken: 2.13987135887146 seconds
+[Test k=25, w=8] Time: 2.48 seconds
+No solution found 8
+$$$$
+7
+$$$$
+Time taken for B-ibm32.mtx.rnd with k = 25: 2.8332743644714355 seconds
+Maximum width for B-ibm32.mtx.rnd is 7
+Number of variables: 2848
+Number of clauses: 9724
+Solution found: 12
+Time taken: 0.01799917221069336 seconds
+[Test k=31, w=12] Time: 0.37 seconds
+Found a solution 12
+Number of variables: 2887
+Number of clauses: 9698
+Solution found: 13
+Time taken: 0.06699967384338379 seconds
+[Test k=31, w=13] Time: 0.41 seconds
+Found a solution 13
+Number of variables: 2926
+Number of clauses: 9672
+Solution found: 14
+Time taken: 0.13900089263916016 seconds
+[Test k=31, w=14] Time: 0.48 seconds
+Found a solution 14
+Number of variables: 2965
+Number of clauses: 9646
+[Test k=31, w=15] Time: 1798.77 seconds
+No solution found 15
+$$$$
+-14
+$$$$
+Time taken for C-bcspwr01.mtx.rnd with k = 31: 1800.032238483429 seconds
+Maximum width before timeout for C-bcspwr01.mtx.rnd is 14
+time out
+Number of variables: 4946
+Number of clauses: 31400
+Solution found: 6
+Time taken: 0.029998064041137695 seconds
+[Test k=38, w=6] Time: 0.41 seconds
+Found a solution 6
+Number of variables: 4850
+Number of clauses: 31105
+Solution found: 7
+Time taken: 0.09511089324951172 seconds
+[Test k=38, w=7] Time: 0.47 seconds
+Found a solution 7
+Number of variables: 4706
+Number of clauses: 30383
+No solution exists
+Time taken: 0.03199911117553711 seconds
+[Test k=38, w=8] Time: 0.39 seconds
+No solution found 8
+$$$$
+7
+$$$$
+Time taken for D-bcsstk01.mtx.rnd with k = 38: 1.2786405086517334 seconds
+Maximum width for D-bcsstk01.mtx.rnd is 7
+Number of variables: 4558
+Number of clauses: 15603
+Solution found: 16
+Time taken: 0.05499863624572754 seconds
+[Test k=39, w=16] Time: 0.43 seconds
+Found a solution 16
+Number of variables: 4607
+Number of clauses: 15565
+Solution found: 17
+Time taken: 0.22799944877624512 seconds
+[Test k=39, w=17] Time: 0.58 seconds
+Found a solution 17
+Number of variables: 4656
+Number of clauses: 15527
+Solution found: 18
+Time taken: 0.2838454246520996 seconds
+[Test k=39, w=18] Time: 0.63 seconds
+Found a solution 18
+Number of variables: 4705
+Number of clauses: 15489
+[Test k=39, w=19] Time: 1801.59 seconds
+No solution found 19
+$$$$
+-18
+$$$$
+Time taken for E-bcspwr02.mtx.rnd with k = 39: 1803.243803024292 seconds
+Maximum width before timeout for E-bcspwr02.mtx.rnd is 18
+time out
+Number of variables: 5996
+Number of clauses: 29767
+Solution found: 9
+Time taken: 0.07599925994873047 seconds
+[Test k=43, w=9] Time: 0.47 seconds
+Found a solution 9
+Number of variables: 6158
+Number of clauses: 29953
+Solution found: 10
+Time taken: 0.20156097412109375 seconds
+[Test k=43, w=10] Time: 0.56 seconds
+Found a solution 10
+Number of variables: 5725
+Number of clauses: 28368
+No solution exists
+Time taken: 0.01902484893798828 seconds
+[Test k=43, w=11] Time: 0.36 seconds
+No solution found 11
+$$$$
+10
+$$$$
+Time taken for F-curtis54.mtx.rnd with k = 43: 1.404632806777954 seconds
+Maximum width for F-curtis54.mtx.rnd is 10
+Number of variables: 6557
+Number of clauses: 32108
+Solution found: 9
+Time taken: 0.23256778717041016 seconds
+[Test k=45, w=9] Time: 0.6 seconds
+Found a solution 9
+Number of variables: 6728
+Number of clauses: 32684
+Solution found: 10
+Time taken: 0.16206622123718262 seconds
+[Test k=45, w=10] Time: 0.52 seconds
+Found a solution 10
+Number of variables: 6899
+Number of clauses: 32859
+Solution found: 11
+Time taken: 18.93977928161621 seconds
+[Test k=45, w=11] Time: 19.31 seconds
+Found a solution 11
+Number of variables: 6385
+Number of clauses: 30964
+No solution exists
+Time taken: 0.0265352725982666 seconds
+[Test k=45, w=12] Time: 0.4 seconds
+No solution found 12
+$$$$
+11
+$$$$
+Time taken for G-will57.mtx.rnd with k = 45: 20.836034059524536 seconds
+Maximum width for G-will57.mtx.rnd is 11
+Number of variables: 7495
+Number of clauses: 58686
+Solution found: 6
+Time taken: 0.13551878929138184 seconds
+[Test k=47, w=6] Time: 0.49 seconds
+Found a solution 6
+Number of variables: 7436
+Number of clauses: 58451
+No solution exists
+Time taken: 0.27300000190734863 seconds
+[Test k=47, w=7] Time: 0.63 seconds
+No solution found 7
+$$$$
+6
+$$$$
+Time taken for H-impcol_b.mtx.rnd with k = 47: 1.1375477313995361 seconds
+Maximum width for H-impcol_b.mtx.rnd is 6
+Number of variables: 15217
+Number of clauses: 81222
+Solution found: 15
+Time taken: 0.23958301544189453 seconds
+[Test k=68, w=15] Time: 0.61 seconds
+Found a solution 15
+Number of variables: 15472
+Number of clauses: 81363
+Solution found: 16
+Time taken: 0.4530067443847656 seconds
+[Test k=68, w=16] Time: 0.81 seconds
+Found a solution 16
+Number of variables: 14281
+Number of clauses: 76149
+Solution found: 17
+Time taken: 0.5539295673370361 seconds
+[Test k=68, w=17] Time: 0.92 seconds
+Found a solution 17
+Number of variables: 14451
+Number of clauses: 76607
+Solution found: 18
+Time taken: 2.760608434677124 seconds
+[Test k=68, w=18] Time: 3.11 seconds
+Found a solution 18
+Number of variables: 14621
+Number of clauses: 76408
+Solution found: 19
+Time taken: 3.0430350303649902 seconds
+[Test k=68, w=19] Time: 3.4 seconds
+Found a solution 19
+Number of variables: 14791
+Number of clauses: 76209
+[Test k=68, w=20] Time: 1791.16 seconds
+No solution found 20
+$$$$
+-19
+$$$$
+Time taken for I-ash85.mtx.rnd with k = 68: 1800.0311257839203 seconds
+Maximum width before timeout for I-ash85.mtx.rnd is 19
+time out
+Number of variables: 20801
+Number of clauses: 103515
+Solution found: 25
+Time taken: 0.7516624927520752 seconds
+[Test k=80, w=25] Time: 2.28 seconds
+Found a solution 25
+Number of variables: 21001
+Number of clauses: 103400
+Solution found: 26
+Time taken: 11.212321281433105 seconds
+[Test k=80, w=26] Time: 11.59 seconds
+Found a solution 26
+Number of variables: 18601
+Number of clauses: 93656
+Solution found: 27
+Time taken: 3.4130256175994873 seconds
+[Test k=80, w=27] Time: 3.79 seconds
+Found a solution 27
+Number of variables: 18701
+Number of clauses: 93070
+Solution found: 28
+Time taken: 0.9209179878234863 seconds
+[Test k=80, w=28] Time: 1.29 seconds
+Found a solution 28
+Number of variables: 18801
+Number of clauses: 92484
+Solution found: 29
+Time taken: 2.4647107124328613 seconds
+[Test k=80, w=29] Time: 2.83 seconds
+Found a solution 29
+Number of variables: 18901
+Number of clauses: 91898
+No solution exists
+Time taken: 3.03623366355896 seconds
+[Test k=80, w=30] Time: 3.4 seconds
+No solution found 30
+$$$$
+29
+$$$$
+Time taken for J-nos4.mtx.rnd with k = 80: 25.187549352645874 seconds
+Maximum width for J-nos4.mtx.rnd is 29
+Number of variables: 25858
+Number of clauses: 95809
+Solution found: 36
+Time taken: 2.00781512260437 seconds
+[Test k=93, w=36] Time: 2.37 seconds
+Found a solution 36
+Number of variables: 25975
+Number of clauses: 95631
+Solution found: 37
+Time taken: 0.8154923915863037 seconds
+[Test k=93, w=37] Time: 1.19 seconds
+Found a solution 37
+Number of variables: 26092
+Number of clauses: 95453
+Solution found: 38
+Time taken: 3.211655855178833 seconds
+[Test k=93, w=38] Time: 3.58 seconds
+Found a solution 38
+Number of variables: 26209
+Number of clauses: 95275
+Solution found: 39
+Time taken: 10.05727767944336 seconds
+[Test k=93, w=39] Time: 10.44 seconds
+Found a solution 39
+Number of variables: 26326
+Number of clauses: 95097
+Solution found: 40
+Time taken: 7.69528865814209 seconds
+[Test k=93, w=40] Time: 8.1 seconds
+Found a solution 40
+Number of variables: 26443
+Number of clauses: 94919
+Solution found: 41
+Time taken: 59.96639370918274 seconds
+[Test k=93, w=41] Time: 60.36 seconds
+Found a solution 41
+Number of variables: 26560
+Number of clauses: 94741
+Solution found: 42
+Time taken: 10.136123895645142 seconds
+[Test k=93, w=42] Time: 10.52 seconds
+Found a solution 42
+Number of variables: 26677
+Number of clauses: 94563
+[Test k=93, w=43] Time: 1703.45 seconds
+No solution found 43
+$$$$
+-42
+$$$$
+Time taken for K-dwt__234.mtx.rnd with k = 93: 1800.0301384925842 seconds
+Maximum width before timeout for K-dwt__234.mtx.rnd is 42
+time out
+Number of variables: 29265
+Number of clauses: 116055
+Solution found: 31
+Time taken: 1.4842429161071777 seconds
+[Test k=94, w=31] Time: 1.89 seconds
+Found a solution 31
+Number of variables: 25843
+Number of clauses: 102309
+No solution exists
+Time taken: 0.07151079177856445 seconds
+[Test k=94, w=32] Time: 0.42 seconds
+No solution found 32
+$$$$
+31
+$$$$
+Time taken for L-bcspwr03.mtx.rnd with k = 94: 2.3240976333618164 seconds
+Maximum width for L-bcspwr03.mtx.rnd is 31
+Number of variables: 408662
+Number of clauses: 5569490
+Solution found: 22
+Time taken: 182.70251750946045 seconds
+[Test k=336, w=22] Time: 183.5 seconds
+Found a solution 22
+Number of variables: 405302
+Number of clauses: 5552728
+Solution found: 23
+Time taken: 180.7406268119812 seconds
+[Test k=336, w=23] Time: 181.53 seconds
+Found a solution 23
+Number of variables: 401102
+Number of clauses: 5521513
+Solution found: 24
+Time taken: 487.73523569107056 seconds
+[Test k=336, w=24] Time: 488.52 seconds
+Found a solution 24
+Number of variables: 406142
+Number of clauses: 5537934
+Solution found: 25
+Time taken: 424.42399525642395 seconds
+[Test k=336, w=25] Time: 425.2 seconds
+Found a solution 25
+Number of variables: 400262
+Number of clauses: 5512775
+Solution found: 26
+Time taken: 335.0902383327484 seconds
+[Test k=336, w=26] Time: 335.87 seconds
+Found a solution 26
+Number of variables: 404882
+Number of clauses: 5516432
+[Test k=336, w=27] Time: 185.82 seconds
+No solution found 27
+$$$$
+-26
+$$$$
+Time taken for M-bcsstk06.mtx.rnd with k = 336: 1800.4649455547333 seconds
+Maximum width before timeout for M-bcsstk06.mtx.rnd is 26
+time out
+Number of variables: 379952
+Number of clauses: 2283865
+Solution found: 72
+Time taken: 125.02897334098816 seconds
+[Test k=340, w=72] Time: 125.59 seconds
+Found a solution 72
+Number of variables: 381227
+Number of clauses: 2283894
+Solution found: 73
+Time taken: 120.78581714630127 seconds
+[Test k=340, w=73] Time: 121.35 seconds
+Found a solution 73
+Number of variables: 382502
+Number of clauses: 2283923
+Solution found: 74
+Time taken: 126.54311990737915 seconds
+[Test k=340, w=74] Time: 127.09 seconds
+Found a solution 74
+Number of variables: 383777
+Number of clauses: 2283952
+Solution found: 75
+Time taken: 218.86500144004822 seconds
+[Test k=340, w=75] Time: 219.42 seconds
+Found a solution 75
+Number of variables: 385052
+Number of clauses: 2283981
+Solution found: 76
+Time taken: 132.36996722221375 seconds
+[Test k=340, w=76] Time: 132.93 seconds
+Found a solution 76
+Number of variables: 386327
+Number of clauses: 2284010
+Solution found: 77
+Time taken: 115.13225626945496 seconds
+[Test k=340, w=77] Time: 115.69 seconds
+Found a solution 77
+Number of variables: 387602
+Number of clauses: 2284039
+Solution found: 78
+Time taken: 124.03907299041748 seconds
+[Test k=340, w=78] Time: 124.6 seconds
+Found a solution 78
+Number of variables: 388877
+Number of clauses: 2284068
+[Test k=340, w=79] Time: 833.42 seconds
+No solution found 79
+$$$$
+-78
+$$$$
+Time taken for O-impcol_d.mtx.rnd with k = 340: 1800.1024000644684 seconds
+Maximum width before timeout for O-impcol_d.mtx.rnd is 78
+time out
+Number of variables: 425867
+Number of clauses: 3021613
+Solution found: 62
+Time taken: 558.8133008480072 seconds
+[Test k=356, w=62] Time: 559.46 seconds
+Found a solution 62
+Number of variables: 427647
+Number of clauses: 3021993
+Solution found: 63
+Time taken: 132.9516351222992 seconds
+[Test k=356, w=63] Time: 133.6 seconds
+Found a solution 63
+Number of variables: 429427
+Number of clauses: 3022373
+Solution found: 64
+Time taken: 114.22964453697205 seconds
+[Test k=356, w=64] Time: 114.86 seconds
+Found a solution 64
+Number of variables: 431207
+Number of clauses: 3022753
+Solution found: 65
+Time taken: 473.8823175430298 seconds
+[Test k=356, w=65] Time: 474.5 seconds
+Found a solution 65
+Number of variables: 432987
+Number of clauses: 3023133
+Solution found: 66
+Time taken: 148.46882438659668 seconds
+[Test k=356, w=66] Time: 149.08 seconds
+Found a solution 66
+Number of variables: 434767
+Number of clauses: 3023513
+Solution found: 67
+Time taken: 109.17049098014832 seconds
+[Test k=356, w=67] Time: 109.78 seconds
+Found a solution 67
+Number of variables: 436547
+Number of clauses: 3023893
+[Test k=356, w=68] Time: 258.83 seconds
+No solution found 68
+$$$$
+-67
+$$$$
+Time taken for P-can__445.mtx.rnd with k = 356: 1800.1146619319916 seconds
+Maximum width before timeout for P-can__445.mtx.rnd is 67
+time out
+Number of variables: 476217
+Number of clauses: 1635894
+Solution found: 175
+Time taken: 560.6236717700958 seconds
+[Test k=395, w=175] Time: 561.13 seconds
+Found a solution 175
+Number of variables: 476711
+Number of clauses: 1635528
+Solution found: 176
+Time taken: 386.76738953590393 seconds
+[Test k=395, w=176] Time: 387.28 seconds
+Found a solution 176
+Number of variables: 477205
+Number of clauses: 1635162
+[Test k=395, w=177] Time: 851.68 seconds
+No solution found 177
+$$$$
+-176
+$$$$
+Time taken for Q-494_bus.mtx.rnd with k = 395: 1800.1011023521423 seconds
+Maximum width before timeout for Q-494_bus.mtx.rnd is 176
+time out
+Number of variables: 582979
+Number of clauses: 5466472
+Solution found: 36
+Time taken: 203.41564226150513 seconds
+[Test k=402, w=36] Time: 204.3 seconds
+Found a solution 36
+Number of variables: 569398
+Number of clauses: 5411868
+Solution found: 37
+Time taken: 115.65949440002441 seconds
+[Test k=402, w=37] Time: 116.52 seconds
+Found a solution 37
+Number of variables: 573925
+Number of clauses: 5418895
+Solution found: 38
+Time taken: 655.4254274368286 seconds
+[Test k=402, w=38] Time: 656.2 seconds
+Found a solution 38
+Number of variables: 578452
+Number of clauses: 5425922
+[Test k=402, w=39] Time: 823.12 seconds
+No solution found 39
+$$$$
+-38
+$$$$
+Time taken for R-dwt__503.mtx.rnd with k = 402: 1800.1548829078674 seconds
+Maximum width before timeout for R-dwt__503.mtx.rnd is 38
+time out
+Number of variables: 586951
+Number of clauses: 2633548
+[Test k=436, w=204] Time: 1800.13 seconds
+No solution found 204
+$$$$
+-9999
+$$$$
+Time taken for S-sherman4.mtx.rnd with k = 436: 1800.1443452835083 seconds
+No answer before timeout for S-sherman4.mtx.rnd
+time out
+Number of variables: 752434
+Number of clauses: 5382981
+Solution found: 82
+Time taken: 978.7679688930511 seconds
+[Test k=473, w=82] Time: 979.63 seconds
+Found a solution 82
+Number of variables: 754802
+Number of clauses: 5383417
+[Test k=473, w=83] Time: 820.52 seconds
+No solution found 83
+$$$$
+-82
+$$$$
+Time taken for T-dwt__592.mtx.rnd with k = 473: 1800.1648061275482 seconds
+Maximum width before timeout for T-dwt__592.mtx.rnd is 82
+time out
+Number of variables: 930773
+Number of clauses: 3595915
+Solution found: 175
+Time taken: 162.14216113090515 seconds
+[Test k=529, w=175] Time: 162.68 seconds
+Found a solution 175
+Number of variables: 932097
+Number of clauses: 3597589
+Solution found: 176
+Time taken: 427.17044591903687 seconds
+[Test k=529, w=176] Time: 427.74 seconds
+Found a solution 176
+Number of variables: 816909
+Number of clauses: 3136596
+No solution exists
+Time taken: 2.7396042346954346 seconds
+[Test k=529, w=177] Time: 3.31 seconds
+No solution found 177
+$$$$
+176
+$$$$
+Time taken for U-662_bus.mtx.rnd with k = 529: 593.7464625835419 seconds
+Maximum width for U-662_bus.mtx.rnd is 176
+Number of variables: 903826
+Number of clauses: 3594850
+[Test k=540, w=260] Time: 1800.13 seconds
+No solution found 260
+$$$$
+-9999
+$$$$
+Time taken for V-nos6.mtx.rnd with k = 540: 1800.1358966827393 seconds
+No answer before timeout for V-nos6.mtx.rnd
+time out
+Number of variables: 1044627
+Number of clauses: 4909399
+Solution found: 108
+Time taken: 379.3098478317261 seconds
+[Test k=548, w=108] Time: 380.1 seconds
+Found a solution 108
+Number of variables: 1047367
+Number of clauses: 4915227
+Solution found: 109
+Time taken: 343.1088728904724 seconds
+[Test k=548, w=109] Time: 343.95 seconds
+Found a solution 109
+Number of variables: 975442
+Number of clauses: 4626926
+No solution exists
+Time taken: 4.4287073612213135 seconds
+[Test k=548, w=110] Time: 5.09 seconds
+No solution found 110
+$$$$
+109
+$$$$
+Time taken for W-685_bus.mtx.rnd with k = 548: 729.1492412090302 seconds
+Maximum width for W-685_bus.mtx.rnd is 109
+Number of variables: 1133992
+Number of clauses: 8592120
+Solution found: 89
+Time taken: 1463.1542763710022 seconds
+[Test k=572, w=89] Time: 1464.29 seconds
+Found a solution 89
+Number of variables: 1137567
+Number of clauses: 8594776
+[Test k=572, w=90] Time: 336.2 seconds
+No solution found 90
+$$$$
+-89
+$$$$
+Time taken for X-can__715.mtx.rnd with k = 572: 1800.4939427375793 seconds
+Maximum width before timeout for X-can__715.mtx.rnd is 89
+time out
+Data written to output/output_test_3600s.xlsx

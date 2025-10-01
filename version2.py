@@ -440,7 +440,41 @@ def binary_search_for_ans(graph, k, left, right, file, timeout_sec=1800):
             right = width - 1
     return ans
 
-def write_to_excel(data, output_file='output/output22.xlsx'):
+
+def tuantu_for_ans(graph, k, lower_bound, upper_bound, file, timeout_sec=1800):
+    global res
+    global res2
+    res.append([None, None, None, None, None, None, None, None])
+    time_left = timeout_sec
+    ans = -9999
+    while True:
+        width = lower_bound
+        time_start = time.time()
+        res2.extend([file, len(graph), k, width])
+        if run_test_with_timeout(graph, k, width, time_left):
+            res2.append(round(time.time() - time_start, 2))
+            res.append(res2)
+            res2 = []
+            time_left -= time.time() - time_start
+            lower_bound += 1
+            ans = width
+            if time_left <= 0.5 or ans == upper_bound:
+                if ans == -9999:
+                    return -9999
+                return -ans
+        else:
+            res2.append(round(time.time() - time_start, 2))
+            res.append(res2)
+            res2 = []
+            time_left -= time.time() - time_start
+            if time_left <= 0.5:
+                if ans == -9999:
+                    return -9999
+                return -ans
+            break
+    return ans
+
+def write_to_excel(data, output_file='output/output_test_version2.xlsx'):
     log_file = open("log2.txt", "a", encoding="utf-8", buffering=1)
     sys.stdout = log_file
     try:
@@ -457,7 +491,8 @@ def cnf():
     files = glob.glob(f"{folder_path}/*")
     lst = []
     filename = []
-    upper_bound = [220,220,136,24,17,22,39,9,35,35,79,112,13,51,64,104,9,8,102,36,326,7,256,14]
+    upper_bound = [7,9,17,9,22,13,14,8,24,36,51,39,35,102,79,220,64,256,104,220,326,136,113]
+    lower_bound = [6,9,16,8,21,12,12,8,19,32,46,39,28, 91,78,219,46,256,103,219,326,136,112]
     for file in files:
         lst.append(folder_path + "/" + os.path.basename(file))
         filename.append(os.path.basename(file))
@@ -465,13 +500,13 @@ def cnf():
     for i in range(0,len(lst)):
         time_start = time.time()
         graph = read_input(lst[i])
-        k = len(graph)-upper_bound[i]//2
-        left = 2
-        right = k - 1
+        k = len(graph) * 4 // 5
+        left = lower_bound[i] * 4 // 5
+        right = upper_bound[i]
         file = filename[i]
         ans = -9999
         time_limit = 1800
-        ans = binary_search_for_ans(graph, k, left, right, file, time_limit)
+        ans = tuantu_for_ans(graph, k, left, right, file, time_limit)
         print("$$$$")
         print(ans)
         print("$$$$")

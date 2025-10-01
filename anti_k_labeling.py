@@ -8,13 +8,14 @@ import glob
 import multiprocessing
 import pandas as pd
 import sys
+import random
 #  ./painless/build/release/painless_release cnf/anti_k_labeling_n39_k31_w15.cnf   -c=4   -solver=cckk -no-model
 
 # Global variable
 top_id = 2
 
 def solve_no_hole_anti_k_labeling(graph, k, width, queue):
-    log_file = open("log.txt", "a", encoding="utf-8", buffering=1)
+    log_file = open("log_random.txt", "a", encoding="utf-8", buffering=1)
     sys.stdout = log_file
     if width <= 1:
         print("Width must be greater than 1!!!!!!!!!!!!")
@@ -141,7 +142,7 @@ def solve_no_hole_anti_k_labeling(graph, k, width, queue):
         variables = []
         for i in range(1, n + 1):
             variables.append(x[i][label])
-        clauses.extend(At_Most_K(variables, 4))
+        clauses.extend(At_Most_K(variables, n - k + 1))
 
     # Hai đỉnh được nối với nhau không được gán nhãn có hiệu tuyệt đối nhỏ hơn width
     # TODO: check this again
@@ -375,8 +376,8 @@ def read_input(file_path):
 
     return graph
 
-def run_test_with_timeout(graph, k, width, timeout_sec=1800):
-    log_file = open("log.txt", "a", encoding="utf-8", buffering=1)
+def run_test_with_timeout(graph, k, width, timeout_sec=3600):
+    log_file = open("log_random.txt", "a", encoding="utf-8", buffering=1)
     sys.stdout = log_file
     global res2
     start = time.time()
@@ -404,7 +405,7 @@ def run_test_with_timeout(graph, k, width, timeout_sec=1800):
         print(f"No solution found {width}", flush=True)
         return False
 
-res = [["filename", "k", "width", "num_vars", "num_clauses", "verdict", "time"]]
+res = [["filename", "n", "k", "proportion", "lower_bound", "upper_bound", "width", "num_vars", "num_clauses", "verdict", "time"]]
 res2 = []
 
 def binary_search_for_ans(graph, k, left, right, file, timeout_sec=1800):
@@ -440,24 +441,24 @@ def binary_search_for_ans(graph, k, left, right, file, timeout_sec=1800):
             right = width - 1
     return ans
 
-def tuantu_for_ans(graph, k, cnt, file, timeout_sec=1800):
+def tuantu_for_ans(graph, k, rand, lower_bound, upper_bound, file, timeout_sec=3600):
     global res
     global res2
-    res.append([file, None, None, None, None, None, None])
+    res.append([None, None, None, None, None, None, None, None, None, None, None])
     time_left = timeout_sec
     ans = -9999
     while True:
-        width = cnt
+        width = lower_bound
         time_start = time.time()
-        res2.extend([file, k, width])
+        res2.extend([file, len(graph), k, rand, lower_bound, upper_bound, width])
         if run_test_with_timeout(graph, k, width, time_left):
             res2.append(round(time.time() - time_start, 2))
             res.append(res2)
             res2 = []
             time_left -= time.time() - time_start
-            cnt += 1
+            lower_bound += 1
             ans = width
-            if time_left <= 0.5:
+            if time_left <= 0.5 or ans == upper_bound:
                 if ans == -9999:
                     return -9999
                 return -ans
@@ -474,8 +475,8 @@ def tuantu_for_ans(graph, k, cnt, file, timeout_sec=1800):
     return ans
 
 
-def write_to_excel(data, output_file='output/output42.xlsx'):
-    log_file = open("log.txt", "a", encoding="utf-8", buffering=1)
+def write_to_excel(data, output_file='output/output_test_1800s_random_50_80.xlsx'):
+    log_file = open("log_random.txt", "a", encoding="utf-8", buffering=1)
     sys.stdout = log_file
     try:
         df = pd.DataFrame(data)
@@ -485,14 +486,14 @@ def write_to_excel(data, output_file='output/output42.xlsx'):
         print(f"Error writing to Excel: {e}")
 
 def cnf():
-    log_file = open("log.txt", "w", encoding="utf-8", buffering=1)
+    log_file = open("log_random.txt", "w", encoding="utf-8", buffering=1)
     sys.stdout = log_file
     folder_path = "data/11. hb"
     files = glob.glob(f"{folder_path}/*")
     lst = []
     filename = []
-    upper_bound = [220,220,136,24,17,22,39,9,35,35,79,112,13,51,64,104,9,8,102,36,326,7,256,14]
-    lower_bound = [168,172,115,19,11,15,25,3,2, 2, 51, 83, 5,43, 2,  2,2,2, 94,22,  2,2,  2, 2]
+    upper_bound = [7,9,17,9,22,13,14,8,24,36,51,39,35,102,79,220,64,256,104,220,326,136,113]
+    lower_bound = [6,9,16,8,21,12,12,8,19,32,46,39,28, 91,78,219,46,256,103,219,326,136,112]
     for file in files:
         lst.append(folder_path + "/" + os.path.basename(file))
         filename.append(os.path.basename(file))
@@ -500,14 +501,15 @@ def cnf():
     for i in range(0,len(lst)):
         time_start = time.time()
         graph = read_input(lst[i])
-        k = len(graph)-upper_bound[i]//2
+        rand = random.randint(50, 80)
+        k = len(graph) * rand // 100
         left = 2
         right = k - 1
         file = filename[i]
         ans = -9999
         time_limit = 1800
         # ans = binary_search_for_ans(graph, k, left, right, file, time_limit)
-        ans = tuantu_for_ans(graph, k, lower_bound[i], file, time_limit)
+        ans = tuantu_for_ans(graph, k, rand, lower_bound[i] * rand // 100, upper_bound[i], file, time_limit)
         print("$$$$")
         print(ans)
         print("$$$$")
@@ -521,7 +523,7 @@ def cnf():
             else:
                 print(f"Maximum width before timeout for {file} is {-ans}")
             print("time out")
-        break
+
     write_to_excel(res)
 
 def write_cnf_file(clauses, solver, n, k, width, filename="output.cnf"):

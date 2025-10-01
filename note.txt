@@ -1,2 +1,7 @@
 Biểu diễn bằng CPLEX với Gurobi, thêm config upperbound và lowerbound
-thử dùng thêm lowerbound vào nữa, lấy thử 80% của lowerrbound
+thử dùng thêm lowerbound vào nữa, lấy thử 80% của lowerbound
+
+test thử với k random trong khoảng 50-100% của n
+lowerbound lấy tỷ lệ tương tự, giữ upperbound
+
+cách làm hiện tại chạy tuần tự từ lowerbound
