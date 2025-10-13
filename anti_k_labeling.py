@@ -138,11 +138,11 @@ def solve_no_hole_anti_k_labeling(graph, k, width, queue):
         clauses.append(clause)
 
     # Label cant be use more than n-k+1 times
-    for label in range(1, k + 1):
-        variables = []
-        for i in range(1, n + 1):
-            variables.append(x[i][label])
-        clauses.extend(At_Most_K(variables, n - k + 1))
+    # for label in range(1, k + 1):
+    #     variables = []
+    #     for i in range(1, n + 1):
+    #         variables.append(x[i][label])
+    #     clauses.extend(At_Most_K(variables, n - k + 1))
 
     # Hai đỉnh được nối với nhau không được gán nhãn có hiệu tuyệt đối nhỏ hơn width
     # TODO: check this again
@@ -447,8 +447,8 @@ def tuantu_for_ans(graph, k, rand, lower_bound, upper_bound, file, timeout_sec=3
     res.append([None, None, None, None, None, None, None, None, None, None, None])
     time_left = timeout_sec
     ans = -9999
+    width = lower_bound
     while True:
-        width = lower_bound
         time_start = time.time()
         res2.extend([file, len(graph), k, rand, lower_bound, upper_bound, width])
         if run_test_with_timeout(graph, k, width, time_left):
@@ -456,8 +456,8 @@ def tuantu_for_ans(graph, k, rand, lower_bound, upper_bound, file, timeout_sec=3
             res.append(res2)
             res2 = []
             time_left -= time.time() - time_start
-            lower_bound += 1
             ans = width
+            width += 1
             if time_left <= 0.5 or ans == upper_bound:
                 if ans == -9999:
                     return -9999
@@ -494,6 +494,7 @@ def cnf():
     filename = []
     upper_bound = [7,9,17,9,22,13,14,8,24,36,51,39,35,102,79,220,64,256,104,220,326,136,113]
     lower_bound = [6,9,16,8,21,12,12,8,19,32,46,39,28, 91,78,219,46,256,103,219,326,136,112]
+    proportion = [77,57,56,62,72,62,56,64,79,56,69,53,77,52,75,66,69,59,64,78,60,58,70]
     for file in files:
         lst.append(folder_path + "/" + os.path.basename(file))
         filename.append(os.path.basename(file))
@@ -501,13 +502,13 @@ def cnf():
     for i in range(0,len(lst)):
         time_start = time.time()
         graph = read_input(lst[i])
-        rand = random.randint(50, 80)
+        rand = proportion[i]
         k = len(graph) * rand // 100
         left = 2
         right = k - 1
         file = filename[i]
         ans = -9999
-        time_limit = 1800
+        time_limit = 3600
         # ans = binary_search_for_ans(graph, k, left, right, file, time_limit)
         ans = tuantu_for_ans(graph, k, rand, lower_bound[i] * rand // 100, upper_bound[i], file, time_limit)
         print("$$$$")

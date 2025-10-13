@@ -10,8 +10,8 @@ import os
 # Global variable
 top_id = 2
 
-INPUT_FILE = 'input.txt'  # Default input file path
-CUR_WIDTH = [6,7]
+INPUT_FILE = 'data/11. hb/B-ibm32.mtx.rnd'  # Default input file path
+CUR_WIDTH = [9]
 
 def solve_no_hole_anti_k_labeling(graph, k, width):
     start = time.time()
@@ -193,20 +193,20 @@ def solve_no_hole_anti_k_labeling(graph, k, width):
     print(f"Number of variables: {solver.nof_vars()}")
     print(f"Number of clauses: {solver.nof_clauses()}")
     # # Write DIMACS CNF instead of solving
-    folder_path = "C:/Users/Admin/Desktop/Lab/AKL/cnf"
-    cnf_filename = os.path.join(folder_path, f"anti_k_labeling_n{n}_k{k}_w{width}.cnf")
-    with open(cnf_filename, "w") as f:
-        f.write(f"p cnf {solver.nof_vars()} {len(clauses)}\n")
-        for cl in clauses:
-            f.write(" ".join(map(str, cl)) + " 0\n")
-    print(f"CNF written to {cnf_filename}")
+    # folder_path = "C:/Users/Admin/Desktop/Lab/AKL/cnf"
+    # cnf_filename = os.path.join(folder_path, f"anti_k_labeling_n{n}_k{k}_w{width}.cnf")
+    # with open(cnf_filename, "w") as f:
+    #     f.write(f"p cnf {solver.nof_vars()} {len(clauses)}\n")
+    #     for cl in clauses:
+    #         f.write(" ".join(map(str, cl)) + " 0\n")
+    # print(f"CNF written to {cnf_filename}")
     # return
     if solver.solve():
-        # for i in range(1, n + 1):
-        #     for label in range(1, k + 1):
-        #         if solver.get_model()[x[i][label] - 1] > 0:
-        #             print(f"Vertex {i} is assigned label {label}")
-        print("Solution found:")
+        for i in range(1, n + 1):
+            for label in range(1, k + 1):
+                if solver.get_model()[x[i][label] - 1] > 0:
+                    print(f"Vertex {i} is assigned label {label}")
+        print(f"Solution found: width = {width}")
     else:
         print("No solution exists")
     end = time.time()

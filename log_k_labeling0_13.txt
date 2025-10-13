@@ -1,0 +1,7 @@
+===== Anti-k-Labeling Solver (sub-process wall-clock capped) =====
+Folder: data/11. hb
+==========================================
+
+▶ File: O-impcol_d.mtx.rnd
+   n = 425, |E| = 1267, LB = 47, UB = 102, w = 221
+   - Running k = 47 ... 
