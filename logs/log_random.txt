@@ -1,0 +1,36 @@
+2025-10-20 22:45:38,084 | INFO | MainProcess | === Start solve() ===
+2025-10-20 22:45:38,105 | INFO | Process-1 | Number of variables: 1772
+2025-10-20 22:45:38,106 | INFO | Process-1 | Number of clauses: 10445
+2025-10-20 22:45:38,113 | INFO | Process-1 | CNF written to cnf/K_n30_k23/K_n30_k23_w4.cnf
+2025-10-20 22:45:38,133 | INFO | Process-1 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk -no-model cnf/K_n30_k23/K_n30_k23_w4.cnf
+2025-10-20 22:45:38,200 | INFO | Process-1 | [PAINLESS] status=SAT rc=10 time=0.07s
+2025-10-20 22:45:38,200 | RESULT | Process-1 | [PAINLESS] result: status=SAT time=0.07s rc=10
+2025-10-20 22:45:38,200 | RESULT | Process-1 | [PAINLESS] Shortcut: SAT at width=4
+2025-10-20 22:45:38,200 | RESULT | Process-1 | Time taken: 0.10655832290649414 seconds
+2025-10-20 22:45:38,202 | INFO | MainProcess | Found a solution 4
+2025-10-20 22:45:38,203 | INFO | MainProcess | [Test k=23, w=4] Time: 0.11 seconds
+2025-10-20 22:45:38,212 | INFO | Process-2 | Number of variables: 1772
+2025-10-20 22:45:38,212 | INFO | Process-2 | Number of clauses: 10350
+2025-10-20 22:45:38,219 | INFO | Process-2 | CNF written to cnf/K_n30_k23/K_n30_k23_w5.cnf
+2025-10-20 22:45:38,223 | INFO | Process-2 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk -no-model cnf/K_n30_k23/K_n30_k23_w5.cnf
+2025-10-20 22:45:38,275 | INFO | Process-2 | [PAINLESS] status=SAT rc=10 time=0.05s
+2025-10-20 22:45:38,275 | RESULT | Process-2 | [PAINLESS] result: status=SAT time=0.05s rc=10
+2025-10-20 22:45:38,275 | RESULT | Process-2 | [PAINLESS] Shortcut: SAT at width=5
+2025-10-20 22:45:38,275 | RESULT | Process-2 | Time taken: 0.07078671455383301 seconds
+2025-10-20 22:45:38,277 | INFO | MainProcess | Found a solution 5
+2025-10-20 22:45:38,277 | INFO | MainProcess | [Test k=23, w=5] Time: 0.07 seconds
+2025-10-20 22:45:38,287 | INFO | Process-3 | Number of variables: 1681
+2025-10-20 22:45:38,287 | INFO | Process-3 | Number of clauses: 10066
+2025-10-20 22:45:38,294 | INFO | Process-3 | CNF written to cnf/K_n30_k23/K_n30_k23_w6.cnf
+2025-10-20 22:45:38,297 | INFO | Process-3 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk -no-model cnf/K_n30_k23/K_n30_k23_w6.cnf
+2025-10-20 22:45:38,357 | INFO | Process-3 | [PAINLESS] status=UNSAT rc=20 time=0.06s
+2025-10-20 22:45:38,357 | RESULT | Process-3 | [PAINLESS] result: status=UNSAT time=0.06s rc=20
+2025-10-20 22:45:38,363 | RESULT | Process-3 | [PAINLESS] Shortcut: UNSAT at width=6
+2025-10-20 22:45:38,363 | RESULT | Process-3 | Time taken: 0.08402228355407715 seconds
+2025-10-20 22:45:38,366 | INFO | MainProcess | No solution found 6
+2025-10-20 22:45:38,366 | INFO | MainProcess | [Test k=23, w=6] Time: 0.09 seconds
+2025-10-20 22:45:38,366 | INFO | MainProcess | $$$$
+2025-10-20 22:45:38,366 | INFO | MainProcess | 5
+2025-10-20 22:45:38,367 | INFO | MainProcess | $$$$
+2025-10-20 22:45:38,367 | INFO | MainProcess | Time taken for A-pores_1.mtx.rnd with k = 23: 0.28096461296081543 seconds
+2025-10-20 22:45:38,367 | INFO | MainProcess | Maximum width for A-pores_1.mtx.rnd is 5

@@ -363,7 +363,7 @@ def cnf():  # runner
 
     threads = None  # ví dụ: 4
 
-    for i in range(13, len(lst)):
+    for i in range(10, len(lst)):
         t0 = time.time()
         graph = read_input(lst[i])
         rand = proportion[i]

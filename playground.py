@@ -5,7 +5,7 @@ def read_input(file_path):
     edges = [tuple(map(int, line.split())) for line in lines[1:]]
     return n, edges
 
-n, e = read_input("data/11. hb/O-impcol_d.mtx.rnd")
+n, e = read_input("data/11. hb/W-685_bus.mtx.rnd")
 
 for edge in e:
     i, j = edge

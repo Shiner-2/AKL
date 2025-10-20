@@ -9,7 +9,7 @@ import multiprocessing
 import pandas as pd
 import sys
 import random
-#  ./painless/build/release/painless_release cnf/anti_k_labeling_n39_k31_w15.cnf   -c=4   -solver=cckk -no-model
+#  ./painless/build/release/painless_release cnf/K_n117_k80/K_n117_k80_w38.cnf   -c=4   -solver=cckk -no-model
 
 # Global variable
 top_id = 2
@@ -209,16 +209,16 @@ def solve_no_hole_anti_k_labeling(graph, k, width, queue):
     queue.put(solver.nof_vars())
     queue.put(solver.nof_clauses())
     # Write DIMACS CNF instead of solving
-    # folder_path = "C:/Users/Admin/Desktop/Lab/AKL/cnf"
-    # folder_path = os.path.join(folder_path, f"{filename}_n{n}_k{k}")
-    # if not os.path.exists(folder_path):
-    #     os.makedirs(folder_path)
-    # cnf_filename = os.path.join(folder_path, f"{filename}_n{n}_k{k}_w{width}.cnf")
-    # with open(cnf_filename, "w") as f:
-    #     f.write(f"p cnf {solver.nof_vars()} {len(clauses)}\n")
-    #     for cl in clauses:
-    #         f.write(" ".join(map(str, cl)) + " 0\n")
-    # print(f"CNF written to {cnf_filename}")
+    folder_path = "C:/Users/Admin/Desktop/Lab/AKL/cnf"
+    folder_path = os.path.join(folder_path, f"K_n{n}_k{k}")
+    if not os.path.exists(folder_path):
+        os.makedirs(folder_path)
+    cnf_filename = os.path.join(folder_path, f"K_n{n}_k{k}_w{width}.cnf")
+    with open(cnf_filename, "w") as f:
+        f.write(f"p cnf {solver.nof_vars()} {len(clauses)}\n")
+        for cl in clauses:
+            f.write(" ".join(map(str, cl)) + " 0\n")
+    print(f"CNF written to {cnf_filename}")
     # return
 
     # if width == 15:
@@ -499,18 +499,16 @@ def cnf():
         lst.append(folder_path + "/" + os.path.basename(file))
         filename.append(os.path.basename(file))
 
-    for i in range(0,len(lst)):
+    for i in range(10,len(lst)):
         time_start = time.time()
         graph = read_input(lst[i])
         rand = proportion[i]
         k = len(graph) * rand // 100
-        left = 2
-        right = k - 1
         file = filename[i]
         ans = -9999
-        time_limit = 3600
+        time_limit = 3000
         # ans = binary_search_for_ans(graph, k, left, right, file, time_limit)
-        ans = tuantu_for_ans(graph, k, rand, lower_bound[i] * rand // 100, upper_bound[i], file, time_limit)
+        ans = tuantu_for_ans(graph, k, rand, 39, upper_bound[i], file, time_limit)
         print("$$$$")
         print(ans)
         print("$$$$")
@@ -524,6 +522,7 @@ def cnf():
             else:
                 print(f"Maximum width before timeout for {file} is {-ans}")
             print("time out")
+        return
 
     write_to_excel(res)
 

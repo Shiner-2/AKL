@@ -8,15 +8,33 @@ from pysat.card import CardEnc
 from pysat.pb import PBEnc
 from pysat.solvers import Solver
 import pandas as pd
+import subprocess
+import shutil
+from typing import Optional, Dict, Any
+
 
 #  ./painless/build/release/painless_release cnf/K_n117_k80/K_n117_k80_w38.cnf   -c=4   -solver=cckk -no-model
 
 # Global config
-LOG_FILE = "log_random.txt"
-EXCEL_FILE = "output/output_test_1800s_random_50_80.xlsx"
+LOG_FILE = "logs/log_random_50_80_painless.txt"
+EXCEL_FILE = "output/output_test_1800s_random_50_80_painless.xlsx"
+
+# --- Painless runner config ---
+PAINLESS_BIN = "./painless/build/release/painless_release"  # đổi nếu khác
+PAINLESS_ARGS = ["-c=4", "-solver=cckk", "-no-model"]       # tuỳ chọn
+RUN_PAINLESS = True                                         # bật/tắt chạy Painless
+
 top_id = 2
 
 # ----------------------------- Logging setup -----------------------------
+RESULT_LEVEL_NUM = 25  # giữa INFO(20) và WARNING(30)
+logging.addLevelName(RESULT_LEVEL_NUM, "RESULT")
+
+def result(self, msg, *args, **kwargs):
+    if self.isEnabledFor(RESULT_LEVEL_NUM):
+        self._log(RESULT_LEVEL_NUM, msg, args, **kwargs)
+
+logging.Logger.result = result
 def setup_logger(name: str = "akl", log_file: str = LOG_FILE, level=logging.INFO) -> logging.Logger:
     """
     Tạo logger ghi vào file LOG_FILE. Gọi ở mỗi process một lần.
@@ -44,7 +62,7 @@ def setup_logger(name: str = "akl", log_file: str = LOG_FILE, level=logging.INFO
 # ------------------------------------------------------------------------
 
 
-def solve_no_hole_anti_k_labeling(graph, k, width, queue):
+def solve_no_hole_anti_k_labeling(graph, k, width, queue, timeout_sec=3600):
     logger = setup_logger()
 
     if width <= 1:
@@ -183,20 +201,48 @@ def solve_no_hole_anti_k_labeling(graph, k, width, queue):
     queue.put(solver.nof_clauses())
 
     # Ghi CNF ra file để chạy Painless bên ngoài nếu muốn
-    write_cnf_to_file(clauses, solver, n, k, width)
+    cnf_path = write_cnf_to_file(clauses, solver, n, k, width)
 
+    # Gọi Painless (nếu bật) và quyết định ngay theo kết quả
+    if RUN_PAINLESS and cnf_path:
+        # Dùng timeout nếu có biến timeout_sec trong scope, không thì mặc định 1800
+        try:
+            painless_timeout = min(1800, timeout_sec)  # timeout_sec có ở caller? nếu không sẽ rơi vào except
+        except NameError:
+            painless_timeout = 1800
+
+        pres = run_painless(cnf_path, timeout_sec=painless_timeout)  # đổi timeout nếu cần
+        logger.result(f"[PAINLESS] result: status={pres['status']} time={pres['time_sec']:.2f}s rc={pres['returncode']}")
+
+        if pres["status"] == "SAT":
+            queue.put(True)
+            logger.result(f"[PAINLESS] Shortcut: SAT at width={width}")
+            end = time.time()
+            logger.result(f"Time taken: {end - start} seconds")
+            return True
+        elif pres["status"] == "UNSAT":
+            queue.put(False)
+            logger.result(f"[PAINLESS] Shortcut: UNSAT at width={width}")
+            end = time.time()
+            logger.result(f"Time taken: {end - start} seconds")
+            return False
+        # Các trạng thái khác (TIMEOUT/ERROR/UNKNOWN) thì rơi xuống PySAT
+
+    logger.error("Some thing wrong with PAINLESS, Solving with PySAT...")
+    # Fallback: giải bằng PySAT nếu Painless không kết luận được
     if solver.solve():
         queue.put(True)
-        logger.info(f"Solution found: {width}")
+        logger.result(f"Solution found: {width}")
         end = time.time()
-        logger.info(f"Time taken: {end - start} seconds")
+        logger.result(f"Time taken: {end - start} seconds")
         return True
     else:
         queue.put(False)
-        logger.info("No solution exists")
+        logger.result("No solution exists")
         end = time.time()
-        logger.info(f"Time taken: {end - start} seconds")
+        logger.result(f"Time taken: {end - start} seconds")
         return False
+
 
 
 def SCL_AMO(order, R, i, block_id, width):
@@ -318,7 +364,7 @@ def run_test_with_timeout(graph, k, width, timeout_sec=3600):
 
     p = multiprocessing.Process(
         target=solve_no_hole_anti_k_labeling,
-        args=(graph, k, width, queue)
+        args=(graph, k, width, queue, timeout_sec)
     )
     p.start()
     p.join(timeout=timeout_sec)
@@ -389,7 +435,6 @@ def tuantu_for_ans(graph, k, rand, lower_bound, upper_bound, file, timeout_sec=3
 
     return ans
 
-
 def write_to_excel(data, output_file=EXCEL_FILE):
     logger = setup_logger()
     try:
@@ -398,6 +443,78 @@ def write_to_excel(data, output_file=EXCEL_FILE):
         logger.info(f"Data written to {output_file}")
     except Exception:
         logger.exception("Error writing to Excel")
+
+def run_painless(cnf_path: str,
+                 bin_path: str = PAINLESS_BIN,
+                 extra_args=None,
+                 timeout_sec: int = 1800,
+                 cwd: Optional[str] = None) -> Dict[str, Any]:
+    """
+    Gọi Painless trên file CNF và trả kết quả:
+      {
+        "status": "SAT"|"UNSAT"|"UNKNOWN"|"TIMEOUT"|"ERROR",
+        "time_sec": float,
+        "returncode": int | None,
+        "stdout": str,
+        "stderr": str,
+        "cmd": [..]
+      }
+    """
+    logger = setup_logger()
+    if extra_args is None:
+        extra_args = PAINLESS_ARGS
+
+    # Kiểm tra binary tồn tại/khả dụng
+    exists = os.path.exists(bin_path)
+    in_path = shutil.which(bin_path) is not None
+    if not exists and not in_path:
+        logger.error(f"Painless binary not found: {bin_path}")
+        return {"status": "ERROR", "time_sec": 0.0, "returncode": None,
+                "stdout": "", "stderr": f"Binary not found: {bin_path}", "cmd": []}
+
+    cmd = [bin_path] + list(extra_args) + [cnf_path]
+    t0 = time.time()
+    logger.info(f"[PAINLESS] Running: {' '.join(cmd)}")
+
+    try:
+        cp = subprocess.run(
+            cmd,
+            cwd=cwd,
+            capture_output=True,
+            text=True,
+            timeout=timeout_sec
+        )
+        dt = time.time() - t0
+        out, err = cp.stdout, cp.stderr
+        rc = cp.returncode
+
+        # Parse trạng thái theo chuẩn DIMACS
+        if rc == 10 or "s SATISFIABLE" in out:
+            status = "SAT"
+        elif rc == 20 or "s UNSATISFIABLE" in out:
+            status = "UNSAT"
+        elif rc == 0:
+            status = "UNKNOWN"  # chạy ok nhưng không in kết luận chuẩn
+        else:
+            status = "ERROR"
+
+        logger.info(f"[PAINLESS] status={status} rc={rc} time={dt:.2f}s")
+        if err.strip():
+            logger.info(f"[PAINLESS][stderr] {err.strip().splitlines()[-1]}")
+
+        return {"status": status, "time_sec": dt, "returncode": rc,
+                "stdout": out, "stderr": err, "cmd": cmd}
+
+    except subprocess.TimeoutExpired:
+        dt = time.time() - t0
+        logger.info(f"[PAINLESS] TIMEOUT after {dt:.2f}s")
+        return {"status": "TIMEOUT", "time_sec": dt, "returncode": None,
+                "stdout": "", "stderr": "", "cmd": cmd}
+    except Exception as ex:
+        dt = time.time() - t0
+        logger.exception("[PAINLESS] Exception while running solver")
+        return {"status": "ERROR", "time_sec": dt, "returncode": None,
+                "stdout": "", "stderr": str(ex), "cmd": cmd}
 
 
 def solve():
@@ -422,7 +539,7 @@ def solve():
         lst.append(os.path.join(folder_path, os.path.basename(file)))
         filename.append(os.path.basename(file))
 
-    for i in range(10, len(lst)):
+    for i in range(0, len(lst)):
         time_start = time.time()
         graph = read_input(lst[i])
         rand = proportion[i]
@@ -448,7 +565,6 @@ def solve():
             else:
                 logger.info(f"Maximum width before timeout for {file} is {-ans}")
             logger.info("time out")
-        return
 
     write_to_excel(res)
 
@@ -456,6 +572,7 @@ def solve():
 def write_cnf_to_file(clauses, solver, n, k, width):
     """
     Write SAT solver clauses to a CNF file in DIMACS format.
+    Return: đường dẫn file CNF đã ghi.
     """
     logger = setup_logger()
     base_path = "cnf"
@@ -472,8 +589,11 @@ def write_cnf_to_file(clauses, solver, n, k, width):
             for clause in clauses:
                 f.write(" ".join(map(str, clause)) + " 0\n")
         logger.info(f"CNF written to {cnf_filename}")
+        return cnf_filename
     except Exception:
         logger.exception("Failed to write CNF")
+        return None
+
 
 
 if __name__ == "__main__":

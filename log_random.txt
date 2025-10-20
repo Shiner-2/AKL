@@ -1,3 +1,0 @@
-CPLEX build done — vars=246500, cons=1476054 (+anti=871696)
-No solution exists
-Time taken: 1655.321 seconds

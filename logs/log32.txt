@@ -1,0 +1,131 @@
+[Test k=61, w=38] Time: 0.42 seconds
+No solution found 38
+$$$$
+-9999
+$$$$
+Time taken for K-dwt__234.mtx.rnd with k = 61: 0.42487239837646484 seconds
+No answer before timeout for K-dwt__234.mtx.rnd
+time out
+Number of variables: 43898
+Number of clauses: 205822
+CNF written to C:/Users/Admin/Desktop/Lab/AKL/cnf\K_n118_k112\K_n118_k112_w38.cnf
+[Test k=112, w=38] Time: 0.69 seconds
+No solution found 38
+$$$$
+-9999
+$$$$
+Time taken for L-bcspwr03.mtx.rnd with k = 112: 0.7007691860198975 seconds
+No answer before timeout for L-bcspwr03.mtx.rnd
+time out
+Number of variables: 522062
+Number of clauses: 5207659
+CNF written to C:/Users/Admin/Desktop/Lab/AKL/cnf\K_n420_k395\K_n420_k395_w38.cnf
+[Test k=395, w=38] Time: 9.35 seconds
+No solution found 38
+$$$$
+-9999
+$$$$
+Time taken for M-bcsstk06.mtx.rnd with k = 395: 9.358646869659424 seconds
+No answer before timeout for M-bcsstk06.mtx.rnd
+time out
+Number of variables: 525727
+Number of clauses: 2903354
+CNF written to C:/Users/Admin/Desktop/Lab/AKL/cnf\K_n425_k393\K_n425_k393_w38.cnf
+[Test k=393, w=38] Time: 5.16 seconds
+No solution found 38
+$$$$
+-9999
+$$$$
+Time taken for O-impcol_d.mtx.rnd with k = 393: 5.1628077030181885 seconds
+No answer before timeout for O-impcol_d.mtx.rnd
+time out
+Number of variables: 550467
+Number of clauses: 3373016
+CNF written to C:/Users/Admin/Desktop/Lab/AKL/cnf\K_n445_k393\K_n445_k393_w38.cnf
+[Test k=393, w=38] Time: 5.87 seconds
+No solution found 38
+$$$$
+-9999
+$$$$
+Time taken for P-can__445.mtx.rnd with k = 393: 5.870527505874634 seconds
+No answer before timeout for P-can__445.mtx.rnd
+time out
+Number of variables: 758292
+Number of clauses: 3145128
+CNF written to C:/Users/Admin/Desktop/Lab/AKL/cnf\K_n494_k490\K_n494_k490_w38.cnf
+[Test k=490, w=38] Time: 5.68 seconds
+No solution found 38
+$$$$
+-9999
+$$$$
+Time taken for Q-494_bus.mtx.rnd with k = 490: 5.68873405456543 seconds
+No answer before timeout for Q-494_bus.mtx.rnd
+time out
+Number of variables: 785688
+Number of clauses: 5747912
+CNF written to C:/Users/Admin/Desktop/Lab/AKL/cnf\K_n503_k499\K_n503_k499_w38.cnf
+[Test k=499, w=38] Time: 10.08 seconds
+No solution found 38
+$$$$
+-9999
+$$$$
+Time taken for R-dwt__503.mtx.rnd with k = 499: 10.090919017791748 seconds
+No answer before timeout for R-dwt__503.mtx.rnd
+time out
+Number of variables: 846302
+Number of clauses: 4301350
+CNF written to C:/Users/Admin/Desktop/Lab/AKL/cnf\K_n546_k495\K_n546_k495_w38.cnf
+[Test k=495, w=38] Time: 7.52 seconds
+No solution found 38
+$$$$
+-9999
+$$$$
+Time taken for S-sherman4.mtx.rnd with k = 495: 7.5293591022491455 seconds
+No answer before timeout for S-sherman4.mtx.rnd
+time out
+Number of variables: 1059682
+Number of clauses: 6407002
+CNF written to C:/Users/Admin/Desktop/Lab/AKL/cnf\K_n592_k574\K_n592_k574_w38.cnf
+[Test k=574, w=38] Time: 11.52 seconds
+No solution found 38
+$$$$
+-9999
+$$$$
+Time taken for T-dwt__592.mtx.rnd with k = 574: 11.53152084350586 seconds
+No answer before timeout for T-dwt__592.mtx.rnd
+time out
+Number of variables: 1034046
+Number of clauses: 4427129
+CNF written to C:/Users/Admin/Desktop/Lab/AKL/cnf\K_n662_k499\K_n662_k499_w38.cnf
+[Test k=499, w=38] Time: 7.67 seconds
+No solution found 38
+$$$$
+-9999
+$$$$
+Time taken for U-662_bus.mtx.rnd with k = 499: 7.686264753341675 seconds
+No answer before timeout for U-662_bus.mtx.rnd
+time out
+Number of variables: 1410752
+Number of clauses: 6565252
+CNF written to C:/Users/Admin/Desktop/Lab/AKL/cnf\K_n675_k672\K_n675_k672_w38.cnf
+[Test k=672, w=38] Time: 12.09 seconds
+No solution found 38
+$$$$
+-9999
+$$$$
+Time taken for V-nos6.mtx.rnd with k = 672: 12.10436487197876 seconds
+No answer before timeout for V-nos6.mtx.rnd
+time out
+Number of variables: 1191217
+Number of clauses: 5527312
+CNF written to C:/Users/Admin/Desktop/Lab/AKL/cnf\K_n685_k557\K_n685_k557_w38.cnf
+[Test k=557, w=38] Time: 9.77 seconds
+No solution found 38
+$$$$
+-9999
+$$$$
+Time taken for W-685_bus.mtx.rnd with k = 557: 9.781887531280518 seconds
+No answer before timeout for W-685_bus.mtx.rnd
+time out
+Number of variables: 1573002
+Number of clauses: 9835601
