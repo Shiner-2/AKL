@@ -610,3 +610,327 @@
 2025-10-20 23:37:17,109 | INFO | Process-56 | Number of clauses: 5270942
 2025-10-20 23:37:20,519 | INFO | Process-56 | CNF written to cnf/K_n420_k323/K_n420_k323_w28.cnf
 2025-10-20 23:37:20,520 | INFO | Process-56 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk -no-model cnf/K_n420_k323/K_n420_k323_w28.cnf
+2025-10-20 23:54:51,033 | INFO | MainProcess | No solution found 28
+2025-10-20 23:54:51,034 | INFO | MainProcess | [Test k=323, w=28] Time: 1058.18 seconds
+2025-10-20 23:54:51,035 | INFO | MainProcess | $$$$
+2025-10-20 23:54:51,035 | INFO | MainProcess | -27
+2025-10-20 23:54:51,035 | INFO | MainProcess | $$$$
+2025-10-20 23:54:51,036 | INFO | MainProcess | Time taken for M-bcsstk06.mtx.rnd with k = 323: 1801.6459255218506 seconds
+2025-10-20 23:54:51,037 | INFO | MainProcess | Maximum width before timeout for M-bcsstk06.mtx.rnd is 27
+2025-10-20 23:54:51,037 | INFO | MainProcess | time out
+2025-10-20 23:54:52,469 | INFO | Process-57 | Number of variables: 246927
+2025-10-20 23:54:52,469 | INFO | Process-57 | Number of clauses: 1476998
+2025-10-20 23:54:53,625 | INFO | Process-57 | CNF written to cnf/K_n425_k221/K_n425_k221_w47.cnf
+2025-10-20 23:54:53,626 | INFO | Process-57 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk -no-model cnf/K_n425_k221/K_n425_k221_w47.cnf
+2025-10-20 23:54:56,372 | INFO | Process-57 | [PAINLESS] status=SAT rc=10 time=2.75s
+2025-10-20 23:54:56,373 | RESULT | Process-57 | [PAINLESS] result: status=SAT time=2.75s rc=10
+2025-10-20 23:54:56,374 | RESULT | Process-57 | [PAINLESS] Shortcut: SAT at width=47
+2025-10-20 23:54:56,374 | RESULT | Process-57 | Time taken: 5.309555292129517 seconds
+2025-10-20 23:54:56,507 | INFO | MainProcess | Found a solution 47
+2025-10-20 23:54:56,507 | INFO | MainProcess | [Test k=221, w=47] Time: 5.45 seconds
+2025-10-20 23:54:57,854 | INFO | Process-58 | Number of variables: 248202
+2025-10-20 23:54:57,855 | INFO | Process-58 | Number of clauses: 1477061
+2025-10-20 23:54:58,949 | INFO | Process-58 | CNF written to cnf/K_n425_k221/K_n425_k221_w48.cnf
+2025-10-20 23:54:58,950 | INFO | Process-58 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk -no-model cnf/K_n425_k221/K_n425_k221_w48.cnf
+2025-10-20 23:55:01,713 | INFO | Process-58 | [PAINLESS] status=SAT rc=10 time=2.76s
+2025-10-20 23:55:01,714 | RESULT | Process-58 | [PAINLESS] result: status=SAT time=2.76s rc=10
+2025-10-20 23:55:01,714 | RESULT | Process-58 | [PAINLESS] Shortcut: SAT at width=48
+2025-10-20 23:55:01,715 | RESULT | Process-58 | Time taken: 5.204263210296631 seconds
+2025-10-20 23:55:01,841 | INFO | MainProcess | Found a solution 48
+2025-10-20 23:55:01,842 | INFO | MainProcess | [Test k=221, w=48] Time: 5.33 seconds
+2025-10-20 23:55:03,229 | INFO | Process-59 | Number of variables: 249477
+2025-10-20 23:55:03,229 | INFO | Process-59 | Number of clauses: 1477124
+2025-10-20 23:55:04,371 | INFO | Process-59 | CNF written to cnf/K_n425_k221/K_n425_k221_w49.cnf
+2025-10-20 23:55:04,372 | INFO | Process-59 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk -no-model cnf/K_n425_k221/K_n425_k221_w49.cnf
+2025-10-20 23:55:07,243 | INFO | Process-59 | [PAINLESS] status=SAT rc=10 time=2.87s
+2025-10-20 23:55:07,244 | RESULT | Process-59 | [PAINLESS] result: status=SAT time=2.87s rc=10
+2025-10-20 23:55:07,244 | RESULT | Process-59 | [PAINLESS] Shortcut: SAT at width=49
+2025-10-20 23:55:07,245 | RESULT | Process-59 | Time taken: 5.3995466232299805 seconds
+2025-10-20 23:55:07,397 | INFO | MainProcess | Found a solution 49
+2025-10-20 23:55:07,397 | INFO | MainProcess | [Test k=221, w=49] Time: 5.55 seconds
+2025-10-20 23:55:08,911 | INFO | Process-60 | Number of variables: 250752
+2025-10-20 23:55:08,912 | INFO | Process-60 | Number of clauses: 1477187
+2025-10-20 23:55:10,073 | INFO | Process-60 | CNF written to cnf/K_n425_k221/K_n425_k221_w50.cnf
+2025-10-20 23:55:10,074 | INFO | Process-60 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk -no-model cnf/K_n425_k221/K_n425_k221_w50.cnf
+2025-10-20 23:55:13,249 | INFO | Process-60 | [PAINLESS] status=SAT rc=10 time=3.17s
+2025-10-20 23:55:13,249 | RESULT | Process-60 | [PAINLESS] result: status=SAT time=3.17s rc=10
+2025-10-20 23:55:13,250 | RESULT | Process-60 | [PAINLESS] Shortcut: SAT at width=50
+2025-10-20 23:55:13,250 | RESULT | Process-60 | Time taken: 5.848231792449951 seconds
+2025-10-20 23:55:13,407 | INFO | MainProcess | Found a solution 50
+2025-10-20 23:55:13,408 | INFO | MainProcess | [Test k=221, w=50] Time: 6.01 seconds
+2025-10-20 23:55:14,737 | INFO | Process-61 | Number of variables: 252027
+2025-10-20 23:55:14,738 | INFO | Process-61 | Number of clauses: 1477250
+2025-10-20 23:55:15,916 | INFO | Process-61 | CNF written to cnf/K_n425_k221/K_n425_k221_w51.cnf
+2025-10-20 23:55:15,917 | INFO | Process-61 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk -no-model cnf/K_n425_k221/K_n425_k221_w51.cnf
+2025-10-20 23:55:18,900 | INFO | Process-61 | [PAINLESS] status=SAT rc=10 time=2.98s
+2025-10-20 23:55:18,900 | RESULT | Process-61 | [PAINLESS] result: status=SAT time=2.98s rc=10
+2025-10-20 23:55:18,901 | RESULT | Process-61 | [PAINLESS] Shortcut: SAT at width=51
+2025-10-20 23:55:18,901 | RESULT | Process-61 | Time taken: 5.488793611526489 seconds
+2025-10-20 23:55:19,063 | INFO | MainProcess | Found a solution 51
+2025-10-20 23:55:19,063 | INFO | MainProcess | [Test k=221, w=51] Time: 5.65 seconds
+2025-10-20 23:55:20,405 | INFO | Process-62 | Number of variables: 253302
+2025-10-20 23:55:20,406 | INFO | Process-62 | Number of clauses: 1477313
+2025-10-20 23:55:21,519 | INFO | Process-62 | CNF written to cnf/K_n425_k221/K_n425_k221_w52.cnf
+2025-10-20 23:55:21,520 | INFO | Process-62 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk -no-model cnf/K_n425_k221/K_n425_k221_w52.cnf
+2025-10-20 23:55:24,242 | INFO | Process-62 | [PAINLESS] status=SAT rc=10 time=2.72s
+2025-10-20 23:55:24,243 | RESULT | Process-62 | [PAINLESS] result: status=SAT time=2.72s rc=10
+2025-10-20 23:55:24,243 | RESULT | Process-62 | [PAINLESS] Shortcut: SAT at width=52
+2025-10-20 23:55:24,243 | RESULT | Process-62 | Time taken: 5.175673961639404 seconds
+2025-10-20 23:55:24,389 | INFO | MainProcess | Found a solution 52
+2025-10-20 23:55:24,390 | INFO | MainProcess | [Test k=221, w=52] Time: 5.33 seconds
+2025-10-20 23:55:25,684 | INFO | Process-63 | Number of variables: 254577
+2025-10-20 23:55:25,685 | INFO | Process-63 | Number of clauses: 1477376
+2025-10-20 23:55:26,592 | INFO | Process-63 | CNF written to cnf/K_n425_k221/K_n425_k221_w53.cnf
+2025-10-20 23:55:26,593 | INFO | Process-63 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk -no-model cnf/K_n425_k221/K_n425_k221_w53.cnf
+2025-10-20 23:55:29,636 | INFO | Process-63 | [PAINLESS] status=SAT rc=10 time=3.04s
+2025-10-20 23:55:29,637 | RESULT | Process-63 | [PAINLESS] result: status=SAT time=3.04s rc=10
+2025-10-20 23:55:29,637 | RESULT | Process-63 | [PAINLESS] Shortcut: SAT at width=53
+2025-10-20 23:55:29,637 | RESULT | Process-63 | Time taken: 5.2428693771362305 seconds
+2025-10-20 23:55:29,784 | INFO | MainProcess | Found a solution 53
+2025-10-20 23:55:29,784 | INFO | MainProcess | [Test k=221, w=53] Time: 5.39 seconds
+2025-10-20 23:55:31,135 | INFO | Process-64 | Number of variables: 255852
+2025-10-20 23:55:31,136 | INFO | Process-64 | Number of clauses: 1477572
+2025-10-20 23:55:32,138 | INFO | Process-64 | CNF written to cnf/K_n425_k221/K_n425_k221_w54.cnf
+2025-10-20 23:55:32,139 | INFO | Process-64 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk -no-model cnf/K_n425_k221/K_n425_k221_w54.cnf
+2025-10-20 23:55:35,517 | INFO | Process-64 | [PAINLESS] status=SAT rc=10 time=3.38s
+2025-10-20 23:55:35,518 | RESULT | Process-64 | [PAINLESS] result: status=SAT time=3.38s rc=10
+2025-10-20 23:55:35,518 | RESULT | Process-64 | [PAINLESS] Shortcut: SAT at width=54
+2025-10-20 23:55:35,519 | RESULT | Process-64 | Time taken: 5.73002815246582 seconds
+2025-10-20 23:55:35,694 | INFO | MainProcess | Found a solution 54
+2025-10-20 23:55:35,694 | INFO | MainProcess | [Test k=221, w=54] Time: 5.91 seconds
+2025-10-20 23:55:37,179 | INFO | Process-65 | Number of variables: 257127
+2025-10-20 23:55:37,179 | INFO | Process-65 | Number of clauses: 1477596
+2025-10-20 23:55:38,280 | INFO | Process-65 | CNF written to cnf/K_n425_k221/K_n425_k221_w55.cnf
+2025-10-20 23:55:38,281 | INFO | Process-65 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk -no-model cnf/K_n425_k221/K_n425_k221_w55.cnf
+2025-10-20 23:55:41,350 | INFO | Process-65 | [PAINLESS] status=SAT rc=10 time=3.07s
+2025-10-20 23:55:41,350 | RESULT | Process-65 | [PAINLESS] result: status=SAT time=3.07s rc=10
+2025-10-20 23:55:41,351 | RESULT | Process-65 | [PAINLESS] Shortcut: SAT at width=55
+2025-10-20 23:55:41,351 | RESULT | Process-65 | Time taken: 5.653508186340332 seconds
+2025-10-20 23:55:41,492 | INFO | MainProcess | Found a solution 55
+2025-10-20 23:55:41,492 | INFO | MainProcess | [Test k=221, w=55] Time: 5.8 seconds
+2025-10-20 23:55:42,831 | INFO | Process-66 | Number of variables: 234601
+2025-10-20 23:55:42,832 | INFO | Process-66 | Number of clauses: 1388003
+2025-10-20 23:55:43,902 | INFO | Process-66 | CNF written to cnf/K_n425_k221/K_n425_k221_w56.cnf
+2025-10-20 23:55:43,903 | INFO | Process-66 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk -no-model cnf/K_n425_k221/K_n425_k221_w56.cnf
+2025-10-20 23:55:46,487 | INFO | Process-66 | [PAINLESS] status=SAT rc=10 time=2.58s
+2025-10-20 23:55:46,488 | RESULT | Process-66 | [PAINLESS] result: status=SAT time=2.58s rc=10
+2025-10-20 23:55:46,488 | RESULT | Process-66 | [PAINLESS] Shortcut: SAT at width=56
+2025-10-20 23:55:46,489 | RESULT | Process-66 | Time taken: 4.992982387542725 seconds
+2025-10-20 23:55:46,616 | INFO | MainProcess | Found a solution 56
+2025-10-20 23:55:46,617 | INFO | MainProcess | [Test k=221, w=56] Time: 5.12 seconds
+2025-10-20 23:55:47,893 | INFO | Process-67 | Number of variables: 235451
+2025-10-20 23:55:47,893 | INFO | Process-67 | Number of clauses: 1386361
+2025-10-20 23:55:48,861 | INFO | Process-67 | CNF written to cnf/K_n425_k221/K_n425_k221_w57.cnf
+2025-10-20 23:55:48,862 | INFO | Process-67 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk -no-model cnf/K_n425_k221/K_n425_k221_w57.cnf
+2025-10-20 23:55:51,528 | INFO | Process-67 | [PAINLESS] status=SAT rc=10 time=2.67s
+2025-10-20 23:55:51,528 | RESULT | Process-67 | [PAINLESS] result: status=SAT time=2.67s rc=10
+2025-10-20 23:55:51,529 | RESULT | Process-67 | [PAINLESS] Shortcut: SAT at width=57
+2025-10-20 23:55:51,529 | RESULT | Process-67 | Time taken: 4.908969402313232 seconds
+2025-10-20 23:55:51,704 | INFO | MainProcess | Found a solution 57
+2025-10-20 23:55:51,705 | INFO | MainProcess | [Test k=221, w=57] Time: 5.09 seconds
+2025-10-20 23:55:53,092 | INFO | Process-68 | Number of variables: 236301
+2025-10-20 23:55:53,093 | INFO | Process-68 | Number of clauses: 1384719
+2025-10-20 23:55:54,108 | INFO | Process-68 | CNF written to cnf/K_n425_k221/K_n425_k221_w58.cnf
+2025-10-20 23:55:54,110 | INFO | Process-68 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk -no-model cnf/K_n425_k221/K_n425_k221_w58.cnf
+2025-10-20 23:55:56,755 | INFO | Process-68 | [PAINLESS] status=SAT rc=10 time=2.64s
+2025-10-20 23:55:56,755 | RESULT | Process-68 | [PAINLESS] result: status=SAT time=2.64s rc=10
+2025-10-20 23:55:56,755 | RESULT | Process-68 | [PAINLESS] Shortcut: SAT at width=58
+2025-10-20 23:55:56,756 | RESULT | Process-68 | Time taken: 5.04801344871521 seconds
+2025-10-20 23:55:56,900 | INFO | MainProcess | Found a solution 58
+2025-10-20 23:55:56,901 | INFO | MainProcess | [Test k=221, w=58] Time: 5.19 seconds
+2025-10-20 23:55:58,219 | INFO | Process-69 | Number of variables: 237151
+2025-10-20 23:55:58,219 | INFO | Process-69 | Number of clauses: 1383077
+2025-10-20 23:55:59,300 | INFO | Process-69 | CNF written to cnf/K_n425_k221/K_n425_k221_w59.cnf
+2025-10-20 23:55:59,301 | INFO | Process-69 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk -no-model cnf/K_n425_k221/K_n425_k221_w59.cnf
+2025-10-20 23:56:01,994 | INFO | Process-69 | [PAINLESS] status=SAT rc=10 time=2.69s
+2025-10-20 23:56:01,995 | RESULT | Process-69 | [PAINLESS] result: status=SAT time=2.69s rc=10
+2025-10-20 23:56:01,995 | RESULT | Process-69 | [PAINLESS] Shortcut: SAT at width=59
+2025-10-20 23:56:01,996 | RESULT | Process-69 | Time taken: 5.091706991195679 seconds
+2025-10-20 23:56:02,119 | INFO | MainProcess | Found a solution 59
+2025-10-20 23:56:02,119 | INFO | MainProcess | [Test k=221, w=59] Time: 5.22 seconds
+2025-10-20 23:56:03,427 | INFO | Process-70 | Number of variables: 238001
+2025-10-20 23:56:03,428 | INFO | Process-70 | Number of clauses: 1381435
+2025-10-20 23:56:04,376 | INFO | Process-70 | CNF written to cnf/K_n425_k221/K_n425_k221_w60.cnf
+2025-10-20 23:56:04,377 | INFO | Process-70 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk -no-model cnf/K_n425_k221/K_n425_k221_w60.cnf
+2025-10-20 23:56:07,300 | INFO | Process-70 | [PAINLESS] status=SAT rc=10 time=2.92s
+2025-10-20 23:56:07,301 | RESULT | Process-70 | [PAINLESS] result: status=SAT time=2.92s rc=10
+2025-10-20 23:56:07,301 | RESULT | Process-70 | [PAINLESS] Shortcut: SAT at width=60
+2025-10-20 23:56:07,301 | RESULT | Process-70 | Time taken: 5.178546190261841 seconds
+2025-10-20 23:56:07,432 | INFO | MainProcess | Found a solution 60
+2025-10-20 23:56:07,433 | INFO | MainProcess | [Test k=221, w=60] Time: 5.31 seconds
+2025-10-20 23:56:08,803 | INFO | Process-71 | Number of variables: 238851
+2025-10-20 23:56:08,804 | INFO | Process-71 | Number of clauses: 1379793
+2025-10-20 23:56:09,720 | INFO | Process-71 | CNF written to cnf/K_n425_k221/K_n425_k221_w61.cnf
+2025-10-20 23:56:09,721 | INFO | Process-71 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk -no-model cnf/K_n425_k221/K_n425_k221_w61.cnf
+2025-10-20 23:56:13,472 | INFO | Process-71 | [PAINLESS] status=SAT rc=10 time=3.75s
+2025-10-20 23:56:13,472 | RESULT | Process-71 | [PAINLESS] result: status=SAT time=3.75s rc=10
+2025-10-20 23:56:13,473 | RESULT | Process-71 | [PAINLESS] Shortcut: SAT at width=61
+2025-10-20 23:56:13,473 | RESULT | Process-71 | Time taken: 6.037170648574829 seconds
+2025-10-20 23:56:13,593 | INFO | MainProcess | Found a solution 61
+2025-10-20 23:56:13,594 | INFO | MainProcess | [Test k=221, w=61] Time: 6.16 seconds
+2025-10-20 23:56:14,909 | INFO | Process-72 | Number of variables: 239701
+2025-10-20 23:56:14,910 | INFO | Process-72 | Number of clauses: 1378151
+2025-10-20 23:56:15,874 | INFO | Process-72 | CNF written to cnf/K_n425_k221/K_n425_k221_w62.cnf
+2025-10-20 23:56:15,876 | INFO | Process-72 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk -no-model cnf/K_n425_k221/K_n425_k221_w62.cnf
+2025-10-20 23:56:19,114 | INFO | Process-72 | [PAINLESS] status=SAT rc=10 time=3.24s
+2025-10-20 23:56:19,114 | RESULT | Process-72 | [PAINLESS] result: status=SAT time=3.24s rc=10
+2025-10-20 23:56:19,115 | RESULT | Process-72 | [PAINLESS] Shortcut: SAT at width=62
+2025-10-20 23:56:19,115 | RESULT | Process-72 | Time taken: 5.518611907958984 seconds
+2025-10-20 23:56:19,246 | INFO | MainProcess | Found a solution 62
+2025-10-20 23:56:19,246 | INFO | MainProcess | [Test k=221, w=62] Time: 5.65 seconds
+2025-10-20 23:56:20,629 | INFO | Process-73 | Number of variables: 240551
+2025-10-20 23:56:20,630 | INFO | Process-73 | Number of clauses: 1376509
+2025-10-20 23:56:21,576 | INFO | Process-73 | CNF written to cnf/K_n425_k221/K_n425_k221_w63.cnf
+2025-10-20 23:56:21,577 | INFO | Process-73 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk -no-model cnf/K_n425_k221/K_n425_k221_w63.cnf
+2025-10-20 23:56:24,851 | INFO | Process-73 | [PAINLESS] status=SAT rc=10 time=3.27s
+2025-10-20 23:56:24,852 | RESULT | Process-73 | [PAINLESS] result: status=SAT time=3.27s rc=10
+2025-10-20 23:56:24,852 | RESULT | Process-73 | [PAINLESS] Shortcut: SAT at width=63
+2025-10-20 23:56:24,853 | RESULT | Process-73 | Time taken: 5.602794408798218 seconds
+2025-10-20 23:56:25,000 | INFO | MainProcess | Found a solution 63
+2025-10-20 23:56:25,001 | INFO | MainProcess | [Test k=221, w=63] Time: 5.75 seconds
+2025-10-20 23:56:26,320 | INFO | Process-74 | Number of variables: 241401
+2025-10-20 23:56:26,321 | INFO | Process-74 | Number of clauses: 1374867
+2025-10-20 23:56:27,201 | INFO | Process-74 | CNF written to cnf/K_n425_k221/K_n425_k221_w64.cnf
+2025-10-20 23:56:27,202 | INFO | Process-74 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk -no-model cnf/K_n425_k221/K_n425_k221_w64.cnf
+2025-10-20 23:56:30,359 | INFO | Process-74 | [PAINLESS] status=SAT rc=10 time=3.16s
+2025-10-20 23:56:30,360 | RESULT | Process-74 | [PAINLESS] result: status=SAT time=3.16s rc=10
+2025-10-20 23:56:30,360 | RESULT | Process-74 | [PAINLESS] Shortcut: SAT at width=64
+2025-10-20 23:56:30,361 | RESULT | Process-74 | Time taken: 5.356486082077026 seconds
+2025-10-20 23:56:30,478 | INFO | MainProcess | Found a solution 64
+2025-10-20 23:56:30,479 | INFO | MainProcess | [Test k=221, w=64] Time: 5.48 seconds
+2025-10-20 23:56:31,790 | INFO | Process-75 | Number of variables: 242251
+2025-10-20 23:56:31,791 | INFO | Process-75 | Number of clauses: 1373225
+2025-10-20 23:56:32,794 | INFO | Process-75 | CNF written to cnf/K_n425_k221/K_n425_k221_w65.cnf
+2025-10-20 23:56:32,795 | INFO | Process-75 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk -no-model cnf/K_n425_k221/K_n425_k221_w65.cnf
+2025-10-20 23:56:46,649 | INFO | Process-75 | [PAINLESS] status=SAT rc=10 time=13.85s
+2025-10-20 23:56:46,650 | RESULT | Process-75 | [PAINLESS] result: status=SAT time=13.85s rc=10
+2025-10-20 23:56:46,650 | RESULT | Process-75 | [PAINLESS] Shortcut: SAT at width=65
+2025-10-20 23:56:46,651 | RESULT | Process-75 | Time taken: 16.168673276901245 seconds
+2025-10-20 23:56:46,787 | INFO | MainProcess | Found a solution 65
+2025-10-20 23:56:46,788 | INFO | MainProcess | [Test k=221, w=65] Time: 16.31 seconds
+2025-10-20 23:56:48,106 | INFO | Process-76 | Number of variables: 243101
+2025-10-20 23:56:48,106 | INFO | Process-76 | Number of clauses: 1371583
+2025-10-20 23:56:48,891 | INFO | Process-76 | CNF written to cnf/K_n425_k221/K_n425_k221_w66.cnf
+2025-10-20 23:56:48,892 | INFO | Process-76 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk -no-model cnf/K_n425_k221/K_n425_k221_w66.cnf
+2025-10-20 23:57:00,068 | INFO | Process-76 | [PAINLESS] status=SAT rc=10 time=11.18s
+2025-10-20 23:57:00,068 | RESULT | Process-76 | [PAINLESS] result: status=SAT time=11.18s rc=10
+2025-10-20 23:57:00,069 | RESULT | Process-76 | [PAINLESS] Shortcut: SAT at width=66
+2025-10-20 23:57:00,069 | RESULT | Process-76 | Time taken: 13.277138710021973 seconds
+2025-10-20 23:57:00,207 | INFO | MainProcess | Found a solution 66
+2025-10-20 23:57:00,207 | INFO | MainProcess | [Test k=221, w=66] Time: 13.42 seconds
+2025-10-20 23:57:01,512 | INFO | Process-77 | Number of variables: 243951
+2025-10-20 23:57:01,513 | INFO | Process-77 | Number of clauses: 1369941
+2025-10-20 23:57:02,478 | INFO | Process-77 | CNF written to cnf/K_n425_k221/K_n425_k221_w67.cnf
+2025-10-20 23:57:02,479 | INFO | Process-77 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk -no-model cnf/K_n425_k221/K_n425_k221_w67.cnf
+2025-10-20 23:57:21,537 | INFO | Process-77 | [PAINLESS] status=SAT rc=10 time=19.06s
+2025-10-20 23:57:21,537 | RESULT | Process-77 | [PAINLESS] result: status=SAT time=19.06s rc=10
+2025-10-20 23:57:21,538 | RESULT | Process-77 | [PAINLESS] Shortcut: SAT at width=67
+2025-10-20 23:57:21,538 | RESULT | Process-77 | Time taken: 21.32845711708069 seconds
+2025-10-20 23:57:21,662 | INFO | MainProcess | Found a solution 67
+2025-10-20 23:57:21,663 | INFO | MainProcess | [Test k=221, w=67] Time: 21.45 seconds
+2025-10-20 23:57:23,020 | INFO | Process-78 | Number of variables: 244801
+2025-10-20 23:57:23,021 | INFO | Process-78 | Number of clauses: 1368299
+2025-10-20 23:57:24,030 | INFO | Process-78 | CNF written to cnf/K_n425_k221/K_n425_k221_w68.cnf
+2025-10-20 23:57:24,031 | INFO | Process-78 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk -no-model cnf/K_n425_k221/K_n425_k221_w68.cnf
+2025-10-20 23:57:57,833 | INFO | Process-78 | [PAINLESS] status=SAT rc=10 time=33.80s
+2025-10-20 23:57:57,833 | RESULT | Process-78 | [PAINLESS] result: status=SAT time=33.80s rc=10
+2025-10-20 23:57:57,834 | RESULT | Process-78 | [PAINLESS] Shortcut: SAT at width=68
+2025-10-20 23:57:57,834 | RESULT | Process-78 | Time taken: 36.167479276657104 seconds
+2025-10-20 23:57:57,946 | INFO | MainProcess | Found a solution 68
+2025-10-20 23:57:57,947 | INFO | MainProcess | [Test k=221, w=68] Time: 36.28 seconds
+2025-10-20 23:57:59,101 | INFO | Process-79 | Number of variables: 245651
+2025-10-20 23:57:59,102 | INFO | Process-79 | Number of clauses: 1366657
+2025-10-20 23:58:00,019 | INFO | Process-79 | CNF written to cnf/K_n425_k221/K_n425_k221_w69.cnf
+2025-10-20 23:58:00,020 | INFO | Process-79 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk -no-model cnf/K_n425_k221/K_n425_k221_w69.cnf
+2025-10-20 23:59:36,742 | INFO | Process-79 | [PAINLESS] status=SAT rc=10 time=96.72s
+2025-10-20 23:59:36,743 | RESULT | Process-79 | [PAINLESS] result: status=SAT time=96.72s rc=10
+2025-10-20 23:59:36,743 | RESULT | Process-79 | [PAINLESS] Shortcut: SAT at width=69
+2025-10-20 23:59:36,744 | RESULT | Process-79 | Time taken: 98.7937216758728 seconds
+2025-10-20 23:59:36,868 | INFO | MainProcess | Found a solution 69
+2025-10-20 23:59:36,868 | INFO | MainProcess | [Test k=221, w=69] Time: 98.92 seconds
+2025-10-20 23:59:38,229 | INFO | Process-80 | Number of variables: 246501
+2025-10-20 23:59:38,229 | INFO | Process-80 | Number of clauses: 1365015
+2025-10-20 23:59:39,105 | INFO | Process-80 | CNF written to cnf/K_n425_k221/K_n425_k221_w70.cnf
+2025-10-20 23:59:39,105 | INFO | Process-80 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk -no-model cnf/K_n425_k221/K_n425_k221_w70.cnf
+2025-10-21 00:13:08,019 | INFO | Process-80 | [PAINLESS] status=SAT rc=10 time=808.91s
+2025-10-21 00:13:08,020 | RESULT | Process-80 | [PAINLESS] result: status=SAT time=808.91s rc=10
+2025-10-21 00:13:08,020 | RESULT | Process-80 | [PAINLESS] Shortcut: SAT at width=70
+2025-10-21 00:13:08,021 | RESULT | Process-80 | Time taken: 811.1501166820526 seconds
+2025-10-21 00:13:08,185 | INFO | MainProcess | Found a solution 70
+2025-10-21 00:13:08,186 | INFO | MainProcess | [Test k=221, w=70] Time: 811.32 seconds
+2025-10-21 00:13:09,614 | INFO | Process-81 | Number of variables: 247351
+2025-10-21 00:13:09,615 | INFO | Process-81 | Number of clauses: 1363551
+2025-10-21 00:13:10,661 | INFO | Process-81 | CNF written to cnf/K_n425_k221/K_n425_k221_w71.cnf
+2025-10-21 00:13:10,662 | INFO | Process-81 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk -no-model cnf/K_n425_k221/K_n425_k221_w71.cnf
+2025-10-21 00:25:04,959 | INFO | MainProcess | No solution found 71
+2025-10-21 00:25:04,960 | INFO | MainProcess | [Test k=221, w=71] Time: 716.77 seconds
+2025-10-21 00:25:04,961 | INFO | MainProcess | $$$$
+2025-10-21 00:25:04,961 | INFO | MainProcess | -70
+2025-10-21 00:25:04,961 | INFO | MainProcess | $$$$
+2025-10-21 00:25:04,962 | INFO | MainProcess | Time taken for O-impcol_d.mtx.rnd with k = 221: 1813.9242873191833 seconds
+2025-10-21 00:25:04,962 | INFO | MainProcess | Maximum width before timeout for O-impcol_d.mtx.rnd is 70
+2025-10-21 00:25:04,962 | INFO | MainProcess | time out
+2025-10-21 00:25:08,801 | INFO | Process-82 | Number of variables: 398277
+2025-10-21 00:25:08,802 | INFO | Process-82 | Number of clauses: 2824386
+2025-10-21 00:25:11,405 | INFO | Process-82 | CNF written to cnf/K_n445_k333/K_n445_k333_w58.cnf
+2025-10-21 00:25:11,407 | INFO | Process-82 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk -no-model cnf/K_n445_k333/K_n445_k333_w58.cnf
+2025-10-21 00:25:27,642 | INFO | Process-82 | [PAINLESS] status=SAT rc=10 time=16.23s
+2025-10-21 00:25:27,644 | RESULT | Process-82 | [PAINLESS] result: status=SAT time=16.23s rc=10
+2025-10-21 00:25:27,645 | RESULT | Process-82 | [PAINLESS] Shortcut: SAT at width=58
+2025-10-21 00:25:27,646 | RESULT | Process-82 | Time taken: 22.65832757949829 seconds
+2025-10-21 00:25:28,044 | INFO | MainProcess | Found a solution 58
+2025-10-21 00:25:28,062 | INFO | MainProcess | [Test k=333, w=58] Time: 23.05 seconds
+2025-10-21 00:25:31,961 | INFO | Process-83 | Number of variables: 400057
+2025-10-21 00:25:31,962 | INFO | Process-83 | Number of clauses: 2824766
+2025-10-21 00:25:34,248 | INFO | Process-83 | CNF written to cnf/K_n445_k333/K_n445_k333_w59.cnf
+2025-10-21 00:25:34,250 | INFO | Process-83 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk -no-model cnf/K_n445_k333/K_n445_k333_w59.cnf
+2025-10-21 00:26:03,769 | INFO | Process-83 | [PAINLESS] status=SAT rc=10 time=29.52s
+2025-10-21 00:26:03,770 | RESULT | Process-83 | [PAINLESS] result: status=SAT time=29.52s rc=10
+2025-10-21 00:26:03,770 | RESULT | Process-83 | [PAINLESS] Shortcut: SAT at width=59
+2025-10-21 00:26:03,770 | RESULT | Process-83 | Time taken: 35.659855365753174 seconds
+2025-10-21 00:26:04,200 | INFO | MainProcess | Found a solution 59
+2025-10-21 00:26:04,201 | INFO | MainProcess | [Test k=333, w=59] Time: 36.13 seconds
+2025-10-21 00:26:07,709 | INFO | Process-84 | Number of variables: 401837
+2025-10-21 00:26:07,710 | INFO | Process-84 | Number of clauses: 2825146
+2025-10-21 00:26:09,933 | INFO | Process-84 | CNF written to cnf/K_n445_k333/K_n445_k333_w60.cnf
+2025-10-21 00:26:09,934 | INFO | Process-84 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk -no-model cnf/K_n445_k333/K_n445_k333_w60.cnf
+2025-10-21 00:26:35,606 | INFO | Process-84 | [PAINLESS] status=SAT rc=10 time=25.67s
+2025-10-21 00:26:35,607 | RESULT | Process-84 | [PAINLESS] result: status=SAT time=25.67s rc=10
+2025-10-21 00:26:35,607 | RESULT | Process-84 | [PAINLESS] Shortcut: SAT at width=60
+2025-10-21 00:26:35,607 | RESULT | Process-84 | Time taken: 31.400382041931152 seconds
+2025-10-21 00:26:35,879 | INFO | MainProcess | Found a solution 60
+2025-10-21 00:26:35,880 | INFO | MainProcess | [Test k=333, w=60] Time: 31.68 seconds
+2025-10-21 00:26:39,413 | INFO | Process-85 | Number of variables: 403617
+2025-10-21 00:26:39,414 | INFO | Process-85 | Number of clauses: 2825526
+2025-10-21 00:26:41,782 | INFO | Process-85 | CNF written to cnf/K_n445_k333/K_n445_k333_w61.cnf
+2025-10-21 00:26:41,783 | INFO | Process-85 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk -no-model cnf/K_n445_k333/K_n445_k333_w61.cnf
+2025-10-21 00:27:44,094 | INFO | Process-85 | [PAINLESS] status=SAT rc=10 time=62.31s
+2025-10-21 00:27:44,095 | RESULT | Process-85 | [PAINLESS] result: status=SAT time=62.31s rc=10
+2025-10-21 00:27:44,096 | RESULT | Process-85 | [PAINLESS] Shortcut: SAT at width=61
+2025-10-21 00:27:44,097 | RESULT | Process-85 | Time taken: 68.21217942237854 seconds
+2025-10-21 00:27:44,458 | INFO | MainProcess | Found a solution 61
+2025-10-21 00:27:44,458 | INFO | MainProcess | [Test k=333, w=61] Time: 68.58 seconds
+2025-10-21 00:27:47,750 | INFO | Process-86 | Number of variables: 405397
+2025-10-21 00:27:47,751 | INFO | Process-86 | Number of clauses: 2825906
+2025-10-21 00:27:51,001 | INFO | Process-86 | CNF written to cnf/K_n445_k333/K_n445_k333_w62.cnf
+2025-10-21 00:27:51,002 | INFO | Process-86 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk -no-model cnf/K_n445_k333/K_n445_k333_w62.cnf
+2025-10-21 00:29:37,052 | INFO | Process-86 | [PAINLESS] status=SAT rc=10 time=106.05s
+2025-10-21 00:29:37,052 | RESULT | Process-86 | [PAINLESS] result: status=SAT time=106.05s rc=10
+2025-10-21 00:29:37,053 | RESULT | Process-86 | [PAINLESS] Shortcut: SAT at width=62
+2025-10-21 00:29:37,054 | RESULT | Process-86 | Time taken: 112.59100031852722 seconds
+2025-10-21 00:29:37,427 | INFO | MainProcess | Found a solution 62
+2025-10-21 00:29:37,428 | INFO | MainProcess | [Test k=333, w=62] Time: 112.97 seconds
+2025-10-21 00:29:40,474 | INFO | Process-87 | Number of variables: 407177
+2025-10-21 00:29:40,474 | INFO | Process-87 | Number of clauses: 2826286
+2025-10-21 00:29:42,737 | INFO | Process-87 | CNF written to cnf/K_n445_k333/K_n445_k333_w63.cnf
+2025-10-21 00:29:42,738 | INFO | Process-87 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk -no-model cnf/K_n445_k333/K_n445_k333_w63.cnf
+2025-10-21 00:30:58,074 | INFO | Process-87 | [PAINLESS] status=SAT rc=10 time=75.34s
+2025-10-21 00:30:58,077 | RESULT | Process-87 | [PAINLESS] result: status=SAT time=75.34s rc=10
+2025-10-21 00:30:58,078 | RESULT | Process-87 | [PAINLESS] Shortcut: SAT at width=63
+2025-10-21 00:30:58,079 | RESULT | Process-87 | Time taken: 80.64483046531677 seconds
+2025-10-21 00:30:58,453 | INFO | MainProcess | Found a solution 63
+2025-10-21 00:30:58,463 | INFO | MainProcess | [Test k=333, w=63] Time: 81.02 seconds
+2025-10-21 00:31:02,437 | INFO | Process-88 | Number of variables: 408957
+2025-10-21 00:31:02,438 | INFO | Process-88 | Number of clauses: 2826666
+2025-10-21 00:31:04,793 | INFO | Process-88 | CNF written to cnf/K_n445_k333/K_n445_k333_w64.cnf
+2025-10-21 00:31:04,795 | INFO | Process-88 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk -no-model cnf/K_n445_k333/K_n445_k333_w64.cnf

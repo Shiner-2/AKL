@@ -1,1 +1,5 @@
 cnf/
+.venv/
+__pycache__/
+.vevn_wsl/
+*.pyc

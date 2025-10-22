@@ -16,7 +16,7 @@ from typing import Optional, Dict, Any
 #  ./painless/build/release/painless_release cnf/K_n117_k80/K_n117_k80_w38.cnf   -c=4   -solver=cckk -no-model
 
 # Global config
-LOG_FILE = "logs/log_random_50_80_painless.txt"
+LOG_FILE = "logs/log_random_50_80_painless_after_RAM_V.txt"
 EXCEL_FILE = "output/output_test_1800s_random_50_80_painless.xlsx"
 
 # --- Painless runner config ---
@@ -62,7 +62,7 @@ def setup_logger(name: str = "akl", log_file: str = LOG_FILE, level=logging.INFO
 # ------------------------------------------------------------------------
 
 
-def solve_no_hole_anti_k_labeling(graph, k, width, queue, timeout_sec=3600):
+def solve_no_hole_anti_k_labeling(graph, k, width, queue, timeout_sec=3600, instance_name="A" ):
     logger = setup_logger()
 
     if width <= 1:
@@ -201,7 +201,7 @@ def solve_no_hole_anti_k_labeling(graph, k, width, queue, timeout_sec=3600):
     queue.put(solver.nof_clauses())
 
     # Ghi CNF ra file để chạy Painless bên ngoài nếu muốn
-    cnf_path = write_cnf_to_file(clauses, solver, n, k, width)
+    cnf_path = write_cnf_to_file(clauses, solver, n, k, width, instance_name)
 
     # Gọi Painless (nếu bật) và quyết định ngay theo kết quả
     if RUN_PAINLESS and cnf_path:
@@ -355,7 +355,7 @@ def read_input(file_path):
     return graph
 
 
-def run_test_with_timeout(graph, k, width, timeout_sec=3600):
+def run_test_with_timeout(graph, k, width, timeout_sec=3600, instance_name="A"):
     logger = setup_logger()
     global res2
 
@@ -364,7 +364,7 @@ def run_test_with_timeout(graph, k, width, timeout_sec=3600):
 
     p = multiprocessing.Process(
         target=solve_no_hole_anti_k_labeling,
-        args=(graph, k, width, queue, timeout_sec)
+        args=(graph, k, width, queue, timeout_sec, instance_name)
     )
     p.start()
     p.join(timeout=timeout_sec)
@@ -408,7 +408,7 @@ def tuantu_for_ans(graph, k, rand, lower_bound, upper_bound, file, timeout_sec=3
         time_start = time.time()
         res2.extend([file, len(graph), k, rand, lower_bound, upper_bound, width])
 
-        if run_test_with_timeout(graph, k, width, time_left):
+        if run_test_with_timeout(graph, k, width, time_left, file[0]):
             res2.append(round(time.time() - time_start, 2))
             res.append(res2)
             res2 = []
@@ -539,7 +539,7 @@ def solve():
         lst.append(os.path.join(folder_path, os.path.basename(file)))
         filename.append(os.path.basename(file))
 
-    for i in range(0, len(lst)):
+    for i in range(len(lst)-3, len(lst)):
         time_start = time.time()
         graph = read_input(lst[i])
         rand = proportion[i]
@@ -565,23 +565,23 @@ def solve():
             else:
                 logger.info(f"Maximum width before timeout for {file} is {-ans}")
             logger.info("time out")
-
+        
     write_to_excel(res)
 
 
-def write_cnf_to_file(clauses, solver, n, k, width):
+def write_cnf_to_file(clauses, solver, n, k, width, instance_name="A"):
     """
     Write SAT solver clauses to a CNF file in DIMACS format.
     Return: đường dẫn file CNF đã ghi.
     """
     logger = setup_logger()
     base_path = "cnf"
-    folder_path = os.path.join(base_path, f"K_n{n}_k{k}")
+    folder_path = os.path.join(base_path, f"{instance_name}_n{n}_k{k}")
 
     if not os.path.exists(folder_path):
         os.makedirs(folder_path)
 
-    cnf_filename = os.path.join(folder_path, f"K_n{n}_k{k}_w{width}.cnf")
+    cnf_filename = os.path.join(folder_path, f"{instance_name}_n{n}_k{k}_w{width}.cnf")
 
     try:
         with open(cnf_filename, "w", encoding="utf-8") as f:
