@@ -1,0 +1,342 @@
+CP build done — vars≈1740, cons≈10363 (+anti=6695)
+Solution found: width=4
+Time taken: 0.243 seconds
+[Test k=23, w=4] Time: 0.65 seconds
+CP build done — vars≈1740, cons≈10380 (+anti=6592)
+Solution found: width=5
+Time taken: 0.262 seconds
+[Test k=23, w=5] Time: 0.64 seconds
+CP build done — vars≈1680, cons≈10157 (+anti=6489)
+No solution exists
+Time taken: 0.482 seconds
+[Test k=23, w=6] Time: 0.85 seconds
+$$$$
+5
+$$$$
+Time taken for A-pores_1.mtx.rnd with k = 23: 2.15 seconds
+Maximum width for A-pores_1.mtx.rnd is 5
+CP build done — vars≈1408, cons≈7240 (+anti=4230)
+Solution found: width=5
+Time taken: 0.184 seconds
+[Test k=18, w=5] Time: 0.54 seconds
+CP build done — vars≈1312, cons≈6624 (+anti=3870)
+No solution exists
+Time taken: 0.169 seconds
+[Test k=18, w=6] Time: 0.53 seconds
+$$$$
+5
+$$$$
+Time taken for B-ibm32.mtx.rnd with k = 18: 1.07 seconds
+Maximum width for B-ibm32.mtx.rnd is 5
+CP build done — vars≈1911, cons≈6435 (+anti=2300)
+Solution found: width=8
+Time taken: 0.182 seconds
+[Test k=21, w=8] Time: 0.55 seconds
+CP build done — vars≈1950, cons≈6407 (+anti=2116)
+Solution found: width=9
+Time taken: 0.177 seconds
+[Test k=21, w=9] Time: 0.54 seconds
+CP build done — vars≈1989, cons≈6379 (+anti=1932)
+Solution found: width=10
+Time taken: 0.188 seconds
+[Test k=21, w=10] Time: 0.55 seconds
+CP build done — vars≈1638, cons≈5085 (+anti=1886)
+No solution exists
+Time taken: 0.078 seconds
+[Test k=21, w=11] Time: 0.44 seconds
+$$$$
+10
+$$$$
+Time taken for C-bcspwr01.mtx.rnd with k = 21: 2.08 seconds
+Maximum width for C-bcspwr01.mtx.rnd is 10
+CP build done — vars≈3648, cons≈22389 (+anti=14608)
+Solution found: width=4
+Time taken: 0.486 seconds
+[Test k=29, w=4] Time: 0.86 seconds
+CP build done — vars≈3552, cons≈22741 (+anti=14960)
+Solution found: width=5
+Time taken: 0.508 seconds
+[Test k=29, w=5] Time: 0.88 seconds
+CP build done — vars≈3504, cons≈22565 (+anti=14784)
+No solution exists
+Time taken: 1.165 seconds
+[Test k=29, w=6] Time: 1.54 seconds
+$$$$
+5
+$$$$
+Time taken for D-bcsstk01.mtx.rnd with k = 29: 3.28 seconds
+Maximum width for D-bcsstk01.mtx.rnd is 5
+CP build done — vars≈4116, cons≈13922 (+anti=4602)
+Solution found: width=15
+Time taken: 0.385 seconds
+[Test k=35, w=15] Time: 0.76 seconds
+CP build done — vars≈4165, cons≈13882 (+anti=4366)
+Solution found: width=16
+Time taken: 0.502 seconds
+[Test k=35, w=16] Time: 0.87 seconds
+CP build done — vars≈4214, cons≈13842 (+anti=4130)
+Solution found: width=17
+Time taken: 0.853 seconds
+[Test k=35, w=17] Time: 1.22 seconds
+CP build done — vars≈3430, cons≈10843 (+anti=4071)
+No solution exists
+Time taken: 0.151 seconds
+[Test k=35, w=18] Time: 0.51 seconds
+$$$$
+17
+$$$$
+Time taken for E-bcspwr02.mtx.rnd with k = 35: 3.36 seconds
+Maximum width for E-bcspwr02.mtx.rnd is 17
+CP build done — vars≈4536, cons≈22170 (+anti=11904)
+Solution found: width=7
+Time taken: 0.532 seconds
+[Test k=33, w=7] Time: 0.9 seconds
+CP build done — vars≈4698, cons≈22322 (+anti=11408)
+Solution found: width=8
+Time taken: 0.852 seconds
+[Test k=33, w=8] Time: 1.23 seconds
+CP build done — vars≈4428, cons≈21334 (+anti=11284)
+No solution exists
+Time taken: 0.799 seconds
+[Test k=33, w=9] Time: 1.17 seconds
+$$$$
+8
+$$$$
+Time taken for F-curtis54.mtx.rnd with k = 33: 3.31 seconds
+Maximum width for F-curtis54.mtx.rnd is 8
+CP build done — vars≈4674, cons≈21907 (+anti=11303)
+Solution found: width=6
+Time taken: 0.531 seconds
+[Test k=31, w=6] Time: 0.91 seconds
+CP build done — vars≈4560, cons≈21552 (+anti=11176)
+Solution found: width=7
+Time taken: 0.546 seconds
+[Test k=31, w=7] Time: 0.93 seconds
+CP build done — vars≈4332, cons≈20741 (+anti=11049)
+No solution exists
+Time taken: 1.116 seconds
+[Test k=31, w=8] Time: 1.49 seconds
+$$$$
+7
+$$$$
+Time taken for G-will57.mtx.rnd with k = 31: 3.33 seconds
+Maximum width for G-will57.mtx.rnd is 7
+CP build done — vars≈5782, cons≈44060 (+anti=31191)
+Solution found: width=5
+Time taken: 0.999 seconds
+[Test k=37, w=5] Time: 1.4 seconds
+CP build done — vars≈5841, cons≈44251 (+anti=30910)
+No solution exists
+Time taken: 7.333 seconds
+[Test k=37, w=6] Time: 7.72 seconds
+$$$$
+5
+$$$$
+Time taken for H-impcol_b.mtx.rnd with k = 37: 9.12 seconds
+Maximum width for H-impcol_b.mtx.rnd is 5
+CP build done — vars≈14960, cons≈79694 (+anti=43800)
+Solution found: width=15
+Time taken: 8.481 seconds
+[Test k=67, w=15] Time: 8.85 seconds
+CP build done — vars≈15215, cons≈79838 (+anti=42924)
+Solution found: width=16
+Time taken: 13.473 seconds
+[Test k=67, w=16] Time: 13.87 seconds
+CP build done — vars≈14110, cons≈75539 (+anti=42705)
+Solution found: width=17
+Time taken: 6.948 seconds
+[Test k=67, w=17] Time: 7.4 seconds
+CP build done — vars≈14280, cons≈75343 (+anti=41829)
+Solution found: width=18
+Time taken: 18.373 seconds
+[Test k=67, w=18] Time: 18.82 seconds
+CP build done — vars≈14450, cons≈75147 (+anti=40953)
+Solution found: width=19
+Time taken: 1140.789 seconds
+[Test k=67, w=19] Time: 1141.22 seconds
+CP build done — vars≈14620, cons≈74951 (+anti=40077)
+[Test k=67, w=20] Time: 609.86 seconds
+$$$$
+-19
+$$$$
+Time taken for I-ash85.mtx.rnd with k = 67: 1800.02 seconds
+Maximum width before timeout for I-ash85.mtx.rnd is 19
+time out
+CP build done — vars≈14400, cons≈71503 (+anti=37297)
+Solution found: width=17
+Time taken: 3.697 seconds
+[Test k=56, w=17] Time: 4.17 seconds
+CP build done — vars≈14600, cons≈71315 (+anti=36309)
+Solution found: width=18
+Time taken: 11.634 seconds
+[Test k=56, w=18] Time: 12.07 seconds
+CP build done — vars≈13000, cons≈65068 (+anti=36062)
+Solution found: width=19
+Time taken: 2.132 seconds
+[Test k=56, w=19] Time: 2.57 seconds
+CP build done — vars≈13100, cons≈64480 (+anti=35074)
+Solution found: width=20
+Time taken: 3.958 seconds
+[Test k=56, w=20] Time: 4.38 seconds
+CP build done — vars≈13200, cons≈63892 (+anti=34086)
+Solution found: width=21
+Time taken: 9.616 seconds
+[Test k=56, w=21] Time: 9.99 seconds
+CP build done — vars≈13300, cons≈63304 (+anti=33098)
+[Test k=56, w=22] Time: 1766.84 seconds
+$$$$
+-21
+$$$$
+Time taken for J-nos4.mtx.rnd with k = 56: 1800.02 seconds
+Maximum width before timeout for J-nos4.mtx.rnd is 21
+time out
+CP build done — vars≈22230, cons≈82227 (+anti=31428)
+Solution found: width=31
+Time taken: 7.634 seconds
+[Test k=80, w=31] Time: 8.1 seconds
+CP build done — vars≈22347, cons≈82047 (+anti=30780)
+Solution found: width=32
+Time taken: 15.594 seconds
+[Test k=80, w=32] Time: 15.98 seconds
+CP build done — vars≈22464, cons≈81867 (+anti=30132)
+Solution found: width=33
+Time taken: 31.336 seconds
+[Test k=80, w=33] Time: 31.71 seconds
+CP build done — vars≈22581, cons≈81687 (+anti=29484)
+Solution found: width=34
+Time taken: 36.203 seconds
+[Test k=80, w=34] Time: 36.58 seconds
+CP build done — vars≈22698, cons≈81507 (+anti=28836)
+Solution found: width=35
+Time taken: 36.596 seconds
+[Test k=80, w=35] Time: 36.99 seconds
+CP build done — vars≈22815, cons≈81327 (+anti=28188)
+Solution found: width=36
+Time taken: 38.545 seconds
+[Test k=80, w=36] Time: 38.93 seconds
+CP build done — vars≈22932, cons≈81147 (+anti=27540)
+Solution found: width=37
+Time taken: 35.993 seconds
+[Test k=80, w=37] Time: 36.36 seconds
+CP build done — vars≈23049, cons≈80967 (+anti=26892)
+Solution found: width=38
+Time taken: 68.732 seconds
+[Test k=80, w=38] Time: 69.11 seconds
+CP build done — vars≈23166, cons≈80787 (+anti=26244)
+Solution found: width=39
+Time taken: 163.408 seconds
+[Test k=80, w=39] Time: 163.8 seconds
+CP build done — vars≈18720, cons≈62823 (+anti=25596)
+No solution exists
+Time taken: 0.857 seconds
+[Test k=80, w=40] Time: 1.31 seconds
+$$$$
+39
+$$$$
+Time taken for K-dwt__234.mtx.rnd with k = 80: 438.88 seconds
+Maximum width for K-dwt__234.mtx.rnd is 39
+CP build done — vars≈19116, cons≈75200 (+anti=29177)
+Solution found: width=20
+Time taken: 6.06 seconds
+[Test k=62, w=20] Time: 6.49 seconds
+CP build done — vars≈16992, cons≈66997 (+anti=28998)
+No solution exists
+Time taken: 2.407 seconds
+[Test k=62, w=21] Time: 2.84 seconds
+$$$$
+20
+$$$$
+Time taken for L-bcspwr03.mtx.rnd with k = 62: 9.34 seconds
+Maximum width for L-bcspwr03.mtx.rnd is 20
+CP build done — vars≈388920, cons≈5330033 (+anti=4341240)
+[Test k=323, w=21] Time: 1800.56 seconds
+$$$$
+-9999
+$$$$
+Time taken for M-bcsstk06.mtx.rnd with k = 323: 1800.57 seconds
+No answer before timeout for M-bcsstk06.mtx.rnd
+time out
+CP build done — vars≈246500, cons≈1476054 (+anti=871696)
+[Test k=221, w=47] Time: 1800.21 seconds
+$$$$
+-9999
+$$$$
+Time taken for O-impcol_d.mtx.rnd with k = 221: 1800.23 seconds
+No answer before timeout for O-impcol_d.mtx.rnd
+time out
+CP build done — vars≈397830, cons≈2822378 (+anti=1831698)
+[Test k=333, w=58] Time: 1800.63 seconds
+$$$$
+-9999
+$$$$
+Time taken for P-can__445.mtx.rnd with k = 333: 1800.67 seconds
+No answer before timeout for P-can__445.mtx.rnd
+time out
+CP build done — vars≈392730, cons≈1349295 (+anti=425436)
+[Test k=326, w=144] Time: 1800.18 seconds
+$$$$
+-9999
+$$$$
+Time taken for Q-494_bus.mtx.rnd with k = 326: 1800.2 seconds
+No answer before timeout for Q-494_bus.mtx.rnd
+time out
+CP build done — vars≈499982, cons≈4691803 (+anti=3411070)
+[Test k=347, w=31] Time: 1800.77 seconds
+$$$$
+-9999
+$$$$
+Time taken for R-dwt__503.mtx.rnd with k = 347: 1800.8 seconds
+No answer before timeout for R-dwt__503.mtx.rnd
+time out
+CP build done — vars≈433524, cons≈1942183 (+anti=914562)
+[Test k=322, w=151] Time: 1800.23 seconds
+$$$$
+-9999
+$$$$
+Time taken for S-sherman4.mtx.rnd with k = 322: 1800.25 seconds
+No answer before timeout for S-sherman4.mtx.rnd
+time out
+CP build done — vars≈599104, cons≈4290434 (+anti=2799696)
+[Test k=378, w=65] Time: 1800.7 seconds
+$$$$
+-9999
+$$$$
+Time taken for T-dwt__592.mtx.rnd with k = 378: 1800.72 seconds
+No answer before timeout for T-dwt__592.mtx.rnd
+time out
+CP build done — vars≈906940, cons≈3504331 (+anti=1249374)
+[Test k=516, w=170] Time: 1802.11 seconds
+$$$$
+-9999
+$$$$
+Time taken for U-662_bus.mtx.rnd with k = 516: 1802.13 seconds
+No answer before timeout for U-662_bus.mtx.rnd
+time out
+CP build done — vars≈677700, cons≈2694337 (+anti=1081020)
+[Test k=405, w=195] Time: 1800.79 seconds
+$$$$
+-9999
+$$$$
+Time taken for V-nos6.mtx.rnd with k = 405: 1800.84 seconds
+No answer before timeout for V-nos6.mtx.rnd
+time out
+CP build done — vars≈754870, cons≈3541154 (+anti=1621730)
+[Test k=397, w=78] Time: 1801.02 seconds
+$$$$
+-9999
+$$$$
+Time taken for W-685_bus.mtx.rnd with k = 397: 1801.12 seconds
+No answer before timeout for W-685_bus.mtx.rnd
+time out
+CP build done — vars≈990275, cons≈7495662 (+anti=4980150)
+[solve error] Solver error: not enough memory
+No solution exists
+Time taken: 725.967 seconds
+[Test k=500, w=78] Time: 755.88 seconds
+$$$$
+-9999
+$$$$
+Time taken for X-can__715.mtx.rnd with k = 500: 755.92 seconds
+No answer before timeout for X-can__715.mtx.rnd
+time out
+Data written to output/output_CP_CPLEX_1800.xlsx

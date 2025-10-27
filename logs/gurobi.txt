@@ -1,0 +1,371 @@
+Processing file: A-pores_1.mtx.rnd with k = 23
+Gurobi build done — vars≈1740, cons≈10363 (+anti=6695)
+Solution found: width=4
+Time taken: 1.032 seconds
+[Test k=23, w=4] Time: 1.4 seconds
+Gurobi build done — vars≈1740, cons≈10380 (+anti=6592)
+Solution found: width=5
+Time taken: 0.191 seconds
+[Test k=23, w=5] Time: 0.53 seconds
+Gurobi build done — vars≈1680, cons≈10157 (+anti=6489)
+No solution exists (or no feasible solution found under timelimit).
+Time taken: 0.723 seconds
+[Test k=23, w=6] Time: 1.07 seconds
+$$$$
+5
+$$$$
+Time taken for A-pores_1.mtx.rnd with k = 23: 3.01 seconds
+Maximum width for A-pores_1.mtx.rnd is 5
+Processing file: B-ibm32.mtx.rnd with k = 18
+Gurobi build done — vars≈1408, cons≈7240 (+anti=4230)
+Solution found: width=5
+Time taken: 0.15 seconds
+[Test k=18, w=5] Time: 0.48 seconds
+Gurobi build done — vars≈1312, cons≈6624 (+anti=3870)
+No solution exists (or no feasible solution found under timelimit).
+Time taken: 0.05 seconds
+[Test k=18, w=6] Time: 0.39 seconds
+$$$$
+5
+$$$$
+Time taken for B-ibm32.mtx.rnd with k = 18: 0.88 seconds
+Maximum width for B-ibm32.mtx.rnd is 5
+Processing file: C-bcspwr01.mtx.rnd with k = 21
+Gurobi build done — vars≈1911, cons≈6435 (+anti=2300)
+Solution found: width=8
+Time taken: 0.103 seconds
+[Test k=21, w=8] Time: 0.43 seconds
+Gurobi build done — vars≈1950, cons≈6407 (+anti=2116)
+Solution found: width=9
+Time taken: 0.119 seconds
+[Test k=21, w=9] Time: 0.45 seconds
+Gurobi build done — vars≈1989, cons≈6379 (+anti=1932)
+Solution found: width=10
+Time taken: 0.117 seconds
+[Test k=21, w=10] Time: 0.45 seconds
+Gurobi build done — vars≈1638, cons≈5085 (+anti=1886)
+No solution exists (or no feasible solution found under timelimit).
+Time taken: 0.034 seconds
+[Test k=21, w=11] Time: 0.37 seconds
+$$$$
+10
+$$$$
+Time taken for C-bcspwr01.mtx.rnd with k = 21: 1.7 seconds
+Maximum width for C-bcspwr01.mtx.rnd is 10
+Processing file: D-bcsstk01.mtx.rnd with k = 29
+Gurobi build done — vars≈3648, cons≈22389 (+anti=14608)
+Solution found: width=4
+Time taken: 0.305 seconds
+[Test k=29, w=4] Time: 0.66 seconds
+Gurobi build done — vars≈3552, cons≈22741 (+anti=14960)
+Solution found: width=5
+Time taken: 0.468 seconds
+[Test k=29, w=5] Time: 0.81 seconds
+Gurobi build done — vars≈3504, cons≈22565 (+anti=14784)
+No solution exists (or no feasible solution found under timelimit).
+Time taken: 0.212 seconds
+[Test k=29, w=6] Time: 0.57 seconds
+$$$$
+5
+$$$$
+Time taken for D-bcsstk01.mtx.rnd with k = 29: 2.04 seconds
+Maximum width for D-bcsstk01.mtx.rnd is 5
+Processing file: E-bcspwr02.mtx.rnd with k = 35
+Gurobi build done — vars≈4116, cons≈13922 (+anti=4602)
+Solution found: width=15
+Time taken: 0.334 seconds
+[Test k=35, w=15] Time: 0.67 seconds
+Gurobi build done — vars≈4165, cons≈13882 (+anti=4366)
+Solution found: width=16
+Time taken: 0.398 seconds
+[Test k=35, w=16] Time: 0.74 seconds
+Gurobi build done — vars≈4214, cons≈13842 (+anti=4130)
+Solution found: width=17
+Time taken: 0.401 seconds
+[Test k=35, w=17] Time: 0.84 seconds
+Gurobi build done — vars≈3430, cons≈10843 (+anti=4071)
+No solution exists (or no feasible solution found under timelimit).
+Time taken: 0.067 seconds
+[Test k=35, w=18] Time: 0.42 seconds
+$$$$
+17
+$$$$
+Time taken for E-bcspwr02.mtx.rnd with k = 35: 2.68 seconds
+Maximum width for E-bcspwr02.mtx.rnd is 17
+Processing file: F-curtis54.mtx.rnd with k = 33
+Gurobi build done — vars≈4536, cons≈22170 (+anti=11904)
+Solution found: width=7
+Time taken: 0.403 seconds
+[Test k=33, w=7] Time: 0.76 seconds
+Gurobi build done — vars≈4698, cons≈22322 (+anti=11408)
+Solution found: width=8
+Time taken: 0.812 seconds
+[Test k=33, w=8] Time: 1.14 seconds
+Gurobi build done — vars≈4428, cons≈21334 (+anti=11284)
+No solution exists (or no feasible solution found under timelimit).
+Time taken: 0.224 seconds
+[Test k=33, w=9] Time: 0.56 seconds
+$$$$
+8
+$$$$
+Time taken for F-curtis54.mtx.rnd with k = 33: 2.46 seconds
+Maximum width for F-curtis54.mtx.rnd is 8
+Processing file: G-will57.mtx.rnd with k = 31
+Gurobi build done — vars≈4674, cons≈21907 (+anti=11303)
+Solution found: width=6
+Time taken: 0.321 seconds
+[Test k=31, w=6] Time: 0.65 seconds
+Gurobi build done — vars≈4560, cons≈21552 (+anti=11176)
+Solution found: width=7
+Time taken: 0.498 seconds
+[Test k=31, w=7] Time: 0.82 seconds
+Gurobi build done — vars≈4332, cons≈20741 (+anti=11049)
+No solution exists (or no feasible solution found under timelimit).
+Time taken: 0.192 seconds
+[Test k=31, w=8] Time: 0.52 seconds
+$$$$
+7
+$$$$
+Time taken for G-will57.mtx.rnd with k = 31: 1.99 seconds
+Maximum width for G-will57.mtx.rnd is 7
+Processing file: H-impcol_b.mtx.rnd with k = 37
+Gurobi build done — vars≈5782, cons≈44060 (+anti=31191)
+Solution found: width=5
+Time taken: 0.873 seconds
+[Test k=37, w=5] Time: 1.21 seconds
+Gurobi build done — vars≈5841, cons≈44251 (+anti=30910)
+No solution exists (or no feasible solution found under timelimit).
+Time taken: 0.629 seconds
+[Test k=37, w=6] Time: 0.96 seconds
+$$$$
+5
+$$$$
+Time taken for H-impcol_b.mtx.rnd with k = 37: 2.18 seconds
+Maximum width for H-impcol_b.mtx.rnd is 5
+Processing file: I-ash85.mtx.rnd with k = 67
+Gurobi build done — vars≈14960, cons≈79694 (+anti=43800)
+Solution found: width=15
+Time taken: 18.173 seconds
+[Test k=67, w=15] Time: 18.54 seconds
+Gurobi build done — vars≈15215, cons≈79838 (+anti=42924)
+Solution found: width=16
+Time taken: 10.289 seconds
+[Test k=67, w=16] Time: 10.66 seconds
+Gurobi build done — vars≈14110, cons≈75539 (+anti=42705)
+Solution found: width=17
+Time taken: 17.282 seconds
+[Test k=67, w=17] Time: 17.66 seconds
+Gurobi build done — vars≈14280, cons≈75343 (+anti=41829)
+Solution found: width=18
+Time taken: 103.868 seconds
+[Test k=67, w=18] Time: 104.27 seconds
+Gurobi build done — vars≈14450, cons≈75147 (+anti=40953)
+[Test k=67, w=19] Time: 1648.97 seconds
+$$$$
+-18
+$$$$
+Time taken for I-ash85.mtx.rnd with k = 67: 1800.1 seconds
+Maximum width before timeout for I-ash85.mtx.rnd is 18
+time out
+Processing file: J-nos4.mtx.rnd with k = 56
+Gurobi build done — vars≈14400, cons≈71503 (+anti=37297)
+Solution found: width=17
+Time taken: 3.229 seconds
+[Test k=56, w=17] Time: 3.58 seconds
+Gurobi build done — vars≈14600, cons≈71315 (+anti=36309)
+Solution found: width=18
+Time taken: 3.691 seconds
+[Test k=56, w=18] Time: 4.04 seconds
+Gurobi build done — vars≈13000, cons≈65068 (+anti=36062)
+Solution found: width=19
+Time taken: 4.162 seconds
+[Test k=56, w=19] Time: 4.49 seconds
+Gurobi build done — vars≈13100, cons≈64480 (+anti=35074)
+Solution found: width=20
+Time taken: 4.86 seconds
+[Test k=56, w=20] Time: 5.2 seconds
+Gurobi build done — vars≈13200, cons≈63892 (+anti=34086)
+Solution found: width=21
+Time taken: 6.081 seconds
+[Test k=56, w=21] Time: 6.42 seconds
+Gurobi build done — vars≈13300, cons≈63304 (+anti=33098)
+No solution exists (or no feasible solution found under timelimit).
+Time taken: 19.828 seconds
+[Test k=56, w=22] Time: 20.2 seconds
+$$$$
+21
+$$$$
+Time taken for J-nos4.mtx.rnd with k = 56: 43.95 seconds
+Maximum width for J-nos4.mtx.rnd is 21
+Processing file: K-dwt__234.mtx.rnd with k = 80
+Gurobi build done — vars≈22230, cons≈82227 (+anti=31428)
+Solution found: width=31
+Time taken: 14.984 seconds
+[Test k=80, w=31] Time: 15.36 seconds
+Gurobi build done — vars≈22347, cons≈82047 (+anti=30780)
+Solution found: width=32
+Time taken: 7.486 seconds
+[Test k=80, w=32] Time: 7.84 seconds
+Gurobi build done — vars≈22464, cons≈81867 (+anti=30132)
+Solution found: width=33
+Time taken: 13.901 seconds
+[Test k=80, w=33] Time: 14.27 seconds
+Gurobi build done — vars≈22581, cons≈81687 (+anti=29484)
+Solution found: width=34
+Time taken: 4.291 seconds
+[Test k=80, w=34] Time: 4.64 seconds
+Gurobi build done — vars≈22698, cons≈81507 (+anti=28836)
+Solution found: width=35
+Time taken: 6.641 seconds
+[Test k=80, w=35] Time: 6.98 seconds
+Gurobi build done — vars≈22815, cons≈81327 (+anti=28188)
+Solution found: width=36
+Time taken: 7.529 seconds
+[Test k=80, w=36] Time: 7.89 seconds
+Gurobi build done — vars≈22932, cons≈81147 (+anti=27540)
+Solution found: width=37
+Time taken: 5.987 seconds
+[Test k=80, w=37] Time: 6.33 seconds
+Gurobi build done — vars≈23049, cons≈80967 (+anti=26892)
+Solution found: width=38
+Time taken: 53.201 seconds
+[Test k=80, w=38] Time: 53.58 seconds
+Gurobi build done — vars≈23166, cons≈80787 (+anti=26244)
+Solution found: width=39
+Time taken: 445.981 seconds
+[Test k=80, w=39] Time: 446.43 seconds
+Gurobi build done — vars≈18720, cons≈62823 (+anti=25596)
+No solution exists (or no feasible solution found under timelimit).
+Time taken: 0.366 seconds
+[Test k=80, w=40] Time: 0.72 seconds
+$$$$
+39
+$$$$
+Time taken for K-dwt__234.mtx.rnd with k = 80: 564.04 seconds
+Maximum width for K-dwt__234.mtx.rnd is 39
+Processing file: L-bcspwr03.mtx.rnd with k = 62
+Gurobi build done — vars≈19116, cons≈75200 (+anti=29177)
+Solution found: width=20
+Time taken: 2.406 seconds
+[Test k=62, w=20] Time: 2.75 seconds
+Gurobi build done — vars≈16992, cons≈66997 (+anti=28998)
+No solution exists (or no feasible solution found under timelimit).
+Time taken: 0.665 seconds
+[Test k=62, w=21] Time: 1.01 seconds
+$$$$
+20
+$$$$
+Time taken for L-bcspwr03.mtx.rnd with k = 62: 3.77 seconds
+Maximum width for L-bcspwr03.mtx.rnd is 20
+Processing file: M-bcsstk06.mtx.rnd with k = 323
+Gurobi build done — vars≈388920, cons≈5330033 (+anti=4341240)
+[Test k=323, w=21] Time: 1800.46 seconds
+$$$$
+-9999
+$$$$
+Time taken for M-bcsstk06.mtx.rnd with k = 323: 1800.46 seconds
+No answer before timeout for M-bcsstk06.mtx.rnd
+time out
+Processing file: O-impcol_d.mtx.rnd with k = 221
+Gurobi build done — vars≈246500, cons≈1476054 (+anti=871696)
+Solution found: width=47
+Time taken: 514.492 seconds
+[Test k=221, w=47] Time: 515.22 seconds
+Gurobi build done — vars≈247775, cons≈1476086 (+anti=866628)
+[Test k=221, w=48] Time: 1284.91 seconds
+$$$$
+-47
+$$$$
+Time taken for O-impcol_d.mtx.rnd with k = 221: 1800.14 seconds
+Maximum width before timeout for O-impcol_d.mtx.rnd is 47
+time out
+Processing file: P-can__445.mtx.rnd with k = 333
+Gurobi build done — vars≈397830, cons≈2822378 (+anti=1831698)
+[Test k=333, w=58] Time: 1800.43 seconds
+$$$$
+-9999
+$$$$
+Time taken for P-can__445.mtx.rnd with k = 333: 1800.44 seconds
+No answer before timeout for P-can__445.mtx.rnd
+time out
+Processing file: Q-494_bus.mtx.rnd with k = 326
+Gurobi build done — vars≈392730, cons≈1349295 (+anti=425436)
+Solution found: width=144
+Time taken: 1160.253 seconds
+[Test k=326, w=144] Time: 1160.96 seconds
+Gurobi build done — vars≈393224, cons≈1348927 (+anti=423092)
+[Test k=326, w=145] Time: 639.25 seconds
+$$$$
+-144
+$$$$
+Time taken for Q-494_bus.mtx.rnd with k = 326: 1800.22 seconds
+Maximum width before timeout for Q-494_bus.mtx.rnd is 144
+time out
+Processing file: R-dwt__503.mtx.rnd with k = 347
+Gurobi build done — vars≈499982, cons≈4691803 (+anti=3411070)
+[Test k=347, w=31] Time: 1800.44 seconds
+$$$$
+-9999
+$$$$
+Time taken for R-dwt__503.mtx.rnd with k = 347: 1800.46 seconds
+No answer before timeout for R-dwt__503.mtx.rnd
+time out
+Processing file: S-sherman4.mtx.rnd with k = 322
+Gurobi build done — vars≈433524, cons≈1942183 (+anti=914562)
+[Test k=322, w=151] Time: 1800.25 seconds
+$$$$
+-9999
+$$$$
+Time taken for S-sherman4.mtx.rnd with k = 322: 1800.26 seconds
+No answer before timeout for S-sherman4.mtx.rnd
+time out
+Processing file: T-dwt__592.mtx.rnd with k = 378
+Gurobi build done — vars≈599104, cons≈4290434 (+anti=2799696)
+[Test k=378, w=65] Time: 1800.47 seconds
+$$$$
+-9999
+$$$$
+Time taken for T-dwt__592.mtx.rnd with k = 378: 1800.48 seconds
+No answer before timeout for T-dwt__592.mtx.rnd
+time out
+Processing file: U-662_bus.mtx.rnd with k = 516
+Gurobi build done — vars≈906940, cons≈3504331 (+anti=1249374)
+[Test k=516, w=170] Time: 1800.3 seconds
+$$$$
+-9999
+$$$$
+Time taken for U-662_bus.mtx.rnd with k = 516: 1800.31 seconds
+No answer before timeout for U-662_bus.mtx.rnd
+time out
+Processing file: V-nos6.mtx.rnd with k = 405
+Gurobi build done — vars≈677700, cons≈2694337 (+anti=1081020)
+[Test k=405, w=195] Time: 1800.57 seconds
+$$$$
+-9999
+$$$$
+Time taken for V-nos6.mtx.rnd with k = 405: 1800.58 seconds
+No answer before timeout for V-nos6.mtx.rnd
+time out
+Processing file: W-685_bus.mtx.rnd with k = 397
+Gurobi build done — vars≈754870, cons≈3541154 (+anti=1621730)
+Solution found: width=78
+Time taken: 1624.065 seconds
+[Test k=397, w=78] Time: 1625.28 seconds
+Gurobi build done — vars≈757610, cons≈3546986 (+anti=1616602)
+[Test k=397, w=79] Time: 175.25 seconds
+$$$$
+-78
+$$$$
+Time taken for W-685_bus.mtx.rnd with k = 397: 1800.55 seconds
+Maximum width before timeout for W-685_bus.mtx.rnd is 78
+time out
+Processing file: X-can__715.mtx.rnd with k = 500
+Gurobi build done — vars≈990275, cons≈7495662 (+anti=4980150)
+[Test k=500, w=78] Time: 1802.35 seconds
+$$$$
+-9999
+$$$$
+Time taken for X-can__715.mtx.rnd with k = 500: 1802.36 seconds
+No answer before timeout for X-can__715.mtx.rnd
+time out
+Data written to output/output_gurobi_1800.xlsx

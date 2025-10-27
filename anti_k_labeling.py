@@ -499,7 +499,7 @@ def cnf():
         lst.append(folder_path + "/" + os.path.basename(file))
         filename.append(os.path.basename(file))
 
-    for i in range(10,len(lst)):
+    for i in range(0,len(lst)):
         time_start = time.time()
         graph = read_input(lst[i])
         rand = proportion[i]
@@ -507,6 +507,7 @@ def cnf():
         file = filename[i]
         ans = -9999
         time_limit = 3000
+        return 
         # ans = binary_search_for_ans(graph, k, left, right, file, time_limit)
         ans = tuantu_for_ans(graph, k, rand, 39, upper_bound[i], file, time_limit)
         print("$$$$")

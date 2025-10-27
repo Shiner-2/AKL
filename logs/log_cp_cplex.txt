@@ -1,0 +1,102 @@
+===== Anti-k-Labeling (CP Optimizer, sub-process capped) =====
+Folder: data/11. hb
+==========================================
+
+▶ File: A-pores_1.mtx.rnd
+   n = 30, |E| = 103, LB = 4, UB = 7, w = 23
+   - Running k = 4 ... Feasible ✓ (time = 0.03s)
+✅ Nghiệm hợp lệ cho Anti-k-Labeling.
+   - Running k = 5 ... Feasible ✓ (time = 0.03s)
+✅ Nghiệm hợp lệ cho Anti-k-Labeling.
+   - Running k = 6 ... Infeasible ✗ (time = 23.37s)
+------------------------------------------
+
+▶ File: B-ibm32.mtx.rnd
+   n = 32, |E| = 90, LB = 5, UB = 9, w = 18
+   - Running k = 5 ... Feasible ✓ (time = 0.02s)
+✅ Nghiệm hợp lệ cho Anti-k-Labeling.
+   - Running k = 6 ... Infeasible ✗ (time = 0.03s)
+------------------------------------------
+
+▶ File: C-bcspwr01.mtx.rnd
+   n = 39, |E| = 46, LB = 8, UB = 17, w = 21
+   - Running k = 8 ... Feasible ✓ (time = 0.02s)
+✅ Nghiệm hợp lệ cho Anti-k-Labeling.
+   - Running k = 9 ... Feasible ✓ (time = 0.03s)
+✅ Nghiệm hợp lệ cho Anti-k-Labeling.
+   - Running k = 10 ... Feasible ✓ (time = 0.02s)
+✅ Nghiệm hợp lệ cho Anti-k-Labeling.
+   - Running k = 11 ... Infeasible ✗ (time = 0.02s)
+------------------------------------------
+
+▶ File: D-bcsstk01.mtx.rnd
+   n = 48, |E| = 176, LB = 4, UB = 9, w = 29
+   - Running k = 4 ... Feasible ✓ (time = 0.02s)
+✅ Nghiệm hợp lệ cho Anti-k-Labeling.
+   - Running k = 5 ... Feasible ✓ (time = 0.04s)
+✅ Nghiệm hợp lệ cho Anti-k-Labeling.
+   - Running k = 6 ... Infeasible ✗ (time = 0.30s)
+------------------------------------------
+
+▶ File: E-bcspwr02.mtx.rnd
+   n = 49, |E| = 59, LB = 15, UB = 22, w = 35
+   - Running k = 15 ... Feasible ✓ (time = 0.03s)
+✅ Nghiệm hợp lệ cho Anti-k-Labeling.
+   - Running k = 16 ... Feasible ✓ (time = 0.06s)
+✅ Nghiệm hợp lệ cho Anti-k-Labeling.
+   - Running k = 17 ... Feasible ✓ (time = 0.16s)
+✅ Nghiệm hợp lệ cho Anti-k-Labeling.
+   - Running k = 18 ... Infeasible ✗ (time = 0.02s)
+------------------------------------------
+
+▶ File: F-curtis54.mtx.rnd
+   n = 54, |E| = 124, LB = 7, UB = 13, w = 33
+   - Running k = 7 ... Feasible ✓ (time = 0.03s)
+✅ Nghiệm hợp lệ cho Anti-k-Labeling.
+   - Running k = 8 ... Feasible ✓ (time = 0.03s)
+✅ Nghiệm hợp lệ cho Anti-k-Labeling.
+   - Running k = 9 ... Infeasible ✗ (time = 0.07s)
+------------------------------------------
+
+▶ File: G-will57.mtx.rnd
+   n = 57, |E| = 127, LB = 6, UB = 14, w = 31
+   - Running k = 6 ... Feasible ✓ (time = 0.03s)
+✅ Nghiệm hợp lệ cho Anti-k-Labeling.
+   - Running k = 7 ... Feasible ✓ (time = 0.05s)
+✅ Nghiệm hợp lệ cho Anti-k-Labeling.
+   - Running k = 8 ... Infeasible ✗ (time = 0.09s)
+------------------------------------------
+
+▶ File: H-impcol_b.mtx.rnd
+   n = 59, |E| = 281, LB = 5, UB = 8, w = 37
+   - Running k = 5 ... Feasible ✓ (time = 0.03s)
+✅ Nghiệm hợp lệ cho Anti-k-Labeling.
+   - Running k = 6 ... Infeasible ✗ (time = 6.80s)
+------------------------------------------
+
+▶ File: I-ash85.mtx.rnd
+   n = 85, |E| = 219, LB = 15, UB = 24, w = 67
+   - Running k = 15 ... Feasible ✓ (time = 0.09s)
+✅ Nghiệm hợp lệ cho Anti-k-Labeling.
+   - Running k = 16 ... Feasible ✓ (time = 0.07s)
+✅ Nghiệm hợp lệ cho Anti-k-Labeling.
+   - Running k = 17 ... Feasible ✓ (time = 0.77s)
+✅ Nghiệm hợp lệ cho Anti-k-Labeling.
+   - Running k = 18 ... Feasible ✓ (time = 118.59s)
+✅ Nghiệm hợp lệ cho Anti-k-Labeling.
+   - Running k = 19 ... Timeout ⏱ (time = 1680.48s)
+------------------------------------------
+
+▶ File: J-nos4.mtx.rnd
+   n = 100, |E| = 247, LB = 17, UB = 36, w = 56
+   - Running k = 17 ... Feasible ✓ (time = 0.05s)
+✅ Nghiệm hợp lệ cho Anti-k-Labeling.
+   - Running k = 18 ... Feasible ✓ (time = 0.05s)
+✅ Nghiệm hợp lệ cho Anti-k-Labeling.
+   - Running k = 19 ... Feasible ✓ (time = 0.17s)
+✅ Nghiệm hợp lệ cho Anti-k-Labeling.
+   - Running k = 20 ... Feasible ✓ (time = 0.23s)
+✅ Nghiệm hợp lệ cho Anti-k-Labeling.
+   - Running k = 21 ... Feasible ✓ (time = 2.58s)
+✅ Nghiệm hợp lệ cho Anti-k-Labeling.
+   - Running k = 22 ... 

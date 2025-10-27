@@ -1,5 +1,5 @@
-2025-10-21 15:36:58,883 | INFO | MainProcess | === Start solve() ===
-2025-10-21 15:37:00,870 | INFO | Process-1 | Number of variables: 677701
-2025-10-21 15:37:00,870 | INFO | Process-1 | Number of clauses: 2693385
-2025-10-21 15:37:02,141 | INFO | Process-1 | CNF written to cnf/V_n675_k405/V_n675_k405_w195.cnf
-2025-10-21 15:37:02,147 | INFO | Process-1 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk -no-model cnf/V_n675_k405/V_n675_k405_w195.cnf
+2025-10-28 00:02:44,789 | INFO | MainProcess | === Start solve() ===
+2025-10-28 00:02:51,226 | INFO | Process-1 | Number of variables: 677701
+2025-10-28 00:02:51,229 | INFO | Process-1 | Number of clauses: 2693385
+2025-10-28 00:02:52,780 | INFO | Process-1 | CNF written to cnf/V_n675_k405/V_n675_k405_w195.cnf
+2025-10-28 00:02:52,781 | INFO | Process-1 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk -no-model cnf/V_n675_k405/V_n675_k405_w195.cnf

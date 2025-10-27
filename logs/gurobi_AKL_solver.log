@@ -1,0 +1,1065 @@
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 20:51:56 2025
+
+Set parameter WLSAccessID
+Set parameter WLSSecret
+Set parameter LicenseID to value 2663665
+Set parameter LogFile to value "logs/gurobi_AKL_solver.log"
+Academic license 2663665 - for non-commercial use only - registered to tu___@vnu.edu.vn
+Set parameter TimeLimit to value 1800
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (win64 - Windows 11.0 (26100.2))
+
+CPU model: Intel(R) Core(TM) i7-14700KF, instruction set [SSE2|AVX|AVX2]
+Thread count: 20 physical cores, 28 logical processors, using up to 28 threads
+
+Non-default parameters:
+TimeLimit  1800
+
+Academic license 2663665 - for non-commercial use only - registered to tu___@vnu.edu.vn
+Optimize a model with 10363 rows, 1740 columns and 22225 nonzeros
+Model fingerprint: 0xd6d3461e
+Variable types: 0 continuous, 1740 integer (1740 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 7930 rows and 369 columns
+Presolve time: 0.04s
+Presolved: 2433 rows, 1371 columns, 9883 nonzeros
+Variable types: 0 continuous, 1371 integer (1371 binary)
+
+Root relaxation: objective 0.000000e+00, 1031 iterations, 0.02 seconds (0.04 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       0.0000000    0.00000  0.00%     -    0s
+
+Explored 1 nodes (1352 simplex iterations) in 0.08 seconds (0.12 work units)
+Thread count was 28 (of 28 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 20:51:58 2025
+
+Set parameter WLSAccessID
+Set parameter WLSSecret
+Set parameter LicenseID to value 2663665
+Set parameter LogFile to value "logs/gurobi_AKL_solver.log"
+Academic license 2663665 - for non-commercial use only - registered to tu___@vnu.edu.vn
+Set parameter TimeLimit to value 1.7982036983966827e+03
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (win64 - Windows 11.0 (26100.2))
+
+CPU model: Intel(R) Core(TM) i7-14700KF, instruction set [SSE2|AVX|AVX2]
+Thread count: 20 physical cores, 28 logical processors, using up to 28 threads
+
+Non-default parameters:
+TimeLimit  1.7982036983966827e+03
+
+Academic license 2663665 - for non-commercial use only - registered to tu___@vnu.edu.vn
+Optimize a model with 10380 rows, 1740 columns and 22289 nonzeros
+Model fingerprint: 0xb68a8f28
+Variable types: 0 continuous, 1740 integer (1740 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 7908 rows and 332 columns
+Presolve time: 0.08s
+Presolved: 2472 rows, 1408 columns, 9842 nonzeros
+Variable types: 0 continuous, 1408 integer (1408 binary)
+
+Root relaxation: objective 0.000000e+00, 1414 iterations, 0.03 seconds (0.06 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       0.0000000    0.00000  0.00%     -    0s
+
+Explored 1 nodes (1913 simplex iterations) in 0.13 seconds (0.20 work units)
+Thread count was 28 (of 28 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 20:51:58 2025
+
+Set parameter WLSAccessID
+Set parameter WLSSecret
+Set parameter LicenseID to value 2663665
+Set parameter LogFile to value "logs/gurobi_AKL_solver.log"
+Academic license 2663665 - for non-commercial use only - registered to tu___@vnu.edu.vn
+Set parameter TimeLimit to value 1.7976492443084717e+03
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (win64 - Windows 11.0 (26100.2))
+
+CPU model: Intel(R) Core(TM) i7-14700KF, instruction set [SSE2|AVX|AVX2]
+Thread count: 20 physical cores, 28 logical processors, using up to 28 threads
+
+Non-default parameters:
+TimeLimit  1.7976492443084717e+03
+
+Academic license 2663665 - for non-commercial use only - registered to tu___@vnu.edu.vn
+Optimize a model with 10157 rows, 1680 columns and 21813 nonzeros
+Model fingerprint: 0xe70fe4d7
+Variable types: 0 continuous, 1680 integer (1680 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 7774 rows and 298 columns
+Presolve time: 0.09s
+Presolved: 2383 rows, 1382 columns, 9415 nonzeros
+Variable types: 0 continuous, 1382 integer (1382 binary)
+
+Root relaxation: objective 0.000000e+00, 1680 iterations, 0.04 seconds (0.08 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0  466          -    0.00000      -     -    0s
+     0     0    0.00000    0  476          -    0.00000      -     -    0s
+     0     0    0.00000    0  474          -    0.00000      -     -    0s
+     0     0    0.00000    0  440          -    0.00000      -     -    0s
+     0     0    0.00000    0  318          -    0.00000      -     -    0s
+     0     0    0.00000    0  466          -    0.00000      -     -    0s
+     0     0    0.00000    0  448          -    0.00000      -     -    0s
+     0     0 1.000e+100    0  414          - infeasible      -     -    0s
+
+Cutting planes:
+  Implied bound: 1
+  Clique: 22
+  Zero half: 42
+
+Explored 1 nodes (9665 simplex iterations) in 0.68 seconds (1.12 work units)
+Thread count was 28 (of 28 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 20:53:54 2025
+
+Set parameter WLSAccessID
+Set parameter WLSSecret
+Set parameter LicenseID to value 2663665
+Set parameter LogFile to value "logs/gurobi_AKL_solver.log"
+Academic license 2663665 - for non-commercial use only - registered to tu___@vnu.edu.vn
+Set parameter TimeLimit to value 1800
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (win64 - Windows 11.0 (26100.2))
+
+CPU model: Intel(R) Core(TM) i7-14700KF, instruction set [SSE2|AVX|AVX2]
+Thread count: 20 physical cores, 28 logical processors, using up to 28 threads
+
+Non-default parameters:
+TimeLimit  1800
+
+Academic license 2663665 - for non-commercial use only - registered to tu___@vnu.edu.vn
+Optimize a model with 10363 rows, 1740 columns and 22225 nonzeros
+Model fingerprint: 0xd6d3461e
+Variable types: 0 continuous, 1740 integer (1740 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 7930 rows and 369 columns
+Presolve time: 0.03s
+Presolved: 2433 rows, 1371 columns, 9883 nonzeros
+Variable types: 0 continuous, 1371 integer (1371 binary)
+
+Root relaxation: objective 0.000000e+00, 1031 iterations, 0.02 seconds (0.04 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       0.0000000    0.00000  0.00%     -    0s
+
+Explored 1 nodes (1352 simplex iterations) in 0.07 seconds (0.12 work units)
+Thread count was 28 (of 28 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 20:53:54 2025
+
+Set parameter WLSAccessID
+Set parameter WLSSecret
+Set parameter LicenseID to value 2663665
+Set parameter LogFile to value "logs/gurobi_AKL_solver.log"
+Academic license 2663665 - for non-commercial use only - registered to tu___@vnu.edu.vn
+Set parameter TimeLimit to value 1.7994937326908112e+03
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (win64 - Windows 11.0 (26100.2))
+
+CPU model: Intel(R) Core(TM) i7-14700KF, instruction set [SSE2|AVX|AVX2]
+Thread count: 20 physical cores, 28 logical processors, using up to 28 threads
+
+Non-default parameters:
+TimeLimit  1.7994937326908112e+03
+
+Academic license 2663665 - for non-commercial use only - registered to tu___@vnu.edu.vn
+Optimize a model with 10380 rows, 1740 columns and 22289 nonzeros
+Model fingerprint: 0xb68a8f28
+Variable types: 0 continuous, 1740 integer (1740 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 7908 rows and 332 columns
+Presolve time: 0.08s
+Presolved: 2472 rows, 1408 columns, 9842 nonzeros
+Variable types: 0 continuous, 1408 integer (1408 binary)
+
+Root relaxation: objective 0.000000e+00, 1414 iterations, 0.03 seconds (0.06 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       0.0000000    0.00000  0.00%     -    0s
+
+Explored 1 nodes (1913 simplex iterations) in 0.13 seconds (0.20 work units)
+Thread count was 28 (of 28 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 20:53:55 2025
+
+Set parameter WLSAccessID
+Set parameter WLSSecret
+Set parameter LicenseID to value 2663665
+Set parameter LogFile to value "logs/gurobi_AKL_solver.log"
+Academic license 2663665 - for non-commercial use only - registered to tu___@vnu.edu.vn
+Set parameter TimeLimit to value 1.7989373602867126e+03
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (win64 - Windows 11.0 (26100.2))
+
+CPU model: Intel(R) Core(TM) i7-14700KF, instruction set [SSE2|AVX|AVX2]
+Thread count: 20 physical cores, 28 logical processors, using up to 28 threads
+
+Non-default parameters:
+TimeLimit  1.7989373602867126e+03
+
+Academic license 2663665 - for non-commercial use only - registered to tu___@vnu.edu.vn
+Optimize a model with 10157 rows, 1680 columns and 21813 nonzeros
+Model fingerprint: 0xe70fe4d7
+Variable types: 0 continuous, 1680 integer (1680 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 7774 rows and 298 columns
+Presolve time: 0.09s
+Presolved: 2383 rows, 1382 columns, 9415 nonzeros
+Variable types: 0 continuous, 1382 integer (1382 binary)
+
+Root relaxation: objective 0.000000e+00, 1680 iterations, 0.05 seconds (0.08 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0  466          -    0.00000      -     -    0s
+     0     0    0.00000    0  476          -    0.00000      -     -    0s
+     0     0    0.00000    0  474          -    0.00000      -     -    0s
+     0     0    0.00000    0  440          -    0.00000      -     -    0s
+     0     0    0.00000    0  318          -    0.00000      -     -    0s
+     0     0    0.00000    0  466          -    0.00000      -     -    0s
+     0     0    0.00000    0  448          -    0.00000      -     -    0s
+     0     0 1.000e+100    0  414          - infeasible      -     -    0s
+
+Cutting planes:
+  Implied bound: 1
+  Clique: 22
+  Zero half: 42
+
+Explored 1 nodes (9665 simplex iterations) in 0.71 seconds (1.12 work units)
+Thread count was 28 (of 28 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 20:53:56 2025
+
+Set parameter WLSAccessID
+Set parameter WLSSecret
+Set parameter LicenseID to value 2663665
+Set parameter LogFile to value "logs/gurobi_AKL_solver.log"
+Academic license 2663665 - for non-commercial use only - registered to tu___@vnu.edu.vn
+Set parameter TimeLimit to value 1800
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (win64 - Windows 11.0 (26100.2))
+
+CPU model: Intel(R) Core(TM) i7-14700KF, instruction set [SSE2|AVX|AVX2]
+Thread count: 20 physical cores, 28 logical processors, using up to 28 threads
+
+Non-default parameters:
+TimeLimit  1800
+
+Academic license 2663665 - for non-commercial use only - registered to tu___@vnu.edu.vn
+Optimize a model with 7240 rows, 1408 columns and 15708 nonzeros
+Model fingerprint: 0x60fa1699
+Variable types: 0 continuous, 1408 integer (1408 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 4111 rows and 301 columns
+Presolve time: 0.05s
+Presolved: 3129 rows, 1107 columns, 8469 nonzeros
+Variable types: 0 continuous, 1107 integer (1107 binary)
+
+Root relaxation: objective 0.000000e+00, 1045 iterations, 0.02 seconds (0.05 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0   83          -    0.00000      -     -    0s
+H    0     0                       0.0000000    0.00000  0.00%     -    0s
+
+Explored 1 nodes (1643 simplex iterations) in 0.11 seconds (0.19 work units)
+Thread count was 28 (of 28 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 20:53:56 2025
+
+Set parameter WLSAccessID
+Set parameter WLSSecret
+Set parameter LicenseID to value 2663665
+Set parameter LogFile to value "logs/gurobi_AKL_solver.log"
+Academic license 2663665 - for non-commercial use only - registered to tu___@vnu.edu.vn
+Set parameter TimeLimit to value 1.7994695224761963e+03
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (win64 - Windows 11.0 (26100.2))
+
+CPU model: Intel(R) Core(TM) i7-14700KF, instruction set [SSE2|AVX|AVX2]
+Thread count: 20 physical cores, 28 logical processors, using up to 28 threads
+
+Non-default parameters:
+TimeLimit  1.7994695224761963e+03
+
+Academic license 2663665 - for non-commercial use only - registered to tu___@vnu.edu.vn
+Optimize a model with 6624 rows, 1312 columns and 14412 nonzeros
+Model fingerprint: 0xbb13c414
+Variable types: 0 continuous, 1312 integer (1312 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 4534 rows and 460 columns
+Presolve time: 0.01s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds (0.03 work units)
+Thread count was 1 (of 28 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 20:53:57 2025
+
+Set parameter WLSAccessID
+Set parameter WLSSecret
+Set parameter LicenseID to value 2663665
+Set parameter LogFile to value "logs/gurobi_AKL_solver.log"
+Academic license 2663665 - for non-commercial use only - registered to tu___@vnu.edu.vn
+Set parameter TimeLimit to value 1800
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (win64 - Windows 11.0 (26100.2))
+
+CPU model: Intel(R) Core(TM) i7-14700KF, instruction set [SSE2|AVX|AVX2]
+Thread count: 20 physical cores, 28 logical processors, using up to 28 threads
+
+Non-default parameters:
+TimeLimit  1800
+
+Academic license 2663665 - for non-commercial use only - registered to tu___@vnu.edu.vn
+Optimize a model with 6435 rows, 1911 columns and 14603 nonzeros
+Model fingerprint: 0x2ad3369e
+Variable types: 0 continuous, 1911 integer (1911 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 3749 rows and 469 columns
+Presolve time: 0.06s
+Presolved: 2686 rows, 1442 columns, 7427 nonzeros
+Variable types: 0 continuous, 1442 integer (1442 binary)
+Found heuristic solution: objective 0.0000000
+
+Explored 0 nodes (0 simplex iterations) in 0.07 seconds (0.09 work units)
+Thread count was 28 (of 28 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 20:53:57 2025
+
+Set parameter WLSAccessID
+Set parameter WLSSecret
+Set parameter LicenseID to value 2663665
+Set parameter LogFile to value "logs/gurobi_AKL_solver.log"
+Academic license 2663665 - for non-commercial use only - registered to tu___@vnu.edu.vn
+Set parameter TimeLimit to value 1.7995277967453003e+03
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (win64 - Windows 11.0 (26100.2))
+
+CPU model: Intel(R) Core(TM) i7-14700KF, instruction set [SSE2|AVX|AVX2]
+Thread count: 20 physical cores, 28 logical processors, using up to 28 threads
+
+Non-default parameters:
+TimeLimit  1.7995277967453003e+03
+
+Academic license 2663665 - for non-commercial use only - registered to tu___@vnu.edu.vn
+Optimize a model with 6407 rows, 1950 columns and 14586 nonzeros
+Model fingerprint: 0x9af862be
+Variable types: 0 continuous, 1950 integer (1950 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 4036 rows and 615 columns
+Presolve time: 0.06s
+Presolved: 2371 rows, 1335 columns, 6709 nonzeros
+Variable types: 0 continuous, 1335 integer (1335 binary)
+
+Root relaxation: objective 0.000000e+00, 1212 iterations, 0.02 seconds (0.03 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       0.0000000    0.00000  0.00%     -    0s
+
+Explored 1 nodes (1500 simplex iterations) in 0.09 seconds (0.12 work units)
+Thread count was 28 (of 28 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 20:53:58 2025
+
+Set parameter WLSAccessID
+Set parameter WLSSecret
+Set parameter LicenseID to value 2663665
+Set parameter LogFile to value "logs/gurobi_AKL_solver.log"
+Academic license 2663665 - for non-commercial use only - registered to tu___@vnu.edu.vn
+Set parameter TimeLimit to value 1.7990018305778503e+03
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (win64 - Windows 11.0 (26100.2))
+
+CPU model: Intel(R) Core(TM) i7-14700KF, instruction set [SSE2|AVX|AVX2]
+Thread count: 20 physical cores, 28 logical processors, using up to 28 threads
+
+Non-default parameters:
+TimeLimit  1.7990018305778503e+03
+
+Academic license 2663665 - for non-commercial use only - registered to tu___@vnu.edu.vn
+Optimize a model with 6379 rows, 1989 columns and 14569 nonzeros
+Model fingerprint: 0x82520d10
+Variable types: 0 continuous, 1989 integer (1989 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 4346 rows and 779 columns
+Presolve time: 0.06s
+Presolved: 2033 rows, 1210 columns, 5955 nonzeros
+Variable types: 0 continuous, 1210 integer (1210 binary)
+
+Root relaxation: objective 0.000000e+00, 1053 iterations, 0.01 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+H    0     0                       0.0000000    0.00000  0.00%     -    0s
+     0     0    0.00000    0   12    0.00000    0.00000  0.00%     -    0s
+
+Explored 1 nodes (1270 simplex iterations) in 0.08 seconds (0.11 work units)
+Thread count was 28 (of 28 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 20:53:58 2025
+
+Set parameter WLSAccessID
+Set parameter WLSSecret
+Set parameter LicenseID to value 2663665
+Set parameter LogFile to value "logs/gurobi_AKL_solver.log"
+Academic license 2663665 - for non-commercial use only - registered to tu___@vnu.edu.vn
+Set parameter TimeLimit to value 1.7985187437534332e+03
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (win64 - Windows 11.0 (26100.2))
+
+CPU model: Intel(R) Core(TM) i7-14700KF, instruction set [SSE2|AVX|AVX2]
+Thread count: 20 physical cores, 28 logical processors, using up to 28 threads
+
+Non-default parameters:
+TimeLimit  1.7985187437534332e+03
+
+Academic license 2663665 - for non-commercial use only - registered to tu___@vnu.edu.vn
+Optimize a model with 5085 rows, 1638 columns and 11669 nonzeros
+Model fingerprint: 0x7137a282
+Variable types: 0 continuous, 1638 integer (1638 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 425 rows and 150 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 28 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 20:53:59 2025
+
+Set parameter WLSAccessID
+Set parameter WLSSecret
+Set parameter LicenseID to value 2663665
+Set parameter LogFile to value "logs/gurobi_AKL_solver.log"
+Academic license 2663665 - for non-commercial use only - registered to tu___@vnu.edu.vn
+Set parameter TimeLimit to value 1800
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (win64 - Windows 11.0 (26100.2))
+
+CPU model: Intel(R) Core(TM) i7-14700KF, instruction set [SSE2|AVX|AVX2]
+Thread count: 20 physical cores, 28 logical processors, using up to 28 threads
+
+Non-default parameters:
+TimeLimit  1800
+
+Academic license 2663665 - for non-commercial use only - registered to tu___@vnu.edu.vn
+Optimize a model with 22389 rows, 3648 columns and 47960 nonzeros
+Model fingerprint: 0xbc4e094c
+Variable types: 0 continuous, 3648 integer (3648 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 16643 rows and 842 columns
+Presolve time: 0.12s
+Presolved: 5746 rows, 2806 columns, 21733 nonzeros
+Variable types: 0 continuous, 2806 integer (2806 binary)
+
+Root relaxation: objective 0.000000e+00, 2227 iterations, 0.07 seconds (0.13 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+H    0     0                       0.0000000    0.00000  0.00%     -    0s
+     0     0    0.00000    0  422    0.00000    0.00000  0.00%     -    0s
+
+Explored 1 nodes (2227 simplex iterations) in 0.20 seconds (0.33 work units)
+Thread count was 28 (of 28 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 20:53:59 2025
+
+Set parameter WLSAccessID
+Set parameter WLSSecret
+Set parameter LicenseID to value 2663665
+Set parameter LogFile to value "logs/gurobi_AKL_solver.log"
+Academic license 2663665 - for non-commercial use only - registered to tu___@vnu.edu.vn
+Set parameter TimeLimit to value 1.7993147983551025e+03
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (win64 - Windows 11.0 (26100.2))
+
+CPU model: Intel(R) Core(TM) i7-14700KF, instruction set [SSE2|AVX|AVX2]
+Thread count: 20 physical cores, 28 logical processors, using up to 28 threads
+
+Non-default parameters:
+TimeLimit  1.7993147983551025e+03
+
+Academic license 2663665 - for non-commercial use only - registered to tu___@vnu.edu.vn
+Optimize a model with 22741 rows, 3552 columns and 48664 nonzeros
+Model fingerprint: 0x26c30c38
+Variable types: 0 continuous, 3552 integer (3552 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 16753 rows and 607 columns
+Presolve time: 0.13s
+Presolved: 5988 rows, 2945 columns, 22268 nonzeros
+Variable types: 0 continuous, 2945 integer (2945 binary)
+
+Root relaxation: objective 0.000000e+00, 3148 iterations, 0.12 seconds (0.24 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0   33          -    0.00000      -     -    0s
+H    0     0                       0.0000000    0.00000  0.00%     -    0s
+
+Explored 1 nodes (5204 simplex iterations) in 0.36 seconds (0.65 work units)
+Thread count was 28 (of 28 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 20:54:00 2025
+
+Set parameter WLSAccessID
+Set parameter WLSSecret
+Set parameter LicenseID to value 2663665
+Set parameter LogFile to value "logs/gurobi_AKL_solver.log"
+Academic license 2663665 - for non-commercial use only - registered to tu___@vnu.edu.vn
+Set parameter TimeLimit to value 1.7984416682720184e+03
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (win64 - Windows 11.0 (26100.2))
+
+CPU model: Intel(R) Core(TM) i7-14700KF, instruction set [SSE2|AVX|AVX2]
+Thread count: 20 physical cores, 28 logical processors, using up to 28 threads
+
+Non-default parameters:
+TimeLimit  1.7984416682720184e+03
+
+Academic license 2663665 - for non-commercial use only - registered to tu___@vnu.edu.vn
+Optimize a model with 22565 rows, 3504 columns and 48312 nonzeros
+Model fingerprint: 0x019bae92
+Variable types: 0 continuous, 3504 integer (3504 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 16582 rows and 514 columns
+Presolve time: 0.07s
+Presolved: 5983 rows, 2990 columns, 22115 nonzeros
+Variable types: 0 continuous, 2990 integer (2990 binary)
+
+Root relaxation: infeasible, 1024 iterations, 0.02 seconds (0.04 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 infeasible    0               - infeasible      -     -    0s
+
+Explored 1 nodes (1024 simplex iterations) in 0.11 seconds (0.18 work units)
+Thread count was 28 (of 28 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 22:55:40 2025
+
+Set parameter WLSAccessID
+Set parameter WLSSecret
+Set parameter LicenseID to value 2663665
+Set parameter LogFile to value "logs/gurobi_AKL_solver.log"
+Academic license 2663665 - for non-commercial use only - registered to tu___@vnu.edu.vn
+Set parameter TimeLimit to value 1800
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (win64 - Windows 11.0 (26100.2))
+
+CPU model: Intel(R) Core(TM) i7-14700KF, instruction set [SSE2|AVX|AVX2]
+Thread count: 20 physical cores, 28 logical processors, using up to 28 threads
+
+Non-default parameters:
+TimeLimit  1800
+
+Academic license 2663665 - for non-commercial use only - registered to tu___@vnu.edu.vn
+Optimize a model with 5330033 rows, 388920 columns and 11041410 nonzeros
+Model fingerprint: 0xaaa10bd7
+Variable types: 0 continuous, 388920 integer (388920 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 4206705 rows and 13181 columns (presolve time = 5s)...
+Presolve removed 4265794 rows and 13181 columns (presolve time = 10s)...
+Presolve removed 4272996 rows and 13181 columns (presolve time = 15s)...
+Presolve removed 4282992 rows and 13181 columns
+Presolve time: 16.66s
+Presolved: 1047041 rows, 375739 columns, 5561896 nonzeros
+Variable types: 0 continuous, 375739 integer (375739 binary)
+Performing another presolve...
+Presolve removed 254427 rows and 13727 columns (presolve time = 5s)...
+Presolve removed 254427 rows and 13727 columns
+Presolve time: 9.01s
+
+Deterministic concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Root barrier log...
+
+Elapsed ordering time = 5s
+Elapsed ordering time = 10s
+Elapsed ordering time = 40s
+Elapsed ordering time = 41s
+Elapsed ordering time = 45s
+Elapsed ordering time = 50s
+Elapsed ordering time = 55s
+Elapsed ordering time = 60s
+Elapsed ordering time = 65s
+Elapsed ordering time = 70s
+Elapsed ordering time = 71s
+Elapsed ordering time = 75s
+Elapsed ordering time = 80s
+Elapsed ordering time = 85s
+Elapsed ordering time = 90s
+Elapsed ordering time = 95s
+Elapsed ordering time = 104s
+Elapsed ordering time = 107s
+Elapsed ordering time = 112s
+Elapsed ordering time = 116s
+Elapsed ordering time = 121s
+Elapsed ordering time = 125s
+Elapsed ordering time = 130s
+Elapsed ordering time = 135s
+Elapsed ordering time = 140s
+Elapsed ordering time = 149s
+Elapsed ordering time = 152s
+Elapsed ordering time = 155s
+Elapsed ordering time = 160s
+Elapsed ordering time = 165s
+Elapsed ordering time = 170s
+Elapsed ordering time = 175s
+Ordering time: 178.00s
+
+Barrier statistics:
+ AA' NZ     : 2.640e+07
+ Factor NZ  : 2.173e+09 (roughly 18.0 GB of memory)
+ Factor Ops : 1.456e+13 (roughly 30 seconds per iteration)
+ Threads    : 18
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   0.00000000e+00 -1.19588000e+04  2.34e+03 0.00e+00  4.07e-01   216s
+   1   0.00000000e+00 -1.38424454e+04  1.08e+03 1.00e-02  1.46e-01   216s
+   2   0.00000000e+00 -1.33111979e+04  4.31e+02 1.50e-02  7.11e-02   216s
+   3   0.00000000e+00 -1.10716310e+04  2.00e+02 6.54e-03  3.24e-02   216s
+   4   0.00000000e+00 -6.27190299e+03  6.54e+01 8.20e-04  1.11e-02   217s
+   5   0.00000000e+00 -2.76883439e+03  1.30e+01 6.07e-17  2.94e-03   217s
+   6   0.00000000e+00 -1.14207863e+03  4.66e+00 5.59e-17  9.88e-04   217s
+   7   0.00000000e+00 -8.29391051e+02  2.37e+00 5.01e-17  6.96e-04   218s
+   8   0.00000000e+00 -6.44901970e+02  1.47e+00 4.75e-17  5.35e-04   218s
+   9   0.00000000e+00 -3.73671155e+02  1.00e+00 4.01e-17  3.09e-04   219s
+  10   0.00000000e+00 -1.60619914e+02  7.10e-01 3.28e-17  1.34e-04   219s
+  11   0.00000000e+00 -1.07082943e+02  5.19e-01 2.93e-17  8.83e-05   220s
+  12   0.00000000e+00 -7.13106273e+01  3.90e-01 1.72e-17  5.80e-05   221s
+  13   0.00000000e+00 -5.21009509e+01  2.75e-01 1.79e-17  4.17e-05   221s
+  14   0.00000000e+00 -2.83437214e+01  1.02e-01 1.15e-17  2.22e-05   222s
+  15   0.00000000e+00 -1.31942045e+01  1.03e-02 7.57e-18  1.04e-05   224s
+  16   0.00000000e+00 -4.51343675e+00  3.77e-03 4.72e-18  3.55e-06   226s
+  17   0.00000000e+00 -1.54262981e+00  9.15e-04 1.61e-18  1.21e-06   229s
+  18   0.00000000e+00 -4.28566491e-01  9.40e-05 5.19e-19  3.35e-07   233s
+  19   0.00000000e+00 -1.02070491e-01  1.17e-05 1.42e-19  7.96e-08   237s
+  20   0.00000000e+00 -2.61905254e-02  1.47e-06 3.97e-20  2.04e-08   241s
+  21   0.00000000e+00 -5.07223501e-03  3.57e-07 7.93e-21  3.94e-09   245s
+  22   0.00000000e+00 -8.74739799e-04  1.42e-07 1.48e-21  6.79e-10   250s
+  23   0.00000000e+00 -8.76109240e-07  4.20e-05 4.77e-22  6.79e-13   270s
+  24   0.00000000e+00 -8.76125719e-10  9.68e-14 3.49e-25  6.79e-16   319s
+
+Barrier solved model in 24 iterations and 318.94 seconds (187.67 work units)
+Optimal objective 0.00000000e+00
+
+
+Root crossover log...
+
+       0 DPushes remaining with DInf 0.0000000e+00               321s
+
+  135030 PPushes remaining with PInf 0.0000000e+00               322s
+   96627 PPushes remaining with PInf 0.0000000e+00               325s
+   87161 PPushes remaining with PInf 0.0000000e+00               330s
+   81194 PPushes remaining with PInf 0.0000000e+00               336s
+   77712 PPushes remaining with PInf 0.0000000e+00               340s
+   74010 PPushes remaining with PInf 0.0000000e+00               346s
+   70299 PPushes remaining with PInf 0.0000000e+00               351s
+   68007 PPushes remaining with PInf 0.0000000e+00               356s
+   65758 PPushes remaining with PInf 0.0000000e+00               360s
+   62249 PPushes remaining with PInf 0.0000000e+00               367s
+   59935 PPushes remaining with PInf 0.0000000e+00               371s
+   57991 PPushes remaining with PInf 0.0000000e+00               376s
+   55724 PPushes remaining with PInf 0.0000000e+00               380s
+   51781 PPushes remaining with PInf 0.0000000e+00               386s
+   49027 PPushes remaining with PInf 0.0000000e+00               390s
+   45922 PPushes remaining with PInf 0.0000000e+00               395s
+   42642 PPushes remaining with PInf 0.0000000e+00               401s
+   39520 PPushes remaining with PInf 0.0000000e+00               406s
+   36557 PPushes remaining with PInf 0.0000000e+00               412s
+   34498 PPushes remaining with PInf 0.0000000e+00               416s
+   32333 PPushes remaining with PInf 0.0000000e+00               422s
+   30557 PPushes remaining with PInf 0.0000000e+00               427s
+   29736 PPushes remaining with PInf 0.0000000e+00               430s
+   28139 PPushes remaining with PInf 0.0000000e+00               437s
+   26973 PPushes remaining with PInf 0.0000000e+00               441s
+   25067 PPushes remaining with PInf 0.0000000e+00               446s
+   22735 PPushes remaining with PInf 0.0000000e+00               451s
+   19987 PPushes remaining with PInf 0.0000000e+00               456s
+   17024 PPushes remaining with PInf 0.0000000e+00               460s
+   13618 PPushes remaining with PInf 0.0000000e+00               466s
+   12228 PPushes remaining with PInf 0.0000000e+00               471s
+   10871 PPushes remaining with PInf 0.0000000e+00               476s
+    9923 PPushes remaining with PInf 0.0000000e+00               481s
+    8994 PPushes remaining with PInf 0.0000000e+00               486s
+    8033 PPushes remaining with PInf 0.0000000e+00               493s
+    7517 PPushes remaining with PInf 0.0000000e+00               496s
+    6573 PPushes remaining with PInf 0.0000000e+00               502s
+    6119 PPushes remaining with PInf 0.0000000e+00               506s
+    5260 PPushes remaining with PInf 0.0000000e+00               512s
+    4851 PPushes remaining with PInf 0.0000000e+00               515s
+    4037 PPushes remaining with PInf 0.0000000e+00               522s
+    3639 PPushes remaining with PInf 0.0000000e+00               526s
+    2787 PPushes remaining with PInf 0.0000000e+00               533s
+    2392 PPushes remaining with PInf 0.0000000e+00               537s
+    1983 PPushes remaining with PInf 0.0000000e+00               541s
+
+Restart crossover...
+
+  133768 variables added to crossover basis                      549s
+
+       0 DPushes remaining with DInf 0.0000000e+00               550s
+
+  135030 PPushes remaining with PInf 0.0000000e+00               550s
+  114160 PPushes remaining with PInf 0.0000000e+00               550s
+   89861 PPushes remaining with PInf 0.0000000e+00               556s
+   83417 PPushes remaining with PInf 0.0000000e+00               561s
+   78789 PPushes remaining with PInf 0.0000000e+00               566s
+   73684 PPushes remaining with PInf 0.0000000e+00               570s
+   68915 PPushes remaining with PInf 0.0000000e+00               575s
+   64629 PPushes remaining with PInf 0.0000000e+00               581s
+   61206 PPushes remaining with PInf 0.0000000e+00               585s
+   57231 PPushes remaining with PInf 0.0000000e+00               591s
+   54088 PPushes remaining with PInf 0.0000000e+00               595s
+   50482 PPushes remaining with PInf 0.0000000e+00               601s
+   47390 PPushes remaining with PInf 0.0000000e+00               606s
+
+
+Root relaxation: interrupted, 239282 iterations, 577.27 seconds (394.93 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0          -    0               -    0.00000      -     -  606s
+
+Explored 1 nodes (239282 simplex iterations) in 606.70 seconds (440.19 work units)
+Thread count was 28 (of 28 available processors)
+
+Solution count 0
+
+Solve interrupted
+Best objective -, best bound 0.000000000000e+00, gap -
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 23:06:26 2025
+
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 23:14:43 2025
+
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 23:14:44 2025
+
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 23:14:45 2025
+
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 23:14:46 2025
+
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 23:14:46 2025
+
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 23:14:47 2025
+
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 23:14:47 2025
+
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 23:14:48 2025
+
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 23:14:48 2025
+
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 23:14:49 2025
+
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 23:14:49 2025
+
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 23:14:50 2025
+
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 23:14:51 2025
+
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 23:14:51 2025
+
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 23:14:52 2025
+
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 23:14:53 2025
+
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 23:14:53 2025
+
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 23:14:54 2025
+
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 23:14:55 2025
+
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 23:14:56 2025
+
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 23:14:56 2025
+
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 23:14:57 2025
+
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 23:14:58 2025
+
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 23:14:59 2025
+
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 23:15:00 2025
+
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 23:15:18 2025
+
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 23:15:29 2025
+
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 23:15:47 2025
+
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 23:17:31 2025
+
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 23:45:00 2025
+
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 23:45:04 2025
+
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 23:45:08 2025
+
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 23:45:12 2025
+
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 23:45:17 2025
+
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 23:45:24 2025
+
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 23:45:44 2025
+
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 23:45:59 2025
+
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 23:46:07 2025
+
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 23:46:21 2025
+
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 23:46:26 2025
+
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 23:46:33 2025
+
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 23:46:41 2025
+
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 23:46:47 2025
+
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 23:47:41 2025
+
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 23:55:07 2025
+
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 23:55:08 2025
+
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 23:55:11 2025
+
+
+Gurobi 12.0.3 (win64, Python) logging started Sun Oct 26 23:55:12 2025
+
+
+Gurobi 12.0.3 (win64, Python) logging started Mon Oct 27 00:25:12 2025
+
+
+Gurobi 12.0.3 (win64, Python) logging started Mon Oct 27 00:33:47 2025
+
+
+Gurobi 12.0.3 (win64, Python) logging started Mon Oct 27 00:55:12 2025
+
+
+Gurobi 12.0.3 (win64, Python) logging started Mon Oct 27 01:25:13 2025
+
+
+Gurobi 12.0.3 (win64, Python) logging started Mon Oct 27 01:44:34 2025
+
+
+Gurobi 12.0.3 (win64, Python) logging started Mon Oct 27 01:55:13 2025
+
+
+Gurobi 12.0.3 (win64, Python) logging started Mon Oct 27 02:25:14 2025
+
+
+Gurobi 12.0.3 (win64, Python) logging started Mon Oct 27 02:55:14 2025
+
+
+Gurobi 12.0.3 (win64, Python) logging started Mon Oct 27 03:25:14 2025
+
+
+Gurobi 12.0.3 (win64, Python) logging started Mon Oct 27 03:55:15 2025
+
+
+Gurobi 12.0.3 (win64, Python) logging started Mon Oct 27 04:25:15 2025
+
+
+Gurobi 12.0.3 (win64, Python) logging started Mon Oct 27 04:52:20 2025
+
+
+Gurobi 12.0.3 (win64, Python) logging started Mon Oct 27 04:55:16 2025
+

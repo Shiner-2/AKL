@@ -3,3 +3,4 @@ cnf/
 __pycache__/
 .vevn_wsl/
 *.pyc
+gurobi.lic
