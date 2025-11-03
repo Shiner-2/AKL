@@ -5,3 +5,19 @@ test thử với k random trong khoảng 50-100% của n
 lowerbound lấy tỷ lệ tương tự, giữ upperbound
 
 cách làm hiện tại chạy tuần tự từ lowerbound
+
+
+3/11/2025
+
+thử chạy version 2 với cadical sử dụng incrimental sat thay cho cách trước
+
+Maybe có thể viết bài nhưng hiện tại chưa có người viết (thầy đang bận)
+
+Hình như đang hiểu sai nghĩa version 2 ??? Maybe
+yeah hiêu nhầm 1 chút, thầy chỉ biểu diễn từ trái -> phải thôi
+
+Nếu đỉnh i được gán nhãn <= j -> L_ij = 1
+Kij <=> đỉnh i được gán nhãn j
+Kij <=> -L_ij-1 ^ Lij+1
+AMO Kij của mọi i
+Với (u,k) thuộc E => K_u,val -> X_v val-k or - X_v val+k
