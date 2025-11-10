@@ -21,3 +21,10 @@ Kij <=> đỉnh i được gán nhãn j
 Kij <=> -L_ij-1 ^ Lij+1
 AMO Kij của mọi i
 Với (u,k) thuộc E => K_u,val -> X_v val-k or - X_v val+k
+
+
+10/11/2025
+
+Thêm biễu diễn trực tiếp của SAT để chứng minh rằng staircase tốt hơn
+Đọc báo 2019, note lại kết quả lí thuyết bằng tiếng việt or something, làm rõ xem có trường hợp nào có thể dùng được trong bài mình không (k <= n?)
+đọc bài 2021, và note lại
