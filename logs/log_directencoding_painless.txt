@@ -1,0 +1,60 @@
+2025-11-16 23:07:07,651 | INFO | MainProcess | === Start solve() ===
+2025-11-16 23:08:12,604 | INFO | Process-1 | Number of variables: 158342
+2025-11-16 23:08:12,604 | INFO | Process-1 | Number of clauses: 48017303
+2025-11-16 23:08:45,630 | INFO | Process-1 | CNF written to cnf/v2\M_n420_k323\M_n420_k323_w21.cnf
+2025-11-16 23:08:45,631 | INFO | Process-1 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk -no-model cnf/v2\M_n420_k323\M_n420_k323_w21.cnf
+2025-11-16 23:08:45,632 | ERROR | Process-1 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 433, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-11-16 23:08:45,634 | RESULT | Process-1 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-11-16 23:08:45,634 | ERROR | Process-1 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-11-16 23:13:37,722 | RESULT | Process-1 | Solution found: 21
+2025-11-16 23:13:37,723 | RESULT | Process-1 | Time taken: 389.70859932899475 seconds
+2025-11-16 23:13:41,704 | INFO | MainProcess | Found a solution 21
+2025-11-16 23:13:41,705 | INFO | MainProcess | [Test k=323, w=21] Time: 394.04 seconds
+2025-11-16 23:15:02,493 | INFO | Process-2 | Number of variables: 158342
+2025-11-16 23:15:02,493 | INFO | Process-2 | Number of clauses: 50264183
+2025-11-16 23:15:36,680 | INFO | Process-2 | CNF written to cnf/v2\M_n420_k323\M_n420_k323_w22.cnf
+2025-11-16 23:15:36,680 | INFO | Process-2 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk -no-model cnf/v2\M_n420_k323\M_n420_k323_w22.cnf
+2025-11-16 23:15:36,682 | ERROR | Process-2 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 433, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-11-16 23:15:36,683 | RESULT | Process-2 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-11-16 23:15:36,683 | ERROR | Process-2 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-11-16 23:27:39,339 | RESULT | Process-2 | Solution found: 22
+2025-11-16 23:27:39,340 | RESULT | Process-2 | Time taken: 837.1227881908417 seconds
+2025-11-16 23:27:44,810 | INFO | MainProcess | Found a solution 22
+2025-11-16 23:27:44,811 | INFO | MainProcess | [Test k=323, w=22] Time: 843.1 seconds
+2025-11-16 23:29:06,613 | INFO | Process-3 | Number of variables: 158342
+2025-11-16 23:29:06,613 | INFO | Process-3 | Number of clauses: 52503623
+2025-11-16 23:29:42,705 | INFO | Process-3 | CNF written to cnf/v2\M_n420_k323\M_n420_k323_w23.cnf
+2025-11-16 23:29:42,706 | INFO | Process-3 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk -no-model cnf/v2\M_n420_k323\M_n420_k323_w23.cnf
+2025-11-16 23:29:42,708 | ERROR | Process-3 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 433, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-11-16 23:29:42,709 | RESULT | Process-3 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-11-16 23:29:42,709 | ERROR | Process-3 | Some thing wrong with PAINLESS, Solving with PySAT...
