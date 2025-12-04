@@ -352,19 +352,52 @@ def run_test_with_timeout(graph, k, width, timeout_sec=3600, instance_name="A"):
         return False
 
 
-res = [["filename", "n", "k", "proportion", "lower_bound",
-        "upper_bound", "width", "num_vars", "num_clauses", "verdict", "time"]]
 res2 = []
+
+
+def append_to_excel(row_data, output_file=EXCEL_FILE, add_empty_row=False):
+    """
+    Append a single row to Excel file immediately.
+    If file doesn't exist, create it with header.
+    If add_empty_row is True, also append an empty row after the data row.
+    """
+    logger = setup_logger()
+    try:
+        header = ["filename", "n", "k", "proportion", "lower_bound",
+                  "upper_bound", "width", "num_vars", "num_clauses", "verdict", "time"]
+        
+        # Prepare rows to append
+        rows_to_append = [row_data]
+        if add_empty_row:
+            # Add empty row with empty strings instead of None to avoid warning
+            rows_to_append.append([""] * len(header))
+        
+        # Check if file exists
+        if os.path.exists(output_file):
+            # Read existing data
+            df_existing = pd.read_excel(output_file)
+            # Create DataFrame with new rows
+            df_new = pd.DataFrame(rows_to_append, columns=header)
+            # Concatenate
+            df_combined = pd.concat([df_existing, df_new], ignore_index=True)
+        else:
+            # Create new file with header and data
+            df_combined = pd.DataFrame(rows_to_append, columns=header)
+        
+        df_combined.to_excel(output_file, index=False)
+        logger.info(f"Row appended to {output_file}")
+    except Exception:
+        logger.exception("Error appending to Excel")
 
 
 def tuantu_for_ans(graph, k, rand, lower_bound, upper_bound, file, timeout_sec=3600):
     logger = setup_logger()
-    global res, res2
+    global res2
 
-    res.append([None, None, None, None, None, None, None, None, None, None, None])
     time_left = timeout_sec
     ans = -9999
     width = lower_bound
+    is_last_iteration = False
 
     while True:
         time_start = time.time()
@@ -372,23 +405,31 @@ def tuantu_for_ans(graph, k, rand, lower_bound, upper_bound, file, timeout_sec=3
 
         if run_test_with_timeout(graph, k, width, time_left, file[0]):
             res2.append(round(time.time() - time_start, 2))
-            res.append(res2)
-            res2 = []
-
+            
             time_left -= time.time() - time_start
             ans = width
             width += 1
 
-            if time_left <= 0.5 or ans == upper_bound:
+            # Check if this is the last iteration
+            is_last_iteration = (time_left <= 0.5 or ans == upper_bound)
+            
+            # Append to Excel immediately with empty row at the end
+            append_to_excel(res2, add_empty_row=is_last_iteration)
+            res2 = []
+
+            if is_last_iteration:
                 if ans == -9999:
                     return -9999
                 return -ans
         else:
             res2.append(round(time.time() - time_start, 2))
-            res.append(res2)
+            
+            time_left -= time.time() - time_start
+            
+            # This is always the last iteration when verdict is False
+            append_to_excel(res2, add_empty_row=True)
             res2 = []
 
-            time_left -= time.time() - time_start
             if time_left <= 0.5:
                 if ans == -9999:
                     return -9999
@@ -477,6 +518,16 @@ def solve():
         pass
 
     logger.info("=== Start solve() ===")
+    
+    # Clear Excel file at start and create with header
+    
+    # if os.path.exists(EXCEL_FILE):
+    #     os.remove(EXCEL_FILE)
+    # header = ["filename", "n", "k", "proportion", "lower_bound",
+    #           "upper_bound", "width", "num_vars", "num_clauses", "verdict", "time"]
+    # df_header = pd.DataFrame(columns=header)
+    # df_header.to_excel(EXCEL_FILE, index=False)
+    # logger.info(f"Excel file initialized: {EXCEL_FILE}")
 
     folder_path = "data/11. hb"
     files = glob.glob(f"{folder_path}/*")
@@ -492,7 +543,7 @@ def solve():
         lst.append(os.path.join(folder_path, os.path.basename(file)))
         filename.append(os.path.basename(file))
 
-    for i in range(0, len(lst)):
+    for i in range(len(lst)-3, len(lst)):
         time_start = time.time()
         graph = read_input(lst[i])
         rand = proportion[i]
@@ -502,7 +553,7 @@ def solve():
         time_limit = 1800
 
         ans = tuantu_for_ans(graph, k, rand, lower_bound[i] * rand // 100, upper_bound[i], file, time_limit)
-
+        append_to_excel(res2, add_empty_row=True)
         logger.info("$$$$")
         logger.info(str(ans))
         logger.info("$$$$")
@@ -518,10 +569,6 @@ def solve():
             else:
                 logger.info(f"Maximum width before timeout for {file} is {-ans}")
             logger.info("time out")
-        
-        
-        
-    write_to_excel(res)
 
 
 def write_cnf_to_file(clauses, solver, n, k, width, instance_name="A"):

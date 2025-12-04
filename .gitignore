@@ -1,6 +1,6 @@
 cnf/
 .venv/
 __pycache__/
-.vevn_wsl/
+venv_wsl/
 *.pyc
 gurobi.lic

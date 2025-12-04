@@ -105,7 +105,7 @@ def solve_no_hole_anti_k_labeling(graph, k, width, queue, timeout_sec=3600, inst
             top_id += 1
         R.append(tmp)
 
-    clauses.extend(Symetry_breaking(graph, x))
+    clauses.extend(Symetry_breaking(graph, x, k))
 
     # Link x and L
 
@@ -267,7 +267,7 @@ def SCL_AMO(x, R, k):
     return clauses
 
 
-def Symetry_breaking(graph, x):
+def Symetry_breaking(graph, x, k):
     cnt = [0] * (len(graph) + 1)
     for u in graph:
         for v in graph[u]:
@@ -280,7 +280,7 @@ def Symetry_breaking(graph, x):
             node = i
 
     clause = []
-    for label in range(1, len(graph) // 2 + 1):
+    for label in range(1, k // 2 + 1):
         clause.append([-x[node][label]])
     return clause
 
