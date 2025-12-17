@@ -31,6 +31,6 @@ Thêm biễu diễn trực tiếp của SAT để chứng minh rằng staircase 
 
 3/12/2025
 
-Đoạn symmetrybreaking làm nhầm là n/2 đúng phải là k/2
+Đoạn symmetrybreaking làm nhầm là n/2 đúng phải là k/2 (không ảnh hưởng đến kết quả sau khi check lại)
 
 Chạy Direct encoding và Version 2 encoding bằng Cadical trong thư viện python luôn

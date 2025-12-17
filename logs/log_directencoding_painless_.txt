@@ -1,0 +1,5 @@
+2025-12-17 19:20:04,428 | INFO | Process-15 | Number of variables: 3383
+2025-12-17 19:20:04,428 | INFO | Process-15 | Number of clauses: 57130
+2025-12-17 19:20:04,454 | INFO | Process-15 | CNF written to cnf/v2\E_n49_k35\E_n49_k35_w17.cnf
+2025-12-17 19:20:04,454 | ERROR | Process-15 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-17 19:20:08,939 | RESULT | Process-15 | [VALIDATE][PYSAT] True | VALID SOLUTION

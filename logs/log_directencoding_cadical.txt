@@ -1,0 +1,91 @@
+2025-12-17 19:27:54,734 | INFO | MainProcess | === Start solve() ===
+2025-12-17 19:27:54,753 | INFO | Process-1 | Number of variables: 691
+2025-12-17 19:27:54,753 | INFO | Process-1 | Number of clauses: 15370
+2025-12-17 19:27:54,764 | INFO | Process-1 | CNF written to cnf/v2/A_n30_k23/A_n30_k23_w4.cnf
+2025-12-17 19:27:54,777 | INFO | Process-1 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/A_n30_k23/A_n30_k23_w4.cnf
+2025-12-17 19:27:54,835 | INFO | Process-1 | [PAINLESS] status=SAT rc=10 time=0.06s
+2025-12-17 19:27:54,836 | RESULT | Process-1 | [PAINLESS] result: status=SAT time=0.06s rc=10
+2025-12-17 19:27:54,836 | RESULT | Process-1 | [VALIDATE][PAINLESS] False | Vertex 1 has no label
+2025-12-17 19:27:54,836 | ERROR | Process-1 | ❌ INVALID MODEL FROM PAINLESS
+2025-12-17 19:27:54,838 | INFO | MainProcess | No solution found 4
+2025-12-17 19:27:54,838 | INFO | MainProcess | [Test k=23, w=4] Time: 0.1 seconds
+2025-12-17 19:27:55,707 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 19:27:55,735 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 19:27:55,736 | INFO | MainProcess | $$$$
+2025-12-17 19:27:55,737 | INFO | MainProcess | -9999
+2025-12-17 19:27:55,738 | INFO | MainProcess | $$$$
+2025-12-17 19:27:55,739 | INFO | MainProcess | Time taken for A-pores_1.mtx.rnd with k = 23: 1.0033109188079834 seconds
+2025-12-17 19:27:55,740 | INFO | MainProcess | No answer before timeout for A-pores_1.mtx.rnd
+2025-12-17 19:27:55,740 | INFO | MainProcess | time out
+2025-12-17 19:27:55,760 | INFO | Process-2 | Number of variables: 577
+2025-12-17 19:27:55,761 | INFO | Process-2 | Number of clauses: 12798
+2025-12-17 19:27:55,769 | INFO | Process-2 | CNF written to cnf/v2/B_n32_k18/B_n32_k18_w5.cnf
+2025-12-17 19:27:55,773 | INFO | Process-2 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/B_n32_k18/B_n32_k18_w5.cnf
+2025-12-17 19:27:55,830 | INFO | Process-2 | [PAINLESS] status=SAT rc=10 time=0.06s
+2025-12-17 19:27:55,831 | RESULT | Process-2 | [PAINLESS] result: status=SAT time=0.06s rc=10
+2025-12-17 19:27:55,831 | RESULT | Process-2 | [VALIDATE][PAINLESS] False | Vertex 6 has no label
+2025-12-17 19:27:55,831 | ERROR | Process-2 | ❌ INVALID MODEL FROM PAINLESS
+2025-12-17 19:27:55,833 | INFO | MainProcess | No solution found 5
+2025-12-17 19:27:55,833 | INFO | MainProcess | [Test k=18, w=5] Time: 0.09 seconds
+2025-12-17 19:27:55,855 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 19:27:55,885 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 19:27:55,885 | INFO | MainProcess | $$$$
+2025-12-17 19:27:55,885 | INFO | MainProcess | -9999
+2025-12-17 19:27:55,886 | INFO | MainProcess | $$$$
+2025-12-17 19:27:55,886 | INFO | MainProcess | Time taken for B-ibm32.mtx.rnd with k = 18: 0.14562678337097168 seconds
+2025-12-17 19:27:55,886 | INFO | MainProcess | No answer before timeout for B-ibm32.mtx.rnd
+2025-12-17 19:27:55,886 | INFO | MainProcess | time out
+2025-12-17 19:27:55,898 | INFO | Process-3 | Number of variables: 820
+2025-12-17 19:27:55,899 | INFO | Process-3 | Number of clauses: 11935
+2025-12-17 19:27:55,907 | INFO | Process-3 | CNF written to cnf/v2/C_n39_k21/C_n39_k21_w8.cnf
+2025-12-17 19:27:55,913 | INFO | Process-3 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/C_n39_k21/C_n39_k21_w8.cnf
+2025-12-17 19:27:55,970 | INFO | Process-3 | [PAINLESS] status=SAT rc=10 time=0.06s
+2025-12-17 19:27:55,970 | RESULT | Process-3 | [PAINLESS] result: status=SAT time=0.06s rc=10
+2025-12-17 19:27:55,971 | RESULT | Process-3 | [VALIDATE][PAINLESS] False | Vertex 6 has no label
+2025-12-17 19:27:55,971 | ERROR | Process-3 | ❌ INVALID MODEL FROM PAINLESS
+2025-12-17 19:27:55,973 | INFO | MainProcess | No solution found 8
+2025-12-17 19:27:55,973 | INFO | MainProcess | [Test k=21, w=8] Time: 0.09 seconds
+2025-12-17 19:27:55,995 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 19:27:56,023 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 19:27:56,024 | INFO | MainProcess | $$$$
+2025-12-17 19:27:56,024 | INFO | MainProcess | -9999
+2025-12-17 19:27:56,024 | INFO | MainProcess | $$$$
+2025-12-17 19:27:56,024 | INFO | MainProcess | Time taken for C-bcspwr01.mtx.rnd with k = 21: 0.13774967193603516 seconds
+2025-12-17 19:27:56,024 | INFO | MainProcess | No answer before timeout for C-bcspwr01.mtx.rnd
+2025-12-17 19:27:56,024 | INFO | MainProcess | time out
+2025-12-17 19:27:56,046 | INFO | Process-4 | Number of variables: 1393
+2025-12-17 19:27:56,046 | INFO | Process-4 | Number of clauses: 33645
+2025-12-17 19:27:56,067 | INFO | Process-4 | CNF written to cnf/v2/D_n48_k29/D_n48_k29_w4.cnf
+2025-12-17 19:27:56,075 | INFO | Process-4 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/D_n48_k29/D_n48_k29_w4.cnf
+2025-12-17 19:27:56,147 | INFO | Process-4 | [PAINLESS] status=SAT rc=10 time=0.07s
+2025-12-17 19:27:56,147 | RESULT | Process-4 | [PAINLESS] result: status=SAT time=0.07s rc=10
+2025-12-17 19:27:56,148 | RESULT | Process-4 | [VALIDATE][PAINLESS] False | Vertex 3 has no label
+2025-12-17 19:27:56,148 | ERROR | Process-4 | ❌ INVALID MODEL FROM PAINLESS
+2025-12-17 19:27:56,151 | INFO | MainProcess | No solution found 4
+2025-12-17 19:27:56,151 | INFO | MainProcess | [Test k=29, w=4] Time: 0.12 seconds
+2025-12-17 19:27:56,172 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 19:27:56,202 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 19:27:56,203 | INFO | MainProcess | $$$$
+2025-12-17 19:27:56,203 | INFO | MainProcess | -9999
+2025-12-17 19:27:56,203 | INFO | MainProcess | $$$$
+2025-12-17 19:27:56,203 | INFO | MainProcess | Time taken for D-bcsstk01.mtx.rnd with k = 29: 0.17868304252624512 seconds
+2025-12-17 19:27:56,203 | INFO | MainProcess | No answer before timeout for D-bcsstk01.mtx.rnd
+2025-12-17 19:27:56,203 | INFO | MainProcess | time out
+2025-12-17 19:27:56,247 | INFO | Process-5 | Number of variables: 1716
+2025-12-17 19:27:56,248 | INFO | Process-5 | Number of clauses: 47530
+2025-12-17 19:27:56,270 | INFO | Process-5 | CNF written to cnf/v2/E_n49_k35/E_n49_k35_w15.cnf
+2025-12-17 19:27:56,275 | INFO | Process-5 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/E_n49_k35/E_n49_k35_w15.cnf
+2025-12-17 19:27:56,349 | INFO | Process-5 | [PAINLESS] status=SAT rc=10 time=0.07s
+2025-12-17 19:27:56,349 | RESULT | Process-5 | [PAINLESS] result: status=SAT time=0.07s rc=10
+2025-12-17 19:27:56,349 | RESULT | Process-5 | [VALIDATE][PAINLESS] False | Vertex 1 has no label
+2025-12-17 19:27:56,349 | ERROR | Process-5 | ❌ INVALID MODEL FROM PAINLESS
+2025-12-17 19:27:56,353 | INFO | MainProcess | No solution found 15
+2025-12-17 19:27:56,353 | INFO | MainProcess | [Test k=35, w=15] Time: 0.15 seconds
+2025-12-17 19:27:56,374 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 19:27:56,402 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 19:27:56,403 | INFO | MainProcess | $$$$
+2025-12-17 19:27:56,403 | INFO | MainProcess | -9999
+2025-12-17 19:27:56,403 | INFO | MainProcess | $$$$
+2025-12-17 19:27:56,403 | INFO | MainProcess | Time taken for E-bcspwr02.mtx.rnd with k = 35: 0.19965577125549316 seconds
+2025-12-17 19:27:56,403 | INFO | MainProcess | No answer before timeout for E-bcspwr02.mtx.rnd
+2025-12-17 19:27:56,403 | INFO | MainProcess | time out

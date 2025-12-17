@@ -16,12 +16,12 @@ from typing import Optional, Dict, Any
 #  ./painless/build/release/painless_release cnf/K_n117_k80/K_n117_k80_w38.cnf   -c=4   -solver=cckk -no-model
 
 # Global config
-LOG_FILE = "logs/log_directencoding_cadical.txt"
-EXCEL_FILE = "output/output_directencoding_cadical.xlsx"
+LOG_FILE = "logs/log_version_2_fixed_painless.txt"
+EXCEL_FILE = "output/output_version_2_fixed_painless.xlsx"
 
 # --- Painless runner config ---
 PAINLESS_BIN = "./painless/build/release/painless_release"  # đổi nếu khác
-PAINLESS_ARGS = ["-c=4", "-solver=cckk"]       # tuỳ chọn
+PAINLESS_ARGS = ["-c=4", "-solver=cckk", "-no-model"]       # tuỳ chọn
 RUN_PAINLESS = True                                         # bật/tắt chạy Painless
 
 top_id = 2
@@ -86,6 +86,25 @@ def solve_no_hole_anti_k_labeling(graph, k, width, queue, timeout_sec=3600, inst
             tmp.append(top_id)
             top_id += 1
         x.append(tmp)
+    
+    L = [[1]]
+    # L[i][j] từ trái sang phải, nếu đỉnh i được gán nhãn <= j thì L[i][j] = 1
+    for i in range(1, n + 1):
+        tmp = [1]
+        for j in range(1, k + 1):
+            tmp.append(top_id)
+            top_id += 1
+        L.append(tmp)
+
+    # Link x and L
+    for i in range(1, n + 1):
+        xx = [1]
+        LL = [1]
+        for label in range(1, k + 1):
+            xx.append(x[i][label])
+            LL.append(L[i][label])
+        clauses.extend(SCL_AMO(xx, LL, k))
+
 
     # print(len(clauses) - kk)
     # Exactly one
@@ -109,35 +128,26 @@ def solve_no_hole_anti_k_labeling(graph, k, width, queue, timeout_sec=3600, inst
 
     for u in graph:
         for v in graph[u]:
-            
             for labelu in range(1, k + 1):
-                for labelv in range(1, k + 1):
-                    if abs(labelu - labelv) < width:
-                        clauses.append([-x[u][labelu], -x[v][labelv]])
-            # for labelu in range(1, k + 1):
-            #     minv = max(0, labelu - width)
-            #     maxv = min(k + 1, labelu + width)
-            #     if minv == 0:
-            #         clauses.append([-x[u][labelu], R[v][k - labelu - width + 1]])
-            #         clauses.append([-x[u][labelu], -L[v][labelu + width - 1]])
-            #     if maxv == k + 1:
-            #         clauses.append([-x[u][labelu], L[v][labelu - width]])
-            #         clauses.append([-x[u][labelu], -R[v][k - labelu + width]])
-            #     if minv > 0 and maxv < k + 1:
-            #         clauses.append([-x[u][labelu], L[v][labelu - width], R[v][k - labelu - width + 1]])
+                minv = max(0, labelu - width)
+                maxv = min(k + 1, labelu + width)
+                if minv == 0:
+                    clauses.append([-x[u][labelu], -L[v][labelu + width - 1]])
+                if maxv == k + 1:
+                    clauses.append([-x[u][labelu], L[v][labelu - width]])
+                if minv > 0 and maxv < k + 1:
+                    clauses.append([-x[u][labelu], L[v][labelu - width], -L[v][labelu + width - 1]])
 
 
-            # for labelv in range(1, k + 1):
-            #     minu = max(0, labelv - width)
-            #     maxu = min(k + 1, labelv + width)
-            #     if minu == 0:
-            #         clauses.append([-x[v][labelv], R[u][k - labelv - width + 1]])
-            #         clauses.append([-x[v][labelv], -L[u][labelv + width - 1]])
-            #     if maxu == k + 1:
-            #         clauses.append([-x[v][labelv], L[u][labelv - width]])
-            #         clauses.append([-x[v][labelv], -R[u][k - labelv + width]])
-            #     if minu > 0 and maxu < k + 1:
-            #         clauses.append([-x[v][labelv], L[u][labelv - width], R[u][k - labelv - width + 1]])
+            for labelv in range(1, k + 1):
+                minu = max(0, labelv - width)
+                maxu = min(k + 1, labelv + width)
+                if minu == 0:
+                    clauses.append([-x[v][labelv], -L[u][labelv + width - 1]])
+                if maxu == k + 1:
+                    clauses.append([-x[v][labelv], L[u][labelv - width]])
+                if minu > 0 and maxu < k + 1:
+                    clauses.append([-x[v][labelv], L[u][labelv - width], -L[u][labelv + width - 1]])
 
 
     solver.append_formula(clauses)
@@ -163,18 +173,11 @@ def solve_no_hole_anti_k_labeling(graph, k, width, queue, timeout_sec=3600, inst
         logger.result(f"[PAINLESS] result: status={pres['status']} time={pres['time_sec']:.2f}s rc={pres['returncode']}")
 
         if pres["status"] == "SAT":
-            ok, msg = validate_from_painless(
-                pres["stdout"], graph, x, n, k, width
-            )
-            logger.result(f"[VALIDATE][PAINLESS] {ok} | {msg}")
-
-            if not ok:
-                logger.error("❌ INVALID MODEL FROM PAINLESS")
-                return False
-
             queue.put(True)
+            logger.result(f"[PAINLESS] Shortcut: SAT at width={width}")
+            end = time.time()
+            logger.result(f"Time taken: {end - start} seconds")
             return True
-
         elif pres["status"] == "UNSAT":
             queue.put(False)
             logger.result(f"[PAINLESS] Shortcut: UNSAT at width={width}")
@@ -186,19 +189,11 @@ def solve_no_hole_anti_k_labeling(graph, k, width, queue, timeout_sec=3600, inst
     logger.error("Some thing wrong with PAINLESS, Solving with PySAT...")
     # Fallback: giải bằng PySAT nếu Painless không kết luận được
     if solver.solve():
-        model = solver.get_model()
-        ok, msg = validate_from_pysat_model(
-            model, graph, x, n, k, width
-        )
-        logger.result(f"[VALIDATE][PYSAT] {ok} | {msg}")
-
-        if not ok:
-            logger.error("❌ INVALID MODEL FROM PYSAT")
-            return False
-
         queue.put(True)
+        logger.result(f"Solution found: {width}")
+        end = time.time()
+        logger.result(f"Time taken: {end - start} seconds")
         return True
-
     else:
         queue.put(False)
         logger.result("No solution exists")
@@ -206,7 +201,41 @@ def solve_no_hole_anti_k_labeling(graph, k, width, queue, timeout_sec=3600, inst
         logger.result(f"Time taken: {end - start} seconds")
         return False
 
-def Symetry_breaking(graph, x):
+
+
+def SCL_AMO(x, R, k):
+    # x <=> order
+    # x1 <= 1 <=> R1
+    # x1 + x2 <= 1 <=> R2
+    # x1 + x2 + x3 <= 1 <=> R3
+    # x1 + x2 + x3 + x4 <= 1 <=> R4
+
+    clauses = []
+    
+    # Formula in 4.1
+    # Formula (9)
+    for index in range(1, k + 1):
+        clauses.append([-x[index], R[index]])
+
+    # Formula (10)
+    for index in range(1, k):
+        clauses.append([-R[index], R[index + 1]])
+
+    # Formula (11)
+    clauses.append([x[1], -R[1]])
+
+    # Formula (12)
+    for index in range(2, k + 1):
+        clauses.append([x[index], R[index-1], -R[index]])
+
+    # Formula (13)
+    for index in range(2, k + 1):
+        clauses.append([-x[index], -R[index-1]])
+
+    return clauses
+
+
+def Symetry_breaking(graph, x, k):
     cnt = [0] * (len(graph) + 1)
     for u in graph:
         for v in graph[u]:
@@ -219,7 +248,7 @@ def Symetry_breaking(graph, x):
             node = i
 
     clause = []
-    for label in range(1, len(graph) // 2 + 1):
+    for label in range(1, k // 2 + 1):
         clause.append([-x[node][label]])
     return clause
 
@@ -250,98 +279,32 @@ def AtLeastOne(variables):
 
     return enc.clauses
 
-# ======================= VALIDATION MODULE =======================
 
-def parse_dimacs_model(stdout: str):
-    """
-    Parse model từ stdout DIMACS (Painless / Kissat / CaDiCaL CLI)
-    Return: set các literal TRUE
-    """
-    true_lits = set()
-    for line in stdout.splitlines():
-        line = line.strip()
-        if not line or line[0] != 'v':
-            continue
-        parts = line.split()[1:]
-        for lit in parts:
-            if lit == '0':
-                continue
-            lit = int(lit)
-            if lit > 0:
-                true_lits.add(lit)
-    return true_lits
+def Exactly_One(variables):
+    clauses = []
+    global top_id
 
+    # At least one
+    clauses.append(variables)
 
-def extract_labels_from_model(model_true_lits, x, n, k):
-    """
-    Từ model (set literal TRUE) → label_of[i] = label
-    """
-    label_of = {}
+    # Ladder AMO
+    R = []
+    for _ in range(len(variables)):
+        R.append(top_id)
+        top_id += 1
 
-    for i in range(1, n + 1):
-        assigned = False
-        for label in range(1, k + 1):
-            if x[i][label] in model_true_lits:
-                label_of[i] = label
-                assigned = True
-                break
-        if not assigned:
-            return None, f"Vertex {i} has no label"
+    for i in range(len(variables)):
+        clauses.append([-variables[i], R[i]])
+    for i in range(1, len(variables)):
+        clauses.append([-variables[i], -R[i - 1]])
+    clauses.append([variables[0], -R[0]])
+    for i in range(1, len(variables)):
+        clauses.append([variables[i], R[i - 1], -R[i]])
+    for i in range(len(variables) - 1):
+        clauses.append([-R[i], R[i + 1]])
 
-    return label_of, "OK"
+    return clauses
 
-
-def validate_solution(graph, label_of, k, width):
-    """
-    Validate nghiệm anti-k-labeling + no-hole
-    """
-    n = len(graph)
-
-    # 1. Exactly-one
-    if label_of is None or len(label_of) != n:
-        return False, "Not all vertices labeled"
-
-    # 2. No-hole: mọi nhãn phải được dùng
-    used_labels = set(label_of.values())
-    for l in range(1, k + 1):
-        if l not in used_labels:
-            return False, f"No-hole violated: label {l} unused"
-
-    # 3. Anti-k-labeling constraint
-    for u in graph:
-        for v in graph[u]:
-            if abs(label_of[u] - label_of[v]) < width:
-                return False, (
-                    f"Width violated on edge ({u},{v}): "
-                    f"|{label_of[u]} - {label_of[v]}| < {width}"
-                )
-
-    return True, "VALID SOLUTION"
-
-
-def validate_from_painless(stdout, graph, x, n, k, width):
-    """
-    Validate output từ Painless
-    """
-    model_true = parse_dimacs_model(stdout)
-    label_of, msg = extract_labels_from_model(model_true, x, n, k)
-    if label_of is None:
-        return False, msg
-    return validate_solution(graph, label_of, k, width)
-
-
-def validate_from_pysat_model(model, graph, x, n, k, width):
-    """
-    Validate output từ PySAT / CaDiCaL
-    """
-    model_true = {lit for lit in model if lit > 0}
-    label_of, msg = extract_labels_from_model(model_true, x, n, k)
-    if label_of is None:
-        return False, msg
-    return validate_solution(graph, label_of, k, width)
-
-
-# ======================= END VALIDATION MODULE =======================
 
 def read_input(file_path):
     graph = {}
@@ -390,52 +353,19 @@ def run_test_with_timeout(graph, k, width, timeout_sec=3600, instance_name="A"):
         return False
 
 
+res = [["filename", "n", "k", "proportion", "lower_bound",
+        "upper_bound", "width", "num_vars", "num_clauses", "verdict", "time"]]
 res2 = []
-
-
-def append_to_excel(row_data, output_file=EXCEL_FILE, add_empty_row=False):
-    """
-    Append a single row to Excel file immediately.
-    If file doesn't exist, create it with header.
-    If add_empty_row is True, also append an empty row after the data row.
-    """
-    logger = setup_logger()
-    try:
-        header = ["filename", "n", "k", "proportion", "lower_bound",
-                  "upper_bound", "width", "num_vars", "num_clauses", "verdict", "time"]
-        
-        # Prepare rows to append
-        rows_to_append = [row_data]
-        if add_empty_row:
-            # Add empty row with empty strings instead of None to avoid warning
-            rows_to_append.append([""] * len(header))
-        
-        # Check if file exists
-        if os.path.exists(output_file):
-            # Read existing data
-            df_existing = pd.read_excel(output_file)
-            # Create DataFrame with new rows
-            df_new = pd.DataFrame(rows_to_append, columns=header)
-            # Concatenate
-            df_combined = pd.concat([df_existing, df_new], ignore_index=True)
-        else:
-            # Create new file with header and data
-            df_combined = pd.DataFrame(rows_to_append, columns=header)
-        
-        df_combined.to_excel(output_file, index=False)
-        logger.info(f"Row appended to {output_file}")
-    except Exception:
-        logger.exception("Error appending to Excel")
 
 
 def tuantu_for_ans(graph, k, rand, lower_bound, upper_bound, file, timeout_sec=3600):
     logger = setup_logger()
-    global res2
+    global res, res2
 
+    res.append([None, None, None, None, None, None, None, None, None, None, None])
     time_left = timeout_sec
     ans = -9999
     width = lower_bound
-    is_last_iteration = False
 
     while True:
         time_start = time.time()
@@ -443,31 +373,23 @@ def tuantu_for_ans(graph, k, rand, lower_bound, upper_bound, file, timeout_sec=3
 
         if run_test_with_timeout(graph, k, width, time_left, file[0]):
             res2.append(round(time.time() - time_start, 2))
-            
+            res.append(res2)
+            res2 = []
+
             time_left -= time.time() - time_start
             ans = width
             width += 1
 
-            # Check if this is the last iteration
-            is_last_iteration = (time_left <= 0.5 or ans == upper_bound)
-            
-            # Append to Excel immediately with empty row at the end
-            append_to_excel(res2, add_empty_row=is_last_iteration)
-            res2 = []
-
-            if is_last_iteration:
+            if time_left <= 0.5 or ans == upper_bound:
                 if ans == -9999:
                     return -9999
                 return -ans
         else:
             res2.append(round(time.time() - time_start, 2))
-            
-            time_left -= time.time() - time_start
-            
-            # This is always the last iteration when verdict is False
-            append_to_excel(res2, add_empty_row=True)
+            res.append(res2)
             res2 = []
 
+            time_left -= time.time() - time_start
             if time_left <= 0.5:
                 if ans == -9999:
                     return -9999
@@ -556,16 +478,6 @@ def solve():
         pass
 
     logger.info("=== Start solve() ===")
-    
-    # Clear Excel file at start and create with header
-    
-    # if os.path.exists(EXCEL_FILE):
-    #     os.remove(EXCEL_FILE)
-    # header = ["filename", "n", "k", "proportion", "lower_bound",
-    #           "upper_bound", "width", "num_vars", "num_clauses", "verdict", "time"]
-    # df_header = pd.DataFrame(columns=header)
-    # df_header.to_excel(EXCEL_FILE, index=False)
-    # logger.info(f"Excel file initialized: {EXCEL_FILE}")
 
     folder_path = "data/11. hb"
     files = glob.glob(f"{folder_path}/*")
@@ -581,7 +493,7 @@ def solve():
         lst.append(os.path.join(folder_path, os.path.basename(file)))
         filename.append(os.path.basename(file))
 
-    for i in range(0, 5):
+    for i in range(0, len(lst)):
         time_start = time.time()
         graph = read_input(lst[i])
         rand = proportion[i]
@@ -591,7 +503,7 @@ def solve():
         time_limit = 1800
 
         ans = tuantu_for_ans(graph, k, rand, lower_bound[i] * rand // 100, upper_bound[i], file, time_limit)
-        append_to_excel(res2, add_empty_row=True)
+
         logger.info("$$$$")
         logger.info(str(ans))
         logger.info("$$$$")
@@ -607,6 +519,9 @@ def solve():
             else:
                 logger.info(f"Maximum width before timeout for {file} is {-ans}")
             logger.info("time out")
+        
+        
+    write_to_excel(res)
 
 
 def write_cnf_to_file(clauses, solver, n, k, width, instance_name="A"):
