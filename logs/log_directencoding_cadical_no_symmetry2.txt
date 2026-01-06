@@ -1,0 +1,225 @@
+2026-01-03 12:35:49,756 | INFO | MainProcess | === Start solve() ===
+2026-01-03 12:37:03,756 | INFO | Process-1 | Number of variables: 295927
+2026-01-03 12:37:03,756 | INFO | Process-1 | Number of clauses: 59295051
+2026-01-03 12:37:03,756 | INFO | Process-1 | Real nums of clauses: 59295052
+2026-01-03 12:37:03,756 | INFO | Process-1 | Real nums of variables: 295925
+2026-01-03 12:37:41,346 | INFO | Process-1 | CNF written to cnf/v2\P_n445_k333\P_n445_k333_w58.cnf
+2026-01-03 12:37:41,346 | ERROR | Process-1 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-03 12:54:34,959 | RESULT | Process-1 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-03 12:54:40,606 | INFO | MainProcess | Found a solution 58
+2026-01-03 12:54:40,606 | INFO | MainProcess | [Test k=333, w=58] Time: 1130.84 seconds
+2026-01-03 12:54:41,101 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_no_symmetry2.xlsx
+2026-01-03 12:55:59,495 | INFO | Process-2 | Number of variables: 295927
+2026-01-03 12:55:59,495 | INFO | Process-2 | Number of clauses: 60220151
+2026-01-03 12:55:59,495 | INFO | Process-2 | Real nums of clauses: 60220152
+2026-01-03 12:55:59,495 | INFO | Process-2 | Real nums of variables: 295925
+2026-01-03 12:56:38,539 | INFO | Process-2 | CNF written to cnf/v2\P_n445_k333\P_n445_k333_w59.cnf
+2026-01-03 12:56:38,539 | ERROR | Process-2 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-03 13:05:51,086 | INFO | MainProcess | No solution found 59
+2026-01-03 13:05:51,086 | INFO | MainProcess | [Test k=333, w=59] Time: 669.98 seconds
+2026-01-03 13:05:51,127 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_no_symmetry2.xlsx
+2026-01-03 13:05:51,150 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_no_symmetry2.xlsx
+2026-01-03 13:05:51,150 | INFO | MainProcess | $$$$
+2026-01-03 13:05:51,150 | INFO | MainProcess | -58
+2026-01-03 13:05:51,150 | INFO | MainProcess | $$$$
+2026-01-03 13:05:51,150 | INFO | MainProcess | Time taken for P-can__445.mtx.rnd with k = 333: 1801.3931140899658 seconds
+2026-01-03 13:05:51,150 | INFO | MainProcess | Maximum width before timeout for P-can__445.mtx.rnd is 58
+2026-01-03 13:05:51,150 | INFO | MainProcess | time out
+2026-01-03 13:06:42,586 | INFO | Process-3 | Number of variables: 321596
+2026-01-03 13:06:42,586 | INFO | Process-3 | Number of clauses: 43242396
+2026-01-03 13:06:42,586 | INFO | Process-3 | Real nums of clauses: 43242397
+2026-01-03 13:06:42,586 | INFO | Process-3 | Real nums of variables: 321594
+2026-01-03 13:07:10,639 | INFO | Process-3 | CNF written to cnf/v2\Q_n494_k326\Q_n494_k326_w144.cnf
+2026-01-03 13:07:10,640 | ERROR | Process-3 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-03 13:12:43,588 | RESULT | Process-3 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-03 13:12:46,210 | INFO | MainProcess | Found a solution 144
+2026-01-03 13:12:46,210 | INFO | MainProcess | [Test k=326, w=144] Time: 415.05 seconds
+2026-01-03 13:12:46,253 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_no_symmetry2.xlsx
+2026-01-03 13:13:37,227 | INFO | Process-4 | Number of variables: 321596
+2026-01-03 13:13:37,227 | INFO | Process-4 | Number of clauses: 43455700
+2026-01-03 13:13:37,227 | INFO | Process-4 | Real nums of clauses: 43455701
+2026-01-03 13:13:37,227 | INFO | Process-4 | Real nums of variables: 321594
+2026-01-03 13:14:05,122 | INFO | Process-4 | CNF written to cnf/v2\Q_n494_k326\Q_n494_k326_w145.cnf
+2026-01-03 13:14:05,122 | ERROR | Process-4 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-03 13:22:08,026 | RESULT | Process-4 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-03 13:22:10,623 | INFO | MainProcess | Found a solution 145
+2026-01-03 13:22:10,624 | INFO | MainProcess | [Test k=326, w=145] Time: 564.37 seconds
+2026-01-03 13:22:10,659 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_no_symmetry2.xlsx
+2026-01-03 13:23:01,564 | INFO | Process-5 | Number of variables: 321596
+2026-01-03 13:23:01,564 | INFO | Process-5 | Number of clauses: 43667832
+2026-01-03 13:23:01,564 | INFO | Process-5 | Real nums of clauses: 43667833
+2026-01-03 13:23:01,564 | INFO | Process-5 | Real nums of variables: 321594
+2026-01-03 13:23:29,686 | INFO | Process-5 | CNF written to cnf/v2\Q_n494_k326\Q_n494_k326_w146.cnf
+2026-01-03 13:23:29,687 | ERROR | Process-5 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-03 13:35:51,748 | INFO | MainProcess | No solution found 146
+2026-01-03 13:35:51,748 | INFO | MainProcess | [Test k=326, w=146] Time: 821.09 seconds
+2026-01-03 13:35:51,784 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_no_symmetry2.xlsx
+2026-01-03 13:35:51,812 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_no_symmetry2.xlsx
+2026-01-03 13:35:51,812 | INFO | MainProcess | $$$$
+2026-01-03 13:35:51,812 | INFO | MainProcess | -145
+2026-01-03 13:35:51,812 | INFO | MainProcess | $$$$
+2026-01-03 13:35:51,812 | INFO | MainProcess | Time taken for Q-494_bus.mtx.rnd with k = 326: 1800.662026166916 seconds
+2026-01-03 13:35:51,812 | INFO | MainProcess | Maximum width before timeout for Q-494_bus.mtx.rnd is 145
+2026-01-03 13:35:51,812 | INFO | MainProcess | time out
+2026-01-03 13:37:15,248 | INFO | Process-6 | Number of variables: 348581
+2026-01-03 13:37:15,248 | INFO | Process-6 | Number of clauses: 56417055
+2026-01-03 13:37:15,248 | INFO | Process-6 | Real nums of clauses: 56417056
+2026-01-03 13:37:15,248 | INFO | Process-6 | Real nums of variables: 348579
+2026-01-03 13:37:51,218 | INFO | Process-6 | CNF written to cnf/v2\R_n503_k347\R_n503_k347_w31.cnf
+2026-01-03 13:37:51,218 | ERROR | Process-6 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-03 13:40:30,498 | RESULT | Process-6 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-03 13:40:35,102 | INFO | MainProcess | Found a solution 31
+2026-01-03 13:40:35,102 | INFO | MainProcess | [Test k=347, w=31] Time: 283.28 seconds
+2026-01-03 13:40:35,146 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_no_symmetry2.xlsx
+2026-01-03 13:41:59,505 | INFO | Process-7 | Number of variables: 348581
+2026-01-03 13:41:59,505 | INFO | Process-7 | Number of clauses: 58162639
+2026-01-03 13:41:59,505 | INFO | Process-7 | Real nums of clauses: 58162640
+2026-01-03 13:41:59,505 | INFO | Process-7 | Real nums of variables: 348579
+2026-01-03 13:42:36,725 | INFO | Process-7 | CNF written to cnf/v2\R_n503_k347\R_n503_k347_w32.cnf
+2026-01-03 13:42:36,725 | ERROR | Process-7 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-03 13:47:30,660 | RESULT | Process-7 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-03 13:47:34,869 | INFO | MainProcess | Found a solution 32
+2026-01-03 13:47:34,870 | INFO | MainProcess | [Test k=347, w=32] Time: 419.72 seconds
+2026-01-03 13:47:34,907 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_no_symmetry2.xlsx
+2026-01-03 13:49:02,417 | INFO | Process-8 | Number of variables: 348581
+2026-01-03 13:49:02,417 | INFO | Process-8 | Number of clauses: 59902699
+2026-01-03 13:49:02,417 | INFO | Process-8 | Real nums of clauses: 59902700
+2026-01-03 13:49:02,417 | INFO | Process-8 | Real nums of variables: 348579
+2026-01-03 13:49:41,276 | INFO | Process-8 | CNF written to cnf/v2\R_n503_k347\R_n503_k347_w33.cnf
+2026-01-03 13:49:41,276 | ERROR | Process-8 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-03 14:00:08,950 | RESULT | Process-8 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-03 14:00:14,550 | INFO | MainProcess | Found a solution 33
+2026-01-03 14:00:14,550 | INFO | MainProcess | [Test k=347, w=33] Time: 759.64 seconds
+2026-01-03 14:00:14,587 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_no_symmetry2.xlsx
+2026-01-03 14:01:43,175 | INFO | Process-9 | Number of variables: 348581
+2026-01-03 14:01:43,175 | INFO | Process-9 | Number of clauses: 61637235
+2026-01-03 14:01:43,175 | INFO | Process-9 | Real nums of clauses: 61637236
+2026-01-03 14:01:43,175 | INFO | Process-9 | Real nums of variables: 348579
+2026-01-03 14:02:22,580 | INFO | Process-9 | CNF written to cnf/v2\R_n503_k347\R_n503_k347_w34.cnf
+2026-01-03 14:02:22,580 | ERROR | Process-9 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-03 14:05:52,555 | INFO | MainProcess | No solution found 34
+2026-01-03 14:05:52,555 | INFO | MainProcess | [Test k=347, w=34] Time: 337.97 seconds
+2026-01-03 14:05:52,586 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_no_symmetry2.xlsx
+2026-01-03 14:05:52,610 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_no_symmetry2.xlsx
+2026-01-03 14:05:52,610 | INFO | MainProcess | $$$$
+2026-01-03 14:05:52,610 | INFO | MainProcess | -33
+2026-01-03 14:05:52,610 | INFO | MainProcess | $$$$
+2026-01-03 14:05:52,610 | INFO | MainProcess | Time taken for R-dwt__503.mtx.rnd with k = 347: 1800.7980420589447 seconds
+2026-01-03 14:05:52,610 | INFO | MainProcess | Maximum width before timeout for R-dwt__503.mtx.rnd is 33
+2026-01-03 14:05:52,610 | INFO | MainProcess | time out
+2026-01-03 14:07:52,576 | INFO | Process-10 | Number of variables: 351080
+2026-01-03 14:07:52,578 | INFO | Process-10 | Number of clauses: 100124872
+2026-01-03 14:07:52,578 | INFO | Process-10 | Real nums of clauses: 100124873
+2026-01-03 14:07:52,578 | INFO | Process-10 | Real nums of variables: 351078
+2026-01-03 14:09:04,282 | INFO | Process-10 | CNF written to cnf/v2\S_n546_k322\S_n546_k322_w151.cnf
+2026-01-03 14:09:04,282 | ERROR | Process-10 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-03 14:35:53,502 | INFO | MainProcess | No solution found 151
+2026-01-03 14:35:53,503 | INFO | MainProcess | [Test k=322, w=151] Time: 1800.88 seconds
+2026-01-03 14:35:53,569 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_no_symmetry2.xlsx
+2026-01-03 14:35:53,602 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_no_symmetry2.xlsx
+2026-01-03 14:35:53,602 | INFO | MainProcess | $$$$
+2026-01-03 14:35:53,602 | INFO | MainProcess | -9999
+2026-01-03 14:35:53,602 | INFO | MainProcess | $$$$
+2026-01-03 14:35:53,603 | INFO | MainProcess | Time taken for S-sherman4.mtx.rnd with k = 322: 1800.993188381195 seconds
+2026-01-03 14:35:53,603 | INFO | MainProcess | No answer before timeout for S-sherman4.mtx.rnd
+2026-01-03 14:35:53,603 | INFO | MainProcess | time out
+2026-01-03 14:38:04,601 | INFO | Process-11 | Number of variables: 446962
+2026-01-03 14:38:04,605 | INFO | Process-11 | Number of clauses: 101292042
+2026-01-03 14:38:04,605 | INFO | Process-11 | Real nums of clauses: 101292043
+2026-01-03 14:38:04,605 | INFO | Process-11 | Real nums of variables: 446960
+2026-01-03 14:39:15,957 | INFO | Process-11 | CNF written to cnf/v2\T_n592_k378\T_n592_k378_w65.cnf
+2026-01-03 14:39:15,958 | ERROR | Process-11 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-03 15:05:54,513 | INFO | MainProcess | No solution found 65
+2026-01-03 15:05:54,515 | INFO | MainProcess | [Test k=378, w=65] Time: 1800.9 seconds
+2026-01-03 15:05:54,604 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_no_symmetry2.xlsx
+2026-01-03 15:05:54,646 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_no_symmetry2.xlsx
+2026-01-03 15:05:54,646 | INFO | MainProcess | $$$$
+2026-01-03 15:05:54,646 | INFO | MainProcess | -9999
+2026-01-03 15:05:54,646 | INFO | MainProcess | $$$$
+2026-01-03 15:05:54,646 | INFO | MainProcess | Time taken for T-dwt__592.mtx.rnd with k = 378: 1801.0433416366577 seconds
+2026-01-03 15:05:54,646 | INFO | MainProcess | No answer before timeout for T-dwt__592.mtx.rnd
+2026-01-03 15:05:54,646 | INFO | MainProcess | time out
+2026-01-03 15:08:42,295 | INFO | Process-12 | Number of variables: 682524
+2026-01-03 15:08:42,304 | INFO | Process-12 | Number of clauses: 133475070
+2026-01-03 15:08:42,304 | INFO | Process-12 | Real nums of clauses: 133475071
+2026-01-03 15:08:42,304 | INFO | Process-12 | Real nums of variables: 682522
+2026-01-03 15:10:20,737 | INFO | Process-12 | CNF written to cnf/v2\U_n662_k516\U_n662_k516_w170.cnf
+2026-01-03 15:10:20,737 | ERROR | Process-12 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-03 15:35:55,517 | INFO | MainProcess | No solution found 170
+2026-01-03 15:35:55,519 | INFO | MainProcess | [Test k=516, w=170] Time: 1800.86 seconds
+2026-01-03 15:35:55,601 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_no_symmetry2.xlsx
+2026-01-03 15:35:55,627 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_no_symmetry2.xlsx
+2026-01-03 15:35:55,627 | INFO | MainProcess | $$$$
+2026-01-03 15:35:55,627 | INFO | MainProcess | -9999
+2026-01-03 15:35:55,627 | INFO | MainProcess | $$$$
+2026-01-03 15:35:55,627 | INFO | MainProcess | Time taken for U-662_bus.mtx.rnd with k = 516: 1800.9810178279877 seconds
+2026-01-03 15:35:55,627 | INFO | MainProcess | No answer before timeout for U-662_bus.mtx.rnd
+2026-01-03 15:35:55,627 | INFO | MainProcess | time out
+2026-01-03 15:39:24,669 | INFO | Process-13 | Number of variables: 546077
+2026-01-03 15:39:24,681 | INFO | Process-13 | Number of clauses: 155250855
+2026-01-03 15:39:24,681 | INFO | Process-13 | Real nums of clauses: 155250856
+2026-01-03 15:39:24,682 | INFO | Process-13 | Real nums of variables: 546075
+2026-01-03 15:41:25,095 | INFO | Process-13 | CNF written to cnf/v2\V_n675_k405\V_n675_k405_w195.cnf
+2026-01-03 15:41:25,104 | ERROR | Process-13 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-03 16:05:56,605 | INFO | MainProcess | No solution found 195
+2026-01-03 16:05:56,607 | INFO | MainProcess | [Test k=405, w=195] Time: 1800.97 seconds
+2026-01-03 16:05:56,689 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_no_symmetry2.xlsx
+2026-01-03 16:05:56,718 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_no_symmetry2.xlsx
+2026-01-03 16:05:56,718 | INFO | MainProcess | $$$$
+2026-01-03 16:05:56,718 | INFO | MainProcess | -9999
+2026-01-03 16:05:56,718 | INFO | MainProcess | $$$$
+2026-01-03 16:05:56,718 | INFO | MainProcess | Time taken for V-nos6.mtx.rnd with k = 405: 1801.0910618305206 seconds
+2026-01-03 16:05:56,718 | INFO | MainProcess | No answer before timeout for V-nos6.mtx.rnd
+2026-01-03 16:05:56,718 | INFO | MainProcess | time out
+2026-01-03 16:07:30,922 | INFO | Process-14 | Number of variables: 543207
+2026-01-03 16:07:30,922 | INFO | Process-14 | Number of clauses: 72002355
+2026-01-03 16:07:30,922 | INFO | Process-14 | Real nums of clauses: 72002356
+2026-01-03 16:07:30,922 | INFO | Process-14 | Real nums of variables: 543205
+2026-01-03 16:08:17,743 | INFO | Process-14 | CNF written to cnf/v2\W_n685_k397\W_n685_k397_w78.cnf
+2026-01-03 16:08:17,743 | ERROR | Process-14 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-03 16:13:10,824 | RESULT | Process-14 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-03 16:13:15,900 | INFO | MainProcess | Found a solution 78
+2026-01-03 16:13:15,900 | INFO | MainProcess | [Test k=397, w=78] Time: 439.17 seconds
+2026-01-03 16:13:15,932 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_no_symmetry2.xlsx
+2026-01-03 16:14:50,539 | INFO | Process-15 | Number of variables: 543207
+2026-01-03 16:14:50,539 | INFO | Process-15 | Number of clauses: 72820271
+2026-01-03 16:14:50,539 | INFO | Process-15 | Real nums of clauses: 72820272
+2026-01-03 16:14:50,539 | INFO | Process-15 | Real nums of variables: 543205
+2026-01-03 16:15:37,976 | INFO | Process-15 | CNF written to cnf/v2\W_n685_k397\W_n685_k397_w79.cnf
+2026-01-03 16:15:37,976 | ERROR | Process-15 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-03 16:20:16,937 | RESULT | Process-15 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-03 16:20:22,135 | INFO | MainProcess | Found a solution 79
+2026-01-03 16:20:22,135 | INFO | MainProcess | [Test k=397, w=79] Time: 426.2 seconds
+2026-01-03 16:20:22,163 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_no_symmetry2.xlsx
+2026-01-03 16:21:57,553 | INFO | Process-16 | Number of variables: 543207
+2026-01-03 16:21:57,553 | INFO | Process-16 | Number of clauses: 73635623
+2026-01-03 16:21:57,553 | INFO | Process-16 | Real nums of clauses: 73635624
+2026-01-03 16:21:57,553 | INFO | Process-16 | Real nums of variables: 543205
+2026-01-03 16:22:45,796 | INFO | Process-16 | CNF written to cnf/v2\W_n685_k397\W_n685_k397_w80.cnf
+2026-01-03 16:22:45,796 | ERROR | Process-16 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-03 16:35:57,472 | INFO | MainProcess | No solution found 80
+2026-01-03 16:35:57,472 | INFO | MainProcess | [Test k=397, w=80] Time: 935.31 seconds
+2026-01-03 16:35:57,506 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_no_symmetry2.xlsx
+2026-01-03 16:35:57,540 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_no_symmetry2.xlsx
+2026-01-03 16:35:57,540 | INFO | MainProcess | $$$$
+2026-01-03 16:35:57,540 | INFO | MainProcess | -79
+2026-01-03 16:35:57,540 | INFO | MainProcess | $$$$
+2026-01-03 16:35:57,540 | INFO | MainProcess | Time taken for W-685_bus.mtx.rnd with k = 397: 1800.8218626976013 seconds
+2026-01-03 16:35:57,540 | INFO | MainProcess | Maximum width before timeout for W-685_bus.mtx.rnd is 79
+2026-01-03 16:35:57,540 | INFO | MainProcess | time out
+2026-01-03 16:42:13,373 | INFO | Process-17 | Number of variables: 714287
+2026-01-03 16:42:13,389 | INFO | Process-17 | Number of clauses: 213765505
+2026-01-03 16:42:13,389 | INFO | Process-17 | Real nums of clauses: 213765506
+2026-01-03 16:42:13,390 | INFO | Process-17 | Real nums of variables: 714285
+2026-01-03 16:45:25,101 | INFO | Process-17 | CNF written to cnf/v2\X_n715_k500\X_n715_k500_w78.cnf
+2026-01-03 16:45:25,107 | ERROR | Process-17 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-03 17:05:59,253 | INFO | MainProcess | No solution found 78
+2026-01-03 17:05:59,256 | INFO | MainProcess | [Test k=500, w=78] Time: 1801.7 seconds
+2026-01-03 17:05:59,391 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_no_symmetry2.xlsx
+2026-01-03 17:05:59,420 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_no_symmetry2.xlsx
+2026-01-03 17:05:59,420 | INFO | MainProcess | $$$$
+2026-01-03 17:05:59,420 | INFO | MainProcess | -9999
+2026-01-03 17:05:59,420 | INFO | MainProcess | $$$$
+2026-01-03 17:05:59,420 | INFO | MainProcess | Time taken for X-can__715.mtx.rnd with k = 500: 1801.8795809745789 seconds
+2026-01-03 17:05:59,420 | INFO | MainProcess | No answer before timeout for X-can__715.mtx.rnd
+2026-01-03 17:05:59,420 | INFO | MainProcess | time out

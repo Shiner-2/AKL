@@ -1,0 +1,722 @@
+2026-01-01 19:19:24,769 | INFO | MainProcess | === Start solve() ===
+2026-01-01 19:19:24,834 | INFO | Process-1 | Number of variables: 1352
+2026-01-01 19:19:24,835 | INFO | Process-1 | Number of clauses: 17350
+2026-01-01 19:19:24,837 | INFO | Process-1 | Real nums of clauses: 17351
+2026-01-01 19:19:24,839 | INFO | Process-1 | Real nums of variables: 1350
+2026-01-01 19:19:24,925 | INFO | Process-1 | CNF written to cnf/v2/A_n30_k23/A_n30_k23_w4.cnf
+2026-01-01 19:19:24,933 | INFO | Process-1 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/A_n30_k23/A_n30_k23_w4.cnf
+2026-01-01 19:19:25,097 | INFO | Process-1 | [PAINLESS] status=SAT rc=10 time=0.16s
+2026-01-01 19:19:25,097 | RESULT | Process-1 | [PAINLESS] result: status=SAT time=0.16s rc=10
+2026-01-01 19:19:25,098 | RESULT | Process-1 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-01 19:19:25,104 | INFO | MainProcess | Found a solution 4
+2026-01-01 19:19:25,110 | INFO | MainProcess | [Test k=23, w=4] Time: 0.32 seconds
+2026-01-01 19:19:28,015 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 19:19:28,037 | INFO | Process-2 | Number of variables: 1352
+2026-01-01 19:19:28,042 | INFO | Process-2 | Number of clauses: 21264
+2026-01-01 19:19:28,043 | INFO | Process-2 | Real nums of clauses: 21265
+2026-01-01 19:19:28,047 | INFO | Process-2 | Real nums of variables: 1350
+2026-01-01 19:19:28,091 | INFO | Process-2 | CNF written to cnf/v2/A_n30_k23/A_n30_k23_w5.cnf
+2026-01-01 19:19:28,092 | INFO | Process-2 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/A_n30_k23/A_n30_k23_w5.cnf
+2026-01-01 19:19:28,248 | INFO | Process-2 | [PAINLESS] status=SAT rc=10 time=0.16s
+2026-01-01 19:19:28,248 | RESULT | Process-2 | [PAINLESS] result: status=SAT time=0.16s rc=10
+2026-01-01 19:19:28,250 | RESULT | Process-2 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-01 19:19:28,255 | INFO | MainProcess | Found a solution 5
+2026-01-01 19:19:28,255 | INFO | MainProcess | [Test k=23, w=5] Time: 0.24 seconds
+2026-01-01 19:19:28,325 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 19:19:28,348 | INFO | Process-3 | Number of variables: 1352
+2026-01-01 19:19:28,350 | INFO | Process-3 | Number of clauses: 24972
+2026-01-01 19:19:28,351 | INFO | Process-3 | Real nums of clauses: 24973
+2026-01-01 19:19:28,351 | INFO | Process-3 | Real nums of variables: 1350
+2026-01-01 19:19:28,398 | INFO | Process-3 | CNF written to cnf/v2/A_n30_k23/A_n30_k23_w6.cnf
+2026-01-01 19:19:28,399 | INFO | Process-3 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/A_n30_k23/A_n30_k23_w6.cnf
+2026-01-01 19:19:28,695 | INFO | Process-3 | [PAINLESS] status=UNSAT rc=20 time=0.30s
+2026-01-01 19:19:28,696 | RESULT | Process-3 | [PAINLESS] result: status=UNSAT time=0.30s rc=20
+2026-01-01 19:19:28,696 | RESULT | Process-3 | [PAINLESS] Shortcut: UNSAT at width=6
+2026-01-01 19:19:28,696 | RESULT | Process-3 | Time taken: 0.36437392234802246 seconds
+2026-01-01 19:19:28,701 | INFO | MainProcess | No solution found 6
+2026-01-01 19:19:28,701 | INFO | MainProcess | [Test k=23, w=6] Time: 0.38 seconds
+2026-01-01 19:19:28,779 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 19:19:28,860 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 19:19:28,860 | INFO | MainProcess | $$$$
+2026-01-01 19:19:28,860 | INFO | MainProcess | 5
+2026-01-01 19:19:28,863 | INFO | MainProcess | $$$$
+2026-01-01 19:19:28,864 | INFO | MainProcess | Time taken for A-pores_1.mtx.rnd with k = 23: 4.092556476593018 seconds
+2026-01-01 19:19:28,865 | INFO | MainProcess | Maximum width for A-pores_1.mtx.rnd is 5
+2026-01-01 19:19:28,896 | INFO | Process-4 | Number of variables: 1122
+2026-01-01 19:19:28,896 | INFO | Process-4 | Number of clauses: 14430
+2026-01-01 19:19:28,897 | INFO | Process-4 | Real nums of clauses: 14431
+2026-01-01 19:19:28,898 | INFO | Process-4 | Real nums of variables: 1120
+2026-01-01 19:19:28,959 | INFO | Process-4 | CNF written to cnf/v2/B_n32_k18/B_n32_k18_w5.cnf
+2026-01-01 19:19:28,959 | INFO | Process-4 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/B_n32_k18/B_n32_k18_w5.cnf
+2026-01-01 19:19:29,088 | INFO | Process-4 | [PAINLESS] status=SAT rc=10 time=0.13s
+2026-01-01 19:19:29,089 | RESULT | Process-4 | [PAINLESS] result: status=SAT time=0.13s rc=10
+2026-01-01 19:19:29,095 | RESULT | Process-4 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-01 19:19:29,105 | INFO | MainProcess | Found a solution 5
+2026-01-01 19:19:29,106 | INFO | MainProcess | [Test k=18, w=5] Time: 0.22 seconds
+2026-01-01 19:19:29,168 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 19:19:29,187 | INFO | Process-5 | Number of variables: 1122
+2026-01-01 19:19:29,189 | INFO | Process-5 | Number of clauses: 16770
+2026-01-01 19:19:29,189 | INFO | Process-5 | Real nums of clauses: 16771
+2026-01-01 19:19:29,191 | INFO | Process-5 | Real nums of variables: 1120
+2026-01-01 19:19:29,229 | INFO | Process-5 | CNF written to cnf/v2/B_n32_k18/B_n32_k18_w6.cnf
+2026-01-01 19:19:29,235 | INFO | Process-5 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/B_n32_k18/B_n32_k18_w6.cnf
+2026-01-01 19:19:29,378 | INFO | Process-5 | [PAINLESS] status=UNSAT rc=20 time=0.14s
+2026-01-01 19:19:29,379 | RESULT | Process-5 | [PAINLESS] result: status=UNSAT time=0.14s rc=20
+2026-01-01 19:19:29,379 | RESULT | Process-5 | [PAINLESS] Shortcut: UNSAT at width=6
+2026-01-01 19:19:29,379 | RESULT | Process-5 | Time taken: 0.2034149169921875 seconds
+2026-01-01 19:19:29,383 | INFO | MainProcess | No solution found 6
+2026-01-01 19:19:29,383 | INFO | MainProcess | [Test k=18, w=6] Time: 0.21 seconds
+2026-01-01 19:19:29,428 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 19:19:29,478 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 19:19:29,479 | INFO | MainProcess | $$$$
+2026-01-01 19:19:29,479 | INFO | MainProcess | 5
+2026-01-01 19:19:29,479 | INFO | MainProcess | $$$$
+2026-01-01 19:19:29,479 | INFO | MainProcess | Time taken for B-ibm32.mtx.rnd with k = 18: 0.6141841411590576 seconds
+2026-01-01 19:19:29,479 | INFO | MainProcess | Maximum width for B-ibm32.mtx.rnd is 5
+2026-01-01 19:19:29,504 | INFO | Process-6 | Number of variables: 1601
+2026-01-01 19:19:29,510 | INFO | Process-6 | Number of clauses: 14275
+2026-01-01 19:19:29,511 | INFO | Process-6 | Real nums of clauses: 14276
+2026-01-01 19:19:29,515 | INFO | Process-6 | Real nums of variables: 1599
+2026-01-01 19:19:29,535 | INFO | Process-6 | CNF written to cnf/v2/C_n39_k21/C_n39_k21_w8.cnf
+2026-01-01 19:19:29,536 | INFO | Process-6 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/C_n39_k21/C_n39_k21_w8.cnf
+2026-01-01 19:19:29,630 | INFO | Process-6 | [PAINLESS] status=SAT rc=10 time=0.09s
+2026-01-01 19:19:29,630 | RESULT | Process-6 | [PAINLESS] result: status=SAT time=0.09s rc=10
+2026-01-01 19:19:29,635 | RESULT | Process-6 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-01 19:19:29,638 | INFO | MainProcess | Found a solution 8
+2026-01-01 19:19:29,640 | INFO | MainProcess | [Test k=21, w=8] Time: 0.15 seconds
+2026-01-01 19:19:29,732 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 19:19:29,751 | INFO | Process-7 | Number of variables: 1601
+2026-01-01 19:19:29,754 | INFO | Process-7 | Number of clauses: 15471
+2026-01-01 19:19:29,756 | INFO | Process-7 | Real nums of clauses: 15472
+2026-01-01 19:19:29,757 | INFO | Process-7 | Real nums of variables: 1599
+2026-01-01 19:19:29,817 | INFO | Process-7 | CNF written to cnf/v2/C_n39_k21/C_n39_k21_w9.cnf
+2026-01-01 19:19:29,818 | INFO | Process-7 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/C_n39_k21/C_n39_k21_w9.cnf
+2026-01-01 19:19:29,977 | INFO | Process-7 | [PAINLESS] status=SAT rc=10 time=0.16s
+2026-01-01 19:19:29,979 | RESULT | Process-7 | [PAINLESS] result: status=SAT time=0.16s rc=10
+2026-01-01 19:19:29,979 | RESULT | Process-7 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-01 19:19:29,983 | INFO | MainProcess | Found a solution 9
+2026-01-01 19:19:29,983 | INFO | MainProcess | [Test k=21, w=9] Time: 0.25 seconds
+2026-01-01 19:19:30,054 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 19:19:30,069 | INFO | Process-8 | Number of variables: 1601
+2026-01-01 19:19:30,074 | INFO | Process-8 | Number of clauses: 16575
+2026-01-01 19:19:30,082 | INFO | Process-8 | Real nums of clauses: 16576
+2026-01-01 19:19:30,083 | INFO | Process-8 | Real nums of variables: 1599
+2026-01-01 19:19:30,127 | INFO | Process-8 | CNF written to cnf/v2/C_n39_k21/C_n39_k21_w10.cnf
+2026-01-01 19:19:30,128 | INFO | Process-8 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/C_n39_k21/C_n39_k21_w10.cnf
+2026-01-01 19:19:30,228 | INFO | Process-8 | [PAINLESS] status=SAT rc=10 time=0.10s
+2026-01-01 19:19:30,228 | RESULT | Process-8 | [PAINLESS] result: status=SAT time=0.10s rc=10
+2026-01-01 19:19:30,229 | RESULT | Process-8 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-01 19:19:30,235 | INFO | MainProcess | Found a solution 10
+2026-01-01 19:19:30,236 | INFO | MainProcess | [Test k=21, w=10] Time: 0.18 seconds
+2026-01-01 19:19:30,288 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 19:19:30,315 | INFO | Process-9 | Number of variables: 1601
+2026-01-01 19:19:30,318 | INFO | Process-9 | Number of clauses: 17587
+2026-01-01 19:19:30,319 | INFO | Process-9 | Real nums of clauses: 17588
+2026-01-01 19:19:30,320 | INFO | Process-9 | Real nums of variables: 1599
+2026-01-01 19:19:30,374 | INFO | Process-9 | CNF written to cnf/v2/C_n39_k21/C_n39_k21_w11.cnf
+2026-01-01 19:19:30,391 | INFO | Process-9 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/C_n39_k21/C_n39_k21_w11.cnf
+2026-01-01 19:19:30,522 | INFO | Process-9 | [PAINLESS] status=UNSAT rc=20 time=0.13s
+2026-01-01 19:19:30,526 | RESULT | Process-9 | [PAINLESS] result: status=UNSAT time=0.13s rc=20
+2026-01-01 19:19:30,531 | RESULT | Process-9 | [PAINLESS] Shortcut: UNSAT at width=11
+2026-01-01 19:19:30,531 | RESULT | Process-9 | Time taken: 0.23486828804016113 seconds
+2026-01-01 19:19:30,539 | INFO | MainProcess | No solution found 11
+2026-01-01 19:19:30,539 | INFO | MainProcess | [Test k=21, w=11] Time: 0.25 seconds
+2026-01-01 19:19:30,601 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 19:19:30,653 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 19:19:30,653 | INFO | MainProcess | $$$$
+2026-01-01 19:19:30,653 | INFO | MainProcess | 10
+2026-01-01 19:19:30,653 | INFO | MainProcess | $$$$
+2026-01-01 19:19:30,653 | INFO | MainProcess | Time taken for C-bcspwr01.mtx.rnd with k = 21: 1.173759937286377 seconds
+2026-01-01 19:19:30,653 | INFO | MainProcess | Maximum width for C-bcspwr01.mtx.rnd is 10
+2026-01-01 19:19:30,695 | INFO | Process-10 | Number of variables: 2738
+2026-01-01 19:19:30,697 | INFO | Process-10 | Number of clauses: 37677
+2026-01-01 19:19:30,698 | INFO | Process-10 | Real nums of clauses: 37678
+2026-01-01 19:19:30,699 | INFO | Process-10 | Real nums of variables: 2736
+2026-01-01 19:19:30,772 | INFO | Process-10 | CNF written to cnf/v2/D_n48_k29/D_n48_k29_w4.cnf
+2026-01-01 19:19:30,772 | INFO | Process-10 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/D_n48_k29/D_n48_k29_w4.cnf
+2026-01-01 19:19:30,923 | INFO | Process-10 | [PAINLESS] status=SAT rc=10 time=0.15s
+2026-01-01 19:19:30,924 | RESULT | Process-10 | [PAINLESS] result: status=SAT time=0.15s rc=10
+2026-01-01 19:19:30,924 | RESULT | Process-10 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-01 19:19:30,935 | INFO | MainProcess | Found a solution 4
+2026-01-01 19:19:30,938 | INFO | MainProcess | [Test k=29, w=4] Time: 0.27 seconds
+2026-01-01 19:19:30,966 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 19:19:30,994 | INFO | Process-11 | Number of variables: 2738
+2026-01-01 19:19:30,994 | INFO | Process-11 | Number of clauses: 46477
+2026-01-01 19:19:30,994 | INFO | Process-11 | Real nums of clauses: 46478
+2026-01-01 19:19:30,995 | INFO | Process-11 | Real nums of variables: 2736
+2026-01-01 19:19:31,085 | INFO | Process-11 | CNF written to cnf/v2/D_n48_k29/D_n48_k29_w5.cnf
+2026-01-01 19:19:31,086 | INFO | Process-11 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/D_n48_k29/D_n48_k29_w5.cnf
+2026-01-01 19:19:31,228 | INFO | Process-11 | [PAINLESS] status=SAT rc=10 time=0.14s
+2026-01-01 19:19:31,229 | RESULT | Process-11 | [PAINLESS] result: status=SAT time=0.14s rc=10
+2026-01-01 19:19:31,229 | RESULT | Process-11 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-01 19:19:31,236 | INFO | MainProcess | Found a solution 5
+2026-01-01 19:19:31,236 | INFO | MainProcess | [Test k=29, w=5] Time: 0.27 seconds
+2026-01-01 19:19:31,332 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 19:19:31,404 | INFO | Process-12 | Number of variables: 2738
+2026-01-01 19:19:31,404 | INFO | Process-12 | Number of clauses: 54925
+2026-01-01 19:19:31,404 | INFO | Process-12 | Real nums of clauses: 54926
+2026-01-01 19:19:31,406 | INFO | Process-12 | Real nums of variables: 2736
+2026-01-01 19:19:31,516 | INFO | Process-12 | CNF written to cnf/v2/D_n48_k29/D_n48_k29_w6.cnf
+2026-01-01 19:19:31,516 | INFO | Process-12 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/D_n48_k29/D_n48_k29_w6.cnf
+2026-01-01 19:19:32,186 | INFO | Process-12 | [PAINLESS] status=UNSAT rc=20 time=0.67s
+2026-01-01 19:19:32,187 | RESULT | Process-12 | [PAINLESS] result: status=UNSAT time=0.67s rc=20
+2026-01-01 19:19:32,187 | RESULT | Process-12 | [PAINLESS] Shortcut: UNSAT at width=6
+2026-01-01 19:19:32,188 | RESULT | Process-12 | Time taken: 0.8502528667449951 seconds
+2026-01-01 19:19:32,201 | INFO | MainProcess | No solution found 6
+2026-01-01 19:19:32,203 | INFO | MainProcess | [Test k=29, w=6] Time: 0.87 seconds
+2026-01-01 19:19:32,251 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 19:19:32,311 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 19:19:32,311 | INFO | MainProcess | $$$$
+2026-01-01 19:19:32,311 | INFO | MainProcess | 5
+2026-01-01 19:19:32,312 | INFO | MainProcess | $$$$
+2026-01-01 19:19:32,312 | INFO | MainProcess | Time taken for D-bcsstk01.mtx.rnd with k = 29: 1.6587333679199219 seconds
+2026-01-01 19:19:32,312 | INFO | MainProcess | Maximum width for D-bcsstk01.mtx.rnd is 5
+2026-01-01 19:19:32,395 | INFO | Process-13 | Number of variables: 3383
+2026-01-01 19:19:32,396 | INFO | Process-13 | Number of clauses: 52528
+2026-01-01 19:19:32,397 | INFO | Process-13 | Real nums of clauses: 52529
+2026-01-01 19:19:32,397 | INFO | Process-13 | Real nums of variables: 3381
+2026-01-01 19:19:32,493 | INFO | Process-13 | CNF written to cnf/v2/E_n49_k35/E_n49_k35_w15.cnf
+2026-01-01 19:19:32,497 | INFO | Process-13 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/E_n49_k35/E_n49_k35_w15.cnf
+2026-01-01 19:19:32,665 | INFO | Process-13 | [PAINLESS] status=SAT rc=10 time=0.17s
+2026-01-01 19:19:32,666 | RESULT | Process-13 | [PAINLESS] result: status=SAT time=0.17s rc=10
+2026-01-01 19:19:32,666 | RESULT | Process-13 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-01 19:19:32,673 | INFO | MainProcess | Found a solution 15
+2026-01-01 19:19:32,673 | INFO | MainProcess | [Test k=35, w=15] Time: 0.35 seconds
+2026-01-01 19:19:32,712 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 19:19:32,779 | INFO | Process-14 | Number of variables: 3383
+2026-01-01 19:19:32,783 | INFO | Process-14 | Number of clauses: 54888
+2026-01-01 19:19:32,783 | INFO | Process-14 | Real nums of clauses: 54889
+2026-01-01 19:19:32,784 | INFO | Process-14 | Real nums of variables: 3381
+2026-01-01 19:19:32,878 | INFO | Process-14 | CNF written to cnf/v2/E_n49_k35/E_n49_k35_w16.cnf
+2026-01-01 19:19:32,880 | INFO | Process-14 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/E_n49_k35/E_n49_k35_w16.cnf
+2026-01-01 19:19:33,059 | INFO | Process-14 | [PAINLESS] status=SAT rc=10 time=0.18s
+2026-01-01 19:19:33,062 | RESULT | Process-14 | [PAINLESS] result: status=SAT time=0.18s rc=10
+2026-01-01 19:19:33,063 | RESULT | Process-14 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-01 19:19:33,070 | INFO | MainProcess | Found a solution 16
+2026-01-01 19:19:33,070 | INFO | MainProcess | [Test k=35, w=16] Time: 0.36 seconds
+2026-01-01 19:19:33,121 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 19:19:33,187 | INFO | Process-15 | Number of variables: 3383
+2026-01-01 19:19:33,189 | INFO | Process-15 | Number of clauses: 57130
+2026-01-01 19:19:33,189 | INFO | Process-15 | Real nums of clauses: 57131
+2026-01-01 19:19:33,190 | INFO | Process-15 | Real nums of variables: 3381
+2026-01-01 19:19:33,322 | INFO | Process-15 | CNF written to cnf/v2/E_n49_k35/E_n49_k35_w17.cnf
+2026-01-01 19:19:33,330 | INFO | Process-15 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/E_n49_k35/E_n49_k35_w17.cnf
+2026-01-01 19:19:34,854 | INFO | Process-15 | [PAINLESS] status=SAT rc=10 time=1.52s
+2026-01-01 19:19:34,855 | RESULT | Process-15 | [PAINLESS] result: status=SAT time=1.52s rc=10
+2026-01-01 19:19:34,859 | RESULT | Process-15 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-01 19:19:34,875 | INFO | MainProcess | Found a solution 17
+2026-01-01 19:19:34,875 | INFO | MainProcess | [Test k=35, w=17] Time: 1.75 seconds
+2026-01-01 19:19:34,962 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 19:19:35,027 | INFO | Process-16 | Number of variables: 3383
+2026-01-01 19:19:35,027 | INFO | Process-16 | Number of clauses: 59254
+2026-01-01 19:19:35,028 | INFO | Process-16 | Real nums of clauses: 59255
+2026-01-01 19:19:35,028 | INFO | Process-16 | Real nums of variables: 3381
+2026-01-01 19:19:35,168 | INFO | Process-16 | CNF written to cnf/v2/E_n49_k35/E_n49_k35_w18.cnf
+2026-01-01 19:19:35,174 | INFO | Process-16 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/E_n49_k35/E_n49_k35_w18.cnf
+2026-01-01 19:19:35,304 | INFO | Process-16 | [PAINLESS] status=UNSAT rc=20 time=0.13s
+2026-01-01 19:19:35,308 | RESULT | Process-16 | [PAINLESS] result: status=UNSAT time=0.13s rc=20
+2026-01-01 19:19:35,309 | RESULT | Process-16 | [PAINLESS] Shortcut: UNSAT at width=18
+2026-01-01 19:19:35,309 | RESULT | Process-16 | Time taken: 0.3415372371673584 seconds
+2026-01-01 19:19:35,317 | INFO | MainProcess | No solution found 18
+2026-01-01 19:19:35,317 | INFO | MainProcess | [Test k=35, w=18] Time: 0.35 seconds
+2026-01-01 19:19:35,382 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 19:19:35,455 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 19:19:35,456 | INFO | MainProcess | $$$$
+2026-01-01 19:19:35,456 | INFO | MainProcess | 17
+2026-01-01 19:19:35,458 | INFO | MainProcess | $$$$
+2026-01-01 19:19:35,459 | INFO | MainProcess | Time taken for E-bcspwr02.mtx.rnd with k = 35: 3.146301507949829 seconds
+2026-01-01 19:19:35,461 | INFO | MainProcess | Maximum width for E-bcspwr02.mtx.rnd is 17
+2026-01-01 19:19:35,537 | INFO | Process-17 | Number of variables: 3512
+2026-01-01 19:19:35,539 | INFO | Process-17 | Number of clauses: 53205
+2026-01-01 19:19:35,543 | INFO | Process-17 | Real nums of clauses: 53206
+2026-01-01 19:19:35,544 | INFO | Process-17 | Real nums of variables: 3510
+2026-01-01 19:19:35,652 | INFO | Process-17 | CNF written to cnf/v2/F_n54_k33/F_n54_k33_w7.cnf
+2026-01-01 19:19:35,655 | INFO | Process-17 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/F_n54_k33/F_n54_k33_w7.cnf
+2026-01-01 19:19:35,840 | INFO | Process-17 | [PAINLESS] status=SAT rc=10 time=0.19s
+2026-01-01 19:19:35,841 | RESULT | Process-17 | [PAINLESS] result: status=SAT time=0.19s rc=10
+2026-01-01 19:19:35,841 | RESULT | Process-17 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-01 19:19:35,856 | INFO | MainProcess | Found a solution 7
+2026-01-01 19:19:35,858 | INFO | MainProcess | [Test k=33, w=7] Time: 0.38 seconds
+2026-01-01 19:19:35,919 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 19:19:36,014 | INFO | Process-18 | Number of variables: 3512
+2026-01-01 19:19:36,018 | INFO | Process-18 | Number of clauses: 59653
+2026-01-01 19:19:36,019 | INFO | Process-18 | Real nums of clauses: 59654
+2026-01-01 19:19:36,023 | INFO | Process-18 | Real nums of variables: 3510
+2026-01-01 19:19:36,108 | INFO | Process-18 | CNF written to cnf/v2/F_n54_k33/F_n54_k33_w8.cnf
+2026-01-01 19:19:36,109 | INFO | Process-18 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/F_n54_k33/F_n54_k33_w8.cnf
+2026-01-01 19:19:36,272 | INFO | Process-18 | [PAINLESS] status=SAT rc=10 time=0.16s
+2026-01-01 19:19:36,431 | RESULT | Process-18 | [PAINLESS] result: status=SAT time=0.16s rc=10
+2026-01-01 19:19:36,431 | RESULT | Process-18 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-01 19:19:36,438 | INFO | MainProcess | Found a solution 8
+2026-01-01 19:19:36,439 | INFO | MainProcess | [Test k=33, w=8] Time: 0.52 seconds
+2026-01-01 19:19:36,476 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 19:19:36,546 | INFO | Process-19 | Number of variables: 3512
+2026-01-01 19:19:36,552 | INFO | Process-19 | Number of clauses: 65853
+2026-01-01 19:19:36,553 | INFO | Process-19 | Real nums of clauses: 65854
+2026-01-01 19:19:36,553 | INFO | Process-19 | Real nums of variables: 3510
+2026-01-01 19:19:36,691 | INFO | Process-19 | CNF written to cnf/v2/F_n54_k33/F_n54_k33_w9.cnf
+2026-01-01 19:19:36,692 | INFO | Process-19 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/F_n54_k33/F_n54_k33_w9.cnf
+2026-01-01 19:19:36,951 | INFO | Process-19 | [PAINLESS] status=UNSAT rc=20 time=0.26s
+2026-01-01 19:19:36,952 | RESULT | Process-19 | [PAINLESS] result: status=UNSAT time=0.26s rc=20
+2026-01-01 19:19:36,955 | RESULT | Process-19 | [PAINLESS] Shortcut: UNSAT at width=9
+2026-01-01 19:19:36,955 | RESULT | Process-19 | Time taken: 0.4759178161621094 seconds
+2026-01-01 19:19:36,971 | INFO | MainProcess | No solution found 9
+2026-01-01 19:19:36,971 | INFO | MainProcess | [Test k=33, w=9] Time: 0.49 seconds
+2026-01-01 19:19:37,024 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 19:19:37,091 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 19:19:37,092 | INFO | MainProcess | $$$$
+2026-01-01 19:19:37,092 | INFO | MainProcess | 8
+2026-01-01 19:19:37,092 | INFO | MainProcess | $$$$
+2026-01-01 19:19:37,092 | INFO | MainProcess | Time taken for F-curtis54.mtx.rnd with k = 33: 1.629319667816162 seconds
+2026-01-01 19:19:37,092 | INFO | MainProcess | Maximum width for F-curtis54.mtx.rnd is 8
+2026-01-01 19:19:37,173 | INFO | Process-20 | Number of variables: 3479
+2026-01-01 19:19:37,177 | INFO | Process-20 | Number of clauses: 44658
+2026-01-01 19:19:37,177 | INFO | Process-20 | Real nums of clauses: 44659
+2026-01-01 19:19:37,183 | INFO | Process-20 | Real nums of variables: 3477
+2026-01-01 19:19:37,274 | INFO | Process-20 | CNF written to cnf/v2/G_n57_k31/G_n57_k31_w6.cnf
+2026-01-01 19:19:37,277 | INFO | Process-20 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/G_n57_k31/G_n57_k31_w6.cnf
+2026-01-01 19:19:37,408 | INFO | Process-20 | [PAINLESS] status=SAT rc=10 time=0.13s
+2026-01-01 19:19:37,409 | RESULT | Process-20 | [PAINLESS] result: status=SAT time=0.13s rc=10
+2026-01-01 19:19:37,409 | RESULT | Process-20 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-01 19:19:37,422 | INFO | MainProcess | Found a solution 6
+2026-01-01 19:19:37,422 | INFO | MainProcess | [Test k=31, w=6] Time: 0.32 seconds
+2026-01-01 19:19:37,484 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 19:19:37,551 | INFO | Process-21 | Number of variables: 3479
+2026-01-01 19:19:37,553 | INFO | Process-21 | Number of clauses: 51008
+2026-01-01 19:19:37,554 | INFO | Process-21 | Real nums of clauses: 51009
+2026-01-01 19:19:37,554 | INFO | Process-21 | Real nums of variables: 3477
+2026-01-01 19:19:37,674 | INFO | Process-21 | CNF written to cnf/v2/G_n57_k31/G_n57_k31_w7.cnf
+2026-01-01 19:19:37,675 | INFO | Process-21 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/G_n57_k31/G_n57_k31_w7.cnf
+2026-01-01 19:19:37,867 | INFO | Process-21 | [PAINLESS] status=SAT rc=10 time=0.19s
+2026-01-01 19:19:37,869 | RESULT | Process-21 | [PAINLESS] result: status=SAT time=0.19s rc=10
+2026-01-01 19:19:37,870 | RESULT | Process-21 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-01 19:19:37,881 | INFO | MainProcess | Found a solution 7
+2026-01-01 19:19:37,882 | INFO | MainProcess | [Test k=31, w=7] Time: 0.4 seconds
+2026-01-01 19:19:37,925 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 19:19:37,991 | INFO | Process-22 | Number of variables: 3479
+2026-01-01 19:19:37,998 | INFO | Process-22 | Number of clauses: 57104
+2026-01-01 19:19:37,999 | INFO | Process-22 | Real nums of clauses: 57105
+2026-01-01 19:19:37,999 | INFO | Process-22 | Real nums of variables: 3477
+2026-01-01 19:19:38,098 | INFO | Process-22 | CNF written to cnf/v2/G_n57_k31/G_n57_k31_w8.cnf
+2026-01-01 19:19:38,098 | INFO | Process-22 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/G_n57_k31/G_n57_k31_w8.cnf
+2026-01-01 19:19:38,352 | INFO | Process-22 | [PAINLESS] status=UNSAT rc=20 time=0.25s
+2026-01-01 19:19:38,352 | RESULT | Process-22 | [PAINLESS] result: status=UNSAT time=0.25s rc=20
+2026-01-01 19:19:38,353 | RESULT | Process-22 | [PAINLESS] Shortcut: UNSAT at width=8
+2026-01-01 19:19:38,353 | RESULT | Process-22 | Time taken: 0.42441582679748535 seconds
+2026-01-01 19:19:38,364 | INFO | MainProcess | No solution found 8
+2026-01-01 19:19:38,365 | INFO | MainProcess | [Test k=31, w=8] Time: 0.44 seconds
+2026-01-01 19:19:38,455 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 19:19:38,535 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 19:19:38,536 | INFO | MainProcess | $$$$
+2026-01-01 19:19:38,536 | INFO | MainProcess | 7
+2026-01-01 19:19:38,537 | INFO | MainProcess | $$$$
+2026-01-01 19:19:38,537 | INFO | MainProcess | Time taken for G-will57.mtx.rnd with k = 31: 1.4448635578155518 seconds
+2026-01-01 19:19:38,537 | INFO | MainProcess | Maximum width for G-will57.mtx.rnd is 7
+2026-01-01 19:19:38,663 | INFO | Process-23 | Number of variables: 4309
+2026-01-01 19:19:38,665 | INFO | Process-23 | Number of clauses: 94362
+2026-01-01 19:19:38,665 | INFO | Process-23 | Real nums of clauses: 94363
+2026-01-01 19:19:38,666 | INFO | Process-23 | Real nums of variables: 4307
+2026-01-01 19:19:38,833 | INFO | Process-23 | CNF written to cnf/v2/H_n59_k37/H_n59_k37_w5.cnf
+2026-01-01 19:19:38,843 | INFO | Process-23 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/H_n59_k37/H_n59_k37_w5.cnf
+2026-01-01 19:19:39,107 | INFO | Process-23 | [PAINLESS] status=SAT rc=10 time=0.26s
+2026-01-01 19:19:39,110 | RESULT | Process-23 | [PAINLESS] result: status=SAT time=0.26s rc=10
+2026-01-01 19:19:39,116 | RESULT | Process-23 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-01 19:19:39,125 | INFO | MainProcess | Found a solution 5
+2026-01-01 19:19:39,125 | INFO | MainProcess | [Test k=37, w=5] Time: 0.56 seconds
+2026-01-01 19:19:39,175 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 19:19:39,298 | INFO | Process-24 | Number of variables: 4309
+2026-01-01 19:19:39,301 | INFO | Process-24 | Number of clauses: 112346
+2026-01-01 19:19:39,301 | INFO | Process-24 | Real nums of clauses: 112347
+2026-01-01 19:19:39,304 | INFO | Process-24 | Real nums of variables: 4307
+2026-01-01 19:19:39,439 | INFO | Process-24 | CNF written to cnf/v2/H_n59_k37/H_n59_k37_w6.cnf
+2026-01-01 19:19:39,439 | INFO | Process-24 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/H_n59_k37/H_n59_k37_w6.cnf
+2026-01-01 19:19:51,702 | INFO | Process-24 | [PAINLESS] status=UNSAT rc=20 time=12.26s
+2026-01-01 19:19:51,702 | RESULT | Process-24 | [PAINLESS] result: status=UNSAT time=12.26s rc=20
+2026-01-01 19:19:51,702 | RESULT | Process-24 | [PAINLESS] Shortcut: UNSAT at width=6
+2026-01-01 19:19:51,703 | RESULT | Process-24 | Time taken: 12.52379298210144 seconds
+2026-01-01 19:19:51,712 | INFO | MainProcess | No solution found 6
+2026-01-01 19:19:51,713 | INFO | MainProcess | [Test k=37, w=6] Time: 12.54 seconds
+2026-01-01 19:19:51,739 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 19:19:51,776 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 19:19:51,776 | INFO | MainProcess | $$$$
+2026-01-01 19:19:51,777 | INFO | MainProcess | 5
+2026-01-01 19:19:51,777 | INFO | MainProcess | $$$$
+2026-01-01 19:19:51,777 | INFO | MainProcess | Time taken for H-impcol_b.mtx.rnd with k = 37: 13.234535455703735 seconds
+2026-01-01 19:19:51,777 | INFO | MainProcess | Maximum width for H-impcol_b.mtx.rnd is 5
+2026-01-01 19:19:52,133 | INFO | Process-25 | Number of variables: 11307
+2026-01-01 19:19:52,133 | INFO | Process-25 | Number of clauses: 396424
+2026-01-01 19:19:52,133 | INFO | Process-25 | Real nums of clauses: 396425
+2026-01-01 19:19:52,134 | INFO | Process-25 | Real nums of variables: 11305
+2026-01-01 19:19:52,372 | INFO | Process-25 | CNF written to cnf/v2/I_n85_k67/I_n85_k67_w15.cnf
+2026-01-01 19:19:52,373 | INFO | Process-25 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/I_n85_k67/I_n85_k67_w15.cnf
+2026-01-01 19:19:53,506 | INFO | Process-25 | [PAINLESS] status=SAT rc=10 time=1.13s
+2026-01-01 19:19:53,506 | RESULT | Process-25 | [PAINLESS] result: status=SAT time=1.13s rc=10
+2026-01-01 19:19:53,508 | RESULT | Process-25 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-01 19:19:53,539 | INFO | MainProcess | Found a solution 15
+2026-01-01 19:19:53,540 | INFO | MainProcess | [Test k=67, w=15] Time: 1.75 seconds
+2026-01-01 19:19:53,618 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 19:19:53,968 | INFO | Process-26 | Number of variables: 11307
+2026-01-01 19:19:53,968 | INFO | Process-26 | Number of clauses: 419200
+2026-01-01 19:19:53,969 | INFO | Process-26 | Real nums of clauses: 419201
+2026-01-01 19:19:53,969 | INFO | Process-26 | Real nums of variables: 11305
+2026-01-01 19:19:54,624 | INFO | Process-26 | CNF written to cnf/v2/I_n85_k67/I_n85_k67_w16.cnf
+2026-01-01 19:19:54,625 | INFO | Process-26 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/I_n85_k67/I_n85_k67_w16.cnf
+2026-01-01 19:19:56,296 | INFO | Process-26 | [PAINLESS] status=SAT rc=10 time=1.67s
+2026-01-01 19:19:56,297 | RESULT | Process-26 | [PAINLESS] result: status=SAT time=1.67s rc=10
+2026-01-01 19:19:56,299 | RESULT | Process-26 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-01 19:19:56,332 | INFO | MainProcess | Found a solution 16
+2026-01-01 19:19:56,333 | INFO | MainProcess | [Test k=67, w=16] Time: 2.71 seconds
+2026-01-01 19:19:56,431 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 19:19:56,798 | INFO | Process-27 | Number of variables: 11307
+2026-01-01 19:19:56,798 | INFO | Process-27 | Number of clauses: 441538
+2026-01-01 19:19:56,798 | INFO | Process-27 | Real nums of clauses: 441539
+2026-01-01 19:19:56,798 | INFO | Process-27 | Real nums of variables: 11305
+2026-01-01 19:19:57,138 | INFO | Process-27 | CNF written to cnf/v2/I_n85_k67/I_n85_k67_w17.cnf
+2026-01-01 19:19:57,140 | INFO | Process-27 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/I_n85_k67/I_n85_k67_w17.cnf
+2026-01-01 19:20:00,522 | INFO | Process-27 | [PAINLESS] status=SAT rc=10 time=3.38s
+2026-01-01 19:20:00,522 | RESULT | Process-27 | [PAINLESS] result: status=SAT time=3.38s rc=10
+2026-01-01 19:20:00,523 | RESULT | Process-27 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-01 19:20:00,553 | INFO | MainProcess | Found a solution 17
+2026-01-01 19:20:00,554 | INFO | MainProcess | [Test k=67, w=17] Time: 4.12 seconds
+2026-01-01 19:20:00,583 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 19:20:00,964 | INFO | Process-28 | Number of variables: 11307
+2026-01-01 19:20:00,965 | INFO | Process-28 | Number of clauses: 463438
+2026-01-01 19:20:00,965 | INFO | Process-28 | Real nums of clauses: 463439
+2026-01-01 19:20:00,965 | INFO | Process-28 | Real nums of variables: 11305
+2026-01-01 19:20:01,218 | INFO | Process-28 | CNF written to cnf/v2/I_n85_k67/I_n85_k67_w18.cnf
+2026-01-01 19:20:01,219 | INFO | Process-28 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/I_n85_k67/I_n85_k67_w18.cnf
+2026-01-01 19:20:36,311 | INFO | Process-28 | [PAINLESS] status=SAT rc=10 time=35.09s
+2026-01-01 19:20:36,311 | RESULT | Process-28 | [PAINLESS] result: status=SAT time=35.09s rc=10
+2026-01-01 19:20:36,313 | RESULT | Process-28 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-01 19:20:36,374 | INFO | MainProcess | Found a solution 18
+2026-01-01 19:20:36,375 | INFO | MainProcess | [Test k=67, w=18] Time: 35.79 seconds
+2026-01-01 19:20:36,422 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 19:20:36,842 | INFO | Process-29 | Number of variables: 11307
+2026-01-01 19:20:36,842 | INFO | Process-29 | Number of clauses: 484900
+2026-01-01 19:20:36,842 | INFO | Process-29 | Real nums of clauses: 484901
+2026-01-01 19:20:36,842 | INFO | Process-29 | Real nums of variables: 11305
+2026-01-01 19:20:37,372 | INFO | Process-29 | CNF written to cnf/v2/I_n85_k67/I_n85_k67_w19.cnf
+2026-01-01 19:20:37,373 | INFO | Process-29 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/I_n85_k67/I_n85_k67_w19.cnf
+2026-01-01 19:23:40,503 | INFO | Process-29 | [PAINLESS] status=SAT rc=10 time=183.12s
+2026-01-01 19:23:40,524 | RESULT | Process-29 | [PAINLESS] result: status=SAT time=183.12s rc=10
+2026-01-01 19:23:40,557 | RESULT | Process-29 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-01 19:23:45,946 | INFO | MainProcess | Found a solution 19
+2026-01-01 19:23:45,962 | INFO | MainProcess | [Test k=67, w=19] Time: 189.51 seconds
+2026-01-01 19:23:47,066 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 19:23:47,679 | INFO | Process-30 | Number of variables: 11307
+2026-01-01 19:23:47,680 | INFO | Process-30 | Number of clauses: 505924
+2026-01-01 19:23:47,680 | INFO | Process-30 | Real nums of clauses: 505925
+2026-01-01 19:23:47,680 | INFO | Process-30 | Real nums of variables: 11305
+2026-01-01 19:23:48,040 | INFO | Process-30 | CNF written to cnf/v2/I_n85_k67/I_n85_k67_w20.cnf
+2026-01-01 19:23:48,041 | INFO | Process-30 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/I_n85_k67/I_n85_k67_w20.cnf
+2026-01-01 19:52:46,102 | INFO | MainProcess | No solution found 20
+2026-01-01 19:52:46,126 | INFO | MainProcess | [Test k=67, w=20] Time: 1739.02 seconds
+2026-01-01 19:52:46,723 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 19:52:46,804 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 19:52:46,805 | INFO | MainProcess | $$$$
+2026-01-01 19:52:46,805 | INFO | MainProcess | -19
+2026-01-01 19:52:46,805 | INFO | MainProcess | $$$$
+2026-01-01 19:52:46,805 | INFO | MainProcess | Time taken for I-ash85.mtx.rnd with k = 67: 1975.0275642871857 seconds
+2026-01-01 19:52:46,806 | INFO | MainProcess | Maximum width before timeout for I-ash85.mtx.rnd is 19
+2026-01-01 19:52:46,808 | INFO | MainProcess | time out
+2026-01-01 19:52:48,876 | INFO | Process-31 | Number of variables: 11102
+2026-01-01 19:52:48,881 | INFO | Process-31 | Number of clauses: 405828
+2026-01-01 19:52:48,881 | INFO | Process-31 | Real nums of clauses: 405829
+2026-01-01 19:52:48,885 | INFO | Process-31 | Real nums of variables: 11100
+2026-01-01 19:52:49,182 | INFO | Process-31 | CNF written to cnf/v2/J_n100_k56/J_n100_k56_w17.cnf
+2026-01-01 19:52:49,182 | INFO | Process-31 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/J_n100_k56/J_n100_k56_w17.cnf
+2026-01-01 19:52:50,133 | INFO | Process-31 | [PAINLESS] status=SAT rc=10 time=0.95s
+2026-01-01 19:52:50,133 | RESULT | Process-31 | [PAINLESS] result: status=SAT time=0.95s rc=10
+2026-01-01 19:52:50,134 | RESULT | Process-31 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-01 19:52:50,183 | INFO | MainProcess | Found a solution 17
+2026-01-01 19:52:50,184 | INFO | MainProcess | [Test k=56, w=17] Time: 3.36 seconds
+2026-01-01 19:52:50,251 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 19:52:50,718 | INFO | Process-32 | Number of variables: 11102
+2026-01-01 19:52:50,719 | INFO | Process-32 | Number of clauses: 425094
+2026-01-01 19:52:50,721 | INFO | Process-32 | Real nums of clauses: 425095
+2026-01-01 19:52:50,722 | INFO | Process-32 | Real nums of variables: 11100
+2026-01-01 19:52:51,068 | INFO | Process-32 | CNF written to cnf/v2/J_n100_k56/J_n100_k56_w18.cnf
+2026-01-01 19:52:51,069 | INFO | Process-32 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/J_n100_k56/J_n100_k56_w18.cnf
+2026-01-01 19:52:51,766 | INFO | Process-32 | [PAINLESS] status=SAT rc=10 time=0.70s
+2026-01-01 19:52:51,766 | RESULT | Process-32 | [PAINLESS] result: status=SAT time=0.70s rc=10
+2026-01-01 19:52:51,770 | RESULT | Process-32 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-01 19:52:51,805 | INFO | MainProcess | Found a solution 18
+2026-01-01 19:52:51,809 | INFO | MainProcess | [Test k=56, w=18] Time: 1.55 seconds
+2026-01-01 19:52:51,856 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 19:52:52,308 | INFO | Process-33 | Number of variables: 11102
+2026-01-01 19:52:52,313 | INFO | Process-33 | Number of clauses: 443866
+2026-01-01 19:52:52,313 | INFO | Process-33 | Real nums of clauses: 443867
+2026-01-01 19:52:52,317 | INFO | Process-33 | Real nums of variables: 11100
+2026-01-01 19:52:52,671 | INFO | Process-33 | CNF written to cnf/v2/J_n100_k56/J_n100_k56_w19.cnf
+2026-01-01 19:52:52,671 | INFO | Process-33 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/J_n100_k56/J_n100_k56_w19.cnf
+2026-01-01 19:52:57,086 | INFO | Process-33 | [PAINLESS] status=SAT rc=10 time=4.42s
+2026-01-01 19:52:57,087 | RESULT | Process-33 | [PAINLESS] result: status=SAT time=4.42s rc=10
+2026-01-01 19:52:57,088 | RESULT | Process-33 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-01 19:52:57,147 | INFO | MainProcess | Found a solution 19
+2026-01-01 19:52:57,148 | INFO | MainProcess | [Test k=56, w=19] Time: 5.29 seconds
+2026-01-01 19:52:57,182 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 19:52:57,680 | INFO | Process-34 | Number of variables: 11102
+2026-01-01 19:52:57,683 | INFO | Process-34 | Number of clauses: 462144
+2026-01-01 19:52:57,683 | INFO | Process-34 | Real nums of clauses: 462145
+2026-01-01 19:52:57,687 | INFO | Process-34 | Real nums of variables: 11100
+2026-01-01 19:52:58,071 | INFO | Process-34 | CNF written to cnf/v2/J_n100_k56/J_n100_k56_w20.cnf
+2026-01-01 19:52:58,072 | INFO | Process-34 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/J_n100_k56/J_n100_k56_w20.cnf
+2026-01-01 19:52:59,962 | INFO | Process-34 | [PAINLESS] status=SAT rc=10 time=1.89s
+2026-01-01 19:52:59,962 | RESULT | Process-34 | [PAINLESS] result: status=SAT time=1.89s rc=10
+2026-01-01 19:52:59,964 | RESULT | Process-34 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-01 19:53:00,039 | INFO | MainProcess | Found a solution 20
+2026-01-01 19:53:00,040 | INFO | MainProcess | [Test k=56, w=20] Time: 2.86 seconds
+2026-01-01 19:53:00,107 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 19:53:00,618 | INFO | Process-35 | Number of variables: 11102
+2026-01-01 19:53:00,623 | INFO | Process-35 | Number of clauses: 479928
+2026-01-01 19:53:00,623 | INFO | Process-35 | Real nums of clauses: 479929
+2026-01-01 19:53:00,627 | INFO | Process-35 | Real nums of variables: 11100
+2026-01-01 19:53:01,000 | INFO | Process-35 | CNF written to cnf/v2/J_n100_k56/J_n100_k56_w21.cnf
+2026-01-01 19:53:01,000 | INFO | Process-35 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/J_n100_k56/J_n100_k56_w21.cnf
+2026-01-01 19:53:03,148 | INFO | Process-35 | [PAINLESS] status=SAT rc=10 time=2.15s
+2026-01-01 19:53:03,149 | RESULT | Process-35 | [PAINLESS] result: status=SAT time=2.15s rc=10
+2026-01-01 19:53:03,150 | RESULT | Process-35 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-01 19:53:03,223 | INFO | MainProcess | Found a solution 21
+2026-01-01 19:53:03,223 | INFO | MainProcess | [Test k=56, w=21] Time: 3.12 seconds
+2026-01-01 19:53:03,262 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 19:53:03,767 | INFO | Process-36 | Number of variables: 11102
+2026-01-01 19:53:03,771 | INFO | Process-36 | Number of clauses: 497218
+2026-01-01 19:53:03,771 | INFO | Process-36 | Real nums of clauses: 497219
+2026-01-01 19:53:03,775 | INFO | Process-36 | Real nums of variables: 11100
+2026-01-01 19:53:04,168 | INFO | Process-36 | CNF written to cnf/v2/J_n100_k56/J_n100_k56_w22.cnf
+2026-01-01 19:53:04,169 | INFO | Process-36 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/J_n100_k56/J_n100_k56_w22.cnf
+2026-01-01 19:59:00,507 | INFO | Process-36 | [PAINLESS] status=UNSAT rc=20 time=356.33s
+2026-01-01 19:59:00,537 | RESULT | Process-36 | [PAINLESS] result: status=UNSAT time=356.33s rc=20
+2026-01-01 19:59:00,551 | RESULT | Process-36 | [PAINLESS] Shortcut: UNSAT at width=22
+2026-01-01 19:59:00,563 | RESULT | Process-36 | Time taken: 357.2943983078003 seconds
+2026-01-01 19:59:05,206 | INFO | MainProcess | No solution found 22
+2026-01-01 19:59:05,236 | INFO | MainProcess | [Test k=56, w=22] Time: 361.94 seconds
+2026-01-01 19:59:05,772 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 19:59:05,827 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 19:59:05,827 | INFO | MainProcess | $$$$
+2026-01-01 19:59:05,827 | INFO | MainProcess | 21
+2026-01-01 19:59:05,828 | INFO | MainProcess | $$$$
+2026-01-01 19:59:05,828 | INFO | MainProcess | Time taken for J-nos4.mtx.rnd with k = 56: 379.0193507671356 seconds
+2026-01-01 19:59:05,829 | INFO | MainProcess | Maximum width for J-nos4.mtx.rnd is 21
+2026-01-01 19:59:07,781 | INFO | Process-37 | Number of variables: 18605
+2026-01-01 19:59:07,785 | INFO | Process-37 | Number of clauses: 667709
+2026-01-01 19:59:07,786 | INFO | Process-37 | Real nums of clauses: 667710
+2026-01-01 19:59:07,790 | INFO | Process-37 | Real nums of variables: 18603
+2026-01-01 19:59:08,488 | INFO | Process-37 | CNF written to cnf/v2/K_n117_k80/K_n117_k80_w31.cnf
+2026-01-01 19:59:08,489 | INFO | Process-37 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/K_n117_k80/K_n117_k80_w31.cnf
+2026-01-01 19:59:09,832 | INFO | Process-37 | [PAINLESS] status=SAT rc=10 time=1.34s
+2026-01-01 19:59:09,832 | RESULT | Process-37 | [PAINLESS] result: status=SAT time=1.34s rc=10
+2026-01-01 19:59:09,839 | RESULT | Process-37 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-01 19:59:09,935 | INFO | MainProcess | Found a solution 31
+2026-01-01 19:59:09,936 | INFO | MainProcess | [Test k=80, w=31] Time: 4.09 seconds
+2026-01-01 19:59:10,008 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 19:59:10,686 | INFO | Process-38 | Number of variables: 18605
+2026-01-01 19:59:10,687 | INFO | Process-38 | Number of clauses: 683585
+2026-01-01 19:59:10,688 | INFO | Process-38 | Real nums of clauses: 683586
+2026-01-01 19:59:10,689 | INFO | Process-38 | Real nums of variables: 18603
+2026-01-01 19:59:11,289 | INFO | Process-38 | CNF written to cnf/v2/K_n117_k80/K_n117_k80_w32.cnf
+2026-01-01 19:59:11,290 | INFO | Process-38 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/K_n117_k80/K_n117_k80_w32.cnf
+2026-01-01 19:59:13,384 | INFO | Process-38 | [PAINLESS] status=SAT rc=10 time=2.09s
+2026-01-01 19:59:13,384 | RESULT | Process-38 | [PAINLESS] result: status=SAT time=2.09s rc=10
+2026-01-01 19:59:13,386 | RESULT | Process-38 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-01 19:59:13,436 | INFO | MainProcess | Found a solution 32
+2026-01-01 19:59:13,437 | INFO | MainProcess | [Test k=80, w=32] Time: 3.43 seconds
+2026-01-01 19:59:13,491 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 19:59:14,024 | INFO | Process-39 | Number of variables: 18605
+2026-01-01 19:59:14,025 | INFO | Process-39 | Number of clauses: 699137
+2026-01-01 19:59:14,025 | INFO | Process-39 | Real nums of clauses: 699138
+2026-01-01 19:59:14,026 | INFO | Process-39 | Real nums of variables: 18603
+2026-01-01 19:59:14,743 | INFO | Process-39 | CNF written to cnf/v2/K_n117_k80/K_n117_k80_w33.cnf
+2026-01-01 19:59:14,744 | INFO | Process-39 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/K_n117_k80/K_n117_k80_w33.cnf
+2026-01-01 19:59:17,492 | INFO | Process-39 | [PAINLESS] status=SAT rc=10 time=2.75s
+2026-01-01 19:59:17,492 | RESULT | Process-39 | [PAINLESS] result: status=SAT time=2.75s rc=10
+2026-01-01 19:59:17,494 | RESULT | Process-39 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-01 19:59:17,571 | INFO | MainProcess | Found a solution 33
+2026-01-01 19:59:17,581 | INFO | MainProcess | [Test k=80, w=33] Time: 4.08 seconds
+2026-01-01 19:59:17,632 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 19:59:18,404 | INFO | Process-40 | Number of variables: 18605
+2026-01-01 19:59:18,409 | INFO | Process-40 | Number of clauses: 714365
+2026-01-01 19:59:18,413 | INFO | Process-40 | Real nums of clauses: 714366
+2026-01-01 19:59:18,417 | INFO | Process-40 | Real nums of variables: 18603
+2026-01-01 19:59:19,060 | INFO | Process-40 | CNF written to cnf/v2/K_n117_k80/K_n117_k80_w34.cnf
+2026-01-01 19:59:19,061 | INFO | Process-40 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/K_n117_k80/K_n117_k80_w34.cnf
+2026-01-01 19:59:23,904 | INFO | Process-40 | [PAINLESS] status=SAT rc=10 time=4.84s
+2026-01-01 19:59:23,904 | RESULT | Process-40 | [PAINLESS] result: status=SAT time=4.84s rc=10
+2026-01-01 19:59:23,915 | RESULT | Process-40 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-01 19:59:23,965 | INFO | MainProcess | Found a solution 34
+2026-01-01 19:59:23,969 | INFO | MainProcess | [Test k=80, w=34] Time: 6.33 seconds
+2026-01-01 19:59:24,023 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 19:59:24,668 | INFO | Process-41 | Number of variables: 18605
+2026-01-01 19:59:24,669 | INFO | Process-41 | Number of clauses: 729269
+2026-01-01 19:59:24,669 | INFO | Process-41 | Real nums of clauses: 729270
+2026-01-01 19:59:24,669 | INFO | Process-41 | Real nums of variables: 18603
+2026-01-01 19:59:25,322 | INFO | Process-41 | CNF written to cnf/v2/K_n117_k80/K_n117_k80_w35.cnf
+2026-01-01 19:59:25,323 | INFO | Process-41 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/K_n117_k80/K_n117_k80_w35.cnf
+2026-01-01 19:59:35,910 | INFO | Process-41 | [PAINLESS] status=SAT rc=10 time=10.59s
+2026-01-01 19:59:35,910 | RESULT | Process-41 | [PAINLESS] result: status=SAT time=10.59s rc=10
+2026-01-01 19:59:35,913 | RESULT | Process-41 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-01 19:59:36,007 | INFO | MainProcess | Found a solution 35
+2026-01-01 19:59:36,007 | INFO | MainProcess | [Test k=80, w=35] Time: 11.98 seconds
+2026-01-01 19:59:36,057 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 19:59:36,818 | INFO | Process-42 | Number of variables: 18605
+2026-01-01 19:59:36,819 | INFO | Process-42 | Number of clauses: 743849
+2026-01-01 19:59:36,819 | INFO | Process-42 | Real nums of clauses: 743850
+2026-01-01 19:59:36,819 | INFO | Process-42 | Real nums of variables: 18603
+2026-01-01 19:59:37,485 | INFO | Process-42 | CNF written to cnf/v2/K_n117_k80/K_n117_k80_w36.cnf
+2026-01-01 19:59:37,485 | INFO | Process-42 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/K_n117_k80/K_n117_k80_w36.cnf
+2026-01-01 19:59:57,330 | INFO | Process-42 | [PAINLESS] status=SAT rc=10 time=19.84s
+2026-01-01 19:59:57,330 | RESULT | Process-42 | [PAINLESS] result: status=SAT time=19.84s rc=10
+2026-01-01 19:59:57,332 | RESULT | Process-42 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-01 19:59:57,431 | INFO | MainProcess | Found a solution 36
+2026-01-01 19:59:57,431 | INFO | MainProcess | [Test k=80, w=36] Time: 21.37 seconds
+2026-01-01 19:59:57,489 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 19:59:58,406 | INFO | Process-43 | Number of variables: 18605
+2026-01-01 19:59:58,408 | INFO | Process-43 | Number of clauses: 758105
+2026-01-01 19:59:58,408 | INFO | Process-43 | Real nums of clauses: 758106
+2026-01-01 19:59:58,411 | INFO | Process-43 | Real nums of variables: 18603
+2026-01-01 19:59:58,973 | INFO | Process-43 | CNF written to cnf/v2/K_n117_k80/K_n117_k80_w37.cnf
+2026-01-01 19:59:58,979 | INFO | Process-43 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/K_n117_k80/K_n117_k80_w37.cnf
+2026-01-01 20:09:29,804 | INFO | Process-43 | [PAINLESS] status=SAT rc=10 time=570.82s
+2026-01-01 20:09:29,833 | RESULT | Process-43 | [PAINLESS] result: status=SAT time=570.82s rc=10
+2026-01-01 20:09:29,879 | RESULT | Process-43 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-01 20:09:36,118 | INFO | MainProcess | Found a solution 37
+2026-01-01 20:09:36,133 | INFO | MainProcess | [Test k=80, w=37] Time: 578.62 seconds
+2026-01-01 20:09:36,715 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 20:09:38,696 | INFO | Process-44 | Number of variables: 18605
+2026-01-01 20:09:38,701 | INFO | Process-44 | Number of clauses: 772037
+2026-01-01 20:09:38,701 | INFO | Process-44 | Real nums of clauses: 772038
+2026-01-01 20:09:38,706 | INFO | Process-44 | Real nums of variables: 18603
+2026-01-01 20:09:39,279 | INFO | Process-44 | CNF written to cnf/v2/K_n117_k80/K_n117_k80_w38.cnf
+2026-01-01 20:09:39,280 | INFO | Process-44 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/K_n117_k80/K_n117_k80_w38.cnf
+2026-01-01 20:13:42,132 | INFO | Process-44 | [PAINLESS] status=SAT rc=10 time=242.85s
+2026-01-01 20:13:42,134 | RESULT | Process-44 | [PAINLESS] result: status=SAT time=242.85s rc=10
+2026-01-01 20:13:42,136 | RESULT | Process-44 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-01 20:13:42,257 | INFO | MainProcess | Found a solution 38
+2026-01-01 20:13:42,257 | INFO | MainProcess | [Test k=80, w=38] Time: 245.54 seconds
+2026-01-01 20:13:42,324 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 20:13:43,629 | INFO | Process-45 | Number of variables: 18605
+2026-01-01 20:13:43,636 | INFO | Process-45 | Number of clauses: 785645
+2026-01-01 20:13:43,636 | INFO | Process-45 | Real nums of clauses: 785646
+2026-01-01 20:13:43,639 | INFO | Process-45 | Real nums of variables: 18603
+2026-01-01 20:13:44,309 | INFO | Process-45 | CNF written to cnf/v2/K_n117_k80/K_n117_k80_w39.cnf
+2026-01-01 20:13:44,310 | INFO | Process-45 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/K_n117_k80/K_n117_k80_w39.cnf
+2026-01-01 20:30:51,155 | INFO | MainProcess | No solution found 39
+2026-01-01 20:30:51,186 | INFO | MainProcess | [Test k=80, w=39] Time: 1028.82 seconds
+2026-01-01 20:30:51,755 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 20:30:51,879 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 20:30:51,881 | INFO | MainProcess | $$$$
+2026-01-01 20:30:51,881 | INFO | MainProcess | -38
+2026-01-01 20:30:51,881 | INFO | MainProcess | $$$$
+2026-01-01 20:30:51,881 | INFO | MainProcess | Time taken for K-dwt__234.mtx.rnd with k = 80: 1906.0514867305756 seconds
+2026-01-01 20:30:51,882 | INFO | MainProcess | Maximum width before timeout for K-dwt__234.mtx.rnd is 38
+2026-01-01 20:30:51,882 | INFO | MainProcess | time out
+2026-01-01 20:30:53,540 | INFO | Process-46 | Number of variables: 14516
+2026-01-01 20:30:53,544 | INFO | Process-46 | Number of clauses: 386458
+2026-01-01 20:30:53,544 | INFO | Process-46 | Real nums of clauses: 386459
+2026-01-01 20:30:53,544 | INFO | Process-46 | Real nums of variables: 14514
+2026-01-01 20:30:53,958 | INFO | Process-46 | CNF written to cnf/v2/L_n118_k62/L_n118_k62_w20.cnf
+2026-01-01 20:30:53,959 | INFO | Process-46 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/L_n118_k62/L_n118_k62_w20.cnf
+2026-01-01 20:30:55,295 | INFO | Process-46 | [PAINLESS] status=SAT rc=10 time=1.34s
+2026-01-01 20:30:55,297 | RESULT | Process-46 | [PAINLESS] result: status=SAT time=1.34s rc=10
+2026-01-01 20:30:55,299 | RESULT | Process-46 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-01 20:30:55,357 | INFO | MainProcess | Found a solution 20
+2026-01-01 20:30:55,359 | INFO | MainProcess | [Test k=62, w=20] Time: 3.46 seconds
+2026-01-01 20:30:55,437 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 20:30:56,124 | INFO | Process-47 | Number of variables: 14516
+2026-01-01 20:30:56,125 | INFO | Process-47 | Number of clauses: 401494
+2026-01-01 20:30:56,125 | INFO | Process-47 | Real nums of clauses: 401495
+2026-01-01 20:30:56,125 | INFO | Process-47 | Real nums of variables: 14514
+2026-01-01 20:30:56,411 | INFO | Process-47 | CNF written to cnf/v2/L_n118_k62/L_n118_k62_w21.cnf
+2026-01-01 20:30:56,411 | INFO | Process-47 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/L_n118_k62/L_n118_k62_w21.cnf
+2026-01-01 20:30:57,276 | INFO | Process-47 | [PAINLESS] status=UNSAT rc=20 time=0.86s
+2026-01-01 20:30:57,276 | RESULT | Process-47 | [PAINLESS] result: status=UNSAT time=0.86s rc=20
+2026-01-01 20:30:57,277 | RESULT | Process-47 | [PAINLESS] Shortcut: UNSAT at width=21
+2026-01-01 20:30:57,277 | RESULT | Process-47 | Time taken: 1.8296151161193848 seconds
+2026-01-01 20:30:57,326 | INFO | MainProcess | No solution found 21
+2026-01-01 20:30:57,329 | INFO | MainProcess | [Test k=62, w=21] Time: 1.89 seconds
+2026-01-01 20:30:57,370 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 20:30:57,446 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 20:30:57,446 | INFO | MainProcess | $$$$
+2026-01-01 20:30:57,447 | INFO | MainProcess | 20
+2026-01-01 20:30:57,447 | INFO | MainProcess | $$$$
+2026-01-01 20:30:57,447 | INFO | MainProcess | Time taken for L-bcspwr03.mtx.rnd with k = 62: 5.564831495285034 seconds
+2026-01-01 20:30:57,447 | INFO | MainProcess | Maximum width for L-bcspwr03.mtx.rnd is 20
+2026-01-01 21:02:51,693 | INFO | Process-48 | Number of variables: 270902
+2026-01-01 21:02:51,718 | INFO | Process-48 | Number of clauses: 48107603
+2026-01-01 21:02:51,719 | INFO | Process-48 | Real nums of clauses: 48107604
+2026-01-01 21:02:51,720 | INFO | Process-48 | Real nums of variables: 270900
+2026-01-01 21:04:17,593 | INFO | MainProcess | No solution found 21
+2026-01-01 21:04:17,619 | INFO | MainProcess | [Test k=323, w=21] Time: 2000.12 seconds
+2026-01-01 21:04:18,309 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 21:04:18,392 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 21:04:18,393 | INFO | MainProcess | $$$$
+2026-01-01 21:04:18,393 | INFO | MainProcess | -9999
+2026-01-01 21:04:18,393 | INFO | MainProcess | $$$$
+2026-01-01 21:04:18,393 | INFO | MainProcess | Time taken for M-bcsstk06.mtx.rnd with k = 323: 2000.9463183879852 seconds
+2026-01-01 21:04:18,393 | INFO | MainProcess | No answer before timeout for M-bcsstk06.mtx.rnd
+2026-01-01 21:04:18,394 | INFO | MainProcess | time out
+2026-01-01 21:04:51,015 | INFO | Process-49 | Number of variables: 187427
+2026-01-01 21:04:51,087 | INFO | Process-49 | Number of clauses: 23582118
+2026-01-01 21:04:51,087 | INFO | Process-49 | Real nums of clauses: 23582119
+2026-01-01 21:04:51,087 | INFO | Process-49 | Real nums of variables: 187425
+2026-01-01 21:05:48,550 | INFO | Process-49 | CNF written to cnf/v2/O_n425_k221/O_n425_k221_w47.cnf
+2026-01-01 21:05:48,627 | INFO | Process-49 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/O_n425_k221/O_n425_k221_w47.cnf
+2026-01-01 21:06:58,860 | INFO | Process-49 | [PAINLESS] status=SAT rc=10 time=70.22s
+2026-01-01 21:06:58,909 | RESULT | Process-49 | [PAINLESS] result: status=SAT time=70.22s rc=10
+2026-01-01 21:06:59,163 | RESULT | Process-49 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-01 21:10:50,151 | INFO | MainProcess | Found a solution 47
+2026-01-01 21:10:50,165 | INFO | MainProcess | [Test k=221, w=47] Time: 391.74 seconds
+2026-01-01 21:10:50,972 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 21:11:19,475 | INFO | Process-50 | Number of variables: 187427
+2026-01-01 21:11:19,508 | INFO | Process-50 | Number of clauses: 24023034
+2026-01-01 21:11:19,508 | INFO | Process-50 | Real nums of clauses: 24023035
+2026-01-01 21:11:19,508 | INFO | Process-50 | Real nums of variables: 187425
+2026-01-01 21:11:47,563 | INFO | Process-50 | CNF written to cnf/v2/O_n425_k221/O_n425_k221_w48.cnf
+2026-01-01 21:11:47,579 | INFO | Process-50 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/O_n425_k221/O_n425_k221_w48.cnf
+2026-01-01 21:12:51,516 | INFO | Process-50 | [PAINLESS] status=SAT rc=10 time=63.94s
+2026-01-01 21:12:51,545 | RESULT | Process-50 | [PAINLESS] result: status=SAT time=63.94s rc=10
+2026-01-01 21:12:51,783 | RESULT | Process-50 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-01 21:16:40,245 | INFO | MainProcess | Found a solution 48
+2026-01-01 21:16:40,262 | INFO | MainProcess | [Test k=221, w=48] Time: 349.27 seconds
+2026-01-01 21:16:40,931 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 21:17:22,537 | INFO | Process-51 | Number of variables: 187427
+2026-01-01 21:17:22,570 | INFO | Process-51 | Number of clauses: 24461416
+2026-01-01 21:17:22,571 | INFO | Process-51 | Real nums of clauses: 24461417
+2026-01-01 21:17:22,571 | INFO | Process-51 | Real nums of variables: 187425
+2026-01-01 21:17:51,290 | INFO | Process-51 | CNF written to cnf/v2/O_n425_k221/O_n425_k221_w49.cnf
+2026-01-01 21:17:51,301 | INFO | Process-51 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/O_n425_k221/O_n425_k221_w49.cnf
+2026-01-01 21:18:53,828 | INFO | Process-51 | [PAINLESS] status=SAT rc=10 time=62.52s
+2026-01-01 21:18:53,839 | RESULT | Process-51 | [PAINLESS] result: status=SAT time=62.52s rc=10
+2026-01-01 21:18:54,021 | RESULT | Process-51 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-01 21:22:56,763 | INFO | MainProcess | Found a solution 49
+2026-01-01 21:22:56,788 | INFO | MainProcess | [Test k=221, w=49] Time: 375.81 seconds
+2026-01-01 21:22:57,400 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 21:26:20,313 | INFO | Process-52 | Number of variables: 187427
+2026-01-01 21:26:20,347 | INFO | Process-52 | Number of clauses: 24897264
+2026-01-01 21:26:20,348 | INFO | Process-52 | Real nums of clauses: 24897265
+2026-01-01 21:26:20,348 | INFO | Process-52 | Real nums of variables: 187425
+2026-01-01 21:30:49,626 | INFO | Process-52 | CNF written to cnf/v2/O_n425_k221/O_n425_k221_w50.cnf
+2026-01-01 21:30:49,694 | INFO | Process-52 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/O_n425_k221/O_n425_k221_w50.cnf
+2026-01-01 21:32:15,614 | INFO | Process-52 | [PAINLESS] status=SAT rc=10 time=85.90s
+2026-01-01 21:32:15,647 | RESULT | Process-52 | [PAINLESS] result: status=SAT time=85.90s rc=10
+2026-01-01 21:32:15,848 | RESULT | Process-52 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-01 21:35:36,977 | INFO | MainProcess | No solution found 50
+2026-01-01 21:35:37,011 | INFO | MainProcess | [Test k=221, w=50] Time: 759.55 seconds
+2026-01-01 21:35:37,853 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 21:35:37,917 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 21:35:37,918 | INFO | MainProcess | $$$$
+2026-01-01 21:35:37,918 | INFO | MainProcess | -49
+2026-01-01 21:35:37,918 | INFO | MainProcess | $$$$
+2026-01-01 21:35:37,919 | INFO | MainProcess | Time taken for O-impcol_d.mtx.rnd with k = 221: 1879.524796962738 seconds
+2026-01-01 21:35:37,919 | INFO | MainProcess | Maximum width before timeout for O-impcol_d.mtx.rnd is 49
+2026-01-01 21:35:37,919 | INFO | MainProcess | time out
+2026-01-01 22:09:01,018 | INFO | MainProcess | No solution found 58
+2026-01-01 22:09:01,075 | INFO | MainProcess | [Test k=333, w=58] Time: 2003.07 seconds
+2026-01-01 22:09:02,032 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 22:09:02,176 | INFO | MainProcess | Row appended to output/output_directencoding_painless_no_symmetry.xlsx
+2026-01-01 22:09:02,177 | INFO | MainProcess | $$$$
+2026-01-01 22:09:02,177 | INFO | MainProcess | -9999
+2026-01-01 22:09:02,177 | INFO | MainProcess | $$$$
+2026-01-01 22:09:02,178 | INFO | MainProcess | Time taken for P-can__445.mtx.rnd with k = 333: 2004.2581729888916 seconds
+2026-01-01 22:09:02,178 | INFO | MainProcess | No answer before timeout for P-can__445.mtx.rnd
+2026-01-01 22:09:02,178 | INFO | MainProcess | time out

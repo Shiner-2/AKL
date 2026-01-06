@@ -1,0 +1,1291 @@
+2026-01-05 01:24:48,161 | INFO | MainProcess | === Start solve() ===
+2026-01-05 01:24:48,502 | INFO | Process-1 | Number of variables: 2042
+2026-01-05 01:24:48,502 | INFO | Process-1 | Number of clauses: 9441
+2026-01-05 01:24:48,503 | INFO | Process-1 | Real nums of clauses: 9442
+2026-01-05 01:24:48,503 | INFO | Process-1 | Real nums of variables: 2040
+2026-01-05 01:24:48,508 | INFO | Process-1 | CNF written to cnf/v2\A_n30_k23\A_n30_k23_w4.cnf
+2026-01-05 01:24:48,508 | ERROR | Process-1 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 01:24:48,509 | RESULT | Process-1 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 01:24:48,536 | INFO | MainProcess | Found a solution 4
+2026-01-05 01:24:48,536 | INFO | MainProcess | [Test k=23, w=4] Time: 0.37 seconds
+2026-01-05 01:24:48,883 | INFO | Process-2 | Number of variables: 2042
+2026-01-05 01:24:48,883 | INFO | Process-2 | Number of clauses: 9441
+2026-01-05 01:24:48,884 | INFO | Process-2 | Real nums of clauses: 9442
+2026-01-05 01:24:48,884 | INFO | Process-2 | Real nums of variables: 2040
+2026-01-05 01:24:48,889 | INFO | Process-2 | CNF written to cnf/v2\A_n30_k23\A_n30_k23_w5.cnf
+2026-01-05 01:24:48,889 | ERROR | Process-2 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 01:24:48,893 | RESULT | Process-2 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 01:24:48,919 | INFO | MainProcess | Found a solution 5
+2026-01-05 01:24:48,919 | INFO | MainProcess | [Test k=23, w=5] Time: 0.38 seconds
+2026-01-05 01:24:49,261 | INFO | Process-3 | Number of variables: 2042
+2026-01-05 01:24:49,261 | INFO | Process-3 | Number of clauses: 9441
+2026-01-05 01:24:49,261 | INFO | Process-3 | Real nums of clauses: 9442
+2026-01-05 01:24:49,261 | INFO | Process-3 | Real nums of variables: 2040
+2026-01-05 01:24:49,266 | INFO | Process-3 | CNF written to cnf/v2\A_n30_k23\A_n30_k23_w6.cnf
+2026-01-05 01:24:49,267 | ERROR | Process-3 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 01:24:49,277 | RESULT | Process-3 | No solution exists
+2026-01-05 01:24:49,277 | RESULT | Process-3 | Time taken: 0.022998332977294922 seconds
+2026-01-05 01:24:49,302 | INFO | MainProcess | No solution found 6
+2026-01-05 01:24:49,302 | INFO | MainProcess | [Test k=23, w=6] Time: 0.38 seconds
+2026-01-05 01:24:49,302 | INFO | MainProcess | $$$$
+2026-01-05 01:24:49,302 | INFO | MainProcess | 5
+2026-01-05 01:24:49,302 | INFO | MainProcess | $$$$
+2026-01-05 01:24:49,302 | INFO | MainProcess | Time taken for A-pores_1.mtx.rnd with k = 23: 1.140383005142212 seconds
+2026-01-05 01:24:49,302 | INFO | MainProcess | Maximum width for A-pores_1.mtx.rnd is 5
+2026-01-05 01:24:49,648 | INFO | Process-4 | Number of variables: 1698
+2026-01-05 01:24:49,648 | INFO | Process-4 | Number of clauses: 7130
+2026-01-05 01:24:49,649 | INFO | Process-4 | Real nums of clauses: 7131
+2026-01-05 01:24:49,649 | INFO | Process-4 | Real nums of variables: 1696
+2026-01-05 01:24:49,653 | INFO | Process-4 | CNF written to cnf/v2\B_n32_k18\B_n32_k18_w5.cnf
+2026-01-05 01:24:49,653 | ERROR | Process-4 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 01:24:49,655 | RESULT | Process-4 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 01:24:49,680 | INFO | MainProcess | Found a solution 5
+2026-01-05 01:24:49,680 | INFO | MainProcess | [Test k=18, w=5] Time: 0.38 seconds
+2026-01-05 01:24:50,011 | INFO | Process-5 | Number of variables: 1698
+2026-01-05 01:24:50,011 | INFO | Process-5 | Number of clauses: 7130
+2026-01-05 01:24:50,011 | INFO | Process-5 | Real nums of clauses: 7131
+2026-01-05 01:24:50,011 | INFO | Process-5 | Real nums of variables: 1696
+2026-01-05 01:24:50,015 | INFO | Process-5 | CNF written to cnf/v2\B_n32_k18\B_n32_k18_w6.cnf
+2026-01-05 01:24:50,015 | ERROR | Process-5 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 01:24:50,019 | RESULT | Process-5 | No solution exists
+2026-01-05 01:24:50,019 | RESULT | Process-5 | Time taken: 0.014092206954956055 seconds
+2026-01-05 01:24:50,043 | INFO | MainProcess | No solution found 6
+2026-01-05 01:24:50,043 | INFO | MainProcess | [Test k=18, w=6] Time: 0.36 seconds
+2026-01-05 01:24:50,043 | INFO | MainProcess | $$$$
+2026-01-05 01:24:50,043 | INFO | MainProcess | 5
+2026-01-05 01:24:50,043 | INFO | MainProcess | $$$$
+2026-01-05 01:24:50,043 | INFO | MainProcess | Time taken for B-ibm32.mtx.rnd with k = 18: 0.7410032749176025 seconds
+2026-01-05 01:24:50,043 | INFO | MainProcess | Maximum width for B-ibm32.mtx.rnd is 5
+2026-01-05 01:24:50,406 | INFO | Process-6 | Number of variables: 2420
+2026-01-05 01:24:50,406 | INFO | Process-6 | Number of clauses: 7491
+2026-01-05 01:24:50,406 | INFO | Process-6 | Real nums of clauses: 7492
+2026-01-05 01:24:50,406 | INFO | Process-6 | Real nums of variables: 2418
+2026-01-05 01:24:50,411 | INFO | Process-6 | CNF written to cnf/v2\C_n39_k21\C_n39_k21_w8.cnf
+2026-01-05 01:24:50,411 | ERROR | Process-6 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 01:24:50,419 | RESULT | Process-6 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 01:24:50,445 | INFO | MainProcess | Found a solution 8
+2026-01-05 01:24:50,445 | INFO | MainProcess | [Test k=21, w=8] Time: 0.4 seconds
+2026-01-05 01:24:50,785 | INFO | Process-7 | Number of variables: 2420
+2026-01-05 01:24:50,785 | INFO | Process-7 | Number of clauses: 7491
+2026-01-05 01:24:50,785 | INFO | Process-7 | Real nums of clauses: 7492
+2026-01-05 01:24:50,785 | INFO | Process-7 | Real nums of variables: 2418
+2026-01-05 01:24:50,790 | INFO | Process-7 | CNF written to cnf/v2\C_n39_k21\C_n39_k21_w9.cnf
+2026-01-05 01:24:50,790 | ERROR | Process-7 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 01:24:50,801 | RESULT | Process-7 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 01:24:50,825 | INFO | MainProcess | Found a solution 9
+2026-01-05 01:24:50,825 | INFO | MainProcess | [Test k=21, w=9] Time: 0.38 seconds
+2026-01-05 01:24:51,163 | INFO | Process-8 | Number of variables: 2420
+2026-01-05 01:24:51,163 | INFO | Process-8 | Number of clauses: 7491
+2026-01-05 01:24:51,163 | INFO | Process-8 | Real nums of clauses: 7492
+2026-01-05 01:24:51,163 | INFO | Process-8 | Real nums of variables: 2418
+2026-01-05 01:24:51,167 | INFO | Process-8 | CNF written to cnf/v2\C_n39_k21\C_n39_k21_w10.cnf
+2026-01-05 01:24:51,167 | ERROR | Process-8 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 01:24:51,196 | RESULT | Process-8 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 01:24:51,221 | INFO | MainProcess | Found a solution 10
+2026-01-05 01:24:51,221 | INFO | MainProcess | [Test k=21, w=10] Time: 0.39 seconds
+2026-01-05 01:24:51,559 | INFO | Process-9 | Number of variables: 2420
+2026-01-05 01:24:51,559 | INFO | Process-9 | Number of clauses: 7157
+2026-01-05 01:24:51,559 | INFO | Process-9 | Real nums of clauses: 7584
+2026-01-05 01:24:51,559 | INFO | Process-9 | Real nums of variables: 2418
+2026-01-05 01:24:51,564 | INFO | Process-9 | CNF written to cnf/v2\C_n39_k21\C_n39_k21_w11.cnf
+2026-01-05 01:24:51,564 | ERROR | Process-9 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 01:24:51,564 | RESULT | Process-9 | No solution exists
+2026-01-05 01:24:51,564 | RESULT | Process-9 | Time taken: 0.01099848747253418 seconds
+2026-01-05 01:24:51,590 | INFO | MainProcess | No solution found 11
+2026-01-05 01:24:51,590 | INFO | MainProcess | [Test k=21, w=11] Time: 0.37 seconds
+2026-01-05 01:24:51,590 | INFO | MainProcess | $$$$
+2026-01-05 01:24:51,590 | INFO | MainProcess | 10
+2026-01-05 01:24:51,590 | INFO | MainProcess | $$$$
+2026-01-05 01:24:51,590 | INFO | MainProcess | Time taken for C-bcspwr01.mtx.rnd with k = 21: 1.5463533401489258 seconds
+2026-01-05 01:24:51,590 | INFO | MainProcess | Maximum width for C-bcspwr01.mtx.rnd is 10
+2026-01-05 01:24:51,937 | INFO | Process-10 | Number of variables: 4130
+2026-01-05 01:24:51,937 | INFO | Process-10 | Number of clauses: 19741
+2026-01-05 01:24:51,937 | INFO | Process-10 | Real nums of clauses: 19742
+2026-01-05 01:24:51,937 | INFO | Process-10 | Real nums of variables: 4128
+2026-01-05 01:24:51,947 | INFO | Process-10 | CNF written to cnf/v2\D_n48_k29\D_n48_k29_w4.cnf
+2026-01-05 01:24:51,947 | ERROR | Process-10 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 01:24:51,951 | RESULT | Process-10 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 01:24:51,977 | INFO | MainProcess | Found a solution 4
+2026-01-05 01:24:51,977 | INFO | MainProcess | [Test k=29, w=4] Time: 0.39 seconds
+2026-01-05 01:24:52,321 | INFO | Process-11 | Number of variables: 4130
+2026-01-05 01:24:52,322 | INFO | Process-11 | Number of clauses: 19741
+2026-01-05 01:24:52,322 | INFO | Process-11 | Real nums of clauses: 19742
+2026-01-05 01:24:52,322 | INFO | Process-11 | Real nums of variables: 4128
+2026-01-05 01:24:52,333 | INFO | Process-11 | CNF written to cnf/v2\D_n48_k29\D_n48_k29_w5.cnf
+2026-01-05 01:24:52,333 | ERROR | Process-11 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 01:24:52,343 | RESULT | Process-11 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 01:24:52,373 | INFO | MainProcess | Found a solution 5
+2026-01-05 01:24:52,373 | INFO | MainProcess | [Test k=29, w=5] Time: 0.4 seconds
+2026-01-05 01:24:52,724 | INFO | Process-12 | Number of variables: 4130
+2026-01-05 01:24:52,724 | INFO | Process-12 | Number of clauses: 19741
+2026-01-05 01:24:52,724 | INFO | Process-12 | Real nums of clauses: 19742
+2026-01-05 01:24:52,724 | INFO | Process-12 | Real nums of variables: 4128
+2026-01-05 01:24:52,735 | INFO | Process-12 | CNF written to cnf/v2\D_n48_k29\D_n48_k29_w6.cnf
+2026-01-05 01:24:52,735 | ERROR | Process-12 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 01:24:52,753 | RESULT | Process-12 | No solution exists
+2026-01-05 01:24:52,753 | RESULT | Process-12 | Time taken: 0.04212498664855957 seconds
+2026-01-05 01:24:52,783 | INFO | MainProcess | No solution found 6
+2026-01-05 01:24:52,783 | INFO | MainProcess | [Test k=29, w=6] Time: 0.41 seconds
+2026-01-05 01:24:52,783 | INFO | MainProcess | $$$$
+2026-01-05 01:24:52,783 | INFO | MainProcess | 5
+2026-01-05 01:24:52,783 | INFO | MainProcess | $$$$
+2026-01-05 01:24:52,783 | INFO | MainProcess | Time taken for D-bcsstk01.mtx.rnd with k = 29: 1.1933391094207764 seconds
+2026-01-05 01:24:52,783 | INFO | MainProcess | Maximum width for D-bcsstk01.mtx.rnd is 5
+2026-01-05 01:24:53,140 | INFO | Process-13 | Number of variables: 5098
+2026-01-05 01:24:53,140 | INFO | Process-13 | Number of clauses: 15925
+2026-01-05 01:24:53,140 | INFO | Process-13 | Real nums of clauses: 15926
+2026-01-05 01:24:53,140 | INFO | Process-13 | Real nums of variables: 5096
+2026-01-05 01:24:53,148 | INFO | Process-13 | CNF written to cnf/v2\E_n49_k35\E_n49_k35_w15.cnf
+2026-01-05 01:24:53,149 | ERROR | Process-13 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 01:24:53,154 | RESULT | Process-13 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 01:24:53,182 | INFO | MainProcess | Found a solution 15
+2026-01-05 01:24:53,182 | INFO | MainProcess | [Test k=35, w=15] Time: 0.4 seconds
+2026-01-05 01:24:53,539 | INFO | Process-14 | Number of variables: 5098
+2026-01-05 01:24:53,539 | INFO | Process-14 | Number of clauses: 15925
+2026-01-05 01:24:53,539 | INFO | Process-14 | Real nums of clauses: 15926
+2026-01-05 01:24:53,539 | INFO | Process-14 | Real nums of variables: 5096
+2026-01-05 01:24:53,547 | INFO | Process-14 | CNF written to cnf/v2\E_n49_k35\E_n49_k35_w16.cnf
+2026-01-05 01:24:53,547 | ERROR | Process-14 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 01:24:53,757 | RESULT | Process-14 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 01:24:53,789 | INFO | MainProcess | Found a solution 16
+2026-01-05 01:24:53,789 | INFO | MainProcess | [Test k=35, w=16] Time: 0.61 seconds
+2026-01-05 01:24:54,167 | INFO | Process-15 | Number of variables: 5098
+2026-01-05 01:24:54,167 | INFO | Process-15 | Number of clauses: 15925
+2026-01-05 01:24:54,167 | INFO | Process-15 | Real nums of clauses: 15926
+2026-01-05 01:24:54,167 | INFO | Process-15 | Real nums of variables: 5096
+2026-01-05 01:24:54,176 | INFO | Process-15 | CNF written to cnf/v2\E_n49_k35\E_n49_k35_w17.cnf
+2026-01-05 01:24:54,176 | ERROR | Process-15 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 01:24:54,432 | RESULT | Process-15 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 01:24:54,458 | INFO | MainProcess | Found a solution 17
+2026-01-05 01:24:54,458 | INFO | MainProcess | [Test k=35, w=17] Time: 0.67 seconds
+2026-01-05 01:24:54,822 | INFO | Process-16 | Number of variables: 5098
+2026-01-05 01:24:54,822 | INFO | Process-16 | Number of clauses: 15583
+2026-01-05 01:24:54,822 | INFO | Process-16 | Real nums of clauses: 16044
+2026-01-05 01:24:54,822 | INFO | Process-16 | Real nums of variables: 5096
+2026-01-05 01:24:54,830 | INFO | Process-16 | CNF written to cnf/v2\E_n49_k35\E_n49_k35_w18.cnf
+2026-01-05 01:24:54,830 | ERROR | Process-16 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 01:24:54,830 | RESULT | Process-16 | No solution exists
+2026-01-05 01:24:54,830 | RESULT | Process-16 | Time taken: 0.02001476287841797 seconds
+2026-01-05 01:24:54,858 | INFO | MainProcess | No solution found 18
+2026-01-05 01:24:54,858 | INFO | MainProcess | [Test k=35, w=18] Time: 0.4 seconds
+2026-01-05 01:24:54,858 | INFO | MainProcess | $$$$
+2026-01-05 01:24:54,858 | INFO | MainProcess | 17
+2026-01-05 01:24:54,858 | INFO | MainProcess | $$$$
+2026-01-05 01:24:54,858 | INFO | MainProcess | Time taken for E-bcspwr02.mtx.rnd with k = 35: 2.074390172958374 seconds
+2026-01-05 01:24:54,858 | INFO | MainProcess | Maximum width for E-bcspwr02.mtx.rnd is 17
+2026-01-05 01:24:55,215 | INFO | Process-17 | Number of variables: 5294
+2026-01-05 01:24:55,215 | INFO | Process-17 | Number of clauses: 20421
+2026-01-05 01:24:55,215 | INFO | Process-17 | Real nums of clauses: 20422
+2026-01-05 01:24:55,215 | INFO | Process-17 | Real nums of variables: 5292
+2026-01-05 01:24:55,226 | INFO | Process-17 | CNF written to cnf/v2\F_n54_k33\F_n54_k33_w7.cnf
+2026-01-05 01:24:55,226 | ERROR | Process-17 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 01:24:55,241 | RESULT | Process-17 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 01:24:55,270 | INFO | MainProcess | Found a solution 7
+2026-01-05 01:24:55,270 | INFO | MainProcess | [Test k=33, w=7] Time: 0.41 seconds
+2026-01-05 01:24:55,617 | INFO | Process-18 | Number of variables: 5294
+2026-01-05 01:24:55,618 | INFO | Process-18 | Number of clauses: 20421
+2026-01-05 01:24:55,618 | INFO | Process-18 | Real nums of clauses: 20422
+2026-01-05 01:24:55,618 | INFO | Process-18 | Real nums of variables: 5292
+2026-01-05 01:24:55,629 | INFO | Process-18 | CNF written to cnf/v2\F_n54_k33\F_n54_k33_w8.cnf
+2026-01-05 01:24:55,629 | ERROR | Process-18 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 01:24:55,657 | RESULT | Process-18 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 01:24:55,684 | INFO | MainProcess | Found a solution 8
+2026-01-05 01:24:55,685 | INFO | MainProcess | [Test k=33, w=8] Time: 0.41 seconds
+2026-01-05 01:24:56,029 | INFO | Process-19 | Number of variables: 5294
+2026-01-05 01:24:56,029 | INFO | Process-19 | Number of clauses: 20421
+2026-01-05 01:24:56,029 | INFO | Process-19 | Real nums of clauses: 20422
+2026-01-05 01:24:56,029 | INFO | Process-19 | Real nums of variables: 5292
+2026-01-05 01:24:56,039 | INFO | Process-19 | CNF written to cnf/v2\F_n54_k33\F_n54_k33_w9.cnf
+2026-01-05 01:24:56,039 | ERROR | Process-19 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 01:24:56,047 | RESULT | Process-19 | No solution exists
+2026-01-05 01:24:56,048 | RESULT | Process-19 | Time taken: 0.03300833702087402 seconds
+2026-01-05 01:24:56,074 | INFO | MainProcess | No solution found 9
+2026-01-05 01:24:56,074 | INFO | MainProcess | [Test k=33, w=9] Time: 0.39 seconds
+2026-01-05 01:24:56,074 | INFO | MainProcess | $$$$
+2026-01-05 01:24:56,074 | INFO | MainProcess | 8
+2026-01-05 01:24:56,074 | INFO | MainProcess | $$$$
+2026-01-05 01:24:56,074 | INFO | MainProcess | Time taken for F-curtis54.mtx.rnd with k = 33: 1.2164878845214844 seconds
+2026-01-05 01:24:56,074 | INFO | MainProcess | Maximum width for F-curtis54.mtx.rnd is 8
+2026-01-05 01:24:56,416 | INFO | Process-20 | Number of variables: 5246
+2026-01-05 01:24:56,416 | INFO | Process-20 | Number of clauses: 19989
+2026-01-05 01:24:56,416 | INFO | Process-20 | Real nums of clauses: 19990
+2026-01-05 01:24:56,417 | INFO | Process-20 | Real nums of variables: 5244
+2026-01-05 01:24:56,427 | INFO | Process-20 | CNF written to cnf/v2\G_n57_k31\G_n57_k31_w6.cnf
+2026-01-05 01:24:56,427 | ERROR | Process-20 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 01:24:56,437 | RESULT | Process-20 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 01:24:56,465 | INFO | MainProcess | Found a solution 6
+2026-01-05 01:24:56,465 | INFO | MainProcess | [Test k=31, w=6] Time: 0.39 seconds
+2026-01-05 01:24:56,819 | INFO | Process-21 | Number of variables: 5246
+2026-01-05 01:24:56,819 | INFO | Process-21 | Number of clauses: 19989
+2026-01-05 01:24:56,819 | INFO | Process-21 | Real nums of clauses: 19990
+2026-01-05 01:24:56,819 | INFO | Process-21 | Real nums of variables: 5244
+2026-01-05 01:24:56,829 | INFO | Process-21 | CNF written to cnf/v2\G_n57_k31\G_n57_k31_w7.cnf
+2026-01-05 01:24:56,829 | ERROR | Process-21 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 01:24:56,890 | RESULT | Process-21 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 01:24:56,916 | INFO | MainProcess | Found a solution 7
+2026-01-05 01:24:56,916 | INFO | MainProcess | [Test k=31, w=7] Time: 0.45 seconds
+2026-01-05 01:24:57,265 | INFO | Process-22 | Number of variables: 5246
+2026-01-05 01:24:57,265 | INFO | Process-22 | Number of clauses: 19989
+2026-01-05 01:24:57,265 | INFO | Process-22 | Real nums of clauses: 19990
+2026-01-05 01:24:57,265 | INFO | Process-22 | Real nums of variables: 5244
+2026-01-05 01:24:57,275 | INFO | Process-22 | CNF written to cnf/v2\G_n57_k31\G_n57_k31_w8.cnf
+2026-01-05 01:24:57,275 | ERROR | Process-22 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 01:24:57,281 | RESULT | Process-22 | No solution exists
+2026-01-05 01:24:57,281 | RESULT | Process-22 | Time taken: 0.030001163482666016 seconds
+2026-01-05 01:24:57,307 | INFO | MainProcess | No solution found 8
+2026-01-05 01:24:57,307 | INFO | MainProcess | [Test k=31, w=8] Time: 0.39 seconds
+2026-01-05 01:24:57,307 | INFO | MainProcess | $$$$
+2026-01-05 01:24:57,307 | INFO | MainProcess | 7
+2026-01-05 01:24:57,307 | INFO | MainProcess | $$$$
+2026-01-05 01:24:57,307 | INFO | MainProcess | Time taken for G-will57.mtx.rnd with k = 31: 1.233123779296875 seconds
+2026-01-05 01:24:57,307 | INFO | MainProcess | Maximum width for G-will57.mtx.rnd is 7
+2026-01-05 01:24:57,668 | INFO | Process-23 | Number of variables: 6492
+2026-01-05 01:24:57,668 | INFO | Process-23 | Number of clauses: 35817
+2026-01-05 01:24:57,668 | INFO | Process-23 | Real nums of clauses: 35818
+2026-01-05 01:24:57,668 | INFO | Process-23 | Real nums of variables: 6490
+2026-01-05 01:24:57,685 | INFO | Process-23 | CNF written to cnf/v2\H_n59_k37\H_n59_k37_w5.cnf
+2026-01-05 01:24:57,686 | ERROR | Process-23 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 01:24:57,695 | RESULT | Process-23 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 01:24:57,723 | INFO | MainProcess | Found a solution 5
+2026-01-05 01:24:57,723 | INFO | MainProcess | [Test k=37, w=5] Time: 0.42 seconds
+2026-01-05 01:24:58,081 | INFO | Process-24 | Number of variables: 6492
+2026-01-05 01:24:58,081 | INFO | Process-24 | Number of clauses: 35817
+2026-01-05 01:24:58,081 | INFO | Process-24 | Real nums of clauses: 35818
+2026-01-05 01:24:58,081 | INFO | Process-24 | Real nums of variables: 6490
+2026-01-05 01:24:58,100 | INFO | Process-24 | CNF written to cnf/v2\H_n59_k37\H_n59_k37_w6.cnf
+2026-01-05 01:24:58,100 | ERROR | Process-24 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 01:24:58,999 | RESULT | Process-24 | No solution exists
+2026-01-05 01:24:58,999 | RESULT | Process-24 | Time taken: 0.9415531158447266 seconds
+2026-01-05 01:24:59,027 | INFO | MainProcess | No solution found 6
+2026-01-05 01:24:59,027 | INFO | MainProcess | [Test k=37, w=6] Time: 1.3 seconds
+2026-01-05 01:24:59,027 | INFO | MainProcess | $$$$
+2026-01-05 01:24:59,027 | INFO | MainProcess | 5
+2026-01-05 01:24:59,027 | INFO | MainProcess | $$$$
+2026-01-05 01:24:59,027 | INFO | MainProcess | Time taken for H-impcol_b.mtx.rnd with k = 37: 1.7198922634124756 seconds
+2026-01-05 01:24:59,027 | INFO | MainProcess | Maximum width for H-impcol_b.mtx.rnd is 5
+2026-01-05 01:24:59,430 | INFO | Process-25 | Number of variables: 17002
+2026-01-05 01:24:59,430 | INFO | Process-25 | Number of clauses: 68853
+2026-01-05 01:24:59,430 | INFO | Process-25 | Real nums of clauses: 68854
+2026-01-05 01:24:59,430 | INFO | Process-25 | Real nums of variables: 17000
+2026-01-05 01:24:59,463 | INFO | Process-25 | CNF written to cnf/v2\I_n85_k67\I_n85_k67_w15.cnf
+2026-01-05 01:24:59,463 | ERROR | Process-25 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 01:25:00,064 | RESULT | Process-25 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 01:25:00,094 | INFO | MainProcess | Found a solution 15
+2026-01-05 01:25:00,094 | INFO | MainProcess | [Test k=67, w=15] Time: 1.07 seconds
+2026-01-05 01:25:00,490 | INFO | Process-26 | Number of variables: 17002
+2026-01-05 01:25:00,490 | INFO | Process-26 | Number of clauses: 68853
+2026-01-05 01:25:00,490 | INFO | Process-26 | Real nums of clauses: 68854
+2026-01-05 01:25:00,490 | INFO | Process-26 | Real nums of variables: 17000
+2026-01-05 01:25:00,524 | INFO | Process-26 | CNF written to cnf/v2\I_n85_k67\I_n85_k67_w16.cnf
+2026-01-05 01:25:00,524 | ERROR | Process-26 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 01:25:01,451 | RESULT | Process-26 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 01:25:01,483 | INFO | MainProcess | Found a solution 16
+2026-01-05 01:25:01,483 | INFO | MainProcess | [Test k=67, w=16] Time: 1.39 seconds
+2026-01-05 01:25:02,059 | INFO | Process-27 | Number of variables: 17002
+2026-01-05 01:25:02,059 | INFO | Process-27 | Number of clauses: 68853
+2026-01-05 01:25:02,059 | INFO | Process-27 | Real nums of clauses: 68854
+2026-01-05 01:25:02,059 | INFO | Process-27 | Real nums of variables: 17000
+2026-01-05 01:25:02,107 | INFO | Process-27 | CNF written to cnf/v2\I_n85_k67\I_n85_k67_w17.cnf
+2026-01-05 01:25:02,108 | ERROR | Process-27 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 01:25:06,395 | RESULT | Process-27 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 01:25:06,442 | INFO | MainProcess | Found a solution 17
+2026-01-05 01:25:06,442 | INFO | MainProcess | [Test k=67, w=17] Time: 4.96 seconds
+2026-01-05 01:25:07,031 | INFO | Process-28 | Number of variables: 17002
+2026-01-05 01:25:07,031 | INFO | Process-28 | Number of clauses: 68853
+2026-01-05 01:25:07,031 | INFO | Process-28 | Real nums of clauses: 68854
+2026-01-05 01:25:07,031 | INFO | Process-28 | Real nums of variables: 17000
+2026-01-05 01:25:07,082 | INFO | Process-28 | CNF written to cnf/v2\I_n85_k67\I_n85_k67_w18.cnf
+2026-01-05 01:25:07,082 | ERROR | Process-28 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 01:25:11,262 | RESULT | Process-28 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 01:25:11,306 | INFO | MainProcess | Found a solution 18
+2026-01-05 01:25:11,306 | INFO | MainProcess | [Test k=67, w=18] Time: 4.86 seconds
+2026-01-05 01:25:11,882 | INFO | Process-29 | Number of variables: 17002
+2026-01-05 01:25:11,882 | INFO | Process-29 | Number of clauses: 68853
+2026-01-05 01:25:11,882 | INFO | Process-29 | Real nums of clauses: 68854
+2026-01-05 01:25:11,882 | INFO | Process-29 | Real nums of variables: 17000
+2026-01-05 01:25:11,930 | INFO | Process-29 | CNF written to cnf/v2\I_n85_k67\I_n85_k67_w19.cnf
+2026-01-05 01:25:11,930 | ERROR | Process-29 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 01:26:20,907 | RESULT | Process-29 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 01:26:20,943 | INFO | MainProcess | Found a solution 19
+2026-01-05 01:26:20,943 | INFO | MainProcess | [Test k=67, w=19] Time: 69.64 seconds
+2026-01-05 01:26:21,408 | INFO | Process-30 | Number of variables: 17002
+2026-01-05 01:26:21,408 | INFO | Process-30 | Number of clauses: 68853
+2026-01-05 01:26:21,408 | INFO | Process-30 | Real nums of clauses: 68854
+2026-01-05 01:26:21,408 | INFO | Process-30 | Real nums of variables: 17000
+2026-01-05 01:26:21,452 | INFO | Process-30 | CNF written to cnf/v2\I_n85_k67\I_n85_k67_w20.cnf
+2026-01-05 01:26:21,452 | ERROR | Process-30 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 01:54:59,060 | INFO | MainProcess | No solution found 20
+2026-01-05 01:54:59,060 | INFO | MainProcess | [Test k=67, w=20] Time: 1718.12 seconds
+2026-01-05 01:54:59,060 | INFO | MainProcess | $$$$
+2026-01-05 01:54:59,060 | INFO | MainProcess | -19
+2026-01-05 01:54:59,060 | INFO | MainProcess | $$$$
+2026-01-05 01:54:59,060 | INFO | MainProcess | Time taken for I-ash85.mtx.rnd with k = 67: 1800.0327506065369 seconds
+2026-01-05 01:54:59,060 | INFO | MainProcess | Maximum width before timeout for I-ash85.mtx.rnd is 19
+2026-01-05 01:54:59,060 | INFO | MainProcess | time out
+2026-01-05 01:54:59,582 | INFO | Process-31 | Number of variables: 16702
+2026-01-05 01:54:59,582 | INFO | Process-31 | Number of clauses: 66420
+2026-01-05 01:54:59,582 | INFO | Process-31 | Real nums of clauses: 66421
+2026-01-05 01:54:59,582 | INFO | Process-31 | Real nums of variables: 16700
+2026-01-05 01:54:59,625 | INFO | Process-31 | CNF written to cnf/v2\J_n100_k56\J_n100_k56_w17.cnf
+2026-01-05 01:54:59,625 | ERROR | Process-31 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 01:54:59,647 | RESULT | Process-31 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 01:54:59,703 | INFO | MainProcess | Found a solution 17
+2026-01-05 01:54:59,703 | INFO | MainProcess | [Test k=56, w=17] Time: 0.64 seconds
+2026-01-05 01:55:00,204 | INFO | Process-32 | Number of variables: 16702
+2026-01-05 01:55:00,204 | INFO | Process-32 | Number of clauses: 66420
+2026-01-05 01:55:00,204 | INFO | Process-32 | Real nums of clauses: 66421
+2026-01-05 01:55:00,204 | INFO | Process-32 | Real nums of variables: 16700
+2026-01-05 01:55:00,264 | INFO | Process-32 | CNF written to cnf/v2\J_n100_k56\J_n100_k56_w18.cnf
+2026-01-05 01:55:00,264 | ERROR | Process-32 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 01:55:00,958 | RESULT | Process-32 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 01:55:01,001 | INFO | MainProcess | Found a solution 18
+2026-01-05 01:55:01,001 | INFO | MainProcess | [Test k=56, w=18] Time: 1.3 seconds
+2026-01-05 01:55:01,533 | INFO | Process-33 | Number of variables: 16702
+2026-01-05 01:55:01,533 | INFO | Process-33 | Number of clauses: 66420
+2026-01-05 01:55:01,533 | INFO | Process-33 | Real nums of clauses: 66421
+2026-01-05 01:55:01,533 | INFO | Process-33 | Real nums of variables: 16700
+2026-01-05 01:55:01,580 | INFO | Process-33 | CNF written to cnf/v2\J_n100_k56\J_n100_k56_w19.cnf
+2026-01-05 01:55:01,580 | ERROR | Process-33 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 01:55:01,605 | RESULT | Process-33 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 01:55:01,651 | INFO | MainProcess | Found a solution 19
+2026-01-05 01:55:01,651 | INFO | MainProcess | [Test k=56, w=19] Time: 0.65 seconds
+2026-01-05 01:55:02,206 | INFO | Process-34 | Number of variables: 16702
+2026-01-05 01:55:02,206 | INFO | Process-34 | Number of clauses: 66420
+2026-01-05 01:55:02,206 | INFO | Process-34 | Real nums of clauses: 66421
+2026-01-05 01:55:02,206 | INFO | Process-34 | Real nums of variables: 16700
+2026-01-05 01:55:02,251 | INFO | Process-34 | CNF written to cnf/v2\J_n100_k56\J_n100_k56_w20.cnf
+2026-01-05 01:55:02,251 | ERROR | Process-34 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 01:55:02,340 | RESULT | Process-34 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 01:55:02,381 | INFO | MainProcess | Found a solution 20
+2026-01-05 01:55:02,381 | INFO | MainProcess | [Test k=56, w=20] Time: 0.73 seconds
+2026-01-05 01:55:03,023 | INFO | Process-35 | Number of variables: 16702
+2026-01-05 01:55:03,023 | INFO | Process-35 | Number of clauses: 66420
+2026-01-05 01:55:03,023 | INFO | Process-35 | Real nums of clauses: 66421
+2026-01-05 01:55:03,024 | INFO | Process-35 | Real nums of variables: 16700
+2026-01-05 01:55:03,072 | INFO | Process-35 | CNF written to cnf/v2\J_n100_k56\J_n100_k56_w21.cnf
+2026-01-05 01:55:03,072 | ERROR | Process-35 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 01:55:03,714 | RESULT | Process-35 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 01:55:03,741 | INFO | MainProcess | Found a solution 21
+2026-01-05 01:55:03,741 | INFO | MainProcess | [Test k=56, w=21] Time: 1.36 seconds
+2026-01-05 01:55:04,278 | INFO | Process-36 | Number of variables: 16702
+2026-01-05 01:55:04,278 | INFO | Process-36 | Number of clauses: 66420
+2026-01-05 01:55:04,278 | INFO | Process-36 | Real nums of clauses: 66421
+2026-01-05 01:55:04,278 | INFO | Process-36 | Real nums of variables: 16700
+2026-01-05 01:55:04,322 | INFO | Process-36 | CNF written to cnf/v2\J_n100_k56\J_n100_k56_w22.cnf
+2026-01-05 01:55:04,322 | ERROR | Process-36 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 01:55:31,663 | RESULT | Process-36 | No solution exists
+2026-01-05 01:55:31,663 | RESULT | Process-36 | Time taken: 27.449855089187622 seconds
+2026-01-05 01:55:31,717 | INFO | MainProcess | No solution found 22
+2026-01-05 01:55:31,717 | INFO | MainProcess | [Test k=56, w=22] Time: 27.96 seconds
+2026-01-05 01:55:31,717 | INFO | MainProcess | $$$$
+2026-01-05 01:55:31,717 | INFO | MainProcess | 21
+2026-01-05 01:55:31,717 | INFO | MainProcess | $$$$
+2026-01-05 01:55:31,717 | INFO | MainProcess | Time taken for J-nos4.mtx.rnd with k = 56: 32.656840324401855 seconds
+2026-01-05 01:55:31,717 | INFO | MainProcess | Maximum width for J-nos4.mtx.rnd is 21
+2026-01-05 01:55:32,273 | INFO | Process-37 | Number of variables: 27965
+2026-01-05 01:55:32,273 | INFO | Process-37 | Number of clauses: 90935
+2026-01-05 01:55:32,273 | INFO | Process-37 | Real nums of clauses: 90936
+2026-01-05 01:55:32,273 | INFO | Process-37 | Real nums of variables: 27963
+2026-01-05 01:55:32,340 | INFO | Process-37 | CNF written to cnf/v2\K_n117_k80\K_n117_k80_w31.cnf
+2026-01-05 01:55:32,340 | ERROR | Process-37 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 01:55:33,742 | RESULT | Process-37 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 01:55:33,786 | INFO | MainProcess | Found a solution 31
+2026-01-05 01:55:33,786 | INFO | MainProcess | [Test k=80, w=31] Time: 2.06 seconds
+2026-01-05 01:55:34,266 | INFO | Process-38 | Number of variables: 27965
+2026-01-05 01:55:34,266 | INFO | Process-38 | Number of clauses: 90935
+2026-01-05 01:55:34,266 | INFO | Process-38 | Real nums of clauses: 90936
+2026-01-05 01:55:34,266 | INFO | Process-38 | Real nums of variables: 27963
+2026-01-05 01:55:34,339 | INFO | Process-38 | CNF written to cnf/v2\K_n117_k80\K_n117_k80_w32.cnf
+2026-01-05 01:55:34,350 | ERROR | Process-38 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 01:55:35,367 | RESULT | Process-38 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 01:55:35,409 | INFO | MainProcess | Found a solution 32
+2026-01-05 01:55:35,409 | INFO | MainProcess | [Test k=80, w=32] Time: 1.62 seconds
+2026-01-05 01:55:36,011 | INFO | Process-39 | Number of variables: 27965
+2026-01-05 01:55:36,011 | INFO | Process-39 | Number of clauses: 90935
+2026-01-05 01:55:36,011 | INFO | Process-39 | Real nums of clauses: 90936
+2026-01-05 01:55:36,011 | INFO | Process-39 | Real nums of variables: 27963
+2026-01-05 01:55:36,078 | INFO | Process-39 | CNF written to cnf/v2\K_n117_k80\K_n117_k80_w33.cnf
+2026-01-05 01:55:36,078 | ERROR | Process-39 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 01:55:37,996 | RESULT | Process-39 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 01:55:38,043 | INFO | MainProcess | Found a solution 33
+2026-01-05 01:55:38,043 | INFO | MainProcess | [Test k=80, w=33] Time: 2.63 seconds
+2026-01-05 01:55:38,607 | INFO | Process-40 | Number of variables: 27965
+2026-01-05 01:55:38,607 | INFO | Process-40 | Number of clauses: 90935
+2026-01-05 01:55:38,607 | INFO | Process-40 | Real nums of clauses: 90936
+2026-01-05 01:55:38,607 | INFO | Process-40 | Real nums of variables: 27963
+2026-01-05 01:55:38,673 | INFO | Process-40 | CNF written to cnf/v2\K_n117_k80\K_n117_k80_w34.cnf
+2026-01-05 01:55:38,673 | ERROR | Process-40 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 01:55:40,863 | RESULT | Process-40 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 01:55:40,909 | INFO | MainProcess | Found a solution 34
+2026-01-05 01:55:40,909 | INFO | MainProcess | [Test k=80, w=34] Time: 2.87 seconds
+2026-01-05 01:55:41,461 | INFO | Process-41 | Number of variables: 27965
+2026-01-05 01:55:41,461 | INFO | Process-41 | Number of clauses: 90935
+2026-01-05 01:55:41,461 | INFO | Process-41 | Real nums of clauses: 90936
+2026-01-05 01:55:41,461 | INFO | Process-41 | Real nums of variables: 27963
+2026-01-05 01:55:41,523 | INFO | Process-41 | CNF written to cnf/v2\K_n117_k80\K_n117_k80_w35.cnf
+2026-01-05 01:55:41,523 | ERROR | Process-41 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 01:55:44,445 | RESULT | Process-41 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 01:55:44,487 | INFO | MainProcess | Found a solution 35
+2026-01-05 01:55:44,487 | INFO | MainProcess | [Test k=80, w=35] Time: 3.58 seconds
+2026-01-05 01:55:44,980 | INFO | Process-42 | Number of variables: 27965
+2026-01-05 01:55:44,980 | INFO | Process-42 | Number of clauses: 90935
+2026-01-05 01:55:44,980 | INFO | Process-42 | Real nums of clauses: 90936
+2026-01-05 01:55:44,980 | INFO | Process-42 | Real nums of variables: 27963
+2026-01-05 01:55:45,052 | INFO | Process-42 | CNF written to cnf/v2\K_n117_k80\K_n117_k80_w36.cnf
+2026-01-05 01:55:45,052 | ERROR | Process-42 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 01:55:52,768 | RESULT | Process-42 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 01:55:52,813 | INFO | MainProcess | Found a solution 36
+2026-01-05 01:55:52,813 | INFO | MainProcess | [Test k=80, w=36] Time: 8.33 seconds
+2026-01-05 01:55:53,295 | INFO | Process-43 | Number of variables: 27965
+2026-01-05 01:55:53,295 | INFO | Process-43 | Number of clauses: 90935
+2026-01-05 01:55:53,295 | INFO | Process-43 | Real nums of clauses: 90936
+2026-01-05 01:55:53,295 | INFO | Process-43 | Real nums of variables: 27963
+2026-01-05 01:55:53,366 | INFO | Process-43 | CNF written to cnf/v2\K_n117_k80\K_n117_k80_w37.cnf
+2026-01-05 01:55:53,366 | ERROR | Process-43 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 01:56:04,387 | RESULT | Process-43 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 01:56:04,432 | INFO | MainProcess | Found a solution 37
+2026-01-05 01:56:04,432 | INFO | MainProcess | [Test k=80, w=37] Time: 11.62 seconds
+2026-01-05 01:56:04,910 | INFO | Process-44 | Number of variables: 27965
+2026-01-05 01:56:04,910 | INFO | Process-44 | Number of clauses: 90935
+2026-01-05 01:56:04,910 | INFO | Process-44 | Real nums of clauses: 90936
+2026-01-05 01:56:04,910 | INFO | Process-44 | Real nums of variables: 27963
+2026-01-05 01:56:04,981 | INFO | Process-44 | CNF written to cnf/v2\K_n117_k80\K_n117_k80_w38.cnf
+2026-01-05 01:56:04,981 | ERROR | Process-44 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 01:58:47,349 | RESULT | Process-44 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 01:58:47,395 | INFO | MainProcess | Found a solution 38
+2026-01-05 01:58:47,395 | INFO | MainProcess | [Test k=80, w=38] Time: 162.96 seconds
+2026-01-05 01:58:47,924 | INFO | Process-45 | Number of variables: 27965
+2026-01-05 01:58:47,924 | INFO | Process-45 | Number of clauses: 90935
+2026-01-05 01:58:47,924 | INFO | Process-45 | Real nums of clauses: 90936
+2026-01-05 01:58:47,924 | INFO | Process-45 | Real nums of variables: 27963
+2026-01-05 01:58:47,984 | INFO | Process-45 | CNF written to cnf/v2\K_n117_k80\K_n117_k80_w39.cnf
+2026-01-05 01:58:47,984 | ERROR | Process-45 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 02:09:58,543 | RESULT | Process-45 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 02:09:58,611 | INFO | MainProcess | Found a solution 39
+2026-01-05 02:09:58,612 | INFO | MainProcess | [Test k=80, w=39] Time: 671.22 seconds
+2026-01-05 02:09:59,166 | INFO | Process-46 | Number of variables: 27965
+2026-01-05 02:09:59,166 | INFO | Process-46 | Number of clauses: 90935
+2026-01-05 02:09:59,166 | INFO | Process-46 | Real nums of clauses: 90936
+2026-01-05 02:09:59,166 | INFO | Process-46 | Real nums of variables: 27963
+2026-01-05 02:09:59,232 | INFO | Process-46 | CNF written to cnf/v2\K_n117_k80\K_n117_k80_w40.cnf
+2026-01-05 02:09:59,232 | ERROR | Process-46 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 02:09:59,254 | RESULT | Process-46 | No solution exists
+2026-01-05 02:09:59,254 | RESULT | Process-46 | Time taken: 0.19494128227233887 seconds
+2026-01-05 02:09:59,299 | INFO | MainProcess | No solution found 40
+2026-01-05 02:09:59,299 | INFO | MainProcess | [Test k=80, w=40] Time: 0.69 seconds
+2026-01-05 02:09:59,299 | INFO | MainProcess | $$$$
+2026-01-05 02:09:59,299 | INFO | MainProcess | 39
+2026-01-05 02:09:59,299 | INFO | MainProcess | $$$$
+2026-01-05 02:09:59,299 | INFO | MainProcess | Time taken for K-dwt__234.mtx.rnd with k = 80: 867.5820865631104 seconds
+2026-01-05 02:09:59,299 | INFO | MainProcess | Maximum width for K-dwt__234.mtx.rnd is 39
+2026-01-05 02:09:59,811 | INFO | Process-47 | Number of variables: 21832
+2026-01-05 02:09:59,811 | INFO | Process-47 | Number of clauses: 72880
+2026-01-05 02:09:59,811 | INFO | Process-47 | Real nums of clauses: 72881
+2026-01-05 02:09:59,811 | INFO | Process-47 | Real nums of variables: 21830
+2026-01-05 02:09:59,860 | INFO | Process-47 | CNF written to cnf/v2\L_n118_k62\L_n118_k62_w20.cnf
+2026-01-05 02:09:59,860 | ERROR | Process-47 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 02:10:00,362 | RESULT | Process-47 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 02:10:00,405 | INFO | MainProcess | Found a solution 20
+2026-01-05 02:10:00,405 | INFO | MainProcess | [Test k=62, w=20] Time: 1.1 seconds
+2026-01-05 02:10:00,912 | INFO | Process-48 | Number of variables: 21832
+2026-01-05 02:10:00,912 | INFO | Process-48 | Number of clauses: 72880
+2026-01-05 02:10:00,912 | INFO | Process-48 | Real nums of clauses: 72881
+2026-01-05 02:10:00,912 | INFO | Process-48 | Real nums of variables: 21830
+2026-01-05 02:10:00,961 | INFO | Process-48 | CNF written to cnf/v2\L_n118_k62\L_n118_k62_w21.cnf
+2026-01-05 02:10:00,961 | ERROR | Process-48 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 02:10:00,977 | RESULT | Process-48 | No solution exists
+2026-01-05 02:10:00,977 | RESULT | Process-48 | Time taken: 0.1556713581085205 seconds
+2026-01-05 02:10:01,021 | INFO | MainProcess | No solution found 21
+2026-01-05 02:10:01,021 | INFO | MainProcess | [Test k=62, w=21] Time: 0.62 seconds
+2026-01-05 02:10:01,021 | INFO | MainProcess | $$$$
+2026-01-05 02:10:01,021 | INFO | MainProcess | 20
+2026-01-05 02:10:01,021 | INFO | MainProcess | $$$$
+2026-01-05 02:10:01,021 | INFO | MainProcess | Time taken for L-bcspwr03.mtx.rnd with k = 62: 1.7226407527923584 seconds
+2026-01-05 02:10:01,021 | INFO | MainProcess | Maximum width for L-bcspwr03.mtx.rnd is 20
+2026-01-05 02:10:06,433 | INFO | Process-49 | Number of variables: 406562
+2026-01-05 02:10:06,433 | INFO | Process-49 | Number of clauses: 3350963
+2026-01-05 02:10:06,433 | INFO | Process-49 | Real nums of clauses: 3350964
+2026-01-05 02:10:06,433 | INFO | Process-49 | Real nums of variables: 406560
+2026-01-05 02:10:08,836 | INFO | Process-49 | CNF written to cnf/v2\M_n420_k323\M_n420_k323_w21.cnf
+2026-01-05 02:10:08,836 | ERROR | Process-49 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 02:12:03,568 | RESULT | Process-49 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 02:12:03,862 | INFO | MainProcess | Found a solution 21
+2026-01-05 02:12:03,862 | INFO | MainProcess | [Test k=323, w=21] Time: 122.83 seconds
+2026-01-05 02:12:09,261 | INFO | Process-50 | Number of variables: 406562
+2026-01-05 02:12:09,261 | INFO | Process-50 | Number of clauses: 3350963
+2026-01-05 02:12:09,261 | INFO | Process-50 | Real nums of clauses: 3350964
+2026-01-05 02:12:09,261 | INFO | Process-50 | Real nums of variables: 406560
+2026-01-05 02:12:11,747 | INFO | Process-50 | CNF written to cnf/v2\M_n420_k323\M_n420_k323_w22.cnf
+2026-01-05 02:12:11,748 | ERROR | Process-50 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 02:13:05,605 | RESULT | Process-50 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 02:13:05,889 | INFO | MainProcess | Found a solution 22
+2026-01-05 02:13:05,889 | INFO | MainProcess | [Test k=323, w=22] Time: 62.03 seconds
+2026-01-05 02:13:11,389 | INFO | Process-51 | Number of variables: 406562
+2026-01-05 02:13:11,389 | INFO | Process-51 | Number of clauses: 3350963
+2026-01-05 02:13:11,389 | INFO | Process-51 | Real nums of clauses: 3350964
+2026-01-05 02:13:11,389 | INFO | Process-51 | Real nums of variables: 406560
+2026-01-05 02:13:13,879 | INFO | Process-51 | CNF written to cnf/v2\M_n420_k323\M_n420_k323_w23.cnf
+2026-01-05 02:13:13,879 | ERROR | Process-51 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 02:23:23,130 | RESULT | Process-51 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 02:23:23,452 | INFO | MainProcess | Found a solution 23
+2026-01-05 02:23:23,452 | INFO | MainProcess | [Test k=323, w=23] Time: 617.56 seconds
+2026-01-05 02:23:28,936 | INFO | Process-52 | Number of variables: 406562
+2026-01-05 02:23:28,937 | INFO | Process-52 | Number of clauses: 3350963
+2026-01-05 02:23:28,937 | INFO | Process-52 | Real nums of clauses: 3350964
+2026-01-05 02:23:28,937 | INFO | Process-52 | Real nums of variables: 406560
+2026-01-05 02:23:31,526 | INFO | Process-52 | CNF written to cnf/v2\M_n420_k323\M_n420_k323_w24.cnf
+2026-01-05 02:23:31,526 | ERROR | Process-52 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 02:32:48,378 | RESULT | Process-52 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 02:32:48,754 | INFO | MainProcess | Found a solution 24
+2026-01-05 02:32:48,754 | INFO | MainProcess | [Test k=323, w=24] Time: 565.3 seconds
+2026-01-05 02:32:55,581 | INFO | Process-53 | Number of variables: 406562
+2026-01-05 02:32:55,581 | INFO | Process-53 | Number of clauses: 3350963
+2026-01-05 02:32:55,581 | INFO | Process-53 | Real nums of clauses: 3350964
+2026-01-05 02:32:55,581 | INFO | Process-53 | Real nums of variables: 406560
+2026-01-05 02:32:58,009 | INFO | Process-53 | CNF written to cnf/v2\M_n420_k323\M_n420_k323_w25.cnf
+2026-01-05 02:32:58,009 | ERROR | Process-53 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 02:40:02,830 | INFO | MainProcess | No solution found 25
+2026-01-05 02:40:02,830 | INFO | MainProcess | [Test k=323, w=25] Time: 434.08 seconds
+2026-01-05 02:40:02,830 | INFO | MainProcess | $$$$
+2026-01-05 02:40:02,836 | INFO | MainProcess | -24
+2026-01-05 02:40:02,836 | INFO | MainProcess | $$$$
+2026-01-05 02:40:02,836 | INFO | MainProcess | Time taken for M-bcsstk06.mtx.rnd with k = 323: 1801.8142352104187 seconds
+2026-01-05 02:40:02,836 | INFO | MainProcess | Maximum width before timeout for M-bcsstk06.mtx.rnd is 24
+2026-01-05 02:40:02,836 | INFO | MainProcess | time out
+2026-01-05 02:40:05,138 | INFO | Process-54 | Number of variables: 281352
+2026-01-05 02:40:05,138 | INFO | Process-54 | Number of clauses: 1215585
+2026-01-05 02:40:05,138 | INFO | Process-54 | Real nums of clauses: 1215586
+2026-01-05 02:40:05,138 | INFO | Process-54 | Real nums of variables: 281350
+2026-01-05 02:40:05,991 | INFO | Process-54 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w47.cnf
+2026-01-05 02:40:05,991 | ERROR | Process-54 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 02:40:07,891 | RESULT | Process-54 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 02:40:08,087 | INFO | MainProcess | Found a solution 47
+2026-01-05 02:40:08,087 | INFO | MainProcess | [Test k=221, w=47] Time: 5.24 seconds
+2026-01-05 02:40:10,223 | INFO | Process-55 | Number of variables: 281352
+2026-01-05 02:40:10,223 | INFO | Process-55 | Number of clauses: 1215585
+2026-01-05 02:40:10,223 | INFO | Process-55 | Real nums of clauses: 1215586
+2026-01-05 02:40:10,223 | INFO | Process-55 | Real nums of variables: 281350
+2026-01-05 02:40:11,080 | INFO | Process-55 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w48.cnf
+2026-01-05 02:40:11,080 | ERROR | Process-55 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 02:40:15,168 | RESULT | Process-55 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 02:40:15,314 | INFO | MainProcess | Found a solution 48
+2026-01-05 02:40:15,314 | INFO | MainProcess | [Test k=221, w=48] Time: 7.23 seconds
+2026-01-05 02:40:17,475 | INFO | Process-56 | Number of variables: 281352
+2026-01-05 02:40:17,475 | INFO | Process-56 | Number of clauses: 1215585
+2026-01-05 02:40:17,475 | INFO | Process-56 | Real nums of clauses: 1215586
+2026-01-05 02:40:17,475 | INFO | Process-56 | Real nums of variables: 281350
+2026-01-05 02:40:18,335 | INFO | Process-56 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w49.cnf
+2026-01-05 02:40:18,335 | ERROR | Process-56 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 02:40:32,400 | RESULT | Process-56 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 02:40:32,536 | INFO | MainProcess | Found a solution 49
+2026-01-05 02:40:32,536 | INFO | MainProcess | [Test k=221, w=49] Time: 17.22 seconds
+2026-01-05 02:40:34,742 | INFO | Process-57 | Number of variables: 281352
+2026-01-05 02:40:34,742 | INFO | Process-57 | Number of clauses: 1215585
+2026-01-05 02:40:34,742 | INFO | Process-57 | Real nums of clauses: 1215586
+2026-01-05 02:40:34,742 | INFO | Process-57 | Real nums of variables: 281350
+2026-01-05 02:40:35,586 | INFO | Process-57 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w50.cnf
+2026-01-05 02:40:35,586 | ERROR | Process-57 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 02:40:50,184 | RESULT | Process-57 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 02:40:50,355 | INFO | MainProcess | Found a solution 50
+2026-01-05 02:40:50,355 | INFO | MainProcess | [Test k=221, w=50] Time: 17.82 seconds
+2026-01-05 02:40:52,532 | INFO | Process-58 | Number of variables: 281352
+2026-01-05 02:40:52,532 | INFO | Process-58 | Number of clauses: 1215585
+2026-01-05 02:40:52,532 | INFO | Process-58 | Real nums of clauses: 1215586
+2026-01-05 02:40:52,532 | INFO | Process-58 | Real nums of variables: 281350
+2026-01-05 02:40:53,388 | INFO | Process-58 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w51.cnf
+2026-01-05 02:40:53,388 | ERROR | Process-58 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 02:40:57,367 | RESULT | Process-58 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 02:40:57,508 | INFO | MainProcess | Found a solution 51
+2026-01-05 02:40:57,508 | INFO | MainProcess | [Test k=221, w=51] Time: 7.15 seconds
+2026-01-05 02:40:59,767 | INFO | Process-59 | Number of variables: 281352
+2026-01-05 02:40:59,767 | INFO | Process-59 | Number of clauses: 1215585
+2026-01-05 02:40:59,768 | INFO | Process-59 | Real nums of clauses: 1215586
+2026-01-05 02:40:59,768 | INFO | Process-59 | Real nums of variables: 281350
+2026-01-05 02:41:00,619 | INFO | Process-59 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w52.cnf
+2026-01-05 02:41:00,619 | ERROR | Process-59 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 02:41:09,334 | RESULT | Process-59 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 02:41:09,474 | INFO | MainProcess | Found a solution 52
+2026-01-05 02:41:09,474 | INFO | MainProcess | [Test k=221, w=52] Time: 11.97 seconds
+2026-01-05 02:41:11,617 | INFO | Process-60 | Number of variables: 281352
+2026-01-05 02:41:11,617 | INFO | Process-60 | Number of clauses: 1215585
+2026-01-05 02:41:11,617 | INFO | Process-60 | Real nums of clauses: 1215586
+2026-01-05 02:41:11,617 | INFO | Process-60 | Real nums of variables: 281350
+2026-01-05 02:41:12,477 | INFO | Process-60 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w53.cnf
+2026-01-05 02:41:12,477 | ERROR | Process-60 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 02:41:29,601 | RESULT | Process-60 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 02:41:29,736 | INFO | MainProcess | Found a solution 53
+2026-01-05 02:41:29,736 | INFO | MainProcess | [Test k=221, w=53] Time: 20.26 seconds
+2026-01-05 02:41:31,894 | INFO | Process-61 | Number of variables: 281352
+2026-01-05 02:41:31,894 | INFO | Process-61 | Number of clauses: 1215585
+2026-01-05 02:41:31,894 | INFO | Process-61 | Real nums of clauses: 1215586
+2026-01-05 02:41:31,894 | INFO | Process-61 | Real nums of variables: 281350
+2026-01-05 02:41:32,731 | INFO | Process-61 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w54.cnf
+2026-01-05 02:41:32,732 | ERROR | Process-61 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 02:41:40,116 | RESULT | Process-61 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 02:41:40,228 | INFO | MainProcess | Found a solution 54
+2026-01-05 02:41:40,228 | INFO | MainProcess | [Test k=221, w=54] Time: 10.49 seconds
+2026-01-05 02:41:42,409 | INFO | Process-62 | Number of variables: 281352
+2026-01-05 02:41:42,409 | INFO | Process-62 | Number of clauses: 1215585
+2026-01-05 02:41:42,409 | INFO | Process-62 | Real nums of clauses: 1215586
+2026-01-05 02:41:42,409 | INFO | Process-62 | Real nums of variables: 281350
+2026-01-05 02:41:43,255 | INFO | Process-62 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w55.cnf
+2026-01-05 02:41:43,255 | ERROR | Process-62 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 02:41:56,170 | RESULT | Process-62 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 02:41:56,332 | INFO | MainProcess | Found a solution 55
+2026-01-05 02:41:56,332 | INFO | MainProcess | [Test k=221, w=55] Time: 16.1 seconds
+2026-01-05 02:41:58,544 | INFO | Process-63 | Number of variables: 281352
+2026-01-05 02:41:58,544 | INFO | Process-63 | Number of clauses: 1215585
+2026-01-05 02:41:58,544 | INFO | Process-63 | Real nums of clauses: 1215586
+2026-01-05 02:41:58,544 | INFO | Process-63 | Real nums of variables: 281350
+2026-01-05 02:41:59,354 | INFO | Process-63 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w56.cnf
+2026-01-05 02:41:59,355 | ERROR | Process-63 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 02:42:09,299 | RESULT | Process-63 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 02:42:09,430 | INFO | MainProcess | Found a solution 56
+2026-01-05 02:42:09,430 | INFO | MainProcess | [Test k=221, w=56] Time: 13.1 seconds
+2026-01-05 02:42:11,717 | INFO | Process-64 | Number of variables: 281352
+2026-01-05 02:42:11,717 | INFO | Process-64 | Number of clauses: 1215585
+2026-01-05 02:42:11,717 | INFO | Process-64 | Real nums of clauses: 1215586
+2026-01-05 02:42:11,717 | INFO | Process-64 | Real nums of variables: 281350
+2026-01-05 02:42:12,555 | INFO | Process-64 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w57.cnf
+2026-01-05 02:42:12,555 | ERROR | Process-64 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 02:42:17,626 | RESULT | Process-64 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 02:42:17,764 | INFO | MainProcess | Found a solution 57
+2026-01-05 02:42:17,764 | INFO | MainProcess | [Test k=221, w=57] Time: 8.33 seconds
+2026-01-05 02:42:19,937 | INFO | Process-65 | Number of variables: 281352
+2026-01-05 02:42:19,937 | INFO | Process-65 | Number of clauses: 1215585
+2026-01-05 02:42:19,937 | INFO | Process-65 | Real nums of clauses: 1215586
+2026-01-05 02:42:19,937 | INFO | Process-65 | Real nums of variables: 281350
+2026-01-05 02:42:20,782 | INFO | Process-65 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w58.cnf
+2026-01-05 02:42:20,782 | ERROR | Process-65 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 02:42:39,706 | RESULT | Process-65 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 02:42:39,840 | INFO | MainProcess | Found a solution 58
+2026-01-05 02:42:39,840 | INFO | MainProcess | [Test k=221, w=58] Time: 22.08 seconds
+2026-01-05 02:42:42,040 | INFO | Process-66 | Number of variables: 281352
+2026-01-05 02:42:42,040 | INFO | Process-66 | Number of clauses: 1215585
+2026-01-05 02:42:42,040 | INFO | Process-66 | Real nums of clauses: 1215586
+2026-01-05 02:42:42,040 | INFO | Process-66 | Real nums of variables: 281350
+2026-01-05 02:42:42,869 | INFO | Process-66 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w59.cnf
+2026-01-05 02:42:42,869 | ERROR | Process-66 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 02:43:26,077 | RESULT | Process-66 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 02:43:26,215 | INFO | MainProcess | Found a solution 59
+2026-01-05 02:43:26,215 | INFO | MainProcess | [Test k=221, w=59] Time: 46.37 seconds
+2026-01-05 02:43:28,418 | INFO | Process-67 | Number of variables: 281352
+2026-01-05 02:43:28,418 | INFO | Process-67 | Number of clauses: 1215585
+2026-01-05 02:43:28,418 | INFO | Process-67 | Real nums of clauses: 1215586
+2026-01-05 02:43:28,418 | INFO | Process-67 | Real nums of variables: 281350
+2026-01-05 02:43:29,247 | INFO | Process-67 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w60.cnf
+2026-01-05 02:43:29,247 | ERROR | Process-67 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 02:44:07,872 | RESULT | Process-67 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 02:44:08,043 | INFO | MainProcess | Found a solution 60
+2026-01-05 02:44:08,043 | INFO | MainProcess | [Test k=221, w=60] Time: 41.83 seconds
+2026-01-05 02:44:10,235 | INFO | Process-68 | Number of variables: 281352
+2026-01-05 02:44:10,235 | INFO | Process-68 | Number of clauses: 1215585
+2026-01-05 02:44:10,235 | INFO | Process-68 | Real nums of clauses: 1215586
+2026-01-05 02:44:10,235 | INFO | Process-68 | Real nums of variables: 281350
+2026-01-05 02:44:11,062 | INFO | Process-68 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w61.cnf
+2026-01-05 02:44:11,062 | ERROR | Process-68 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 02:44:54,043 | RESULT | Process-68 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 02:44:54,170 | INFO | MainProcess | Found a solution 61
+2026-01-05 02:44:54,170 | INFO | MainProcess | [Test k=221, w=61] Time: 46.13 seconds
+2026-01-05 02:44:56,492 | INFO | Process-69 | Number of variables: 281352
+2026-01-05 02:44:56,492 | INFO | Process-69 | Number of clauses: 1215585
+2026-01-05 02:44:56,492 | INFO | Process-69 | Real nums of clauses: 1215586
+2026-01-05 02:44:56,492 | INFO | Process-69 | Real nums of variables: 281350
+2026-01-05 02:44:57,356 | INFO | Process-69 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w62.cnf
+2026-01-05 02:44:57,356 | ERROR | Process-69 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 02:45:45,270 | RESULT | Process-69 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 02:45:45,402 | INFO | MainProcess | Found a solution 62
+2026-01-05 02:45:45,402 | INFO | MainProcess | [Test k=221, w=62] Time: 51.23 seconds
+2026-01-05 02:45:47,685 | INFO | Process-70 | Number of variables: 281352
+2026-01-05 02:45:47,685 | INFO | Process-70 | Number of clauses: 1215585
+2026-01-05 02:45:47,685 | INFO | Process-70 | Real nums of clauses: 1215586
+2026-01-05 02:45:47,685 | INFO | Process-70 | Real nums of variables: 281350
+2026-01-05 02:45:48,541 | INFO | Process-70 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w63.cnf
+2026-01-05 02:45:48,541 | ERROR | Process-70 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 02:47:39,901 | RESULT | Process-70 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 02:47:40,076 | INFO | MainProcess | Found a solution 63
+2026-01-05 02:47:40,076 | INFO | MainProcess | [Test k=221, w=63] Time: 114.67 seconds
+2026-01-05 02:47:42,245 | INFO | Process-71 | Number of variables: 281352
+2026-01-05 02:47:42,245 | INFO | Process-71 | Number of clauses: 1215585
+2026-01-05 02:47:42,245 | INFO | Process-71 | Real nums of clauses: 1215586
+2026-01-05 02:47:42,245 | INFO | Process-71 | Real nums of variables: 281350
+2026-01-05 02:47:43,089 | INFO | Process-71 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w64.cnf
+2026-01-05 02:47:43,090 | ERROR | Process-71 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 02:50:04,952 | RESULT | Process-71 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 02:50:05,089 | INFO | MainProcess | Found a solution 64
+2026-01-05 02:50:05,089 | INFO | MainProcess | [Test k=221, w=64] Time: 145.01 seconds
+2026-01-05 02:50:07,265 | INFO | Process-72 | Number of variables: 281352
+2026-01-05 02:50:07,265 | INFO | Process-72 | Number of clauses: 1215585
+2026-01-05 02:50:07,265 | INFO | Process-72 | Real nums of clauses: 1215586
+2026-01-05 02:50:07,265 | INFO | Process-72 | Real nums of variables: 281350
+2026-01-05 02:50:08,093 | INFO | Process-72 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w65.cnf
+2026-01-05 02:50:08,093 | ERROR | Process-72 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 03:00:19,463 | RESULT | Process-72 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 03:00:19,598 | INFO | MainProcess | Found a solution 65
+2026-01-05 03:00:19,598 | INFO | MainProcess | [Test k=221, w=65] Time: 614.51 seconds
+2026-01-05 03:00:21,896 | INFO | Process-73 | Number of variables: 281352
+2026-01-05 03:00:21,896 | INFO | Process-73 | Number of clauses: 1215585
+2026-01-05 03:00:21,896 | INFO | Process-73 | Real nums of clauses: 1215586
+2026-01-05 03:00:21,896 | INFO | Process-73 | Real nums of variables: 281350
+2026-01-05 03:00:22,738 | INFO | Process-73 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w66.cnf
+2026-01-05 03:00:22,738 | ERROR | Process-73 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 03:02:26,555 | RESULT | Process-73 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 03:02:26,733 | INFO | MainProcess | Found a solution 66
+2026-01-05 03:02:26,733 | INFO | MainProcess | [Test k=221, w=66] Time: 127.14 seconds
+2026-01-05 03:02:28,941 | INFO | Process-74 | Number of variables: 281352
+2026-01-05 03:02:28,942 | INFO | Process-74 | Number of clauses: 1215585
+2026-01-05 03:02:28,942 | INFO | Process-74 | Real nums of clauses: 1215586
+2026-01-05 03:02:28,942 | INFO | Process-74 | Real nums of variables: 281350
+2026-01-05 03:02:29,797 | INFO | Process-74 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w67.cnf
+2026-01-05 03:02:29,797 | ERROR | Process-74 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 03:10:02,933 | INFO | MainProcess | No solution found 67
+2026-01-05 03:10:02,933 | INFO | MainProcess | [Test k=221, w=67] Time: 456.2 seconds
+2026-01-05 03:10:02,933 | INFO | MainProcess | $$$$
+2026-01-05 03:10:02,933 | INFO | MainProcess | -66
+2026-01-05 03:10:02,933 | INFO | MainProcess | $$$$
+2026-01-05 03:10:02,933 | INFO | MainProcess | Time taken for O-impcol_d.mtx.rnd with k = 221: 1800.0977873802185 seconds
+2026-01-05 03:10:02,933 | INFO | MainProcess | Maximum width before timeout for O-impcol_d.mtx.rnd is 66
+2026-01-05 03:10:02,933 | INFO | MainProcess | time out
+2026-01-05 03:10:06,624 | INFO | Process-75 | Number of variables: 444112
+2026-01-05 03:10:06,624 | INFO | Process-75 | Number of clauses: 2155615
+2026-01-05 03:10:06,624 | INFO | Process-75 | Real nums of clauses: 2155616
+2026-01-05 03:10:06,624 | INFO | Process-75 | Real nums of variables: 444110
+2026-01-05 03:10:08,166 | INFO | Process-75 | CNF written to cnf/v2\P_n445_k333\P_n445_k333_w58.cnf
+2026-01-05 03:10:08,166 | ERROR | Process-75 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 03:12:30,845 | RESULT | Process-75 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 03:12:31,063 | INFO | MainProcess | Found a solution 58
+2026-01-05 03:12:31,063 | INFO | MainProcess | [Test k=333, w=58] Time: 148.12 seconds
+2026-01-05 03:12:34,705 | INFO | Process-76 | Number of variables: 444112
+2026-01-05 03:12:34,705 | INFO | Process-76 | Number of clauses: 2155615
+2026-01-05 03:12:34,705 | INFO | Process-76 | Real nums of clauses: 2155616
+2026-01-05 03:12:34,705 | INFO | Process-76 | Real nums of variables: 444110
+2026-01-05 03:12:36,238 | INFO | Process-76 | CNF written to cnf/v2\P_n445_k333\P_n445_k333_w59.cnf
+2026-01-05 03:12:36,238 | ERROR | Process-76 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 03:15:29,067 | RESULT | Process-76 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 03:15:29,296 | INFO | MainProcess | Found a solution 59
+2026-01-05 03:15:29,296 | INFO | MainProcess | [Test k=333, w=59] Time: 178.23 seconds
+2026-01-05 03:15:32,879 | INFO | Process-77 | Number of variables: 444112
+2026-01-05 03:15:32,879 | INFO | Process-77 | Number of clauses: 2155615
+2026-01-05 03:15:32,879 | INFO | Process-77 | Real nums of clauses: 2155616
+2026-01-05 03:15:32,879 | INFO | Process-77 | Real nums of variables: 444110
+2026-01-05 03:15:34,405 | INFO | Process-77 | CNF written to cnf/v2\P_n445_k333\P_n445_k333_w60.cnf
+2026-01-05 03:15:34,405 | ERROR | Process-77 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 03:18:12,025 | RESULT | Process-77 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 03:18:12,242 | INFO | MainProcess | Found a solution 60
+2026-01-05 03:18:12,242 | INFO | MainProcess | [Test k=333, w=60] Time: 162.95 seconds
+2026-01-05 03:18:15,854 | INFO | Process-78 | Number of variables: 444112
+2026-01-05 03:18:15,854 | INFO | Process-78 | Number of clauses: 2155615
+2026-01-05 03:18:15,855 | INFO | Process-78 | Real nums of clauses: 2155616
+2026-01-05 03:18:15,855 | INFO | Process-78 | Real nums of variables: 444110
+2026-01-05 03:18:17,395 | INFO | Process-78 | CNF written to cnf/v2\P_n445_k333\P_n445_k333_w61.cnf
+2026-01-05 03:18:17,395 | ERROR | Process-78 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 03:20:37,330 | RESULT | Process-78 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 03:20:37,562 | INFO | MainProcess | Found a solution 61
+2026-01-05 03:20:37,563 | INFO | MainProcess | [Test k=333, w=61] Time: 145.32 seconds
+2026-01-05 03:20:41,136 | INFO | Process-79 | Number of variables: 444112
+2026-01-05 03:20:41,136 | INFO | Process-79 | Number of clauses: 2155615
+2026-01-05 03:20:41,136 | INFO | Process-79 | Real nums of clauses: 2155616
+2026-01-05 03:20:41,136 | INFO | Process-79 | Real nums of variables: 444110
+2026-01-05 03:20:42,692 | INFO | Process-79 | CNF written to cnf/v2\P_n445_k333\P_n445_k333_w62.cnf
+2026-01-05 03:20:42,692 | ERROR | Process-79 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 03:29:09,638 | RESULT | Process-79 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 03:29:09,880 | INFO | MainProcess | Found a solution 62
+2026-01-05 03:29:09,880 | INFO | MainProcess | [Test k=333, w=62] Time: 512.32 seconds
+2026-01-05 03:29:13,456 | INFO | Process-80 | Number of variables: 444112
+2026-01-05 03:29:13,456 | INFO | Process-80 | Number of clauses: 2155615
+2026-01-05 03:29:13,456 | INFO | Process-80 | Real nums of clauses: 2155616
+2026-01-05 03:29:13,456 | INFO | Process-80 | Real nums of variables: 444110
+2026-01-05 03:29:14,975 | INFO | Process-80 | CNF written to cnf/v2\P_n445_k333\P_n445_k333_w63.cnf
+2026-01-05 03:29:14,975 | ERROR | Process-80 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 03:39:50,031 | RESULT | Process-80 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 03:39:50,246 | INFO | MainProcess | Found a solution 63
+2026-01-05 03:39:50,246 | INFO | MainProcess | [Test k=333, w=63] Time: 640.36 seconds
+2026-01-05 03:39:54,160 | INFO | Process-81 | Number of variables: 444112
+2026-01-05 03:39:54,160 | INFO | Process-81 | Number of clauses: 2155615
+2026-01-05 03:39:54,160 | INFO | Process-81 | Real nums of clauses: 2155616
+2026-01-05 03:39:54,160 | INFO | Process-81 | Real nums of variables: 444110
+2026-01-05 03:39:55,701 | INFO | Process-81 | CNF written to cnf/v2\P_n445_k333\P_n445_k333_w64.cnf
+2026-01-05 03:39:55,701 | ERROR | Process-81 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 03:40:03,069 | INFO | MainProcess | No solution found 64
+2026-01-05 03:40:03,069 | INFO | MainProcess | [Test k=333, w=64] Time: 12.82 seconds
+2026-01-05 03:40:03,069 | INFO | MainProcess | $$$$
+2026-01-05 03:40:03,069 | INFO | MainProcess | -63
+2026-01-05 03:40:03,069 | INFO | MainProcess | $$$$
+2026-01-05 03:40:03,069 | INFO | MainProcess | Time taken for P-can__445.mtx.rnd with k = 333: 1800.1354625225067 seconds
+2026-01-05 03:40:03,069 | INFO | MainProcess | Maximum width before timeout for P-can__445.mtx.rnd is 63
+2026-01-05 03:40:03,069 | INFO | MainProcess | time out
+2026-01-05 03:40:06,033 | INFO | Process-82 | Number of variables: 482640
+2026-01-05 03:40:06,033 | INFO | Process-82 | Number of clauses: 1507236
+2026-01-05 03:40:06,033 | INFO | Process-82 | Real nums of clauses: 1507237
+2026-01-05 03:40:06,033 | INFO | Process-82 | Real nums of variables: 482638
+2026-01-05 03:40:07,079 | INFO | Process-82 | CNF written to cnf/v2\Q_n494_k326\Q_n494_k326_w144.cnf
+2026-01-05 03:40:07,079 | ERROR | Process-82 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 03:40:35,995 | RESULT | Process-82 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 03:40:36,171 | INFO | MainProcess | Found a solution 144
+2026-01-05 03:40:36,171 | INFO | MainProcess | [Test k=326, w=144] Time: 33.1 seconds
+2026-01-05 03:40:38,864 | INFO | Process-83 | Number of variables: 482640
+2026-01-05 03:40:38,864 | INFO | Process-83 | Number of clauses: 1507236
+2026-01-05 03:40:38,864 | INFO | Process-83 | Real nums of clauses: 1507237
+2026-01-05 03:40:38,864 | INFO | Process-83 | Real nums of variables: 482638
+2026-01-05 03:40:39,910 | INFO | Process-83 | CNF written to cnf/v2\Q_n494_k326\Q_n494_k326_w145.cnf
+2026-01-05 03:40:39,910 | ERROR | Process-83 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 03:42:03,485 | RESULT | Process-83 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 03:42:03,640 | INFO | MainProcess | Found a solution 145
+2026-01-05 03:42:03,640 | INFO | MainProcess | [Test k=326, w=145] Time: 87.47 seconds
+2026-01-05 03:42:06,211 | INFO | Process-84 | Number of variables: 482640
+2026-01-05 03:42:06,211 | INFO | Process-84 | Number of clauses: 1507236
+2026-01-05 03:42:06,211 | INFO | Process-84 | Real nums of clauses: 1507237
+2026-01-05 03:42:06,211 | INFO | Process-84 | Real nums of variables: 482638
+2026-01-05 03:42:07,244 | INFO | Process-84 | CNF written to cnf/v2\Q_n494_k326\Q_n494_k326_w146.cnf
+2026-01-05 03:42:07,244 | ERROR | Process-84 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 03:42:33,238 | RESULT | Process-84 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 03:42:33,391 | INFO | MainProcess | Found a solution 146
+2026-01-05 03:42:33,391 | INFO | MainProcess | [Test k=326, w=146] Time: 29.75 seconds
+2026-01-05 03:42:35,960 | INFO | Process-85 | Number of variables: 482640
+2026-01-05 03:42:35,960 | INFO | Process-85 | Number of clauses: 1507236
+2026-01-05 03:42:35,960 | INFO | Process-85 | Real nums of clauses: 1507237
+2026-01-05 03:42:35,960 | INFO | Process-85 | Real nums of variables: 482638
+2026-01-05 03:42:36,982 | INFO | Process-85 | CNF written to cnf/v2\Q_n494_k326\Q_n494_k326_w147.cnf
+2026-01-05 03:42:36,982 | ERROR | Process-85 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 03:43:05,329 | RESULT | Process-85 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 03:43:05,534 | INFO | MainProcess | Found a solution 147
+2026-01-05 03:43:05,534 | INFO | MainProcess | [Test k=326, w=147] Time: 32.14 seconds
+2026-01-05 03:43:08,110 | INFO | Process-86 | Number of variables: 482640
+2026-01-05 03:43:08,110 | INFO | Process-86 | Number of clauses: 1507236
+2026-01-05 03:43:08,110 | INFO | Process-86 | Real nums of clauses: 1507237
+2026-01-05 03:43:08,110 | INFO | Process-86 | Real nums of variables: 482638
+2026-01-05 03:43:09,112 | INFO | Process-86 | CNF written to cnf/v2\Q_n494_k326\Q_n494_k326_w148.cnf
+2026-01-05 03:43:09,112 | ERROR | Process-86 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 03:45:06,424 | RESULT | Process-86 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 03:45:06,575 | INFO | MainProcess | Found a solution 148
+2026-01-05 03:45:06,575 | INFO | MainProcess | [Test k=326, w=148] Time: 121.04 seconds
+2026-01-05 03:45:09,269 | INFO | Process-87 | Number of variables: 482640
+2026-01-05 03:45:09,269 | INFO | Process-87 | Number of clauses: 1507236
+2026-01-05 03:45:09,269 | INFO | Process-87 | Real nums of clauses: 1507237
+2026-01-05 03:45:09,269 | INFO | Process-87 | Real nums of variables: 482638
+2026-01-05 03:45:10,316 | INFO | Process-87 | CNF written to cnf/v2\Q_n494_k326\Q_n494_k326_w149.cnf
+2026-01-05 03:45:10,316 | ERROR | Process-87 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 03:46:26,699 | RESULT | Process-87 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 03:46:26,873 | INFO | MainProcess | Found a solution 149
+2026-01-05 03:46:26,873 | INFO | MainProcess | [Test k=326, w=149] Time: 80.3 seconds
+2026-01-05 03:46:29,375 | INFO | Process-88 | Number of variables: 482640
+2026-01-05 03:46:29,375 | INFO | Process-88 | Number of clauses: 1507236
+2026-01-05 03:46:29,375 | INFO | Process-88 | Real nums of clauses: 1507237
+2026-01-05 03:46:29,375 | INFO | Process-88 | Real nums of variables: 482638
+2026-01-05 03:46:30,440 | INFO | Process-88 | CNF written to cnf/v2\Q_n494_k326\Q_n494_k326_w150.cnf
+2026-01-05 03:46:30,440 | ERROR | Process-88 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 03:47:25,059 | RESULT | Process-88 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 03:47:25,223 | INFO | MainProcess | Found a solution 150
+2026-01-05 03:47:25,223 | INFO | MainProcess | [Test k=326, w=150] Time: 58.35 seconds
+2026-01-05 03:47:27,740 | INFO | Process-89 | Number of variables: 482640
+2026-01-05 03:47:27,740 | INFO | Process-89 | Number of clauses: 1507236
+2026-01-05 03:47:27,740 | INFO | Process-89 | Real nums of clauses: 1507237
+2026-01-05 03:47:27,740 | INFO | Process-89 | Real nums of variables: 482638
+2026-01-05 03:47:28,783 | INFO | Process-89 | CNF written to cnf/v2\Q_n494_k326\Q_n494_k326_w151.cnf
+2026-01-05 03:47:28,783 | ERROR | Process-89 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 03:48:56,216 | RESULT | Process-89 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 03:48:56,410 | INFO | MainProcess | Found a solution 151
+2026-01-05 03:48:56,411 | INFO | MainProcess | [Test k=326, w=151] Time: 91.19 seconds
+2026-01-05 03:48:59,047 | INFO | Process-90 | Number of variables: 482640
+2026-01-05 03:48:59,047 | INFO | Process-90 | Number of clauses: 1507236
+2026-01-05 03:48:59,047 | INFO | Process-90 | Real nums of clauses: 1507237
+2026-01-05 03:48:59,047 | INFO | Process-90 | Real nums of variables: 482638
+2026-01-05 03:49:00,100 | INFO | Process-90 | CNF written to cnf/v2\Q_n494_k326\Q_n494_k326_w152.cnf
+2026-01-05 03:49:00,100 | ERROR | Process-90 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 03:52:09,996 | RESULT | Process-90 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 03:52:10,157 | INFO | MainProcess | Found a solution 152
+2026-01-05 03:52:10,157 | INFO | MainProcess | [Test k=326, w=152] Time: 193.75 seconds
+2026-01-05 03:52:12,819 | INFO | Process-91 | Number of variables: 482640
+2026-01-05 03:52:12,819 | INFO | Process-91 | Number of clauses: 1507236
+2026-01-05 03:52:12,819 | INFO | Process-91 | Real nums of clauses: 1507237
+2026-01-05 03:52:12,819 | INFO | Process-91 | Real nums of variables: 482638
+2026-01-05 03:52:13,826 | INFO | Process-91 | CNF written to cnf/v2\Q_n494_k326\Q_n494_k326_w153.cnf
+2026-01-05 03:52:13,826 | ERROR | Process-91 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 03:54:33,009 | RESULT | Process-91 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 03:54:33,177 | INFO | MainProcess | Found a solution 153
+2026-01-05 03:54:33,177 | INFO | MainProcess | [Test k=326, w=153] Time: 143.02 seconds
+2026-01-05 03:54:35,646 | INFO | Process-92 | Number of variables: 482640
+2026-01-05 03:54:35,646 | INFO | Process-92 | Number of clauses: 1507236
+2026-01-05 03:54:35,646 | INFO | Process-92 | Real nums of clauses: 1507237
+2026-01-05 03:54:35,646 | INFO | Process-92 | Real nums of variables: 482638
+2026-01-05 03:54:36,694 | INFO | Process-92 | CNF written to cnf/v2\Q_n494_k326\Q_n494_k326_w154.cnf
+2026-01-05 03:54:36,694 | ERROR | Process-92 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 03:57:06,772 | RESULT | Process-92 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 03:57:06,933 | INFO | MainProcess | Found a solution 154
+2026-01-05 03:57:06,933 | INFO | MainProcess | [Test k=326, w=154] Time: 153.76 seconds
+2026-01-05 03:57:09,502 | INFO | Process-93 | Number of variables: 482640
+2026-01-05 03:57:09,502 | INFO | Process-93 | Number of clauses: 1507236
+2026-01-05 03:57:09,502 | INFO | Process-93 | Real nums of clauses: 1507237
+2026-01-05 03:57:09,502 | INFO | Process-93 | Real nums of variables: 482638
+2026-01-05 03:57:10,543 | INFO | Process-93 | CNF written to cnf/v2\Q_n494_k326\Q_n494_k326_w155.cnf
+2026-01-05 03:57:10,543 | ERROR | Process-93 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 03:59:24,664 | RESULT | Process-93 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 03:59:24,824 | INFO | MainProcess | Found a solution 155
+2026-01-05 03:59:24,824 | INFO | MainProcess | [Test k=326, w=155] Time: 137.89 seconds
+2026-01-05 03:59:27,428 | INFO | Process-94 | Number of variables: 482640
+2026-01-05 03:59:27,428 | INFO | Process-94 | Number of clauses: 1507236
+2026-01-05 03:59:27,428 | INFO | Process-94 | Real nums of clauses: 1507237
+2026-01-05 03:59:27,428 | INFO | Process-94 | Real nums of variables: 482638
+2026-01-05 03:59:28,463 | INFO | Process-94 | CNF written to cnf/v2\Q_n494_k326\Q_n494_k326_w156.cnf
+2026-01-05 03:59:28,463 | ERROR | Process-94 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 04:02:55,441 | RESULT | Process-94 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 04:02:55,624 | INFO | MainProcess | Found a solution 156
+2026-01-05 04:02:55,624 | INFO | MainProcess | [Test k=326, w=156] Time: 210.8 seconds
+2026-01-05 04:02:58,293 | INFO | Process-95 | Number of variables: 482640
+2026-01-05 04:02:58,293 | INFO | Process-95 | Number of clauses: 1507236
+2026-01-05 04:02:58,293 | INFO | Process-95 | Real nums of clauses: 1507237
+2026-01-05 04:02:58,293 | INFO | Process-95 | Real nums of variables: 482638
+2026-01-05 04:02:59,318 | INFO | Process-95 | CNF written to cnf/v2\Q_n494_k326\Q_n494_k326_w157.cnf
+2026-01-05 04:02:59,318 | ERROR | Process-95 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 04:07:19,869 | RESULT | Process-95 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 04:07:20,026 | INFO | MainProcess | Found a solution 157
+2026-01-05 04:07:20,026 | INFO | MainProcess | [Test k=326, w=157] Time: 264.4 seconds
+2026-01-05 04:07:22,784 | INFO | Process-96 | Number of variables: 482640
+2026-01-05 04:07:22,784 | INFO | Process-96 | Number of clauses: 1507236
+2026-01-05 04:07:22,784 | INFO | Process-96 | Real nums of clauses: 1507237
+2026-01-05 04:07:22,784 | INFO | Process-96 | Real nums of variables: 482638
+2026-01-05 04:07:23,815 | INFO | Process-96 | CNF written to cnf/v2\Q_n494_k326\Q_n494_k326_w158.cnf
+2026-01-05 04:07:23,815 | ERROR | Process-96 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 04:09:35,426 | RESULT | Process-96 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 04:09:35,596 | INFO | MainProcess | Found a solution 158
+2026-01-05 04:09:35,597 | INFO | MainProcess | [Test k=326, w=158] Time: 135.57 seconds
+2026-01-05 04:09:38,127 | INFO | Process-97 | Number of variables: 482640
+2026-01-05 04:09:38,128 | INFO | Process-97 | Number of clauses: 1507236
+2026-01-05 04:09:38,128 | INFO | Process-97 | Real nums of clauses: 1507237
+2026-01-05 04:09:38,128 | INFO | Process-97 | Real nums of variables: 482638
+2026-01-05 04:09:39,176 | INFO | Process-97 | CNF written to cnf/v2\Q_n494_k326\Q_n494_k326_w159.cnf
+2026-01-05 04:09:39,176 | ERROR | Process-97 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 04:10:03,144 | INFO | MainProcess | No solution found 159
+2026-01-05 04:10:03,144 | INFO | MainProcess | [Test k=326, w=159] Time: 27.55 seconds
+2026-01-05 04:10:03,144 | INFO | MainProcess | $$$$
+2026-01-05 04:10:03,144 | INFO | MainProcess | -158
+2026-01-05 04:10:03,144 | INFO | MainProcess | $$$$
+2026-01-05 04:10:03,144 | INFO | MainProcess | Time taken for Q-494_bus.mtx.rnd with k = 326: 1800.0748836994171 seconds
+2026-01-05 04:10:03,144 | INFO | MainProcess | Maximum width before timeout for Q-494_bus.mtx.rnd is 158
+2026-01-05 04:10:03,144 | INFO | MainProcess | time out
+2026-01-05 04:10:08,293 | INFO | Process-98 | Number of variables: 523122
+2026-01-05 04:10:08,293 | INFO | Process-98 | Number of clauses: 3136447
+2026-01-05 04:10:08,293 | INFO | Process-98 | Real nums of clauses: 3136448
+2026-01-05 04:10:08,293 | INFO | Process-98 | Real nums of variables: 523120
+2026-01-05 04:10:10,594 | INFO | Process-98 | CNF written to cnf/v2\R_n503_k347\R_n503_k347_w31.cnf
+2026-01-05 04:10:10,594 | ERROR | Process-98 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 04:10:46,771 | RESULT | Process-98 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 04:10:47,055 | INFO | MainProcess | Found a solution 31
+2026-01-05 04:10:47,055 | INFO | MainProcess | [Test k=347, w=31] Time: 43.89 seconds
+2026-01-05 04:10:52,152 | INFO | Process-99 | Number of variables: 523122
+2026-01-05 04:10:52,153 | INFO | Process-99 | Number of clauses: 3136447
+2026-01-05 04:10:52,153 | INFO | Process-99 | Real nums of clauses: 3136448
+2026-01-05 04:10:52,153 | INFO | Process-99 | Real nums of variables: 523120
+2026-01-05 04:10:54,459 | INFO | Process-99 | CNF written to cnf/v2\R_n503_k347\R_n503_k347_w32.cnf
+2026-01-05 04:10:54,459 | ERROR | Process-99 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 04:11:27,479 | RESULT | Process-99 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 04:11:27,757 | INFO | MainProcess | Found a solution 32
+2026-01-05 04:11:27,757 | INFO | MainProcess | [Test k=347, w=32] Time: 40.7 seconds
+2026-01-05 04:11:32,911 | INFO | Process-100 | Number of variables: 523122
+2026-01-05 04:11:32,911 | INFO | Process-100 | Number of clauses: 3136447
+2026-01-05 04:11:32,911 | INFO | Process-100 | Real nums of clauses: 3136448
+2026-01-05 04:11:32,911 | INFO | Process-100 | Real nums of variables: 523120
+2026-01-05 04:11:35,200 | INFO | Process-100 | CNF written to cnf/v2\R_n503_k347\R_n503_k347_w33.cnf
+2026-01-05 04:11:35,200 | ERROR | Process-100 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 04:12:36,304 | RESULT | Process-100 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 04:12:36,618 | INFO | MainProcess | Found a solution 33
+2026-01-05 04:12:36,618 | INFO | MainProcess | [Test k=347, w=33] Time: 68.86 seconds
+2026-01-05 04:12:41,742 | INFO | Process-101 | Number of variables: 523122
+2026-01-05 04:12:41,742 | INFO | Process-101 | Number of clauses: 3136447
+2026-01-05 04:12:41,742 | INFO | Process-101 | Real nums of clauses: 3136448
+2026-01-05 04:12:41,742 | INFO | Process-101 | Real nums of variables: 523120
+2026-01-05 04:12:44,001 | INFO | Process-101 | CNF written to cnf/v2\R_n503_k347\R_n503_k347_w34.cnf
+2026-01-05 04:12:44,001 | ERROR | Process-101 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 04:13:24,723 | RESULT | Process-101 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 04:13:25,032 | INFO | MainProcess | Found a solution 34
+2026-01-05 04:13:25,032 | INFO | MainProcess | [Test k=347, w=34] Time: 48.41 seconds
+2026-01-05 04:13:30,164 | INFO | Process-102 | Number of variables: 523122
+2026-01-05 04:13:30,165 | INFO | Process-102 | Number of clauses: 3136447
+2026-01-05 04:13:30,165 | INFO | Process-102 | Real nums of clauses: 3136448
+2026-01-05 04:13:30,165 | INFO | Process-102 | Real nums of variables: 523120
+2026-01-05 04:13:32,419 | INFO | Process-102 | CNF written to cnf/v2\R_n503_k347\R_n503_k347_w35.cnf
+2026-01-05 04:13:32,419 | ERROR | Process-102 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 04:14:07,429 | RESULT | Process-102 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 04:14:07,758 | INFO | MainProcess | Found a solution 35
+2026-01-05 04:14:07,758 | INFO | MainProcess | [Test k=347, w=35] Time: 42.73 seconds
+2026-01-05 04:14:12,915 | INFO | Process-103 | Number of variables: 523122
+2026-01-05 04:14:12,915 | INFO | Process-103 | Number of clauses: 3136447
+2026-01-05 04:14:12,915 | INFO | Process-103 | Real nums of clauses: 3136448
+2026-01-05 04:14:12,915 | INFO | Process-103 | Real nums of variables: 523120
+2026-01-05 04:14:15,144 | INFO | Process-103 | CNF written to cnf/v2\R_n503_k347\R_n503_k347_w36.cnf
+2026-01-05 04:14:15,144 | ERROR | Process-103 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 04:15:43,510 | RESULT | Process-103 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 04:15:43,781 | INFO | MainProcess | Found a solution 36
+2026-01-05 04:15:43,781 | INFO | MainProcess | [Test k=347, w=36] Time: 96.02 seconds
+2026-01-05 04:15:49,015 | INFO | Process-104 | Number of variables: 523122
+2026-01-05 04:15:49,015 | INFO | Process-104 | Number of clauses: 3136447
+2026-01-05 04:15:49,015 | INFO | Process-104 | Real nums of clauses: 3136448
+2026-01-05 04:15:49,015 | INFO | Process-104 | Real nums of variables: 523120
+2026-01-05 04:15:51,240 | INFO | Process-104 | CNF written to cnf/v2\R_n503_k347\R_n503_k347_w37.cnf
+2026-01-05 04:15:51,240 | ERROR | Process-104 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 04:19:04,162 | RESULT | Process-104 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 04:19:04,522 | INFO | MainProcess | Found a solution 37
+2026-01-05 04:19:04,522 | INFO | MainProcess | [Test k=347, w=37] Time: 200.74 seconds
+2026-01-05 04:19:09,791 | INFO | Process-105 | Number of variables: 523122
+2026-01-05 04:19:09,791 | INFO | Process-105 | Number of clauses: 3136447
+2026-01-05 04:19:09,791 | INFO | Process-105 | Real nums of clauses: 3136448
+2026-01-05 04:19:09,807 | INFO | Process-105 | Real nums of variables: 523120
+2026-01-05 04:19:12,060 | INFO | Process-105 | CNF written to cnf/v2\R_n503_k347\R_n503_k347_w38.cnf
+2026-01-05 04:19:12,060 | ERROR | Process-105 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 04:29:02,969 | RESULT | Process-105 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 04:29:03,301 | INFO | MainProcess | Found a solution 38
+2026-01-05 04:29:03,301 | INFO | MainProcess | [Test k=347, w=38] Time: 598.78 seconds
+2026-01-05 04:29:09,573 | INFO | Process-106 | Number of variables: 523122
+2026-01-05 04:29:09,573 | INFO | Process-106 | Number of clauses: 3136447
+2026-01-05 04:29:09,573 | INFO | Process-106 | Real nums of clauses: 3136448
+2026-01-05 04:29:09,573 | INFO | Process-106 | Real nums of variables: 523120
+2026-01-05 04:29:11,821 | INFO | Process-106 | CNF written to cnf/v2\R_n503_k347\R_n503_k347_w39.cnf
+2026-01-05 04:29:11,821 | ERROR | Process-106 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 04:32:07,338 | RESULT | Process-106 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 04:32:07,670 | INFO | MainProcess | Found a solution 39
+2026-01-05 04:32:07,670 | INFO | MainProcess | [Test k=347, w=39] Time: 184.37 seconds
+2026-01-05 04:32:12,843 | INFO | Process-107 | Number of variables: 523122
+2026-01-05 04:32:12,843 | INFO | Process-107 | Number of clauses: 3136447
+2026-01-05 04:32:12,843 | INFO | Process-107 | Real nums of clauses: 3136448
+2026-01-05 04:32:12,843 | INFO | Process-107 | Real nums of variables: 523120
+2026-01-05 04:32:15,278 | INFO | Process-107 | CNF written to cnf/v2\R_n503_k347\R_n503_k347_w40.cnf
+2026-01-05 04:32:15,278 | ERROR | Process-107 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 04:40:03,338 | INFO | MainProcess | No solution found 40
+2026-01-05 04:40:03,338 | INFO | MainProcess | [Test k=347, w=40] Time: 475.67 seconds
+2026-01-05 04:40:03,338 | INFO | MainProcess | $$$$
+2026-01-05 04:40:03,338 | INFO | MainProcess | -39
+2026-01-05 04:40:03,338 | INFO | MainProcess | $$$$
+2026-01-05 04:40:03,338 | INFO | MainProcess | Time taken for R-dwt__503.mtx.rnd with k = 347: 1800.1945178508759 seconds
+2026-01-05 04:40:03,338 | INFO | MainProcess | Maximum width before timeout for R-dwt__503.mtx.rnd is 39
+2026-01-05 04:40:03,338 | INFO | MainProcess | time out
+2026-01-05 04:40:06,906 | INFO | Process-108 | Number of variables: 526892
+2026-01-05 04:40:06,906 | INFO | Process-108 | Number of clauses: 2091880
+2026-01-05 04:40:06,906 | INFO | Process-108 | Real nums of clauses: 2091881
+2026-01-05 04:40:06,906 | INFO | Process-108 | Real nums of variables: 526890
+2026-01-05 04:40:08,300 | INFO | Process-108 | CNF written to cnf/v2\S_n546_k322\S_n546_k322_w151.cnf
+2026-01-05 04:40:08,300 | ERROR | Process-108 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 04:45:37,546 | RESULT | Process-108 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 04:45:37,789 | INFO | MainProcess | Found a solution 151
+2026-01-05 04:45:37,789 | INFO | MainProcess | [Test k=322, w=151] Time: 334.43 seconds
+2026-01-05 04:45:41,306 | INFO | Process-109 | Number of variables: 526892
+2026-01-05 04:45:41,306 | INFO | Process-109 | Number of clauses: 2091880
+2026-01-05 04:45:41,306 | INFO | Process-109 | Real nums of clauses: 2091881
+2026-01-05 04:45:41,306 | INFO | Process-109 | Real nums of variables: 526890
+2026-01-05 04:45:42,729 | INFO | Process-109 | CNF written to cnf/v2\S_n546_k322\S_n546_k322_w152.cnf
+2026-01-05 04:45:42,729 | ERROR | Process-109 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 04:57:43,374 | RESULT | Process-109 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 04:57:43,597 | INFO | MainProcess | Found a solution 152
+2026-01-05 04:57:43,597 | INFO | MainProcess | [Test k=322, w=152] Time: 725.81 seconds
+2026-01-05 04:57:47,165 | INFO | Process-110 | Number of variables: 526892
+2026-01-05 04:57:47,165 | INFO | Process-110 | Number of clauses: 2091880
+2026-01-05 04:57:47,165 | INFO | Process-110 | Real nums of clauses: 2091881
+2026-01-05 04:57:47,165 | INFO | Process-110 | Real nums of variables: 526890
+2026-01-05 04:57:48,604 | INFO | Process-110 | CNF written to cnf/v2\S_n546_k322\S_n546_k322_w153.cnf
+2026-01-05 04:57:48,604 | ERROR | Process-110 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 05:10:03,444 | INFO | MainProcess | No solution found 153
+2026-01-05 05:10:03,444 | INFO | MainProcess | [Test k=322, w=153] Time: 739.85 seconds
+2026-01-05 05:10:03,444 | INFO | MainProcess | $$$$
+2026-01-05 05:10:03,444 | INFO | MainProcess | -152
+2026-01-05 05:10:03,444 | INFO | MainProcess | $$$$
+2026-01-05 05:10:03,444 | INFO | MainProcess | Time taken for S-sherman4.mtx.rnd with k = 322: 1800.10551571846 seconds
+2026-01-05 05:10:03,444 | INFO | MainProcess | Maximum width before timeout for S-sherman4.mtx.rnd is 152
+2026-01-05 05:10:03,444 | INFO | MainProcess | time out
+2026-01-05 05:10:08,891 | INFO | Process-111 | Number of variables: 670738
+2026-01-05 05:10:08,891 | INFO | Process-111 | Number of clauses: 3269386
+2026-01-05 05:10:08,891 | INFO | Process-111 | Real nums of clauses: 3269387
+2026-01-05 05:10:08,891 | INFO | Process-111 | Real nums of variables: 670736
+2026-01-05 05:10:11,220 | INFO | Process-111 | CNF written to cnf/v2\T_n592_k378\T_n592_k378_w65.cnf
+2026-01-05 05:10:11,220 | ERROR | Process-111 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 05:11:30,352 | RESULT | Process-111 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 05:11:30,635 | INFO | MainProcess | Found a solution 65
+2026-01-05 05:11:30,635 | INFO | MainProcess | [Test k=378, w=65] Time: 87.17 seconds
+2026-01-05 05:11:35,961 | INFO | Process-112 | Number of variables: 670738
+2026-01-05 05:11:35,961 | INFO | Process-112 | Number of clauses: 3269386
+2026-01-05 05:11:35,961 | INFO | Process-112 | Real nums of clauses: 3269387
+2026-01-05 05:11:35,961 | INFO | Process-112 | Real nums of variables: 670736
+2026-01-05 05:11:38,204 | INFO | Process-112 | CNF written to cnf/v2\T_n592_k378\T_n592_k378_w66.cnf
+2026-01-05 05:11:38,205 | ERROR | Process-112 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 05:12:54,968 | RESULT | Process-112 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 05:12:55,325 | INFO | MainProcess | Found a solution 66
+2026-01-05 05:12:55,325 | INFO | MainProcess | [Test k=378, w=66] Time: 84.69 seconds
+2026-01-05 05:13:00,733 | INFO | Process-113 | Number of variables: 670738
+2026-01-05 05:13:00,733 | INFO | Process-113 | Number of clauses: 3269386
+2026-01-05 05:13:00,733 | INFO | Process-113 | Real nums of clauses: 3269387
+2026-01-05 05:13:00,733 | INFO | Process-113 | Real nums of variables: 670736
+2026-01-05 05:13:03,046 | INFO | Process-113 | CNF written to cnf/v2\T_n592_k378\T_n592_k378_w67.cnf
+2026-01-05 05:13:03,046 | ERROR | Process-113 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 05:16:15,588 | RESULT | Process-113 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 05:16:15,903 | INFO | MainProcess | Found a solution 67
+2026-01-05 05:16:15,903 | INFO | MainProcess | [Test k=378, w=67] Time: 200.58 seconds
+2026-01-05 05:16:21,231 | INFO | Process-114 | Number of variables: 670738
+2026-01-05 05:16:21,231 | INFO | Process-114 | Number of clauses: 3269386
+2026-01-05 05:16:21,231 | INFO | Process-114 | Real nums of clauses: 3269387
+2026-01-05 05:16:21,231 | INFO | Process-114 | Real nums of variables: 670736
+2026-01-05 05:16:23,541 | INFO | Process-114 | CNF written to cnf/v2\T_n592_k378\T_n592_k378_w68.cnf
+2026-01-05 05:16:23,541 | ERROR | Process-114 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 05:20:34,765 | RESULT | Process-114 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 05:20:35,050 | INFO | MainProcess | Found a solution 68
+2026-01-05 05:20:35,050 | INFO | MainProcess | [Test k=378, w=68] Time: 259.15 seconds
+2026-01-05 05:20:40,373 | INFO | Process-115 | Number of variables: 670738
+2026-01-05 05:20:40,373 | INFO | Process-115 | Number of clauses: 3269386
+2026-01-05 05:20:40,373 | INFO | Process-115 | Real nums of clauses: 3269387
+2026-01-05 05:20:40,373 | INFO | Process-115 | Real nums of variables: 670736
+2026-01-05 05:20:42,740 | INFO | Process-115 | CNF written to cnf/v2\T_n592_k378\T_n592_k378_w69.cnf
+2026-01-05 05:20:42,740 | ERROR | Process-115 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 05:23:36,635 | RESULT | Process-115 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 05:23:36,921 | INFO | MainProcess | Found a solution 69
+2026-01-05 05:23:36,921 | INFO | MainProcess | [Test k=378, w=69] Time: 181.87 seconds
+2026-01-05 05:23:42,382 | INFO | Process-116 | Number of variables: 670738
+2026-01-05 05:23:42,382 | INFO | Process-116 | Number of clauses: 3269386
+2026-01-05 05:23:42,382 | INFO | Process-116 | Real nums of clauses: 3269387
+2026-01-05 05:23:42,382 | INFO | Process-116 | Real nums of variables: 670736
+2026-01-05 05:23:44,684 | INFO | Process-116 | CNF written to cnf/v2\T_n592_k378\T_n592_k378_w70.cnf
+2026-01-05 05:23:44,684 | ERROR | Process-116 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 05:26:34,414 | RESULT | Process-116 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 05:26:34,724 | INFO | MainProcess | Found a solution 70
+2026-01-05 05:26:34,724 | INFO | MainProcess | [Test k=378, w=70] Time: 177.8 seconds
+2026-01-05 05:26:40,070 | INFO | Process-117 | Number of variables: 670738
+2026-01-05 05:26:40,070 | INFO | Process-117 | Number of clauses: 3269386
+2026-01-05 05:26:40,070 | INFO | Process-117 | Real nums of clauses: 3269387
+2026-01-05 05:26:40,070 | INFO | Process-117 | Real nums of variables: 670736
+2026-01-05 05:26:42,380 | INFO | Process-117 | CNF written to cnf/v2\T_n592_k378\T_n592_k378_w71.cnf
+2026-01-05 05:26:42,380 | ERROR | Process-117 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 05:30:13,450 | RESULT | Process-117 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 05:30:13,760 | INFO | MainProcess | Found a solution 71
+2026-01-05 05:30:13,760 | INFO | MainProcess | [Test k=378, w=71] Time: 219.04 seconds
+2026-01-05 05:30:19,221 | INFO | Process-118 | Number of variables: 670738
+2026-01-05 05:30:19,221 | INFO | Process-118 | Number of clauses: 3269386
+2026-01-05 05:30:19,221 | INFO | Process-118 | Real nums of clauses: 3269387
+2026-01-05 05:30:19,221 | INFO | Process-118 | Real nums of variables: 670736
+2026-01-05 05:30:21,867 | INFO | Process-118 | CNF written to cnf/v2\T_n592_k378\T_n592_k378_w72.cnf
+2026-01-05 05:30:21,867 | ERROR | Process-118 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 05:40:03,607 | INFO | MainProcess | No solution found 72
+2026-01-05 05:40:03,607 | INFO | MainProcess | [Test k=378, w=72] Time: 589.85 seconds
+2026-01-05 05:40:03,607 | INFO | MainProcess | $$$$
+2026-01-05 05:40:03,607 | INFO | MainProcess | -71
+2026-01-05 05:40:03,607 | INFO | MainProcess | $$$$
+2026-01-05 05:40:03,607 | INFO | MainProcess | Time taken for T-dwt__592.mtx.rnd with k = 378: 1800.1628558635712 seconds
+2026-01-05 05:40:03,607 | INFO | MainProcess | Maximum width before timeout for T-dwt__592.mtx.rnd is 71
+2026-01-05 05:40:03,607 | INFO | MainProcess | time out
+2026-01-05 05:40:09,258 | INFO | Process-119 | Number of variables: 1024116
+2026-01-05 05:40:09,258 | INFO | Process-119 | Number of clauses: 3323342
+2026-01-05 05:40:09,258 | INFO | Process-119 | Real nums of clauses: 3323343
+2026-01-05 05:40:09,258 | INFO | Process-119 | Real nums of variables: 1024114
+2026-01-05 05:40:11,527 | INFO | Process-119 | CNF written to cnf/v2\U_n662_k516\U_n662_k516_w170.cnf
+2026-01-05 05:40:11,527 | ERROR | Process-119 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 05:43:35,794 | RESULT | Process-119 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 05:43:36,108 | INFO | MainProcess | Found a solution 170
+2026-01-05 05:43:36,108 | INFO | MainProcess | [Test k=516, w=170] Time: 212.5 seconds
+2026-01-05 05:43:41,666 | INFO | Process-120 | Number of variables: 1024116
+2026-01-05 05:43:41,666 | INFO | Process-120 | Number of clauses: 3323342
+2026-01-05 05:43:41,666 | INFO | Process-120 | Real nums of clauses: 3323343
+2026-01-05 05:43:41,666 | INFO | Process-120 | Real nums of variables: 1024114
+2026-01-05 05:43:43,990 | INFO | Process-120 | CNF written to cnf/v2\U_n662_k516\U_n662_k516_w171.cnf
+2026-01-05 05:43:43,990 | ERROR | Process-120 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 05:46:47,610 | RESULT | Process-120 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 05:46:47,924 | INFO | MainProcess | Found a solution 171
+2026-01-05 05:46:47,924 | INFO | MainProcess | [Test k=516, w=171] Time: 191.82 seconds
+2026-01-05 05:46:53,506 | INFO | Process-121 | Number of variables: 1024116
+2026-01-05 05:46:53,506 | INFO | Process-121 | Number of clauses: 3323342
+2026-01-05 05:46:53,506 | INFO | Process-121 | Real nums of clauses: 3323343
+2026-01-05 05:46:53,506 | INFO | Process-121 | Real nums of variables: 1024114
+2026-01-05 05:46:55,794 | INFO | Process-121 | CNF written to cnf/v2\U_n662_k516\U_n662_k516_w172.cnf
+2026-01-05 05:46:55,794 | ERROR | Process-121 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 05:46:57,465 | RESULT | Process-121 | No solution exists
+2026-01-05 05:46:57,465 | RESULT | Process-121 | Time taken: 9.190315961837769 seconds
+2026-01-05 05:46:57,824 | INFO | MainProcess | No solution found 172
+2026-01-05 05:46:57,824 | INFO | MainProcess | [Test k=516, w=172] Time: 9.9 seconds
+2026-01-05 05:46:57,824 | INFO | MainProcess | $$$$
+2026-01-05 05:46:57,824 | INFO | MainProcess | 171
+2026-01-05 05:46:57,824 | INFO | MainProcess | $$$$
+2026-01-05 05:46:57,824 | INFO | MainProcess | Time taken for U-662_bus.mtx.rnd with k = 516: 414.21754598617554 seconds
+2026-01-05 05:46:57,824 | INFO | MainProcess | Maximum width for U-662_bus.mtx.rnd is 171
+2026-01-05 05:47:02,604 | INFO | Process-122 | Number of variables: 819452
+2026-01-05 05:47:02,604 | INFO | Process-122 | Number of clauses: 2955555
+2026-01-05 05:47:02,604 | INFO | Process-122 | Real nums of clauses: 2955556
+2026-01-05 05:47:02,604 | INFO | Process-122 | Real nums of variables: 819450
+2026-01-05 05:47:04,646 | INFO | Process-122 | CNF written to cnf/v2\V_n675_k405\V_n675_k405_w195.cnf
+2026-01-05 05:47:04,646 | ERROR | Process-122 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 05:52:04,328 | RESULT | Process-122 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 05:52:04,617 | INFO | MainProcess | Found a solution 195
+2026-01-05 05:52:04,617 | INFO | MainProcess | [Test k=405, w=195] Time: 306.79 seconds
+2026-01-05 05:52:09,396 | INFO | Process-123 | Number of variables: 819452
+2026-01-05 05:52:09,397 | INFO | Process-123 | Number of clauses: 2955555
+2026-01-05 05:52:09,397 | INFO | Process-123 | Real nums of clauses: 2955556
+2026-01-05 05:52:09,397 | INFO | Process-123 | Real nums of variables: 819450
+2026-01-05 05:52:11,405 | INFO | Process-123 | CNF written to cnf/v2\V_n675_k405\V_n675_k405_w196.cnf
+2026-01-05 05:52:11,405 | ERROR | Process-123 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 06:16:57,944 | INFO | MainProcess | No solution found 196
+2026-01-05 06:16:57,944 | INFO | MainProcess | [Test k=405, w=196] Time: 1493.33 seconds
+2026-01-05 06:16:57,944 | INFO | MainProcess | $$$$
+2026-01-05 06:16:57,944 | INFO | MainProcess | -195
+2026-01-05 06:16:57,944 | INFO | MainProcess | $$$$
+2026-01-05 06:16:57,944 | INFO | MainProcess | Time taken for V-nos6.mtx.rnd with k = 405: 1800.119568824768 seconds
+2026-01-05 06:16:57,944 | INFO | MainProcess | Maximum width before timeout for V-nos6.mtx.rnd is 195
+2026-01-05 06:16:57,944 | INFO | MainProcess | time out
+2026-01-05 06:17:02,738 | INFO | Process-124 | Number of variables: 815152
+2026-01-05 06:17:02,739 | INFO | Process-124 | Number of clauses: 2918495
+2026-01-05 06:17:02,739 | INFO | Process-124 | Real nums of clauses: 2918496
+2026-01-05 06:17:02,739 | INFO | Process-124 | Real nums of variables: 815150
+2026-01-05 06:17:04,786 | INFO | Process-124 | CNF written to cnf/v2\W_n685_k397\W_n685_k397_w78.cnf
+2026-01-05 06:17:04,786 | ERROR | Process-124 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 06:17:42,645 | RESULT | Process-124 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 06:17:42,930 | INFO | MainProcess | Found a solution 78
+2026-01-05 06:17:42,930 | INFO | MainProcess | [Test k=397, w=78] Time: 44.97 seconds
+2026-01-05 06:17:47,871 | INFO | Process-125 | Number of variables: 815152
+2026-01-05 06:17:47,871 | INFO | Process-125 | Number of clauses: 2918495
+2026-01-05 06:17:47,871 | INFO | Process-125 | Real nums of clauses: 2918496
+2026-01-05 06:17:47,871 | INFO | Process-125 | Real nums of variables: 815150
+2026-01-05 06:17:49,928 | INFO | Process-125 | CNF written to cnf/v2\W_n685_k397\W_n685_k397_w79.cnf
+2026-01-05 06:17:49,928 | ERROR | Process-125 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 06:18:24,524 | RESULT | Process-125 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 06:18:24,819 | INFO | MainProcess | Found a solution 79
+2026-01-05 06:18:24,819 | INFO | MainProcess | [Test k=397, w=79] Time: 41.89 seconds
+2026-01-05 06:18:29,562 | INFO | Process-126 | Number of variables: 815152
+2026-01-05 06:18:29,562 | INFO | Process-126 | Number of clauses: 2918495
+2026-01-05 06:18:29,562 | INFO | Process-126 | Real nums of clauses: 2918496
+2026-01-05 06:18:29,562 | INFO | Process-126 | Real nums of variables: 815150
+2026-01-05 06:18:31,631 | INFO | Process-126 | CNF written to cnf/v2\W_n685_k397\W_n685_k397_w80.cnf
+2026-01-05 06:18:31,631 | ERROR | Process-126 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 06:18:51,612 | RESULT | Process-126 | No solution exists
+2026-01-05 06:18:51,612 | RESULT | Process-126 | Time taken: 26.402917623519897 seconds
+2026-01-05 06:18:51,891 | INFO | MainProcess | No solution found 80
+2026-01-05 06:18:51,891 | INFO | MainProcess | [Test k=397, w=80] Time: 27.07 seconds
+2026-01-05 06:18:51,891 | INFO | MainProcess | $$$$
+2026-01-05 06:18:51,891 | INFO | MainProcess | 79
+2026-01-05 06:18:51,891 | INFO | MainProcess | $$$$
+2026-01-05 06:18:51,891 | INFO | MainProcess | Time taken for W-685_bus.mtx.rnd with k = 397: 113.94723987579346 seconds
+2026-01-05 06:18:51,891 | INFO | MainProcess | Maximum width for W-685_bus.mtx.rnd is 79
+2026-01-05 06:19:00,693 | INFO | Process-127 | Number of variables: 1071787
+2026-01-05 06:19:00,693 | INFO | Process-127 | Number of clauses: 5474425
+2026-01-05 06:19:00,693 | INFO | Process-127 | Real nums of clauses: 5474426
+2026-01-05 06:19:00,693 | INFO | Process-127 | Real nums of variables: 1071785
+2026-01-05 06:19:04,575 | INFO | Process-127 | CNF written to cnf/v2\X_n715_k500\X_n715_k500_w78.cnf
+2026-01-05 06:19:04,575 | ERROR | Process-127 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 06:39:17,256 | RESULT | Process-127 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 06:39:17,795 | INFO | MainProcess | Found a solution 78
+2026-01-05 06:39:17,795 | INFO | MainProcess | [Test k=500, w=78] Time: 1225.89 seconds
+2026-01-05 06:39:27,008 | INFO | Process-128 | Number of variables: 1071787
+2026-01-05 06:39:27,008 | INFO | Process-128 | Number of clauses: 5474425
+2026-01-05 06:39:27,008 | INFO | Process-128 | Real nums of clauses: 5474426
+2026-01-05 06:39:27,008 | INFO | Process-128 | Real nums of variables: 1071785
+2026-01-05 06:39:30,966 | INFO | Process-128 | CNF written to cnf/v2\X_n715_k500\X_n715_k500_w79.cnf
+2026-01-05 06:39:30,966 | ERROR | Process-128 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 06:47:18,299 | RESULT | Process-128 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-05 06:47:18,801 | INFO | MainProcess | Found a solution 79
+2026-01-05 06:47:18,801 | INFO | MainProcess | [Test k=500, w=79] Time: 481.01 seconds
+2026-01-05 06:47:27,797 | INFO | Process-129 | Number of variables: 1071787
+2026-01-05 06:47:27,797 | INFO | Process-129 | Number of clauses: 5474425
+2026-01-05 06:47:27,798 | INFO | Process-129 | Real nums of clauses: 5474426
+2026-01-05 06:47:27,798 | INFO | Process-129 | Real nums of variables: 1071785
+2026-01-05 06:47:31,673 | INFO | Process-129 | CNF written to cnf/v2\X_n715_k500\X_n715_k500_w80.cnf
+2026-01-05 06:47:31,673 | ERROR | Process-129 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-05 06:48:52,483 | INFO | MainProcess | No solution found 80
+2026-01-05 06:48:52,483 | INFO | MainProcess | [Test k=500, w=80] Time: 93.68 seconds
+2026-01-05 06:48:52,483 | INFO | MainProcess | $$$$
+2026-01-05 06:48:52,483 | INFO | MainProcess | -79
+2026-01-05 06:48:52,483 | INFO | MainProcess | $$$$
+2026-01-05 06:48:52,483 | INFO | MainProcess | Time taken for X-can__715.mtx.rnd with k = 500: 1800.5916256904602 seconds
+2026-01-05 06:48:52,483 | INFO | MainProcess | Maximum width before timeout for X-can__715.mtx.rnd is 79
+2026-01-05 06:48:52,483 | INFO | MainProcess | time out
+2026-01-05 06:48:52,929 | INFO | MainProcess | Data written to output/output_version_2_fixed_cadical_no_symmetry.xlsx

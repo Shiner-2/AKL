@@ -1,0 +1,155 @@
+2025-12-24 01:43:44,434 | INFO | MainProcess | === Start solve() ===
+2025-12-24 01:43:44,819 | INFO | Process-1 | Number of variables: 2042
+2025-12-24 01:43:44,819 | INFO | Process-1 | Number of clauses: 9441
+2025-12-24 01:43:44,825 | INFO | Process-1 | CNF written to cnf/v2\A_n30_k23\A_n30_k23_w4.cnf
+2025-12-24 01:43:44,825 | ERROR | Process-1 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-24 01:43:44,826 | RESULT | Process-1 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-24 01:43:44,853 | INFO | MainProcess | Found a solution 4
+2025-12-24 01:43:44,853 | INFO | MainProcess | [Test k=23, w=4] Time: 0.42 seconds
+2025-12-24 01:43:44,853 | INFO | MainProcess | Min width from solution: 4, next width: 5
+2025-12-24 01:43:45,244 | INFO | Process-2 | Number of variables: 2042
+2025-12-24 01:43:45,244 | INFO | Process-2 | Number of clauses: 9441
+2025-12-24 01:43:45,249 | INFO | Process-2 | CNF written to cnf/v2\A_n30_k23\A_n30_k23_w5.cnf
+2025-12-24 01:43:45,249 | ERROR | Process-2 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-24 01:43:45,253 | RESULT | Process-2 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-24 01:43:45,281 | INFO | MainProcess | Found a solution 5
+2025-12-24 01:43:45,281 | INFO | MainProcess | [Test k=23, w=5] Time: 0.43 seconds
+2025-12-24 01:43:45,281 | INFO | MainProcess | Min width from solution: 5, next width: 6
+2025-12-24 01:43:45,654 | INFO | Process-3 | Number of variables: 2042
+2025-12-24 01:43:45,654 | INFO | Process-3 | Number of clauses: 9441
+2025-12-24 01:43:45,659 | INFO | Process-3 | CNF written to cnf/v2\A_n30_k23\A_n30_k23_w6.cnf
+2025-12-24 01:43:45,659 | ERROR | Process-3 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-24 01:43:45,670 | RESULT | Process-3 | No solution exists
+2025-12-24 01:43:45,670 | RESULT | Process-3 | Time taken: 0.023180007934570312 seconds
+2025-12-24 01:43:45,706 | INFO | MainProcess | No solution found 6
+2025-12-24 01:43:45,706 | INFO | MainProcess | [Test k=23, w=6] Time: 0.43 seconds
+2025-12-24 01:43:45,706 | INFO | MainProcess | $$$$
+2025-12-24 01:43:45,706 | INFO | MainProcess | 5
+2025-12-24 01:43:45,706 | INFO | MainProcess | $$$$
+2025-12-24 01:43:45,706 | INFO | MainProcess | Time taken for A-pores_1.mtx.rnd with k = 23: 1.2718505859375 seconds
+2025-12-24 01:43:45,706 | INFO | MainProcess | Maximum width for A-pores_1.mtx.rnd is 5
+2025-12-24 01:43:46,088 | INFO | Process-4 | Number of variables: 1698
+2025-12-24 01:43:46,088 | INFO | Process-4 | Number of clauses: 7130
+2025-12-24 01:43:46,093 | INFO | Process-4 | CNF written to cnf/v2\B_n32_k18\B_n32_k18_w5.cnf
+2025-12-24 01:43:46,093 | ERROR | Process-4 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-24 01:43:46,094 | RESULT | Process-4 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-24 01:43:46,121 | INFO | MainProcess | Found a solution 5
+2025-12-24 01:43:46,121 | INFO | MainProcess | [Test k=18, w=5] Time: 0.42 seconds
+2025-12-24 01:43:46,121 | INFO | MainProcess | Min width from solution: 5, next width: 6
+2025-12-24 01:43:46,499 | INFO | Process-5 | Number of variables: 1698
+2025-12-24 01:43:46,499 | INFO | Process-5 | Number of clauses: 7130
+2025-12-24 01:43:46,503 | INFO | Process-5 | CNF written to cnf/v2\B_n32_k18\B_n32_k18_w6.cnf
+2025-12-24 01:43:46,504 | ERROR | Process-5 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-24 01:43:46,507 | RESULT | Process-5 | No solution exists
+2025-12-24 01:43:46,507 | RESULT | Process-5 | Time taken: 0.01300358772277832 seconds
+2025-12-24 01:43:46,534 | INFO | MainProcess | No solution found 6
+2025-12-24 01:43:46,534 | INFO | MainProcess | [Test k=18, w=6] Time: 0.41 seconds
+2025-12-24 01:43:46,534 | INFO | MainProcess | $$$$
+2025-12-24 01:43:46,534 | INFO | MainProcess | 5
+2025-12-24 01:43:46,534 | INFO | MainProcess | $$$$
+2025-12-24 01:43:46,534 | INFO | MainProcess | Time taken for B-ibm32.mtx.rnd with k = 18: 0.8282616138458252 seconds
+2025-12-24 01:43:46,534 | INFO | MainProcess | Maximum width for B-ibm32.mtx.rnd is 5
+2025-12-24 01:43:46,893 | INFO | Process-6 | Number of variables: 2420
+2025-12-24 01:43:46,893 | INFO | Process-6 | Number of clauses: 7491
+2025-12-24 01:43:46,898 | INFO | Process-6 | CNF written to cnf/v2\C_n39_k21\C_n39_k21_w8.cnf
+2025-12-24 01:43:46,898 | ERROR | Process-6 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-24 01:43:46,906 | RESULT | Process-6 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-24 01:43:46,934 | INFO | MainProcess | Found a solution 8
+2025-12-24 01:43:46,934 | INFO | MainProcess | [Test k=21, w=8] Time: 0.4 seconds
+2025-12-24 01:43:46,934 | INFO | MainProcess | Min width from solution: 8, next width: 9
+2025-12-24 01:43:47,287 | INFO | Process-7 | Number of variables: 2420
+2025-12-24 01:43:47,287 | INFO | Process-7 | Number of clauses: 7491
+2025-12-24 01:43:47,291 | INFO | Process-7 | CNF written to cnf/v2\C_n39_k21\C_n39_k21_w9.cnf
+2025-12-24 01:43:47,292 | ERROR | Process-7 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-24 01:43:47,303 | RESULT | Process-7 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-24 01:43:47,329 | INFO | MainProcess | Found a solution 9
+2025-12-24 01:43:47,329 | INFO | MainProcess | [Test k=21, w=9] Time: 0.4 seconds
+2025-12-24 01:43:47,329 | INFO | MainProcess | Min width from solution: 9, next width: 10
+2025-12-24 01:43:47,692 | INFO | Process-8 | Number of variables: 2420
+2025-12-24 01:43:47,692 | INFO | Process-8 | Number of clauses: 7491
+2025-12-24 01:43:47,697 | INFO | Process-8 | CNF written to cnf/v2\C_n39_k21\C_n39_k21_w10.cnf
+2025-12-24 01:43:47,697 | ERROR | Process-8 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-24 01:43:47,728 | RESULT | Process-8 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-24 01:43:47,753 | INFO | MainProcess | Found a solution 10
+2025-12-24 01:43:47,754 | INFO | MainProcess | [Test k=21, w=10] Time: 0.42 seconds
+2025-12-24 01:43:47,754 | INFO | MainProcess | Min width from solution: 10, next width: 11
+2025-12-24 01:43:48,116 | INFO | Process-9 | Number of variables: 2420
+2025-12-24 01:43:48,116 | INFO | Process-9 | Number of clauses: 7157
+2025-12-24 01:43:48,121 | INFO | Process-9 | CNF written to cnf/v2\C_n39_k21\C_n39_k21_w11.cnf
+2025-12-24 01:43:48,121 | ERROR | Process-9 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-24 01:43:48,121 | RESULT | Process-9 | No solution exists
+2025-12-24 01:43:48,121 | RESULT | Process-9 | Time taken: 0.010048151016235352 seconds
+2025-12-24 01:43:48,147 | INFO | MainProcess | No solution found 11
+2025-12-24 01:43:48,147 | INFO | MainProcess | [Test k=21, w=11] Time: 0.39 seconds
+2025-12-24 01:43:48,148 | INFO | MainProcess | $$$$
+2025-12-24 01:43:48,148 | INFO | MainProcess | 10
+2025-12-24 01:43:48,148 | INFO | MainProcess | $$$$
+2025-12-24 01:43:48,148 | INFO | MainProcess | Time taken for C-bcspwr01.mtx.rnd with k = 21: 1.6134238243103027 seconds
+2025-12-24 01:43:48,148 | INFO | MainProcess | Maximum width for C-bcspwr01.mtx.rnd is 10
+2025-12-24 01:43:48,521 | INFO | Process-10 | Number of variables: 4130
+2025-12-24 01:43:48,521 | INFO | Process-10 | Number of clauses: 19741
+2025-12-24 01:43:48,531 | INFO | Process-10 | CNF written to cnf/v2\D_n48_k29\D_n48_k29_w4.cnf
+2025-12-24 01:43:48,531 | ERROR | Process-10 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-24 01:43:48,536 | RESULT | Process-10 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-24 01:43:48,563 | INFO | MainProcess | Found a solution 4
+2025-12-24 01:43:48,563 | INFO | MainProcess | [Test k=29, w=4] Time: 0.42 seconds
+2025-12-24 01:43:48,564 | INFO | MainProcess | Min width from solution: 4, next width: 5
+2025-12-24 01:43:48,928 | INFO | Process-11 | Number of variables: 4130
+2025-12-24 01:43:48,928 | INFO | Process-11 | Number of clauses: 19741
+2025-12-24 01:43:48,940 | INFO | Process-11 | CNF written to cnf/v2\D_n48_k29\D_n48_k29_w5.cnf
+2025-12-24 01:43:48,940 | ERROR | Process-11 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-24 01:43:48,952 | RESULT | Process-11 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-24 01:43:48,979 | INFO | MainProcess | Found a solution 5
+2025-12-24 01:43:48,979 | INFO | MainProcess | [Test k=29, w=5] Time: 0.41 seconds
+2025-12-24 01:43:48,979 | INFO | MainProcess | Min width from solution: 5, next width: 6
+2025-12-24 01:43:49,353 | INFO | Process-12 | Number of variables: 4130
+2025-12-24 01:43:49,353 | INFO | Process-12 | Number of clauses: 19741
+2025-12-24 01:43:49,363 | INFO | Process-12 | CNF written to cnf/v2\D_n48_k29\D_n48_k29_w6.cnf
+2025-12-24 01:43:49,363 | ERROR | Process-12 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-24 01:43:49,382 | RESULT | Process-12 | No solution exists
+2025-12-24 01:43:49,382 | RESULT | Process-12 | Time taken: 0.0429990291595459 seconds
+2025-12-24 01:43:49,410 | INFO | MainProcess | No solution found 6
+2025-12-24 01:43:49,411 | INFO | MainProcess | [Test k=29, w=6] Time: 0.43 seconds
+2025-12-24 01:43:49,411 | INFO | MainProcess | $$$$
+2025-12-24 01:43:49,411 | INFO | MainProcess | 5
+2025-12-24 01:43:49,411 | INFO | MainProcess | $$$$
+2025-12-24 01:43:49,411 | INFO | MainProcess | Time taken for D-bcsstk01.mtx.rnd with k = 29: 1.263031244277954 seconds
+2025-12-24 01:43:49,411 | INFO | MainProcess | Maximum width for D-bcsstk01.mtx.rnd is 5
+2025-12-24 01:43:49,792 | INFO | Process-13 | Number of variables: 5098
+2025-12-24 01:43:49,792 | INFO | Process-13 | Number of clauses: 15925
+2025-12-24 01:43:49,800 | INFO | Process-13 | CNF written to cnf/v2\E_n49_k35\E_n49_k35_w15.cnf
+2025-12-24 01:43:49,800 | ERROR | Process-13 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-24 01:43:49,806 | RESULT | Process-13 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-24 01:43:49,833 | INFO | MainProcess | Found a solution 15
+2025-12-24 01:43:49,833 | INFO | MainProcess | [Test k=35, w=15] Time: 0.42 seconds
+2025-12-24 01:43:49,834 | INFO | MainProcess | Min width from solution: 15, next width: 16
+2025-12-24 01:43:50,210 | INFO | Process-14 | Number of variables: 5098
+2025-12-24 01:43:50,210 | INFO | Process-14 | Number of clauses: 15925
+2025-12-24 01:43:50,218 | INFO | Process-14 | CNF written to cnf/v2\E_n49_k35\E_n49_k35_w16.cnf
+2025-12-24 01:43:50,218 | ERROR | Process-14 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-24 01:43:50,424 | RESULT | Process-14 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-24 01:43:50,452 | INFO | MainProcess | Found a solution 16
+2025-12-24 01:43:50,452 | INFO | MainProcess | [Test k=35, w=16] Time: 0.62 seconds
+2025-12-24 01:43:50,452 | INFO | MainProcess | Min width from solution: 16, next width: 17
+2025-12-24 01:43:50,829 | INFO | Process-15 | Number of variables: 5098
+2025-12-24 01:43:50,829 | INFO | Process-15 | Number of clauses: 15925
+2025-12-24 01:43:50,837 | INFO | Process-15 | CNF written to cnf/v2\E_n49_k35\E_n49_k35_w17.cnf
+2025-12-24 01:43:50,837 | ERROR | Process-15 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-24 01:43:51,092 | RESULT | Process-15 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-24 01:43:51,120 | INFO | MainProcess | Found a solution 17
+2025-12-24 01:43:51,120 | INFO | MainProcess | [Test k=35, w=17] Time: 0.67 seconds
+2025-12-24 01:43:51,120 | INFO | MainProcess | Min width from solution: 17, next width: 18
+2025-12-24 01:43:51,498 | INFO | Process-16 | Number of variables: 5098
+2025-12-24 01:43:51,498 | INFO | Process-16 | Number of clauses: 15583
+2025-12-24 01:43:51,507 | INFO | Process-16 | CNF written to cnf/v2\E_n49_k35\E_n49_k35_w18.cnf
+2025-12-24 01:43:51,507 | ERROR | Process-16 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-24 01:43:51,507 | RESULT | Process-16 | No solution exists
+2025-12-24 01:43:51,507 | RESULT | Process-16 | Time taken: 0.020000457763671875 seconds
+2025-12-24 01:43:51,534 | INFO | MainProcess | No solution found 18
+2025-12-24 01:43:51,534 | INFO | MainProcess | [Test k=35, w=18] Time: 0.41 seconds
+2025-12-24 01:43:51,534 | INFO | MainProcess | $$$$
+2025-12-24 01:43:51,534 | INFO | MainProcess | 17
+2025-12-24 01:43:51,534 | INFO | MainProcess | $$$$
+2025-12-24 01:43:51,534 | INFO | MainProcess | Time taken for E-bcspwr02.mtx.rnd with k = 35: 2.123384714126587 seconds
+2025-12-24 01:43:51,534 | INFO | MainProcess | Maximum width for E-bcspwr02.mtx.rnd is 17
+2025-12-24 01:43:51,754 | INFO | MainProcess | Data written to output/output_version_2_fixed_painless_testnewmethod.xlsx

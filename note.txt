@@ -34,3 +34,12 @@ Thêm biễu diễn trực tiếp của SAT để chứng minh rằng staircase 
 Đoạn symmetrybreaking làm nhầm là n/2 đúng phải là k/2 (không ảnh hưởng đến kết quả sau khi check lại)
 
 Chạy Direct encoding và Version 2 encoding bằng Cadical trong thư viện python luôn
+
+1/1/2026
+
+quên add symmetrybreaking vào version2painless_fixed huhu
+
+
+Còn cadical + version 2 + no symmetrybreaking
+
+run test W again in direct encoding painless no symmetrybreaking

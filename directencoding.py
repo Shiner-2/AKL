@@ -16,8 +16,8 @@ from typing import Optional, Dict, Any
 #  ./painless/build/release/painless_release cnf/K_n117_k80/K_n117_k80_w38.cnf   -c=4   -solver=cckk -no-model
 
 # Global config
-LOG_FILE = "logs/log_directencoding_cadical.txt"
-EXCEL_FILE = "output/output_directencoding_cadical.xlsx"
+LOG_FILE = "logs/directencoding/log_directencoding_painless_no_symmetry_PQ.txt"
+EXCEL_FILE = "output/directencoding/output_directencoding_painless_no_symmetry_PQ.xlsx"
 
 # --- Painless runner config ---
 PAINLESS_BIN = "./painless/build/release/painless_release"  # đổi nếu khác
@@ -114,6 +114,10 @@ def solve_no_hole_anti_k_labeling(graph, k, width, queue, timeout_sec=3600, inst
                 for labelv in range(1, k + 1):
                     if abs(labelu - labelv) < width:
                         clauses.append([-x[u][labelu], -x[v][labelv]])
+                        
+    # clauses.extend(Symetry_breaking(graph, x, k))
+    
+    
             # for labelu in range(1, k + 1):
             #     minv = max(0, labelu - width)
             #     maxv = min(k + 1, labelu + width)
@@ -145,8 +149,11 @@ def solve_no_hole_anti_k_labeling(graph, k, width, queue, timeout_sec=3600, inst
     logger.info(f"Number of variables: {solver.nof_vars()}")
     logger.info(f"Number of clauses: {solver.nof_clauses()}")
 
-    queue.put(solver.nof_vars())
-    queue.put(solver.nof_clauses())
+    logger.info(f"Real nums of clauses: {len(clauses)}")
+    logger.info(f"Real nums of variables: {top_id - 2}")
+
+    queue.put(top_id - 2)
+    queue.put(len(clauses))
 
     # Ghi CNF ra file để chạy Painless bên ngoài nếu muốn
     cnf_path = write_cnf_to_file(clauses, solver, n, k, width, instance_name)
@@ -206,7 +213,7 @@ def solve_no_hole_anti_k_labeling(graph, k, width, queue, timeout_sec=3600, inst
         logger.result(f"Time taken: {end - start} seconds")
         return False
 
-def Symetry_breaking(graph, x):
+def Symetry_breaking(graph, x, k):
     cnt = [0] * (len(graph) + 1)
     for u in graph:
         for v in graph[u]:
@@ -219,7 +226,7 @@ def Symetry_breaking(graph, x):
             node = i
 
     clause = []
-    for label in range(1, len(graph) // 2 + 1):
+    for label in range(1, k // 2 + 1):
         clause.append([-x[node][label]])
     return clause
 
@@ -559,8 +566,8 @@ def solve():
     
     # Clear Excel file at start and create with header
     
-    # if os.path.exists(EXCEL_FILE):
-    #     os.remove(EXCEL_FILE)
+    if os.path.exists(EXCEL_FILE):
+        os.remove(EXCEL_FILE)
     # header = ["filename", "n", "k", "proportion", "lower_bound",
     #           "upper_bound", "width", "num_vars", "num_clauses", "verdict", "time"]
     # df_header = pd.DataFrame(columns=header)
@@ -581,7 +588,7 @@ def solve():
         lst.append(os.path.join(folder_path, os.path.basename(file)))
         filename.append(os.path.basename(file))
 
-    for i in range(0, 5):
+    for i in range(14,16):
         time_start = time.time()
         graph = read_input(lst[i])
         rand = proportion[i]
@@ -607,6 +614,8 @@ def solve():
             else:
                 logger.info(f"Maximum width before timeout for {file} is {-ans}")
             logger.info("time out")
+        
+        time.sleep(10)  # tránh xung đột log
 
 
 def write_cnf_to_file(clauses, solver, n, k, width, instance_name="A"):

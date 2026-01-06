@@ -1,91 +1,705 @@
-2025-12-17 19:27:54,734 | INFO | MainProcess | === Start solve() ===
-2025-12-17 19:27:54,753 | INFO | Process-1 | Number of variables: 691
-2025-12-17 19:27:54,753 | INFO | Process-1 | Number of clauses: 15370
-2025-12-17 19:27:54,764 | INFO | Process-1 | CNF written to cnf/v2/A_n30_k23/A_n30_k23_w4.cnf
-2025-12-17 19:27:54,777 | INFO | Process-1 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/A_n30_k23/A_n30_k23_w4.cnf
-2025-12-17 19:27:54,835 | INFO | Process-1 | [PAINLESS] status=SAT rc=10 time=0.06s
-2025-12-17 19:27:54,836 | RESULT | Process-1 | [PAINLESS] result: status=SAT time=0.06s rc=10
-2025-12-17 19:27:54,836 | RESULT | Process-1 | [VALIDATE][PAINLESS] False | Vertex 1 has no label
-2025-12-17 19:27:54,836 | ERROR | Process-1 | ❌ INVALID MODEL FROM PAINLESS
-2025-12-17 19:27:54,838 | INFO | MainProcess | No solution found 4
-2025-12-17 19:27:54,838 | INFO | MainProcess | [Test k=23, w=4] Time: 0.1 seconds
-2025-12-17 19:27:55,707 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
-2025-12-17 19:27:55,735 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
-2025-12-17 19:27:55,736 | INFO | MainProcess | $$$$
-2025-12-17 19:27:55,737 | INFO | MainProcess | -9999
-2025-12-17 19:27:55,738 | INFO | MainProcess | $$$$
-2025-12-17 19:27:55,739 | INFO | MainProcess | Time taken for A-pores_1.mtx.rnd with k = 23: 1.0033109188079834 seconds
-2025-12-17 19:27:55,740 | INFO | MainProcess | No answer before timeout for A-pores_1.mtx.rnd
-2025-12-17 19:27:55,740 | INFO | MainProcess | time out
-2025-12-17 19:27:55,760 | INFO | Process-2 | Number of variables: 577
-2025-12-17 19:27:55,761 | INFO | Process-2 | Number of clauses: 12798
-2025-12-17 19:27:55,769 | INFO | Process-2 | CNF written to cnf/v2/B_n32_k18/B_n32_k18_w5.cnf
-2025-12-17 19:27:55,773 | INFO | Process-2 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/B_n32_k18/B_n32_k18_w5.cnf
-2025-12-17 19:27:55,830 | INFO | Process-2 | [PAINLESS] status=SAT rc=10 time=0.06s
-2025-12-17 19:27:55,831 | RESULT | Process-2 | [PAINLESS] result: status=SAT time=0.06s rc=10
-2025-12-17 19:27:55,831 | RESULT | Process-2 | [VALIDATE][PAINLESS] False | Vertex 6 has no label
-2025-12-17 19:27:55,831 | ERROR | Process-2 | ❌ INVALID MODEL FROM PAINLESS
-2025-12-17 19:27:55,833 | INFO | MainProcess | No solution found 5
-2025-12-17 19:27:55,833 | INFO | MainProcess | [Test k=18, w=5] Time: 0.09 seconds
-2025-12-17 19:27:55,855 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
-2025-12-17 19:27:55,885 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
-2025-12-17 19:27:55,885 | INFO | MainProcess | $$$$
-2025-12-17 19:27:55,885 | INFO | MainProcess | -9999
-2025-12-17 19:27:55,886 | INFO | MainProcess | $$$$
-2025-12-17 19:27:55,886 | INFO | MainProcess | Time taken for B-ibm32.mtx.rnd with k = 18: 0.14562678337097168 seconds
-2025-12-17 19:27:55,886 | INFO | MainProcess | No answer before timeout for B-ibm32.mtx.rnd
-2025-12-17 19:27:55,886 | INFO | MainProcess | time out
-2025-12-17 19:27:55,898 | INFO | Process-3 | Number of variables: 820
-2025-12-17 19:27:55,899 | INFO | Process-3 | Number of clauses: 11935
-2025-12-17 19:27:55,907 | INFO | Process-3 | CNF written to cnf/v2/C_n39_k21/C_n39_k21_w8.cnf
-2025-12-17 19:27:55,913 | INFO | Process-3 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/C_n39_k21/C_n39_k21_w8.cnf
-2025-12-17 19:27:55,970 | INFO | Process-3 | [PAINLESS] status=SAT rc=10 time=0.06s
-2025-12-17 19:27:55,970 | RESULT | Process-3 | [PAINLESS] result: status=SAT time=0.06s rc=10
-2025-12-17 19:27:55,971 | RESULT | Process-3 | [VALIDATE][PAINLESS] False | Vertex 6 has no label
-2025-12-17 19:27:55,971 | ERROR | Process-3 | ❌ INVALID MODEL FROM PAINLESS
-2025-12-17 19:27:55,973 | INFO | MainProcess | No solution found 8
-2025-12-17 19:27:55,973 | INFO | MainProcess | [Test k=21, w=8] Time: 0.09 seconds
-2025-12-17 19:27:55,995 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
-2025-12-17 19:27:56,023 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
-2025-12-17 19:27:56,024 | INFO | MainProcess | $$$$
-2025-12-17 19:27:56,024 | INFO | MainProcess | -9999
-2025-12-17 19:27:56,024 | INFO | MainProcess | $$$$
-2025-12-17 19:27:56,024 | INFO | MainProcess | Time taken for C-bcspwr01.mtx.rnd with k = 21: 0.13774967193603516 seconds
-2025-12-17 19:27:56,024 | INFO | MainProcess | No answer before timeout for C-bcspwr01.mtx.rnd
-2025-12-17 19:27:56,024 | INFO | MainProcess | time out
-2025-12-17 19:27:56,046 | INFO | Process-4 | Number of variables: 1393
-2025-12-17 19:27:56,046 | INFO | Process-4 | Number of clauses: 33645
-2025-12-17 19:27:56,067 | INFO | Process-4 | CNF written to cnf/v2/D_n48_k29/D_n48_k29_w4.cnf
-2025-12-17 19:27:56,075 | INFO | Process-4 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/D_n48_k29/D_n48_k29_w4.cnf
-2025-12-17 19:27:56,147 | INFO | Process-4 | [PAINLESS] status=SAT rc=10 time=0.07s
-2025-12-17 19:27:56,147 | RESULT | Process-4 | [PAINLESS] result: status=SAT time=0.07s rc=10
-2025-12-17 19:27:56,148 | RESULT | Process-4 | [VALIDATE][PAINLESS] False | Vertex 3 has no label
-2025-12-17 19:27:56,148 | ERROR | Process-4 | ❌ INVALID MODEL FROM PAINLESS
-2025-12-17 19:27:56,151 | INFO | MainProcess | No solution found 4
-2025-12-17 19:27:56,151 | INFO | MainProcess | [Test k=29, w=4] Time: 0.12 seconds
-2025-12-17 19:27:56,172 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
-2025-12-17 19:27:56,202 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
-2025-12-17 19:27:56,203 | INFO | MainProcess | $$$$
-2025-12-17 19:27:56,203 | INFO | MainProcess | -9999
-2025-12-17 19:27:56,203 | INFO | MainProcess | $$$$
-2025-12-17 19:27:56,203 | INFO | MainProcess | Time taken for D-bcsstk01.mtx.rnd with k = 29: 0.17868304252624512 seconds
-2025-12-17 19:27:56,203 | INFO | MainProcess | No answer before timeout for D-bcsstk01.mtx.rnd
-2025-12-17 19:27:56,203 | INFO | MainProcess | time out
-2025-12-17 19:27:56,247 | INFO | Process-5 | Number of variables: 1716
-2025-12-17 19:27:56,248 | INFO | Process-5 | Number of clauses: 47530
-2025-12-17 19:27:56,270 | INFO | Process-5 | CNF written to cnf/v2/E_n49_k35/E_n49_k35_w15.cnf
-2025-12-17 19:27:56,275 | INFO | Process-5 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/E_n49_k35/E_n49_k35_w15.cnf
-2025-12-17 19:27:56,349 | INFO | Process-5 | [PAINLESS] status=SAT rc=10 time=0.07s
-2025-12-17 19:27:56,349 | RESULT | Process-5 | [PAINLESS] result: status=SAT time=0.07s rc=10
-2025-12-17 19:27:56,349 | RESULT | Process-5 | [VALIDATE][PAINLESS] False | Vertex 1 has no label
-2025-12-17 19:27:56,349 | ERROR | Process-5 | ❌ INVALID MODEL FROM PAINLESS
-2025-12-17 19:27:56,353 | INFO | MainProcess | No solution found 15
-2025-12-17 19:27:56,353 | INFO | MainProcess | [Test k=35, w=15] Time: 0.15 seconds
-2025-12-17 19:27:56,374 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
-2025-12-17 19:27:56,402 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
-2025-12-17 19:27:56,403 | INFO | MainProcess | $$$$
-2025-12-17 19:27:56,403 | INFO | MainProcess | -9999
-2025-12-17 19:27:56,403 | INFO | MainProcess | $$$$
-2025-12-17 19:27:56,403 | INFO | MainProcess | Time taken for E-bcspwr02.mtx.rnd with k = 35: 0.19965577125549316 seconds
-2025-12-17 19:27:56,403 | INFO | MainProcess | No answer before timeout for E-bcspwr02.mtx.rnd
-2025-12-17 19:27:56,403 | INFO | MainProcess | time out
+2025-12-17 20:05:16,159 | INFO | MainProcess | === Start solve() ===
+2025-12-17 20:05:16,522 | INFO | Process-1 | Number of variables: 1352
+2025-12-17 20:05:16,522 | INFO | Process-1 | Number of clauses: 17350
+2025-12-17 20:05:16,538 | INFO | Process-1 | CNF written to cnf/v2\A_n30_k23\A_n30_k23_w4.cnf
+2025-12-17 20:05:16,538 | ERROR | Process-1 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-17 20:05:16,538 | RESULT | Process-1 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-17 20:05:16,570 | INFO | MainProcess | Found a solution 4
+2025-12-17 20:05:16,570 | INFO | MainProcess | [Test k=23, w=4] Time: 0.41 seconds
+2025-12-17 20:05:16,790 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 20:05:17,165 | INFO | Process-2 | Number of variables: 1352
+2025-12-17 20:05:17,165 | INFO | Process-2 | Number of clauses: 21264
+2025-12-17 20:05:17,172 | INFO | Process-2 | CNF written to cnf/v2\A_n30_k23\A_n30_k23_w5.cnf
+2025-12-17 20:05:17,172 | ERROR | Process-2 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-17 20:05:17,178 | RESULT | Process-2 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-17 20:05:17,208 | INFO | MainProcess | Found a solution 5
+2025-12-17 20:05:17,208 | INFO | MainProcess | [Test k=23, w=5] Time: 0.42 seconds
+2025-12-17 20:05:17,238 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 20:05:17,623 | INFO | Process-3 | Number of variables: 1352
+2025-12-17 20:05:17,623 | INFO | Process-3 | Number of clauses: 24972
+2025-12-17 20:05:17,635 | INFO | Process-3 | CNF written to cnf/v2\A_n30_k23\A_n30_k23_w6.cnf
+2025-12-17 20:05:17,635 | ERROR | Process-3 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-17 20:05:17,868 | RESULT | Process-3 | No solution exists
+2025-12-17 20:05:17,868 | RESULT | Process-3 | Time taken: 0.25994205474853516 seconds
+2025-12-17 20:05:17,899 | INFO | MainProcess | No solution found 6
+2025-12-17 20:05:17,899 | INFO | MainProcess | [Test k=23, w=6] Time: 0.66 seconds
+2025-12-17 20:05:17,916 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 20:05:17,940 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 20:05:17,940 | INFO | MainProcess | $$$$
+2025-12-17 20:05:17,940 | INFO | MainProcess | 5
+2025-12-17 20:05:17,940 | INFO | MainProcess | $$$$
+2025-12-17 20:05:17,940 | INFO | MainProcess | Time taken for A-pores_1.mtx.rnd with k = 23: 1.7814257144927979 seconds
+2025-12-17 20:05:17,940 | INFO | MainProcess | Maximum width for A-pores_1.mtx.rnd is 5
+2025-12-17 20:05:18,317 | INFO | Process-4 | Number of variables: 1122
+2025-12-17 20:05:18,317 | INFO | Process-4 | Number of clauses: 14430
+2025-12-17 20:05:18,326 | INFO | Process-4 | CNF written to cnf/v2\B_n32_k18\B_n32_k18_w5.cnf
+2025-12-17 20:05:18,326 | ERROR | Process-4 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-17 20:05:18,326 | RESULT | Process-4 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-17 20:05:18,353 | INFO | MainProcess | Found a solution 5
+2025-12-17 20:05:18,353 | INFO | MainProcess | [Test k=18, w=5] Time: 0.41 seconds
+2025-12-17 20:05:18,372 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 20:05:18,754 | INFO | Process-5 | Number of variables: 1122
+2025-12-17 20:05:18,754 | INFO | Process-5 | Number of clauses: 16770
+2025-12-17 20:05:18,754 | INFO | Process-5 | CNF written to cnf/v2\B_n32_k18\B_n32_k18_w6.cnf
+2025-12-17 20:05:18,754 | ERROR | Process-5 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-17 20:05:18,816 | RESULT | Process-5 | No solution exists
+2025-12-17 20:05:18,816 | RESULT | Process-5 | Time taken: 0.07242321968078613 seconds
+2025-12-17 20:05:18,851 | INFO | MainProcess | No solution found 6
+2025-12-17 20:05:18,851 | INFO | MainProcess | [Test k=18, w=6] Time: 0.48 seconds
+2025-12-17 20:05:18,868 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 20:05:18,897 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 20:05:18,897 | INFO | MainProcess | $$$$
+2025-12-17 20:05:18,897 | INFO | MainProcess | 5
+2025-12-17 20:05:18,897 | INFO | MainProcess | $$$$
+2025-12-17 20:05:18,897 | INFO | MainProcess | Time taken for B-ibm32.mtx.rnd with k = 18: 0.9566824436187744 seconds
+2025-12-17 20:05:18,897 | INFO | MainProcess | Maximum width for B-ibm32.mtx.rnd is 5
+2025-12-17 20:05:19,275 | INFO | Process-6 | Number of variables: 1601
+2025-12-17 20:05:19,275 | INFO | Process-6 | Number of clauses: 14275
+2025-12-17 20:05:19,284 | INFO | Process-6 | CNF written to cnf/v2\C_n39_k21\C_n39_k21_w8.cnf
+2025-12-17 20:05:19,284 | ERROR | Process-6 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-17 20:05:19,303 | RESULT | Process-6 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-17 20:05:19,333 | INFO | MainProcess | Found a solution 8
+2025-12-17 20:05:19,333 | INFO | MainProcess | [Test k=21, w=8] Time: 0.44 seconds
+2025-12-17 20:05:19,348 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 20:05:19,716 | INFO | Process-7 | Number of variables: 1601
+2025-12-17 20:05:19,716 | INFO | Process-7 | Number of clauses: 15471
+2025-12-17 20:05:19,723 | INFO | Process-7 | CNF written to cnf/v2\C_n39_k21\C_n39_k21_w9.cnf
+2025-12-17 20:05:19,723 | ERROR | Process-7 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-17 20:05:19,770 | RESULT | Process-7 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-17 20:05:19,797 | INFO | MainProcess | Found a solution 9
+2025-12-17 20:05:19,797 | INFO | MainProcess | [Test k=21, w=9] Time: 0.45 seconds
+2025-12-17 20:05:19,812 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 20:05:20,171 | INFO | Process-8 | Number of variables: 1601
+2025-12-17 20:05:20,171 | INFO | Process-8 | Number of clauses: 16575
+2025-12-17 20:05:20,179 | INFO | Process-8 | CNF written to cnf/v2\C_n39_k21\C_n39_k21_w10.cnf
+2025-12-17 20:05:20,179 | ERROR | Process-8 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-17 20:05:20,341 | RESULT | Process-8 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-17 20:05:20,370 | INFO | MainProcess | Found a solution 10
+2025-12-17 20:05:20,370 | INFO | MainProcess | [Test k=21, w=10] Time: 0.56 seconds
+2025-12-17 20:05:20,385 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 20:05:20,760 | INFO | Process-9 | Number of variables: 1601
+2025-12-17 20:05:20,760 | INFO | Process-9 | Number of clauses: 17587
+2025-12-17 20:05:20,768 | INFO | Process-9 | CNF written to cnf/v2\C_n39_k21\C_n39_k21_w11.cnf
+2025-12-17 20:05:20,768 | ERROR | Process-9 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-17 20:05:20,770 | RESULT | Process-9 | No solution exists
+2025-12-17 20:05:20,770 | RESULT | Process-9 | Time taken: 0.021216154098510742 seconds
+2025-12-17 20:05:20,798 | INFO | MainProcess | No solution found 11
+2025-12-17 20:05:20,798 | INFO | MainProcess | [Test k=21, w=11] Time: 0.41 seconds
+2025-12-17 20:05:20,817 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 20:05:20,839 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 20:05:20,839 | INFO | MainProcess | $$$$
+2025-12-17 20:05:20,839 | INFO | MainProcess | 10
+2025-12-17 20:05:20,839 | INFO | MainProcess | $$$$
+2025-12-17 20:05:20,839 | INFO | MainProcess | Time taken for C-bcspwr01.mtx.rnd with k = 21: 1.9416866302490234 seconds
+2025-12-17 20:05:20,839 | INFO | MainProcess | Maximum width for C-bcspwr01.mtx.rnd is 10
+2025-12-17 20:05:21,216 | INFO | Process-10 | Number of variables: 2738
+2025-12-17 20:05:21,216 | INFO | Process-10 | Number of clauses: 37677
+2025-12-17 20:05:21,234 | INFO | Process-10 | CNF written to cnf/v2\D_n48_k29\D_n48_k29_w4.cnf
+2025-12-17 20:05:21,234 | ERROR | Process-10 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-17 20:05:21,236 | RESULT | Process-10 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-17 20:05:21,261 | INFO | MainProcess | Found a solution 4
+2025-12-17 20:05:21,261 | INFO | MainProcess | [Test k=29, w=4] Time: 0.42 seconds
+2025-12-17 20:05:21,281 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 20:05:21,659 | INFO | Process-11 | Number of variables: 2738
+2025-12-17 20:05:21,659 | INFO | Process-11 | Number of clauses: 46477
+2025-12-17 20:05:21,680 | INFO | Process-11 | CNF written to cnf/v2\D_n48_k29\D_n48_k29_w5.cnf
+2025-12-17 20:05:21,680 | ERROR | Process-11 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-17 20:05:21,690 | RESULT | Process-11 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-17 20:05:21,717 | INFO | MainProcess | Found a solution 5
+2025-12-17 20:05:21,717 | INFO | MainProcess | [Test k=29, w=5] Time: 0.44 seconds
+2025-12-17 20:05:21,735 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 20:05:22,122 | INFO | Process-12 | Number of variables: 2738
+2025-12-17 20:05:22,122 | INFO | Process-12 | Number of clauses: 54925
+2025-12-17 20:05:22,146 | INFO | Process-12 | CNF written to cnf/v2\D_n48_k29\D_n48_k29_w6.cnf
+2025-12-17 20:05:22,146 | ERROR | Process-12 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-17 20:05:22,549 | RESULT | Process-12 | No solution exists
+2025-12-17 20:05:22,550 | RESULT | Process-12 | Time taken: 0.45891404151916504 seconds
+2025-12-17 20:05:22,575 | INFO | MainProcess | No solution found 6
+2025-12-17 20:05:22,575 | INFO | MainProcess | [Test k=29, w=6] Time: 0.84 seconds
+2025-12-17 20:05:22,593 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 20:05:22,613 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 20:05:22,613 | INFO | MainProcess | $$$$
+2025-12-17 20:05:22,613 | INFO | MainProcess | 5
+2025-12-17 20:05:22,613 | INFO | MainProcess | $$$$
+2025-12-17 20:05:22,613 | INFO | MainProcess | Time taken for D-bcsstk01.mtx.rnd with k = 29: 1.7744503021240234 seconds
+2025-12-17 20:05:22,613 | INFO | MainProcess | Maximum width for D-bcsstk01.mtx.rnd is 5
+2025-12-17 20:05:23,002 | INFO | Process-13 | Number of variables: 3383
+2025-12-17 20:05:23,002 | INFO | Process-13 | Number of clauses: 52528
+2025-12-17 20:05:23,026 | INFO | Process-13 | CNF written to cnf/v2\E_n49_k35\E_n49_k35_w15.cnf
+2025-12-17 20:05:23,026 | ERROR | Process-13 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-17 20:05:23,099 | RESULT | Process-13 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-17 20:05:23,122 | INFO | MainProcess | Found a solution 15
+2025-12-17 20:05:23,122 | INFO | MainProcess | [Test k=35, w=15] Time: 0.51 seconds
+2025-12-17 20:05:23,141 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 20:05:23,526 | INFO | Process-14 | Number of variables: 3383
+2025-12-17 20:05:23,526 | INFO | Process-14 | Number of clauses: 54888
+2025-12-17 20:05:23,535 | INFO | Process-14 | CNF written to cnf/v2\E_n49_k35\E_n49_k35_w16.cnf
+2025-12-17 20:05:23,535 | ERROR | Process-14 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-17 20:05:26,262 | RESULT | Process-14 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-17 20:05:26,292 | INFO | MainProcess | Found a solution 16
+2025-12-17 20:05:26,292 | INFO | MainProcess | [Test k=35, w=16] Time: 3.15 seconds
+2025-12-17 20:05:26,312 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 20:05:26,712 | INFO | Process-15 | Number of variables: 3383
+2025-12-17 20:05:26,712 | INFO | Process-15 | Number of clauses: 57130
+2025-12-17 20:05:26,738 | INFO | Process-15 | CNF written to cnf/v2\E_n49_k35\E_n49_k35_w17.cnf
+2025-12-17 20:05:26,738 | ERROR | Process-15 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-17 20:05:35,532 | RESULT | Process-15 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-17 20:05:35,564 | INFO | MainProcess | Found a solution 17
+2025-12-17 20:05:35,564 | INFO | MainProcess | [Test k=35, w=17] Time: 9.25 seconds
+2025-12-17 20:05:35,579 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 20:05:35,957 | INFO | Process-16 | Number of variables: 3383
+2025-12-17 20:05:35,957 | INFO | Process-16 | Number of clauses: 59254
+2025-12-17 20:05:35,987 | INFO | Process-16 | CNF written to cnf/v2\E_n49_k35\E_n49_k35_w18.cnf
+2025-12-17 20:05:35,987 | ERROR | Process-16 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-17 20:05:35,987 | RESULT | Process-16 | No solution exists
+2025-12-17 20:05:35,987 | RESULT | Process-16 | Time taken: 0.06353926658630371 seconds
+2025-12-17 20:05:36,018 | INFO | MainProcess | No solution found 18
+2025-12-17 20:05:36,018 | INFO | MainProcess | [Test k=35, w=18] Time: 0.44 seconds
+2025-12-17 20:05:36,042 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 20:05:36,066 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 20:05:36,066 | INFO | MainProcess | $$$$
+2025-12-17 20:05:36,066 | INFO | MainProcess | 17
+2025-12-17 20:05:36,066 | INFO | MainProcess | $$$$
+2025-12-17 20:05:36,066 | INFO | MainProcess | Time taken for E-bcspwr02.mtx.rnd with k = 35: 13.452678680419922 seconds
+2025-12-17 20:05:36,066 | INFO | MainProcess | Maximum width for E-bcspwr02.mtx.rnd is 17
+2025-12-17 20:05:36,432 | INFO | Process-17 | Number of variables: 3512
+2025-12-17 20:05:36,432 | INFO | Process-17 | Number of clauses: 53205
+2025-12-17 20:05:36,464 | INFO | Process-17 | CNF written to cnf/v2\F_n54_k33\F_n54_k33_w7.cnf
+2025-12-17 20:05:36,464 | ERROR | Process-17 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-17 20:05:36,480 | RESULT | Process-17 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-17 20:05:36,509 | INFO | MainProcess | Found a solution 7
+2025-12-17 20:05:36,509 | INFO | MainProcess | [Test k=33, w=7] Time: 0.44 seconds
+2025-12-17 20:05:36,527 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 20:05:36,909 | INFO | Process-18 | Number of variables: 3512
+2025-12-17 20:05:36,909 | INFO | Process-18 | Number of clauses: 59653
+2025-12-17 20:05:36,933 | INFO | Process-18 | CNF written to cnf/v2\F_n54_k33\F_n54_k33_w8.cnf
+2025-12-17 20:05:36,933 | ERROR | Process-18 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-17 20:05:37,050 | RESULT | Process-18 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-17 20:05:37,076 | INFO | MainProcess | Found a solution 8
+2025-12-17 20:05:37,076 | INFO | MainProcess | [Test k=33, w=8] Time: 0.55 seconds
+2025-12-17 20:05:37,092 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 20:05:37,489 | INFO | Process-19 | Number of variables: 3512
+2025-12-17 20:05:37,489 | INFO | Process-19 | Number of clauses: 65853
+2025-12-17 20:05:37,521 | INFO | Process-19 | CNF written to cnf/v2\F_n54_k33\F_n54_k33_w9.cnf
+2025-12-17 20:05:37,521 | ERROR | Process-19 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-17 20:05:37,600 | RESULT | Process-19 | No solution exists
+2025-12-17 20:05:37,610 | RESULT | Process-19 | Time taken: 0.1676783561706543 seconds
+2025-12-17 20:05:37,639 | INFO | MainProcess | No solution found 9
+2025-12-17 20:05:37,639 | INFO | MainProcess | [Test k=33, w=9] Time: 0.55 seconds
+2025-12-17 20:05:37,647 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 20:05:37,679 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 20:05:37,679 | INFO | MainProcess | $$$$
+2025-12-17 20:05:37,679 | INFO | MainProcess | 8
+2025-12-17 20:05:37,679 | INFO | MainProcess | $$$$
+2025-12-17 20:05:37,679 | INFO | MainProcess | Time taken for F-curtis54.mtx.rnd with k = 33: 1.6129984855651855 seconds
+2025-12-17 20:05:37,679 | INFO | MainProcess | Maximum width for F-curtis54.mtx.rnd is 8
+2025-12-17 20:05:38,057 | INFO | Process-20 | Number of variables: 3479
+2025-12-17 20:05:38,057 | INFO | Process-20 | Number of clauses: 44658
+2025-12-17 20:05:38,089 | INFO | Process-20 | CNF written to cnf/v2\G_n57_k31\G_n57_k31_w6.cnf
+2025-12-17 20:05:38,089 | ERROR | Process-20 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-17 20:05:38,089 | RESULT | Process-20 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-17 20:05:38,125 | INFO | MainProcess | Found a solution 6
+2025-12-17 20:05:38,125 | INFO | MainProcess | [Test k=31, w=6] Time: 0.45 seconds
+2025-12-17 20:05:38,152 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 20:05:38,523 | INFO | Process-21 | Number of variables: 3479
+2025-12-17 20:05:38,523 | INFO | Process-21 | Number of clauses: 51008
+2025-12-17 20:05:38,557 | INFO | Process-21 | CNF written to cnf/v2\G_n57_k31\G_n57_k31_w7.cnf
+2025-12-17 20:05:38,557 | ERROR | Process-21 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-17 20:05:38,571 | RESULT | Process-21 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-17 20:05:38,602 | INFO | MainProcess | Found a solution 7
+2025-12-17 20:05:38,602 | INFO | MainProcess | [Test k=31, w=7] Time: 0.45 seconds
+2025-12-17 20:05:38,625 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 20:05:38,989 | INFO | Process-22 | Number of variables: 3479
+2025-12-17 20:05:38,989 | INFO | Process-22 | Number of clauses: 57104
+2025-12-17 20:05:39,021 | INFO | Process-22 | CNF written to cnf/v2\G_n57_k31\G_n57_k31_w8.cnf
+2025-12-17 20:05:39,021 | ERROR | Process-22 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-17 20:05:39,139 | RESULT | Process-22 | No solution exists
+2025-12-17 20:05:39,139 | RESULT | Process-22 | Time taken: 0.18115878105163574 seconds
+2025-12-17 20:05:39,164 | INFO | MainProcess | No solution found 8
+2025-12-17 20:05:39,164 | INFO | MainProcess | [Test k=31, w=8] Time: 0.54 seconds
+2025-12-17 20:05:39,195 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 20:05:39,215 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 20:05:39,215 | INFO | MainProcess | $$$$
+2025-12-17 20:05:39,215 | INFO | MainProcess | 7
+2025-12-17 20:05:39,215 | INFO | MainProcess | $$$$
+2025-12-17 20:05:39,215 | INFO | MainProcess | Time taken for G-will57.mtx.rnd with k = 31: 1.5356059074401855 seconds
+2025-12-17 20:05:39,215 | INFO | MainProcess | Maximum width for G-will57.mtx.rnd is 7
+2025-12-17 20:05:39,639 | INFO | Process-23 | Number of variables: 4309
+2025-12-17 20:05:39,639 | INFO | Process-23 | Number of clauses: 94362
+2025-12-17 20:05:39,679 | INFO | Process-23 | CNF written to cnf/v2\H_n59_k37\H_n59_k37_w5.cnf
+2025-12-17 20:05:39,679 | ERROR | Process-23 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-17 20:05:39,679 | RESULT | Process-23 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-17 20:05:39,716 | INFO | MainProcess | Found a solution 5
+2025-12-17 20:05:39,716 | INFO | MainProcess | [Test k=37, w=5] Time: 0.5 seconds
+2025-12-17 20:05:39,726 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 20:05:40,198 | INFO | Process-24 | Number of variables: 4309
+2025-12-17 20:05:40,198 | INFO | Process-24 | Number of clauses: 112346
+2025-12-17 20:05:40,246 | INFO | Process-24 | CNF written to cnf/v2\H_n59_k37\H_n59_k37_w6.cnf
+2025-12-17 20:05:40,246 | ERROR | Process-24 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-17 20:05:53,017 | RESULT | Process-24 | No solution exists
+2025-12-17 20:05:53,020 | RESULT | Process-24 | Time taken: 12.893041849136353 seconds
+2025-12-17 20:05:53,049 | INFO | MainProcess | No solution found 6
+2025-12-17 20:05:53,049 | INFO | MainProcess | [Test k=37, w=6] Time: 13.32 seconds
+2025-12-17 20:05:53,061 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 20:05:53,094 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 20:05:53,102 | INFO | MainProcess | $$$$
+2025-12-17 20:05:53,102 | INFO | MainProcess | 5
+2025-12-17 20:05:53,102 | INFO | MainProcess | $$$$
+2025-12-17 20:05:53,102 | INFO | MainProcess | Time taken for H-impcol_b.mtx.rnd with k = 37: 13.88735556602478 seconds
+2025-12-17 20:05:53,102 | INFO | MainProcess | Maximum width for H-impcol_b.mtx.rnd is 5
+2025-12-17 20:05:53,741 | INFO | Process-25 | Number of variables: 11307
+2025-12-17 20:05:53,741 | INFO | Process-25 | Number of clauses: 396424
+2025-12-17 20:05:53,909 | INFO | Process-25 | CNF written to cnf/v2\I_n85_k67\I_n85_k67_w15.cnf
+2025-12-17 20:05:53,909 | ERROR | Process-25 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-17 20:05:58,966 | RESULT | Process-25 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-17 20:05:58,998 | INFO | MainProcess | Found a solution 15
+2025-12-17 20:05:58,998 | INFO | MainProcess | [Test k=67, w=15] Time: 5.9 seconds
+2025-12-17 20:05:59,035 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 20:05:59,655 | INFO | Process-26 | Number of variables: 11307
+2025-12-17 20:05:59,655 | INFO | Process-26 | Number of clauses: 419200
+2025-12-17 20:05:59,826 | INFO | Process-26 | CNF written to cnf/v2\I_n85_k67\I_n85_k67_w16.cnf
+2025-12-17 20:05:59,826 | ERROR | Process-26 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-17 20:06:01,425 | RESULT | Process-26 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-17 20:06:01,468 | INFO | MainProcess | Found a solution 16
+2025-12-17 20:06:01,468 | INFO | MainProcess | [Test k=67, w=16] Time: 2.43 seconds
+2025-12-17 20:06:01,489 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 20:06:02,129 | INFO | Process-27 | Number of variables: 11307
+2025-12-17 20:06:02,129 | INFO | Process-27 | Number of clauses: 441538
+2025-12-17 20:06:02,315 | INFO | Process-27 | CNF written to cnf/v2\I_n85_k67\I_n85_k67_w17.cnf
+2025-12-17 20:06:02,315 | ERROR | Process-27 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-17 20:06:06,590 | RESULT | Process-27 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-17 20:06:06,632 | INFO | MainProcess | Found a solution 17
+2025-12-17 20:06:06,632 | INFO | MainProcess | [Test k=67, w=17] Time: 5.14 seconds
+2025-12-17 20:06:06,649 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 20:06:07,344 | INFO | Process-28 | Number of variables: 11307
+2025-12-17 20:06:07,344 | INFO | Process-28 | Number of clauses: 463438
+2025-12-17 20:06:07,545 | INFO | Process-28 | CNF written to cnf/v2\I_n85_k67\I_n85_k67_w18.cnf
+2025-12-17 20:06:07,545 | ERROR | Process-28 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-17 20:06:33,184 | RESULT | Process-28 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-17 20:06:33,252 | INFO | MainProcess | Found a solution 18
+2025-12-17 20:06:33,252 | INFO | MainProcess | [Test k=67, w=18] Time: 26.6 seconds
+2025-12-17 20:06:33,283 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 20:06:34,346 | INFO | Process-29 | Number of variables: 11307
+2025-12-17 20:06:34,346 | INFO | Process-29 | Number of clauses: 484900
+2025-12-17 20:06:34,663 | INFO | Process-29 | CNF written to cnf/v2\I_n85_k67\I_n85_k67_w19.cnf
+2025-12-17 20:06:34,663 | ERROR | Process-29 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-17 20:35:53,230 | INFO | MainProcess | No solution found 19
+2025-12-17 20:35:53,231 | INFO | MainProcess | [Test k=67, w=19] Time: 1759.95 seconds
+2025-12-17 20:35:53,271 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 20:35:53,322 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 20:35:53,322 | INFO | MainProcess | $$$$
+2025-12-17 20:35:53,322 | INFO | MainProcess | -18
+2025-12-17 20:35:53,322 | INFO | MainProcess | $$$$
+2025-12-17 20:35:53,322 | INFO | MainProcess | Time taken for I-ash85.mtx.rnd with k = 67: 1800.2196412086487 seconds
+2025-12-17 20:35:53,322 | INFO | MainProcess | Maximum width before timeout for I-ash85.mtx.rnd is 18
+2025-12-17 20:35:53,322 | INFO | MainProcess | time out
+2025-12-17 20:35:54,570 | INFO | Process-30 | Number of variables: 11102
+2025-12-17 20:35:54,570 | INFO | Process-30 | Number of clauses: 405828
+2025-12-17 20:35:54,831 | INFO | Process-30 | CNF written to cnf/v2\J_n100_k56\J_n100_k56_w17.cnf
+2025-12-17 20:35:54,831 | ERROR | Process-30 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-17 20:35:57,187 | RESULT | Process-30 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-17 20:35:57,247 | INFO | MainProcess | Found a solution 17
+2025-12-17 20:35:57,247 | INFO | MainProcess | [Test k=56, w=17] Time: 3.93 seconds
+2025-12-17 20:35:57,281 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 20:35:58,485 | INFO | Process-31 | Number of variables: 11102
+2025-12-17 20:35:58,485 | INFO | Process-31 | Number of clauses: 425094
+2025-12-17 20:35:58,783 | INFO | Process-31 | CNF written to cnf/v2\J_n100_k56\J_n100_k56_w18.cnf
+2025-12-17 20:35:58,783 | ERROR | Process-31 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-17 20:36:01,119 | RESULT | Process-31 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-17 20:36:01,178 | INFO | MainProcess | Found a solution 18
+2025-12-17 20:36:01,178 | INFO | MainProcess | [Test k=56, w=18] Time: 3.9 seconds
+2025-12-17 20:36:01,215 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 20:36:02,594 | INFO | Process-32 | Number of variables: 11102
+2025-12-17 20:36:02,594 | INFO | Process-32 | Number of clauses: 443866
+2025-12-17 20:36:02,904 | INFO | Process-32 | CNF written to cnf/v2\J_n100_k56\J_n100_k56_w19.cnf
+2025-12-17 20:36:02,904 | ERROR | Process-32 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-17 20:36:03,518 | RESULT | Process-32 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-17 20:36:03,579 | INFO | MainProcess | Found a solution 19
+2025-12-17 20:36:03,579 | INFO | MainProcess | [Test k=56, w=19] Time: 2.36 seconds
+2025-12-17 20:36:03,603 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 20:36:04,839 | INFO | Process-33 | Number of variables: 11102
+2025-12-17 20:36:04,839 | INFO | Process-33 | Number of clauses: 462144
+2025-12-17 20:36:05,161 | INFO | Process-33 | CNF written to cnf/v2\J_n100_k56\J_n100_k56_w20.cnf
+2025-12-17 20:36:05,162 | ERROR | Process-33 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-17 20:36:07,659 | RESULT | Process-33 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-17 20:36:07,727 | INFO | MainProcess | Found a solution 20
+2025-12-17 20:36:07,727 | INFO | MainProcess | [Test k=56, w=20] Time: 4.12 seconds
+2025-12-17 20:36:07,761 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 20:36:09,238 | INFO | Process-34 | Number of variables: 11102
+2025-12-17 20:36:09,238 | INFO | Process-34 | Number of clauses: 479928
+2025-12-17 20:36:09,558 | INFO | Process-34 | CNF written to cnf/v2\J_n100_k56\J_n100_k56_w21.cnf
+2025-12-17 20:36:09,558 | ERROR | Process-34 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-17 20:36:29,922 | RESULT | Process-34 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-17 20:36:29,990 | INFO | MainProcess | Found a solution 21
+2025-12-17 20:36:29,990 | INFO | MainProcess | [Test k=56, w=21] Time: 22.23 seconds
+2025-12-17 20:36:30,012 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 20:36:31,464 | INFO | Process-35 | Number of variables: 11102
+2025-12-17 20:36:31,464 | INFO | Process-35 | Number of clauses: 497218
+2025-12-17 20:36:31,799 | INFO | Process-35 | CNF written to cnf/v2\J_n100_k56\J_n100_k56_w22.cnf
+2025-12-17 20:36:31,799 | ERROR | Process-35 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-17 20:43:38,631 | RESULT | Process-35 | No solution exists
+2025-12-17 20:43:38,632 | RESULT | Process-35 | Time taken: 427.76044487953186 seconds
+2025-12-17 20:43:38,695 | INFO | MainProcess | No solution found 22
+2025-12-17 20:43:38,696 | INFO | MainProcess | [Test k=56, w=22] Time: 428.68 seconds
+2025-12-17 20:43:38,720 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 20:43:38,763 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 20:43:38,763 | INFO | MainProcess | $$$$
+2025-12-17 20:43:38,763 | INFO | MainProcess | 21
+2025-12-17 20:43:38,763 | INFO | MainProcess | $$$$
+2025-12-17 20:43:38,763 | INFO | MainProcess | Time taken for J-nos4.mtx.rnd with k = 56: 465.4416935443878 seconds
+2025-12-17 20:43:38,764 | INFO | MainProcess | Maximum width for J-nos4.mtx.rnd is 21
+2025-12-17 20:43:40,283 | INFO | Process-36 | Number of variables: 18605
+2025-12-17 20:43:40,283 | INFO | Process-36 | Number of clauses: 667709
+2025-12-17 20:43:40,707 | INFO | Process-36 | CNF written to cnf/v2\K_n117_k80\K_n117_k80_w31.cnf
+2025-12-17 20:43:40,708 | ERROR | Process-36 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-17 20:43:44,622 | RESULT | Process-36 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-17 20:43:44,702 | INFO | MainProcess | Found a solution 31
+2025-12-17 20:43:44,702 | INFO | MainProcess | [Test k=80, w=31] Time: 5.92 seconds
+2025-12-17 20:43:44,738 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 20:43:46,239 | INFO | Process-37 | Number of variables: 18605
+2025-12-17 20:43:46,239 | INFO | Process-37 | Number of clauses: 683585
+2025-12-17 20:43:46,685 | INFO | Process-37 | CNF written to cnf/v2\K_n117_k80\K_n117_k80_w32.cnf
+2025-12-17 20:43:46,685 | ERROR | Process-37 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-17 20:43:55,199 | RESULT | Process-37 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-17 20:43:55,280 | INFO | MainProcess | Found a solution 32
+2025-12-17 20:43:55,280 | INFO | MainProcess | [Test k=80, w=32] Time: 10.54 seconds
+2025-12-17 20:43:55,313 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 20:43:57,029 | INFO | Process-38 | Number of variables: 18605
+2025-12-17 20:43:57,030 | INFO | Process-38 | Number of clauses: 699137
+2025-12-17 20:43:57,483 | INFO | Process-38 | CNF written to cnf/v2\K_n117_k80\K_n117_k80_w33.cnf
+2025-12-17 20:43:57,483 | ERROR | Process-38 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-17 20:44:08,350 | RESULT | Process-38 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-17 20:44:08,433 | INFO | MainProcess | Found a solution 33
+2025-12-17 20:44:08,433 | INFO | MainProcess | [Test k=80, w=33] Time: 13.12 seconds
+2025-12-17 20:44:08,472 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 20:44:10,166 | INFO | Process-39 | Number of variables: 18605
+2025-12-17 20:44:10,166 | INFO | Process-39 | Number of clauses: 714365
+2025-12-17 20:44:10,627 | INFO | Process-39 | CNF written to cnf/v2\K_n117_k80\K_n117_k80_w34.cnf
+2025-12-17 20:44:10,627 | ERROR | Process-39 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-17 20:44:18,531 | RESULT | Process-39 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-17 20:44:18,617 | INFO | MainProcess | Found a solution 34
+2025-12-17 20:44:18,617 | INFO | MainProcess | [Test k=80, w=34] Time: 10.14 seconds
+2025-12-17 20:44:18,644 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 20:44:20,290 | INFO | Process-40 | Number of variables: 18605
+2025-12-17 20:44:20,290 | INFO | Process-40 | Number of clauses: 729269
+2025-12-17 20:44:20,758 | INFO | Process-40 | CNF written to cnf/v2\K_n117_k80\K_n117_k80_w35.cnf
+2025-12-17 20:44:20,758 | ERROR | Process-40 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-17 20:46:33,404 | RESULT | Process-40 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-17 20:46:33,490 | INFO | MainProcess | Found a solution 35
+2025-12-17 20:46:33,490 | INFO | MainProcess | [Test k=80, w=35] Time: 134.85 seconds
+2025-12-17 20:46:33,522 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 20:46:35,312 | INFO | Process-41 | Number of variables: 18605
+2025-12-17 20:46:35,312 | INFO | Process-41 | Number of clauses: 743849
+2025-12-17 20:46:35,786 | INFO | Process-41 | CNF written to cnf/v2\K_n117_k80\K_n117_k80_w36.cnf
+2025-12-17 20:46:35,787 | ERROR | Process-41 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-17 20:47:13,985 | RESULT | Process-41 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-17 20:47:14,072 | INFO | MainProcess | Found a solution 36
+2025-12-17 20:47:14,072 | INFO | MainProcess | [Test k=80, w=36] Time: 40.55 seconds
+2025-12-17 20:47:14,110 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 20:47:15,907 | INFO | Process-42 | Number of variables: 18605
+2025-12-17 20:47:15,907 | INFO | Process-42 | Number of clauses: 758105
+2025-12-17 20:47:16,397 | INFO | Process-42 | CNF written to cnf/v2\K_n117_k80\K_n117_k80_w37.cnf
+2025-12-17 20:47:16,397 | ERROR | Process-42 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-17 21:13:39,015 | INFO | MainProcess | No solution found 37
+2025-12-17 21:13:39,016 | INFO | MainProcess | [Test k=80, w=37] Time: 1584.9 seconds
+2025-12-17 21:13:39,053 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 21:13:39,100 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 21:13:39,100 | INFO | MainProcess | $$$$
+2025-12-17 21:13:39,100 | INFO | MainProcess | -36
+2025-12-17 21:13:39,100 | INFO | MainProcess | $$$$
+2025-12-17 21:13:39,100 | INFO | MainProcess | Time taken for K-dwt__234.mtx.rnd with k = 80: 1800.335964679718 seconds
+2025-12-17 21:13:39,100 | INFO | MainProcess | Maximum width before timeout for K-dwt__234.mtx.rnd is 36
+2025-12-17 21:13:39,100 | INFO | MainProcess | time out
+2025-12-17 21:13:40,086 | INFO | Process-43 | Number of variables: 14516
+2025-12-17 21:13:40,086 | INFO | Process-43 | Number of clauses: 386458
+2025-12-17 21:13:40,337 | INFO | Process-43 | CNF written to cnf/v2\L_n118_k62\L_n118_k62_w20.cnf
+2025-12-17 21:13:40,338 | ERROR | Process-43 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-17 21:13:42,087 | RESULT | Process-43 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-17 21:13:42,143 | INFO | MainProcess | Found a solution 20
+2025-12-17 21:13:42,143 | INFO | MainProcess | [Test k=62, w=20] Time: 3.03 seconds
+2025-12-17 21:13:42,177 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 21:13:43,115 | INFO | Process-44 | Number of variables: 14516
+2025-12-17 21:13:43,115 | INFO | Process-44 | Number of clauses: 401494
+2025-12-17 21:13:43,367 | INFO | Process-44 | CNF written to cnf/v2\L_n118_k62\L_n118_k62_w21.cnf
+2025-12-17 21:13:43,367 | ERROR | Process-44 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-17 21:13:43,734 | RESULT | Process-44 | No solution exists
+2025-12-17 21:13:43,735 | RESULT | Process-44 | Time taken: 1.0768256187438965 seconds
+2025-12-17 21:13:43,791 | INFO | MainProcess | No solution found 21
+2025-12-17 21:13:43,791 | INFO | MainProcess | [Test k=62, w=21] Time: 1.61 seconds
+2025-12-17 21:13:43,815 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 21:13:43,842 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 21:13:43,843 | INFO | MainProcess | $$$$
+2025-12-17 21:13:43,843 | INFO | MainProcess | 20
+2025-12-17 21:13:43,843 | INFO | MainProcess | $$$$
+2025-12-17 21:13:43,843 | INFO | MainProcess | Time taken for L-bcspwr03.mtx.rnd with k = 62: 4.743237018585205 seconds
+2025-12-17 21:13:43,843 | INFO | MainProcess | Maximum width for L-bcspwr03.mtx.rnd is 20
+2025-12-17 21:15:02,213 | INFO | Process-45 | Number of variables: 270902
+2025-12-17 21:15:02,214 | INFO | Process-45 | Number of clauses: 48107603
+2025-12-17 21:15:33,089 | INFO | Process-45 | CNF written to cnf/v2\M_n420_k323\M_n420_k323_w21.cnf
+2025-12-17 21:15:33,089 | ERROR | Process-45 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-17 21:42:43,707 | RESULT | Process-45 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-17 21:42:47,514 | INFO | MainProcess | Found a solution 21
+2025-12-17 21:42:47,514 | INFO | MainProcess | [Test k=323, w=21] Time: 1743.66 seconds
+2025-12-17 21:42:47,562 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 21:43:46,013 | INFO | MainProcess | No solution found 22
+2025-12-17 21:43:46,013 | INFO | MainProcess | [Test k=323, w=22] Time: 58.45 seconds
+2025-12-17 21:43:46,037 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 21:43:46,084 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 21:43:46,084 | INFO | MainProcess | $$$$
+2025-12-17 21:43:46,084 | INFO | MainProcess | -21
+2025-12-17 21:43:46,084 | INFO | MainProcess | $$$$
+2025-12-17 21:43:46,084 | INFO | MainProcess | Time taken for M-bcsstk06.mtx.rnd with k = 323: 1802.2403066158295 seconds
+2025-12-17 21:43:46,084 | INFO | MainProcess | Maximum width before timeout for M-bcsstk06.mtx.rnd is 21
+2025-12-17 21:43:46,084 | INFO | MainProcess | time out
+2025-12-17 21:44:17,420 | INFO | Process-47 | Number of variables: 187427
+2025-12-17 21:44:17,420 | INFO | Process-47 | Number of clauses: 23582118
+2025-12-17 21:44:33,632 | INFO | Process-47 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w47.cnf
+2025-12-17 21:44:33,632 | ERROR | Process-47 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-17 21:45:57,792 | RESULT | Process-47 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-17 21:45:59,170 | INFO | MainProcess | Found a solution 47
+2025-12-17 21:45:59,170 | INFO | MainProcess | [Test k=221, w=47] Time: 133.07 seconds
+2025-12-17 21:45:59,232 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 21:46:31,549 | INFO | Process-48 | Number of variables: 187427
+2025-12-17 21:46:31,549 | INFO | Process-48 | Number of clauses: 24023034
+2025-12-17 21:46:48,282 | INFO | Process-48 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w48.cnf
+2025-12-17 21:46:48,282 | ERROR | Process-48 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-17 21:47:27,935 | RESULT | Process-48 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-17 21:47:29,339 | INFO | MainProcess | Found a solution 48
+2025-12-17 21:47:29,339 | INFO | MainProcess | [Test k=221, w=48] Time: 90.11 seconds
+2025-12-17 21:47:29,399 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 21:48:01,549 | INFO | Process-49 | Number of variables: 187427
+2025-12-17 21:48:01,549 | INFO | Process-49 | Number of clauses: 24461416
+2025-12-17 21:48:18,122 | INFO | Process-49 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w49.cnf
+2025-12-17 21:48:18,122 | ERROR | Process-49 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-17 21:50:59,457 | RESULT | Process-49 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-17 21:51:00,902 | INFO | MainProcess | Found a solution 49
+2025-12-17 21:51:00,902 | INFO | MainProcess | [Test k=221, w=49] Time: 211.5 seconds
+2025-12-17 21:51:00,964 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 21:51:33,981 | INFO | Process-50 | Number of variables: 187427
+2025-12-17 21:51:33,981 | INFO | Process-50 | Number of clauses: 24897264
+2025-12-17 21:51:51,215 | INFO | Process-50 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w50.cnf
+2025-12-17 21:51:51,215 | ERROR | Process-50 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-17 21:53:44,545 | RESULT | Process-50 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-17 21:53:46,052 | INFO | MainProcess | Found a solution 50
+2025-12-17 21:53:46,052 | INFO | MainProcess | [Test k=221, w=50] Time: 165.09 seconds
+2025-12-17 21:53:46,112 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 21:54:19,118 | INFO | Process-51 | Number of variables: 187427
+2025-12-17 21:54:19,118 | INFO | Process-51 | Number of clauses: 25330578
+2025-12-17 21:54:36,346 | INFO | Process-51 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w51.cnf
+2025-12-17 21:54:36,346 | ERROR | Process-51 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-17 21:56:31,699 | RESULT | Process-51 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-17 21:56:33,167 | INFO | MainProcess | Found a solution 51
+2025-12-17 21:56:33,167 | INFO | MainProcess | [Test k=221, w=51] Time: 167.05 seconds
+2025-12-17 21:56:33,215 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 21:57:06,772 | INFO | Process-52 | Number of variables: 187427
+2025-12-17 21:57:06,772 | INFO | Process-52 | Number of clauses: 25761358
+2025-12-17 21:57:24,957 | INFO | Process-52 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w52.cnf
+2025-12-17 21:57:24,957 | ERROR | Process-52 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-17 21:59:01,421 | RESULT | Process-52 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-17 21:59:03,009 | INFO | MainProcess | Found a solution 52
+2025-12-17 21:59:03,009 | INFO | MainProcess | [Test k=221, w=52] Time: 149.79 seconds
+2025-12-17 21:59:03,046 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 21:59:37,187 | INFO | Process-53 | Number of variables: 187427
+2025-12-17 21:59:37,187 | INFO | Process-53 | Number of clauses: 26189604
+2025-12-17 21:59:55,023 | INFO | Process-53 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w53.cnf
+2025-12-17 21:59:55,023 | ERROR | Process-53 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-17 22:01:07,841 | RESULT | Process-53 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-17 22:01:09,613 | INFO | MainProcess | Found a solution 53
+2025-12-17 22:01:09,615 | INFO | MainProcess | [Test k=221, w=53] Time: 126.57 seconds
+2025-12-17 22:01:09,652 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 22:01:43,496 | INFO | Process-54 | Number of variables: 187427
+2025-12-17 22:01:43,496 | INFO | Process-54 | Number of clauses: 26615316
+2025-12-17 22:02:01,402 | INFO | Process-54 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w54.cnf
+2025-12-17 22:02:01,402 | ERROR | Process-54 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-17 22:04:58,617 | RESULT | Process-54 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-17 22:05:00,204 | INFO | MainProcess | Found a solution 54
+2025-12-17 22:05:00,204 | INFO | MainProcess | [Test k=221, w=54] Time: 230.55 seconds
+2025-12-17 22:05:00,238 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 22:05:34,557 | INFO | Process-55 | Number of variables: 187427
+2025-12-17 22:05:34,557 | INFO | Process-55 | Number of clauses: 27038494
+2025-12-17 22:05:53,016 | INFO | Process-55 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w55.cnf
+2025-12-17 22:05:53,017 | ERROR | Process-55 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-17 22:08:04,380 | RESULT | Process-55 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-17 22:08:06,013 | INFO | MainProcess | Found a solution 55
+2025-12-17 22:08:06,013 | INFO | MainProcess | [Test k=221, w=55] Time: 185.78 seconds
+2025-12-17 22:08:06,050 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 22:08:41,071 | INFO | Process-56 | Number of variables: 187427
+2025-12-17 22:08:41,071 | INFO | Process-56 | Number of clauses: 27459138
+2025-12-17 22:08:59,822 | INFO | Process-56 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w56.cnf
+2025-12-17 22:08:59,823 | ERROR | Process-56 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-17 22:13:46,833 | INFO | MainProcess | No solution found 56
+2025-12-17 22:13:46,834 | INFO | MainProcess | [Test k=221, w=56] Time: 340.78 seconds
+2025-12-17 22:13:46,879 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 22:13:46,923 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 22:13:46,923 | INFO | MainProcess | $$$$
+2025-12-17 22:13:46,923 | INFO | MainProcess | -55
+2025-12-17 22:13:46,923 | INFO | MainProcess | $$$$
+2025-12-17 22:13:46,923 | INFO | MainProcess | Time taken for O-impcol_d.mtx.rnd with k = 221: 1800.8394837379456 seconds
+2025-12-17 22:13:46,923 | INFO | MainProcess | Maximum width before timeout for O-impcol_d.mtx.rnd is 55
+2025-12-17 22:13:46,923 | INFO | MainProcess | time out
+2025-12-17 22:15:06,652 | INFO | Process-57 | Number of variables: 295927
+2025-12-17 22:15:06,652 | INFO | Process-57 | Number of clauses: 59295051
+2025-12-17 22:15:47,522 | INFO | Process-57 | CNF written to cnf/v2\P_n445_k333\P_n445_k333_w58.cnf
+2025-12-17 22:15:47,522 | ERROR | Process-57 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-17 22:43:47,600 | INFO | MainProcess | No solution found 58
+2025-12-17 22:43:47,600 | INFO | MainProcess | [Test k=333, w=58] Time: 1800.65 seconds
+2025-12-17 22:43:47,649 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 22:43:47,682 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 22:43:47,682 | INFO | MainProcess | $$$$
+2025-12-17 22:43:47,682 | INFO | MainProcess | -9999
+2025-12-17 22:43:47,682 | INFO | MainProcess | $$$$
+2025-12-17 22:43:47,682 | INFO | MainProcess | Time taken for P-can__445.mtx.rnd with k = 333: 1800.7574396133423 seconds
+2025-12-17 22:43:47,682 | INFO | MainProcess | No answer before timeout for P-can__445.mtx.rnd
+2025-12-17 22:43:47,682 | INFO | MainProcess | time out
+2025-12-17 22:44:38,244 | INFO | Process-58 | Number of variables: 321596
+2025-12-17 22:44:38,244 | INFO | Process-58 | Number of clauses: 43242396
+2025-12-17 22:45:05,994 | INFO | Process-58 | CNF written to cnf/v2\Q_n494_k326\Q_n494_k326_w144.cnf
+2025-12-17 22:45:05,994 | ERROR | Process-58 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-17 23:13:48,233 | INFO | MainProcess | No solution found 144
+2025-12-17 23:13:48,233 | INFO | MainProcess | [Test k=326, w=144] Time: 1800.54 seconds
+2025-12-17 23:13:48,281 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 23:13:48,331 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 23:13:48,332 | INFO | MainProcess | $$$$
+2025-12-17 23:13:48,332 | INFO | MainProcess | -9999
+2025-12-17 23:13:48,332 | INFO | MainProcess | $$$$
+2025-12-17 23:13:48,332 | INFO | MainProcess | Time taken for Q-494_bus.mtx.rnd with k = 326: 1800.6504065990448 seconds
+2025-12-17 23:13:48,332 | INFO | MainProcess | No answer before timeout for Q-494_bus.mtx.rnd
+2025-12-17 23:13:48,332 | INFO | MainProcess | time out
+2025-12-17 23:15:10,766 | INFO | Process-59 | Number of variables: 348581
+2025-12-17 23:15:10,766 | INFO | Process-59 | Number of clauses: 56417055
+2025-12-17 23:15:46,977 | INFO | Process-59 | CNF written to cnf/v2\R_n503_k347\R_n503_k347_w31.cnf
+2025-12-17 23:15:46,977 | ERROR | Process-59 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-17 23:23:26,206 | RESULT | Process-59 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-17 23:23:30,716 | INFO | MainProcess | Found a solution 31
+2025-12-17 23:23:30,716 | INFO | MainProcess | [Test k=347, w=31] Time: 582.37 seconds
+2025-12-17 23:23:30,762 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 23:24:55,067 | INFO | Process-60 | Number of variables: 348581
+2025-12-17 23:24:55,067 | INFO | Process-60 | Number of clauses: 58162639
+2025-12-17 23:25:32,388 | INFO | Process-60 | CNF written to cnf/v2\R_n503_k347\R_n503_k347_w32.cnf
+2025-12-17 23:25:32,388 | ERROR | Process-60 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-17 23:29:01,711 | RESULT | Process-60 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-17 23:29:05,783 | INFO | MainProcess | Found a solution 32
+2025-12-17 23:29:05,783 | INFO | MainProcess | [Test k=347, w=32] Time: 335.02 seconds
+2025-12-17 23:29:05,816 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 23:30:32,308 | INFO | Process-61 | Number of variables: 348581
+2025-12-17 23:30:32,308 | INFO | Process-61 | Number of clauses: 59902699
+2025-12-17 23:31:10,783 | INFO | Process-61 | CNF written to cnf/v2\R_n503_k347\R_n503_k347_w33.cnf
+2025-12-17 23:31:10,783 | ERROR | Process-61 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-17 23:37:35,181 | RESULT | Process-61 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-17 23:37:40,680 | INFO | MainProcess | Found a solution 33
+2025-12-17 23:37:40,680 | INFO | MainProcess | [Test k=347, w=33] Time: 514.86 seconds
+2025-12-17 23:37:40,716 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 23:39:06,849 | INFO | Process-62 | Number of variables: 348581
+2025-12-17 23:39:06,849 | INFO | Process-62 | Number of clauses: 61637235
+2025-12-17 23:39:46,821 | INFO | Process-62 | CNF written to cnf/v2\R_n503_k347\R_n503_k347_w34.cnf
+2025-12-17 23:39:46,821 | ERROR | Process-62 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-17 23:43:49,163 | INFO | MainProcess | No solution found 34
+2025-12-17 23:43:49,163 | INFO | MainProcess | [Test k=347, w=34] Time: 368.45 seconds
+2025-12-17 23:43:49,192 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 23:43:49,280 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-17 23:43:49,280 | INFO | MainProcess | $$$$
+2025-12-17 23:43:49,280 | INFO | MainProcess | -33
+2025-12-17 23:43:49,280 | INFO | MainProcess | $$$$
+2025-12-17 23:43:49,280 | INFO | MainProcess | Time taken for R-dwt__503.mtx.rnd with k = 347: 1800.9483134746552 seconds
+2025-12-17 23:43:49,280 | INFO | MainProcess | Maximum width before timeout for R-dwt__503.mtx.rnd is 33
+2025-12-17 23:43:49,280 | INFO | MainProcess | time out
+2025-12-17 23:45:48,025 | INFO | Process-63 | Number of variables: 351080
+2025-12-17 23:45:48,026 | INFO | Process-63 | Number of clauses: 100124872
+2025-12-17 23:46:54,601 | INFO | Process-63 | CNF written to cnf/v2\S_n546_k322\S_n546_k322_w151.cnf
+2025-12-17 23:46:54,602 | ERROR | Process-63 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-18 00:13:50,258 | INFO | MainProcess | No solution found 151
+2025-12-18 00:13:50,262 | INFO | MainProcess | [Test k=322, w=151] Time: 1800.97 seconds
+2025-12-18 00:13:50,387 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-18 00:13:50,446 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-18 00:13:50,446 | INFO | MainProcess | $$$$
+2025-12-18 00:13:50,446 | INFO | MainProcess | -9999
+2025-12-18 00:13:50,446 | INFO | MainProcess | $$$$
+2025-12-18 00:13:50,446 | INFO | MainProcess | Time taken for S-sherman4.mtx.rnd with k = 322: 1801.1659932136536 seconds
+2025-12-18 00:13:50,446 | INFO | MainProcess | No answer before timeout for S-sherman4.mtx.rnd
+2025-12-18 00:13:50,446 | INFO | MainProcess | time out
+2025-12-18 00:15:57,245 | INFO | Process-64 | Number of variables: 446962
+2025-12-18 00:15:57,246 | INFO | Process-64 | Number of clauses: 101292042
+2025-12-18 00:17:02,775 | INFO | Process-64 | CNF written to cnf/v2\T_n592_k378\T_n592_k378_w65.cnf
+2025-12-18 00:17:02,775 | ERROR | Process-64 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-18 00:43:51,264 | INFO | MainProcess | No solution found 65
+2025-12-18 00:43:51,265 | INFO | MainProcess | [Test k=378, w=65] Time: 1800.81 seconds
+2025-12-18 00:43:51,341 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-18 00:43:51,389 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-18 00:43:51,389 | INFO | MainProcess | $$$$
+2025-12-18 00:43:51,389 | INFO | MainProcess | -9999
+2025-12-18 00:43:51,389 | INFO | MainProcess | $$$$
+2025-12-18 00:43:51,389 | INFO | MainProcess | Time taken for T-dwt__592.mtx.rnd with k = 378: 1800.943063735962 seconds
+2025-12-18 00:43:51,389 | INFO | MainProcess | No answer before timeout for T-dwt__592.mtx.rnd
+2025-12-18 00:43:51,389 | INFO | MainProcess | time out
+2025-12-18 00:46:33,136 | INFO | Process-65 | Number of variables: 682524
+2025-12-18 00:46:33,143 | INFO | Process-65 | Number of clauses: 133475070
+2025-12-18 00:48:00,915 | INFO | Process-65 | CNF written to cnf/v2\U_n662_k516\U_n662_k516_w170.cnf
+2025-12-18 00:48:00,921 | ERROR | Process-65 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-18 01:13:52,627 | INFO | MainProcess | No solution found 170
+2025-12-18 01:13:52,630 | INFO | MainProcess | [Test k=516, w=170] Time: 1801.23 seconds
+2025-12-18 01:13:52,740 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-18 01:13:52,786 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-18 01:13:52,786 | INFO | MainProcess | $$$$
+2025-12-18 01:13:52,786 | INFO | MainProcess | -9999
+2025-12-18 01:13:52,786 | INFO | MainProcess | $$$$
+2025-12-18 01:13:52,786 | INFO | MainProcess | Time taken for U-662_bus.mtx.rnd with k = 516: 1801.3965518474579 seconds
+2025-12-18 01:13:52,786 | INFO | MainProcess | No answer before timeout for U-662_bus.mtx.rnd
+2025-12-18 01:13:52,786 | INFO | MainProcess | time out
+2025-12-18 01:17:10,913 | INFO | Process-66 | Number of variables: 546077
+2025-12-18 01:17:10,930 | INFO | Process-66 | Number of clauses: 155250855
+2025-12-18 01:19:05,520 | INFO | Process-66 | CNF written to cnf/v2\V_n675_k405\V_n675_k405_w195.cnf
+2025-12-18 01:19:05,522 | ERROR | Process-66 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-18 01:43:56,640 | INFO | MainProcess | No solution found 195
+2025-12-18 01:43:56,645 | INFO | MainProcess | [Test k=405, w=195] Time: 1803.84 seconds
+2025-12-18 01:43:56,763 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-18 01:43:56,826 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-18 01:43:56,827 | INFO | MainProcess | $$$$
+2025-12-18 01:43:56,827 | INFO | MainProcess | -9999
+2025-12-18 01:43:56,827 | INFO | MainProcess | $$$$
+2025-12-18 01:43:56,827 | INFO | MainProcess | Time taken for V-nos6.mtx.rnd with k = 405: 1804.0407016277313 seconds
+2025-12-18 01:43:56,827 | INFO | MainProcess | No answer before timeout for V-nos6.mtx.rnd
+2025-12-18 01:43:56,827 | INFO | MainProcess | time out
+2025-12-18 01:45:31,177 | INFO | Process-67 | Number of variables: 543207
+2025-12-18 01:45:31,177 | INFO | Process-67 | Number of clauses: 72002355
+2025-12-18 01:46:18,557 | INFO | Process-67 | CNF written to cnf/v2\W_n685_k397\W_n685_k397_w78.cnf
+2025-12-18 01:46:18,557 | ERROR | Process-67 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-18 01:52:27,824 | RESULT | Process-67 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-18 01:52:32,611 | INFO | MainProcess | Found a solution 78
+2025-12-18 01:52:32,611 | INFO | MainProcess | [Test k=397, w=78] Time: 515.77 seconds
+2025-12-18 01:52:32,662 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-18 01:54:06,950 | INFO | Process-68 | Number of variables: 543207
+2025-12-18 01:54:06,950 | INFO | Process-68 | Number of clauses: 72820271
+2025-12-18 01:54:53,376 | INFO | Process-68 | CNF written to cnf/v2\W_n685_k397\W_n685_k397_w79.cnf
+2025-12-18 01:54:53,376 | ERROR | Process-68 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-18 02:01:07,746 | RESULT | Process-68 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-18 02:01:12,677 | INFO | MainProcess | Found a solution 79
+2025-12-18 02:01:12,677 | INFO | MainProcess | [Test k=397, w=79] Time: 520.01 seconds
+2025-12-18 02:01:12,712 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-18 02:02:48,109 | INFO | Process-69 | Number of variables: 543207
+2025-12-18 02:02:48,109 | INFO | Process-69 | Number of clauses: 73635623
+2025-12-18 02:03:35,656 | INFO | Process-69 | CNF written to cnf/v2\W_n685_k397\W_n685_k397_w80.cnf
+2025-12-18 02:03:35,657 | ERROR | Process-69 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-18 02:13:57,763 | INFO | MainProcess | No solution found 80
+2025-12-18 02:13:57,763 | INFO | MainProcess | [Test k=397, w=80] Time: 765.05 seconds
+2025-12-18 02:13:57,827 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-18 02:13:57,882 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-18 02:13:57,882 | INFO | MainProcess | $$$$
+2025-12-18 02:13:57,882 | INFO | MainProcess | -79
+2025-12-18 02:13:57,882 | INFO | MainProcess | $$$$
+2025-12-18 02:13:57,882 | INFO | MainProcess | Time taken for W-685_bus.mtx.rnd with k = 397: 1801.0555939674377 seconds
+2025-12-18 02:13:57,882 | INFO | MainProcess | Maximum width before timeout for W-685_bus.mtx.rnd is 79
+2025-12-18 02:13:57,882 | INFO | MainProcess | time out
+2025-12-18 02:19:14,697 | INFO | Process-70 | Number of variables: 714287
+2025-12-18 02:19:14,708 | INFO | Process-70 | Number of clauses: 213765505
+2025-12-18 02:22:09,358 | INFO | Process-70 | CNF written to cnf/v2\X_n715_k500\X_n715_k500_w78.cnf
+2025-12-18 02:22:09,365 | ERROR | Process-70 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-18 02:44:01,098 | INFO | MainProcess | No solution found 78
+2025-12-18 02:44:01,103 | INFO | MainProcess | [Test k=500, w=78] Time: 1803.2 seconds
+2025-12-18 02:44:01,273 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-18 02:44:01,350 | INFO | MainProcess | Row appended to output/output_directencoding_cadical.xlsx
+2025-12-18 02:44:01,350 | INFO | MainProcess | $$$$
+2025-12-18 02:44:01,350 | INFO | MainProcess | -9999
+2025-12-18 02:44:01,350 | INFO | MainProcess | $$$$
+2025-12-18 02:44:01,350 | INFO | MainProcess | Time taken for X-can__715.mtx.rnd with k = 500: 1803.4677679538727 seconds
+2025-12-18 02:44:01,350 | INFO | MainProcess | No answer before timeout for X-can__715.mtx.rnd
+2025-12-18 02:44:01,350 | INFO | MainProcess | time out

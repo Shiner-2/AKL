@@ -1,0 +1,9 @@
+2026-01-07 00:26:16,772 | INFO | MainProcess | === Start solve() ===
+2026-01-07 00:26:17,134 | INFO | Process-1 | Number of clauses before symmetry breaking: 1
+2026-01-07 00:26:17,134 | INFO | Process-1 | Number of clauses after symmetry breaking: 162
+2026-01-07 00:26:20,267 | INFO | Process-1 | Number of variables: 406562
+2026-01-07 00:26:20,267 | INFO | Process-1 | Number of clauses: 3349857
+2026-01-07 00:26:20,267 | INFO | Process-1 | Real nums of clauses: 3351125
+2026-01-07 00:26:20,267 | INFO | Process-1 | Real nums of variables: 406560
+2026-01-07 00:26:21,929 | INFO | Process-1 | CNF written to cnf/v2\M_n420_k323\M_n420_k323_w21.cnf
+2026-01-07 00:26:21,929 | ERROR | Process-1 | Some thing wrong with PAINLESS, Solving with PySAT...

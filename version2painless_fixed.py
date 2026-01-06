@@ -16,13 +16,14 @@ from typing import Optional, Dict, Any
 #  ./painless/build/release/painless_release cnf/K_n117_k80/K_n117_k80_w38.cnf   -c=4   -solver=cckk -no-model
 
 # Global config
-LOG_FILE = "logs/log_version_2_fixed_painless.txt"
-EXCEL_FILE = "output/output_version_2_fixed_painless.xlsx"
+LOG_FILE = "logs/version2fixed/log_version_2_fixed_cadical_symmetry.txt" 
+EXCEL_FILE = "output/version2fixed/output_version_2_fixed_cadical_symmetry.xlsx"
+# 2 là có symmetry breaking, 1 là không có symmetry breaking
 
 # --- Painless runner config ---
 PAINLESS_BIN = "./painless/build/release/painless_release"  # đổi nếu khác
-PAINLESS_ARGS = ["-c=4", "-solver=cckk", "-no-model"]       # tuỳ chọn
-RUN_PAINLESS = True                                         # bật/tắt chạy Painless
+PAINLESS_ARGS = ["-c=4", "-solver=cckk"]       # tuỳ chọn
+RUN_PAINLESS = False                                         # bật/tắt chạy Painless
 
 top_id = 2
 
@@ -86,6 +87,10 @@ def solve_no_hole_anti_k_labeling(graph, k, width, queue, timeout_sec=3600, inst
             tmp.append(top_id)
             top_id += 1
         x.append(tmp)
+        
+    logger.info(f"Number of clauses before symmetry breaking: {len(clauses)}")
+    clauses.extend(Symetry_breaking(graph, x, k))
+    logger.info(f"Number of clauses after symmetry breaking: {len(clauses)}")
     
     L = [[1]]
     # L[i][j] từ trái sang phải, nếu đỉnh i được gán nhãn <= j thì L[i][j] = 1
@@ -148,15 +153,17 @@ def solve_no_hole_anti_k_labeling(graph, k, width, queue, timeout_sec=3600, inst
                     clauses.append([-x[v][labelv], L[u][labelv - width]])
                 if minu > 0 and maxu < k + 1:
                     clauses.append([-x[v][labelv], L[u][labelv - width], -L[u][labelv + width - 1]])
-
+                    
 
     solver.append_formula(clauses)
 
     logger.info(f"Number of variables: {solver.nof_vars()}")
     logger.info(f"Number of clauses: {solver.nof_clauses()}")
+    logger.info(f"Real nums of clauses: {len(clauses)}")
+    logger.info(f"Real nums of variables: {top_id - 2}")
 
-    queue.put(solver.nof_vars())
-    queue.put(solver.nof_clauses())
+    queue.put(top_id - 2)
+    queue.put(len(clauses))
 
     # Ghi CNF ra file để chạy Painless bên ngoài nếu muốn
     cnf_path = write_cnf_to_file(clauses, solver, n, k, width, instance_name)
@@ -173,11 +180,18 @@ def solve_no_hole_anti_k_labeling(graph, k, width, queue, timeout_sec=3600, inst
         logger.result(f"[PAINLESS] result: status={pres['status']} time={pres['time_sec']:.2f}s rc={pres['returncode']}")
 
         if pres["status"] == "SAT":
+            ok, msg = validate_from_painless(
+                pres["stdout"], graph, x, n, k, width
+            )
+            logger.result(f"[VALIDATE][PAINLESS] {ok} | {msg}")
+
+            if not ok:
+                logger.error("❌ INVALID MODEL FROM PAINLESS")
+                return False
+
             queue.put(True)
-            logger.result(f"[PAINLESS] Shortcut: SAT at width={width}")
-            end = time.time()
-            logger.result(f"Time taken: {end - start} seconds")
             return True
+
         elif pres["status"] == "UNSAT":
             queue.put(False)
             logger.result(f"[PAINLESS] Shortcut: UNSAT at width={width}")
@@ -189,11 +203,19 @@ def solve_no_hole_anti_k_labeling(graph, k, width, queue, timeout_sec=3600, inst
     logger.error("Some thing wrong with PAINLESS, Solving with PySAT...")
     # Fallback: giải bằng PySAT nếu Painless không kết luận được
     if solver.solve():
+        model = solver.get_model()
+        ok, msg = validate_from_pysat_model(
+            model, graph, x, n, k, width
+        )
+        logger.result(f"[VALIDATE][PYSAT] {ok} | {msg}")
+
+        if not ok:
+            logger.error("❌ INVALID MODEL FROM PYSAT")
+            return False
+
         queue.put(True)
-        logger.result(f"Solution found: {width}")
-        end = time.time()
-        logger.result(f"Time taken: {end - start} seconds")
         return True
+
     else:
         queue.put(False)
         logger.result("No solution exists")
@@ -305,6 +327,98 @@ def Exactly_One(variables):
 
     return clauses
 
+# ======================= VALIDATION MODULE =======================
+
+def parse_dimacs_model(stdout: str):
+    """
+    Parse model từ stdout DIMACS (Painless / Kissat / CaDiCaL CLI)
+    Return: set các literal TRUE
+    """
+    true_lits = set()
+    for line in stdout.splitlines():
+        line = line.strip()
+        if not line or line[0] != 'v':
+            continue
+        parts = line.split()[1:]
+        for lit in parts:
+            if lit == '0':
+                continue
+            lit = int(lit)
+            if lit > 0:
+                true_lits.add(lit)
+    return true_lits
+
+
+def extract_labels_from_model(model_true_lits, x, n, k):
+    """
+    Từ model (set literal TRUE) → label_of[i] = label
+    """
+    label_of = {}
+
+    for i in range(1, n + 1):
+        assigned = False
+        for label in range(1, k + 1):
+            if x[i][label] in model_true_lits:
+                label_of[i] = label
+                assigned = True
+                break
+        if not assigned:
+            return None, f"Vertex {i} has no label"
+
+    return label_of, "OK"
+
+
+def validate_solution(graph, label_of, k, width):
+    """
+    Validate nghiệm anti-k-labeling + no-hole
+    """
+    n = len(graph)
+
+    # 1. Exactly-one
+    if label_of is None or len(label_of) != n:
+        return False, "Not all vertices labeled"
+
+    # 2. No-hole: mọi nhãn phải được dùng
+    used_labels = set(label_of.values())
+    for l in range(1, k + 1):
+        if l not in used_labels:
+            return False, f"No-hole violated: label {l} unused"
+
+    # 3. Anti-k-labeling constraint
+    for u in graph:
+        for v in graph[u]:
+            if abs(label_of[u] - label_of[v]) < width:
+                return False, (
+                    f"Width violated on edge ({u},{v}): "
+                    f"|{label_of[u]} - {label_of[v]}| < {width}"
+                )
+
+    return True, "VALID SOLUTION"
+
+
+def validate_from_painless(stdout, graph, x, n, k, width):
+    """
+    Validate output từ Painless
+    """
+    model_true = parse_dimacs_model(stdout)
+    label_of, msg = extract_labels_from_model(model_true, x, n, k)
+    if label_of is None:
+        return False, msg
+    return validate_solution(graph, label_of, k, width)
+
+
+def validate_from_pysat_model(model, graph, x, n, k, width):
+    """
+    Validate output từ PySAT / CaDiCaL
+    """
+    model_true = {lit for lit in model if lit > 0}
+    label_of, msg = extract_labels_from_model(model_true, x, n, k)
+    if label_of is None:
+        return False, msg
+    return validate_solution(graph, label_of, k, width)
+
+
+# ======================= END VALIDATION MODULE =======================
 
 def read_input(file_path):
     graph = {}
@@ -493,7 +607,7 @@ def solve():
         lst.append(os.path.join(folder_path, os.path.basename(file)))
         filename.append(os.path.basename(file))
 
-    for i in range(0, len(lst)):
+    for i in range(12, 13):
         time_start = time.time()
         graph = read_input(lst[i])
         rand = proportion[i]

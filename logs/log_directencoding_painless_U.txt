@@ -1,0 +1,5 @@
+2025-12-18 14:12:01,137 | INFO | MainProcess | === Start solve() ===
+2025-12-18 14:25:15,808 | INFO | Process-1 | Number of variables: 682524
+2025-12-18 14:25:15,942 | INFO | Process-1 | Number of clauses: 133475070
+2025-12-18 14:28:49,392 | INFO | Process-1 | CNF written to cnf/v2/U_n662_k516/U_n662_k516_w170.cnf
+2025-12-18 14:28:49,423 | INFO | Process-1 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/U_n662_k516/U_n662_k516_w170.cnf

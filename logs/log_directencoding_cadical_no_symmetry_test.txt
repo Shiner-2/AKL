@@ -1,0 +1,11 @@
+2026-01-04 18:49:27,889 | INFO | MainProcess | === Start solve() ===
+2026-01-04 19:21:25,666 | INFO | MainProcess | No solution found 65
+2026-01-04 19:21:25,688 | INFO | MainProcess | [Test k=378, w=65] Time: 1917.76 seconds
+2026-01-04 19:21:27,834 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_no_symmetry_test.xlsx
+2026-01-04 19:21:27,955 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_no_symmetry_test.xlsx
+2026-01-04 19:21:27,955 | INFO | MainProcess | $$$$
+2026-01-04 19:21:27,956 | INFO | MainProcess | -9999
+2026-01-04 19:21:27,956 | INFO | MainProcess | $$$$
+2026-01-04 19:21:27,956 | INFO | MainProcess | Time taken for T-dwt__592.mtx.rnd with k = 378: 1920.061955690384 seconds
+2026-01-04 19:21:27,956 | INFO | MainProcess | No answer before timeout for T-dwt__592.mtx.rnd
+2026-01-04 19:21:27,956 | INFO | MainProcess | time out

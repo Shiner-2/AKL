@@ -1,0 +1,23 @@
+2025-12-31 14:19:29,423 | INFO | MainProcess | === Start solve() ===
+2025-12-31 14:19:31,733 | INFO | Process-1 | Number of variables: 819452
+2025-12-31 14:19:31,734 | INFO | Process-1 | Number of clauses: 2955555
+2025-12-31 14:19:32,978 | INFO | Process-1 | CNF written to cnf/v2/V_n675_k405/V_n675_k405_w195.cnf
+2025-12-31 14:19:32,982 | INFO | Process-1 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/V_n675_k405/V_n675_k405_w195.cnf
+2025-12-31 14:26:16,861 | INFO | Process-1 | [PAINLESS] status=SAT rc=10 time=403.88s
+2025-12-31 14:26:16,861 | RESULT | Process-1 | [PAINLESS] result: status=SAT time=403.88s rc=10
+2025-12-31 14:26:16,931 | RESULT | Process-1 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2025-12-31 14:26:17,141 | INFO | MainProcess | Found a solution 195
+2025-12-31 14:26:17,141 | INFO | MainProcess | [Test k=405, w=195] Time: 407.71 seconds
+2025-12-31 14:26:19,281 | INFO | Process-2 | Number of variables: 819452
+2025-12-31 14:26:19,282 | INFO | Process-2 | Number of clauses: 2955555
+2025-12-31 14:26:23,258 | INFO | Process-2 | CNF written to cnf/v2/V_n675_k405/V_n675_k405_w196.cnf
+2025-12-31 14:26:23,265 | INFO | Process-2 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/V_n675_k405/V_n675_k405_w196.cnf
+2025-12-31 14:51:23,520 | INFO | MainProcess | No solution found 196
+2025-12-31 14:51:23,520 | INFO | MainProcess | [Test k=405, w=196] Time: 1506.38 seconds
+2025-12-31 14:51:23,521 | INFO | MainProcess | $$$$
+2025-12-31 14:51:23,521 | INFO | MainProcess | -195
+2025-12-31 14:51:23,521 | INFO | MainProcess | $$$$
+2025-12-31 14:51:23,521 | INFO | MainProcess | Time taken for V-nos6.mtx.rnd with k = 405: 1914.0958797931671 seconds
+2025-12-31 14:51:23,521 | INFO | MainProcess | Maximum width before timeout for V-nos6.mtx.rnd is 195
+2025-12-31 14:51:23,521 | INFO | MainProcess | time out
+2025-12-31 14:51:25,647 | INFO | MainProcess | Data written to output/output_version_2_fixed_painless_V.xlsx

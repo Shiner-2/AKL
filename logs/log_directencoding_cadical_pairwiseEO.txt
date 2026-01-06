@@ -1,0 +1,1619 @@
+2025-12-26 23:47:07,837 | INFO | MainProcess | === Start solve() ===
+2025-12-26 23:47:08,219 | INFO | Process-1 | Number of variables: 691
+2025-12-26 23:47:08,219 | INFO | Process-1 | Number of clauses: 22990
+2025-12-26 23:47:08,232 | INFO | Process-1 | CNF written to cnf/v2\A_n30_k23\A_n30_k23_w4.cnf
+2025-12-26 23:47:08,232 | INFO | Process-1 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\A_n30_k23\A_n30_k23_w4.cnf
+2025-12-26 23:47:08,232 | ERROR | Process-1 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-26 23:47:08,232 | RESULT | Process-1 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-12-26 23:47:08,232 | ERROR | Process-1 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-26 23:47:08,232 | RESULT | Process-1 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-26 23:47:08,258 | INFO | MainProcess | Found a solution 4
+2025-12-26 23:47:08,258 | INFO | MainProcess | [Test k=23, w=4] Time: 0.41 seconds
+2025-12-26 23:47:08,471 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-26 23:47:09,015 | INFO | Process-2 | Number of variables: 691
+2025-12-26 23:47:09,016 | INFO | Process-2 | Number of clauses: 26904
+2025-12-26 23:47:09,043 | INFO | Process-2 | CNF written to cnf/v2\A_n30_k23\A_n30_k23_w5.cnf
+2025-12-26 23:47:09,043 | INFO | Process-2 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\A_n30_k23\A_n30_k23_w5.cnf
+2025-12-26 23:47:09,043 | ERROR | Process-2 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-26 23:47:09,043 | RESULT | Process-2 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-12-26 23:47:09,043 | ERROR | Process-2 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-26 23:47:09,043 | RESULT | Process-2 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-26 23:47:09,101 | INFO | MainProcess | Found a solution 5
+2025-12-26 23:47:09,101 | INFO | MainProcess | [Test k=23, w=5] Time: 0.63 seconds
+2025-12-26 23:47:09,129 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-26 23:47:09,679 | INFO | Process-3 | Number of variables: 691
+2025-12-26 23:47:09,679 | INFO | Process-3 | Number of clauses: 30612
+2025-12-26 23:47:09,716 | INFO | Process-3 | CNF written to cnf/v2\A_n30_k23\A_n30_k23_w6.cnf
+2025-12-26 23:47:09,716 | INFO | Process-3 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\A_n30_k23\A_n30_k23_w6.cnf
+2025-12-26 23:47:09,716 | ERROR | Process-3 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-26 23:47:09,716 | RESULT | Process-3 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-12-26 23:47:09,716 | ERROR | Process-3 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-26 23:47:09,834 | RESULT | Process-3 | No solution exists
+2025-12-26 23:47:09,835 | RESULT | Process-3 | Time taken: 0.18910574913024902 seconds
+2025-12-26 23:47:09,879 | INFO | MainProcess | No solution found 6
+2025-12-26 23:47:09,879 | INFO | MainProcess | [Test k=23, w=6] Time: 0.75 seconds
+2025-12-26 23:47:09,895 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-26 23:47:09,920 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-26 23:47:09,920 | INFO | MainProcess | $$$$
+2025-12-26 23:47:09,920 | INFO | MainProcess | 5
+2025-12-26 23:47:09,920 | INFO | MainProcess | $$$$
+2025-12-26 23:47:09,920 | INFO | MainProcess | Time taken for A-pores_1.mtx.rnd with k = 23: 2.070878744125366 seconds
+2025-12-26 23:47:09,920 | INFO | MainProcess | Maximum width for A-pores_1.mtx.rnd is 5
+2025-12-26 23:47:10,416 | INFO | Process-4 | Number of variables: 577
+2025-12-26 23:47:10,416 | INFO | Process-4 | Number of clauses: 17726
+2025-12-26 23:47:10,431 | INFO | Process-4 | CNF written to cnf/v2\B_n32_k18\B_n32_k18_w5.cnf
+2025-12-26 23:47:10,431 | INFO | Process-4 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\B_n32_k18\B_n32_k18_w5.cnf
+2025-12-26 23:47:10,431 | ERROR | Process-4 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-26 23:47:10,431 | RESULT | Process-4 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-12-26 23:47:10,431 | ERROR | Process-4 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-26 23:47:10,431 | RESULT | Process-4 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-26 23:47:10,482 | INFO | MainProcess | Found a solution 5
+2025-12-26 23:47:10,482 | INFO | MainProcess | [Test k=18, w=5] Time: 0.56 seconds
+2025-12-26 23:47:10,509 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-26 23:47:11,048 | INFO | Process-5 | Number of variables: 577
+2025-12-26 23:47:11,048 | INFO | Process-5 | Number of clauses: 20066
+2025-12-26 23:47:11,065 | INFO | Process-5 | CNF written to cnf/v2\B_n32_k18\B_n32_k18_w6.cnf
+2025-12-26 23:47:11,065 | INFO | Process-5 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\B_n32_k18\B_n32_k18_w6.cnf
+2025-12-26 23:47:11,065 | ERROR | Process-5 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-26 23:47:11,065 | RESULT | Process-5 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-12-26 23:47:11,065 | ERROR | Process-5 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-26 23:47:11,110 | RESULT | Process-5 | No solution exists
+2025-12-26 23:47:11,110 | RESULT | Process-5 | Time taken: 0.0703742504119873 seconds
+2025-12-26 23:47:11,157 | INFO | MainProcess | No solution found 6
+2025-12-26 23:47:11,157 | INFO | MainProcess | [Test k=18, w=6] Time: 0.65 seconds
+2025-12-26 23:47:11,172 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-26 23:47:11,204 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-26 23:47:11,204 | INFO | MainProcess | $$$$
+2025-12-26 23:47:11,204 | INFO | MainProcess | 5
+2025-12-26 23:47:11,204 | INFO | MainProcess | $$$$
+2025-12-26 23:47:11,204 | INFO | MainProcess | Time taken for B-ibm32.mtx.rnd with k = 18: 1.2843067646026611 seconds
+2025-12-26 23:47:11,204 | INFO | MainProcess | Maximum width for B-ibm32.mtx.rnd is 5
+2025-12-26 23:47:11,605 | INFO | Process-6 | Number of variables: 820
+2025-12-26 23:47:11,606 | INFO | Process-6 | Number of clauses: 20164
+2025-12-26 23:47:11,622 | INFO | Process-6 | CNF written to cnf/v2\C_n39_k21\C_n39_k21_w8.cnf
+2025-12-26 23:47:11,622 | INFO | Process-6 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\C_n39_k21\C_n39_k21_w8.cnf
+2025-12-26 23:47:11,623 | ERROR | Process-6 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-26 23:47:11,625 | RESULT | Process-6 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-12-26 23:47:11,625 | ERROR | Process-6 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-26 23:47:11,659 | RESULT | Process-6 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-26 23:47:11,698 | INFO | MainProcess | Found a solution 8
+2025-12-26 23:47:11,698 | INFO | MainProcess | [Test k=21, w=8] Time: 0.49 seconds
+2025-12-26 23:47:11,709 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-26 23:47:12,189 | INFO | Process-7 | Number of variables: 820
+2025-12-26 23:47:12,189 | INFO | Process-7 | Number of clauses: 21360
+2025-12-26 23:47:12,192 | INFO | Process-7 | CNF written to cnf/v2\C_n39_k21\C_n39_k21_w9.cnf
+2025-12-26 23:47:12,192 | INFO | Process-7 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\C_n39_k21\C_n39_k21_w9.cnf
+2025-12-26 23:47:12,192 | ERROR | Process-7 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-26 23:47:12,192 | RESULT | Process-7 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-12-26 23:47:12,192 | ERROR | Process-7 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-26 23:47:12,257 | RESULT | Process-7 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-26 23:47:12,299 | INFO | MainProcess | Found a solution 9
+2025-12-26 23:47:12,299 | INFO | MainProcess | [Test k=21, w=9] Time: 0.59 seconds
+2025-12-26 23:47:12,321 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-26 23:47:12,796 | INFO | Process-8 | Number of variables: 820
+2025-12-26 23:47:12,796 | INFO | Process-8 | Number of clauses: 22464
+2025-12-26 23:47:12,812 | INFO | Process-8 | CNF written to cnf/v2\C_n39_k21\C_n39_k21_w10.cnf
+2025-12-26 23:47:12,813 | INFO | Process-8 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\C_n39_k21\C_n39_k21_w10.cnf
+2025-12-26 23:47:12,813 | ERROR | Process-8 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-26 23:47:12,814 | RESULT | Process-8 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-12-26 23:47:12,814 | ERROR | Process-8 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-26 23:47:12,941 | RESULT | Process-8 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-26 23:47:12,982 | INFO | MainProcess | Found a solution 10
+2025-12-26 23:47:12,982 | INFO | MainProcess | [Test k=21, w=10] Time: 0.66 seconds
+2025-12-26 23:47:13,003 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-26 23:47:13,559 | INFO | Process-9 | Number of variables: 820
+2025-12-26 23:47:13,559 | INFO | Process-9 | Number of clauses: 23476
+2025-12-26 23:47:13,579 | INFO | Process-9 | CNF written to cnf/v2\C_n39_k21\C_n39_k21_w11.cnf
+2025-12-26 23:47:13,579 | INFO | Process-9 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\C_n39_k21\C_n39_k21_w11.cnf
+2025-12-26 23:47:13,580 | ERROR | Process-9 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-26 23:47:13,581 | RESULT | Process-9 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-12-26 23:47:13,581 | ERROR | Process-9 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-26 23:47:13,587 | RESULT | Process-9 | No solution exists
+2025-12-26 23:47:13,588 | RESULT | Process-9 | Time taken: 0.04636216163635254 seconds
+2025-12-26 23:47:13,612 | INFO | MainProcess | No solution found 11
+2025-12-26 23:47:13,612 | INFO | MainProcess | [Test k=21, w=11] Time: 0.61 seconds
+2025-12-26 23:47:13,656 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-26 23:47:13,706 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-26 23:47:13,706 | INFO | MainProcess | $$$$
+2025-12-26 23:47:13,706 | INFO | MainProcess | 10
+2025-12-26 23:47:13,706 | INFO | MainProcess | $$$$
+2025-12-26 23:47:13,706 | INFO | MainProcess | Time taken for C-bcspwr01.mtx.rnd with k = 21: 2.50203013420105 seconds
+2025-12-26 23:47:13,706 | INFO | MainProcess | Maximum width for C-bcspwr01.mtx.rnd is 10
+2025-12-26 23:47:14,179 | INFO | Process-10 | Number of variables: 1393
+2025-12-26 23:47:14,179 | INFO | Process-10 | Number of clauses: 53181
+2025-12-26 23:47:14,211 | INFO | Process-10 | CNF written to cnf/v2\D_n48_k29\D_n48_k29_w4.cnf
+2025-12-26 23:47:14,211 | INFO | Process-10 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\D_n48_k29\D_n48_k29_w4.cnf
+2025-12-26 23:47:14,211 | ERROR | Process-10 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-26 23:47:14,211 | RESULT | Process-10 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-12-26 23:47:14,211 | ERROR | Process-10 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-26 23:47:14,211 | RESULT | Process-10 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-26 23:47:14,259 | INFO | MainProcess | Found a solution 4
+2025-12-26 23:47:14,259 | INFO | MainProcess | [Test k=29, w=4] Time: 0.55 seconds
+2025-12-26 23:47:14,309 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-26 23:47:14,771 | INFO | Process-11 | Number of variables: 1393
+2025-12-26 23:47:14,771 | INFO | Process-11 | Number of clauses: 61981
+2025-12-26 23:47:14,803 | INFO | Process-11 | CNF written to cnf/v2\D_n48_k29\D_n48_k29_w5.cnf
+2025-12-26 23:47:14,803 | INFO | Process-11 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\D_n48_k29\D_n48_k29_w5.cnf
+2025-12-26 23:47:14,803 | ERROR | Process-11 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-26 23:47:14,803 | RESULT | Process-11 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-12-26 23:47:14,803 | ERROR | Process-11 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-26 23:47:14,819 | RESULT | Process-11 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-26 23:47:14,854 | INFO | MainProcess | Found a solution 5
+2025-12-26 23:47:14,854 | INFO | MainProcess | [Test k=29, w=5] Time: 0.55 seconds
+2025-12-26 23:47:14,871 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-26 23:47:15,335 | INFO | Process-12 | Number of variables: 1393
+2025-12-26 23:47:15,335 | INFO | Process-12 | Number of clauses: 70429
+2025-12-26 23:47:15,384 | INFO | Process-12 | CNF written to cnf/v2\D_n48_k29\D_n48_k29_w6.cnf
+2025-12-26 23:47:15,384 | INFO | Process-12 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\D_n48_k29\D_n48_k29_w6.cnf
+2025-12-26 23:47:15,385 | ERROR | Process-12 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-26 23:47:15,386 | RESULT | Process-12 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-12-26 23:47:15,386 | ERROR | Process-12 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-26 23:47:15,982 | RESULT | Process-12 | No solution exists
+2025-12-26 23:47:15,982 | RESULT | Process-12 | Time taken: 0.7181203365325928 seconds
+2025-12-26 23:47:16,028 | INFO | MainProcess | No solution found 6
+2025-12-26 23:47:16,028 | INFO | MainProcess | [Test k=29, w=6] Time: 1.16 seconds
+2025-12-26 23:47:16,048 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-26 23:47:16,085 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-26 23:47:16,085 | INFO | MainProcess | $$$$
+2025-12-26 23:47:16,085 | INFO | MainProcess | 5
+2025-12-26 23:47:16,085 | INFO | MainProcess | $$$$
+2025-12-26 23:47:16,085 | INFO | MainProcess | Time taken for D-bcsstk01.mtx.rnd with k = 29: 2.3785717487335205 seconds
+2025-12-26 23:47:16,085 | INFO | MainProcess | Maximum width for D-bcsstk01.mtx.rnd is 5
+2025-12-26 23:47:16,644 | INFO | Process-13 | Number of variables: 1716
+2025-12-26 23:47:16,644 | INFO | Process-13 | Number of clauses: 76734
+2025-12-26 23:47:16,684 | INFO | Process-13 | CNF written to cnf/v2\E_n49_k35\E_n49_k35_w15.cnf
+2025-12-26 23:47:16,684 | INFO | Process-13 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\E_n49_k35\E_n49_k35_w15.cnf
+2025-12-26 23:47:16,684 | ERROR | Process-13 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-26 23:47:16,684 | RESULT | Process-13 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-12-26 23:47:16,684 | ERROR | Process-13 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-26 23:47:17,610 | RESULT | Process-13 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-26 23:47:17,648 | INFO | MainProcess | Found a solution 15
+2025-12-26 23:47:17,648 | INFO | MainProcess | [Test k=35, w=15] Time: 1.56 seconds
+2025-12-26 23:47:17,674 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-26 23:47:18,128 | INFO | Process-14 | Number of variables: 1716
+2025-12-26 23:47:18,128 | INFO | Process-14 | Number of clauses: 79094
+2025-12-26 23:47:18,178 | INFO | Process-14 | CNF written to cnf/v2\E_n49_k35\E_n49_k35_w16.cnf
+2025-12-26 23:47:18,178 | INFO | Process-14 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\E_n49_k35\E_n49_k35_w16.cnf
+2025-12-26 23:47:18,178 | ERROR | Process-14 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-26 23:47:18,178 | RESULT | Process-14 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-12-26 23:47:18,178 | ERROR | Process-14 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-26 23:47:20,274 | RESULT | Process-14 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-26 23:47:20,317 | INFO | MainProcess | Found a solution 16
+2025-12-26 23:47:20,317 | INFO | MainProcess | [Test k=35, w=16] Time: 2.64 seconds
+2025-12-26 23:47:20,349 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-26 23:47:20,920 | INFO | Process-15 | Number of variables: 1716
+2025-12-26 23:47:20,920 | INFO | Process-15 | Number of clauses: 81336
+2025-12-26 23:47:20,973 | INFO | Process-15 | CNF written to cnf/v2\E_n49_k35\E_n49_k35_w17.cnf
+2025-12-26 23:47:20,973 | INFO | Process-15 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\E_n49_k35\E_n49_k35_w17.cnf
+2025-12-26 23:47:20,975 | ERROR | Process-15 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-26 23:47:20,976 | RESULT | Process-15 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-12-26 23:47:20,976 | ERROR | Process-15 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-26 23:47:24,183 | RESULT | Process-15 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-26 23:47:24,231 | INFO | MainProcess | Found a solution 17
+2025-12-26 23:47:24,231 | INFO | MainProcess | [Test k=35, w=17] Time: 3.88 seconds
+2025-12-26 23:47:24,253 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-26 23:47:24,772 | INFO | Process-16 | Number of variables: 1716
+2025-12-26 23:47:24,772 | INFO | Process-16 | Number of clauses: 83460
+2025-12-26 23:47:24,832 | INFO | Process-16 | CNF written to cnf/v2\E_n49_k35\E_n49_k35_w18.cnf
+2025-12-26 23:47:24,833 | INFO | Process-16 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\E_n49_k35\E_n49_k35_w18.cnf
+2025-12-26 23:47:24,833 | ERROR | Process-16 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-26 23:47:24,835 | RESULT | Process-16 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-12-26 23:47:24,835 | ERROR | Process-16 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-26 23:47:24,841 | RESULT | Process-16 | No solution exists
+2025-12-26 23:47:24,841 | RESULT | Process-16 | Time taken: 0.13204622268676758 seconds
+2025-12-26 23:47:24,884 | INFO | MainProcess | No solution found 18
+2025-12-26 23:47:24,884 | INFO | MainProcess | [Test k=35, w=18] Time: 0.63 seconds
+2025-12-26 23:47:24,906 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-26 23:47:24,930 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-26 23:47:24,930 | INFO | MainProcess | $$$$
+2025-12-26 23:47:24,930 | INFO | MainProcess | 17
+2025-12-26 23:47:24,930 | INFO | MainProcess | $$$$
+2025-12-26 23:47:24,930 | INFO | MainProcess | Time taken for E-bcspwr02.mtx.rnd with k = 35: 8.845570802688599 seconds
+2025-12-26 23:47:24,930 | INFO | MainProcess | Maximum width for E-bcspwr02.mtx.rnd is 17
+2025-12-26 23:47:25,578 | INFO | Process-17 | Number of variables: 1783
+2025-12-26 23:47:25,578 | INFO | Process-17 | Number of clauses: 76587
+2025-12-26 23:47:25,627 | INFO | Process-17 | CNF written to cnf/v2\F_n54_k33\F_n54_k33_w7.cnf
+2025-12-26 23:47:25,627 | INFO | Process-17 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\F_n54_k33\F_n54_k33_w7.cnf
+2025-12-26 23:47:25,628 | ERROR | Process-17 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-26 23:47:25,629 | RESULT | Process-17 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-12-26 23:47:25,629 | ERROR | Process-17 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-26 23:47:25,823 | RESULT | Process-17 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-26 23:47:25,862 | INFO | MainProcess | Found a solution 7
+2025-12-26 23:47:25,862 | INFO | MainProcess | [Test k=33, w=7] Time: 0.93 seconds
+2025-12-26 23:47:25,883 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-26 23:47:26,485 | INFO | Process-18 | Number of variables: 1783
+2025-12-26 23:47:26,486 | INFO | Process-18 | Number of clauses: 83035
+2025-12-26 23:47:26,535 | INFO | Process-18 | CNF written to cnf/v2\F_n54_k33\F_n54_k33_w8.cnf
+2025-12-26 23:47:26,535 | INFO | Process-18 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\F_n54_k33\F_n54_k33_w8.cnf
+2025-12-26 23:47:26,536 | ERROR | Process-18 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-26 23:47:26,536 | RESULT | Process-18 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-12-26 23:47:26,536 | ERROR | Process-18 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-26 23:47:26,645 | RESULT | Process-18 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-26 23:47:26,689 | INFO | MainProcess | Found a solution 8
+2025-12-26 23:47:26,689 | INFO | MainProcess | [Test k=33, w=8] Time: 0.8 seconds
+2025-12-26 23:47:26,712 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-26 23:47:27,330 | INFO | Process-19 | Number of variables: 1783
+2025-12-26 23:47:27,330 | INFO | Process-19 | Number of clauses: 89235
+2025-12-26 23:47:27,384 | INFO | Process-19 | CNF written to cnf/v2\F_n54_k33\F_n54_k33_w9.cnf
+2025-12-26 23:47:27,385 | INFO | Process-19 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\F_n54_k33\F_n54_k33_w9.cnf
+2025-12-26 23:47:27,386 | ERROR | Process-19 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-26 23:47:27,387 | RESULT | Process-19 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-12-26 23:47:27,387 | ERROR | Process-19 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-26 23:47:28,362 | RESULT | Process-19 | No solution exists
+2025-12-26 23:47:28,362 | RESULT | Process-19 | Time taken: 1.1193287372589111 seconds
+2025-12-26 23:47:28,425 | INFO | MainProcess | No solution found 9
+2025-12-26 23:47:28,425 | INFO | MainProcess | [Test k=33, w=9] Time: 1.71 seconds
+2025-12-26 23:47:28,455 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-26 23:47:28,507 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-26 23:47:28,507 | INFO | MainProcess | $$$$
+2025-12-26 23:47:28,507 | INFO | MainProcess | 8
+2025-12-26 23:47:28,507 | INFO | MainProcess | $$$$
+2025-12-26 23:47:28,507 | INFO | MainProcess | Time taken for F-curtis54.mtx.rnd with k = 33: 3.5769965648651123 seconds
+2025-12-26 23:47:28,507 | INFO | MainProcess | Maximum width for F-curtis54.mtx.rnd is 8
+2025-12-26 23:47:29,357 | INFO | Process-20 | Number of variables: 1768
+2025-12-26 23:47:29,357 | INFO | Process-20 | Number of clauses: 66090
+2025-12-26 23:47:29,402 | INFO | Process-20 | CNF written to cnf/v2\G_n57_k31\G_n57_k31_w6.cnf
+2025-12-26 23:47:29,402 | INFO | Process-20 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\G_n57_k31\G_n57_k31_w6.cnf
+2025-12-26 23:47:29,403 | ERROR | Process-20 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-26 23:47:29,404 | RESULT | Process-20 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-12-26 23:47:29,404 | ERROR | Process-20 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-26 23:47:29,419 | RESULT | Process-20 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-26 23:47:29,493 | INFO | MainProcess | Found a solution 6
+2025-12-26 23:47:29,493 | INFO | MainProcess | [Test k=31, w=6] Time: 0.98 seconds
+2025-12-26 23:47:29,543 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-26 23:47:30,307 | INFO | Process-21 | Number of variables: 1768
+2025-12-26 23:47:30,307 | INFO | Process-21 | Number of clauses: 72440
+2025-12-26 23:47:30,357 | INFO | Process-21 | CNF written to cnf/v2\G_n57_k31\G_n57_k31_w7.cnf
+2025-12-26 23:47:30,357 | INFO | Process-21 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\G_n57_k31\G_n57_k31_w7.cnf
+2025-12-26 23:47:30,358 | ERROR | Process-21 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-26 23:47:30,359 | RESULT | Process-21 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-12-26 23:47:30,359 | ERROR | Process-21 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-26 23:47:30,400 | RESULT | Process-21 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-26 23:47:30,463 | INFO | MainProcess | Found a solution 7
+2025-12-26 23:47:30,463 | INFO | MainProcess | [Test k=31, w=7] Time: 0.92 seconds
+2025-12-26 23:47:30,494 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-26 23:47:31,231 | INFO | Process-22 | Number of variables: 1768
+2025-12-26 23:47:31,231 | INFO | Process-22 | Number of clauses: 78536
+2025-12-26 23:47:31,282 | INFO | Process-22 | CNF written to cnf/v2\G_n57_k31\G_n57_k31_w8.cnf
+2025-12-26 23:47:31,282 | INFO | Process-22 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\G_n57_k31\G_n57_k31_w8.cnf
+2025-12-26 23:47:31,283 | ERROR | Process-22 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-26 23:47:31,284 | RESULT | Process-22 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-12-26 23:47:31,284 | ERROR | Process-22 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-26 23:47:31,915 | RESULT | Process-22 | No solution exists
+2025-12-26 23:47:31,915 | RESULT | Process-22 | Time taken: 0.7660317420959473 seconds
+2025-12-26 23:47:31,963 | INFO | MainProcess | No solution found 8
+2025-12-26 23:47:31,964 | INFO | MainProcess | [Test k=31, w=8] Time: 1.47 seconds
+2025-12-26 23:47:31,994 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-26 23:47:32,038 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-26 23:47:32,038 | INFO | MainProcess | $$$$
+2025-12-26 23:47:32,038 | INFO | MainProcess | 7
+2025-12-26 23:47:32,038 | INFO | MainProcess | $$$$
+2025-12-26 23:47:32,038 | INFO | MainProcess | Time taken for G-will57.mtx.rnd with k = 31: 3.5310235023498535 seconds
+2025-12-26 23:47:32,038 | INFO | MainProcess | Maximum width for G-will57.mtx.rnd is 7
+2025-12-26 23:47:32,856 | INFO | Process-23 | Number of variables: 2184
+2025-12-26 23:47:32,856 | INFO | Process-23 | Number of clauses: 127343
+2025-12-26 23:47:32,944 | INFO | Process-23 | CNF written to cnf/v2\H_n59_k37\H_n59_k37_w5.cnf
+2025-12-26 23:47:32,944 | INFO | Process-23 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\H_n59_k37\H_n59_k37_w5.cnf
+2025-12-26 23:47:32,945 | ERROR | Process-23 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-26 23:47:32,947 | RESULT | Process-23 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-12-26 23:47:32,947 | ERROR | Process-23 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-26 23:47:32,963 | RESULT | Process-23 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-26 23:47:33,029 | INFO | MainProcess | Found a solution 5
+2025-12-26 23:47:33,029 | INFO | MainProcess | [Test k=37, w=5] Time: 0.98 seconds
+2025-12-26 23:47:33,061 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-26 23:47:33,876 | INFO | Process-24 | Number of variables: 2184
+2025-12-26 23:47:33,876 | INFO | Process-24 | Number of clauses: 145327
+2025-12-26 23:47:33,973 | INFO | Process-24 | CNF written to cnf/v2\H_n59_k37\H_n59_k37_w6.cnf
+2025-12-26 23:47:33,973 | INFO | Process-24 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\H_n59_k37\H_n59_k37_w6.cnf
+2025-12-26 23:47:33,974 | ERROR | Process-24 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-26 23:47:33,975 | RESULT | Process-24 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-12-26 23:47:33,975 | ERROR | Process-24 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-26 23:47:56,168 | RESULT | Process-24 | No solution exists
+2025-12-26 23:47:56,168 | RESULT | Process-24 | Time taken: 22.436763286590576 seconds
+2025-12-26 23:47:56,235 | INFO | MainProcess | No solution found 6
+2025-12-26 23:47:56,236 | INFO | MainProcess | [Test k=37, w=6] Time: 23.17 seconds
+2025-12-26 23:47:56,269 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-26 23:47:56,314 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-26 23:47:56,314 | INFO | MainProcess | $$$$
+2025-12-26 23:47:56,314 | INFO | MainProcess | 5
+2025-12-26 23:47:56,314 | INFO | MainProcess | $$$$
+2025-12-26 23:47:56,314 | INFO | MainProcess | Time taken for H-impcol_b.mtx.rnd with k = 37: 24.275978088378906 seconds
+2025-12-26 23:47:56,314 | INFO | MainProcess | Maximum width for H-impcol_b.mtx.rnd is 5
+2025-12-26 23:47:57,709 | INFO | Process-25 | Number of variables: 5696
+2025-12-26 23:47:57,709 | INFO | Process-25 | Number of clauses: 567614
+2025-12-26 23:47:58,083 | INFO | Process-25 | CNF written to cnf/v2\I_n85_k67\I_n85_k67_w15.cnf
+2025-12-26 23:47:58,084 | INFO | Process-25 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\I_n85_k67\I_n85_k67_w15.cnf
+2025-12-26 23:47:58,085 | ERROR | Process-25 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-26 23:47:58,086 | RESULT | Process-25 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-12-26 23:47:58,086 | ERROR | Process-25 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-26 23:48:00,301 | RESULT | Process-25 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-26 23:48:00,376 | INFO | MainProcess | Found a solution 15
+2025-12-26 23:48:00,376 | INFO | MainProcess | [Test k=67, w=15] Time: 4.05 seconds
+2025-12-26 23:48:00,409 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-26 23:48:01,798 | INFO | Process-26 | Number of variables: 5696
+2025-12-26 23:48:01,799 | INFO | Process-26 | Number of clauses: 590390
+2025-12-26 23:48:02,173 | INFO | Process-26 | CNF written to cnf/v2\I_n85_k67\I_n85_k67_w16.cnf
+2025-12-26 23:48:02,173 | INFO | Process-26 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\I_n85_k67\I_n85_k67_w16.cnf
+2025-12-26 23:48:02,174 | ERROR | Process-26 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-26 23:48:02,175 | RESULT | Process-26 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-12-26 23:48:02,175 | ERROR | Process-26 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-26 23:48:08,809 | RESULT | Process-26 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-26 23:48:08,888 | INFO | MainProcess | Found a solution 16
+2025-12-26 23:48:08,888 | INFO | MainProcess | [Test k=67, w=16] Time: 8.48 seconds
+2025-12-26 23:48:08,906 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-26 23:48:10,139 | INFO | Process-27 | Number of variables: 5696
+2025-12-26 23:48:10,139 | INFO | Process-27 | Number of clauses: 612728
+2025-12-26 23:48:10,536 | INFO | Process-27 | CNF written to cnf/v2\I_n85_k67\I_n85_k67_w17.cnf
+2025-12-26 23:48:10,536 | INFO | Process-27 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\I_n85_k67\I_n85_k67_w17.cnf
+2025-12-26 23:48:10,536 | ERROR | Process-27 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-26 23:48:10,536 | RESULT | Process-27 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-12-26 23:48:10,536 | ERROR | Process-27 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-26 23:48:22,290 | RESULT | Process-27 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-26 23:48:22,372 | INFO | MainProcess | Found a solution 17
+2025-12-26 23:48:22,372 | INFO | MainProcess | [Test k=67, w=17] Time: 13.47 seconds
+2025-12-26 23:48:22,410 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-26 23:48:23,742 | INFO | Process-28 | Number of variables: 5696
+2025-12-26 23:48:23,742 | INFO | Process-28 | Number of clauses: 634628
+2025-12-26 23:48:24,192 | INFO | Process-28 | CNF written to cnf/v2\I_n85_k67\I_n85_k67_w18.cnf
+2025-12-26 23:48:24,197 | INFO | Process-28 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\I_n85_k67\I_n85_k67_w18.cnf
+2025-12-26 23:48:24,197 | ERROR | Process-28 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-26 23:48:24,197 | RESULT | Process-28 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-12-26 23:48:24,197 | ERROR | Process-28 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-26 23:48:52,843 | RESULT | Process-28 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-26 23:48:52,923 | INFO | MainProcess | Found a solution 18
+2025-12-26 23:48:52,924 | INFO | MainProcess | [Test k=67, w=18] Time: 30.51 seconds
+2025-12-26 23:48:52,949 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-26 23:48:54,148 | INFO | Process-29 | Number of variables: 5696
+2025-12-26 23:48:54,148 | INFO | Process-29 | Number of clauses: 656090
+2025-12-26 23:48:54,606 | INFO | Process-29 | CNF written to cnf/v2\I_n85_k67\I_n85_k67_w19.cnf
+2025-12-26 23:48:54,606 | INFO | Process-29 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\I_n85_k67\I_n85_k67_w19.cnf
+2025-12-26 23:48:54,607 | ERROR | Process-29 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-26 23:48:54,608 | RESULT | Process-29 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-12-26 23:48:54,608 | ERROR | Process-29 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-27 00:17:56,622 | INFO | MainProcess | No solution found 19
+2025-12-27 00:17:56,629 | INFO | MainProcess | [Test k=67, w=19] Time: 1743.67 seconds
+2025-12-27 00:17:56,795 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-27 00:17:56,859 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-27 00:17:56,859 | INFO | MainProcess | $$$$
+2025-12-27 00:17:56,859 | INFO | MainProcess | -18
+2025-12-27 00:17:56,859 | INFO | MainProcess | $$$$
+2025-12-27 00:17:56,859 | INFO | MainProcess | Time taken for I-ash85.mtx.rnd with k = 67: 1800.5443534851074 seconds
+2025-12-27 00:17:56,859 | INFO | MainProcess | Maximum width before timeout for I-ash85.mtx.rnd is 18
+2025-12-27 00:17:56,859 | INFO | MainProcess | time out
+2025-12-27 00:17:58,527 | INFO | Process-30 | Number of variables: 5601
+2025-12-27 00:17:58,528 | INFO | Process-30 | Number of clauses: 543428
+2025-12-27 00:17:58,901 | INFO | Process-30 | CNF written to cnf/v2\J_n100_k56\J_n100_k56_w17.cnf
+2025-12-27 00:17:58,903 | INFO | Process-30 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\J_n100_k56\J_n100_k56_w17.cnf
+2025-12-27 00:17:58,937 | ERROR | Process-30 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-27 00:17:58,939 | RESULT | Process-30 | [PAINLESS] result: status=ERROR time=0.03s rc=None
+2025-12-27 00:17:58,939 | ERROR | Process-30 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-27 00:17:59,716 | RESULT | Process-30 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-27 00:17:59,789 | INFO | MainProcess | Found a solution 17
+2025-12-27 00:17:59,789 | INFO | MainProcess | [Test k=56, w=17] Time: 2.92 seconds
+2025-12-27 00:17:59,823 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-27 00:18:01,459 | INFO | Process-31 | Number of variables: 5601
+2025-12-27 00:18:01,459 | INFO | Process-31 | Number of clauses: 562694
+2025-12-27 00:18:01,852 | INFO | Process-31 | CNF written to cnf/v2\J_n100_k56\J_n100_k56_w18.cnf
+2025-12-27 00:18:01,853 | INFO | Process-31 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\J_n100_k56\J_n100_k56_w18.cnf
+2025-12-27 00:18:01,854 | ERROR | Process-31 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-27 00:18:01,855 | RESULT | Process-31 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-12-27 00:18:01,855 | ERROR | Process-31 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-27 00:18:04,610 | RESULT | Process-31 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-27 00:18:04,700 | INFO | MainProcess | Found a solution 18
+2025-12-27 00:18:04,701 | INFO | MainProcess | [Test k=56, w=18] Time: 4.88 seconds
+2025-12-27 00:18:04,737 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-27 00:18:06,156 | INFO | Process-32 | Number of variables: 5601
+2025-12-27 00:18:06,157 | INFO | Process-32 | Number of clauses: 581466
+2025-12-27 00:18:06,541 | INFO | Process-32 | CNF written to cnf/v2\J_n100_k56\J_n100_k56_w19.cnf
+2025-12-27 00:18:06,541 | INFO | Process-32 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\J_n100_k56\J_n100_k56_w19.cnf
+2025-12-27 00:18:06,542 | ERROR | Process-32 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-27 00:18:06,544 | RESULT | Process-32 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-12-27 00:18:06,544 | ERROR | Process-32 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-27 00:18:08,322 | RESULT | Process-32 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-27 00:18:08,393 | INFO | MainProcess | Found a solution 19
+2025-12-27 00:18:08,393 | INFO | MainProcess | [Test k=56, w=19] Time: 3.66 seconds
+2025-12-27 00:18:08,418 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-27 00:18:09,761 | INFO | Process-33 | Number of variables: 5601
+2025-12-27 00:18:09,761 | INFO | Process-33 | Number of clauses: 599744
+2025-12-27 00:18:10,146 | INFO | Process-33 | CNF written to cnf/v2\J_n100_k56\J_n100_k56_w20.cnf
+2025-12-27 00:18:10,146 | INFO | Process-33 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\J_n100_k56\J_n100_k56_w20.cnf
+2025-12-27 00:18:10,147 | ERROR | Process-33 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-27 00:18:10,147 | RESULT | Process-33 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-12-27 00:18:10,147 | ERROR | Process-33 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-27 00:18:17,117 | RESULT | Process-33 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-27 00:18:17,191 | INFO | MainProcess | Found a solution 20
+2025-12-27 00:18:17,192 | INFO | MainProcess | [Test k=56, w=20] Time: 8.77 seconds
+2025-12-27 00:18:17,232 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-27 00:18:18,537 | INFO | Process-34 | Number of variables: 5601
+2025-12-27 00:18:18,537 | INFO | Process-34 | Number of clauses: 617528
+2025-12-27 00:18:18,908 | INFO | Process-34 | CNF written to cnf/v2\J_n100_k56\J_n100_k56_w21.cnf
+2025-12-27 00:18:18,909 | INFO | Process-34 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\J_n100_k56\J_n100_k56_w21.cnf
+2025-12-27 00:18:18,910 | ERROR | Process-34 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-27 00:18:18,911 | RESULT | Process-34 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-12-27 00:18:18,911 | ERROR | Process-34 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-27 00:18:22,957 | RESULT | Process-34 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-27 00:18:23,032 | INFO | MainProcess | Found a solution 21
+2025-12-27 00:18:23,032 | INFO | MainProcess | [Test k=56, w=21] Time: 5.8 seconds
+2025-12-27 00:18:23,070 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-27 00:18:24,645 | INFO | Process-35 | Number of variables: 5601
+2025-12-27 00:18:24,645 | INFO | Process-35 | Number of clauses: 634818
+2025-12-27 00:18:25,058 | INFO | Process-35 | CNF written to cnf/v2\J_n100_k56\J_n100_k56_w22.cnf
+2025-12-27 00:18:25,059 | INFO | Process-35 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\J_n100_k56\J_n100_k56_w22.cnf
+2025-12-27 00:18:25,060 | ERROR | Process-35 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-27 00:18:25,061 | RESULT | Process-35 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-12-27 00:18:25,061 | ERROR | Process-35 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-27 00:36:34,339 | RESULT | Process-35 | No solution exists
+2025-12-27 00:36:34,339 | RESULT | Process-35 | Time taken: 1090.4432017803192 seconds
+2025-12-27 00:36:34,406 | INFO | MainProcess | No solution found 22
+2025-12-27 00:36:34,406 | INFO | MainProcess | [Test k=56, w=22] Time: 1091.34 seconds
+2025-12-27 00:36:34,461 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-27 00:36:34,491 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-27 00:36:34,491 | INFO | MainProcess | $$$$
+2025-12-27 00:36:34,491 | INFO | MainProcess | 21
+2025-12-27 00:36:34,491 | INFO | MainProcess | $$$$
+2025-12-27 00:36:34,491 | INFO | MainProcess | Time taken for J-nos4.mtx.rnd with k = 56: 1117.63214468956 seconds
+2025-12-27 00:36:34,491 | INFO | MainProcess | Maximum width for J-nos4.mtx.rnd is 21
+2025-12-27 00:36:36,177 | INFO | Process-36 | Number of variables: 9361
+2025-12-27 00:36:36,177 | INFO | Process-36 | Number of clauses: 1009817
+2025-12-27 00:36:36,815 | INFO | Process-36 | CNF written to cnf/v2\K_n117_k80\K_n117_k80_w31.cnf
+2025-12-27 00:36:36,815 | INFO | Process-36 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\K_n117_k80\K_n117_k80_w31.cnf
+2025-12-27 00:36:36,815 | ERROR | Process-36 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-27 00:36:36,815 | RESULT | Process-36 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-12-27 00:36:36,815 | ERROR | Process-36 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-27 00:36:39,202 | RESULT | Process-36 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-27 00:36:39,292 | INFO | MainProcess | Found a solution 31
+2025-12-27 00:36:39,292 | INFO | MainProcess | [Test k=80, w=31] Time: 4.79 seconds
+2025-12-27 00:36:39,321 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-27 00:36:41,112 | INFO | Process-37 | Number of variables: 9361
+2025-12-27 00:36:41,112 | INFO | Process-37 | Number of clauses: 1025693
+2025-12-27 00:36:41,858 | INFO | Process-37 | CNF written to cnf/v2\K_n117_k80\K_n117_k80_w32.cnf
+2025-12-27 00:36:41,858 | INFO | Process-37 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\K_n117_k80\K_n117_k80_w32.cnf
+2025-12-27 00:36:41,858 | ERROR | Process-37 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-27 00:36:41,858 | RESULT | Process-37 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-12-27 00:36:41,858 | ERROR | Process-37 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-27 00:36:48,805 | RESULT | Process-37 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-27 00:36:48,895 | INFO | MainProcess | Found a solution 32
+2025-12-27 00:36:48,895 | INFO | MainProcess | [Test k=80, w=32] Time: 9.57 seconds
+2025-12-27 00:36:48,939 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-27 00:36:50,555 | INFO | Process-38 | Number of variables: 9361
+2025-12-27 00:36:50,555 | INFO | Process-38 | Number of clauses: 1041245
+2025-12-27 00:36:51,215 | INFO | Process-38 | CNF written to cnf/v2\K_n117_k80\K_n117_k80_w33.cnf
+2025-12-27 00:36:51,215 | INFO | Process-38 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\K_n117_k80\K_n117_k80_w33.cnf
+2025-12-27 00:36:51,217 | ERROR | Process-38 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-27 00:36:51,217 | RESULT | Process-38 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-12-27 00:36:51,217 | ERROR | Process-38 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-27 00:36:54,961 | RESULT | Process-38 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-27 00:36:55,052 | INFO | MainProcess | Found a solution 33
+2025-12-27 00:36:55,052 | INFO | MainProcess | [Test k=80, w=33] Time: 6.11 seconds
+2025-12-27 00:36:55,067 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-27 00:36:56,794 | INFO | Process-39 | Number of variables: 9361
+2025-12-27 00:36:56,794 | INFO | Process-39 | Number of clauses: 1056473
+2025-12-27 00:36:57,438 | INFO | Process-39 | CNF written to cnf/v2\K_n117_k80\K_n117_k80_w34.cnf
+2025-12-27 00:36:57,439 | INFO | Process-39 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\K_n117_k80\K_n117_k80_w34.cnf
+2025-12-27 00:36:57,441 | ERROR | Process-39 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-27 00:36:57,441 | RESULT | Process-39 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-12-27 00:36:57,441 | ERROR | Process-39 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-27 00:37:10,502 | RESULT | Process-39 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-27 00:37:10,609 | INFO | MainProcess | Found a solution 34
+2025-12-27 00:37:10,609 | INFO | MainProcess | [Test k=80, w=34] Time: 15.54 seconds
+2025-12-27 00:37:10,651 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-27 00:37:12,318 | INFO | Process-40 | Number of variables: 9361
+2025-12-27 00:37:12,318 | INFO | Process-40 | Number of clauses: 1071377
+2025-12-27 00:37:13,017 | INFO | Process-40 | CNF written to cnf/v2\K_n117_k80\K_n117_k80_w35.cnf
+2025-12-27 00:37:13,017 | INFO | Process-40 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\K_n117_k80\K_n117_k80_w35.cnf
+2025-12-27 00:37:13,017 | ERROR | Process-40 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-27 00:37:13,017 | RESULT | Process-40 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-12-27 00:37:13,017 | ERROR | Process-40 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-27 00:40:20,158 | RESULT | Process-40 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-27 00:40:20,252 | INFO | MainProcess | Found a solution 35
+2025-12-27 00:40:20,252 | INFO | MainProcess | [Test k=80, w=35] Time: 189.6 seconds
+2025-12-27 00:40:20,294 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-27 00:40:22,103 | INFO | Process-41 | Number of variables: 9361
+2025-12-27 00:40:22,103 | INFO | Process-41 | Number of clauses: 1085957
+2025-12-27 00:40:22,797 | INFO | Process-41 | CNF written to cnf/v2\K_n117_k80\K_n117_k80_w36.cnf
+2025-12-27 00:40:22,797 | INFO | Process-41 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\K_n117_k80\K_n117_k80_w36.cnf
+2025-12-27 00:40:22,797 | ERROR | Process-41 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-27 00:40:22,797 | RESULT | Process-41 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-12-27 00:40:22,797 | ERROR | Process-41 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-27 00:41:20,948 | RESULT | Process-41 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-27 00:41:21,052 | INFO | MainProcess | Found a solution 36
+2025-12-27 00:41:21,052 | INFO | MainProcess | [Test k=80, w=36] Time: 60.76 seconds
+2025-12-27 00:41:21,091 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-27 00:41:22,910 | INFO | Process-42 | Number of variables: 9361
+2025-12-27 00:41:22,910 | INFO | Process-42 | Number of clauses: 1100213
+2025-12-27 00:41:23,618 | INFO | Process-42 | CNF written to cnf/v2\K_n117_k80\K_n117_k80_w37.cnf
+2025-12-27 00:41:23,618 | INFO | Process-42 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\K_n117_k80\K_n117_k80_w37.cnf
+2025-12-27 00:41:23,621 | ERROR | Process-42 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-27 00:41:23,622 | RESULT | Process-42 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-12-27 00:41:23,622 | ERROR | Process-42 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-27 00:49:42,101 | RESULT | Process-42 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-27 00:49:42,208 | INFO | MainProcess | Found a solution 37
+2025-12-27 00:49:42,208 | INFO | MainProcess | [Test k=80, w=37] Time: 501.12 seconds
+2025-12-27 00:49:42,233 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-27 00:49:44,020 | INFO | Process-43 | Number of variables: 9361
+2025-12-27 00:49:44,021 | INFO | Process-43 | Number of clauses: 1114145
+2025-12-27 00:49:44,721 | INFO | Process-43 | CNF written to cnf/v2\K_n117_k80\K_n117_k80_w38.cnf
+2025-12-27 00:49:44,721 | INFO | Process-43 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\K_n117_k80\K_n117_k80_w38.cnf
+2025-12-27 00:49:44,723 | ERROR | Process-43 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-27 00:49:44,724 | RESULT | Process-43 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-12-27 00:49:44,724 | ERROR | Process-43 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-27 01:06:20,877 | RESULT | Process-43 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-27 01:06:20,989 | INFO | MainProcess | Found a solution 38
+2025-12-27 01:06:20,989 | INFO | MainProcess | [Test k=80, w=38] Time: 998.76 seconds
+2025-12-27 01:06:21,044 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-27 01:06:22,769 | INFO | Process-44 | Number of variables: 9361
+2025-12-27 01:06:22,769 | INFO | Process-44 | Number of clauses: 1127753
+2025-12-27 01:06:23,485 | INFO | Process-44 | CNF written to cnf/v2\K_n117_k80\K_n117_k80_w39.cnf
+2025-12-27 01:06:23,485 | INFO | Process-44 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\K_n117_k80\K_n117_k80_w39.cnf
+2025-12-27 01:06:23,485 | ERROR | Process-44 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-27 01:06:23,485 | RESULT | Process-44 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-12-27 01:06:23,485 | ERROR | Process-44 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-27 01:06:34,831 | INFO | MainProcess | No solution found 39
+2025-12-27 01:06:34,831 | INFO | MainProcess | [Test k=80, w=39] Time: 13.79 seconds
+2025-12-27 01:06:34,873 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-27 01:06:34,934 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-27 01:06:34,934 | INFO | MainProcess | $$$$
+2025-12-27 01:06:34,934 | INFO | MainProcess | -38
+2025-12-27 01:06:34,934 | INFO | MainProcess | $$$$
+2025-12-27 01:06:34,934 | INFO | MainProcess | Time taken for K-dwt__234.mtx.rnd with k = 80: 1800.4432213306427 seconds
+2025-12-27 01:06:34,934 | INFO | MainProcess | Maximum width before timeout for K-dwt__234.mtx.rnd is 38
+2025-12-27 01:06:34,934 | INFO | MainProcess | time out
+2025-12-27 01:06:36,116 | INFO | Process-45 | Number of variables: 7317
+2025-12-27 01:06:36,116 | INFO | Process-45 | Number of clauses: 588120
+2025-12-27 01:06:36,493 | INFO | Process-45 | CNF written to cnf/v2\L_n118_k62\L_n118_k62_w20.cnf
+2025-12-27 01:06:36,493 | INFO | Process-45 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\L_n118_k62\L_n118_k62_w20.cnf
+2025-12-27 01:06:36,493 | ERROR | Process-45 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-27 01:06:36,493 | RESULT | Process-45 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-12-27 01:06:36,493 | ERROR | Process-45 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-27 01:06:37,335 | RESULT | Process-45 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-27 01:06:37,402 | INFO | MainProcess | Found a solution 20
+2025-12-27 01:06:37,403 | INFO | MainProcess | [Test k=62, w=20] Time: 2.46 seconds
+2025-12-27 01:06:37,432 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-27 01:06:38,585 | INFO | Process-46 | Number of variables: 7317
+2025-12-27 01:06:38,585 | INFO | Process-46 | Number of clauses: 603156
+2025-12-27 01:06:38,987 | INFO | Process-46 | CNF written to cnf/v2\L_n118_k62\L_n118_k62_w21.cnf
+2025-12-27 01:06:38,987 | INFO | Process-46 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\L_n118_k62\L_n118_k62_w21.cnf
+2025-12-27 01:06:38,987 | ERROR | Process-46 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-27 01:06:38,987 | RESULT | Process-46 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-12-27 01:06:38,987 | ERROR | Process-46 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-27 01:06:39,464 | RESULT | Process-46 | No solution exists
+2025-12-27 01:06:39,464 | RESULT | Process-46 | Time taken: 1.5453898906707764 seconds
+2025-12-27 01:06:39,535 | INFO | MainProcess | No solution found 21
+2025-12-27 01:06:39,535 | INFO | MainProcess | [Test k=62, w=21] Time: 2.1 seconds
+2025-12-27 01:06:39,569 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-27 01:06:39,656 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-27 01:06:39,656 | INFO | MainProcess | $$$$
+2025-12-27 01:06:39,656 | INFO | MainProcess | 20
+2025-12-27 01:06:39,656 | INFO | MainProcess | $$$$
+2025-12-27 01:06:39,656 | INFO | MainProcess | Time taken for L-bcspwr03.mtx.rnd with k = 62: 4.721878528594971 seconds
+2025-12-27 01:06:39,656 | INFO | MainProcess | Maximum width for L-bcspwr03.mtx.rnd is 20
+2025-12-27 01:08:16,697 | INFO | Process-47 | Number of variables: 135661
+2025-12-27 01:08:16,697 | INFO | Process-47 | Number of clauses: 69543563
+2025-12-27 01:09:01,548 | INFO | Process-47 | CNF written to cnf/v2\M_n420_k323\M_n420_k323_w21.cnf
+2025-12-27 01:09:01,548 | INFO | Process-47 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\M_n420_k323\M_n420_k323_w21.cnf
+2025-12-27 01:09:01,548 | ERROR | Process-47 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-27 01:09:01,548 | RESULT | Process-47 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-12-27 01:09:01,548 | ERROR | Process-47 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-27 01:13:13,354 | RESULT | Process-47 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-27 01:13:19,382 | INFO | MainProcess | Found a solution 21
+2025-12-27 01:13:19,382 | INFO | MainProcess | [Test k=323, w=21] Time: 399.73 seconds
+2025-12-27 01:13:19,406 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-27 01:15:04,560 | INFO | Process-48 | Number of variables: 135661
+2025-12-27 01:15:04,560 | INFO | Process-48 | Number of clauses: 71790443
+2025-12-27 01:15:50,027 | INFO | Process-48 | CNF written to cnf/v2\M_n420_k323\M_n420_k323_w22.cnf
+2025-12-27 01:15:50,027 | INFO | Process-48 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\M_n420_k323\M_n420_k323_w22.cnf
+2025-12-27 01:15:50,027 | ERROR | Process-48 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-27 01:15:50,043 | RESULT | Process-48 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-12-27 01:15:50,044 | ERROR | Process-48 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-27 01:24:01,919 | RESULT | Process-48 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-27 01:24:08,681 | INFO | MainProcess | Found a solution 22
+2025-12-27 01:24:08,682 | INFO | MainProcess | [Test k=323, w=22] Time: 649.28 seconds
+2025-12-27 01:24:08,716 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-27 01:25:53,631 | INFO | Process-49 | Number of variables: 135661
+2025-12-27 01:25:53,631 | INFO | Process-49 | Number of clauses: 74029883
+2025-12-27 01:26:40,737 | INFO | Process-49 | CNF written to cnf/v2\M_n420_k323\M_n420_k323_w23.cnf
+2025-12-27 01:26:40,737 | INFO | Process-49 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\M_n420_k323\M_n420_k323_w23.cnf
+2025-12-27 01:26:40,741 | ERROR | Process-49 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-27 01:26:40,742 | RESULT | Process-49 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-12-27 01:26:40,742 | ERROR | Process-49 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-27 01:36:40,710 | INFO | MainProcess | No solution found 23
+2025-12-27 01:36:40,710 | INFO | MainProcess | [Test k=323, w=23] Time: 751.99 seconds
+2025-12-27 01:36:40,733 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-27 01:36:40,786 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-27 01:36:40,786 | INFO | MainProcess | $$$$
+2025-12-27 01:36:40,786 | INFO | MainProcess | -22
+2025-12-27 01:36:40,786 | INFO | MainProcess | $$$$
+2025-12-27 01:36:40,786 | INFO | MainProcess | Time taken for M-bcsstk06.mtx.rnd with k = 323: 1801.130122423172 seconds
+2025-12-27 01:36:40,786 | INFO | MainProcess | Maximum width before timeout for M-bcsstk06.mtx.rnd is 22
+2025-12-27 01:36:40,786 | INFO | MainProcess | time out
+2025-12-27 01:37:21,622 | INFO | Process-50 | Number of variables: 93926
+2025-12-27 01:37:21,622 | INFO | Process-50 | Number of clauses: 33633793
+2025-12-27 01:37:43,392 | INFO | Process-50 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w47.cnf
+2025-12-27 01:37:43,392 | INFO | Process-50 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\O_n425_k221\O_n425_k221_w47.cnf
+2025-12-27 01:37:43,415 | ERROR | Process-50 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-27 01:37:43,415 | RESULT | Process-50 | [PAINLESS] result: status=ERROR time=0.02s rc=None
+2025-12-27 01:37:43,415 | ERROR | Process-50 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-27 01:39:18,907 | RESULT | Process-50 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-27 01:39:21,275 | INFO | MainProcess | Found a solution 47
+2025-12-27 01:39:21,275 | INFO | MainProcess | [Test k=221, w=47] Time: 160.49 seconds
+2025-12-27 01:39:21,342 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-27 01:40:02,640 | INFO | Process-51 | Number of variables: 93926
+2025-12-27 01:40:02,640 | INFO | Process-51 | Number of clauses: 34074709
+2025-12-27 01:40:23,915 | INFO | Process-51 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w48.cnf
+2025-12-27 01:40:23,915 | INFO | Process-51 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\O_n425_k221\O_n425_k221_w48.cnf
+2025-12-27 01:40:23,915 | ERROR | Process-51 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-27 01:40:23,915 | RESULT | Process-51 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-12-27 01:40:23,915 | ERROR | Process-51 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-27 01:42:06,420 | RESULT | Process-51 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-27 01:42:08,422 | INFO | MainProcess | Found a solution 48
+2025-12-27 01:42:08,422 | INFO | MainProcess | [Test k=221, w=48] Time: 167.08 seconds
+2025-12-27 01:42:08,478 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-27 01:42:50,437 | INFO | Process-52 | Number of variables: 93926
+2025-12-27 01:42:50,437 | INFO | Process-52 | Number of clauses: 34513091
+2025-12-27 01:43:12,166 | INFO | Process-52 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w49.cnf
+2025-12-27 01:43:12,166 | INFO | Process-52 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\O_n425_k221\O_n425_k221_w49.cnf
+2025-12-27 01:43:12,167 | ERROR | Process-52 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-27 01:43:12,168 | RESULT | Process-52 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-12-27 01:43:12,168 | ERROR | Process-52 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-27 01:44:52,013 | RESULT | Process-52 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-27 01:44:53,966 | INFO | MainProcess | Found a solution 49
+2025-12-27 01:44:53,966 | INFO | MainProcess | [Test k=221, w=49] Time: 165.49 seconds
+2025-12-27 01:44:54,022 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-27 01:45:35,734 | INFO | Process-53 | Number of variables: 93926
+2025-12-27 01:45:35,734 | INFO | Process-53 | Number of clauses: 34948939
+2025-12-27 01:45:57,645 | INFO | Process-53 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w50.cnf
+2025-12-27 01:45:57,645 | INFO | Process-53 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\O_n425_k221\O_n425_k221_w50.cnf
+2025-12-27 01:45:57,645 | ERROR | Process-53 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-27 01:45:57,645 | RESULT | Process-53 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-12-27 01:45:57,645 | ERROR | Process-53 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-27 01:46:55,078 | RESULT | Process-53 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-27 01:46:57,217 | INFO | MainProcess | Found a solution 50
+2025-12-27 01:46:57,217 | INFO | MainProcess | [Test k=221, w=50] Time: 123.2 seconds
+2025-12-27 01:46:57,288 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-27 01:47:39,722 | INFO | Process-54 | Number of variables: 93926
+2025-12-27 01:47:39,722 | INFO | Process-54 | Number of clauses: 35382253
+2025-12-27 01:48:01,827 | INFO | Process-54 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w51.cnf
+2025-12-27 01:48:01,827 | INFO | Process-54 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\O_n425_k221\O_n425_k221_w51.cnf
+2025-12-27 01:48:01,827 | ERROR | Process-54 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-27 01:48:01,827 | RESULT | Process-54 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-12-27 01:48:01,827 | ERROR | Process-54 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-27 01:51:36,256 | RESULT | Process-54 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-27 01:51:38,325 | INFO | MainProcess | Found a solution 51
+2025-12-27 01:51:38,325 | INFO | MainProcess | [Test k=221, w=51] Time: 281.04 seconds
+2025-12-27 01:51:38,390 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-27 01:52:21,203 | INFO | Process-55 | Number of variables: 93926
+2025-12-27 01:52:21,203 | INFO | Process-55 | Number of clauses: 35813033
+2025-12-27 01:52:45,097 | INFO | Process-55 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w52.cnf
+2025-12-27 01:52:45,097 | INFO | Process-55 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\O_n425_k221\O_n425_k221_w52.cnf
+2025-12-27 01:52:45,097 | ERROR | Process-55 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-27 01:52:45,097 | RESULT | Process-55 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-12-27 01:52:45,097 | ERROR | Process-55 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-27 01:55:20,149 | RESULT | Process-55 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-27 01:55:22,156 | INFO | MainProcess | Found a solution 52
+2025-12-27 01:55:22,156 | INFO | MainProcess | [Test k=221, w=52] Time: 223.77 seconds
+2025-12-27 01:55:22,211 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-27 01:56:08,448 | INFO | Process-56 | Number of variables: 93926
+2025-12-27 01:56:08,448 | INFO | Process-56 | Number of clauses: 36241279
+2025-12-27 01:56:31,283 | INFO | Process-56 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w53.cnf
+2025-12-27 01:56:31,283 | INFO | Process-56 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\O_n425_k221\O_n425_k221_w53.cnf
+2025-12-27 01:56:31,284 | ERROR | Process-56 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-27 01:56:31,285 | RESULT | Process-56 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-12-27 01:56:31,285 | ERROR | Process-56 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-27 01:58:18,050 | RESULT | Process-56 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-27 01:58:20,243 | INFO | MainProcess | Found a solution 53
+2025-12-27 01:58:20,243 | INFO | MainProcess | [Test k=221, w=53] Time: 178.03 seconds
+2025-12-27 01:58:20,270 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-27 01:59:06,905 | INFO | Process-57 | Number of variables: 93926
+2025-12-27 01:59:06,905 | INFO | Process-57 | Number of clauses: 36666991
+2025-12-27 01:59:30,110 | INFO | Process-57 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w54.cnf
+2025-12-27 01:59:30,110 | INFO | Process-57 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\O_n425_k221\O_n425_k221_w54.cnf
+2025-12-27 01:59:30,110 | ERROR | Process-57 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-27 01:59:30,110 | RESULT | Process-57 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-12-27 01:59:30,110 | ERROR | Process-57 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-27 02:02:09,658 | RESULT | Process-57 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-27 02:02:11,858 | INFO | MainProcess | Found a solution 54
+2025-12-27 02:02:11,858 | INFO | MainProcess | [Test k=221, w=54] Time: 231.59 seconds
+2025-12-27 02:02:11,914 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-27 02:02:58,931 | INFO | Process-58 | Number of variables: 93926
+2025-12-27 02:02:58,933 | INFO | Process-58 | Number of clauses: 37090169
+2025-12-27 02:03:22,594 | INFO | Process-58 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w55.cnf
+2025-12-27 02:03:22,594 | INFO | Process-58 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\O_n425_k221\O_n425_k221_w55.cnf
+2025-12-27 02:03:22,594 | ERROR | Process-58 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-27 02:03:22,594 | RESULT | Process-58 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-12-27 02:03:22,594 | ERROR | Process-58 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-27 02:06:41,694 | INFO | MainProcess | No solution found 55
+2025-12-27 02:06:41,694 | INFO | MainProcess | [Test k=221, w=55] Time: 269.78 seconds
+2025-12-27 02:06:41,735 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-27 02:06:41,786 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-27 02:06:41,786 | INFO | MainProcess | $$$$
+2025-12-27 02:06:41,786 | INFO | MainProcess | -54
+2025-12-27 02:06:41,786 | INFO | MainProcess | $$$$
+2025-12-27 02:06:41,786 | INFO | MainProcess | Time taken for O-impcol_d.mtx.rnd with k = 221: 1801.0000438690186 seconds
+2025-12-27 02:06:41,786 | INFO | MainProcess | Maximum width before timeout for O-impcol_d.mtx.rnd is 54
+2025-12-27 02:06:41,786 | INFO | MainProcess | time out
+2025-12-27 02:08:23,929 | INFO | Process-59 | Number of variables: 148186
+2025-12-27 02:08:23,930 | INFO | Process-59 | Number of clauses: 83450986
+2025-12-27 02:09:16,525 | INFO | Process-59 | CNF written to cnf/v2\P_n445_k333\P_n445_k333_w58.cnf
+2025-12-27 02:09:16,525 | INFO | Process-59 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\P_n445_k333\P_n445_k333_w58.cnf
+2025-12-27 02:09:16,525 | ERROR | Process-59 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-27 02:09:16,525 | RESULT | Process-59 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-12-27 02:09:16,525 | ERROR | Process-59 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-27 02:29:10,700 | RESULT | Process-59 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-27 02:29:21,836 | INFO | MainProcess | Found a solution 58
+2025-12-27 02:29:21,836 | INFO | MainProcess | [Test k=333, w=58] Time: 1360.04 seconds
+2025-12-27 02:29:21,904 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-27 02:31:06,219 | INFO | Process-60 | Number of variables: 148186
+2025-12-27 02:31:06,219 | INFO | Process-60 | Number of clauses: 84376086
+2025-12-27 02:31:59,579 | INFO | Process-60 | CNF written to cnf/v2\P_n445_k333\P_n445_k333_w59.cnf
+2025-12-27 02:31:59,579 | INFO | Process-60 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\P_n445_k333\P_n445_k333_w59.cnf
+2025-12-27 02:31:59,582 | ERROR | Process-60 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-27 02:31:59,583 | RESULT | Process-60 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-12-27 02:31:59,583 | ERROR | Process-60 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-27 02:36:42,620 | INFO | MainProcess | No solution found 59
+2025-12-27 02:36:42,620 | INFO | MainProcess | [Test k=333, w=59] Time: 440.72 seconds
+2025-12-27 02:36:42,640 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-27 02:36:42,703 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-27 02:36:42,703 | INFO | MainProcess | $$$$
+2025-12-27 02:36:42,703 | INFO | MainProcess | -58
+2025-12-27 02:36:42,703 | INFO | MainProcess | $$$$
+2025-12-27 02:36:42,703 | INFO | MainProcess | Time taken for P-can__445.mtx.rnd with k = 333: 1800.916621685028 seconds
+2025-12-27 02:36:42,703 | INFO | MainProcess | Maximum width before timeout for P-can__445.mtx.rnd is 58
+2025-12-27 02:36:42,703 | INFO | MainProcess | time out
+2025-12-27 02:38:01,821 | INFO | Process-61 | Number of variables: 161045
+2025-12-27 02:38:01,821 | INFO | Process-61 | Number of clauses: 68930890
+2025-12-27 02:38:45,111 | INFO | Process-61 | CNF written to cnf/v2\Q_n494_k326\Q_n494_k326_w144.cnf
+2025-12-27 02:38:45,111 | INFO | Process-61 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\Q_n494_k326\Q_n494_k326_w144.cnf
+2025-12-27 02:38:45,124 | ERROR | Process-61 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-27 02:38:45,125 | RESULT | Process-61 | [PAINLESS] result: status=ERROR time=0.01s rc=None
+2025-12-27 02:38:45,125 | ERROR | Process-61 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-27 03:06:43,674 | INFO | MainProcess | No solution found 144
+2025-12-27 03:06:43,674 | INFO | MainProcess | [Test k=326, w=144] Time: 1800.96 seconds
+2025-12-27 03:06:43,717 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-27 03:06:43,796 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-27 03:06:43,796 | INFO | MainProcess | $$$$
+2025-12-27 03:06:43,796 | INFO | MainProcess | -9999
+2025-12-27 03:06:43,796 | INFO | MainProcess | $$$$
+2025-12-27 03:06:43,796 | INFO | MainProcess | Time taken for Q-494_bus.mtx.rnd with k = 326: 1801.093058347702 seconds
+2025-12-27 03:06:43,796 | INFO | MainProcess | No answer before timeout for Q-494_bus.mtx.rnd
+2025-12-27 03:06:43,796 | INFO | MainProcess | time out
+2025-12-27 03:08:36,314 | INFO | Process-62 | Number of variables: 174542
+2025-12-27 03:08:36,314 | INFO | Process-62 | Number of clauses: 86091037
+2025-12-27 03:09:30,987 | INFO | Process-62 | CNF written to cnf/v2\R_n503_k347\R_n503_k347_w31.cnf
+2025-12-27 03:09:30,987 | INFO | Process-62 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\R_n503_k347\R_n503_k347_w31.cnf
+2025-12-27 03:09:30,987 | ERROR | Process-62 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-27 03:09:30,987 | RESULT | Process-62 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-12-27 03:09:30,987 | ERROR | Process-62 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-27 03:16:24,234 | RESULT | Process-62 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-27 03:16:32,658 | INFO | MainProcess | Found a solution 31
+2025-12-27 03:16:32,658 | INFO | MainProcess | [Test k=347, w=31] Time: 588.84 seconds
+2025-12-27 03:16:32,722 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-27 03:18:26,074 | INFO | Process-63 | Number of variables: 174542
+2025-12-27 03:18:26,075 | INFO | Process-63 | Number of clauses: 87836621
+2025-12-27 03:19:20,962 | INFO | Process-63 | CNF written to cnf/v2\R_n503_k347\R_n503_k347_w32.cnf
+2025-12-27 03:19:20,962 | INFO | Process-63 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\R_n503_k347\R_n503_k347_w32.cnf
+2025-12-27 03:19:20,962 | ERROR | Process-63 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-27 03:19:20,962 | RESULT | Process-63 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-12-27 03:19:20,962 | ERROR | Process-63 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-27 03:32:18,754 | RESULT | Process-63 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2025-12-27 03:32:28,135 | INFO | MainProcess | Found a solution 32
+2025-12-27 03:32:28,135 | INFO | MainProcess | [Test k=347, w=32] Time: 955.41 seconds
+2025-12-27 03:32:28,191 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-27 03:34:29,847 | INFO | Process-64 | Number of variables: 174542
+2025-12-27 03:34:29,847 | INFO | Process-64 | Number of clauses: 89576681
+2025-12-27 03:35:26,114 | INFO | Process-64 | CNF written to cnf/v2\R_n503_k347\R_n503_k347_w33.cnf
+2025-12-27 03:35:26,114 | INFO | Process-64 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\R_n503_k347\R_n503_k347_w33.cnf
+2025-12-27 03:35:26,114 | ERROR | Process-64 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-27 03:35:26,114 | RESULT | Process-64 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-12-27 03:35:26,114 | ERROR | Process-64 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-27 03:36:44,961 | INFO | MainProcess | No solution found 33
+2025-12-27 03:36:44,961 | INFO | MainProcess | [Test k=347, w=33] Time: 256.77 seconds
+2025-12-27 03:36:45,025 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-27 03:36:45,069 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-27 03:36:45,069 | INFO | MainProcess | $$$$
+2025-12-27 03:36:45,069 | INFO | MainProcess | -32
+2025-12-27 03:36:45,069 | INFO | MainProcess | $$$$
+2025-12-27 03:36:45,069 | INFO | MainProcess | Time taken for R-dwt__503.mtx.rnd with k = 347: 1801.272439956665 seconds
+2025-12-27 03:36:45,069 | INFO | MainProcess | Maximum width before timeout for R-dwt__503.mtx.rnd is 32
+2025-12-27 03:36:45,069 | INFO | MainProcess | time out
+2025-12-27 03:39:32,101 | INFO | Process-65 | Number of variables: 175813
+2025-12-27 03:39:32,101 | INFO | Process-65 | Number of clauses: 127817446
+2025-12-27 03:41:01,315 | INFO | Process-65 | CNF written to cnf/v2\S_n546_k322\S_n546_k322_w151.cnf
+2025-12-27 03:41:01,337 | INFO | Process-65 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\S_n546_k322\S_n546_k322_w151.cnf
+2025-12-27 03:41:01,337 | ERROR | Process-65 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-27 03:41:01,444 | RESULT | Process-65 | [PAINLESS] result: status=ERROR time=0.00s rc=None
+2025-12-27 03:41:01,444 | ERROR | Process-65 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-27 04:06:46,071 | INFO | MainProcess | No solution found 151
+2025-12-27 04:06:46,071 | INFO | MainProcess | [Test k=322, w=151] Time: 1800.99 seconds
+2025-12-27 04:06:46,160 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-27 04:06:46,219 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-27 04:06:46,219 | INFO | MainProcess | $$$$
+2025-12-27 04:06:46,219 | INFO | MainProcess | -9999
+2025-12-27 04:06:46,219 | INFO | MainProcess | $$$$
+2025-12-27 04:06:46,219 | INFO | MainProcess | Time taken for S-sherman4.mtx.rnd with k = 322: 1801.1498696804047 seconds
+2025-12-27 04:06:46,219 | INFO | MainProcess | No answer before timeout for S-sherman4.mtx.rnd
+2025-12-27 04:06:46,219 | INFO | MainProcess | time out
+2025-12-27 04:09:56,730 | INFO | Process-66 | Number of variables: 223777
+2025-12-27 04:09:56,730 | INFO | Process-66 | Number of clauses: 142804858
+2025-12-27 04:11:38,670 | INFO | Process-66 | CNF written to cnf/v2\T_n592_k378\T_n592_k378_w65.cnf
+2025-12-27 04:11:38,674 | INFO | Process-66 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\T_n592_k378\T_n592_k378_w65.cnf
+2025-12-27 04:11:38,700 | ERROR | Process-66 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-27 04:11:38,726 | RESULT | Process-66 | [PAINLESS] result: status=ERROR time=0.03s rc=None
+2025-12-27 04:11:38,726 | ERROR | Process-66 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-27 04:36:47,257 | INFO | MainProcess | No solution found 65
+2025-12-27 04:36:47,261 | INFO | MainProcess | [Test k=378, w=65] Time: 1801.02 seconds
+2025-12-27 04:36:47,379 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-27 04:36:47,429 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-27 04:36:47,429 | INFO | MainProcess | $$$$
+2025-12-27 04:36:47,429 | INFO | MainProcess | -9999
+2025-12-27 04:36:47,429 | INFO | MainProcess | $$$$
+2025-12-27 04:36:47,434 | INFO | MainProcess | Time taken for T-dwt__592.mtx.rnd with k = 378: 1801.2149875164032 seconds
+2025-12-27 04:36:47,434 | INFO | MainProcess | No answer before timeout for T-dwt__592.mtx.rnd
+2025-12-27 04:36:47,434 | INFO | MainProcess | time out
+2025-12-27 04:44:33,851 | INFO | Process-67 | Number of variables: 341593
+2025-12-27 04:44:33,851 | INFO | Process-67 | Number of clauses: 220412882
+2025-12-27 04:47:37,111 | INFO | Process-67 | CNF written to cnf/v2\U_n662_k516\U_n662_k516_w170.cnf
+2025-12-27 04:47:37,116 | INFO | Process-67 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\U_n662_k516\U_n662_k516_w170.cnf
+2025-12-27 04:47:37,139 | ERROR | Process-67 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-27 04:47:37,509 | RESULT | Process-67 | [PAINLESS] result: status=ERROR time=0.02s rc=None
+2025-12-27 04:47:37,509 | ERROR | Process-67 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-27 05:06:48,832 | INFO | MainProcess | No solution found 170
+2025-12-27 05:06:48,834 | INFO | MainProcess | [Test k=516, w=170] Time: 1801.38 seconds
+2025-12-27 05:06:48,974 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-27 05:06:49,024 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-27 05:06:49,024 | INFO | MainProcess | $$$$
+2025-12-27 05:06:49,024 | INFO | MainProcess | -9999
+2025-12-27 05:06:49,024 | INFO | MainProcess | $$$$
+2025-12-27 05:06:49,024 | INFO | MainProcess | Time taken for U-662_bus.mtx.rnd with k = 516: 1801.5898847579956 seconds
+2025-12-27 05:06:49,024 | INFO | MainProcess | No answer before timeout for U-662_bus.mtx.rnd
+2025-12-27 05:06:49,024 | INFO | MainProcess | time out
+2025-12-27 05:13:12,476 | INFO | Process-68 | Number of variables: 273376
+2025-12-27 05:13:12,482 | INFO | Process-68 | Number of clauses: 209655180
+2025-12-27 05:15:57,608 | INFO | Process-68 | CNF written to cnf/v2\V_n675_k405\V_n675_k405_w195.cnf
+2025-12-27 05:15:57,608 | INFO | Process-68 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\V_n675_k405\V_n675_k405_w195.cnf
+2025-12-27 05:15:57,633 | ERROR | Process-68 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-27 05:15:58,364 | RESULT | Process-68 | [PAINLESS] result: status=ERROR time=0.02s rc=None
+2025-12-27 05:15:58,364 | ERROR | Process-68 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-27 05:36:50,237 | INFO | MainProcess | No solution found 195
+2025-12-27 05:36:50,241 | INFO | MainProcess | [Test k=405, w=195] Time: 1801.21 seconds
+2025-12-27 05:36:50,328 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-27 05:36:50,387 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-27 05:36:50,387 | INFO | MainProcess | $$$$
+2025-12-27 05:36:50,387 | INFO | MainProcess | -9999
+2025-12-27 05:36:50,387 | INFO | MainProcess | $$$$
+2025-12-27 05:36:50,387 | INFO | MainProcess | Time taken for V-nos6.mtx.rnd with k = 405: 1801.3638372421265 seconds
+2025-12-27 05:36:50,387 | INFO | MainProcess | No answer before timeout for V-nos6.mtx.rnd
+2025-12-27 05:36:50,387 | INFO | MainProcess | time out
+2025-12-27 05:39:29,158 | INFO | Process-69 | Number of variables: 271946
+2025-12-27 05:39:29,158 | INFO | Process-69 | Number of clauses: 125034370
+2025-12-27 05:40:54,296 | INFO | Process-69 | CNF written to cnf/v2\W_n685_k397\W_n685_k397_w78.cnf
+2025-12-27 05:40:54,317 | INFO | Process-69 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\W_n685_k397\W_n685_k397_w78.cnf
+2025-12-27 05:40:54,332 | ERROR | Process-69 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-27 05:40:54,338 | RESULT | Process-69 | [PAINLESS] result: status=ERROR time=0.01s rc=None
+2025-12-27 05:40:54,338 | ERROR | Process-69 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-27 06:06:51,494 | INFO | MainProcess | No solution found 78
+2025-12-27 06:06:51,512 | INFO | MainProcess | [Test k=397, w=78] Time: 1801.07 seconds
+2025-12-27 06:06:51,647 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-27 06:06:51,710 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-27 06:06:51,711 | INFO | MainProcess | $$$$
+2025-12-27 06:06:51,711 | INFO | MainProcess | -9999
+2025-12-27 06:06:51,711 | INFO | MainProcess | $$$$
+2025-12-27 06:06:51,711 | INFO | MainProcess | Time taken for W-685_bus.mtx.rnd with k = 397: 1801.3234057426453 seconds
+2025-12-27 06:06:51,711 | INFO | MainProcess | No answer before timeout for W-685_bus.mtx.rnd
+2025-12-27 06:06:51,711 | INFO | MainProcess | time out
+2025-12-27 06:23:59,340 | INFO | Process-70 | Number of variables: 357501
+2025-12-27 06:23:59,363 | INFO | Process-70 | Number of clauses: 301892115
+2025-12-27 06:28:46,134 | INFO | Process-70 | CNF written to cnf/v2\X_n715_k500\X_n715_k500_w78.cnf
+2025-12-27 06:28:46,155 | INFO | Process-70 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2\X_n715_k500\X_n715_k500_w78.cnf
+2025-12-27 06:28:46,179 | ERROR | Process-70 | [PAINLESS] Exception while running solver
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\UET\Lab\AKL\directencoding.py", line 514, in run_painless
+    cp = subprocess.run(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-12-27 06:28:47,608 | RESULT | Process-70 | [PAINLESS] result: status=ERROR time=0.02s rc=None
+2025-12-27 06:28:47,608 | ERROR | Process-70 | Some thing wrong with PAINLESS, Solving with PySAT...
+2025-12-27 06:36:54,826 | INFO | MainProcess | No solution found 78
+2025-12-27 06:36:54,845 | INFO | MainProcess | [Test k=500, w=78] Time: 1803.11 seconds
+2025-12-27 06:36:55,390 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-27 06:36:55,655 | INFO | MainProcess | Row appended to output/output_directencoding_cadical_pairwiseEO.xlsx
+2025-12-27 06:36:55,655 | INFO | MainProcess | $$$$
+2025-12-27 06:36:55,655 | INFO | MainProcess | -9999
+2025-12-27 06:36:55,655 | INFO | MainProcess | $$$$
+2025-12-27 06:36:55,655 | INFO | MainProcess | Time taken for X-can__715.mtx.rnd with k = 500: 1803.9437651634216 seconds
+2025-12-27 06:36:55,655 | INFO | MainProcess | No answer before timeout for X-can__715.mtx.rnd
+2025-12-27 06:36:55,655 | INFO | MainProcess | time out

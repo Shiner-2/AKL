@@ -16,13 +16,13 @@ from typing import Optional, Dict, Any
 #  ./painless/build/release/painless_release cnf/K_n117_k80/K_n117_k80_w38.cnf   -c=4   -solver=cckk -no-model
 
 # Global config
-LOG_FILE = "logs/log_version_2_painless_OPQ.txt"
-EXCEL_FILE = "output/output_version_2_painless_OPQ.xlsx"
+LOG_FILE = "logs/log_version_2_fixed_painless_testnewmethod.txt"
+EXCEL_FILE = "output/output_version_2_fixed_painless_testnewmethod.xlsx"
 
 # --- Painless runner config ---
 PAINLESS_BIN = "./painless/build/release/painless_release"  # đổi nếu khác
-PAINLESS_ARGS = ["-c=4", "-solver=cckk", "-no-model"]       # tuỳ chọn
-RUN_PAINLESS = True                                         # bật/tắt chạy Painless
+PAINLESS_ARGS = ["-c=4", "-solver=cckk"]       # tuỳ chọn
+RUN_PAINLESS = False                                         # bật/tắt chạy Painless
 
 top_id = 2
 
@@ -88,7 +88,7 @@ def solve_no_hole_anti_k_labeling(graph, k, width, queue, timeout_sec=3600, inst
         x.append(tmp)
     
     L = [[1]]
-    # L[i][j] từ trái sang phải, nếu có ít nhất 1 nhãn trong block j được gán cho đỉnh i thì L[i][j] = 1
+    # L[i][j] từ trái sang phải, nếu đỉnh i được gán nhãn <= j thì L[i][j] = 1
     for i in range(1, n + 1):
         tmp = [1]
         for j in range(1, k + 1):
@@ -96,19 +96,7 @@ def solve_no_hole_anti_k_labeling(graph, k, width, queue, timeout_sec=3600, inst
             top_id += 1
         L.append(tmp)
 
-    R = [[1]]
-    # R[i][j] từ phải sang trái, nếu có ít nhất 1 nhãn trong block j được gán cho đỉnh i thì R[i][j] = 1
-    for i in range(1, n + 1):
-        tmp = [1]
-        for j in range(1, k + 1):
-            tmp.append(top_id)
-            top_id += 1
-        R.append(tmp)
-
-    clauses.extend(Symetry_breaking(graph, x, k))
-
     # Link x and L
-
     for i in range(1, n + 1):
         xx = [1]
         LL = [1]
@@ -117,21 +105,6 @@ def solve_no_hole_anti_k_labeling(graph, k, width, queue, timeout_sec=3600, inst
             LL.append(L[i][label])
         clauses.extend(SCL_AMO(xx, LL, k))
 
-    # Link x and R
-    for i in range(1, n + 1):
-        xx = [1]
-        RR = [1]
-        for label in range(1, k + 1):
-            RR.append(R[i][label])
-        for label in range(k, 0, -1):
-            xx.append(x[i][label])
-        clauses.extend(SCL_AMO(xx, RR, k))
-
-    # Link L and R
-    # for i in range(1, n + 1):
-    #     for label in range(1, k + 1):
-    #         clauses.append([-L[i][label], R[i][k - label + 1]])
-    #         clauses.append([-R[i][k - label + 1], L[i][label]])
 
     # print(len(clauses) - kk)
     # Exactly one
@@ -141,7 +114,7 @@ def solve_no_hole_anti_k_labeling(graph, k, width, queue, timeout_sec=3600, inst
         # Collect variables for EO
         for label in range(1, k + 1):
             tmp.append(x[i][label])
-        clauses.extend(Exactly_One1(tmp))
+        clauses.extend(ExactlyOne(tmp))
     # print(len(clauses) - kk)
 
     # Every label must be used at least once
@@ -153,33 +126,28 @@ def solve_no_hole_anti_k_labeling(graph, k, width, queue, timeout_sec=3600, inst
 
         clauses.extend(AtLeastOne(clause))
 
-
     for u in graph:
         for v in graph[u]:
             for labelu in range(1, k + 1):
                 minv = max(0, labelu - width)
                 maxv = min(k + 1, labelu + width)
                 if minv == 0:
-                    clauses.append([-x[u][labelu], R[v][k - labelu - width + 1]])
                     clauses.append([-x[u][labelu], -L[v][labelu + width - 1]])
                 if maxv == k + 1:
                     clauses.append([-x[u][labelu], L[v][labelu - width]])
-                    clauses.append([-x[u][labelu], -R[v][k - labelu + width]])
                 if minv > 0 and maxv < k + 1:
-                    clauses.append([-x[u][labelu], L[v][labelu - width], R[v][k - labelu - width + 1]])
+                    clauses.append([-x[u][labelu], L[v][labelu - width], -L[v][labelu + width - 1]])
 
 
             for labelv in range(1, k + 1):
                 minu = max(0, labelv - width)
                 maxu = min(k + 1, labelv + width)
                 if minu == 0:
-                    clauses.append([-x[v][labelv], R[u][k - labelv - width + 1]])
                     clauses.append([-x[v][labelv], -L[u][labelv + width - 1]])
                 if maxu == k + 1:
                     clauses.append([-x[v][labelv], L[u][labelv - width]])
-                    clauses.append([-x[v][labelv], -R[u][k - labelv + width]])
                 if minu > 0 and maxu < k + 1:
-                    clauses.append([-x[v][labelv], L[u][labelv - width], R[u][k - labelv - width + 1]])
+                    clauses.append([-x[v][labelv], L[u][labelv - width], -L[u][labelv + width - 1]])
 
 
     solver.append_formula(clauses)
@@ -187,11 +155,8 @@ def solve_no_hole_anti_k_labeling(graph, k, width, queue, timeout_sec=3600, inst
     logger.info(f"Number of variables: {solver.nof_vars()}")
     logger.info(f"Number of clauses: {solver.nof_clauses()}")
 
-    logger.info(f"Real nums of clauses: {len(clauses)}")
-    logger.info(f"Real nums of variables: {top_id - 2}")
-
-    queue.put(top_id - 2)
-    queue.put(len(clauses))
+    queue.put(solver.nof_vars())
+    queue.put(solver.nof_clauses())
 
     # Ghi CNF ra file để chạy Painless bên ngoài nếu muốn
     cnf_path = write_cnf_to_file(clauses, solver, n, k, width, instance_name)
@@ -208,11 +173,23 @@ def solve_no_hole_anti_k_labeling(graph, k, width, queue, timeout_sec=3600, inst
         logger.result(f"[PAINLESS] result: status={pres['status']} time={pres['time_sec']:.2f}s rc={pres['returncode']}")
 
         if pres["status"] == "SAT":
+            ok, msg = validate_from_painless(
+                pres["stdout"], graph, x, n, k, width
+            )
+            logger.result(f"[VALIDATE][PAINLESS] {ok} | {msg}")
+
+            if not ok:
+                logger.error("❌ INVALID MODEL FROM PAINLESS")
+                return False
+
+            # Lấy label assignment để tính min width
+            model_true = parse_dimacs_model(pres["stdout"])
+            label_of, _ = extract_labels_from_model(model_true, x, n, k)
+            
             queue.put(True)
-            logger.result(f"[PAINLESS] Shortcut: SAT at width={width}")
-            end = time.time()
-            logger.result(f"Time taken: {end - start} seconds")
+            queue.put(label_of)  # Đẩy label_of vào queue
             return True
+
         elif pres["status"] == "UNSAT":
             queue.put(False)
             logger.result(f"[PAINLESS] Shortcut: UNSAT at width={width}")
@@ -224,11 +201,24 @@ def solve_no_hole_anti_k_labeling(graph, k, width, queue, timeout_sec=3600, inst
     logger.error("Some thing wrong with PAINLESS, Solving with PySAT...")
     # Fallback: giải bằng PySAT nếu Painless không kết luận được
     if solver.solve():
+        model = solver.get_model()
+        ok, msg = validate_from_pysat_model(
+            model, graph, x, n, k, width
+        )
+        logger.result(f"[VALIDATE][PYSAT] {ok} | {msg}")
+
+        if not ok:
+            logger.error("❌ INVALID MODEL FROM PYSAT")
+            return False
+
+        # Lấy label assignment để tính min width
+        model_true = {lit for lit in model if lit > 0}
+        label_of, _ = extract_labels_from_model(model_true, x, n, k)
+        
         queue.put(True)
-        logger.result(f"Solution found: {width}")
-        end = time.time()
-        logger.result(f"Time taken: {end - start} seconds")
+        queue.put(label_of)  # Đẩy label_of vào queue
         return True
+
     else:
         queue.put(False)
         logger.result("No solution exists")
@@ -287,7 +277,8 @@ def Symetry_breaking(graph, x, k):
         clause.append([-x[node][label]])
     return clause
 
-def Exactly_One1(variables):
+
+def ExactlyOne(variables):
     global top_id
 
     enc = CardEnc.equals(
@@ -312,41 +303,6 @@ def AtLeastOne(variables):
     top_id = enc.nv
 
     return enc.clauses
-
-
-# def Exactly_One1(variables):
-#     # BDD-based encoding for Exactly One
-#     lits = variables
-#     weights = [1] * len(variables)
-#     clauses = []
-#     bound = 1
-#     global top_id
-
-#     cnf1 = PBEnc.atleast(lits=lits, weights=weights, bound=bound, encoding=1, top_id=top_id)
-#     top_id = cnf1.nv
-#     for clause in cnf1.clauses:
-#         clauses.append(clause)
-
-#     cnf2 = PBEnc.atmost(lits=lits, weights=weights, bound=bound, encoding=1, top_id=top_id)
-#     top_id = cnf2.nv
-#     for clause in cnf2.clauses:
-#         clauses.append(clause)
-
-#     return clauses
-
-
-def Exactly_One3(variables, encoding=1):
-    global top_id
-    cnf = CardEnc.equals(lits=variables, bound=1, encoding=encoding, top_id=top_id)
-    top_id = cnf.nv
-    return list(cnf.clauses)
-
-
-def At_Most_K(variables, k, encoding=1):
-    global top_id
-    cnf = CardEnc.atmost(lits=variables, bound=k, encoding=encoding, top_id=top_id)
-    top_id = cnf.nv
-    return list(cnf.clauses)
 
 
 def Exactly_One(variables):
@@ -374,6 +330,111 @@ def Exactly_One(variables):
 
     return clauses
 
+# ======================= VALIDATION MODULE =======================
+
+def parse_dimacs_model(stdout: str):
+    """
+    Parse model từ stdout DIMACS (Painless / Kissat / CaDiCaL CLI)
+    Return: set các literal TRUE
+    """
+    true_lits = set()
+    for line in stdout.splitlines():
+        line = line.strip()
+        if not line or line[0] != 'v':
+            continue
+        parts = line.split()[1:]
+        for lit in parts:
+            if lit == '0':
+                continue
+            lit = int(lit)
+            if lit > 0:
+                true_lits.add(lit)
+    return true_lits
+
+
+def extract_labels_from_model(model_true_lits, x, n, k):
+    """
+    Từ model (set literal TRUE) → label_of[i] = label
+    """
+    label_of = {}
+
+    for i in range(1, n + 1):
+        assigned = False
+        for label in range(1, k + 1):
+            if x[i][label] in model_true_lits:
+                label_of[i] = label
+                assigned = True
+                break
+        if not assigned:
+            return None, f"Vertex {i} has no label"
+
+    return label_of, "OK"
+
+
+def validate_solution(graph, label_of, k, width):
+    """
+    Validate nghiệm anti-k-labeling + no-hole
+    """
+    n = len(graph)
+
+    # 1. Exactly-one
+    if label_of is None or len(label_of) != n:
+        return False, "Not all vertices labeled"
+
+    # 2. No-hole: mọi nhãn phải được dùng
+    used_labels = set(label_of.values())
+    for l in range(1, k + 1):
+        if l not in used_labels:
+            return False, f"No-hole violated: label {l} unused"
+
+    # 3. Anti-k-labeling constraint
+    for u in graph:
+        for v in graph[u]:
+            if abs(label_of[u] - label_of[v]) < width:
+                return False, (
+                    f"Width violated on edge ({u},{v}): "
+                    f"|{label_of[u]} - {label_of[v]}| < {width}"
+                )
+
+    return True, "VALID SOLUTION"
+
+
+def validate_from_painless(stdout, graph, x, n, k, width):
+    """
+    Validate output từ Painless
+    """
+    model_true = parse_dimacs_model(stdout)
+    label_of, msg = extract_labels_from_model(model_true, x, n, k)
+    if label_of is None:
+        return False, msg
+    return validate_solution(graph, label_of, k, width)
+
+
+def validate_from_pysat_model(model, graph, x, n, k, width):
+    """
+    Validate output từ PySAT / CaDiCaL
+    """
+    model_true = {lit for lit in model if lit > 0}
+    label_of, msg = extract_labels_from_model(model_true, x, n, k)
+    if label_of is None:
+        return False, msg
+    return validate_solution(graph, label_of, k, width)
+
+
+# ======================= END VALIDATION MODULE =======================
+
+def calculate_min_width_from_labels(graph, label_of):
+    """
+    Tính width nhỏ nhất giữa các đỉnh kề nhau trong đồ thị
+    với cách gán nhãn label_of
+    """
+    min_width = float('inf')
+    for u in graph:
+        for v in graph[u]:
+            if u in label_of and v in label_of:
+                width = abs(label_of[u] - label_of[v])
+                min_width = min(min_width, width)
+    return min_width if min_width != float('inf') else 1
 
 def read_input(file_path):
     graph = {}
@@ -408,6 +469,7 @@ def run_test_with_timeout(graph, k, width, timeout_sec=3600, instance_name="A"):
     num_var = queue.get() if not queue.empty() else None
     num_clause = queue.get() if not queue.empty() else None
     verdict = queue.get() if not queue.empty() else None
+    label_of = queue.get() if not queue.empty() else None
     res2.extend([num_var, num_clause, verdict])
 
     elapsed = round((time.time() - start), 2)
@@ -415,11 +477,11 @@ def run_test_with_timeout(graph, k, width, timeout_sec=3600, instance_name="A"):
     if verdict is True:
         logger.info(f"Found a solution {width}")
         logger.info(f"[Test k={k}, w={width}] Time: {elapsed} seconds")
-        return True
+        return True, label_of
     else:
         logger.info(f"No solution found {width}")
         logger.info(f"[Test k={k}, w={width}] Time: {elapsed} seconds")
-        return False
+        return False, None
 
 
 res = [["filename", "n", "k", "proportion", "lower_bound",
@@ -440,14 +502,22 @@ def tuantu_for_ans(graph, k, rand, lower_bound, upper_bound, file, timeout_sec=3
         time_start = time.time()
         res2.extend([file, len(graph), k, rand, lower_bound, upper_bound, width])
 
-        if run_test_with_timeout(graph, k, width, time_left, file[0]):
+        result, label_of = run_test_with_timeout(graph, k, width, time_left, file[0])
+        if result:
             res2.append(round(time.time() - time_start, 2))
             res.append(res2)
             res2 = []
 
             time_left -= time.time() - time_start
             ans = width
-            width += 1
+            
+            # Tính width mới dựa trên min width thực tế của nghiệm vừa tìm được
+            if label_of:
+                min_width = calculate_min_width_from_labels(graph, label_of)
+                width = min_width + 1
+                logger.info(f"Min width from solution: {min_width}, next width: {width}")
+            else:
+                width += 1  # fallback nếu không có label_of
 
             if time_left <= 0.5 or ans == upper_bound:
                 if ans == -9999:
@@ -562,7 +632,7 @@ def solve():
         lst.append(os.path.join(folder_path, os.path.basename(file)))
         filename.append(os.path.basename(file))
 
-    for i in range(13,15):
+    for i in range(0, 5):
         time_start = time.time()
         graph = read_input(lst[i])
         rand = proportion[i]
@@ -570,6 +640,7 @@ def solve():
         file = filename[i]
         ans = -9999
         time_limit = 1800
+        
 
         ans = tuantu_for_ans(graph, k, rand, lower_bound[i] * rand // 100, upper_bound[i], file, time_limit)
 
