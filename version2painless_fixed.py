@@ -264,13 +264,13 @@ def Symetry_breaking(graph, x, k):
             cnt[u] += 1
             cnt[v] += 1
 
-    node = -1
-    for i in range(1, len(cnt)):
-        if node == -1 or cnt[i] < cnt[node]:
-            node = i
+    node = 1
+    # for i in range(1, len(cnt)):
+    #     if node == -1 or cnt[i] < cnt[node]:
+    #         node = i
 
     clause = []
-    for label in range(1, k // 2 + 1):
+    for label in range(1, k // 2):
         clause.append([-x[node][label]])
     return clause
 
@@ -607,7 +607,8 @@ def solve():
         lst.append(os.path.join(folder_path, os.path.basename(file)))
         filename.append(os.path.basename(file))
 
-    for i in range(12, 13):
+    for i in range(14,16):
+        
         time_start = time.time()
         graph = read_input(lst[i])
         rand = proportion[i]

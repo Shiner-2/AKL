@@ -37,9 +37,3 @@ Chạy Direct encoding và Version 2 encoding bằng Cadical trong thư viện p
 
 1/1/2026
 
-quên add symmetrybreaking vào version2painless_fixed huhu
-
-
-Còn cadical + version 2 + no symmetrybreaking
-
-run test W again in direct encoding painless no symmetrybreaking
