@@ -16,14 +16,14 @@ from typing import Optional, Dict, Any
 #  ./painless/build/release/painless_release cnf/K_n117_k80/K_n117_k80_w38.cnf   -c=4   -solver=cckk -no-model
 
 # Global config
-LOG_FILE = "logs/version2fixed/log_version_2_fixed_cadical_symmetry.txt" 
-EXCEL_FILE = "output/version2fixed/output_version_2_fixed_cadical_symmetry.xlsx"
-# 2 là có symmetry breaking, 1 là không có symmetry breaking
+name = "version_2_fixed_EO_Painless_Q_fix"
+LOG_FILE = "logs/version2fixed/log_" + name + ".txt" 
+EXCEL_FILE = "output/version2fixed/output_" + name + ".xlsx"
 
 # --- Painless runner config ---
 PAINLESS_BIN = "./painless/build/release/painless_release"  # đổi nếu khác
-PAINLESS_ARGS = ["-c=4", "-solver=cckk"]       # tuỳ chọn
-RUN_PAINLESS = False                                         # bật/tắt chạy Painless
+PAINLESS_ARGS = ["-c=8", "-solver=cccckkkk"]       # tuỳ chọn
+RUN_PAINLESS = True                                         # bật/tắt chạy Painless
 
 top_id = 2
 
@@ -63,7 +63,7 @@ def setup_logger(name: str = "akl", log_file: str = LOG_FILE, level=logging.INFO
 # ------------------------------------------------------------------------
 
 
-def solve_no_hole_anti_k_labeling(graph, k, width, queue, timeout_sec=3600, instance_name="A" ):
+def solve_no_hole_anti_k_labeling(graph, k, width, queue, timeout_sec=1800, instance_name="A" ):
     logger = setup_logger()
 
     if width <= 1:
@@ -113,13 +113,14 @@ def solve_no_hole_anti_k_labeling(graph, k, width, queue, timeout_sec=3600, inst
 
     # print(len(clauses) - kk)
     # Exactly one
-    kk = len(clauses)
-    for i in range(1, n + 1):
-        tmp = []
-        # Collect variables for EO
-        for label in range(1, k + 1):
-            tmp.append(x[i][label])
-        clauses.extend(ExactlyOne(tmp))
+    
+    # kk = len(clauses)
+    # for i in range(1, n + 1):
+    #     tmp = []
+    #     # Collect variables for EO
+    #     for label in range(1, k + 1):
+    #         tmp.append(x[i][label])
+    #     clauses.extend(ExactlyOne(tmp))
     # print(len(clauses) - kk)
 
     # Every label must be used at least once
@@ -254,6 +255,8 @@ def SCL_AMO(x, R, k):
     for index in range(2, k + 1):
         clauses.append([-x[index], -R[index-1]])
 
+    clauses.append([R[k]])
+    
     return clauses
 
 
@@ -270,7 +273,7 @@ def Symetry_breaking(graph, x, k):
     #         node = i
 
     clause = []
-    for label in range(1, k // 2):
+    for label in range(1, k//2):
         clause.append([-x[node][label]])
     return clause
 
@@ -488,6 +491,13 @@ def tuantu_for_ans(graph, k, rand, lower_bound, upper_bound, file, timeout_sec=3
         if run_test_with_timeout(graph, k, width, time_left, file[0]):
             res2.append(round(time.time() - time_start, 2))
             res.append(res2)
+            
+            # Append ngay vào Excel sau mỗi test
+            if len(res) == 2:  # Lần đầu (header + 1 dòng data)
+                write_to_excel(res, mode='write')
+            else:
+                write_to_excel([res[-1]], mode='append')
+            
             res2 = []
 
             time_left -= time.time() - time_start
@@ -501,6 +511,13 @@ def tuantu_for_ans(graph, k, rand, lower_bound, upper_bound, file, timeout_sec=3
         else:
             res2.append(round(time.time() - time_start, 2))
             res.append(res2)
+            
+            # Append ngay vào Excel sau mỗi test
+            if len(res) == 2:  # Lần đầu (header + 1 dòng data)
+                write_to_excel(res, mode='write')
+            else:
+                write_to_excel([res[-1]], mode='append')
+            
             res2 = []
 
             time_left -= time.time() - time_start
@@ -591,6 +608,11 @@ def solve():
     with open(LOG_FILE, "w", encoding="utf-8"):
         pass
 
+    # clear Excel file at start
+    if os.path.exists(EXCEL_FILE):
+        os.remove(EXCEL_FILE)
+        logger.info(f"Cleared existing Excel file: {EXCEL_FILE}")
+
     logger.info("=== Start solve() ===")
 
     folder_path = "data/11. hb"
@@ -607,8 +629,8 @@ def solve():
         lst.append(os.path.join(folder_path, os.path.basename(file)))
         filename.append(os.path.basename(file))
 
-    for i in range(14,16):
-        
+    for i in range(15, 16):
+
         time_start = time.time()
         graph = read_input(lst[i])
         rand = proportion[i]
@@ -618,6 +640,7 @@ def solve():
         time_limit = 1800
 
         ans = tuantu_for_ans(graph, k, rand, lower_bound[i] * rand // 100, upper_bound[i], file, time_limit)
+        # ans = tuantu_for_ans(graph, k, rand, 72, upper_bound[i], file, time_limit)
 
         logger.info("$$$$")
         logger.info(str(ans))
@@ -634,9 +657,8 @@ def solve():
             else:
                 logger.info(f"Maximum width before timeout for {file} is {-ans}")
             logger.info("time out")
-        
-        
-    write_to_excel(res)
+    
+    # write_to_excel(res)  # Đã append liên tục trong tuantu_for_ans
 
 
 def write_cnf_to_file(clauses, solver, n, k, width, instance_name="A"):
@@ -664,12 +686,15 @@ def write_cnf_to_file(clauses, solver, n, k, width, instance_name="A"):
         logger.exception("Failed to write CNF")
         return None
 
-def write_to_excel(data, output_file=EXCEL_FILE):
+def write_to_excel(data, output_file=EXCEL_FILE, mode='write'):
     logger = setup_logger()
     try:
         df = pd.DataFrame(data)
+        if mode == 'append' and os.path.exists(output_file):
+            existing_df = pd.read_excel(output_file)
+            df = pd.concat([existing_df, df], ignore_index=True)
         df.to_excel(output_file, index=False)
-        logger.info(f"Data written to {output_file}")
+        logger.info(f"Data {mode} to {output_file}")
     except Exception:
         logger.exception("Error writing to Excel")
 

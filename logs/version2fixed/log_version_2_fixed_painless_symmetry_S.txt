@@ -1,0 +1,18 @@
+2026-01-08 15:56:00,663 | INFO | MainProcess | === Start solve() ===
+2026-01-08 15:56:00,679 | INFO | Process-1 | Number of clauses before symmetry breaking: 1
+2026-01-08 15:56:00,680 | INFO | Process-1 | Number of clauses after symmetry breaking: 110
+2026-01-08 15:56:01,816 | INFO | Process-1 | Number of variables: 281352
+2026-01-08 15:56:01,816 | INFO | Process-1 | Number of clauses: 1212316
+2026-01-08 15:56:01,817 | INFO | Process-1 | Real nums of clauses: 1215695
+2026-01-08 15:56:01,817 | INFO | Process-1 | Real nums of variables: 281350
+2026-01-08 15:56:02,499 | INFO | Process-1 | CNF written to cnf/v2/O_n425_k221/O_n425_k221_w72.cnf
+2026-01-08 15:56:02,499 | INFO | Process-1 | [PAINLESS] Running: ./painless/build/release/painless_release -c=8 -solver=cccckkkk cnf/v2/O_n425_k221/O_n425_k221_w72.cnf
+2026-01-08 16:27:21,672 | INFO | MainProcess | No solution found 72
+2026-01-08 16:27:21,680 | INFO | MainProcess | [Test k=221, w=72] Time: 1881.01 seconds
+2026-01-08 16:27:21,681 | INFO | MainProcess | $$$$
+2026-01-08 16:27:21,681 | INFO | MainProcess | -9999
+2026-01-08 16:27:21,681 | INFO | MainProcess | $$$$
+2026-01-08 16:27:21,682 | INFO | MainProcess | Time taken for O-impcol_d.mtx.rnd with k = 221: 1881.0172548294067 seconds
+2026-01-08 16:27:21,682 | INFO | MainProcess | No answer before timeout for O-impcol_d.mtx.rnd
+2026-01-08 16:27:21,682 | INFO | MainProcess | time out
+2026-01-08 16:27:23,217 | INFO | MainProcess | Data written to output/version2fixed/output_version_2_fixed_painless_symmetry_S.xlsx

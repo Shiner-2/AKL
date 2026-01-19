@@ -1,4 +1,5 @@
 {
     "python-envs.defaultEnvManager": "ms-python.python:system",
-    "python-envs.pythonProjects": []
+    "python-envs.pythonProjects": [],
+    "cmake.sourceDirectory": "C:/Users/Admin/Desktop/UET/Lab/AKL/painless/libs/eigen-3.4.0/unsupported/test"
 }

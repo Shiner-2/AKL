@@ -22,7 +22,7 @@ EXCEL_FILE = "output/directencoding/output_directencoding_painless_no_symmetry_P
 # --- Painless runner config ---
 PAINLESS_BIN = "./painless/build/release/painless_release"  # đổi nếu khác
 PAINLESS_ARGS = ["-c=4", "-solver=cckk"]       # tuỳ chọn
-RUN_PAINLESS = True                                         # bật/tắt chạy Painless
+RUN_PAINLESS = False                                         # bật/tắt chạy Painless
 
 top_id = 2
 
@@ -115,7 +115,7 @@ def solve_no_hole_anti_k_labeling(graph, k, width, queue, timeout_sec=3600, inst
                     if abs(labelu - labelv) < width:
                         clauses.append([-x[u][labelu], -x[v][labelv]])
                         
-    # clauses.extend(Symetry_breaking(graph, x, k))
+    clauses.extend(Symetry_breaking(graph, x, k))
     
     
             # for labelu in range(1, k + 1):
@@ -162,7 +162,7 @@ def solve_no_hole_anti_k_labeling(graph, k, width, queue, timeout_sec=3600, inst
     if RUN_PAINLESS and cnf_path:
         # Dùng timeout nếu có biến timeout_sec trong scope, không thì mặc định 1800
         try:
-            painless_timeout = min(1800, timeout_sec)  # timeout_sec có ở caller? nếu không sẽ rơi vào except
+            painless_timeout = min(1800, timeout_sec)
         except NameError:
             painless_timeout = 1800
 
@@ -226,7 +226,7 @@ def Symetry_breaking(graph, x, k):
             node = i
 
     clause = []
-    for label in range(1, k // 2 + 1):
+    for label in range(k, k//2 + 1, -1):
         clause.append([-x[node][label]])
     return clause
 
@@ -588,7 +588,7 @@ def solve():
         lst.append(os.path.join(folder_path, os.path.basename(file)))
         filename.append(os.path.basename(file))
 
-    for i in range(14,16):
+    for i in range(14,15):
         time_start = time.time()
         graph = read_input(lst[i])
         rand = proportion[i]
@@ -611,11 +611,13 @@ def solve():
         else:
             if ans == -9999:
                 logger.info(f"No answer before timeout for {file}")
+                i = 13
             else:
                 logger.info(f"Maximum width before timeout for {file} is {-ans}")
             logger.info("time out")
-        
-        time.sleep(10)  # tránh xung đột log
+            
+            
+        time.sleep(2)
 
 
 def write_cnf_to_file(clauses, solver, n, k, width, instance_name="A"):

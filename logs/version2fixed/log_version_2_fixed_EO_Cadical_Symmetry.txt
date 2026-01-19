@@ -1,0 +1,1700 @@
+2026-01-17 19:34:03,965 | INFO | MainProcess | === Start solve() ===
+2026-01-17 19:34:04,328 | INFO | Process-1 | Number of clauses before symmetry breaking: 1
+2026-01-17 19:34:04,328 | INFO | Process-1 | Number of clauses after symmetry breaking: 11
+2026-01-17 19:34:04,333 | INFO | Process-1 | Number of variables: 1381
+2026-01-17 19:34:04,333 | INFO | Process-1 | Number of clauses: 7312
+2026-01-17 19:34:04,333 | INFO | Process-1 | Real nums of clauses: 7502
+2026-01-17 19:34:04,333 | INFO | Process-1 | Real nums of variables: 1380
+2026-01-17 19:34:04,338 | INFO | Process-1 | CNF written to cnf/v2\A_n30_k23\A_n30_k23_w4.cnf
+2026-01-17 19:34:04,340 | ERROR | Process-1 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 19:34:04,341 | RESULT | Process-1 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 19:34:04,369 | INFO | MainProcess | Found a solution 4
+2026-01-17 19:34:04,369 | INFO | MainProcess | [Test k=23, w=4] Time: 0.4 seconds
+2026-01-17 19:34:04,589 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 19:34:04,948 | INFO | Process-2 | Number of clauses before symmetry breaking: 1
+2026-01-17 19:34:04,948 | INFO | Process-2 | Number of clauses after symmetry breaking: 11
+2026-01-17 19:34:04,952 | INFO | Process-2 | Number of variables: 1381
+2026-01-17 19:34:04,952 | INFO | Process-2 | Number of clauses: 7319
+2026-01-17 19:34:04,952 | INFO | Process-2 | Real nums of clauses: 7502
+2026-01-17 19:34:04,952 | INFO | Process-2 | Real nums of variables: 1380
+2026-01-17 19:34:04,957 | INFO | Process-2 | CNF written to cnf/v2\A_n30_k23\A_n30_k23_w5.cnf
+2026-01-17 19:34:04,957 | ERROR | Process-2 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 19:34:04,961 | RESULT | Process-2 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 19:34:04,990 | INFO | MainProcess | Found a solution 5
+2026-01-17 19:34:04,990 | INFO | MainProcess | [Test k=23, w=5] Time: 0.4 seconds
+2026-01-17 19:34:05,019 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 19:34:05,380 | INFO | Process-3 | Number of clauses before symmetry breaking: 1
+2026-01-17 19:34:05,380 | INFO | Process-3 | Number of clauses after symmetry breaking: 11
+2026-01-17 19:34:05,386 | INFO | Process-3 | Number of variables: 1381
+2026-01-17 19:34:05,386 | INFO | Process-3 | Number of clauses: 7326
+2026-01-17 19:34:05,386 | INFO | Process-3 | Real nums of clauses: 7502
+2026-01-17 19:34:05,386 | INFO | Process-3 | Real nums of variables: 1380
+2026-01-17 19:34:05,390 | INFO | Process-3 | CNF written to cnf/v2\A_n30_k23\A_n30_k23_w6.cnf
+2026-01-17 19:34:05,390 | ERROR | Process-3 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 19:34:05,394 | RESULT | Process-3 | No solution exists
+2026-01-17 19:34:05,394 | RESULT | Process-3 | Time taken: 0.014000892639160156 seconds
+2026-01-17 19:34:05,423 | INFO | MainProcess | No solution found 6
+2026-01-17 19:34:05,423 | INFO | MainProcess | [Test k=23, w=6] Time: 0.4 seconds
+2026-01-17 19:34:05,445 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 19:34:05,445 | INFO | MainProcess | $$$$
+2026-01-17 19:34:05,445 | INFO | MainProcess | 5
+2026-01-17 19:34:05,445 | INFO | MainProcess | $$$$
+2026-01-17 19:34:05,445 | INFO | MainProcess | Time taken for A-pores_1.mtx.rnd with k = 23: 1.479980707168579 seconds
+2026-01-17 19:34:05,445 | INFO | MainProcess | Maximum width for A-pores_1.mtx.rnd is 5
+2026-01-17 19:34:05,791 | INFO | Process-4 | Number of clauses before symmetry breaking: 1
+2026-01-17 19:34:05,791 | INFO | Process-4 | Number of clauses after symmetry breaking: 9
+2026-01-17 19:34:05,795 | INFO | Process-4 | Number of variables: 1153
+2026-01-17 19:34:05,795 | INFO | Process-4 | Number of clauses: 5438
+2026-01-17 19:34:05,795 | INFO | Process-4 | Real nums of clauses: 5539
+2026-01-17 19:34:05,795 | INFO | Process-4 | Real nums of variables: 1152
+2026-01-17 19:34:05,798 | INFO | Process-4 | CNF written to cnf/v2\B_n32_k18\B_n32_k18_w5.cnf
+2026-01-17 19:34:05,798 | ERROR | Process-4 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 19:34:05,799 | RESULT | Process-4 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 19:34:05,830 | INFO | MainProcess | Found a solution 5
+2026-01-17 19:34:05,830 | INFO | MainProcess | [Test k=18, w=5] Time: 0.38 seconds
+2026-01-17 19:34:05,857 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 19:34:06,192 | INFO | Process-5 | Number of clauses before symmetry breaking: 1
+2026-01-17 19:34:06,192 | INFO | Process-5 | Number of clauses after symmetry breaking: 9
+2026-01-17 19:34:06,196 | INFO | Process-5 | Number of variables: 1153
+2026-01-17 19:34:06,196 | INFO | Process-5 | Number of clauses: 5415
+2026-01-17 19:34:06,196 | INFO | Process-5 | Real nums of clauses: 5539
+2026-01-17 19:34:06,196 | INFO | Process-5 | Real nums of variables: 1152
+2026-01-17 19:34:06,200 | INFO | Process-5 | CNF written to cnf/v2\B_n32_k18\B_n32_k18_w6.cnf
+2026-01-17 19:34:06,200 | ERROR | Process-5 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 19:34:06,201 | RESULT | Process-5 | No solution exists
+2026-01-17 19:34:06,201 | RESULT | Process-5 | Time taken: 0.01000070571899414 seconds
+2026-01-17 19:34:06,230 | INFO | MainProcess | No solution found 6
+2026-01-17 19:34:06,230 | INFO | MainProcess | [Test k=18, w=6] Time: 0.37 seconds
+2026-01-17 19:34:06,256 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 19:34:06,256 | INFO | MainProcess | $$$$
+2026-01-17 19:34:06,256 | INFO | MainProcess | 5
+2026-01-17 19:34:06,256 | INFO | MainProcess | $$$$
+2026-01-17 19:34:06,256 | INFO | MainProcess | Time taken for B-ibm32.mtx.rnd with k = 18: 0.8107218742370605 seconds
+2026-01-17 19:34:06,256 | INFO | MainProcess | Maximum width for B-ibm32.mtx.rnd is 5
+2026-01-17 19:34:06,597 | INFO | Process-6 | Number of clauses before symmetry breaking: 1
+2026-01-17 19:34:06,597 | INFO | Process-6 | Number of clauses after symmetry breaking: 10
+2026-01-17 19:34:06,601 | INFO | Process-6 | Number of variables: 1639
+2026-01-17 19:34:06,601 | INFO | Process-6 | Number of clauses: 5078
+2026-01-17 19:34:06,601 | INFO | Process-6 | Real nums of clauses: 5200
+2026-01-17 19:34:06,601 | INFO | Process-6 | Real nums of variables: 1638
+2026-01-17 19:34:06,604 | INFO | Process-6 | CNF written to cnf/v2\C_n39_k21\C_n39_k21_w8.cnf
+2026-01-17 19:34:06,604 | ERROR | Process-6 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 19:34:06,608 | RESULT | Process-6 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 19:34:06,635 | INFO | MainProcess | Found a solution 8
+2026-01-17 19:34:06,635 | INFO | MainProcess | [Test k=21, w=8] Time: 0.37 seconds
+2026-01-17 19:34:06,661 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 19:34:07,011 | INFO | Process-7 | Number of clauses before symmetry breaking: 1
+2026-01-17 19:34:07,011 | INFO | Process-7 | Number of clauses after symmetry breaking: 10
+2026-01-17 19:34:07,014 | INFO | Process-7 | Number of variables: 1639
+2026-01-17 19:34:07,014 | INFO | Process-7 | Number of clauses: 5068
+2026-01-17 19:34:07,014 | INFO | Process-7 | Real nums of clauses: 5200
+2026-01-17 19:34:07,014 | INFO | Process-7 | Real nums of variables: 1638
+2026-01-17 19:34:07,018 | INFO | Process-7 | CNF written to cnf/v2\C_n39_k21\C_n39_k21_w9.cnf
+2026-01-17 19:34:07,018 | ERROR | Process-7 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 19:34:07,021 | RESULT | Process-7 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 19:34:07,049 | INFO | MainProcess | Found a solution 9
+2026-01-17 19:34:07,049 | INFO | MainProcess | [Test k=21, w=9] Time: 0.39 seconds
+2026-01-17 19:34:07,075 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 19:34:07,422 | INFO | Process-8 | Number of clauses before symmetry breaking: 1
+2026-01-17 19:34:07,422 | INFO | Process-8 | Number of clauses after symmetry breaking: 10
+2026-01-17 19:34:07,425 | INFO | Process-8 | Number of variables: 1639
+2026-01-17 19:34:07,425 | INFO | Process-8 | Number of clauses: 5058
+2026-01-17 19:34:07,425 | INFO | Process-8 | Real nums of clauses: 5200
+2026-01-17 19:34:07,425 | INFO | Process-8 | Real nums of variables: 1638
+2026-01-17 19:34:07,428 | INFO | Process-8 | CNF written to cnf/v2\C_n39_k21\C_n39_k21_w10.cnf
+2026-01-17 19:34:07,428 | ERROR | Process-8 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 19:34:07,452 | RESULT | Process-8 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 19:34:07,480 | INFO | MainProcess | Found a solution 10
+2026-01-17 19:34:07,480 | INFO | MainProcess | [Test k=21, w=10] Time: 0.41 seconds
+2026-01-17 19:34:07,505 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 19:34:07,856 | INFO | Process-9 | Number of clauses before symmetry breaking: 1
+2026-01-17 19:34:07,856 | INFO | Process-9 | Number of clauses after symmetry breaking: 10
+2026-01-17 19:34:07,859 | INFO | Process-9 | Number of variables: 1639
+2026-01-17 19:34:07,859 | INFO | Process-9 | Number of clauses: 4680
+2026-01-17 19:34:07,859 | INFO | Process-9 | Real nums of clauses: 5292
+2026-01-17 19:34:07,859 | INFO | Process-9 | Real nums of variables: 1638
+2026-01-17 19:34:07,863 | INFO | Process-9 | CNF written to cnf/v2\C_n39_k21\C_n39_k21_w11.cnf
+2026-01-17 19:34:07,863 | ERROR | Process-9 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 19:34:07,863 | RESULT | Process-9 | No solution exists
+2026-01-17 19:34:07,863 | RESULT | Process-9 | Time taken: 0.007998943328857422 seconds
+2026-01-17 19:34:07,889 | INFO | MainProcess | No solution found 11
+2026-01-17 19:34:07,889 | INFO | MainProcess | [Test k=21, w=11] Time: 0.38 seconds
+2026-01-17 19:34:07,913 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 19:34:07,913 | INFO | MainProcess | $$$$
+2026-01-17 19:34:07,913 | INFO | MainProcess | 10
+2026-01-17 19:34:07,913 | INFO | MainProcess | $$$$
+2026-01-17 19:34:07,913 | INFO | MainProcess | Time taken for C-bcspwr01.mtx.rnd with k = 21: 1.6572818756103516 seconds
+2026-01-17 19:34:07,913 | INFO | MainProcess | Maximum width for C-bcspwr01.mtx.rnd is 10
+2026-01-17 19:34:08,284 | INFO | Process-10 | Number of clauses before symmetry breaking: 1
+2026-01-17 19:34:08,284 | INFO | Process-10 | Number of clauses after symmetry breaking: 14
+2026-01-17 19:34:08,294 | INFO | Process-10 | Number of variables: 2785
+2026-01-17 19:34:08,294 | INFO | Process-10 | Number of clauses: 15509
+2026-01-17 19:34:08,294 | INFO | Process-10 | Real nums of clauses: 15771
+2026-01-17 19:34:08,294 | INFO | Process-10 | Real nums of variables: 2784
+2026-01-17 19:34:08,303 | INFO | Process-10 | CNF written to cnf/v2\D_n48_k29\D_n48_k29_w4.cnf
+2026-01-17 19:34:08,303 | ERROR | Process-10 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 19:34:08,305 | RESULT | Process-10 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 19:34:08,334 | INFO | MainProcess | Found a solution 4
+2026-01-17 19:34:08,334 | INFO | MainProcess | [Test k=29, w=4] Time: 0.42 seconds
+2026-01-17 19:34:08,361 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 19:34:08,727 | INFO | Process-11 | Number of clauses before symmetry breaking: 1
+2026-01-17 19:34:08,728 | INFO | Process-11 | Number of clauses after symmetry breaking: 14
+2026-01-17 19:34:08,738 | INFO | Process-11 | Number of variables: 2785
+2026-01-17 19:34:08,738 | INFO | Process-11 | Number of clauses: 15516
+2026-01-17 19:34:08,738 | INFO | Process-11 | Real nums of clauses: 15771
+2026-01-17 19:34:08,738 | INFO | Process-11 | Real nums of variables: 2784
+2026-01-17 19:34:08,746 | INFO | Process-11 | CNF written to cnf/v2\D_n48_k29\D_n48_k29_w5.cnf
+2026-01-17 19:34:08,746 | ERROR | Process-11 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 19:34:08,761 | RESULT | Process-11 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 19:34:08,788 | INFO | MainProcess | Found a solution 5
+2026-01-17 19:34:08,788 | INFO | MainProcess | [Test k=29, w=5] Time: 0.43 seconds
+2026-01-17 19:34:08,813 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 19:34:09,157 | INFO | Process-12 | Number of clauses before symmetry breaking: 1
+2026-01-17 19:34:09,158 | INFO | Process-12 | Number of clauses after symmetry breaking: 14
+2026-01-17 19:34:09,167 | INFO | Process-12 | Number of variables: 2785
+2026-01-17 19:34:09,167 | INFO | Process-12 | Number of clauses: 15523
+2026-01-17 19:34:09,168 | INFO | Process-12 | Real nums of clauses: 15771
+2026-01-17 19:34:09,168 | INFO | Process-12 | Real nums of variables: 2784
+2026-01-17 19:34:09,176 | INFO | Process-12 | CNF written to cnf/v2\D_n48_k29\D_n48_k29_w6.cnf
+2026-01-17 19:34:09,176 | ERROR | Process-12 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 19:34:09,184 | RESULT | Process-12 | No solution exists
+2026-01-17 19:34:09,184 | RESULT | Process-12 | Time taken: 0.026998043060302734 seconds
+2026-01-17 19:34:09,210 | INFO | MainProcess | No solution found 6
+2026-01-17 19:34:09,210 | INFO | MainProcess | [Test k=29, w=6] Time: 0.4 seconds
+2026-01-17 19:34:09,234 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 19:34:09,234 | INFO | MainProcess | $$$$
+2026-01-17 19:34:09,234 | INFO | MainProcess | 5
+2026-01-17 19:34:09,234 | INFO | MainProcess | $$$$
+2026-01-17 19:34:09,234 | INFO | MainProcess | Time taken for D-bcsstk01.mtx.rnd with k = 29: 1.3206291198730469 seconds
+2026-01-17 19:34:09,234 | INFO | MainProcess | Maximum width for D-bcsstk01.mtx.rnd is 5
+2026-01-17 19:34:09,576 | INFO | Process-13 | Number of clauses before symmetry breaking: 1
+2026-01-17 19:34:09,576 | INFO | Process-13 | Number of clauses after symmetry breaking: 17
+2026-01-17 19:34:09,583 | INFO | Process-13 | Number of variables: 3431
+2026-01-17 19:34:09,583 | INFO | Process-13 | Number of clauses: 10828
+2026-01-17 19:34:09,583 | INFO | Process-13 | Real nums of clauses: 10993
+2026-01-17 19:34:09,583 | INFO | Process-13 | Real nums of variables: 3430
+2026-01-17 19:34:09,589 | INFO | Process-13 | CNF written to cnf/v2\E_n49_k35\E_n49_k35_w15.cnf
+2026-01-17 19:34:09,589 | ERROR | Process-13 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 19:34:09,670 | RESULT | Process-13 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 19:34:09,699 | INFO | MainProcess | Found a solution 15
+2026-01-17 19:34:09,699 | INFO | MainProcess | [Test k=35, w=15] Time: 0.46 seconds
+2026-01-17 19:34:09,725 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 19:34:10,059 | INFO | Process-14 | Number of clauses before symmetry breaking: 1
+2026-01-17 19:34:10,059 | INFO | Process-14 | Number of clauses after symmetry breaking: 17
+2026-01-17 19:34:10,066 | INFO | Process-14 | Number of variables: 3431
+2026-01-17 19:34:10,066 | INFO | Process-14 | Number of clauses: 10823
+2026-01-17 19:34:10,066 | INFO | Process-14 | Real nums of clauses: 10993
+2026-01-17 19:34:10,066 | INFO | Process-14 | Real nums of variables: 3430
+2026-01-17 19:34:10,072 | INFO | Process-14 | CNF written to cnf/v2\E_n49_k35\E_n49_k35_w16.cnf
+2026-01-17 19:34:10,072 | ERROR | Process-14 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 19:34:10,251 | RESULT | Process-14 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 19:34:10,278 | INFO | MainProcess | Found a solution 16
+2026-01-17 19:34:10,278 | INFO | MainProcess | [Test k=35, w=16] Time: 0.55 seconds
+2026-01-17 19:34:10,304 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 19:34:10,638 | INFO | Process-15 | Number of clauses before symmetry breaking: 1
+2026-01-17 19:34:10,638 | INFO | Process-15 | Number of clauses after symmetry breaking: 17
+2026-01-17 19:34:10,645 | INFO | Process-15 | Number of variables: 3431
+2026-01-17 19:34:10,645 | INFO | Process-15 | Number of clauses: 10818
+2026-01-17 19:34:10,645 | INFO | Process-15 | Real nums of clauses: 10993
+2026-01-17 19:34:10,646 | INFO | Process-15 | Real nums of variables: 3430
+2026-01-17 19:34:10,652 | INFO | Process-15 | CNF written to cnf/v2\E_n49_k35\E_n49_k35_w17.cnf
+2026-01-17 19:34:10,652 | ERROR | Process-15 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 19:34:15,784 | RESULT | Process-15 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 19:34:15,812 | INFO | MainProcess | Found a solution 17
+2026-01-17 19:34:15,812 | INFO | MainProcess | [Test k=35, w=17] Time: 5.51 seconds
+2026-01-17 19:34:15,837 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 19:34:16,198 | INFO | Process-16 | Number of clauses before symmetry breaking: 1
+2026-01-17 19:34:16,198 | INFO | Process-16 | Number of clauses after symmetry breaking: 17
+2026-01-17 19:34:16,205 | INFO | Process-16 | Number of variables: 3431
+2026-01-17 19:34:16,205 | INFO | Process-16 | Number of clauses: 10425
+2026-01-17 19:34:16,205 | INFO | Process-16 | Real nums of clauses: 11111
+2026-01-17 19:34:16,205 | INFO | Process-16 | Real nums of variables: 3430
+2026-01-17 19:34:16,211 | INFO | Process-16 | CNF written to cnf/v2\E_n49_k35\E_n49_k35_w18.cnf
+2026-01-17 19:34:16,211 | ERROR | Process-16 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 19:34:16,211 | RESULT | Process-16 | No solution exists
+2026-01-17 19:34:16,211 | RESULT | Process-16 | Time taken: 0.01399540901184082 seconds
+2026-01-17 19:34:16,236 | INFO | MainProcess | No solution found 18
+2026-01-17 19:34:16,236 | INFO | MainProcess | [Test k=35, w=18] Time: 0.4 seconds
+2026-01-17 19:34:16,261 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 19:34:16,261 | INFO | MainProcess | $$$$
+2026-01-17 19:34:16,261 | INFO | MainProcess | 17
+2026-01-17 19:34:16,261 | INFO | MainProcess | $$$$
+2026-01-17 19:34:16,261 | INFO | MainProcess | Time taken for E-bcspwr02.mtx.rnd with k = 35: 7.027360439300537 seconds
+2026-01-17 19:34:16,261 | INFO | MainProcess | Maximum width for E-bcspwr02.mtx.rnd is 17
+2026-01-17 19:34:16,616 | INFO | Process-17 | Number of clauses before symmetry breaking: 1
+2026-01-17 19:34:16,616 | INFO | Process-17 | Number of clauses after symmetry breaking: 16
+2026-01-17 19:34:16,625 | INFO | Process-17 | Number of variables: 3565
+2026-01-17 19:34:16,625 | INFO | Process-17 | Number of clauses: 14976
+2026-01-17 19:34:16,625 | INFO | Process-17 | Real nums of clauses: 15307
+2026-01-17 19:34:16,625 | INFO | Process-17 | Real nums of variables: 3564
+2026-01-17 19:34:16,634 | INFO | Process-17 | CNF written to cnf/v2\F_n54_k33\F_n54_k33_w7.cnf
+2026-01-17 19:34:16,634 | ERROR | Process-17 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 19:34:16,640 | RESULT | Process-17 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 19:34:16,666 | INFO | MainProcess | Found a solution 7
+2026-01-17 19:34:16,666 | INFO | MainProcess | [Test k=33, w=7] Time: 0.4 seconds
+2026-01-17 19:34:16,691 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 19:34:17,042 | INFO | Process-18 | Number of clauses before symmetry breaking: 1
+2026-01-17 19:34:17,042 | INFO | Process-18 | Number of clauses after symmetry breaking: 16
+2026-01-17 19:34:17,051 | INFO | Process-18 | Number of variables: 3565
+2026-01-17 19:34:17,051 | INFO | Process-18 | Number of clauses: 14985
+2026-01-17 19:34:17,051 | INFO | Process-18 | Real nums of clauses: 15307
+2026-01-17 19:34:17,051 | INFO | Process-18 | Real nums of variables: 3564
+2026-01-17 19:34:17,060 | INFO | Process-18 | CNF written to cnf/v2\F_n54_k33\F_n54_k33_w8.cnf
+2026-01-17 19:34:17,060 | ERROR | Process-18 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 19:34:17,100 | RESULT | Process-18 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 19:34:17,128 | INFO | MainProcess | Found a solution 8
+2026-01-17 19:34:17,128 | INFO | MainProcess | [Test k=33, w=8] Time: 0.44 seconds
+2026-01-17 19:34:17,154 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 19:34:17,511 | INFO | Process-19 | Number of clauses before symmetry breaking: 1
+2026-01-17 19:34:17,511 | INFO | Process-19 | Number of clauses after symmetry breaking: 16
+2026-01-17 19:34:17,521 | INFO | Process-19 | Number of variables: 3565
+2026-01-17 19:34:17,521 | INFO | Process-19 | Number of clauses: 14994
+2026-01-17 19:34:17,521 | INFO | Process-19 | Real nums of clauses: 15307
+2026-01-17 19:34:17,521 | INFO | Process-19 | Real nums of variables: 3564
+2026-01-17 19:34:17,529 | INFO | Process-19 | CNF written to cnf/v2\F_n54_k33\F_n54_k33_w9.cnf
+2026-01-17 19:34:17,529 | ERROR | Process-19 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 19:34:17,532 | RESULT | Process-19 | No solution exists
+2026-01-17 19:34:17,532 | RESULT | Process-19 | Time taken: 0.021122455596923828 seconds
+2026-01-17 19:34:17,558 | INFO | MainProcess | No solution found 9
+2026-01-17 19:34:17,558 | INFO | MainProcess | [Test k=33, w=9] Time: 0.4 seconds
+2026-01-17 19:34:17,583 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 19:34:17,583 | INFO | MainProcess | $$$$
+2026-01-17 19:34:17,583 | INFO | MainProcess | 8
+2026-01-17 19:34:17,583 | INFO | MainProcess | $$$$
+2026-01-17 19:34:17,583 | INFO | MainProcess | Time taken for F-curtis54.mtx.rnd with k = 33: 1.322481632232666 seconds
+2026-01-17 19:34:17,583 | INFO | MainProcess | Maximum width for F-curtis54.mtx.rnd is 8
+2026-01-17 19:34:17,931 | INFO | Process-20 | Number of clauses before symmetry breaking: 1
+2026-01-17 19:34:17,931 | INFO | Process-20 | Number of clauses after symmetry breaking: 15
+2026-01-17 19:34:17,940 | INFO | Process-20 | Number of variables: 3535
+2026-01-17 19:34:17,940 | INFO | Process-20 | Number of clauses: 14794
+2026-01-17 19:34:17,940 | INFO | Process-20 | Real nums of clauses: 14931
+2026-01-17 19:34:17,940 | INFO | Process-20 | Real nums of variables: 3534
+2026-01-17 19:34:17,948 | INFO | Process-20 | CNF written to cnf/v2\G_n57_k31\G_n57_k31_w6.cnf
+2026-01-17 19:34:17,948 | ERROR | Process-20 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 19:34:17,954 | RESULT | Process-20 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 19:34:17,981 | INFO | MainProcess | Found a solution 6
+2026-01-17 19:34:17,981 | INFO | MainProcess | [Test k=31, w=6] Time: 0.39 seconds
+2026-01-17 19:34:18,006 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 19:34:18,487 | INFO | Process-21 | Number of clauses before symmetry breaking: 1
+2026-01-17 19:34:18,487 | INFO | Process-21 | Number of clauses after symmetry breaking: 15
+2026-01-17 19:34:18,498 | INFO | Process-21 | Number of variables: 3535
+2026-01-17 19:34:18,499 | INFO | Process-21 | Number of clauses: 14795
+2026-01-17 19:34:18,499 | INFO | Process-21 | Real nums of clauses: 14931
+2026-01-17 19:34:18,499 | INFO | Process-21 | Real nums of variables: 3534
+2026-01-17 19:34:18,507 | INFO | Process-21 | CNF written to cnf/v2\G_n57_k31\G_n57_k31_w7.cnf
+2026-01-17 19:34:18,507 | ERROR | Process-21 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 19:34:18,524 | RESULT | Process-21 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 19:34:18,558 | INFO | MainProcess | Found a solution 7
+2026-01-17 19:34:18,558 | INFO | MainProcess | [Test k=31, w=7] Time: 0.55 seconds
+2026-01-17 19:34:18,590 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 19:34:18,987 | INFO | Process-22 | Number of clauses before symmetry breaking: 1
+2026-01-17 19:34:18,987 | INFO | Process-22 | Number of clauses after symmetry breaking: 15
+2026-01-17 19:34:18,996 | INFO | Process-22 | Number of variables: 3535
+2026-01-17 19:34:18,996 | INFO | Process-22 | Number of clauses: 14796
+2026-01-17 19:34:18,996 | INFO | Process-22 | Real nums of clauses: 14931
+2026-01-17 19:34:18,996 | INFO | Process-22 | Real nums of variables: 3534
+2026-01-17 19:34:19,004 | INFO | Process-22 | CNF written to cnf/v2\G_n57_k31\G_n57_k31_w8.cnf
+2026-01-17 19:34:19,005 | ERROR | Process-22 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 19:34:19,010 | RESULT | Process-22 | No solution exists
+2026-01-17 19:34:19,010 | RESULT | Process-22 | Time taken: 0.022998571395874023 seconds
+2026-01-17 19:34:19,038 | INFO | MainProcess | No solution found 8
+2026-01-17 19:34:19,038 | INFO | MainProcess | [Test k=31, w=8] Time: 0.45 seconds
+2026-01-17 19:34:19,063 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 19:34:19,063 | INFO | MainProcess | $$$$
+2026-01-17 19:34:19,063 | INFO | MainProcess | 7
+2026-01-17 19:34:19,063 | INFO | MainProcess | $$$$
+2026-01-17 19:34:19,063 | INFO | MainProcess | Time taken for G-will57.mtx.rnd with k = 31: 1.4794459342956543 seconds
+2026-01-17 19:34:19,063 | INFO | MainProcess | Maximum width for G-will57.mtx.rnd is 7
+2026-01-17 19:34:19,409 | INFO | Process-23 | Number of clauses before symmetry breaking: 1
+2026-01-17 19:34:19,409 | INFO | Process-23 | Number of clauses after symmetry breaking: 18
+2026-01-17 19:34:19,427 | INFO | Process-23 | Number of variables: 4367
+2026-01-17 19:34:19,428 | INFO | Process-23 | Number of clauses: 29304
+2026-01-17 19:34:19,428 | INFO | Process-23 | Real nums of clauses: 29522
+2026-01-17 19:34:19,428 | INFO | Process-23 | Real nums of variables: 4366
+2026-01-17 19:34:19,442 | INFO | Process-23 | CNF written to cnf/v2\H_n59_k37\H_n59_k37_w5.cnf
+2026-01-17 19:34:19,442 | ERROR | Process-23 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 19:34:19,452 | RESULT | Process-23 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 19:34:19,483 | INFO | MainProcess | Found a solution 5
+2026-01-17 19:34:19,483 | INFO | MainProcess | [Test k=37, w=5] Time: 0.42 seconds
+2026-01-17 19:34:19,509 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 19:34:19,847 | INFO | Process-24 | Number of clauses before symmetry breaking: 1
+2026-01-17 19:34:19,847 | INFO | Process-24 | Number of clauses after symmetry breaking: 18
+2026-01-17 19:34:19,866 | INFO | Process-24 | Number of variables: 4367
+2026-01-17 19:34:19,866 | INFO | Process-24 | Number of clauses: 29307
+2026-01-17 19:34:19,866 | INFO | Process-24 | Real nums of clauses: 29522
+2026-01-17 19:34:19,866 | INFO | Process-24 | Real nums of variables: 4366
+2026-01-17 19:34:19,881 | INFO | Process-24 | CNF written to cnf/v2\H_n59_k37\H_n59_k37_w6.cnf
+2026-01-17 19:34:19,881 | ERROR | Process-24 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 19:34:20,089 | RESULT | Process-24 | No solution exists
+2026-01-17 19:34:20,090 | RESULT | Process-24 | Time taken: 0.24358844757080078 seconds
+2026-01-17 19:34:20,117 | INFO | MainProcess | No solution found 6
+2026-01-17 19:34:20,119 | INFO | MainProcess | [Test k=37, w=6] Time: 0.61 seconds
+2026-01-17 19:34:20,154 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 19:34:20,154 | INFO | MainProcess | $$$$
+2026-01-17 19:34:20,154 | INFO | MainProcess | 5
+2026-01-17 19:34:20,154 | INFO | MainProcess | $$$$
+2026-01-17 19:34:20,154 | INFO | MainProcess | Time taken for H-impcol_b.mtx.rnd with k = 37: 1.0908448696136475 seconds
+2026-01-17 19:34:20,154 | INFO | MainProcess | Maximum width for H-impcol_b.mtx.rnd is 5
+2026-01-17 19:34:20,526 | INFO | Process-25 | Number of clauses before symmetry breaking: 1
+2026-01-17 19:34:20,526 | INFO | Process-25 | Number of clauses after symmetry breaking: 33
+2026-01-17 19:34:20,558 | INFO | Process-25 | Number of variables: 11391
+2026-01-17 19:34:20,558 | INFO | Process-25 | Number of clauses: 51677
+2026-01-17 19:34:20,558 | INFO | Process-25 | Real nums of clauses: 52141
+2026-01-17 19:34:20,558 | INFO | Process-25 | Real nums of variables: 11390
+2026-01-17 19:34:20,584 | INFO | Process-25 | CNF written to cnf/v2\I_n85_k67\I_n85_k67_w15.cnf
+2026-01-17 19:34:20,584 | ERROR | Process-25 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 19:34:20,617 | RESULT | Process-25 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 19:34:20,649 | INFO | MainProcess | Found a solution 15
+2026-01-17 19:34:20,649 | INFO | MainProcess | [Test k=67, w=15] Time: 0.49 seconds
+2026-01-17 19:34:20,677 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 19:34:21,044 | INFO | Process-26 | Number of clauses before symmetry breaking: 1
+2026-01-17 19:34:21,044 | INFO | Process-26 | Number of clauses after symmetry breaking: 33
+2026-01-17 19:34:21,076 | INFO | Process-26 | Number of variables: 11391
+2026-01-17 19:34:21,076 | INFO | Process-26 | Number of clauses: 51682
+2026-01-17 19:34:21,076 | INFO | Process-26 | Real nums of clauses: 52141
+2026-01-17 19:34:21,076 | INFO | Process-26 | Real nums of variables: 11390
+2026-01-17 19:34:21,101 | INFO | Process-26 | CNF written to cnf/v2\I_n85_k67\I_n85_k67_w16.cnf
+2026-01-17 19:34:21,101 | ERROR | Process-26 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 19:34:21,832 | RESULT | Process-26 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 19:34:21,864 | INFO | MainProcess | Found a solution 16
+2026-01-17 19:34:21,864 | INFO | MainProcess | [Test k=67, w=16] Time: 1.19 seconds
+2026-01-17 19:34:21,894 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 19:34:22,259 | INFO | Process-27 | Number of clauses before symmetry breaking: 1
+2026-01-17 19:34:22,259 | INFO | Process-27 | Number of clauses after symmetry breaking: 33
+2026-01-17 19:34:22,291 | INFO | Process-27 | Number of variables: 11391
+2026-01-17 19:34:22,291 | INFO | Process-27 | Number of clauses: 51687
+2026-01-17 19:34:22,291 | INFO | Process-27 | Real nums of clauses: 52141
+2026-01-17 19:34:22,291 | INFO | Process-27 | Real nums of variables: 11390
+2026-01-17 19:34:22,317 | INFO | Process-27 | CNF written to cnf/v2\I_n85_k67\I_n85_k67_w17.cnf
+2026-01-17 19:34:22,317 | ERROR | Process-27 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 19:34:22,370 | RESULT | Process-27 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 19:34:22,400 | INFO | MainProcess | Found a solution 17
+2026-01-17 19:34:22,400 | INFO | MainProcess | [Test k=67, w=17] Time: 0.51 seconds
+2026-01-17 19:34:22,427 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 19:34:22,768 | INFO | Process-28 | Number of clauses before symmetry breaking: 1
+2026-01-17 19:34:22,768 | INFO | Process-28 | Number of clauses after symmetry breaking: 33
+2026-01-17 19:34:22,800 | INFO | Process-28 | Number of variables: 11391
+2026-01-17 19:34:22,800 | INFO | Process-28 | Number of clauses: 51670
+2026-01-17 19:34:22,800 | INFO | Process-28 | Real nums of clauses: 52141
+2026-01-17 19:34:22,800 | INFO | Process-28 | Real nums of variables: 11390
+2026-01-17 19:34:22,825 | INFO | Process-28 | CNF written to cnf/v2\I_n85_k67\I_n85_k67_w18.cnf
+2026-01-17 19:34:22,825 | ERROR | Process-28 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 19:34:23,516 | RESULT | Process-28 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 19:34:23,548 | INFO | MainProcess | Found a solution 18
+2026-01-17 19:34:23,548 | INFO | MainProcess | [Test k=67, w=18] Time: 1.12 seconds
+2026-01-17 19:34:23,576 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 19:34:23,915 | INFO | Process-29 | Number of clauses before symmetry breaking: 1
+2026-01-17 19:34:23,915 | INFO | Process-29 | Number of clauses after symmetry breaking: 33
+2026-01-17 19:34:23,947 | INFO | Process-29 | Number of variables: 11391
+2026-01-17 19:34:23,947 | INFO | Process-29 | Number of clauses: 51631
+2026-01-17 19:34:23,947 | INFO | Process-29 | Real nums of clauses: 52141
+2026-01-17 19:34:23,947 | INFO | Process-29 | Real nums of variables: 11390
+2026-01-17 19:34:23,971 | INFO | Process-29 | CNF written to cnf/v2\I_n85_k67\I_n85_k67_w19.cnf
+2026-01-17 19:34:23,971 | ERROR | Process-29 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 19:34:50,131 | RESULT | Process-29 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 19:34:50,165 | INFO | MainProcess | Found a solution 19
+2026-01-17 19:34:50,165 | INFO | MainProcess | [Test k=67, w=19] Time: 26.59 seconds
+2026-01-17 19:34:50,190 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 19:34:50,566 | INFO | Process-30 | Number of clauses before symmetry breaking: 1
+2026-01-17 19:34:50,566 | INFO | Process-30 | Number of clauses after symmetry breaking: 33
+2026-01-17 19:34:50,597 | INFO | Process-30 | Number of variables: 11391
+2026-01-17 19:34:50,597 | INFO | Process-30 | Number of clauses: 51592
+2026-01-17 19:34:50,597 | INFO | Process-30 | Real nums of clauses: 52141
+2026-01-17 19:34:50,597 | INFO | Process-30 | Real nums of variables: 11390
+2026-01-17 19:34:50,623 | INFO | Process-30 | CNF written to cnf/v2\I_n85_k67\I_n85_k67_w20.cnf
+2026-01-17 19:34:50,623 | ERROR | Process-30 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 20:04:20,180 | INFO | MainProcess | No solution found 20
+2026-01-17 20:04:20,180 | INFO | MainProcess | [Test k=67, w=20] Time: 1769.99 seconds
+2026-01-17 20:04:20,217 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 20:04:20,217 | INFO | MainProcess | $$$$
+2026-01-17 20:04:20,217 | INFO | MainProcess | -19
+2026-01-17 20:04:20,217 | INFO | MainProcess | $$$$
+2026-01-17 20:04:20,217 | INFO | MainProcess | Time taken for I-ash85.mtx.rnd with k = 67: 1800.0629494190216 seconds
+2026-01-17 20:04:20,217 | INFO | MainProcess | Maximum width before timeout for I-ash85.mtx.rnd is 19
+2026-01-17 20:04:20,217 | INFO | MainProcess | time out
+2026-01-17 20:04:20,713 | INFO | Process-31 | Number of clauses before symmetry breaking: 1
+2026-01-17 20:04:20,713 | INFO | Process-31 | Number of clauses after symmetry breaking: 28
+2026-01-17 20:04:20,747 | INFO | Process-31 | Number of variables: 11201
+2026-01-17 20:04:20,747 | INFO | Process-31 | Number of clauses: 49501
+2026-01-17 20:04:20,747 | INFO | Process-31 | Real nums of clauses: 50048
+2026-01-17 20:04:20,747 | INFO | Process-31 | Real nums of variables: 11200
+2026-01-17 20:04:20,776 | INFO | Process-31 | CNF written to cnf/v2\J_n100_k56\J_n100_k56_w17.cnf
+2026-01-17 20:04:20,776 | ERROR | Process-31 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 20:04:20,836 | RESULT | Process-31 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 20:04:20,884 | INFO | MainProcess | Found a solution 17
+2026-01-17 20:04:20,884 | INFO | MainProcess | [Test k=56, w=17] Time: 0.66 seconds
+2026-01-17 20:04:20,929 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 20:04:21,422 | INFO | Process-32 | Number of clauses before symmetry breaking: 1
+2026-01-17 20:04:21,422 | INFO | Process-32 | Number of clauses after symmetry breaking: 28
+2026-01-17 20:04:21,455 | INFO | Process-32 | Number of variables: 11201
+2026-01-17 20:04:21,455 | INFO | Process-32 | Number of clauses: 49463
+2026-01-17 20:04:21,455 | INFO | Process-32 | Real nums of clauses: 50048
+2026-01-17 20:04:21,455 | INFO | Process-32 | Real nums of variables: 11200
+2026-01-17 20:04:21,487 | INFO | Process-32 | CNF written to cnf/v2\J_n100_k56\J_n100_k56_w18.cnf
+2026-01-17 20:04:21,487 | ERROR | Process-32 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 20:04:22,011 | RESULT | Process-32 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 20:04:22,045 | INFO | MainProcess | Found a solution 18
+2026-01-17 20:04:22,045 | INFO | MainProcess | [Test k=56, w=18] Time: 1.12 seconds
+2026-01-17 20:04:22,076 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 20:04:22,526 | INFO | Process-33 | Number of clauses before symmetry breaking: 1
+2026-01-17 20:04:22,527 | INFO | Process-33 | Number of clauses after symmetry breaking: 28
+2026-01-17 20:04:22,558 | INFO | Process-33 | Number of variables: 11201
+2026-01-17 20:04:22,558 | INFO | Process-33 | Number of clauses: 49425
+2026-01-17 20:04:22,558 | INFO | Process-33 | Real nums of clauses: 50048
+2026-01-17 20:04:22,558 | INFO | Process-33 | Real nums of variables: 11200
+2026-01-17 20:04:22,591 | INFO | Process-33 | CNF written to cnf/v2\J_n100_k56\J_n100_k56_w19.cnf
+2026-01-17 20:04:22,591 | ERROR | Process-33 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 20:04:22,603 | RESULT | Process-33 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 20:04:22,646 | INFO | MainProcess | Found a solution 19
+2026-01-17 20:04:22,646 | INFO | MainProcess | [Test k=56, w=19] Time: 0.57 seconds
+2026-01-17 20:04:22,677 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 20:04:23,169 | INFO | Process-34 | Number of clauses before symmetry breaking: 1
+2026-01-17 20:04:23,169 | INFO | Process-34 | Number of clauses after symmetry breaking: 28
+2026-01-17 20:04:23,204 | INFO | Process-34 | Number of variables: 11201
+2026-01-17 20:04:23,204 | INFO | Process-34 | Number of clauses: 49387
+2026-01-17 20:04:23,204 | INFO | Process-34 | Real nums of clauses: 50048
+2026-01-17 20:04:23,204 | INFO | Process-34 | Real nums of variables: 11200
+2026-01-17 20:04:23,232 | INFO | Process-34 | CNF written to cnf/v2\J_n100_k56\J_n100_k56_w20.cnf
+2026-01-17 20:04:23,232 | ERROR | Process-34 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 20:04:23,246 | RESULT | Process-34 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 20:04:23,282 | INFO | MainProcess | Found a solution 20
+2026-01-17 20:04:23,282 | INFO | MainProcess | [Test k=56, w=20] Time: 0.6 seconds
+2026-01-17 20:04:23,314 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 20:04:23,861 | INFO | Process-35 | Number of clauses before symmetry breaking: 1
+2026-01-17 20:04:23,861 | INFO | Process-35 | Number of clauses after symmetry breaking: 28
+2026-01-17 20:04:23,905 | INFO | Process-35 | Number of variables: 11201
+2026-01-17 20:04:23,905 | INFO | Process-35 | Number of clauses: 49349
+2026-01-17 20:04:23,905 | INFO | Process-35 | Real nums of clauses: 50048
+2026-01-17 20:04:23,905 | INFO | Process-35 | Real nums of variables: 11200
+2026-01-17 20:04:23,936 | INFO | Process-35 | CNF written to cnf/v2\J_n100_k56\J_n100_k56_w21.cnf
+2026-01-17 20:04:23,936 | ERROR | Process-35 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 20:04:24,278 | RESULT | Process-35 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 20:04:24,318 | INFO | MainProcess | Found a solution 21
+2026-01-17 20:04:24,318 | INFO | MainProcess | [Test k=56, w=21] Time: 1.0 seconds
+2026-01-17 20:04:24,348 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 20:04:24,795 | INFO | Process-36 | Number of clauses before symmetry breaking: 1
+2026-01-17 20:04:24,795 | INFO | Process-36 | Number of clauses after symmetry breaking: 28
+2026-01-17 20:04:24,829 | INFO | Process-36 | Number of variables: 11201
+2026-01-17 20:04:24,829 | INFO | Process-36 | Number of clauses: 49311
+2026-01-17 20:04:24,829 | INFO | Process-36 | Real nums of clauses: 50048
+2026-01-17 20:04:24,829 | INFO | Process-36 | Real nums of variables: 11200
+2026-01-17 20:04:24,855 | INFO | Process-36 | CNF written to cnf/v2\J_n100_k56\J_n100_k56_w22.cnf
+2026-01-17 20:04:24,855 | ERROR | Process-36 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 20:04:35,342 | RESULT | Process-36 | No solution exists
+2026-01-17 20:04:35,343 | RESULT | Process-36 | Time taken: 10.548645496368408 seconds
+2026-01-17 20:04:35,394 | INFO | MainProcess | No solution found 22
+2026-01-17 20:04:35,394 | INFO | MainProcess | [Test k=56, w=22] Time: 11.05 seconds
+2026-01-17 20:04:35,442 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 20:04:35,442 | INFO | MainProcess | $$$$
+2026-01-17 20:04:35,442 | INFO | MainProcess | 21
+2026-01-17 20:04:35,442 | INFO | MainProcess | $$$$
+2026-01-17 20:04:35,442 | INFO | MainProcess | Time taken for J-nos4.mtx.rnd with k = 56: 15.225522994995117 seconds
+2026-01-17 20:04:35,442 | INFO | MainProcess | Maximum width for J-nos4.mtx.rnd is 21
+2026-01-17 20:04:36,016 | INFO | Process-37 | Number of clauses before symmetry breaking: 1
+2026-01-17 20:04:36,016 | INFO | Process-37 | Number of clauses after symmetry breaking: 40
+2026-01-17 20:04:36,055 | INFO | Process-37 | Number of variables: 18721
+2026-01-17 20:04:36,055 | INFO | Process-37 | Number of clauses: 62390
+2026-01-17 20:04:36,055 | INFO | Process-37 | Real nums of clauses: 63363
+2026-01-17 20:04:36,055 | INFO | Process-37 | Real nums of variables: 18720
+2026-01-17 20:04:36,087 | INFO | Process-37 | CNF written to cnf/v2\K_n117_k80\K_n117_k80_w31.cnf
+2026-01-17 20:04:36,087 | ERROR | Process-37 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 20:04:37,438 | RESULT | Process-37 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 20:04:37,476 | INFO | MainProcess | Found a solution 31
+2026-01-17 20:04:37,476 | INFO | MainProcess | [Test k=80, w=31] Time: 2.02 seconds
+2026-01-17 20:04:37,519 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 20:04:38,138 | INFO | Process-38 | Number of clauses before symmetry breaking: 1
+2026-01-17 20:04:38,139 | INFO | Process-38 | Number of clauses after symmetry breaking: 40
+2026-01-17 20:04:38,195 | INFO | Process-38 | Number of variables: 18721
+2026-01-17 20:04:38,195 | INFO | Process-38 | Number of clauses: 62368
+2026-01-17 20:04:38,195 | INFO | Process-38 | Real nums of clauses: 63363
+2026-01-17 20:04:38,195 | INFO | Process-38 | Real nums of variables: 18720
+2026-01-17 20:04:38,232 | INFO | Process-38 | CNF written to cnf/v2\K_n117_k80\K_n117_k80_w32.cnf
+2026-01-17 20:04:38,233 | ERROR | Process-38 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 20:04:38,862 | RESULT | Process-38 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 20:04:38,932 | INFO | MainProcess | Found a solution 32
+2026-01-17 20:04:38,932 | INFO | MainProcess | [Test k=80, w=32] Time: 1.41 seconds
+2026-01-17 20:04:38,977 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 20:04:39,485 | INFO | Process-39 | Number of clauses before symmetry breaking: 1
+2026-01-17 20:04:39,485 | INFO | Process-39 | Number of clauses after symmetry breaking: 40
+2026-01-17 20:04:39,544 | INFO | Process-39 | Number of variables: 18721
+2026-01-17 20:04:39,544 | INFO | Process-39 | Number of clauses: 62346
+2026-01-17 20:04:39,544 | INFO | Process-39 | Real nums of clauses: 63363
+2026-01-17 20:04:39,544 | INFO | Process-39 | Real nums of variables: 18720
+2026-01-17 20:04:39,589 | INFO | Process-39 | CNF written to cnf/v2\K_n117_k80\K_n117_k80_w33.cnf
+2026-01-17 20:04:39,590 | ERROR | Process-39 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 20:04:42,177 | RESULT | Process-39 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 20:04:42,230 | INFO | MainProcess | Found a solution 33
+2026-01-17 20:04:42,230 | INFO | MainProcess | [Test k=80, w=33] Time: 3.25 seconds
+2026-01-17 20:04:42,281 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 20:04:42,908 | INFO | Process-40 | Number of clauses before symmetry breaking: 1
+2026-01-17 20:04:42,908 | INFO | Process-40 | Number of clauses after symmetry breaking: 40
+2026-01-17 20:04:42,949 | INFO | Process-40 | Number of variables: 18721
+2026-01-17 20:04:42,949 | INFO | Process-40 | Number of clauses: 62324
+2026-01-17 20:04:42,949 | INFO | Process-40 | Real nums of clauses: 63363
+2026-01-17 20:04:42,949 | INFO | Process-40 | Real nums of variables: 18720
+2026-01-17 20:04:42,994 | INFO | Process-40 | CNF written to cnf/v2\K_n117_k80\K_n117_k80_w34.cnf
+2026-01-17 20:04:42,994 | ERROR | Process-40 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 20:04:45,060 | RESULT | Process-40 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 20:04:45,098 | INFO | MainProcess | Found a solution 34
+2026-01-17 20:04:45,098 | INFO | MainProcess | [Test k=80, w=34] Time: 2.82 seconds
+2026-01-17 20:04:45,143 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 20:04:45,647 | INFO | Process-41 | Number of clauses before symmetry breaking: 1
+2026-01-17 20:04:45,647 | INFO | Process-41 | Number of clauses after symmetry breaking: 40
+2026-01-17 20:04:45,700 | INFO | Process-41 | Number of variables: 18721
+2026-01-17 20:04:45,700 | INFO | Process-41 | Number of clauses: 62302
+2026-01-17 20:04:45,700 | INFO | Process-41 | Real nums of clauses: 63363
+2026-01-17 20:04:45,700 | INFO | Process-41 | Real nums of variables: 18720
+2026-01-17 20:04:45,731 | INFO | Process-41 | CNF written to cnf/v2\K_n117_k80\K_n117_k80_w35.cnf
+2026-01-17 20:04:45,731 | ERROR | Process-41 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 20:04:49,048 | RESULT | Process-41 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 20:04:49,087 | INFO | MainProcess | Found a solution 35
+2026-01-17 20:04:49,087 | INFO | MainProcess | [Test k=80, w=35] Time: 3.94 seconds
+2026-01-17 20:04:49,133 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 20:04:49,622 | INFO | Process-42 | Number of clauses before symmetry breaking: 1
+2026-01-17 20:04:49,622 | INFO | Process-42 | Number of clauses after symmetry breaking: 40
+2026-01-17 20:04:49,668 | INFO | Process-42 | Number of variables: 18721
+2026-01-17 20:04:49,668 | INFO | Process-42 | Number of clauses: 62280
+2026-01-17 20:04:49,668 | INFO | Process-42 | Real nums of clauses: 63363
+2026-01-17 20:04:49,668 | INFO | Process-42 | Real nums of variables: 18720
+2026-01-17 20:04:49,702 | INFO | Process-42 | CNF written to cnf/v2\K_n117_k80\K_n117_k80_w36.cnf
+2026-01-17 20:04:49,702 | ERROR | Process-42 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 20:04:52,826 | RESULT | Process-42 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 20:04:52,863 | INFO | MainProcess | Found a solution 36
+2026-01-17 20:04:52,863 | INFO | MainProcess | [Test k=80, w=36] Time: 3.73 seconds
+2026-01-17 20:04:52,902 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 20:04:53,386 | INFO | Process-43 | Number of clauses before symmetry breaking: 1
+2026-01-17 20:04:53,386 | INFO | Process-43 | Number of clauses after symmetry breaking: 40
+2026-01-17 20:04:53,436 | INFO | Process-43 | Number of variables: 18721
+2026-01-17 20:04:53,436 | INFO | Process-43 | Number of clauses: 62258
+2026-01-17 20:04:53,436 | INFO | Process-43 | Real nums of clauses: 63363
+2026-01-17 20:04:53,436 | INFO | Process-43 | Real nums of variables: 18720
+2026-01-17 20:04:53,470 | INFO | Process-43 | CNF written to cnf/v2\K_n117_k80\K_n117_k80_w37.cnf
+2026-01-17 20:04:53,470 | ERROR | Process-43 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 20:05:13,499 | RESULT | Process-43 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 20:05:13,560 | INFO | MainProcess | Found a solution 37
+2026-01-17 20:05:13,560 | INFO | MainProcess | [Test k=80, w=37] Time: 20.66 seconds
+2026-01-17 20:05:13,613 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 20:05:14,243 | INFO | Process-44 | Number of clauses before symmetry breaking: 1
+2026-01-17 20:05:14,244 | INFO | Process-44 | Number of clauses after symmetry breaking: 40
+2026-01-17 20:05:14,307 | INFO | Process-44 | Number of variables: 18721
+2026-01-17 20:05:14,307 | INFO | Process-44 | Number of clauses: 62236
+2026-01-17 20:05:14,307 | INFO | Process-44 | Real nums of clauses: 63363
+2026-01-17 20:05:14,308 | INFO | Process-44 | Real nums of variables: 18720
+2026-01-17 20:05:14,349 | INFO | Process-44 | CNF written to cnf/v2\K_n117_k80\K_n117_k80_w38.cnf
+2026-01-17 20:05:14,349 | ERROR | Process-44 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 20:05:50,174 | RESULT | Process-44 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 20:05:50,228 | INFO | MainProcess | Found a solution 38
+2026-01-17 20:05:50,228 | INFO | MainProcess | [Test k=80, w=38] Time: 36.61 seconds
+2026-01-17 20:05:50,274 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 20:05:50,792 | INFO | Process-45 | Number of clauses before symmetry breaking: 1
+2026-01-17 20:05:50,792 | INFO | Process-45 | Number of clauses after symmetry breaking: 40
+2026-01-17 20:05:50,853 | INFO | Process-45 | Number of variables: 18721
+2026-01-17 20:05:50,853 | INFO | Process-45 | Number of clauses: 62214
+2026-01-17 20:05:50,853 | INFO | Process-45 | Real nums of clauses: 63363
+2026-01-17 20:05:50,853 | INFO | Process-45 | Real nums of variables: 18720
+2026-01-17 20:05:50,898 | INFO | Process-45 | CNF written to cnf/v2\K_n117_k80\K_n117_k80_w39.cnf
+2026-01-17 20:05:50,898 | ERROR | Process-45 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 20:34:35,475 | INFO | MainProcess | No solution found 39
+2026-01-17 20:34:35,476 | INFO | MainProcess | [Test k=80, w=39] Time: 1725.2 seconds
+2026-01-17 20:34:35,524 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 20:34:35,524 | INFO | MainProcess | $$$$
+2026-01-17 20:34:35,524 | INFO | MainProcess | -38
+2026-01-17 20:34:35,524 | INFO | MainProcess | $$$$
+2026-01-17 20:34:35,524 | INFO | MainProcess | Time taken for K-dwt__234.mtx.rnd with k = 80: 1800.0814068317413 seconds
+2026-01-17 20:34:35,524 | INFO | MainProcess | Maximum width before timeout for K-dwt__234.mtx.rnd is 38
+2026-01-17 20:34:35,524 | INFO | MainProcess | time out
+2026-01-17 20:34:36,262 | INFO | Process-46 | Number of clauses before symmetry breaking: 1
+2026-01-17 20:34:36,262 | INFO | Process-46 | Number of clauses after symmetry breaking: 31
+2026-01-17 20:34:36,316 | INFO | Process-46 | Number of variables: 14633
+2026-01-17 20:34:36,316 | INFO | Process-46 | Number of clauses: 51058
+2026-01-17 20:34:36,316 | INFO | Process-46 | Real nums of clauses: 51435
+2026-01-17 20:34:36,316 | INFO | Process-46 | Real nums of variables: 14632
+2026-01-17 20:34:36,356 | INFO | Process-46 | CNF written to cnf/v2\L_n118_k62\L_n118_k62_w20.cnf
+2026-01-17 20:34:36,356 | ERROR | Process-46 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 20:34:36,650 | RESULT | Process-46 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 20:34:36,703 | INFO | MainProcess | Found a solution 20
+2026-01-17 20:34:36,703 | INFO | MainProcess | [Test k=62, w=20] Time: 1.17 seconds
+2026-01-17 20:34:36,754 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 20:34:37,404 | INFO | Process-47 | Number of clauses before symmetry breaking: 1
+2026-01-17 20:34:37,404 | INFO | Process-47 | Number of clauses after symmetry breaking: 31
+2026-01-17 20:34:37,459 | INFO | Process-47 | Number of variables: 14633
+2026-01-17 20:34:37,459 | INFO | Process-47 | Number of clauses: 51046
+2026-01-17 20:34:37,459 | INFO | Process-47 | Real nums of clauses: 51435
+2026-01-17 20:34:37,459 | INFO | Process-47 | Real nums of variables: 14632
+2026-01-17 20:34:37,498 | INFO | Process-47 | CNF written to cnf/v2\L_n118_k62\L_n118_k62_w21.cnf
+2026-01-17 20:34:37,498 | ERROR | Process-47 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 20:34:37,509 | RESULT | Process-47 | No solution exists
+2026-01-17 20:34:37,509 | RESULT | Process-47 | Time taken: 0.10689234733581543 seconds
+2026-01-17 20:34:37,565 | INFO | MainProcess | No solution found 21
+2026-01-17 20:34:37,565 | INFO | MainProcess | [Test k=62, w=21] Time: 0.81 seconds
+2026-01-17 20:34:37,615 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 20:34:37,615 | INFO | MainProcess | $$$$
+2026-01-17 20:34:37,615 | INFO | MainProcess | 20
+2026-01-17 20:34:37,615 | INFO | MainProcess | $$$$
+2026-01-17 20:34:37,615 | INFO | MainProcess | Time taken for L-bcspwr03.mtx.rnd with k = 62: 2.0912840366363525 seconds
+2026-01-17 20:34:37,615 | INFO | MainProcess | Maximum width for L-bcspwr03.mtx.rnd is 20
+2026-01-17 20:34:38,299 | INFO | Process-48 | Number of clauses before symmetry breaking: 1
+2026-01-17 20:34:38,299 | INFO | Process-48 | Number of clauses after symmetry breaking: 161
+2026-01-17 20:34:42,811 | INFO | Process-48 | Number of variables: 271321
+2026-01-17 20:34:42,811 | INFO | Process-48 | Number of clauses: 2939663
+2026-01-17 20:34:42,811 | INFO | Process-48 | Real nums of clauses: 2945824
+2026-01-17 20:34:42,812 | INFO | Process-48 | Real nums of variables: 271320
+2026-01-17 20:34:45,019 | INFO | Process-48 | CNF written to cnf/v2\M_n420_k323\M_n420_k323_w21.cnf
+2026-01-17 20:34:45,019 | ERROR | Process-48 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 20:35:50,353 | RESULT | Process-48 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 20:35:50,640 | INFO | MainProcess | Found a solution 21
+2026-01-17 20:35:50,640 | INFO | MainProcess | [Test k=323, w=21] Time: 73.01 seconds
+2026-01-17 20:35:50,689 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 20:35:51,406 | INFO | Process-49 | Number of clauses before symmetry breaking: 1
+2026-01-17 20:35:51,406 | INFO | Process-49 | Number of clauses after symmetry breaking: 161
+2026-01-17 20:35:55,682 | INFO | Process-49 | Number of variables: 271321
+2026-01-17 20:35:55,683 | INFO | Process-49 | Number of clauses: 2939680
+2026-01-17 20:35:55,683 | INFO | Process-49 | Real nums of clauses: 2945824
+2026-01-17 20:35:55,683 | INFO | Process-49 | Real nums of variables: 271320
+2026-01-17 20:35:57,778 | INFO | Process-49 | CNF written to cnf/v2\M_n420_k323\M_n420_k323_w22.cnf
+2026-01-17 20:35:57,778 | ERROR | Process-49 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 20:36:45,652 | RESULT | Process-49 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 20:36:45,871 | INFO | MainProcess | Found a solution 22
+2026-01-17 20:36:45,871 | INFO | MainProcess | [Test k=323, w=22] Time: 55.18 seconds
+2026-01-17 20:36:45,907 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 20:36:46,500 | INFO | Process-50 | Number of clauses before symmetry breaking: 1
+2026-01-17 20:36:46,501 | INFO | Process-50 | Number of clauses after symmetry breaking: 161
+2026-01-17 20:36:50,279 | INFO | Process-50 | Number of variables: 271321
+2026-01-17 20:36:50,279 | INFO | Process-50 | Number of clauses: 2939697
+2026-01-17 20:36:50,279 | INFO | Process-50 | Real nums of clauses: 2945824
+2026-01-17 20:36:50,279 | INFO | Process-50 | Real nums of variables: 271320
+2026-01-17 20:36:52,305 | INFO | Process-50 | CNF written to cnf/v2\M_n420_k323\M_n420_k323_w23.cnf
+2026-01-17 20:36:52,305 | ERROR | Process-50 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 20:40:43,329 | RESULT | Process-50 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 20:40:43,580 | INFO | MainProcess | Found a solution 23
+2026-01-17 20:40:43,580 | INFO | MainProcess | [Test k=323, w=23] Time: 237.67 seconds
+2026-01-17 20:40:43,632 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 20:40:44,289 | INFO | Process-51 | Number of clauses before symmetry breaking: 1
+2026-01-17 20:40:44,289 | INFO | Process-51 | Number of clauses after symmetry breaking: 161
+2026-01-17 20:40:48,086 | INFO | Process-51 | Number of variables: 271321
+2026-01-17 20:40:48,086 | INFO | Process-51 | Number of clauses: 2939714
+2026-01-17 20:40:48,086 | INFO | Process-51 | Real nums of clauses: 2945824
+2026-01-17 20:40:48,086 | INFO | Process-51 | Real nums of variables: 271320
+2026-01-17 20:40:50,150 | INFO | Process-51 | CNF written to cnf/v2\M_n420_k323\M_n420_k323_w24.cnf
+2026-01-17 20:40:50,150 | ERROR | Process-51 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 20:41:28,660 | RESULT | Process-51 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 20:41:28,910 | INFO | MainProcess | Found a solution 24
+2026-01-17 20:41:28,910 | INFO | MainProcess | [Test k=323, w=24] Time: 45.28 seconds
+2026-01-17 20:41:28,961 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 20:41:29,496 | INFO | Process-52 | Number of clauses before symmetry breaking: 1
+2026-01-17 20:41:29,496 | INFO | Process-52 | Number of clauses after symmetry breaking: 161
+2026-01-17 20:41:33,674 | INFO | Process-52 | Number of variables: 271321
+2026-01-17 20:41:33,674 | INFO | Process-52 | Number of clauses: 2939731
+2026-01-17 20:41:33,674 | INFO | Process-52 | Real nums of clauses: 2945824
+2026-01-17 20:41:33,674 | INFO | Process-52 | Real nums of variables: 271320
+2026-01-17 20:41:35,804 | INFO | Process-52 | CNF written to cnf/v2\M_n420_k323\M_n420_k323_w25.cnf
+2026-01-17 20:41:35,804 | ERROR | Process-52 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 21:04:38,218 | INFO | MainProcess | No solution found 25
+2026-01-17 21:04:38,218 | INFO | MainProcess | [Test k=323, w=25] Time: 1389.26 seconds
+2026-01-17 21:04:38,281 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 21:04:38,281 | INFO | MainProcess | $$$$
+2026-01-17 21:04:38,281 | INFO | MainProcess | -24
+2026-01-17 21:04:38,281 | INFO | MainProcess | $$$$
+2026-01-17 21:04:38,281 | INFO | MainProcess | Time taken for M-bcsstk06.mtx.rnd with k = 323: 1800.6663331985474 seconds
+2026-01-17 21:04:38,281 | INFO | MainProcess | Maximum width before timeout for M-bcsstk06.mtx.rnd is 24
+2026-01-17 21:04:38,281 | INFO | MainProcess | time out
+2026-01-17 21:04:38,705 | INFO | Process-53 | Number of clauses before symmetry breaking: 1
+2026-01-17 21:04:38,705 | INFO | Process-53 | Number of clauses after symmetry breaking: 110
+2026-01-17 21:04:39,606 | INFO | Process-53 | Number of variables: 187851
+2026-01-17 21:04:39,606 | INFO | Process-53 | Number of clauses: 933554
+2026-01-17 21:04:39,606 | INFO | Process-53 | Real nums of clauses: 935620
+2026-01-17 21:04:39,606 | INFO | Process-53 | Real nums of variables: 187850
+2026-01-17 21:04:40,082 | INFO | Process-53 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w47.cnf
+2026-01-17 21:04:40,082 | ERROR | Process-53 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 21:04:40,910 | RESULT | Process-53 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 21:04:40,991 | INFO | MainProcess | Found a solution 47
+2026-01-17 21:04:40,991 | INFO | MainProcess | [Test k=221, w=47] Time: 2.7 seconds
+2026-01-17 21:04:41,022 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 21:04:41,396 | INFO | Process-54 | Number of clauses before symmetry breaking: 1
+2026-01-17 21:04:41,396 | INFO | Process-54 | Number of clauses after symmetry breaking: 110
+2026-01-17 21:04:42,296 | INFO | Process-54 | Number of variables: 187851
+2026-01-17 21:04:42,296 | INFO | Process-54 | Number of clauses: 933561
+2026-01-17 21:04:42,296 | INFO | Process-54 | Real nums of clauses: 935620
+2026-01-17 21:04:42,296 | INFO | Process-54 | Real nums of variables: 187850
+2026-01-17 21:04:42,774 | INFO | Process-54 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w48.cnf
+2026-01-17 21:04:42,774 | ERROR | Process-54 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 21:04:50,962 | RESULT | Process-54 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 21:04:51,046 | INFO | MainProcess | Found a solution 48
+2026-01-17 21:04:51,046 | INFO | MainProcess | [Test k=221, w=48] Time: 10.02 seconds
+2026-01-17 21:04:51,071 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 21:04:51,460 | INFO | Process-55 | Number of clauses before symmetry breaking: 1
+2026-01-17 21:04:51,460 | INFO | Process-55 | Number of clauses after symmetry breaking: 110
+2026-01-17 21:04:52,342 | INFO | Process-55 | Number of variables: 187851
+2026-01-17 21:04:52,342 | INFO | Process-55 | Number of clauses: 933568
+2026-01-17 21:04:52,342 | INFO | Process-55 | Real nums of clauses: 935620
+2026-01-17 21:04:52,342 | INFO | Process-55 | Real nums of variables: 187850
+2026-01-17 21:04:52,777 | INFO | Process-55 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w49.cnf
+2026-01-17 21:04:52,777 | ERROR | Process-55 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 21:04:53,916 | RESULT | Process-55 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 21:04:54,010 | INFO | MainProcess | Found a solution 49
+2026-01-17 21:04:54,010 | INFO | MainProcess | [Test k=221, w=49] Time: 2.94 seconds
+2026-01-17 21:04:54,033 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 21:04:54,385 | INFO | Process-56 | Number of clauses before symmetry breaking: 1
+2026-01-17 21:04:54,385 | INFO | Process-56 | Number of clauses after symmetry breaking: 110
+2026-01-17 21:04:55,287 | INFO | Process-56 | Number of variables: 187851
+2026-01-17 21:04:55,287 | INFO | Process-56 | Number of clauses: 933575
+2026-01-17 21:04:55,287 | INFO | Process-56 | Real nums of clauses: 935620
+2026-01-17 21:04:55,287 | INFO | Process-56 | Real nums of variables: 187850
+2026-01-17 21:04:55,746 | INFO | Process-56 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w50.cnf
+2026-01-17 21:04:55,746 | ERROR | Process-56 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 21:05:04,435 | RESULT | Process-56 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 21:05:04,508 | INFO | MainProcess | Found a solution 50
+2026-01-17 21:05:04,508 | INFO | MainProcess | [Test k=221, w=50] Time: 10.48 seconds
+2026-01-17 21:05:04,524 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 21:05:04,881 | INFO | Process-57 | Number of clauses before symmetry breaking: 1
+2026-01-17 21:05:04,881 | INFO | Process-57 | Number of clauses after symmetry breaking: 110
+2026-01-17 21:05:05,785 | INFO | Process-57 | Number of variables: 187851
+2026-01-17 21:05:05,785 | INFO | Process-57 | Number of clauses: 933582
+2026-01-17 21:05:05,785 | INFO | Process-57 | Real nums of clauses: 935620
+2026-01-17 21:05:05,785 | INFO | Process-57 | Real nums of variables: 187850
+2026-01-17 21:05:06,282 | INFO | Process-57 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w51.cnf
+2026-01-17 21:05:06,282 | ERROR | Process-57 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 21:05:11,030 | RESULT | Process-57 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 21:05:11,106 | INFO | MainProcess | Found a solution 51
+2026-01-17 21:05:11,106 | INFO | MainProcess | [Test k=221, w=51] Time: 6.58 seconds
+2026-01-17 21:05:11,130 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 21:05:11,570 | INFO | Process-58 | Number of clauses before symmetry breaking: 1
+2026-01-17 21:05:11,570 | INFO | Process-58 | Number of clauses after symmetry breaking: 110
+2026-01-17 21:05:12,587 | INFO | Process-58 | Number of variables: 187851
+2026-01-17 21:05:12,587 | INFO | Process-58 | Number of clauses: 933589
+2026-01-17 21:05:12,587 | INFO | Process-58 | Real nums of clauses: 935620
+2026-01-17 21:05:12,587 | INFO | Process-58 | Real nums of variables: 187850
+2026-01-17 21:05:13,031 | INFO | Process-58 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w52.cnf
+2026-01-17 21:05:13,031 | ERROR | Process-58 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 21:05:13,906 | RESULT | Process-58 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 21:05:13,986 | INFO | MainProcess | Found a solution 52
+2026-01-17 21:05:13,986 | INFO | MainProcess | [Test k=221, w=52] Time: 2.86 seconds
+2026-01-17 21:05:14,029 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 21:05:14,456 | INFO | Process-59 | Number of clauses before symmetry breaking: 1
+2026-01-17 21:05:14,456 | INFO | Process-59 | Number of clauses after symmetry breaking: 110
+2026-01-17 21:05:15,358 | INFO | Process-59 | Number of variables: 187851
+2026-01-17 21:05:15,358 | INFO | Process-59 | Number of clauses: 933596
+2026-01-17 21:05:15,358 | INFO | Process-59 | Real nums of clauses: 935620
+2026-01-17 21:05:15,358 | INFO | Process-59 | Real nums of variables: 187850
+2026-01-17 21:05:15,849 | INFO | Process-59 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w53.cnf
+2026-01-17 21:05:15,849 | ERROR | Process-59 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 21:05:23,981 | RESULT | Process-59 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 21:05:24,068 | INFO | MainProcess | Found a solution 53
+2026-01-17 21:05:24,068 | INFO | MainProcess | [Test k=221, w=53] Time: 10.04 seconds
+2026-01-17 21:05:24,101 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 21:05:24,480 | INFO | Process-60 | Number of clauses before symmetry breaking: 1
+2026-01-17 21:05:24,480 | INFO | Process-60 | Number of clauses after symmetry breaking: 110
+2026-01-17 21:05:25,369 | INFO | Process-60 | Number of variables: 187851
+2026-01-17 21:05:25,369 | INFO | Process-60 | Number of clauses: 933603
+2026-01-17 21:05:25,369 | INFO | Process-60 | Real nums of clauses: 935620
+2026-01-17 21:05:25,369 | INFO | Process-60 | Real nums of variables: 187850
+2026-01-17 21:05:25,795 | INFO | Process-60 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w54.cnf
+2026-01-17 21:05:25,795 | ERROR | Process-60 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 21:05:30,940 | RESULT | Process-60 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 21:05:31,028 | INFO | MainProcess | Found a solution 54
+2026-01-17 21:05:31,028 | INFO | MainProcess | [Test k=221, w=54] Time: 6.93 seconds
+2026-01-17 21:05:31,060 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 21:05:31,474 | INFO | Process-61 | Number of clauses before symmetry breaking: 1
+2026-01-17 21:05:31,474 | INFO | Process-61 | Number of clauses after symmetry breaking: 110
+2026-01-17 21:05:32,336 | INFO | Process-61 | Number of variables: 187851
+2026-01-17 21:05:32,336 | INFO | Process-61 | Number of clauses: 933610
+2026-01-17 21:05:32,336 | INFO | Process-61 | Real nums of clauses: 935620
+2026-01-17 21:05:32,336 | INFO | Process-61 | Real nums of variables: 187850
+2026-01-17 21:05:32,831 | INFO | Process-61 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w55.cnf
+2026-01-17 21:05:32,831 | ERROR | Process-61 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 21:05:35,086 | RESULT | Process-61 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 21:05:35,164 | INFO | MainProcess | Found a solution 55
+2026-01-17 21:05:35,164 | INFO | MainProcess | [Test k=221, w=55] Time: 4.1 seconds
+2026-01-17 21:05:35,193 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 21:05:35,580 | INFO | Process-62 | Number of clauses before symmetry breaking: 1
+2026-01-17 21:05:35,580 | INFO | Process-62 | Number of clauses after symmetry breaking: 110
+2026-01-17 21:05:36,482 | INFO | Process-62 | Number of variables: 187851
+2026-01-17 21:05:36,482 | INFO | Process-62 | Number of clauses: 933617
+2026-01-17 21:05:36,482 | INFO | Process-62 | Real nums of clauses: 935620
+2026-01-17 21:05:36,482 | INFO | Process-62 | Real nums of variables: 187850
+2026-01-17 21:05:36,934 | INFO | Process-62 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w56.cnf
+2026-01-17 21:05:36,934 | ERROR | Process-62 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 21:05:37,919 | RESULT | Process-62 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 21:05:37,998 | INFO | MainProcess | Found a solution 56
+2026-01-17 21:05:37,998 | INFO | MainProcess | [Test k=221, w=56] Time: 2.8 seconds
+2026-01-17 21:05:38,028 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 21:05:38,411 | INFO | Process-63 | Number of clauses before symmetry breaking: 1
+2026-01-17 21:05:38,411 | INFO | Process-63 | Number of clauses after symmetry breaking: 110
+2026-01-17 21:05:39,354 | INFO | Process-63 | Number of variables: 187851
+2026-01-17 21:05:39,354 | INFO | Process-63 | Number of clauses: 933518
+2026-01-17 21:05:39,354 | INFO | Process-63 | Real nums of clauses: 935620
+2026-01-17 21:05:39,354 | INFO | Process-63 | Real nums of variables: 187850
+2026-01-17 21:05:39,823 | INFO | Process-63 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w57.cnf
+2026-01-17 21:05:39,823 | ERROR | Process-63 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 21:05:40,899 | RESULT | Process-63 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 21:05:41,007 | INFO | MainProcess | Found a solution 57
+2026-01-17 21:05:41,007 | INFO | MainProcess | [Test k=221, w=57] Time: 2.98 seconds
+2026-01-17 21:05:41,033 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 21:05:41,421 | INFO | Process-64 | Number of clauses before symmetry breaking: 1
+2026-01-17 21:05:41,421 | INFO | Process-64 | Number of clauses after symmetry breaking: 110
+2026-01-17 21:05:42,293 | INFO | Process-64 | Number of variables: 187851
+2026-01-17 21:05:42,293 | INFO | Process-64 | Number of clauses: 933419
+2026-01-17 21:05:42,293 | INFO | Process-64 | Real nums of clauses: 935620
+2026-01-17 21:05:42,293 | INFO | Process-64 | Real nums of variables: 187850
+2026-01-17 21:05:42,768 | INFO | Process-64 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w58.cnf
+2026-01-17 21:05:42,768 | ERROR | Process-64 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 21:05:43,897 | RESULT | Process-64 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 21:05:43,980 | INFO | MainProcess | Found a solution 58
+2026-01-17 21:05:43,980 | INFO | MainProcess | [Test k=221, w=58] Time: 2.95 seconds
+2026-01-17 21:05:44,003 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 21:05:44,392 | INFO | Process-65 | Number of clauses before symmetry breaking: 1
+2026-01-17 21:05:44,392 | INFO | Process-65 | Number of clauses after symmetry breaking: 110
+2026-01-17 21:05:45,301 | INFO | Process-65 | Number of variables: 187851
+2026-01-17 21:05:45,301 | INFO | Process-65 | Number of clauses: 933320
+2026-01-17 21:05:45,301 | INFO | Process-65 | Real nums of clauses: 935620
+2026-01-17 21:05:45,301 | INFO | Process-65 | Real nums of variables: 187850
+2026-01-17 21:05:45,764 | INFO | Process-65 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w59.cnf
+2026-01-17 21:05:45,780 | ERROR | Process-65 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 21:05:47,063 | RESULT | Process-65 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 21:05:47,169 | INFO | MainProcess | Found a solution 59
+2026-01-17 21:05:47,169 | INFO | MainProcess | [Test k=221, w=59] Time: 3.17 seconds
+2026-01-17 21:05:47,199 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 21:05:47,587 | INFO | Process-66 | Number of clauses before symmetry breaking: 1
+2026-01-17 21:05:47,587 | INFO | Process-66 | Number of clauses after symmetry breaking: 110
+2026-01-17 21:05:48,509 | INFO | Process-66 | Number of variables: 187851
+2026-01-17 21:05:48,509 | INFO | Process-66 | Number of clauses: 933221
+2026-01-17 21:05:48,509 | INFO | Process-66 | Real nums of clauses: 935620
+2026-01-17 21:05:48,509 | INFO | Process-66 | Real nums of variables: 187850
+2026-01-17 21:05:48,990 | INFO | Process-66 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w60.cnf
+2026-01-17 21:05:48,990 | ERROR | Process-66 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 21:05:53,673 | RESULT | Process-66 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 21:05:53,757 | INFO | MainProcess | Found a solution 60
+2026-01-17 21:05:53,757 | INFO | MainProcess | [Test k=221, w=60] Time: 6.56 seconds
+2026-01-17 21:05:53,793 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 21:05:54,184 | INFO | Process-67 | Number of clauses before symmetry breaking: 1
+2026-01-17 21:05:54,184 | INFO | Process-67 | Number of clauses after symmetry breaking: 110
+2026-01-17 21:05:55,168 | INFO | Process-67 | Number of variables: 187851
+2026-01-17 21:05:55,168 | INFO | Process-67 | Number of clauses: 933122
+2026-01-17 21:05:55,168 | INFO | Process-67 | Real nums of clauses: 935620
+2026-01-17 21:05:55,168 | INFO | Process-67 | Real nums of variables: 187850
+2026-01-17 21:05:55,624 | INFO | Process-67 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w61.cnf
+2026-01-17 21:05:55,624 | ERROR | Process-67 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 21:06:04,978 | RESULT | Process-67 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 21:06:05,073 | INFO | MainProcess | Found a solution 61
+2026-01-17 21:06:05,073 | INFO | MainProcess | [Test k=221, w=61] Time: 11.28 seconds
+2026-01-17 21:06:05,091 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 21:06:05,496 | INFO | Process-68 | Number of clauses before symmetry breaking: 1
+2026-01-17 21:06:05,496 | INFO | Process-68 | Number of clauses after symmetry breaking: 110
+2026-01-17 21:06:06,398 | INFO | Process-68 | Number of variables: 187851
+2026-01-17 21:06:06,398 | INFO | Process-68 | Number of clauses: 933023
+2026-01-17 21:06:06,398 | INFO | Process-68 | Real nums of clauses: 935620
+2026-01-17 21:06:06,398 | INFO | Process-68 | Real nums of variables: 187850
+2026-01-17 21:06:06,894 | INFO | Process-68 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w62.cnf
+2026-01-17 21:06:06,894 | ERROR | Process-68 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 21:06:16,766 | RESULT | Process-68 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 21:06:16,831 | INFO | MainProcess | Found a solution 62
+2026-01-17 21:06:16,831 | INFO | MainProcess | [Test k=221, w=62] Time: 11.74 seconds
+2026-01-17 21:06:16,858 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 21:06:17,236 | INFO | Process-69 | Number of clauses before symmetry breaking: 1
+2026-01-17 21:06:17,236 | INFO | Process-69 | Number of clauses after symmetry breaking: 110
+2026-01-17 21:06:18,121 | INFO | Process-69 | Number of variables: 187851
+2026-01-17 21:06:18,121 | INFO | Process-69 | Number of clauses: 932924
+2026-01-17 21:06:18,121 | INFO | Process-69 | Real nums of clauses: 935620
+2026-01-17 21:06:18,121 | INFO | Process-69 | Real nums of variables: 187850
+2026-01-17 21:06:18,591 | INFO | Process-69 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w63.cnf
+2026-01-17 21:06:18,591 | ERROR | Process-69 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 21:06:27,186 | RESULT | Process-69 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 21:06:27,281 | INFO | MainProcess | Found a solution 63
+2026-01-17 21:06:27,281 | INFO | MainProcess | [Test k=221, w=63] Time: 10.42 seconds
+2026-01-17 21:06:27,296 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 21:06:27,685 | INFO | Process-70 | Number of clauses before symmetry breaking: 1
+2026-01-17 21:06:27,685 | INFO | Process-70 | Number of clauses after symmetry breaking: 110
+2026-01-17 21:06:28,555 | INFO | Process-70 | Number of variables: 187851
+2026-01-17 21:06:28,555 | INFO | Process-70 | Number of clauses: 932825
+2026-01-17 21:06:28,555 | INFO | Process-70 | Real nums of clauses: 935620
+2026-01-17 21:06:28,555 | INFO | Process-70 | Real nums of variables: 187850
+2026-01-17 21:06:29,000 | INFO | Process-70 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w64.cnf
+2026-01-17 21:06:29,000 | ERROR | Process-70 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 21:07:06,701 | RESULT | Process-70 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 21:07:06,780 | INFO | MainProcess | Found a solution 64
+2026-01-17 21:07:06,780 | INFO | MainProcess | [Test k=221, w=64] Time: 39.48 seconds
+2026-01-17 21:07:06,812 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 21:07:07,204 | INFO | Process-71 | Number of clauses before symmetry breaking: 1
+2026-01-17 21:07:07,204 | INFO | Process-71 | Number of clauses after symmetry breaking: 110
+2026-01-17 21:07:08,100 | INFO | Process-71 | Number of variables: 187851
+2026-01-17 21:07:08,100 | INFO | Process-71 | Number of clauses: 932726
+2026-01-17 21:07:08,100 | INFO | Process-71 | Real nums of clauses: 935620
+2026-01-17 21:07:08,100 | INFO | Process-71 | Real nums of variables: 187850
+2026-01-17 21:07:08,564 | INFO | Process-71 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w65.cnf
+2026-01-17 21:07:08,564 | ERROR | Process-71 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 21:07:49,227 | RESULT | Process-71 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 21:07:49,317 | INFO | MainProcess | Found a solution 65
+2026-01-17 21:07:49,317 | INFO | MainProcess | [Test k=221, w=65] Time: 42.5 seconds
+2026-01-17 21:07:49,337 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 21:07:49,726 | INFO | Process-72 | Number of clauses before symmetry breaking: 1
+2026-01-17 21:07:49,726 | INFO | Process-72 | Number of clauses after symmetry breaking: 110
+2026-01-17 21:07:50,588 | INFO | Process-72 | Number of variables: 187851
+2026-01-17 21:07:50,588 | INFO | Process-72 | Number of clauses: 932627
+2026-01-17 21:07:50,588 | INFO | Process-72 | Real nums of clauses: 935620
+2026-01-17 21:07:50,588 | INFO | Process-72 | Real nums of variables: 187850
+2026-01-17 21:07:51,049 | INFO | Process-72 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w66.cnf
+2026-01-17 21:07:51,049 | ERROR | Process-72 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 21:10:19,853 | RESULT | Process-72 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 21:10:19,963 | INFO | MainProcess | Found a solution 66
+2026-01-17 21:10:19,963 | INFO | MainProcess | [Test k=221, w=66] Time: 150.63 seconds
+2026-01-17 21:10:19,979 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 21:10:20,373 | INFO | Process-73 | Number of clauses before symmetry breaking: 1
+2026-01-17 21:10:20,373 | INFO | Process-73 | Number of clauses after symmetry breaking: 110
+2026-01-17 21:10:21,267 | INFO | Process-73 | Number of variables: 187851
+2026-01-17 21:10:21,267 | INFO | Process-73 | Number of clauses: 932528
+2026-01-17 21:10:21,267 | INFO | Process-73 | Real nums of clauses: 935620
+2026-01-17 21:10:21,267 | INFO | Process-73 | Real nums of variables: 187850
+2026-01-17 21:10:21,737 | INFO | Process-73 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w67.cnf
+2026-01-17 21:10:21,737 | ERROR | Process-73 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 21:12:38,422 | RESULT | Process-73 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 21:12:38,501 | INFO | MainProcess | Found a solution 67
+2026-01-17 21:12:38,501 | INFO | MainProcess | [Test k=221, w=67] Time: 138.52 seconds
+2026-01-17 21:12:38,533 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 21:12:38,923 | INFO | Process-74 | Number of clauses before symmetry breaking: 1
+2026-01-17 21:12:38,923 | INFO | Process-74 | Number of clauses after symmetry breaking: 110
+2026-01-17 21:12:39,810 | INFO | Process-74 | Number of variables: 187851
+2026-01-17 21:12:39,810 | INFO | Process-74 | Number of clauses: 932429
+2026-01-17 21:12:39,810 | INFO | Process-74 | Real nums of clauses: 935620
+2026-01-17 21:12:39,810 | INFO | Process-74 | Real nums of variables: 187850
+2026-01-17 21:12:40,300 | INFO | Process-74 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w68.cnf
+2026-01-17 21:12:40,300 | ERROR | Process-74 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 21:14:49,088 | RESULT | Process-74 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 21:14:49,174 | INFO | MainProcess | Found a solution 68
+2026-01-17 21:14:49,174 | INFO | MainProcess | [Test k=221, w=68] Time: 130.64 seconds
+2026-01-17 21:14:49,199 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 21:14:49,592 | INFO | Process-75 | Number of clauses before symmetry breaking: 1
+2026-01-17 21:14:49,592 | INFO | Process-75 | Number of clauses after symmetry breaking: 110
+2026-01-17 21:14:50,477 | INFO | Process-75 | Number of variables: 187851
+2026-01-17 21:14:50,477 | INFO | Process-75 | Number of clauses: 932330
+2026-01-17 21:14:50,477 | INFO | Process-75 | Real nums of clauses: 935620
+2026-01-17 21:14:50,477 | INFO | Process-75 | Real nums of variables: 187850
+2026-01-17 21:14:50,946 | INFO | Process-75 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w69.cnf
+2026-01-17 21:14:50,946 | ERROR | Process-75 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 21:17:09,623 | RESULT | Process-75 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 21:17:09,711 | INFO | MainProcess | Found a solution 69
+2026-01-17 21:17:09,712 | INFO | MainProcess | [Test k=221, w=69] Time: 140.51 seconds
+2026-01-17 21:17:09,724 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 21:17:10,140 | INFO | Process-76 | Number of clauses before symmetry breaking: 1
+2026-01-17 21:17:10,140 | INFO | Process-76 | Number of clauses after symmetry breaking: 110
+2026-01-17 21:17:11,043 | INFO | Process-76 | Number of variables: 187851
+2026-01-17 21:17:11,043 | INFO | Process-76 | Number of clauses: 932231
+2026-01-17 21:17:11,043 | INFO | Process-76 | Real nums of clauses: 935620
+2026-01-17 21:17:11,043 | INFO | Process-76 | Real nums of variables: 187850
+2026-01-17 21:17:11,510 | INFO | Process-76 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w70.cnf
+2026-01-17 21:17:11,510 | ERROR | Process-76 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 21:34:38,375 | INFO | MainProcess | No solution found 70
+2026-01-17 21:34:38,375 | INFO | MainProcess | [Test k=221, w=70] Time: 1048.65 seconds
+2026-01-17 21:34:38,416 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 21:34:38,416 | INFO | MainProcess | $$$$
+2026-01-17 21:34:38,416 | INFO | MainProcess | -69
+2026-01-17 21:34:38,416 | INFO | MainProcess | $$$$
+2026-01-17 21:34:38,416 | INFO | MainProcess | Time taken for O-impcol_d.mtx.rnd with k = 221: 1800.1352620124817 seconds
+2026-01-17 21:34:38,416 | INFO | MainProcess | Maximum width before timeout for O-impcol_d.mtx.rnd is 69
+2026-01-17 21:34:38,416 | INFO | MainProcess | time out
+2026-01-17 21:34:39,075 | INFO | Process-77 | Number of clauses before symmetry breaking: 1
+2026-01-17 21:34:39,075 | INFO | Process-77 | Number of clauses after symmetry breaking: 166
+2026-01-17 21:34:41,079 | INFO | Process-77 | Number of variables: 296371
+2026-01-17 21:34:41,079 | INFO | Process-77 | Number of clauses: 1709443
+2026-01-17 21:34:41,079 | INFO | Process-77 | Real nums of clauses: 1713006
+2026-01-17 21:34:41,079 | INFO | Process-77 | Real nums of variables: 296370
+2026-01-17 21:34:42,101 | INFO | Process-77 | CNF written to cnf/v2\P_n445_k333\P_n445_k333_w58.cnf
+2026-01-17 21:34:42,102 | ERROR | Process-77 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 21:35:44,080 | RESULT | Process-77 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 21:35:44,240 | INFO | MainProcess | Found a solution 58
+2026-01-17 21:35:44,240 | INFO | MainProcess | [Test k=333, w=58] Time: 65.81 seconds
+2026-01-17 21:35:44,269 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 21:35:44,718 | INFO | Process-78 | Number of clauses before symmetry breaking: 1
+2026-01-17 21:35:44,718 | INFO | Process-78 | Number of clauses after symmetry breaking: 166
+2026-01-17 21:35:46,580 | INFO | Process-78 | Number of variables: 296371
+2026-01-17 21:35:46,580 | INFO | Process-78 | Number of clauses: 1709452
+2026-01-17 21:35:46,580 | INFO | Process-78 | Real nums of clauses: 1713006
+2026-01-17 21:35:46,580 | INFO | Process-78 | Real nums of variables: 296370
+2026-01-17 21:35:47,465 | INFO | Process-78 | CNF written to cnf/v2\P_n445_k333\P_n445_k333_w59.cnf
+2026-01-17 21:35:47,465 | ERROR | Process-78 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 21:38:58,064 | RESULT | Process-78 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 21:38:58,228 | INFO | MainProcess | Found a solution 59
+2026-01-17 21:38:58,228 | INFO | MainProcess | [Test k=333, w=59] Time: 193.96 seconds
+2026-01-17 21:38:58,265 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 21:38:58,846 | INFO | Process-79 | Number of clauses before symmetry breaking: 1
+2026-01-17 21:38:58,846 | INFO | Process-79 | Number of clauses after symmetry breaking: 166
+2026-01-17 21:39:00,830 | INFO | Process-79 | Number of variables: 296371
+2026-01-17 21:39:00,830 | INFO | Process-79 | Number of clauses: 1709461
+2026-01-17 21:39:00,830 | INFO | Process-79 | Real nums of clauses: 1713006
+2026-01-17 21:39:00,830 | INFO | Process-79 | Real nums of variables: 296370
+2026-01-17 21:39:01,821 | INFO | Process-79 | CNF written to cnf/v2\P_n445_k333\P_n445_k333_w60.cnf
+2026-01-17 21:39:01,821 | ERROR | Process-79 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 21:43:24,350 | RESULT | Process-79 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 21:43:24,494 | INFO | MainProcess | Found a solution 60
+2026-01-17 21:43:24,495 | INFO | MainProcess | [Test k=333, w=60] Time: 266.23 seconds
+2026-01-17 21:43:24,534 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 21:43:25,100 | INFO | Process-80 | Number of clauses before symmetry breaking: 1
+2026-01-17 21:43:25,100 | INFO | Process-80 | Number of clauses after symmetry breaking: 166
+2026-01-17 21:43:27,002 | INFO | Process-80 | Number of variables: 296371
+2026-01-17 21:43:27,002 | INFO | Process-80 | Number of clauses: 1709470
+2026-01-17 21:43:27,002 | INFO | Process-80 | Real nums of clauses: 1713006
+2026-01-17 21:43:27,002 | INFO | Process-80 | Real nums of variables: 296370
+2026-01-17 21:43:27,912 | INFO | Process-80 | CNF written to cnf/v2\P_n445_k333\P_n445_k333_w61.cnf
+2026-01-17 21:43:27,913 | ERROR | Process-80 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 21:46:34,057 | RESULT | Process-80 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 21:46:34,203 | INFO | MainProcess | Found a solution 61
+2026-01-17 21:46:34,203 | INFO | MainProcess | [Test k=333, w=61] Time: 189.67 seconds
+2026-01-17 21:46:34,232 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 21:46:34,677 | INFO | Process-81 | Number of clauses before symmetry breaking: 1
+2026-01-17 21:46:34,677 | INFO | Process-81 | Number of clauses after symmetry breaking: 166
+2026-01-17 21:46:36,397 | INFO | Process-81 | Number of variables: 296371
+2026-01-17 21:46:36,397 | INFO | Process-81 | Number of clauses: 1709479
+2026-01-17 21:46:36,397 | INFO | Process-81 | Real nums of clauses: 1713006
+2026-01-17 21:46:36,397 | INFO | Process-81 | Real nums of variables: 296370
+2026-01-17 21:46:37,281 | INFO | Process-81 | CNF written to cnf/v2\P_n445_k333\P_n445_k333_w62.cnf
+2026-01-17 21:46:37,281 | ERROR | Process-81 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 21:49:09,597 | RESULT | Process-81 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 21:49:09,743 | INFO | MainProcess | Found a solution 62
+2026-01-17 21:49:09,743 | INFO | MainProcess | [Test k=333, w=62] Time: 155.51 seconds
+2026-01-17 21:49:09,774 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 21:49:10,301 | INFO | Process-82 | Number of clauses before symmetry breaking: 1
+2026-01-17 21:49:10,301 | INFO | Process-82 | Number of clauses after symmetry breaking: 166
+2026-01-17 21:49:12,122 | INFO | Process-82 | Number of variables: 296371
+2026-01-17 21:49:12,122 | INFO | Process-82 | Number of clauses: 1709488
+2026-01-17 21:49:12,122 | INFO | Process-82 | Real nums of clauses: 1713006
+2026-01-17 21:49:12,122 | INFO | Process-82 | Real nums of variables: 296370
+2026-01-17 21:49:13,121 | INFO | Process-82 | CNF written to cnf/v2\P_n445_k333\P_n445_k333_w63.cnf
+2026-01-17 21:49:13,121 | ERROR | Process-82 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 21:58:02,160 | RESULT | Process-82 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 21:58:02,397 | INFO | MainProcess | Found a solution 63
+2026-01-17 21:58:02,397 | INFO | MainProcess | [Test k=333, w=63] Time: 532.62 seconds
+2026-01-17 21:58:02,443 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 21:58:03,028 | INFO | Process-83 | Number of clauses before symmetry breaking: 1
+2026-01-17 21:58:03,028 | INFO | Process-83 | Number of clauses after symmetry breaking: 166
+2026-01-17 21:58:05,102 | INFO | Process-83 | Number of variables: 296371
+2026-01-17 21:58:05,102 | INFO | Process-83 | Number of clauses: 1709497
+2026-01-17 21:58:05,102 | INFO | Process-83 | Real nums of clauses: 1713006
+2026-01-17 21:58:05,102 | INFO | Process-83 | Real nums of variables: 296370
+2026-01-17 21:58:06,131 | INFO | Process-83 | CNF written to cnf/v2\P_n445_k333\P_n445_k333_w64.cnf
+2026-01-17 21:58:06,131 | ERROR | Process-83 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 22:04:38,560 | INFO | MainProcess | No solution found 64
+2026-01-17 22:04:38,560 | INFO | MainProcess | [Test k=333, w=64] Time: 396.12 seconds
+2026-01-17 22:04:38,605 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 22:04:38,605 | INFO | MainProcess | $$$$
+2026-01-17 22:04:38,605 | INFO | MainProcess | -63
+2026-01-17 22:04:38,605 | INFO | MainProcess | $$$$
+2026-01-17 22:04:38,605 | INFO | MainProcess | Time taken for P-can__445.mtx.rnd with k = 333: 1800.1889922618866 seconds
+2026-01-17 22:04:38,605 | INFO | MainProcess | Maximum width before timeout for P-can__445.mtx.rnd is 63
+2026-01-17 22:04:38,605 | INFO | MainProcess | time out
+2026-01-17 22:04:39,241 | INFO | Process-84 | Number of clauses before symmetry breaking: 1
+2026-01-17 22:04:39,242 | INFO | Process-84 | Number of clauses after symmetry breaking: 163
+2026-01-17 22:04:40,483 | INFO | Process-84 | Number of variables: 322089
+2026-01-17 22:04:40,483 | INFO | Process-84 | Number of clauses: 1022945
+2026-01-17 22:04:40,483 | INFO | Process-84 | Real nums of clauses: 1026243
+2026-01-17 22:04:40,484 | INFO | Process-84 | Real nums of variables: 322088
+2026-01-17 22:04:41,058 | INFO | Process-84 | CNF written to cnf/v2\Q_n494_k326\Q_n494_k326_w144.cnf
+2026-01-17 22:04:41,058 | ERROR | Process-84 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 22:06:42,077 | RESULT | Process-84 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 22:06:42,206 | INFO | MainProcess | Found a solution 144
+2026-01-17 22:06:42,206 | INFO | MainProcess | [Test k=326, w=144] Time: 123.59 seconds
+2026-01-17 22:06:42,246 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 22:06:42,889 | INFO | Process-85 | Number of clauses before symmetry breaking: 1
+2026-01-17 22:06:42,891 | INFO | Process-85 | Number of clauses after symmetry breaking: 163
+2026-01-17 22:06:44,277 | INFO | Process-85 | Number of variables: 322089
+2026-01-17 22:06:44,277 | INFO | Process-85 | Number of clauses: 1022922
+2026-01-17 22:06:44,277 | INFO | Process-85 | Real nums of clauses: 1026243
+2026-01-17 22:06:44,277 | INFO | Process-85 | Real nums of variables: 322088
+2026-01-17 22:06:44,914 | INFO | Process-85 | CNF written to cnf/v2\Q_n494_k326\Q_n494_k326_w145.cnf
+2026-01-17 22:06:44,914 | ERROR | Process-85 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 22:08:23,232 | RESULT | Process-85 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 22:08:23,360 | INFO | MainProcess | Found a solution 145
+2026-01-17 22:08:23,360 | INFO | MainProcess | [Test k=326, w=145] Time: 101.11 seconds
+2026-01-17 22:08:23,426 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 22:08:23,970 | INFO | Process-86 | Number of clauses before symmetry breaking: 1
+2026-01-17 22:08:23,971 | INFO | Process-86 | Number of clauses after symmetry breaking: 163
+2026-01-17 22:08:25,088 | INFO | Process-86 | Number of variables: 322089
+2026-01-17 22:08:25,088 | INFO | Process-86 | Number of clauses: 1022899
+2026-01-17 22:08:25,088 | INFO | Process-86 | Real nums of clauses: 1026243
+2026-01-17 22:08:25,088 | INFO | Process-86 | Real nums of variables: 322088
+2026-01-17 22:08:25,660 | INFO | Process-86 | CNF written to cnf/v2\Q_n494_k326\Q_n494_k326_w146.cnf
+2026-01-17 22:08:25,660 | ERROR | Process-86 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 22:11:22,381 | RESULT | Process-86 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 22:11:22,490 | INFO | MainProcess | Found a solution 146
+2026-01-17 22:11:22,490 | INFO | MainProcess | [Test k=326, w=146] Time: 179.06 seconds
+2026-01-17 22:11:22,536 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 22:11:23,129 | INFO | Process-87 | Number of clauses before symmetry breaking: 1
+2026-01-17 22:11:23,130 | INFO | Process-87 | Number of clauses after symmetry breaking: 163
+2026-01-17 22:11:24,469 | INFO | Process-87 | Number of variables: 322089
+2026-01-17 22:11:24,469 | INFO | Process-87 | Number of clauses: 1022876
+2026-01-17 22:11:24,469 | INFO | Process-87 | Real nums of clauses: 1026243
+2026-01-17 22:11:24,469 | INFO | Process-87 | Real nums of variables: 322088
+2026-01-17 22:11:25,122 | INFO | Process-87 | CNF written to cnf/v2\Q_n494_k326\Q_n494_k326_w147.cnf
+2026-01-17 22:11:25,122 | ERROR | Process-87 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 22:13:23,749 | RESULT | Process-87 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 22:13:23,860 | INFO | MainProcess | Found a solution 147
+2026-01-17 22:13:23,860 | INFO | MainProcess | [Test k=326, w=147] Time: 121.32 seconds
+2026-01-17 22:13:23,901 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 22:13:24,398 | INFO | Process-88 | Number of clauses before symmetry breaking: 1
+2026-01-17 22:13:24,399 | INFO | Process-88 | Number of clauses after symmetry breaking: 163
+2026-01-17 22:13:25,627 | INFO | Process-88 | Number of variables: 322089
+2026-01-17 22:13:25,627 | INFO | Process-88 | Number of clauses: 1022853
+2026-01-17 22:13:25,627 | INFO | Process-88 | Real nums of clauses: 1026243
+2026-01-17 22:13:25,627 | INFO | Process-88 | Real nums of variables: 322088
+2026-01-17 22:13:26,254 | INFO | Process-88 | CNF written to cnf/v2\Q_n494_k326\Q_n494_k326_w148.cnf
+2026-01-17 22:13:26,254 | ERROR | Process-88 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 22:15:07,198 | RESULT | Process-88 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 22:15:07,290 | INFO | MainProcess | Found a solution 148
+2026-01-17 22:15:07,290 | INFO | MainProcess | [Test k=326, w=148] Time: 103.39 seconds
+2026-01-17 22:15:07,323 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 22:15:07,848 | INFO | Process-89 | Number of clauses before symmetry breaking: 1
+2026-01-17 22:15:07,848 | INFO | Process-89 | Number of clauses after symmetry breaking: 163
+2026-01-17 22:15:08,949 | INFO | Process-89 | Number of variables: 322089
+2026-01-17 22:15:08,950 | INFO | Process-89 | Number of clauses: 1022830
+2026-01-17 22:15:08,950 | INFO | Process-89 | Real nums of clauses: 1026243
+2026-01-17 22:15:08,950 | INFO | Process-89 | Real nums of variables: 322088
+2026-01-17 22:15:09,428 | INFO | Process-89 | CNF written to cnf/v2\Q_n494_k326\Q_n494_k326_w149.cnf
+2026-01-17 22:15:09,428 | ERROR | Process-89 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 22:17:32,198 | RESULT | Process-89 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 22:17:32,283 | INFO | MainProcess | Found a solution 149
+2026-01-17 22:17:32,283 | INFO | MainProcess | [Test k=326, w=149] Time: 144.96 seconds
+2026-01-17 22:17:32,312 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 22:17:32,747 | INFO | Process-90 | Number of clauses before symmetry breaking: 1
+2026-01-17 22:17:32,748 | INFO | Process-90 | Number of clauses after symmetry breaking: 163
+2026-01-17 22:17:33,732 | INFO | Process-90 | Number of variables: 322089
+2026-01-17 22:17:33,732 | INFO | Process-90 | Number of clauses: 1022807
+2026-01-17 22:17:33,732 | INFO | Process-90 | Real nums of clauses: 1026243
+2026-01-17 22:17:33,732 | INFO | Process-90 | Real nums of variables: 322088
+2026-01-17 22:17:34,212 | INFO | Process-90 | CNF written to cnf/v2\Q_n494_k326\Q_n494_k326_w150.cnf
+2026-01-17 22:17:34,212 | ERROR | Process-90 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 22:19:42,061 | RESULT | Process-90 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 22:19:42,157 | INFO | MainProcess | Found a solution 150
+2026-01-17 22:19:42,157 | INFO | MainProcess | [Test k=326, w=150] Time: 129.85 seconds
+2026-01-17 22:19:42,187 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 22:19:42,678 | INFO | Process-91 | Number of clauses before symmetry breaking: 1
+2026-01-17 22:19:42,679 | INFO | Process-91 | Number of clauses after symmetry breaking: 163
+2026-01-17 22:19:43,874 | INFO | Process-91 | Number of variables: 322089
+2026-01-17 22:19:43,874 | INFO | Process-91 | Number of clauses: 1022784
+2026-01-17 22:19:43,874 | INFO | Process-91 | Real nums of clauses: 1026243
+2026-01-17 22:19:43,875 | INFO | Process-91 | Real nums of variables: 322088
+2026-01-17 22:19:44,386 | INFO | Process-91 | CNF written to cnf/v2\Q_n494_k326\Q_n494_k326_w151.cnf
+2026-01-17 22:19:44,386 | ERROR | Process-91 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 22:22:05,636 | RESULT | Process-91 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 22:22:05,749 | INFO | MainProcess | Found a solution 151
+2026-01-17 22:22:05,749 | INFO | MainProcess | [Test k=326, w=151] Time: 143.56 seconds
+2026-01-17 22:22:05,792 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 22:22:06,362 | INFO | Process-92 | Number of clauses before symmetry breaking: 1
+2026-01-17 22:22:06,362 | INFO | Process-92 | Number of clauses after symmetry breaking: 163
+2026-01-17 22:22:07,422 | INFO | Process-92 | Number of variables: 322089
+2026-01-17 22:22:07,422 | INFO | Process-92 | Number of clauses: 1022761
+2026-01-17 22:22:07,422 | INFO | Process-92 | Real nums of clauses: 1026243
+2026-01-17 22:22:07,422 | INFO | Process-92 | Real nums of variables: 322088
+2026-01-17 22:22:07,897 | INFO | Process-92 | CNF written to cnf/v2\Q_n494_k326\Q_n494_k326_w152.cnf
+2026-01-17 22:22:07,898 | ERROR | Process-92 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 22:24:43,403 | RESULT | Process-92 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 22:24:43,506 | INFO | MainProcess | Found a solution 152
+2026-01-17 22:24:43,506 | INFO | MainProcess | [Test k=326, w=152] Time: 157.71 seconds
+2026-01-17 22:24:43,536 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 22:24:44,082 | INFO | Process-93 | Number of clauses before symmetry breaking: 1
+2026-01-17 22:24:44,083 | INFO | Process-93 | Number of clauses after symmetry breaking: 163
+2026-01-17 22:24:45,196 | INFO | Process-93 | Number of variables: 322089
+2026-01-17 22:24:45,196 | INFO | Process-93 | Number of clauses: 1022738
+2026-01-17 22:24:45,196 | INFO | Process-93 | Real nums of clauses: 1026243
+2026-01-17 22:24:45,196 | INFO | Process-93 | Real nums of variables: 322088
+2026-01-17 22:24:45,765 | INFO | Process-93 | CNF written to cnf/v2\Q_n494_k326\Q_n494_k326_w153.cnf
+2026-01-17 22:24:45,765 | ERROR | Process-93 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 22:27:30,482 | RESULT | Process-93 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 22:27:30,588 | INFO | MainProcess | Found a solution 153
+2026-01-17 22:27:30,588 | INFO | MainProcess | [Test k=326, w=153] Time: 167.05 seconds
+2026-01-17 22:27:30,630 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 22:27:31,119 | INFO | Process-94 | Number of clauses before symmetry breaking: 1
+2026-01-17 22:27:31,119 | INFO | Process-94 | Number of clauses after symmetry breaking: 163
+2026-01-17 22:27:32,331 | INFO | Process-94 | Number of variables: 322089
+2026-01-17 22:27:32,331 | INFO | Process-94 | Number of clauses: 1022715
+2026-01-17 22:27:32,331 | INFO | Process-94 | Real nums of clauses: 1026243
+2026-01-17 22:27:32,331 | INFO | Process-94 | Real nums of variables: 322088
+2026-01-17 22:27:32,912 | INFO | Process-94 | CNF written to cnf/v2\Q_n494_k326\Q_n494_k326_w154.cnf
+2026-01-17 22:27:32,912 | ERROR | Process-94 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 22:32:51,219 | RESULT | Process-94 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 22:32:51,332 | INFO | MainProcess | Found a solution 154
+2026-01-17 22:32:51,332 | INFO | MainProcess | [Test k=326, w=154] Time: 320.7 seconds
+2026-01-17 22:32:51,362 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 22:32:51,838 | INFO | Process-95 | Number of clauses before symmetry breaking: 1
+2026-01-17 22:32:51,839 | INFO | Process-95 | Number of clauses after symmetry breaking: 163
+2026-01-17 22:32:53,002 | INFO | Process-95 | Number of variables: 322089
+2026-01-17 22:32:53,002 | INFO | Process-95 | Number of clauses: 1022692
+2026-01-17 22:32:53,002 | INFO | Process-95 | Real nums of clauses: 1026243
+2026-01-17 22:32:53,002 | INFO | Process-95 | Real nums of variables: 322088
+2026-01-17 22:32:53,557 | INFO | Process-95 | CNF written to cnf/v2\Q_n494_k326\Q_n494_k326_w155.cnf
+2026-01-17 22:32:53,557 | ERROR | Process-95 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 22:34:38,695 | INFO | MainProcess | No solution found 155
+2026-01-17 22:34:38,695 | INFO | MainProcess | [Test k=326, w=155] Time: 107.33 seconds
+2026-01-17 22:34:38,729 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 22:34:38,729 | INFO | MainProcess | $$$$
+2026-01-17 22:34:38,729 | INFO | MainProcess | -154
+2026-01-17 22:34:38,729 | INFO | MainProcess | $$$$
+2026-01-17 22:34:38,729 | INFO | MainProcess | Time taken for Q-494_bus.mtx.rnd with k = 326: 1800.1238903999329 seconds
+2026-01-17 22:34:38,729 | INFO | MainProcess | Maximum width before timeout for Q-494_bus.mtx.rnd is 154
+2026-01-17 22:34:38,729 | INFO | MainProcess | time out
+2026-01-17 22:34:39,270 | INFO | Process-96 | Number of clauses before symmetry breaking: 1
+2026-01-17 22:34:39,271 | INFO | Process-96 | Number of clauses after symmetry breaking: 173
+2026-01-17 22:34:42,245 | INFO | Process-96 | Number of variables: 349083
+2026-01-17 22:34:42,245 | INFO | Process-96 | Number of clauses: 2609421
+2026-01-17 22:34:42,245 | INFO | Process-96 | Real nums of clauses: 2615009
+2026-01-17 22:34:42,245 | INFO | Process-96 | Real nums of variables: 349082
+2026-01-17 22:34:43,805 | INFO | Process-96 | CNF written to cnf/v2\R_n503_k347\R_n503_k347_w31.cnf
+2026-01-17 22:34:43,805 | ERROR | Process-96 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 22:35:01,015 | RESULT | Process-96 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 22:35:01,203 | INFO | MainProcess | Found a solution 31
+2026-01-17 22:35:01,203 | INFO | MainProcess | [Test k=347, w=31] Time: 22.46 seconds
+2026-01-17 22:35:01,238 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 22:35:01,831 | INFO | Process-97 | Number of clauses before symmetry breaking: 1
+2026-01-17 22:35:01,832 | INFO | Process-97 | Number of clauses after symmetry breaking: 173
+2026-01-17 22:35:04,757 | INFO | Process-97 | Number of variables: 349083
+2026-01-17 22:35:04,757 | INFO | Process-97 | Number of clauses: 2609435
+2026-01-17 22:35:04,757 | INFO | Process-97 | Real nums of clauses: 2615009
+2026-01-17 22:35:04,757 | INFO | Process-97 | Real nums of variables: 349082
+2026-01-17 22:35:06,372 | INFO | Process-97 | CNF written to cnf/v2\R_n503_k347\R_n503_k347_w32.cnf
+2026-01-17 22:35:06,372 | ERROR | Process-97 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 22:35:23,082 | RESULT | Process-97 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 22:35:23,309 | INFO | MainProcess | Found a solution 32
+2026-01-17 22:35:23,309 | INFO | MainProcess | [Test k=347, w=32] Time: 22.07 seconds
+2026-01-17 22:35:23,355 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 22:35:23,865 | INFO | Process-98 | Number of clauses before symmetry breaking: 1
+2026-01-17 22:35:23,867 | INFO | Process-98 | Number of clauses after symmetry breaking: 173
+2026-01-17 22:35:27,251 | INFO | Process-98 | Number of variables: 349083
+2026-01-17 22:35:27,251 | INFO | Process-98 | Number of clauses: 2609449
+2026-01-17 22:35:27,251 | INFO | Process-98 | Real nums of clauses: 2615009
+2026-01-17 22:35:27,251 | INFO | Process-98 | Real nums of variables: 349082
+2026-01-17 22:35:28,817 | INFO | Process-98 | CNF written to cnf/v2\R_n503_k347\R_n503_k347_w33.cnf
+2026-01-17 22:35:28,817 | ERROR | Process-98 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 22:35:44,967 | RESULT | Process-98 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 22:35:45,185 | INFO | MainProcess | Found a solution 33
+2026-01-17 22:35:45,185 | INFO | MainProcess | [Test k=347, w=33] Time: 21.83 seconds
+2026-01-17 22:35:45,229 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 22:35:45,789 | INFO | Process-99 | Number of clauses before symmetry breaking: 1
+2026-01-17 22:35:45,789 | INFO | Process-99 | Number of clauses after symmetry breaking: 173
+2026-01-17 22:35:48,877 | INFO | Process-99 | Number of variables: 349083
+2026-01-17 22:35:48,877 | INFO | Process-99 | Number of clauses: 2609463
+2026-01-17 22:35:48,877 | INFO | Process-99 | Real nums of clauses: 2615009
+2026-01-17 22:35:48,877 | INFO | Process-99 | Real nums of variables: 349082
+2026-01-17 22:35:50,410 | INFO | Process-99 | CNF written to cnf/v2\R_n503_k347\R_n503_k347_w34.cnf
+2026-01-17 22:35:50,411 | ERROR | Process-99 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 22:36:12,248 | RESULT | Process-99 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 22:36:12,459 | INFO | MainProcess | Found a solution 34
+2026-01-17 22:36:12,459 | INFO | MainProcess | [Test k=347, w=34] Time: 27.23 seconds
+2026-01-17 22:36:12,507 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 22:36:13,048 | INFO | Process-100 | Number of clauses before symmetry breaking: 1
+2026-01-17 22:36:13,049 | INFO | Process-100 | Number of clauses after symmetry breaking: 173
+2026-01-17 22:36:16,317 | INFO | Process-100 | Number of variables: 349083
+2026-01-17 22:36:16,317 | INFO | Process-100 | Number of clauses: 2609477
+2026-01-17 22:36:16,317 | INFO | Process-100 | Real nums of clauses: 2615009
+2026-01-17 22:36:16,317 | INFO | Process-100 | Real nums of variables: 349082
+2026-01-17 22:36:18,054 | INFO | Process-100 | CNF written to cnf/v2\R_n503_k347\R_n503_k347_w35.cnf
+2026-01-17 22:36:18,054 | ERROR | Process-100 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 22:36:39,677 | RESULT | Process-100 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 22:36:39,870 | INFO | MainProcess | Found a solution 35
+2026-01-17 22:36:39,871 | INFO | MainProcess | [Test k=347, w=35] Time: 27.36 seconds
+2026-01-17 22:36:39,913 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 22:36:40,494 | INFO | Process-101 | Number of clauses before symmetry breaking: 1
+2026-01-17 22:36:40,495 | INFO | Process-101 | Number of clauses after symmetry breaking: 173
+2026-01-17 22:36:43,917 | INFO | Process-101 | Number of variables: 349083
+2026-01-17 22:36:43,917 | INFO | Process-101 | Number of clauses: 2609491
+2026-01-17 22:36:43,917 | INFO | Process-101 | Real nums of clauses: 2615009
+2026-01-17 22:36:43,917 | INFO | Process-101 | Real nums of variables: 349082
+2026-01-17 22:36:45,542 | INFO | Process-101 | CNF written to cnf/v2\R_n503_k347\R_n503_k347_w36.cnf
+2026-01-17 22:36:45,542 | ERROR | Process-101 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 22:37:44,600 | RESULT | Process-101 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 22:37:44,821 | INFO | MainProcess | Found a solution 36
+2026-01-17 22:37:44,821 | INFO | MainProcess | [Test k=347, w=36] Time: 64.91 seconds
+2026-01-17 22:37:44,866 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 22:37:45,466 | INFO | Process-102 | Number of clauses before symmetry breaking: 1
+2026-01-17 22:37:45,467 | INFO | Process-102 | Number of clauses after symmetry breaking: 173
+2026-01-17 22:37:48,531 | INFO | Process-102 | Number of variables: 349083
+2026-01-17 22:37:48,531 | INFO | Process-102 | Number of clauses: 2609505
+2026-01-17 22:37:48,531 | INFO | Process-102 | Real nums of clauses: 2615009
+2026-01-17 22:37:48,531 | INFO | Process-102 | Real nums of variables: 349082
+2026-01-17 22:37:50,133 | INFO | Process-102 | CNF written to cnf/v2\R_n503_k347\R_n503_k347_w37.cnf
+2026-01-17 22:37:50,133 | ERROR | Process-102 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 22:38:30,810 | RESULT | Process-102 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 22:38:31,019 | INFO | MainProcess | Found a solution 37
+2026-01-17 22:38:31,019 | INFO | MainProcess | [Test k=347, w=37] Time: 46.15 seconds
+2026-01-17 22:38:31,069 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 22:38:31,592 | INFO | Process-103 | Number of clauses before symmetry breaking: 1
+2026-01-17 22:38:31,593 | INFO | Process-103 | Number of clauses after symmetry breaking: 173
+2026-01-17 22:38:34,719 | INFO | Process-103 | Number of variables: 349083
+2026-01-17 22:38:34,719 | INFO | Process-103 | Number of clauses: 2609519
+2026-01-17 22:38:34,719 | INFO | Process-103 | Real nums of clauses: 2615009
+2026-01-17 22:38:34,719 | INFO | Process-103 | Real nums of variables: 349082
+2026-01-17 22:38:36,299 | INFO | Process-103 | CNF written to cnf/v2\R_n503_k347\R_n503_k347_w38.cnf
+2026-01-17 22:38:36,299 | ERROR | Process-103 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 22:39:20,917 | RESULT | Process-103 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 22:39:21,111 | INFO | MainProcess | Found a solution 38
+2026-01-17 22:39:21,111 | INFO | MainProcess | [Test k=347, w=38] Time: 50.04 seconds
+2026-01-17 22:39:21,146 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 22:39:21,744 | INFO | Process-104 | Number of clauses before symmetry breaking: 1
+2026-01-17 22:39:21,745 | INFO | Process-104 | Number of clauses after symmetry breaking: 173
+2026-01-17 22:39:24,776 | INFO | Process-104 | Number of variables: 349083
+2026-01-17 22:39:24,776 | INFO | Process-104 | Number of clauses: 2609533
+2026-01-17 22:39:24,776 | INFO | Process-104 | Real nums of clauses: 2615009
+2026-01-17 22:39:24,776 | INFO | Process-104 | Real nums of variables: 349082
+2026-01-17 22:39:26,385 | INFO | Process-104 | CNF written to cnf/v2\R_n503_k347\R_n503_k347_w39.cnf
+2026-01-17 22:39:26,386 | ERROR | Process-104 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 22:40:03,744 | RESULT | Process-104 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 22:40:03,942 | INFO | MainProcess | Found a solution 39
+2026-01-17 22:40:03,942 | INFO | MainProcess | [Test k=347, w=39] Time: 42.8 seconds
+2026-01-17 22:40:03,995 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 22:40:04,570 | INFO | Process-105 | Number of clauses before symmetry breaking: 1
+2026-01-17 22:40:04,571 | INFO | Process-105 | Number of clauses after symmetry breaking: 173
+2026-01-17 22:40:07,690 | INFO | Process-105 | Number of variables: 349083
+2026-01-17 22:40:07,690 | INFO | Process-105 | Number of clauses: 2609547
+2026-01-17 22:40:07,690 | INFO | Process-105 | Real nums of clauses: 2615009
+2026-01-17 22:40:07,690 | INFO | Process-105 | Real nums of variables: 349082
+2026-01-17 22:40:09,319 | INFO | Process-105 | CNF written to cnf/v2\R_n503_k347\R_n503_k347_w40.cnf
+2026-01-17 22:40:09,319 | ERROR | Process-105 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 22:40:57,007 | RESULT | Process-105 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 22:40:57,225 | INFO | MainProcess | Found a solution 40
+2026-01-17 22:40:57,225 | INFO | MainProcess | [Test k=347, w=40] Time: 53.23 seconds
+2026-01-17 22:40:57,279 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 22:40:57,800 | INFO | Process-106 | Number of clauses before symmetry breaking: 1
+2026-01-17 22:40:57,801 | INFO | Process-106 | Number of clauses after symmetry breaking: 173
+2026-01-17 22:41:00,927 | INFO | Process-106 | Number of variables: 349083
+2026-01-17 22:41:00,927 | INFO | Process-106 | Number of clauses: 2609561
+2026-01-17 22:41:00,927 | INFO | Process-106 | Real nums of clauses: 2615009
+2026-01-17 22:41:00,927 | INFO | Process-106 | Real nums of variables: 349082
+2026-01-17 22:41:02,541 | INFO | Process-106 | CNF written to cnf/v2\R_n503_k347\R_n503_k347_w41.cnf
+2026-01-17 22:41:02,542 | ERROR | Process-106 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 22:43:13,080 | RESULT | Process-106 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 22:43:13,324 | INFO | MainProcess | Found a solution 41
+2026-01-17 22:43:13,324 | INFO | MainProcess | [Test k=347, w=41] Time: 136.05 seconds
+2026-01-17 22:43:13,369 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 22:43:13,999 | INFO | Process-107 | Number of clauses before symmetry breaking: 1
+2026-01-17 22:43:14,001 | INFO | Process-107 | Number of clauses after symmetry breaking: 173
+2026-01-17 22:43:17,182 | INFO | Process-107 | Number of variables: 349083
+2026-01-17 22:43:17,182 | INFO | Process-107 | Number of clauses: 2609575
+2026-01-17 22:43:17,182 | INFO | Process-107 | Real nums of clauses: 2615009
+2026-01-17 22:43:17,182 | INFO | Process-107 | Real nums of variables: 349082
+2026-01-17 22:43:18,872 | INFO | Process-107 | CNF written to cnf/v2\R_n503_k347\R_n503_k347_w42.cnf
+2026-01-17 22:43:18,872 | ERROR | Process-107 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 22:51:57,202 | RESULT | Process-107 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 22:51:57,474 | INFO | MainProcess | Found a solution 42
+2026-01-17 22:51:57,474 | INFO | MainProcess | [Test k=347, w=42] Time: 524.11 seconds
+2026-01-17 22:51:57,521 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 22:51:58,032 | INFO | Process-108 | Number of clauses before symmetry breaking: 1
+2026-01-17 22:51:58,033 | INFO | Process-108 | Number of clauses after symmetry breaking: 173
+2026-01-17 22:52:01,234 | INFO | Process-108 | Number of variables: 349083
+2026-01-17 22:52:01,234 | INFO | Process-108 | Number of clauses: 2609589
+2026-01-17 22:52:01,234 | INFO | Process-108 | Real nums of clauses: 2615009
+2026-01-17 22:52:01,234 | INFO | Process-108 | Real nums of variables: 349082
+2026-01-17 22:52:02,717 | INFO | Process-108 | CNF written to cnf/v2\R_n503_k347\R_n503_k347_w43.cnf
+2026-01-17 22:52:02,717 | ERROR | Process-108 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 23:04:38,854 | INFO | MainProcess | No solution found 43
+2026-01-17 23:04:38,855 | INFO | MainProcess | [Test k=347, w=43] Time: 761.33 seconds
+2026-01-17 23:04:38,889 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 23:04:38,889 | INFO | MainProcess | $$$$
+2026-01-17 23:04:38,889 | INFO | MainProcess | -42
+2026-01-17 23:04:38,889 | INFO | MainProcess | $$$$
+2026-01-17 23:04:38,890 | INFO | MainProcess | Time taken for R-dwt__503.mtx.rnd with k = 347: 1800.1608707904816 seconds
+2026-01-17 23:04:38,890 | INFO | MainProcess | Maximum width before timeout for R-dwt__503.mtx.rnd is 42
+2026-01-17 23:04:38,890 | INFO | MainProcess | time out
+2026-01-17 23:04:39,401 | INFO | Process-109 | Number of clauses before symmetry breaking: 1
+2026-01-17 23:04:39,404 | INFO | Process-109 | Number of clauses after symmetry breaking: 161
+2026-01-17 23:04:41,344 | INFO | Process-109 | Number of variables: 351625
+2026-01-17 23:04:41,344 | INFO | Process-109 | Number of clauses: 1560802
+2026-01-17 23:04:41,344 | INFO | Process-109 | Real nums of clauses: 1566789
+2026-01-17 23:04:41,344 | INFO | Process-109 | Real nums of variables: 351624
+2026-01-17 23:04:42,180 | INFO | Process-109 | CNF written to cnf/v2\S_n546_k322\S_n546_k322_w151.cnf
+2026-01-17 23:04:42,180 | ERROR | Process-109 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 23:10:31,085 | RESULT | Process-109 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 23:10:31,213 | INFO | MainProcess | Found a solution 151
+2026-01-17 23:10:31,213 | INFO | MainProcess | [Test k=322, w=151] Time: 352.31 seconds
+2026-01-17 23:10:31,247 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 23:10:31,795 | INFO | Process-110 | Number of clauses before symmetry breaking: 1
+2026-01-17 23:10:31,796 | INFO | Process-110 | Number of clauses after symmetry breaking: 161
+2026-01-17 23:10:33,699 | INFO | Process-110 | Number of variables: 351625
+2026-01-17 23:10:33,699 | INFO | Process-110 | Number of clauses: 1560754
+2026-01-17 23:10:33,699 | INFO | Process-110 | Real nums of clauses: 1566789
+2026-01-17 23:10:33,699 | INFO | Process-110 | Real nums of variables: 351624
+2026-01-17 23:10:34,474 | INFO | Process-110 | CNF written to cnf/v2\S_n546_k322\S_n546_k322_w152.cnf
+2026-01-17 23:10:34,475 | ERROR | Process-110 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 23:17:06,399 | RESULT | Process-110 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 23:17:06,527 | INFO | MainProcess | Found a solution 152
+2026-01-17 23:17:06,527 | INFO | MainProcess | [Test k=322, w=152] Time: 395.28 seconds
+2026-01-17 23:17:06,570 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 23:17:07,123 | INFO | Process-111 | Number of clauses before symmetry breaking: 1
+2026-01-17 23:17:07,124 | INFO | Process-111 | Number of clauses after symmetry breaking: 161
+2026-01-17 23:17:08,956 | INFO | Process-111 | Number of variables: 351625
+2026-01-17 23:17:08,956 | INFO | Process-111 | Number of clauses: 1560706
+2026-01-17 23:17:08,956 | INFO | Process-111 | Real nums of clauses: 1566789
+2026-01-17 23:17:08,956 | INFO | Process-111 | Real nums of variables: 351624
+2026-01-17 23:17:09,812 | INFO | Process-111 | CNF written to cnf/v2\S_n546_k322\S_n546_k322_w153.cnf
+2026-01-17 23:17:09,812 | ERROR | Process-111 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 23:33:34,832 | RESULT | Process-111 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 23:33:34,980 | INFO | MainProcess | Found a solution 153
+2026-01-17 23:33:34,980 | INFO | MainProcess | [Test k=322, w=153] Time: 988.41 seconds
+2026-01-17 23:33:35,046 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 23:33:35,516 | INFO | Process-112 | Number of clauses before symmetry breaking: 1
+2026-01-17 23:33:35,518 | INFO | Process-112 | Number of clauses after symmetry breaking: 161
+2026-01-17 23:33:37,301 | INFO | Process-112 | Number of variables: 351625
+2026-01-17 23:33:37,301 | INFO | Process-112 | Number of clauses: 1560658
+2026-01-17 23:33:37,301 | INFO | Process-112 | Real nums of clauses: 1566789
+2026-01-17 23:33:37,302 | INFO | Process-112 | Real nums of variables: 351624
+2026-01-17 23:33:38,177 | INFO | Process-112 | CNF written to cnf/v2\S_n546_k322\S_n546_k322_w154.cnf
+2026-01-17 23:33:38,177 | ERROR | Process-112 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 23:34:38,988 | INFO | MainProcess | No solution found 154
+2026-01-17 23:34:38,988 | INFO | MainProcess | [Test k=322, w=154] Time: 63.94 seconds
+2026-01-17 23:34:39,058 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 23:34:39,059 | INFO | MainProcess | $$$$
+2026-01-17 23:34:39,059 | INFO | MainProcess | -153
+2026-01-17 23:34:39,059 | INFO | MainProcess | $$$$
+2026-01-17 23:34:39,059 | INFO | MainProcess | Time taken for S-sherman4.mtx.rnd with k = 322: 1800.1684815883636 seconds
+2026-01-17 23:34:39,059 | INFO | MainProcess | Maximum width before timeout for S-sherman4.mtx.rnd is 153
+2026-01-17 23:34:39,059 | INFO | MainProcess | time out
+2026-01-17 23:34:39,675 | INFO | Process-113 | Number of clauses before symmetry breaking: 1
+2026-01-17 23:34:39,675 | INFO | Process-113 | Number of clauses after symmetry breaking: 189
+2026-01-17 23:34:42,821 | INFO | Process-113 | Number of variables: 447553
+2026-01-17 23:34:42,821 | INFO | Process-113 | Number of clauses: 2596774
+2026-01-17 23:34:42,821 | INFO | Process-113 | Real nums of clauses: 2600615
+2026-01-17 23:34:42,821 | INFO | Process-113 | Real nums of variables: 447552
+2026-01-17 23:34:44,560 | INFO | Process-113 | CNF written to cnf/v2\T_n592_k378\T_n592_k378_w65.cnf
+2026-01-17 23:34:44,560 | ERROR | Process-113 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 23:36:43,220 | RESULT | Process-113 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 23:36:43,421 | INFO | MainProcess | Found a solution 65
+2026-01-17 23:36:43,421 | INFO | MainProcess | [Test k=378, w=65] Time: 124.35 seconds
+2026-01-17 23:36:43,463 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 23:36:44,018 | INFO | Process-114 | Number of clauses before symmetry breaking: 1
+2026-01-17 23:36:44,019 | INFO | Process-114 | Number of clauses after symmetry breaking: 189
+2026-01-17 23:36:47,376 | INFO | Process-114 | Number of variables: 447553
+2026-01-17 23:36:47,376 | INFO | Process-114 | Number of clauses: 2596782
+2026-01-17 23:36:47,376 | INFO | Process-114 | Real nums of clauses: 2600615
+2026-01-17 23:36:47,376 | INFO | Process-114 | Real nums of variables: 447552
+2026-01-17 23:36:49,031 | INFO | Process-114 | CNF written to cnf/v2\T_n592_k378\T_n592_k378_w66.cnf
+2026-01-17 23:36:49,031 | ERROR | Process-114 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 23:38:12,665 | RESULT | Process-114 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 23:38:12,907 | INFO | MainProcess | Found a solution 66
+2026-01-17 23:38:12,907 | INFO | MainProcess | [Test k=378, w=66] Time: 89.44 seconds
+2026-01-17 23:38:12,962 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 23:38:13,509 | INFO | Process-115 | Number of clauses before symmetry breaking: 1
+2026-01-17 23:38:13,509 | INFO | Process-115 | Number of clauses after symmetry breaking: 189
+2026-01-17 23:38:16,200 | INFO | Process-115 | Number of variables: 447553
+2026-01-17 23:38:16,200 | INFO | Process-115 | Number of clauses: 2596790
+2026-01-17 23:38:16,200 | INFO | Process-115 | Real nums of clauses: 2600615
+2026-01-17 23:38:16,200 | INFO | Process-115 | Real nums of variables: 447552
+2026-01-17 23:38:17,777 | INFO | Process-115 | CNF written to cnf/v2\T_n592_k378\T_n592_k378_w67.cnf
+2026-01-17 23:38:17,777 | ERROR | Process-115 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 23:41:42,785 | RESULT | Process-115 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 23:41:42,991 | INFO | MainProcess | Found a solution 67
+2026-01-17 23:41:42,991 | INFO | MainProcess | [Test k=378, w=67] Time: 210.03 seconds
+2026-01-17 23:41:43,044 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 23:41:43,585 | INFO | Process-116 | Number of clauses before symmetry breaking: 1
+2026-01-17 23:41:43,586 | INFO | Process-116 | Number of clauses after symmetry breaking: 189
+2026-01-17 23:41:46,211 | INFO | Process-116 | Number of variables: 447553
+2026-01-17 23:41:46,211 | INFO | Process-116 | Number of clauses: 2596798
+2026-01-17 23:41:46,211 | INFO | Process-116 | Real nums of clauses: 2600615
+2026-01-17 23:41:46,211 | INFO | Process-116 | Real nums of variables: 447552
+2026-01-17 23:41:47,692 | INFO | Process-116 | CNF written to cnf/v2\T_n592_k378\T_n592_k378_w68.cnf
+2026-01-17 23:41:47,692 | ERROR | Process-116 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 23:42:49,625 | RESULT | Process-116 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 23:42:49,832 | INFO | MainProcess | Found a solution 68
+2026-01-17 23:42:49,832 | INFO | MainProcess | [Test k=378, w=68] Time: 66.79 seconds
+2026-01-17 23:42:49,878 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 23:42:50,455 | INFO | Process-117 | Number of clauses before symmetry breaking: 1
+2026-01-17 23:42:50,455 | INFO | Process-117 | Number of clauses after symmetry breaking: 189
+2026-01-17 23:42:53,301 | INFO | Process-117 | Number of variables: 447553
+2026-01-17 23:42:53,302 | INFO | Process-117 | Number of clauses: 2596806
+2026-01-17 23:42:53,302 | INFO | Process-117 | Real nums of clauses: 2600615
+2026-01-17 23:42:53,302 | INFO | Process-117 | Real nums of variables: 447552
+2026-01-17 23:42:54,697 | INFO | Process-117 | CNF written to cnf/v2\T_n592_k378\T_n592_k378_w69.cnf
+2026-01-17 23:42:54,697 | ERROR | Process-117 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 23:45:11,146 | RESULT | Process-117 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 23:45:11,363 | INFO | MainProcess | Found a solution 69
+2026-01-17 23:45:11,364 | INFO | MainProcess | [Test k=378, w=69] Time: 141.48 seconds
+2026-01-17 23:45:11,400 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 23:45:11,849 | INFO | Process-118 | Number of clauses before symmetry breaking: 1
+2026-01-17 23:45:11,849 | INFO | Process-118 | Number of clauses after symmetry breaking: 189
+2026-01-17 23:45:14,619 | INFO | Process-118 | Number of variables: 447553
+2026-01-17 23:45:14,619 | INFO | Process-118 | Number of clauses: 2596814
+2026-01-17 23:45:14,619 | INFO | Process-118 | Real nums of clauses: 2600615
+2026-01-17 23:45:14,619 | INFO | Process-118 | Real nums of variables: 447552
+2026-01-17 23:45:16,009 | INFO | Process-118 | CNF written to cnf/v2\T_n592_k378\T_n592_k378_w70.cnf
+2026-01-17 23:45:16,009 | ERROR | Process-118 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 23:46:25,092 | RESULT | Process-118 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 23:46:25,251 | INFO | MainProcess | Found a solution 70
+2026-01-17 23:46:25,251 | INFO | MainProcess | [Test k=378, w=70] Time: 73.85 seconds
+2026-01-17 23:46:25,306 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 23:46:25,809 | INFO | Process-119 | Number of clauses before symmetry breaking: 1
+2026-01-17 23:46:25,809 | INFO | Process-119 | Number of clauses after symmetry breaking: 189
+2026-01-17 23:46:28,495 | INFO | Process-119 | Number of variables: 447553
+2026-01-17 23:46:28,495 | INFO | Process-119 | Number of clauses: 2596822
+2026-01-17 23:46:28,495 | INFO | Process-119 | Real nums of clauses: 2600615
+2026-01-17 23:46:28,495 | INFO | Process-119 | Real nums of variables: 447552
+2026-01-17 23:46:29,869 | INFO | Process-119 | CNF written to cnf/v2\T_n592_k378\T_n592_k378_w71.cnf
+2026-01-17 23:46:29,870 | ERROR | Process-119 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-17 23:51:18,567 | RESULT | Process-119 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-17 23:51:18,756 | INFO | MainProcess | Found a solution 71
+2026-01-17 23:51:18,756 | INFO | MainProcess | [Test k=378, w=71] Time: 293.45 seconds
+2026-01-17 23:51:18,822 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-17 23:51:19,367 | INFO | Process-120 | Number of clauses before symmetry breaking: 1
+2026-01-17 23:51:19,367 | INFO | Process-120 | Number of clauses after symmetry breaking: 189
+2026-01-17 23:51:22,462 | INFO | Process-120 | Number of variables: 447553
+2026-01-17 23:51:22,463 | INFO | Process-120 | Number of clauses: 2596830
+2026-01-17 23:51:22,463 | INFO | Process-120 | Real nums of clauses: 2600615
+2026-01-17 23:51:22,463 | INFO | Process-120 | Real nums of variables: 447552
+2026-01-17 23:51:23,863 | INFO | Process-120 | CNF written to cnf/v2\T_n592_k378\T_n592_k378_w72.cnf
+2026-01-17 23:51:23,863 | ERROR | Process-120 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 00:03:35,769 | RESULT | Process-120 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 00:03:36,003 | INFO | MainProcess | Found a solution 72
+2026-01-18 00:03:36,003 | INFO | MainProcess | [Test k=378, w=72] Time: 737.18 seconds
+2026-01-18 00:03:36,064 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-18 00:03:36,535 | INFO | Process-121 | Number of clauses before symmetry breaking: 1
+2026-01-18 00:03:36,535 | INFO | Process-121 | Number of clauses after symmetry breaking: 189
+2026-01-18 00:03:39,776 | INFO | Process-121 | Number of variables: 447553
+2026-01-18 00:03:39,777 | INFO | Process-121 | Number of clauses: 2596838
+2026-01-18 00:03:39,777 | INFO | Process-121 | Real nums of clauses: 2600615
+2026-01-18 00:03:39,777 | INFO | Process-121 | Real nums of variables: 447552
+2026-01-18 00:03:41,255 | INFO | Process-121 | CNF written to cnf/v2\T_n592_k378\T_n592_k378_w73.cnf
+2026-01-18 00:03:41,255 | ERROR | Process-121 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 00:04:39,166 | INFO | MainProcess | No solution found 73
+2026-01-18 00:04:39,167 | INFO | MainProcess | [Test k=378, w=73] Time: 63.1 seconds
+2026-01-18 00:04:39,220 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-18 00:04:39,221 | INFO | MainProcess | $$$$
+2026-01-18 00:04:39,221 | INFO | MainProcess | -72
+2026-01-18 00:04:39,221 | INFO | MainProcess | $$$$
+2026-01-18 00:04:39,221 | INFO | MainProcess | Time taken for T-dwt__592.mtx.rnd with k = 378: 1800.162071943283 seconds
+2026-01-18 00:04:39,221 | INFO | MainProcess | Maximum width before timeout for T-dwt__592.mtx.rnd is 72
+2026-01-18 00:04:39,221 | INFO | MainProcess | time out
+2026-01-18 00:04:39,731 | INFO | Process-122 | Number of clauses before symmetry breaking: 1
+2026-01-18 00:04:39,732 | INFO | Process-122 | Number of clauses after symmetry breaking: 258
+2026-01-18 00:04:42,240 | INFO | Process-122 | Number of variables: 683185
+2026-01-18 00:04:42,240 | INFO | Process-122 | Number of clauses: 2296760
+2026-01-18 00:04:42,240 | INFO | Process-122 | Real nums of clauses: 2301472
+2026-01-18 00:04:42,240 | INFO | Process-122 | Real nums of variables: 683184
+2026-01-18 00:04:43,544 | INFO | Process-122 | CNF written to cnf/v2\U_n662_k516\U_n662_k516_w170.cnf
+2026-01-18 00:04:43,544 | ERROR | Process-122 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 00:08:27,685 | RESULT | Process-122 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 00:08:27,889 | INFO | MainProcess | Found a solution 170
+2026-01-18 00:08:27,889 | INFO | MainProcess | [Test k=516, w=170] Time: 228.66 seconds
+2026-01-18 00:08:27,968 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-18 00:08:28,545 | INFO | Process-123 | Number of clauses before symmetry breaking: 1
+2026-01-18 00:08:28,545 | INFO | Process-123 | Number of clauses after symmetry breaking: 258
+2026-01-18 00:08:30,911 | INFO | Process-123 | Number of variables: 683185
+2026-01-18 00:08:30,911 | INFO | Process-123 | Number of clauses: 2296733
+2026-01-18 00:08:30,911 | INFO | Process-123 | Real nums of clauses: 2301472
+2026-01-18 00:08:30,911 | INFO | Process-123 | Real nums of variables: 683184
+2026-01-18 00:08:32,148 | INFO | Process-123 | CNF written to cnf/v2\U_n662_k516\U_n662_k516_w171.cnf
+2026-01-18 00:08:32,149 | ERROR | Process-123 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 00:13:37,982 | RESULT | Process-123 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 00:13:38,253 | INFO | MainProcess | Found a solution 171
+2026-01-18 00:13:38,253 | INFO | MainProcess | [Test k=516, w=171] Time: 310.28 seconds
+2026-01-18 00:13:38,337 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-18 00:13:39,099 | INFO | Process-124 | Number of clauses before symmetry breaking: 1
+2026-01-18 00:13:39,100 | INFO | Process-124 | Number of clauses after symmetry breaking: 258
+2026-01-18 00:13:42,051 | INFO | Process-124 | Number of variables: 683185
+2026-01-18 00:13:42,051 | INFO | Process-124 | Number of clauses: 2296706
+2026-01-18 00:13:42,051 | INFO | Process-124 | Real nums of clauses: 2301472
+2026-01-18 00:13:42,051 | INFO | Process-124 | Real nums of variables: 683184
+2026-01-18 00:13:43,362 | INFO | Process-124 | CNF written to cnf/v2\U_n662_k516\U_n662_k516_w172.cnf
+2026-01-18 00:13:43,362 | ERROR | Process-124 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 00:13:43,557 | RESULT | Process-124 | No solution exists
+2026-01-18 00:13:43,557 | RESULT | Process-124 | Time taken: 4.4832587242126465 seconds
+2026-01-18 00:13:43,748 | INFO | MainProcess | No solution found 172
+2026-01-18 00:13:43,748 | INFO | MainProcess | [Test k=516, w=172] Time: 5.41 seconds
+2026-01-18 00:13:43,805 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-18 00:13:43,805 | INFO | MainProcess | $$$$
+2026-01-18 00:13:43,805 | INFO | MainProcess | 171
+2026-01-18 00:13:43,805 | INFO | MainProcess | $$$$
+2026-01-18 00:13:43,805 | INFO | MainProcess | Time taken for U-662_bus.mtx.rnd with k = 516: 544.584751367569 seconds
+2026-01-18 00:13:43,805 | INFO | MainProcess | Maximum width for U-662_bus.mtx.rnd is 171
+2026-01-18 00:13:44,344 | INFO | Process-125 | Number of clauses before symmetry breaking: 1
+2026-01-18 00:13:44,345 | INFO | Process-125 | Number of clauses after symmetry breaking: 202
+2026-01-18 00:13:46,805 | INFO | Process-125 | Number of variables: 546751
+2026-01-18 00:13:46,805 | INFO | Process-125 | Number of clauses: 2133416
+2026-01-18 00:13:46,805 | INFO | Process-125 | Real nums of clauses: 2138332
+2026-01-18 00:13:46,805 | INFO | Process-125 | Real nums of variables: 546750
+2026-01-18 00:13:48,066 | INFO | Process-125 | CNF written to cnf/v2\V_n675_k405\V_n675_k405_w195.cnf
+2026-01-18 00:13:48,066 | ERROR | Process-125 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 00:29:26,790 | RESULT | Process-125 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 00:29:26,963 | INFO | MainProcess | Found a solution 195
+2026-01-18 00:29:26,963 | INFO | MainProcess | [Test k=405, w=195] Time: 943.15 seconds
+2026-01-18 00:29:27,015 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-18 00:29:27,512 | INFO | Process-126 | Number of clauses before symmetry breaking: 1
+2026-01-18 00:29:27,514 | INFO | Process-126 | Number of clauses after symmetry breaking: 202
+2026-01-18 00:29:29,933 | INFO | Process-126 | Number of variables: 546751
+2026-01-18 00:29:29,933 | INFO | Process-126 | Number of clauses: 2133392
+2026-01-18 00:29:29,933 | INFO | Process-126 | Real nums of clauses: 2138332
+2026-01-18 00:29:29,933 | INFO | Process-126 | Real nums of variables: 546750
+2026-01-18 00:29:31,105 | INFO | Process-126 | CNF written to cnf/v2\V_n675_k405\V_n675_k405_w196.cnf
+2026-01-18 00:29:31,106 | ERROR | Process-126 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 00:43:43,905 | INFO | MainProcess | No solution found 196
+2026-01-18 00:43:43,905 | INFO | MainProcess | [Test k=405, w=196] Time: 856.89 seconds
+2026-01-18 00:43:43,945 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-18 00:43:43,945 | INFO | MainProcess | $$$$
+2026-01-18 00:43:43,945 | INFO | MainProcess | -195
+2026-01-18 00:43:43,945 | INFO | MainProcess | $$$$
+2026-01-18 00:43:43,945 | INFO | MainProcess | Time taken for V-nos6.mtx.rnd with k = 405: 1800.1392176151276 seconds
+2026-01-18 00:43:43,945 | INFO | MainProcess | Maximum width before timeout for V-nos6.mtx.rnd is 195
+2026-01-18 00:43:43,945 | INFO | MainProcess | time out
+2026-01-18 00:43:44,582 | INFO | Process-127 | Number of clauses before symmetry breaking: 1
+2026-01-18 00:43:44,582 | INFO | Process-127 | Number of clauses after symmetry breaking: 198
+2026-01-18 00:43:46,960 | INFO | Process-127 | Number of variables: 543891
+2026-01-18 00:43:46,960 | INFO | Process-127 | Number of clauses: 2101905
+2026-01-18 00:43:46,960 | INFO | Process-127 | Real nums of clauses: 2105598
+2026-01-18 00:43:46,960 | INFO | Process-127 | Real nums of variables: 543890
+2026-01-18 00:43:48,072 | INFO | Process-127 | CNF written to cnf/v2\W_n685_k397\W_n685_k397_w78.cnf
+2026-01-18 00:43:48,072 | ERROR | Process-127 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 00:44:51,318 | RESULT | Process-127 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 00:44:51,479 | INFO | MainProcess | Found a solution 78
+2026-01-18 00:44:51,479 | INFO | MainProcess | [Test k=397, w=78] Time: 67.52 seconds
+2026-01-18 00:44:51,513 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-18 00:44:51,999 | INFO | Process-128 | Number of clauses before symmetry breaking: 1
+2026-01-18 00:44:52,000 | INFO | Process-128 | Number of clauses after symmetry breaking: 198
+2026-01-18 00:44:54,150 | INFO | Process-128 | Number of variables: 543891
+2026-01-18 00:44:54,150 | INFO | Process-128 | Number of clauses: 2101912
+2026-01-18 00:44:54,150 | INFO | Process-128 | Real nums of clauses: 2105598
+2026-01-18 00:44:54,150 | INFO | Process-128 | Real nums of variables: 543890
+2026-01-18 00:44:55,205 | INFO | Process-128 | CNF written to cnf/v2\W_n685_k397\W_n685_k397_w79.cnf
+2026-01-18 00:44:55,205 | ERROR | Process-128 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 00:45:22,315 | RESULT | Process-128 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 00:45:22,468 | INFO | MainProcess | Found a solution 79
+2026-01-18 00:45:22,468 | INFO | MainProcess | [Test k=397, w=79] Time: 30.96 seconds
+2026-01-18 00:45:22,507 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-18 00:45:22,964 | INFO | Process-129 | Number of clauses before symmetry breaking: 1
+2026-01-18 00:45:22,964 | INFO | Process-129 | Number of clauses after symmetry breaking: 198
+2026-01-18 00:45:25,239 | INFO | Process-129 | Number of variables: 543891
+2026-01-18 00:45:25,240 | INFO | Process-129 | Number of clauses: 2101919
+2026-01-18 00:45:25,240 | INFO | Process-129 | Real nums of clauses: 2105598
+2026-01-18 00:45:25,240 | INFO | Process-129 | Real nums of variables: 543890
+2026-01-18 00:45:26,315 | INFO | Process-129 | CNF written to cnf/v2\W_n685_k397\W_n685_k397_w80.cnf
+2026-01-18 00:45:26,315 | ERROR | Process-129 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 00:45:27,098 | RESULT | Process-129 | No solution exists
+2026-01-18 00:45:27,098 | RESULT | Process-129 | Time taken: 4.1484456062316895 seconds
+2026-01-18 00:45:27,243 | INFO | MainProcess | No solution found 80
+2026-01-18 00:45:27,243 | INFO | MainProcess | [Test k=397, w=80] Time: 4.74 seconds
+2026-01-18 00:45:27,280 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-18 00:45:27,280 | INFO | MainProcess | $$$$
+2026-01-18 00:45:27,280 | INFO | MainProcess | 79
+2026-01-18 00:45:27,280 | INFO | MainProcess | $$$$
+2026-01-18 00:45:27,280 | INFO | MainProcess | Time taken for W-685_bus.mtx.rnd with k = 397: 103.33548426628113 seconds
+2026-01-18 00:45:27,280 | INFO | MainProcess | Maximum width for W-685_bus.mtx.rnd is 79
+2026-01-18 00:45:27,754 | INFO | Process-130 | Number of clauses before symmetry breaking: 1
+2026-01-18 00:45:27,754 | INFO | Process-130 | Number of clauses after symmetry breaking: 250
+2026-01-18 00:45:32,575 | INFO | Process-130 | Number of variables: 715001
+2026-01-18 00:45:32,575 | INFO | Process-130 | Number of clauses: 4399955
+2026-01-18 00:45:32,575 | INFO | Process-130 | Real nums of clauses: 4405035
+2026-01-18 00:45:32,575 | INFO | Process-130 | Real nums of variables: 715000
+2026-01-18 00:45:35,120 | INFO | Process-130 | CNF written to cnf/v2\X_n715_k500\X_n715_k500_w78.cnf
+2026-01-18 00:45:35,120 | ERROR | Process-130 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 00:54:00,487 | RESULT | Process-130 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 00:54:00,918 | INFO | MainProcess | Found a solution 78
+2026-01-18 00:54:00,919 | INFO | MainProcess | [Test k=500, w=78] Time: 513.63 seconds
+2026-01-18 00:54:00,958 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-18 00:54:01,478 | INFO | Process-131 | Number of clauses before symmetry breaking: 1
+2026-01-18 00:54:01,479 | INFO | Process-131 | Number of clauses after symmetry breaking: 250
+2026-01-18 00:54:06,141 | INFO | Process-131 | Number of variables: 715001
+2026-01-18 00:54:06,141 | INFO | Process-131 | Number of clauses: 4399963
+2026-01-18 00:54:06,141 | INFO | Process-131 | Real nums of clauses: 4405035
+2026-01-18 00:54:06,141 | INFO | Process-131 | Real nums of variables: 715000
+2026-01-18 00:54:08,651 | INFO | Process-131 | CNF written to cnf/v2\X_n715_k500\X_n715_k500_w79.cnf
+2026-01-18 00:54:08,652 | ERROR | Process-131 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 01:15:27,868 | INFO | MainProcess | No solution found 79
+2026-01-18 01:15:27,868 | INFO | MainProcess | [Test k=500, w=79] Time: 1286.91 seconds
+2026-01-18 01:15:27,904 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_Symmetry.xlsx
+2026-01-18 01:15:27,905 | INFO | MainProcess | $$$$
+2026-01-18 01:15:27,905 | INFO | MainProcess | -78
+2026-01-18 01:15:27,905 | INFO | MainProcess | $$$$
+2026-01-18 01:15:27,905 | INFO | MainProcess | Time taken for X-can__715.mtx.rnd with k = 500: 1800.6244459152222 seconds
+2026-01-18 01:15:27,905 | INFO | MainProcess | Maximum width before timeout for X-can__715.mtx.rnd is 78
+2026-01-18 01:15:27,905 | INFO | MainProcess | time out

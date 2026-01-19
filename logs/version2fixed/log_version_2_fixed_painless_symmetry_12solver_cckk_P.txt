@@ -1,0 +1,100 @@
+2026-01-09 14:08:40,094 | INFO | MainProcess | === Start solve() ===
+2026-01-09 14:08:40,156 | INFO | Process-1 | Number of clauses before symmetry breaking: 1
+2026-01-09 14:08:40,157 | INFO | Process-1 | Number of clauses after symmetry breaking: 166
+2026-01-09 14:08:47,633 | INFO | Process-1 | Number of variables: 444112
+2026-01-09 14:08:47,640 | INFO | Process-1 | Number of clauses: 2152334
+2026-01-09 14:08:47,640 | INFO | Process-1 | Real nums of clauses: 2155781
+2026-01-09 14:08:47,641 | INFO | Process-1 | Real nums of variables: 444110
+2026-01-09 14:08:50,748 | INFO | Process-1 | CNF written to cnf/v2/P_n445_k333/P_n445_k333_w58.cnf
+2026-01-09 14:08:50,749 | INFO | Process-1 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=ck cnf/v2/P_n445_k333/P_n445_k333_w58.cnf
+2026-01-09 14:10:31,657 | INFO | Process-1 | [PAINLESS] status=SAT rc=10 time=100.91s
+2026-01-09 14:10:31,658 | RESULT | Process-1 | [PAINLESS] result: status=SAT time=100.91s rc=10
+2026-01-09 14:10:31,837 | RESULT | Process-1 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-09 14:10:32,882 | INFO | MainProcess | Found a solution 58
+2026-01-09 14:10:32,882 | INFO | MainProcess | [Test k=333, w=58] Time: 112.78 seconds
+2026-01-09 14:10:32,907 | INFO | Process-2 | Number of clauses before symmetry breaking: 1
+2026-01-09 14:10:32,917 | INFO | Process-2 | Number of clauses after symmetry breaking: 166
+2026-01-09 14:10:41,014 | INFO | Process-2 | Number of variables: 444112
+2026-01-09 14:10:41,015 | INFO | Process-2 | Number of clauses: 2152343
+2026-01-09 14:10:41,015 | INFO | Process-2 | Real nums of clauses: 2155781
+2026-01-09 14:10:41,015 | INFO | Process-2 | Real nums of variables: 444110
+2026-01-09 14:10:44,234 | INFO | Process-2 | CNF written to cnf/v2/P_n445_k333/P_n445_k333_w59.cnf
+2026-01-09 14:10:44,235 | INFO | Process-2 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=ck cnf/v2/P_n445_k333/P_n445_k333_w59.cnf
+2026-01-09 14:12:49,210 | INFO | Process-2 | [PAINLESS] status=SAT rc=10 time=124.97s
+2026-01-09 14:12:49,210 | RESULT | Process-2 | [PAINLESS] result: status=SAT time=124.97s rc=10
+2026-01-09 14:12:49,388 | RESULT | Process-2 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-09 14:12:50,374 | INFO | MainProcess | Found a solution 59
+2026-01-09 14:12:50,374 | INFO | MainProcess | [Test k=333, w=59] Time: 137.49 seconds
+2026-01-09 14:12:50,411 | INFO | Process-3 | Number of clauses before symmetry breaking: 1
+2026-01-09 14:12:50,417 | INFO | Process-3 | Number of clauses after symmetry breaking: 166
+2026-01-09 14:12:57,954 | INFO | Process-3 | Number of variables: 444112
+2026-01-09 14:12:57,957 | INFO | Process-3 | Number of clauses: 2152352
+2026-01-09 14:12:57,957 | INFO | Process-3 | Real nums of clauses: 2155781
+2026-01-09 14:12:57,958 | INFO | Process-3 | Real nums of variables: 444110
+2026-01-09 14:13:01,104 | INFO | Process-3 | CNF written to cnf/v2/P_n445_k333/P_n445_k333_w60.cnf
+2026-01-09 14:13:01,105 | INFO | Process-3 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=ck cnf/v2/P_n445_k333/P_n445_k333_w60.cnf
+2026-01-09 14:13:59,480 | INFO | Process-3 | [PAINLESS] status=SAT rc=10 time=58.37s
+2026-01-09 14:13:59,481 | RESULT | Process-3 | [PAINLESS] result: status=SAT time=58.37s rc=10
+2026-01-09 14:13:59,618 | RESULT | Process-3 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-09 14:14:00,318 | INFO | MainProcess | Found a solution 60
+2026-01-09 14:14:00,324 | INFO | MainProcess | [Test k=333, w=60] Time: 69.94 seconds
+2026-01-09 14:14:00,346 | INFO | Process-4 | Number of clauses before symmetry breaking: 1
+2026-01-09 14:14:00,352 | INFO | Process-4 | Number of clauses after symmetry breaking: 166
+2026-01-09 14:14:06,406 | INFO | Process-4 | Number of variables: 444112
+2026-01-09 14:14:06,412 | INFO | Process-4 | Number of clauses: 2152361
+2026-01-09 14:14:06,412 | INFO | Process-4 | Real nums of clauses: 2155781
+2026-01-09 14:14:06,412 | INFO | Process-4 | Real nums of variables: 444110
+2026-01-09 14:14:09,581 | INFO | Process-4 | CNF written to cnf/v2/P_n445_k333/P_n445_k333_w61.cnf
+2026-01-09 14:14:09,582 | INFO | Process-4 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=ck cnf/v2/P_n445_k333/P_n445_k333_w61.cnf
+2026-01-09 14:15:14,546 | INFO | Process-4 | [PAINLESS] status=SAT rc=10 time=64.96s
+2026-01-09 14:15:14,552 | RESULT | Process-4 | [PAINLESS] result: status=SAT time=64.96s rc=10
+2026-01-09 14:15:14,707 | RESULT | Process-4 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-09 14:15:15,595 | INFO | MainProcess | Found a solution 61
+2026-01-09 14:15:15,595 | INFO | MainProcess | [Test k=333, w=61] Time: 75.27 seconds
+2026-01-09 14:15:15,628 | INFO | Process-5 | Number of clauses before symmetry breaking: 1
+2026-01-09 14:15:15,633 | INFO | Process-5 | Number of clauses after symmetry breaking: 166
+2026-01-09 14:15:21,751 | INFO | Process-5 | Number of variables: 444112
+2026-01-09 14:15:21,756 | INFO | Process-5 | Number of clauses: 2152370
+2026-01-09 14:15:21,757 | INFO | Process-5 | Real nums of clauses: 2155781
+2026-01-09 14:15:21,757 | INFO | Process-5 | Real nums of variables: 444110
+2026-01-09 14:15:24,824 | INFO | Process-5 | CNF written to cnf/v2/P_n445_k333/P_n445_k333_w62.cnf
+2026-01-09 14:15:24,829 | INFO | Process-5 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=ck cnf/v2/P_n445_k333/P_n445_k333_w62.cnf
+2026-01-09 14:19:38,624 | INFO | Process-5 | [PAINLESS] status=SAT rc=10 time=253.80s
+2026-01-09 14:19:38,629 | RESULT | Process-5 | [PAINLESS] result: status=SAT time=253.80s rc=10
+2026-01-09 14:19:38,828 | RESULT | Process-5 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-09 14:19:39,806 | INFO | MainProcess | Found a solution 62
+2026-01-09 14:19:39,817 | INFO | MainProcess | [Test k=333, w=62] Time: 264.21 seconds
+2026-01-09 14:19:39,867 | INFO | Process-6 | Number of clauses before symmetry breaking: 1
+2026-01-09 14:19:39,868 | INFO | Process-6 | Number of clauses after symmetry breaking: 166
+2026-01-09 14:19:48,498 | INFO | Process-6 | Number of variables: 444112
+2026-01-09 14:19:48,498 | INFO | Process-6 | Number of clauses: 2152379
+2026-01-09 14:19:48,499 | INFO | Process-6 | Real nums of clauses: 2155781
+2026-01-09 14:19:48,499 | INFO | Process-6 | Real nums of variables: 444110
+2026-01-09 14:19:52,347 | INFO | Process-6 | CNF written to cnf/v2/P_n445_k333/P_n445_k333_w63.cnf
+2026-01-09 14:19:52,348 | INFO | Process-6 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=ck cnf/v2/P_n445_k333/P_n445_k333_w63.cnf
+2026-01-09 14:21:41,704 | INFO | Process-6 | [PAINLESS] status=SAT rc=10 time=109.36s
+2026-01-09 14:21:41,713 | RESULT | Process-6 | [PAINLESS] result: status=SAT time=109.36s rc=10
+2026-01-09 14:21:41,866 | RESULT | Process-6 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-09 14:21:42,753 | INFO | MainProcess | Found a solution 63
+2026-01-09 14:21:42,754 | INFO | MainProcess | [Test k=333, w=63] Time: 122.93 seconds
+2026-01-09 14:21:42,787 | INFO | Process-7 | Number of clauses before symmetry breaking: 1
+2026-01-09 14:21:42,788 | INFO | Process-7 | Number of clauses after symmetry breaking: 166
+2026-01-09 14:21:49,396 | INFO | Process-7 | Number of variables: 444112
+2026-01-09 14:21:49,400 | INFO | Process-7 | Number of clauses: 2152388
+2026-01-09 14:21:49,401 | INFO | Process-7 | Real nums of clauses: 2155781
+2026-01-09 14:21:49,401 | INFO | Process-7 | Real nums of variables: 444110
+2026-01-09 14:21:52,529 | INFO | Process-7 | CNF written to cnf/v2/P_n445_k333/P_n445_k333_w64.cnf
+2026-01-09 14:21:52,530 | INFO | Process-7 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=ck cnf/v2/P_n445_k333/P_n445_k333_w64.cnf
+2026-01-09 14:25:37,588 | INFO | Process-7 | [PAINLESS] status=SAT rc=10 time=225.06s
+2026-01-09 14:25:37,589 | RESULT | Process-7 | [PAINLESS] result: status=SAT time=225.06s rc=10
+2026-01-09 14:25:37,750 | RESULT | Process-7 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-09 14:25:38,887 | INFO | MainProcess | Found a solution 64
+2026-01-09 14:25:38,887 | INFO | MainProcess | [Test k=333, w=64] Time: 236.13 seconds
+2026-01-09 14:25:38,932 | INFO | Process-8 | Number of clauses before symmetry breaking: 1
+2026-01-09 14:25:38,935 | INFO | Process-8 | Number of clauses after symmetry breaking: 166
+2026-01-09 14:25:45,778 | INFO | Process-8 | Number of variables: 444112
+2026-01-09 14:25:45,782 | INFO | Process-8 | Number of clauses: 2152397
+2026-01-09 14:25:45,783 | INFO | Process-8 | Real nums of clauses: 2155781
+2026-01-09 14:25:45,783 | INFO | Process-8 | Real nums of variables: 444110
+2026-01-09 14:25:48,892 | INFO | Process-8 | CNF written to cnf/v2/P_n445_k333/P_n445_k333_w65.cnf
+2026-01-09 14:25:48,893 | INFO | Process-8 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=ck cnf/v2/P_n445_k333/P_n445_k333_w65.cnf

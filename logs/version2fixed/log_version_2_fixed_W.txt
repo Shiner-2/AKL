@@ -1,0 +1,49 @@
+2026-01-17 12:40:35,532 | INFO | MainProcess | === Start solve() ===
+2026-01-17 12:40:35,562 | INFO | Process-1 | Number of clauses before symmetry breaking: 1
+2026-01-17 12:40:35,562 | INFO | Process-1 | Number of clauses after symmetry breaking: 198
+2026-01-17 12:40:37,245 | INFO | Process-1 | Number of variables: 543891
+2026-01-17 12:40:37,245 | INFO | Process-1 | Number of clauses: 2101905
+2026-01-17 12:40:37,245 | INFO | Process-1 | Real nums of clauses: 2105598
+2026-01-17 12:40:37,246 | INFO | Process-1 | Real nums of variables: 543890
+2026-01-17 12:40:38,287 | INFO | Process-1 | CNF written to cnf/v2/W_n685_k397/W_n685_k397_w78.cnf
+2026-01-17 12:40:38,294 | INFO | Process-1 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/W_n685_k397/W_n685_k397_w78.cnf
+2026-01-17 12:40:41,568 | INFO | Process-1 | [PAINLESS] status=SAT rc=10 time=3.27s
+2026-01-17 12:40:41,568 | RESULT | Process-1 | [PAINLESS] result: status=SAT time=3.27s rc=10
+2026-01-17 12:40:41,619 | RESULT | Process-1 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-17 12:40:41,736 | INFO | MainProcess | Found a solution 78
+2026-01-17 12:40:41,737 | INFO | MainProcess | [Test k=397, w=78] Time: 6.19 seconds
+2026-01-17 12:40:42,505 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_W.xlsx
+2026-01-17 12:40:42,517 | INFO | Process-2 | Number of clauses before symmetry breaking: 1
+2026-01-17 12:40:42,518 | INFO | Process-2 | Number of clauses after symmetry breaking: 198
+2026-01-17 12:40:44,239 | INFO | Process-2 | Number of variables: 543891
+2026-01-17 12:40:44,239 | INFO | Process-2 | Number of clauses: 2101912
+2026-01-17 12:40:44,239 | INFO | Process-2 | Real nums of clauses: 2105598
+2026-01-17 12:40:44,240 | INFO | Process-2 | Real nums of variables: 543890
+2026-01-17 12:40:45,261 | INFO | Process-2 | CNF written to cnf/v2/W_n685_k397/W_n685_k397_w79.cnf
+2026-01-17 12:40:45,265 | INFO | Process-2 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/W_n685_k397/W_n685_k397_w79.cnf
+2026-01-17 12:40:48,531 | INFO | Process-2 | [PAINLESS] status=SAT rc=10 time=3.27s
+2026-01-17 12:40:48,531 | RESULT | Process-2 | [PAINLESS] result: status=SAT time=3.27s rc=10
+2026-01-17 12:40:48,581 | RESULT | Process-2 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-17 12:40:48,693 | INFO | MainProcess | Found a solution 79
+2026-01-17 12:40:48,694 | INFO | MainProcess | [Test k=397, w=79] Time: 6.19 seconds
+2026-01-17 12:40:48,721 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_W.xlsx
+2026-01-17 12:40:48,732 | INFO | Process-3 | Number of clauses before symmetry breaking: 1
+2026-01-17 12:40:48,734 | INFO | Process-3 | Number of clauses after symmetry breaking: 198
+2026-01-17 12:40:50,319 | INFO | Process-3 | Number of variables: 543891
+2026-01-17 12:40:50,319 | INFO | Process-3 | Number of clauses: 2101919
+2026-01-17 12:40:50,320 | INFO | Process-3 | Real nums of clauses: 2105598
+2026-01-17 12:40:50,320 | INFO | Process-3 | Real nums of variables: 543890
+2026-01-17 12:40:51,384 | INFO | Process-3 | CNF written to cnf/v2/W_n685_k397/W_n685_k397_w80.cnf
+2026-01-17 12:40:51,388 | INFO | Process-3 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/W_n685_k397/W_n685_k397_w80.cnf
+2026-01-17 12:40:53,487 | INFO | Process-3 | [PAINLESS] status=UNSAT rc=20 time=2.10s
+2026-01-17 12:40:53,487 | RESULT | Process-3 | [PAINLESS] result: status=UNSAT time=2.10s rc=20
+2026-01-17 12:40:53,488 | RESULT | Process-3 | [PAINLESS] Shortcut: UNSAT at width=80
+2026-01-17 12:40:53,488 | RESULT | Process-3 | Time taken: 4.76505970954895 seconds
+2026-01-17 12:40:53,604 | INFO | MainProcess | No solution found 80
+2026-01-17 12:40:53,605 | INFO | MainProcess | [Test k=397, w=80] Time: 4.88 seconds
+2026-01-17 12:40:53,622 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_W.xlsx
+2026-01-17 12:40:53,622 | INFO | MainProcess | $$$$
+2026-01-17 12:40:53,622 | INFO | MainProcess | 79
+2026-01-17 12:40:53,622 | INFO | MainProcess | $$$$
+2026-01-17 12:40:53,622 | INFO | MainProcess | Time taken for W-685_bus.mtx.rnd with k = 397: 18.08890390396118 seconds
+2026-01-17 12:40:53,622 | INFO | MainProcess | Maximum width for W-685_bus.mtx.rnd is 79

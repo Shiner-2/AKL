@@ -1,0 +1,49 @@
+2026-01-17 12:38:29,860 | INFO | MainProcess | === Start solve() ===
+2026-01-17 12:38:29,889 | INFO | Process-1 | Number of clauses before symmetry breaking: 1
+2026-01-17 12:38:29,889 | INFO | Process-1 | Number of clauses after symmetry breaking: 258
+2026-01-17 12:38:31,645 | INFO | Process-1 | Number of variables: 683185
+2026-01-17 12:38:31,646 | INFO | Process-1 | Number of clauses: 2296760
+2026-01-17 12:38:31,646 | INFO | Process-1 | Real nums of clauses: 2301472
+2026-01-17 12:38:31,646 | INFO | Process-1 | Real nums of variables: 683184
+2026-01-17 12:38:32,714 | INFO | Process-1 | CNF written to cnf/v2/U_n662_k516/U_n662_k516_w170.cnf
+2026-01-17 12:38:32,720 | INFO | Process-1 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=ck cnf/v2/U_n662_k516/U_n662_k516_w170.cnf
+2026-01-17 12:39:00,249 | INFO | Process-1 | [PAINLESS] status=SAT rc=10 time=27.53s
+2026-01-17 12:39:00,249 | RESULT | Process-1 | [PAINLESS] result: status=SAT time=27.53s rc=10
+2026-01-17 12:39:00,316 | RESULT | Process-1 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-17 12:39:00,449 | INFO | MainProcess | Found a solution 170
+2026-01-17 12:39:00,449 | INFO | MainProcess | [Test k=516, w=170] Time: 30.58 seconds
+2026-01-17 12:39:01,998 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_U.xlsx
+2026-01-17 12:39:02,013 | INFO | Process-2 | Number of clauses before symmetry breaking: 1
+2026-01-17 12:39:02,014 | INFO | Process-2 | Number of clauses after symmetry breaking: 258
+2026-01-17 12:39:03,827 | INFO | Process-2 | Number of variables: 683185
+2026-01-17 12:39:03,827 | INFO | Process-2 | Number of clauses: 2296733
+2026-01-17 12:39:03,828 | INFO | Process-2 | Real nums of clauses: 2301472
+2026-01-17 12:39:03,828 | INFO | Process-2 | Real nums of variables: 683184
+2026-01-17 12:39:04,960 | INFO | Process-2 | CNF written to cnf/v2/U_n662_k516/U_n662_k516_w171.cnf
+2026-01-17 12:39:04,963 | INFO | Process-2 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=ck cnf/v2/U_n662_k516/U_n662_k516_w171.cnf
+2026-01-17 12:39:53,772 | INFO | Process-2 | [PAINLESS] status=SAT rc=10 time=48.81s
+2026-01-17 12:39:53,772 | RESULT | Process-2 | [PAINLESS] result: status=SAT time=48.81s rc=10
+2026-01-17 12:39:53,836 | RESULT | Process-2 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-17 12:39:53,954 | INFO | MainProcess | Found a solution 171
+2026-01-17 12:39:53,954 | INFO | MainProcess | [Test k=516, w=171] Time: 51.96 seconds
+2026-01-17 12:39:53,983 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_U.xlsx
+2026-01-17 12:39:53,996 | INFO | Process-3 | Number of clauses before symmetry breaking: 1
+2026-01-17 12:39:53,998 | INFO | Process-3 | Number of clauses after symmetry breaking: 258
+2026-01-17 12:39:55,704 | INFO | Process-3 | Number of variables: 683185
+2026-01-17 12:39:55,705 | INFO | Process-3 | Number of clauses: 2296706
+2026-01-17 12:39:55,705 | INFO | Process-3 | Real nums of clauses: 2301472
+2026-01-17 12:39:55,705 | INFO | Process-3 | Real nums of variables: 683184
+2026-01-17 12:39:56,873 | INFO | Process-3 | CNF written to cnf/v2/U_n662_k516/U_n662_k516_w172.cnf
+2026-01-17 12:39:56,878 | INFO | Process-3 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=ck cnf/v2/U_n662_k516/U_n662_k516_w172.cnf
+2026-01-17 12:39:59,253 | INFO | Process-3 | [PAINLESS] status=UNSAT rc=20 time=2.38s
+2026-01-17 12:39:59,253 | RESULT | Process-3 | [PAINLESS] result: status=UNSAT time=2.38s rc=20
+2026-01-17 12:39:59,253 | RESULT | Process-3 | [PAINLESS] Shortcut: UNSAT at width=172
+2026-01-17 12:39:59,254 | RESULT | Process-3 | Time taken: 5.268696546554565 seconds
+2026-01-17 12:39:59,384 | INFO | MainProcess | No solution found 172
+2026-01-17 12:39:59,384 | INFO | MainProcess | [Test k=516, w=172] Time: 5.4 seconds
+2026-01-17 12:39:59,405 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_U.xlsx
+2026-01-17 12:39:59,405 | INFO | MainProcess | $$$$
+2026-01-17 12:39:59,405 | INFO | MainProcess | 171
+2026-01-17 12:39:59,405 | INFO | MainProcess | $$$$
+2026-01-17 12:39:59,405 | INFO | MainProcess | Time taken for U-662_bus.mtx.rnd with k = 516: 89.54363751411438 seconds
+2026-01-17 12:39:59,405 | INFO | MainProcess | Maximum width for U-662_bus.mtx.rnd is 171

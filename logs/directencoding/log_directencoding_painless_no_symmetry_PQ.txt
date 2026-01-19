@@ -1,5 +1,27 @@
-2026-01-07 12:07:33,209 | INFO | MainProcess | === Start solve() ===
-2026-01-07 12:08:27,304 | INFO | Process-1 | Number of variables: 295927
-2026-01-07 12:08:27,304 | INFO | Process-1 | Number of clauses: 59295051
-2026-01-07 12:08:27,304 | INFO | Process-1 | Real nums of clauses: 59295052
-2026-01-07 12:08:27,304 | INFO | Process-1 | Real nums of variables: 295925
+2026-01-07 23:05:20,264 | INFO | MainProcess | === Start solve() ===
+2026-01-07 23:06:31,432 | INFO | Process-1 | Number of variables: 295927
+2026-01-07 23:06:31,432 | INFO | Process-1 | Number of clauses: 59295051
+2026-01-07 23:06:31,432 | INFO | Process-1 | Real nums of clauses: 59295052
+2026-01-07 23:06:31,432 | INFO | Process-1 | Real nums of variables: 295925
+2026-01-07 23:07:11,352 | INFO | Process-1 | CNF written to cnf/v2\P_n445_k333\P_n445_k333_w58.cnf
+2026-01-07 23:07:11,353 | ERROR | Process-1 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-07 23:25:12,828 | RESULT | Process-1 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-07 23:25:21,049 | INFO | MainProcess | Found a solution 58
+2026-01-07 23:25:21,050 | INFO | MainProcess | [Test k=333, w=58] Time: 1200.78 seconds
+2026-01-07 23:25:21,595 | INFO | MainProcess | Row appended to output/directencoding/output_directencoding_painless_no_symmetry_PQ.xlsx
+2026-01-07 23:26:43,206 | INFO | Process-2 | Number of variables: 295927
+2026-01-07 23:26:43,207 | INFO | Process-2 | Number of clauses: 60220151
+2026-01-07 23:26:43,207 | INFO | Process-2 | Real nums of clauses: 60220152
+2026-01-07 23:26:43,207 | INFO | Process-2 | Real nums of variables: 295925
+2026-01-07 23:27:23,783 | INFO | Process-2 | CNF written to cnf/v2\P_n445_k333\P_n445_k333_w59.cnf
+2026-01-07 23:27:23,783 | ERROR | Process-2 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-07 23:35:21,511 | INFO | MainProcess | No solution found 59
+2026-01-07 23:35:21,511 | INFO | MainProcess | [Test k=333, w=59] Time: 599.91 seconds
+2026-01-07 23:35:21,567 | INFO | MainProcess | Row appended to output/directencoding/output_directencoding_painless_no_symmetry_PQ.xlsx
+2026-01-07 23:35:21,604 | INFO | MainProcess | Row appended to output/directencoding/output_directencoding_painless_no_symmetry_PQ.xlsx
+2026-01-07 23:35:21,604 | INFO | MainProcess | $$$$
+2026-01-07 23:35:21,604 | INFO | MainProcess | -58
+2026-01-07 23:35:21,604 | INFO | MainProcess | $$$$
+2026-01-07 23:35:21,604 | INFO | MainProcess | Time taken for P-can__445.mtx.rnd with k = 333: 1801.3345167636871 seconds
+2026-01-07 23:35:21,604 | INFO | MainProcess | Maximum width before timeout for P-can__445.mtx.rnd is 58
+2026-01-07 23:35:21,605 | INFO | MainProcess | time out

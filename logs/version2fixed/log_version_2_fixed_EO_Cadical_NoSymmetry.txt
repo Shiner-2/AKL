@@ -1,0 +1,1379 @@
+2026-01-18 16:13:45,158 | INFO | MainProcess | === Start solve() ===
+2026-01-18 16:13:45,653 | INFO | Process-1 | Number of variables: 1381
+2026-01-18 16:13:45,653 | INFO | Process-1 | Number of clauses: 7461
+2026-01-18 16:13:45,653 | INFO | Process-1 | Real nums of clauses: 7492
+2026-01-18 16:13:45,653 | INFO | Process-1 | Real nums of variables: 1380
+2026-01-18 16:13:45,659 | INFO | Process-1 | CNF written to cnf/v2\A_n30_k23\A_n30_k23_w4.cnf
+2026-01-18 16:13:45,659 | ERROR | Process-1 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 16:13:45,660 | RESULT | Process-1 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 16:13:45,709 | INFO | MainProcess | Found a solution 4
+2026-01-18 16:13:45,709 | INFO | MainProcess | [Test k=23, w=4] Time: 0.54 seconds
+2026-01-18 16:13:46,033 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 16:13:46,493 | INFO | Process-2 | Number of variables: 1381
+2026-01-18 16:13:46,493 | INFO | Process-2 | Number of clauses: 7461
+2026-01-18 16:13:46,493 | INFO | Process-2 | Real nums of clauses: 7492
+2026-01-18 16:13:46,493 | INFO | Process-2 | Real nums of variables: 1380
+2026-01-18 16:13:46,498 | INFO | Process-2 | CNF written to cnf/v2\A_n30_k23\A_n30_k23_w5.cnf
+2026-01-18 16:13:46,498 | ERROR | Process-2 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 16:13:46,502 | RESULT | Process-2 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 16:13:46,546 | INFO | MainProcess | Found a solution 5
+2026-01-18 16:13:46,546 | INFO | MainProcess | [Test k=23, w=5] Time: 0.51 seconds
+2026-01-18 16:13:46,588 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 16:13:47,032 | INFO | Process-3 | Number of variables: 1381
+2026-01-18 16:13:47,032 | INFO | Process-3 | Number of clauses: 7461
+2026-01-18 16:13:47,032 | INFO | Process-3 | Real nums of clauses: 7492
+2026-01-18 16:13:47,033 | INFO | Process-3 | Real nums of variables: 1380
+2026-01-18 16:13:47,038 | INFO | Process-3 | CNF written to cnf/v2\A_n30_k23\A_n30_k23_w6.cnf
+2026-01-18 16:13:47,038 | ERROR | Process-3 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 16:13:47,045 | RESULT | Process-3 | No solution exists
+2026-01-18 16:13:47,045 | RESULT | Process-3 | Time taken: 0.018897294998168945 seconds
+2026-01-18 16:13:47,086 | INFO | MainProcess | No solution found 6
+2026-01-18 16:13:47,086 | INFO | MainProcess | [Test k=23, w=6] Time: 0.5 seconds
+2026-01-18 16:13:47,116 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 16:13:47,116 | INFO | MainProcess | $$$$
+2026-01-18 16:13:47,116 | INFO | MainProcess | 5
+2026-01-18 16:13:47,116 | INFO | MainProcess | $$$$
+2026-01-18 16:13:47,116 | INFO | MainProcess | Time taken for A-pores_1.mtx.rnd with k = 23: 1.9563539028167725 seconds
+2026-01-18 16:13:47,116 | INFO | MainProcess | Maximum width for A-pores_1.mtx.rnd is 5
+2026-01-18 16:13:47,565 | INFO | Process-4 | Number of variables: 1153
+2026-01-18 16:13:47,565 | INFO | Process-4 | Number of clauses: 5498
+2026-01-18 16:13:47,565 | INFO | Process-4 | Real nums of clauses: 5531
+2026-01-18 16:13:47,565 | INFO | Process-4 | Real nums of variables: 1152
+2026-01-18 16:13:47,569 | INFO | Process-4 | CNF written to cnf/v2\B_n32_k18\B_n32_k18_w5.cnf
+2026-01-18 16:13:47,569 | ERROR | Process-4 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 16:13:47,570 | RESULT | Process-4 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 16:13:47,613 | INFO | MainProcess | Found a solution 5
+2026-01-18 16:13:47,613 | INFO | MainProcess | [Test k=18, w=5] Time: 0.49 seconds
+2026-01-18 16:13:47,647 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 16:13:48,083 | INFO | Process-5 | Number of variables: 1153
+2026-01-18 16:13:48,083 | INFO | Process-5 | Number of clauses: 5498
+2026-01-18 16:13:48,083 | INFO | Process-5 | Real nums of clauses: 5531
+2026-01-18 16:13:48,083 | INFO | Process-5 | Real nums of variables: 1152
+2026-01-18 16:13:48,087 | INFO | Process-5 | CNF written to cnf/v2\B_n32_k18\B_n32_k18_w6.cnf
+2026-01-18 16:13:48,087 | ERROR | Process-5 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 16:13:48,089 | RESULT | Process-5 | No solution exists
+2026-01-18 16:13:48,089 | RESULT | Process-5 | Time taken: 0.01051187515258789 seconds
+2026-01-18 16:13:48,130 | INFO | MainProcess | No solution found 6
+2026-01-18 16:13:48,130 | INFO | MainProcess | [Test k=18, w=6] Time: 0.48 seconds
+2026-01-18 16:13:48,158 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 16:13:48,158 | INFO | MainProcess | $$$$
+2026-01-18 16:13:48,158 | INFO | MainProcess | 5
+2026-01-18 16:13:48,158 | INFO | MainProcess | $$$$
+2026-01-18 16:13:48,158 | INFO | MainProcess | Time taken for B-ibm32.mtx.rnd with k = 18: 1.0424518585205078 seconds
+2026-01-18 16:13:48,158 | INFO | MainProcess | Maximum width for B-ibm32.mtx.rnd is 5
+2026-01-18 16:13:48,607 | INFO | Process-6 | Number of variables: 1639
+2026-01-18 16:13:48,608 | INFO | Process-6 | Number of clauses: 5151
+2026-01-18 16:13:48,608 | INFO | Process-6 | Real nums of clauses: 5191
+2026-01-18 16:13:48,608 | INFO | Process-6 | Real nums of variables: 1638
+2026-01-18 16:13:48,612 | INFO | Process-6 | CNF written to cnf/v2\C_n39_k21\C_n39_k21_w8.cnf
+2026-01-18 16:13:48,612 | ERROR | Process-6 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 16:13:48,616 | RESULT | Process-6 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 16:13:48,654 | INFO | MainProcess | Found a solution 8
+2026-01-18 16:13:48,654 | INFO | MainProcess | [Test k=21, w=8] Time: 0.49 seconds
+2026-01-18 16:13:48,681 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 16:13:49,150 | INFO | Process-7 | Number of variables: 1639
+2026-01-18 16:13:49,150 | INFO | Process-7 | Number of clauses: 5151
+2026-01-18 16:13:49,150 | INFO | Process-7 | Real nums of clauses: 5191
+2026-01-18 16:13:49,150 | INFO | Process-7 | Real nums of variables: 1638
+2026-01-18 16:13:49,155 | INFO | Process-7 | CNF written to cnf/v2\C_n39_k21\C_n39_k21_w9.cnf
+2026-01-18 16:13:49,155 | ERROR | Process-7 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 16:13:49,158 | RESULT | Process-7 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 16:13:49,207 | INFO | MainProcess | Found a solution 9
+2026-01-18 16:13:49,207 | INFO | MainProcess | [Test k=21, w=9] Time: 0.53 seconds
+2026-01-18 16:13:49,243 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 16:13:49,729 | INFO | Process-8 | Number of variables: 1639
+2026-01-18 16:13:49,730 | INFO | Process-8 | Number of clauses: 5151
+2026-01-18 16:13:49,730 | INFO | Process-8 | Real nums of clauses: 5191
+2026-01-18 16:13:49,730 | INFO | Process-8 | Real nums of variables: 1638
+2026-01-18 16:13:49,734 | INFO | Process-8 | CNF written to cnf/v2\C_n39_k21\C_n39_k21_w10.cnf
+2026-01-18 16:13:49,734 | ERROR | Process-8 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 16:13:49,738 | RESULT | Process-8 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 16:13:49,779 | INFO | MainProcess | Found a solution 10
+2026-01-18 16:13:49,779 | INFO | MainProcess | [Test k=21, w=10] Time: 0.54 seconds
+2026-01-18 16:13:49,814 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 16:13:50,245 | INFO | Process-9 | Number of variables: 1639
+2026-01-18 16:13:50,245 | INFO | Process-9 | Number of clauses: 4779
+2026-01-18 16:13:50,245 | INFO | Process-9 | Real nums of clauses: 5283
+2026-01-18 16:13:50,245 | INFO | Process-9 | Real nums of variables: 1638
+2026-01-18 16:13:50,250 | INFO | Process-9 | CNF written to cnf/v2\C_n39_k21\C_n39_k21_w11.cnf
+2026-01-18 16:13:50,250 | ERROR | Process-9 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 16:13:50,250 | RESULT | Process-9 | No solution exists
+2026-01-18 16:13:50,250 | RESULT | Process-9 | Time taken: 0.008135795593261719 seconds
+2026-01-18 16:13:50,291 | INFO | MainProcess | No solution found 11
+2026-01-18 16:13:50,291 | INFO | MainProcess | [Test k=21, w=11] Time: 0.48 seconds
+2026-01-18 16:13:50,320 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 16:13:50,320 | INFO | MainProcess | $$$$
+2026-01-18 16:13:50,320 | INFO | MainProcess | 10
+2026-01-18 16:13:50,320 | INFO | MainProcess | $$$$
+2026-01-18 16:13:50,320 | INFO | MainProcess | Time taken for C-bcspwr01.mtx.rnd with k = 21: 2.162147283554077 seconds
+2026-01-18 16:13:50,320 | INFO | MainProcess | Maximum width for C-bcspwr01.mtx.rnd is 10
+2026-01-18 16:13:50,768 | INFO | Process-10 | Number of variables: 2785
+2026-01-18 16:13:50,768 | INFO | Process-10 | Number of clauses: 15709
+2026-01-18 16:13:50,768 | INFO | Process-10 | Real nums of clauses: 15758
+2026-01-18 16:13:50,768 | INFO | Process-10 | Real nums of variables: 2784
+2026-01-18 16:13:50,777 | INFO | Process-10 | CNF written to cnf/v2\D_n48_k29\D_n48_k29_w4.cnf
+2026-01-18 16:13:50,777 | ERROR | Process-10 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 16:13:50,780 | RESULT | Process-10 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 16:13:50,827 | INFO | MainProcess | Found a solution 4
+2026-01-18 16:13:50,827 | INFO | MainProcess | [Test k=29, w=4] Time: 0.5 seconds
+2026-01-18 16:13:50,859 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 16:13:51,305 | INFO | Process-11 | Number of variables: 2785
+2026-01-18 16:13:51,306 | INFO | Process-11 | Number of clauses: 15709
+2026-01-18 16:13:51,306 | INFO | Process-11 | Real nums of clauses: 15758
+2026-01-18 16:13:51,306 | INFO | Process-11 | Real nums of variables: 2784
+2026-01-18 16:13:51,315 | INFO | Process-11 | CNF written to cnf/v2\D_n48_k29\D_n48_k29_w5.cnf
+2026-01-18 16:13:51,315 | ERROR | Process-11 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 16:13:51,328 | RESULT | Process-11 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 16:13:51,371 | INFO | MainProcess | Found a solution 5
+2026-01-18 16:13:51,372 | INFO | MainProcess | [Test k=29, w=5] Time: 0.51 seconds
+2026-01-18 16:13:51,401 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 16:13:51,841 | INFO | Process-12 | Number of variables: 2785
+2026-01-18 16:13:51,841 | INFO | Process-12 | Number of clauses: 15709
+2026-01-18 16:13:51,841 | INFO | Process-12 | Real nums of clauses: 15758
+2026-01-18 16:13:51,841 | INFO | Process-12 | Real nums of variables: 2784
+2026-01-18 16:13:51,850 | INFO | Process-12 | CNF written to cnf/v2\D_n48_k29\D_n48_k29_w6.cnf
+2026-01-18 16:13:51,850 | ERROR | Process-12 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 16:13:51,858 | RESULT | Process-12 | No solution exists
+2026-01-18 16:13:51,858 | RESULT | Process-12 | Time taken: 0.028377771377563477 seconds
+2026-01-18 16:13:51,906 | INFO | MainProcess | No solution found 6
+2026-01-18 16:13:51,906 | INFO | MainProcess | [Test k=29, w=6] Time: 0.51 seconds
+2026-01-18 16:13:51,937 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 16:13:51,937 | INFO | MainProcess | $$$$
+2026-01-18 16:13:51,937 | INFO | MainProcess | 5
+2026-01-18 16:13:51,937 | INFO | MainProcess | $$$$
+2026-01-18 16:13:51,937 | INFO | MainProcess | Time taken for D-bcsstk01.mtx.rnd with k = 29: 1.6169307231903076 seconds
+2026-01-18 16:13:51,937 | INFO | MainProcess | Maximum width for D-bcsstk01.mtx.rnd is 5
+2026-01-18 16:13:52,386 | INFO | Process-13 | Number of variables: 3431
+2026-01-18 16:13:52,386 | INFO | Process-13 | Number of clauses: 10927
+2026-01-18 16:13:52,386 | INFO | Process-13 | Real nums of clauses: 10977
+2026-01-18 16:13:52,386 | INFO | Process-13 | Real nums of variables: 3430
+2026-01-18 16:13:52,393 | INFO | Process-13 | CNF written to cnf/v2\E_n49_k35\E_n49_k35_w15.cnf
+2026-01-18 16:13:52,393 | ERROR | Process-13 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 16:13:52,417 | RESULT | Process-13 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 16:13:52,458 | INFO | MainProcess | Found a solution 15
+2026-01-18 16:13:52,458 | INFO | MainProcess | [Test k=35, w=15] Time: 0.51 seconds
+2026-01-18 16:13:52,486 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 16:13:52,923 | INFO | Process-14 | Number of variables: 3431
+2026-01-18 16:13:52,923 | INFO | Process-14 | Number of clauses: 10927
+2026-01-18 16:13:52,923 | INFO | Process-14 | Real nums of clauses: 10977
+2026-01-18 16:13:52,923 | INFO | Process-14 | Real nums of variables: 3430
+2026-01-18 16:13:52,930 | INFO | Process-14 | CNF written to cnf/v2\E_n49_k35\E_n49_k35_w16.cnf
+2026-01-18 16:13:52,931 | ERROR | Process-14 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 16:13:52,985 | RESULT | Process-14 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 16:13:53,026 | INFO | MainProcess | Found a solution 16
+2026-01-18 16:13:53,026 | INFO | MainProcess | [Test k=35, w=16] Time: 0.54 seconds
+2026-01-18 16:13:53,057 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 16:13:53,493 | INFO | Process-15 | Number of variables: 3431
+2026-01-18 16:13:53,493 | INFO | Process-15 | Number of clauses: 10927
+2026-01-18 16:13:53,493 | INFO | Process-15 | Real nums of clauses: 10977
+2026-01-18 16:13:53,493 | INFO | Process-15 | Real nums of variables: 3430
+2026-01-18 16:13:53,500 | INFO | Process-15 | CNF written to cnf/v2\E_n49_k35\E_n49_k35_w17.cnf
+2026-01-18 16:13:53,500 | ERROR | Process-15 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 16:13:53,773 | RESULT | Process-15 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 16:13:53,817 | INFO | MainProcess | Found a solution 17
+2026-01-18 16:13:53,818 | INFO | MainProcess | [Test k=35, w=17] Time: 0.76 seconds
+2026-01-18 16:13:53,846 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 16:13:54,286 | INFO | Process-16 | Number of variables: 3431
+2026-01-18 16:13:54,286 | INFO | Process-16 | Number of clauses: 10537
+2026-01-18 16:13:54,286 | INFO | Process-16 | Real nums of clauses: 11095
+2026-01-18 16:13:54,286 | INFO | Process-16 | Real nums of variables: 3430
+2026-01-18 16:13:54,294 | INFO | Process-16 | CNF written to cnf/v2\E_n49_k35\E_n49_k35_w18.cnf
+2026-01-18 16:13:54,294 | ERROR | Process-16 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 16:13:54,294 | RESULT | Process-16 | No solution exists
+2026-01-18 16:13:54,294 | RESULT | Process-16 | Time taken: 0.017035484313964844 seconds
+2026-01-18 16:13:54,334 | INFO | MainProcess | No solution found 18
+2026-01-18 16:13:54,334 | INFO | MainProcess | [Test k=35, w=18] Time: 0.49 seconds
+2026-01-18 16:13:54,367 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 16:13:54,367 | INFO | MainProcess | $$$$
+2026-01-18 16:13:54,367 | INFO | MainProcess | 17
+2026-01-18 16:13:54,367 | INFO | MainProcess | $$$$
+2026-01-18 16:13:54,367 | INFO | MainProcess | Time taken for E-bcspwr02.mtx.rnd with k = 35: 2.4293386936187744 seconds
+2026-01-18 16:13:54,367 | INFO | MainProcess | Maximum width for E-bcspwr02.mtx.rnd is 17
+2026-01-18 16:13:54,798 | INFO | Process-17 | Number of variables: 3565
+2026-01-18 16:13:54,798 | INFO | Process-17 | Number of clauses: 15237
+2026-01-18 16:13:54,798 | INFO | Process-17 | Real nums of clauses: 15292
+2026-01-18 16:13:54,798 | INFO | Process-17 | Real nums of variables: 3564
+2026-01-18 16:13:54,806 | INFO | Process-17 | CNF written to cnf/v2\F_n54_k33\F_n54_k33_w7.cnf
+2026-01-18 16:13:54,807 | ERROR | Process-17 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 16:13:54,821 | RESULT | Process-17 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 16:13:54,858 | INFO | MainProcess | Found a solution 7
+2026-01-18 16:13:54,858 | INFO | MainProcess | [Test k=33, w=7] Time: 0.48 seconds
+2026-01-18 16:13:54,887 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 16:13:55,323 | INFO | Process-18 | Number of variables: 3565
+2026-01-18 16:13:55,323 | INFO | Process-18 | Number of clauses: 15237
+2026-01-18 16:13:55,323 | INFO | Process-18 | Real nums of clauses: 15292
+2026-01-18 16:13:55,323 | INFO | Process-18 | Real nums of variables: 3564
+2026-01-18 16:13:55,332 | INFO | Process-18 | CNF written to cnf/v2\F_n54_k33\F_n54_k33_w8.cnf
+2026-01-18 16:13:55,332 | ERROR | Process-18 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 16:13:55,373 | RESULT | Process-18 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 16:13:55,416 | INFO | MainProcess | Found a solution 8
+2026-01-18 16:13:55,417 | INFO | MainProcess | [Test k=33, w=8] Time: 0.53 seconds
+2026-01-18 16:13:55,449 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 16:13:55,885 | INFO | Process-19 | Number of variables: 3565
+2026-01-18 16:13:55,885 | INFO | Process-19 | Number of clauses: 15237
+2026-01-18 16:13:55,885 | INFO | Process-19 | Real nums of clauses: 15292
+2026-01-18 16:13:55,885 | INFO | Process-19 | Real nums of variables: 3564
+2026-01-18 16:13:55,894 | INFO | Process-19 | CNF written to cnf/v2\F_n54_k33\F_n54_k33_w9.cnf
+2026-01-18 16:13:55,894 | ERROR | Process-19 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 16:13:55,900 | RESULT | Process-19 | No solution exists
+2026-01-18 16:13:55,901 | RESULT | Process-19 | Time taken: 0.027248620986938477 seconds
+2026-01-18 16:13:55,940 | INFO | MainProcess | No solution found 9
+2026-01-18 16:13:55,940 | INFO | MainProcess | [Test k=33, w=9] Time: 0.49 seconds
+2026-01-18 16:13:55,973 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 16:13:55,973 | INFO | MainProcess | $$$$
+2026-01-18 16:13:55,973 | INFO | MainProcess | 8
+2026-01-18 16:13:55,973 | INFO | MainProcess | $$$$
+2026-01-18 16:13:55,973 | INFO | MainProcess | Time taken for F-curtis54.mtx.rnd with k = 33: 1.6062538623809814 seconds
+2026-01-18 16:13:55,973 | INFO | MainProcess | Maximum width for F-curtis54.mtx.rnd is 8
+2026-01-18 16:13:56,413 | INFO | Process-20 | Number of variables: 3535
+2026-01-18 16:13:56,413 | INFO | Process-20 | Number of clauses: 14859
+2026-01-18 16:13:56,413 | INFO | Process-20 | Real nums of clauses: 14917
+2026-01-18 16:13:56,413 | INFO | Process-20 | Real nums of variables: 3534
+2026-01-18 16:13:56,422 | INFO | Process-20 | CNF written to cnf/v2\G_n57_k31\G_n57_k31_w6.cnf
+2026-01-18 16:13:56,422 | ERROR | Process-20 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 16:13:56,425 | RESULT | Process-20 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 16:13:56,465 | INFO | MainProcess | Found a solution 6
+2026-01-18 16:13:56,465 | INFO | MainProcess | [Test k=31, w=6] Time: 0.48 seconds
+2026-01-18 16:13:56,495 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 16:13:56,932 | INFO | Process-21 | Number of variables: 3535
+2026-01-18 16:13:56,932 | INFO | Process-21 | Number of clauses: 14859
+2026-01-18 16:13:56,932 | INFO | Process-21 | Real nums of clauses: 14917
+2026-01-18 16:13:56,932 | INFO | Process-21 | Real nums of variables: 3534
+2026-01-18 16:13:56,941 | INFO | Process-21 | CNF written to cnf/v2\G_n57_k31\G_n57_k31_w7.cnf
+2026-01-18 16:13:56,941 | ERROR | Process-21 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 16:13:56,970 | RESULT | Process-21 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 16:13:57,010 | INFO | MainProcess | Found a solution 7
+2026-01-18 16:13:57,010 | INFO | MainProcess | [Test k=31, w=7] Time: 0.51 seconds
+2026-01-18 16:13:57,043 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 16:13:57,482 | INFO | Process-22 | Number of variables: 3535
+2026-01-18 16:13:57,482 | INFO | Process-22 | Number of clauses: 14859
+2026-01-18 16:13:57,482 | INFO | Process-22 | Real nums of clauses: 14917
+2026-01-18 16:13:57,482 | INFO | Process-22 | Real nums of variables: 3534
+2026-01-18 16:13:57,491 | INFO | Process-22 | CNF written to cnf/v2\G_n57_k31\G_n57_k31_w8.cnf
+2026-01-18 16:13:57,491 | ERROR | Process-22 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 16:13:57,496 | RESULT | Process-22 | No solution exists
+2026-01-18 16:13:57,496 | RESULT | Process-22 | Time taken: 0.025754213333129883 seconds
+2026-01-18 16:13:57,537 | INFO | MainProcess | No solution found 8
+2026-01-18 16:13:57,537 | INFO | MainProcess | [Test k=31, w=8] Time: 0.49 seconds
+2026-01-18 16:13:57,573 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 16:13:57,573 | INFO | MainProcess | $$$$
+2026-01-18 16:13:57,573 | INFO | MainProcess | 7
+2026-01-18 16:13:57,573 | INFO | MainProcess | $$$$
+2026-01-18 16:13:57,573 | INFO | MainProcess | Time taken for G-will57.mtx.rnd with k = 31: 1.6003320217132568 seconds
+2026-01-18 16:13:57,573 | INFO | MainProcess | Maximum width for G-will57.mtx.rnd is 7
+2026-01-18 16:13:58,035 | INFO | Process-23 | Number of variables: 4367
+2026-01-18 16:13:58,036 | INFO | Process-23 | Number of clauses: 29445
+2026-01-18 16:13:58,036 | INFO | Process-23 | Real nums of clauses: 29505
+2026-01-18 16:13:58,036 | INFO | Process-23 | Real nums of variables: 4366
+2026-01-18 16:13:58,052 | INFO | Process-23 | CNF written to cnf/v2\H_n59_k37\H_n59_k37_w5.cnf
+2026-01-18 16:13:58,052 | ERROR | Process-23 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 16:13:58,057 | RESULT | Process-23 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 16:13:58,096 | INFO | MainProcess | Found a solution 5
+2026-01-18 16:13:58,096 | INFO | MainProcess | [Test k=37, w=5] Time: 0.51 seconds
+2026-01-18 16:13:58,127 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 16:13:58,559 | INFO | Process-24 | Number of variables: 4367
+2026-01-18 16:13:58,559 | INFO | Process-24 | Number of clauses: 29445
+2026-01-18 16:13:58,559 | INFO | Process-24 | Real nums of clauses: 29505
+2026-01-18 16:13:58,559 | INFO | Process-24 | Real nums of variables: 4366
+2026-01-18 16:13:58,575 | INFO | Process-24 | CNF written to cnf/v2\H_n59_k37\H_n59_k37_w6.cnf
+2026-01-18 16:13:58,575 | ERROR | Process-24 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 16:13:58,782 | RESULT | Process-24 | No solution exists
+2026-01-18 16:13:58,782 | RESULT | Process-24 | Time taken: 0.24267578125 seconds
+2026-01-18 16:13:58,819 | INFO | MainProcess | No solution found 6
+2026-01-18 16:13:58,819 | INFO | MainProcess | [Test k=37, w=6] Time: 0.69 seconds
+2026-01-18 16:13:58,860 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 16:13:58,860 | INFO | MainProcess | $$$$
+2026-01-18 16:13:58,860 | INFO | MainProcess | 5
+2026-01-18 16:13:58,860 | INFO | MainProcess | $$$$
+2026-01-18 16:13:58,860 | INFO | MainProcess | Time taken for H-impcol_b.mtx.rnd with k = 37: 1.2866368293762207 seconds
+2026-01-18 16:13:58,860 | INFO | MainProcess | Maximum width for H-impcol_b.mtx.rnd is 5
+2026-01-18 16:13:59,335 | INFO | Process-25 | Number of variables: 11391
+2026-01-18 16:13:59,335 | INFO | Process-25 | Number of clauses: 52023
+2026-01-18 16:13:59,335 | INFO | Process-25 | Real nums of clauses: 52109
+2026-01-18 16:13:59,335 | INFO | Process-25 | Real nums of variables: 11390
+2026-01-18 16:13:59,362 | INFO | Process-25 | CNF written to cnf/v2\I_n85_k67\I_n85_k67_w15.cnf
+2026-01-18 16:13:59,362 | ERROR | Process-25 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 16:13:59,419 | RESULT | Process-25 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 16:13:59,463 | INFO | MainProcess | Found a solution 15
+2026-01-18 16:13:59,464 | INFO | MainProcess | [Test k=67, w=15] Time: 0.6 seconds
+2026-01-18 16:13:59,495 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 16:13:59,949 | INFO | Process-26 | Number of variables: 11391
+2026-01-18 16:13:59,949 | INFO | Process-26 | Number of clauses: 52023
+2026-01-18 16:13:59,949 | INFO | Process-26 | Real nums of clauses: 52109
+2026-01-18 16:13:59,949 | INFO | Process-26 | Real nums of variables: 11390
+2026-01-18 16:13:59,976 | INFO | Process-26 | CNF written to cnf/v2\I_n85_k67\I_n85_k67_w16.cnf
+2026-01-18 16:13:59,976 | ERROR | Process-26 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 16:14:00,795 | RESULT | Process-26 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 16:14:00,841 | INFO | MainProcess | Found a solution 16
+2026-01-18 16:14:00,841 | INFO | MainProcess | [Test k=67, w=16] Time: 1.35 seconds
+2026-01-18 16:14:00,872 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 16:14:01,330 | INFO | Process-27 | Number of variables: 11391
+2026-01-18 16:14:01,330 | INFO | Process-27 | Number of clauses: 52023
+2026-01-18 16:14:01,330 | INFO | Process-27 | Real nums of clauses: 52109
+2026-01-18 16:14:01,330 | INFO | Process-27 | Real nums of variables: 11390
+2026-01-18 16:14:01,356 | INFO | Process-27 | CNF written to cnf/v2\I_n85_k67\I_n85_k67_w17.cnf
+2026-01-18 16:14:01,356 | ERROR | Process-27 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 16:14:01,421 | RESULT | Process-27 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 16:14:01,470 | INFO | MainProcess | Found a solution 17
+2026-01-18 16:14:01,470 | INFO | MainProcess | [Test k=67, w=17] Time: 0.6 seconds
+2026-01-18 16:14:01,503 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 16:14:01,964 | INFO | Process-28 | Number of variables: 11391
+2026-01-18 16:14:01,964 | INFO | Process-28 | Number of clauses: 52023
+2026-01-18 16:14:01,964 | INFO | Process-28 | Real nums of clauses: 52109
+2026-01-18 16:14:01,964 | INFO | Process-28 | Real nums of variables: 11390
+2026-01-18 16:14:01,990 | INFO | Process-28 | CNF written to cnf/v2\I_n85_k67\I_n85_k67_w18.cnf
+2026-01-18 16:14:01,990 | ERROR | Process-28 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 16:14:05,508 | RESULT | Process-28 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 16:14:05,556 | INFO | MainProcess | Found a solution 18
+2026-01-18 16:14:05,556 | INFO | MainProcess | [Test k=67, w=18] Time: 4.05 seconds
+2026-01-18 16:14:05,591 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 16:14:06,053 | INFO | Process-29 | Number of variables: 11391
+2026-01-18 16:14:06,053 | INFO | Process-29 | Number of clauses: 52023
+2026-01-18 16:14:06,053 | INFO | Process-29 | Real nums of clauses: 52109
+2026-01-18 16:14:06,053 | INFO | Process-29 | Real nums of variables: 11390
+2026-01-18 16:14:06,078 | INFO | Process-29 | CNF written to cnf/v2\I_n85_k67\I_n85_k67_w19.cnf
+2026-01-18 16:14:06,078 | ERROR | Process-29 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 16:15:40,408 | RESULT | Process-29 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 16:15:40,458 | INFO | MainProcess | Found a solution 19
+2026-01-18 16:15:40,458 | INFO | MainProcess | [Test k=67, w=19] Time: 94.87 seconds
+2026-01-18 16:15:40,493 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 16:15:40,957 | INFO | Process-30 | Number of variables: 11391
+2026-01-18 16:15:40,957 | INFO | Process-30 | Number of clauses: 52023
+2026-01-18 16:15:40,957 | INFO | Process-30 | Real nums of clauses: 52109
+2026-01-18 16:15:40,957 | INFO | Process-30 | Real nums of variables: 11390
+2026-01-18 16:15:40,983 | INFO | Process-30 | CNF written to cnf/v2\I_n85_k67\I_n85_k67_w20.cnf
+2026-01-18 16:15:40,983 | ERROR | Process-30 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 16:43:58,900 | INFO | MainProcess | No solution found 20
+2026-01-18 16:43:58,903 | INFO | MainProcess | [Test k=67, w=20] Time: 1698.41 seconds
+2026-01-18 16:43:59,010 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 16:43:59,010 | INFO | MainProcess | $$$$
+2026-01-18 16:43:59,010 | INFO | MainProcess | -19
+2026-01-18 16:43:59,010 | INFO | MainProcess | $$$$
+2026-01-18 16:43:59,010 | INFO | MainProcess | Time taken for I-ash85.mtx.rnd with k = 67: 1800.1501679420471 seconds
+2026-01-18 16:43:59,010 | INFO | MainProcess | Maximum width before timeout for I-ash85.mtx.rnd is 19
+2026-01-18 16:43:59,010 | INFO | MainProcess | time out
+2026-01-18 16:43:59,995 | INFO | Process-31 | Number of variables: 11201
+2026-01-18 16:43:59,995 | INFO | Process-31 | Number of clauses: 49920
+2026-01-18 16:43:59,995 | INFO | Process-31 | Real nums of clauses: 50021
+2026-01-18 16:43:59,995 | INFO | Process-31 | Real nums of variables: 11200
+2026-01-18 16:44:00,038 | INFO | Process-31 | CNF written to cnf/v2\J_n100_k56\J_n100_k56_w17.cnf
+2026-01-18 16:44:00,038 | ERROR | Process-31 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 16:44:00,132 | RESULT | Process-31 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 16:44:00,247 | INFO | MainProcess | Found a solution 17
+2026-01-18 16:44:00,248 | INFO | MainProcess | [Test k=56, w=17] Time: 1.23 seconds
+2026-01-18 16:44:00,310 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 16:44:01,262 | INFO | Process-32 | Number of variables: 11201
+2026-01-18 16:44:01,263 | INFO | Process-32 | Number of clauses: 49920
+2026-01-18 16:44:01,263 | INFO | Process-32 | Real nums of clauses: 50021
+2026-01-18 16:44:01,263 | INFO | Process-32 | Real nums of variables: 11200
+2026-01-18 16:44:01,303 | INFO | Process-32 | CNF written to cnf/v2\J_n100_k56\J_n100_k56_w18.cnf
+2026-01-18 16:44:01,304 | ERROR | Process-32 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 16:44:03,703 | RESULT | Process-32 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 16:44:03,802 | INFO | MainProcess | Found a solution 18
+2026-01-18 16:44:03,804 | INFO | MainProcess | [Test k=56, w=18] Time: 3.49 seconds
+2026-01-18 16:44:03,862 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 16:44:04,796 | INFO | Process-33 | Number of variables: 11201
+2026-01-18 16:44:04,796 | INFO | Process-33 | Number of clauses: 49920
+2026-01-18 16:44:04,796 | INFO | Process-33 | Real nums of clauses: 50021
+2026-01-18 16:44:04,796 | INFO | Process-33 | Real nums of variables: 11200
+2026-01-18 16:44:04,837 | INFO | Process-33 | CNF written to cnf/v2\J_n100_k56\J_n100_k56_w19.cnf
+2026-01-18 16:44:04,837 | ERROR | Process-33 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 16:44:04,873 | RESULT | Process-33 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 16:44:04,973 | INFO | MainProcess | Found a solution 19
+2026-01-18 16:44:04,974 | INFO | MainProcess | [Test k=56, w=19] Time: 1.11 seconds
+2026-01-18 16:44:05,030 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 16:44:05,983 | INFO | Process-34 | Number of variables: 11201
+2026-01-18 16:44:05,983 | INFO | Process-34 | Number of clauses: 49920
+2026-01-18 16:44:05,983 | INFO | Process-34 | Real nums of clauses: 50021
+2026-01-18 16:44:05,983 | INFO | Process-34 | Real nums of variables: 11200
+2026-01-18 16:44:06,024 | INFO | Process-34 | CNF written to cnf/v2\J_n100_k56\J_n100_k56_w20.cnf
+2026-01-18 16:44:06,024 | ERROR | Process-34 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 16:44:06,064 | RESULT | Process-34 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 16:44:06,171 | INFO | MainProcess | Found a solution 20
+2026-01-18 16:44:06,172 | INFO | MainProcess | [Test k=56, w=20] Time: 1.14 seconds
+2026-01-18 16:44:06,230 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 16:44:07,176 | INFO | Process-35 | Number of variables: 11201
+2026-01-18 16:44:07,177 | INFO | Process-35 | Number of clauses: 49920
+2026-01-18 16:44:07,177 | INFO | Process-35 | Real nums of clauses: 50021
+2026-01-18 16:44:07,177 | INFO | Process-35 | Real nums of variables: 11200
+2026-01-18 16:44:07,216 | INFO | Process-35 | CNF written to cnf/v2\J_n100_k56\J_n100_k56_w21.cnf
+2026-01-18 16:44:07,216 | ERROR | Process-35 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 16:44:07,576 | RESULT | Process-35 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 16:44:07,682 | INFO | MainProcess | Found a solution 21
+2026-01-18 16:44:07,682 | INFO | MainProcess | [Test k=56, w=21] Time: 1.45 seconds
+2026-01-18 16:44:07,740 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 16:44:08,670 | INFO | Process-36 | Number of variables: 11201
+2026-01-18 16:44:08,670 | INFO | Process-36 | Number of clauses: 49920
+2026-01-18 16:44:08,670 | INFO | Process-36 | Real nums of clauses: 50021
+2026-01-18 16:44:08,670 | INFO | Process-36 | Real nums of variables: 11200
+2026-01-18 16:44:08,709 | INFO | Process-36 | CNF written to cnf/v2\J_n100_k56\J_n100_k56_w22.cnf
+2026-01-18 16:44:08,709 | ERROR | Process-36 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 16:44:22,050 | RESULT | Process-36 | No solution exists
+2026-01-18 16:44:22,050 | RESULT | Process-36 | Time taken: 13.439373016357422 seconds
+2026-01-18 16:44:22,136 | INFO | MainProcess | No solution found 22
+2026-01-18 16:44:22,136 | INFO | MainProcess | [Test k=56, w=22] Time: 14.4 seconds
+2026-01-18 16:44:22,198 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 16:44:22,198 | INFO | MainProcess | $$$$
+2026-01-18 16:44:22,198 | INFO | MainProcess | 21
+2026-01-18 16:44:22,198 | INFO | MainProcess | $$$$
+2026-01-18 16:44:22,199 | INFO | MainProcess | Time taken for J-nos4.mtx.rnd with k = 56: 23.189556121826172 seconds
+2026-01-18 16:44:22,199 | INFO | MainProcess | Maximum width for J-nos4.mtx.rnd is 21
+2026-01-18 16:44:23,145 | INFO | Process-37 | Number of variables: 18721
+2026-01-18 16:44:23,145 | INFO | Process-37 | Number of clauses: 63206
+2026-01-18 16:44:23,145 | INFO | Process-37 | Real nums of clauses: 63324
+2026-01-18 16:44:23,145 | INFO | Process-37 | Real nums of variables: 18720
+2026-01-18 16:44:23,194 | INFO | Process-37 | CNF written to cnf/v2\K_n117_k80\K_n117_k80_w31.cnf
+2026-01-18 16:44:23,194 | ERROR | Process-37 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 16:44:25,264 | RESULT | Process-37 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 16:44:25,359 | INFO | MainProcess | Found a solution 31
+2026-01-18 16:44:25,360 | INFO | MainProcess | [Test k=80, w=31] Time: 3.15 seconds
+2026-01-18 16:44:25,415 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 16:44:26,336 | INFO | Process-38 | Number of variables: 18721
+2026-01-18 16:44:26,336 | INFO | Process-38 | Number of clauses: 63206
+2026-01-18 16:44:26,337 | INFO | Process-38 | Real nums of clauses: 63324
+2026-01-18 16:44:26,337 | INFO | Process-38 | Real nums of variables: 18720
+2026-01-18 16:44:26,386 | INFO | Process-38 | CNF written to cnf/v2\K_n117_k80\K_n117_k80_w32.cnf
+2026-01-18 16:44:26,387 | ERROR | Process-38 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 16:44:26,547 | RESULT | Process-38 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 16:44:26,635 | INFO | MainProcess | Found a solution 32
+2026-01-18 16:44:26,636 | INFO | MainProcess | [Test k=80, w=32] Time: 1.22 seconds
+2026-01-18 16:44:26,693 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 16:44:27,599 | INFO | Process-39 | Number of variables: 18721
+2026-01-18 16:44:27,599 | INFO | Process-39 | Number of clauses: 63206
+2026-01-18 16:44:27,599 | INFO | Process-39 | Real nums of clauses: 63324
+2026-01-18 16:44:27,600 | INFO | Process-39 | Real nums of variables: 18720
+2026-01-18 16:44:27,648 | INFO | Process-39 | CNF written to cnf/v2\K_n117_k80\K_n117_k80_w33.cnf
+2026-01-18 16:44:27,648 | ERROR | Process-39 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 16:44:28,849 | RESULT | Process-39 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 16:44:28,941 | INFO | MainProcess | Found a solution 33
+2026-01-18 16:44:28,941 | INFO | MainProcess | [Test k=80, w=33] Time: 2.25 seconds
+2026-01-18 16:44:29,001 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 16:44:29,914 | INFO | Process-40 | Number of variables: 18721
+2026-01-18 16:44:29,914 | INFO | Process-40 | Number of clauses: 63206
+2026-01-18 16:44:29,915 | INFO | Process-40 | Real nums of clauses: 63324
+2026-01-18 16:44:29,915 | INFO | Process-40 | Real nums of variables: 18720
+2026-01-18 16:44:29,963 | INFO | Process-40 | CNF written to cnf/v2\K_n117_k80\K_n117_k80_w34.cnf
+2026-01-18 16:44:29,963 | ERROR | Process-40 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 16:44:32,531 | RESULT | Process-40 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 16:44:32,628 | INFO | MainProcess | Found a solution 34
+2026-01-18 16:44:32,628 | INFO | MainProcess | [Test k=80, w=34] Time: 3.63 seconds
+2026-01-18 16:44:32,685 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 16:44:33,599 | INFO | Process-41 | Number of variables: 18721
+2026-01-18 16:44:33,599 | INFO | Process-41 | Number of clauses: 63206
+2026-01-18 16:44:33,599 | INFO | Process-41 | Real nums of clauses: 63324
+2026-01-18 16:44:33,599 | INFO | Process-41 | Real nums of variables: 18720
+2026-01-18 16:44:33,647 | INFO | Process-41 | CNF written to cnf/v2\K_n117_k80\K_n117_k80_w35.cnf
+2026-01-18 16:44:33,648 | ERROR | Process-41 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 16:44:34,396 | RESULT | Process-41 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 16:44:34,487 | INFO | MainProcess | Found a solution 35
+2026-01-18 16:44:34,488 | INFO | MainProcess | [Test k=80, w=35] Time: 1.8 seconds
+2026-01-18 16:44:34,547 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 16:44:35,462 | INFO | Process-42 | Number of variables: 18721
+2026-01-18 16:44:35,462 | INFO | Process-42 | Number of clauses: 63206
+2026-01-18 16:44:35,462 | INFO | Process-42 | Real nums of clauses: 63324
+2026-01-18 16:44:35,462 | INFO | Process-42 | Real nums of variables: 18720
+2026-01-18 16:44:35,510 | INFO | Process-42 | CNF written to cnf/v2\K_n117_k80\K_n117_k80_w36.cnf
+2026-01-18 16:44:35,510 | ERROR | Process-42 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 16:44:40,093 | RESULT | Process-42 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 16:44:40,176 | INFO | MainProcess | Found a solution 36
+2026-01-18 16:44:40,176 | INFO | MainProcess | [Test k=80, w=36] Time: 5.63 seconds
+2026-01-18 16:44:40,232 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 16:44:41,154 | INFO | Process-43 | Number of variables: 18721
+2026-01-18 16:44:41,156 | INFO | Process-43 | Number of clauses: 63206
+2026-01-18 16:44:41,156 | INFO | Process-43 | Real nums of clauses: 63324
+2026-01-18 16:44:41,156 | INFO | Process-43 | Real nums of variables: 18720
+2026-01-18 16:44:41,203 | INFO | Process-43 | CNF written to cnf/v2\K_n117_k80\K_n117_k80_w37.cnf
+2026-01-18 16:44:41,203 | ERROR | Process-43 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 16:44:46,597 | RESULT | Process-43 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 16:44:46,683 | INFO | MainProcess | Found a solution 37
+2026-01-18 16:44:46,683 | INFO | MainProcess | [Test k=80, w=37] Time: 6.45 seconds
+2026-01-18 16:44:46,741 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 16:44:47,676 | INFO | Process-44 | Number of variables: 18721
+2026-01-18 16:44:47,676 | INFO | Process-44 | Number of clauses: 63206
+2026-01-18 16:44:47,676 | INFO | Process-44 | Real nums of clauses: 63324
+2026-01-18 16:44:47,676 | INFO | Process-44 | Real nums of variables: 18720
+2026-01-18 16:44:47,724 | INFO | Process-44 | CNF written to cnf/v2\K_n117_k80\K_n117_k80_w38.cnf
+2026-01-18 16:44:47,724 | ERROR | Process-44 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 16:47:07,770 | RESULT | Process-44 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 16:47:07,866 | INFO | MainProcess | Found a solution 38
+2026-01-18 16:47:07,866 | INFO | MainProcess | [Test k=80, w=38] Time: 141.12 seconds
+2026-01-18 16:47:07,927 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 16:47:08,865 | INFO | Process-45 | Number of variables: 18721
+2026-01-18 16:47:08,865 | INFO | Process-45 | Number of clauses: 63206
+2026-01-18 16:47:08,865 | INFO | Process-45 | Real nums of clauses: 63324
+2026-01-18 16:47:08,865 | INFO | Process-45 | Real nums of variables: 18720
+2026-01-18 16:47:08,913 | INFO | Process-45 | CNF written to cnf/v2\K_n117_k80\K_n117_k80_w39.cnf
+2026-01-18 16:47:08,913 | ERROR | Process-45 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 16:57:02,681 | RESULT | Process-45 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 16:57:02,777 | INFO | MainProcess | Found a solution 39
+2026-01-18 16:57:02,777 | INFO | MainProcess | [Test k=80, w=39] Time: 594.85 seconds
+2026-01-18 16:57:02,839 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 16:57:03,738 | INFO | Process-46 | Number of variables: 18721
+2026-01-18 16:57:03,739 | INFO | Process-46 | Number of clauses: 63206
+2026-01-18 16:57:03,739 | INFO | Process-46 | Real nums of clauses: 63324
+2026-01-18 16:57:03,739 | INFO | Process-46 | Real nums of variables: 18720
+2026-01-18 16:57:03,786 | INFO | Process-46 | CNF written to cnf/v2\K_n117_k80\K_n117_k80_w40.cnf
+2026-01-18 16:57:03,786 | ERROR | Process-46 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 16:57:03,797 | RESULT | Process-46 | No solution exists
+2026-01-18 16:57:03,797 | RESULT | Process-46 | Time taken: 0.13100004196166992 seconds
+2026-01-18 16:57:03,886 | INFO | MainProcess | No solution found 40
+2026-01-18 16:57:03,886 | INFO | MainProcess | [Test k=80, w=40] Time: 1.05 seconds
+2026-01-18 16:57:03,946 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 16:57:03,946 | INFO | MainProcess | $$$$
+2026-01-18 16:57:03,946 | INFO | MainProcess | 39
+2026-01-18 16:57:03,946 | INFO | MainProcess | $$$$
+2026-01-18 16:57:03,946 | INFO | MainProcess | Time taken for K-dwt__234.mtx.rnd with k = 80: 761.746030330658 seconds
+2026-01-18 16:57:03,946 | INFO | MainProcess | Maximum width for K-dwt__234.mtx.rnd is 39
+2026-01-18 16:57:04,872 | INFO | Process-47 | Number of variables: 14633
+2026-01-18 16:57:04,872 | INFO | Process-47 | Number of clauses: 51286
+2026-01-18 16:57:04,872 | INFO | Process-47 | Real nums of clauses: 51405
+2026-01-18 16:57:04,872 | INFO | Process-47 | Real nums of variables: 14632
+2026-01-18 16:57:04,916 | INFO | Process-47 | CNF written to cnf/v2\L_n118_k62\L_n118_k62_w20.cnf
+2026-01-18 16:57:04,916 | ERROR | Process-47 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 16:57:05,330 | RESULT | Process-47 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 16:57:05,419 | INFO | MainProcess | Found a solution 20
+2026-01-18 16:57:05,419 | INFO | MainProcess | [Test k=62, w=20] Time: 1.47 seconds
+2026-01-18 16:57:05,477 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 16:57:06,349 | INFO | Process-48 | Number of variables: 14633
+2026-01-18 16:57:06,349 | INFO | Process-48 | Number of clauses: 51286
+2026-01-18 16:57:06,349 | INFO | Process-48 | Real nums of clauses: 51405
+2026-01-18 16:57:06,349 | INFO | Process-48 | Real nums of variables: 14632
+2026-01-18 16:57:06,389 | INFO | Process-48 | CNF written to cnf/v2\L_n118_k62\L_n118_k62_w21.cnf
+2026-01-18 16:57:06,389 | ERROR | Process-48 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 16:57:06,400 | RESULT | Process-48 | No solution exists
+2026-01-18 16:57:06,400 | RESULT | Process-48 | Time taken: 0.10949897766113281 seconds
+2026-01-18 16:57:06,486 | INFO | MainProcess | No solution found 21
+2026-01-18 16:57:06,486 | INFO | MainProcess | [Test k=62, w=21] Time: 1.01 seconds
+2026-01-18 16:57:06,546 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 16:57:06,546 | INFO | MainProcess | $$$$
+2026-01-18 16:57:06,546 | INFO | MainProcess | 20
+2026-01-18 16:57:06,546 | INFO | MainProcess | $$$$
+2026-01-18 16:57:06,546 | INFO | MainProcess | Time taken for L-bcspwr03.mtx.rnd with k = 62: 2.6006898880004883 seconds
+2026-01-18 16:57:06,546 | INFO | MainProcess | Maximum width for L-bcspwr03.mtx.rnd is 20
+2026-01-18 16:57:12,434 | INFO | Process-49 | Number of variables: 271321
+2026-01-18 16:57:12,434 | INFO | Process-49 | Number of clauses: 2945243
+2026-01-18 16:57:12,434 | INFO | Process-49 | Real nums of clauses: 2945664
+2026-01-18 16:57:12,434 | INFO | Process-49 | Real nums of variables: 271320
+2026-01-18 16:57:14,741 | INFO | Process-49 | CNF written to cnf/v2\M_n420_k323\M_n420_k323_w21.cnf
+2026-01-18 16:57:14,741 | ERROR | Process-49 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 16:58:44,541 | RESULT | Process-49 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 16:58:44,948 | INFO | MainProcess | Found a solution 21
+2026-01-18 16:58:44,948 | INFO | MainProcess | [Test k=323, w=21] Time: 98.39 seconds
+2026-01-18 16:58:45,013 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 16:58:51,071 | INFO | Process-50 | Number of variables: 271321
+2026-01-18 16:58:51,071 | INFO | Process-50 | Number of clauses: 2945243
+2026-01-18 16:58:51,072 | INFO | Process-50 | Real nums of clauses: 2945664
+2026-01-18 16:58:51,072 | INFO | Process-50 | Real nums of variables: 271320
+2026-01-18 16:58:53,360 | INFO | Process-50 | CNF written to cnf/v2\M_n420_k323\M_n420_k323_w22.cnf
+2026-01-18 16:58:53,360 | ERROR | Process-50 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 16:59:44,852 | RESULT | Process-50 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 16:59:45,203 | INFO | MainProcess | Found a solution 22
+2026-01-18 16:59:45,203 | INFO | MainProcess | [Test k=323, w=22] Time: 60.19 seconds
+2026-01-18 16:59:45,264 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 16:59:51,389 | INFO | Process-51 | Number of variables: 271321
+2026-01-18 16:59:51,389 | INFO | Process-51 | Number of clauses: 2945243
+2026-01-18 16:59:51,389 | INFO | Process-51 | Real nums of clauses: 2945664
+2026-01-18 16:59:51,389 | INFO | Process-51 | Real nums of variables: 271320
+2026-01-18 16:59:53,731 | INFO | Process-51 | CNF written to cnf/v2\M_n420_k323\M_n420_k323_w23.cnf
+2026-01-18 16:59:53,731 | ERROR | Process-51 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 17:01:01,426 | RESULT | Process-51 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 17:01:01,802 | INFO | MainProcess | Found a solution 23
+2026-01-18 17:01:01,802 | INFO | MainProcess | [Test k=323, w=23] Time: 76.54 seconds
+2026-01-18 17:01:01,862 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 17:01:07,742 | INFO | Process-52 | Number of variables: 271321
+2026-01-18 17:01:07,743 | INFO | Process-52 | Number of clauses: 2945243
+2026-01-18 17:01:07,743 | INFO | Process-52 | Real nums of clauses: 2945664
+2026-01-18 17:01:07,743 | INFO | Process-52 | Real nums of variables: 271320
+2026-01-18 17:01:10,033 | INFO | Process-52 | CNF written to cnf/v2\M_n420_k323\M_n420_k323_w24.cnf
+2026-01-18 17:01:10,033 | ERROR | Process-52 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 17:02:05,631 | RESULT | Process-52 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 17:02:05,984 | INFO | MainProcess | Found a solution 24
+2026-01-18 17:02:05,984 | INFO | MainProcess | [Test k=323, w=24] Time: 64.12 seconds
+2026-01-18 17:02:06,123 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 17:02:11,741 | INFO | Process-53 | Number of variables: 271321
+2026-01-18 17:02:11,741 | INFO | Process-53 | Number of clauses: 2945243
+2026-01-18 17:02:11,741 | INFO | Process-53 | Real nums of clauses: 2945664
+2026-01-18 17:02:11,741 | INFO | Process-53 | Real nums of variables: 271320
+2026-01-18 17:02:13,968 | INFO | Process-53 | CNF written to cnf/v2\M_n420_k323\M_n420_k323_w25.cnf
+2026-01-18 17:02:13,969 | ERROR | Process-53 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 17:27:07,449 | INFO | MainProcess | No solution found 25
+2026-01-18 17:27:07,449 | INFO | MainProcess | [Test k=323, w=25] Time: 1501.33 seconds
+2026-01-18 17:27:07,511 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 17:27:07,511 | INFO | MainProcess | $$$$
+2026-01-18 17:27:07,511 | INFO | MainProcess | -24
+2026-01-18 17:27:07,511 | INFO | MainProcess | $$$$
+2026-01-18 17:27:07,511 | INFO | MainProcess | Time taken for M-bcsstk06.mtx.rnd with k = 323: 1800.9645476341248 seconds
+2026-01-18 17:27:07,511 | INFO | MainProcess | Maximum width before timeout for M-bcsstk06.mtx.rnd is 24
+2026-01-18 17:27:07,511 | INFO | MainProcess | time out
+2026-01-18 17:27:10,169 | INFO | Process-54 | Number of variables: 187851
+2026-01-18 17:27:10,169 | INFO | Process-54 | Number of clauses: 935085
+2026-01-18 17:27:10,169 | INFO | Process-54 | Real nums of clauses: 935511
+2026-01-18 17:27:10,169 | INFO | Process-54 | Real nums of variables: 187850
+2026-01-18 17:27:10,853 | INFO | Process-54 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w47.cnf
+2026-01-18 17:27:10,853 | ERROR | Process-54 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 17:27:12,868 | RESULT | Process-54 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 17:27:13,075 | INFO | MainProcess | Found a solution 47
+2026-01-18 17:27:13,075 | INFO | MainProcess | [Test k=221, w=47] Time: 5.55 seconds
+2026-01-18 17:27:13,132 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 17:27:15,715 | INFO | Process-55 | Number of variables: 187851
+2026-01-18 17:27:15,715 | INFO | Process-55 | Number of clauses: 935085
+2026-01-18 17:27:15,715 | INFO | Process-55 | Real nums of clauses: 935511
+2026-01-18 17:27:15,715 | INFO | Process-55 | Real nums of variables: 187850
+2026-01-18 17:27:16,413 | INFO | Process-55 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w48.cnf
+2026-01-18 17:27:16,413 | ERROR | Process-55 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 17:27:18,502 | RESULT | Process-55 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 17:27:18,704 | INFO | MainProcess | Found a solution 48
+2026-01-18 17:27:18,704 | INFO | MainProcess | [Test k=221, w=48] Time: 5.57 seconds
+2026-01-18 17:27:18,766 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 17:27:21,178 | INFO | Process-56 | Number of variables: 187851
+2026-01-18 17:27:21,179 | INFO | Process-56 | Number of clauses: 935085
+2026-01-18 17:27:21,179 | INFO | Process-56 | Real nums of clauses: 935511
+2026-01-18 17:27:21,179 | INFO | Process-56 | Real nums of variables: 187850
+2026-01-18 17:27:21,841 | INFO | Process-56 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w49.cnf
+2026-01-18 17:27:21,841 | ERROR | Process-56 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 17:27:24,160 | RESULT | Process-56 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 17:27:24,357 | INFO | MainProcess | Found a solution 49
+2026-01-18 17:27:24,358 | INFO | MainProcess | [Test k=221, w=49] Time: 5.59 seconds
+2026-01-18 17:27:24,416 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 17:27:26,867 | INFO | Process-57 | Number of variables: 187851
+2026-01-18 17:27:26,867 | INFO | Process-57 | Number of clauses: 935085
+2026-01-18 17:27:26,867 | INFO | Process-57 | Real nums of clauses: 935511
+2026-01-18 17:27:26,867 | INFO | Process-57 | Real nums of variables: 187850
+2026-01-18 17:27:27,534 | INFO | Process-57 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w50.cnf
+2026-01-18 17:27:27,534 | ERROR | Process-57 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 17:27:29,434 | RESULT | Process-57 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 17:27:29,654 | INFO | MainProcess | Found a solution 50
+2026-01-18 17:27:29,654 | INFO | MainProcess | [Test k=221, w=50] Time: 5.24 seconds
+2026-01-18 17:27:29,707 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 17:27:32,164 | INFO | Process-58 | Number of variables: 187851
+2026-01-18 17:27:32,165 | INFO | Process-58 | Number of clauses: 935085
+2026-01-18 17:27:32,165 | INFO | Process-58 | Real nums of clauses: 935511
+2026-01-18 17:27:32,165 | INFO | Process-58 | Real nums of variables: 187850
+2026-01-18 17:27:32,864 | INFO | Process-58 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w51.cnf
+2026-01-18 17:27:32,864 | ERROR | Process-58 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 17:27:36,903 | RESULT | Process-58 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 17:27:37,083 | INFO | MainProcess | Found a solution 51
+2026-01-18 17:27:37,084 | INFO | MainProcess | [Test k=221, w=51] Time: 7.38 seconds
+2026-01-18 17:27:37,143 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 17:27:39,632 | INFO | Process-59 | Number of variables: 187851
+2026-01-18 17:27:39,633 | INFO | Process-59 | Number of clauses: 935085
+2026-01-18 17:27:39,633 | INFO | Process-59 | Real nums of clauses: 935511
+2026-01-18 17:27:39,633 | INFO | Process-59 | Real nums of variables: 187850
+2026-01-18 17:27:40,316 | INFO | Process-59 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w52.cnf
+2026-01-18 17:27:40,316 | ERROR | Process-59 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 17:27:42,712 | RESULT | Process-59 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 17:27:42,919 | INFO | MainProcess | Found a solution 52
+2026-01-18 17:27:42,921 | INFO | MainProcess | [Test k=221, w=52] Time: 5.78 seconds
+2026-01-18 17:27:42,979 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 17:27:45,493 | INFO | Process-60 | Number of variables: 187851
+2026-01-18 17:27:45,493 | INFO | Process-60 | Number of clauses: 935085
+2026-01-18 17:27:45,493 | INFO | Process-60 | Real nums of clauses: 935511
+2026-01-18 17:27:45,493 | INFO | Process-60 | Real nums of variables: 187850
+2026-01-18 17:27:46,182 | INFO | Process-60 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w53.cnf
+2026-01-18 17:27:46,182 | ERROR | Process-60 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 17:28:00,809 | RESULT | Process-60 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 17:28:00,984 | INFO | MainProcess | Found a solution 53
+2026-01-18 17:28:00,984 | INFO | MainProcess | [Test k=221, w=53] Time: 18.01 seconds
+2026-01-18 17:28:01,044 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 17:28:03,471 | INFO | Process-61 | Number of variables: 187851
+2026-01-18 17:28:03,472 | INFO | Process-61 | Number of clauses: 935085
+2026-01-18 17:28:03,472 | INFO | Process-61 | Real nums of clauses: 935511
+2026-01-18 17:28:03,472 | INFO | Process-61 | Real nums of variables: 187850
+2026-01-18 17:28:04,156 | INFO | Process-61 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w54.cnf
+2026-01-18 17:28:04,156 | ERROR | Process-61 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 17:28:09,331 | RESULT | Process-61 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 17:28:09,496 | INFO | MainProcess | Found a solution 54
+2026-01-18 17:28:09,496 | INFO | MainProcess | [Test k=221, w=54] Time: 8.45 seconds
+2026-01-18 17:28:09,557 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 17:28:12,057 | INFO | Process-62 | Number of variables: 187851
+2026-01-18 17:28:12,057 | INFO | Process-62 | Number of clauses: 935085
+2026-01-18 17:28:12,058 | INFO | Process-62 | Real nums of clauses: 935511
+2026-01-18 17:28:12,058 | INFO | Process-62 | Real nums of variables: 187850
+2026-01-18 17:28:12,737 | INFO | Process-62 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w55.cnf
+2026-01-18 17:28:12,737 | ERROR | Process-62 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 17:28:32,484 | RESULT | Process-62 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 17:28:32,652 | INFO | MainProcess | Found a solution 55
+2026-01-18 17:28:32,653 | INFO | MainProcess | [Test k=221, w=55] Time: 23.1 seconds
+2026-01-18 17:28:32,715 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 17:28:35,118 | INFO | Process-63 | Number of variables: 187851
+2026-01-18 17:28:35,118 | INFO | Process-63 | Number of clauses: 935085
+2026-01-18 17:28:35,118 | INFO | Process-63 | Real nums of clauses: 935511
+2026-01-18 17:28:35,118 | INFO | Process-63 | Real nums of variables: 187850
+2026-01-18 17:28:35,807 | INFO | Process-63 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w56.cnf
+2026-01-18 17:28:35,807 | ERROR | Process-63 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 17:28:38,234 | RESULT | Process-63 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 17:28:38,458 | INFO | MainProcess | Found a solution 56
+2026-01-18 17:28:38,458 | INFO | MainProcess | [Test k=221, w=56] Time: 5.74 seconds
+2026-01-18 17:28:38,522 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 17:28:40,960 | INFO | Process-64 | Number of variables: 187851
+2026-01-18 17:28:40,960 | INFO | Process-64 | Number of clauses: 935085
+2026-01-18 17:28:40,960 | INFO | Process-64 | Real nums of clauses: 935511
+2026-01-18 17:28:40,960 | INFO | Process-64 | Real nums of variables: 187850
+2026-01-18 17:28:41,643 | INFO | Process-64 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w57.cnf
+2026-01-18 17:28:41,643 | ERROR | Process-64 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 17:28:44,762 | RESULT | Process-64 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 17:28:44,977 | INFO | MainProcess | Found a solution 57
+2026-01-18 17:28:44,977 | INFO | MainProcess | [Test k=221, w=57] Time: 6.45 seconds
+2026-01-18 17:28:45,035 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 17:28:47,528 | INFO | Process-65 | Number of variables: 187851
+2026-01-18 17:28:47,528 | INFO | Process-65 | Number of clauses: 935085
+2026-01-18 17:28:47,528 | INFO | Process-65 | Real nums of clauses: 935511
+2026-01-18 17:28:47,528 | INFO | Process-65 | Real nums of variables: 187850
+2026-01-18 17:28:48,212 | INFO | Process-65 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w58.cnf
+2026-01-18 17:28:48,212 | ERROR | Process-65 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 17:28:52,398 | RESULT | Process-65 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 17:28:52,584 | INFO | MainProcess | Found a solution 58
+2026-01-18 17:28:52,585 | INFO | MainProcess | [Test k=221, w=58] Time: 7.55 seconds
+2026-01-18 17:28:52,649 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 17:28:55,094 | INFO | Process-66 | Number of variables: 187851
+2026-01-18 17:28:55,094 | INFO | Process-66 | Number of clauses: 935085
+2026-01-18 17:28:55,094 | INFO | Process-66 | Real nums of clauses: 935511
+2026-01-18 17:28:55,094 | INFO | Process-66 | Real nums of variables: 187850
+2026-01-18 17:28:55,770 | INFO | Process-66 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w59.cnf
+2026-01-18 17:28:55,770 | ERROR | Process-66 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 17:28:59,654 | RESULT | Process-66 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 17:28:59,871 | INFO | MainProcess | Found a solution 59
+2026-01-18 17:28:59,871 | INFO | MainProcess | [Test k=221, w=59] Time: 7.22 seconds
+2026-01-18 17:28:59,931 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 17:29:02,364 | INFO | Process-67 | Number of variables: 187851
+2026-01-18 17:29:02,364 | INFO | Process-67 | Number of clauses: 935085
+2026-01-18 17:29:02,364 | INFO | Process-67 | Real nums of clauses: 935511
+2026-01-18 17:29:02,364 | INFO | Process-67 | Real nums of variables: 187850
+2026-01-18 17:29:03,054 | INFO | Process-67 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w60.cnf
+2026-01-18 17:29:03,054 | ERROR | Process-67 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 17:29:17,794 | RESULT | Process-67 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 17:29:17,963 | INFO | MainProcess | Found a solution 60
+2026-01-18 17:29:17,963 | INFO | MainProcess | [Test k=221, w=60] Time: 18.03 seconds
+2026-01-18 17:29:18,022 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 17:29:20,425 | INFO | Process-68 | Number of variables: 187851
+2026-01-18 17:29:20,425 | INFO | Process-68 | Number of clauses: 935085
+2026-01-18 17:29:20,425 | INFO | Process-68 | Real nums of clauses: 935511
+2026-01-18 17:29:20,425 | INFO | Process-68 | Real nums of variables: 187850
+2026-01-18 17:29:21,104 | INFO | Process-68 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w61.cnf
+2026-01-18 17:29:21,104 | ERROR | Process-68 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 17:29:37,554 | RESULT | Process-68 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 17:29:37,737 | INFO | MainProcess | Found a solution 61
+2026-01-18 17:29:37,738 | INFO | MainProcess | [Test k=221, w=61] Time: 19.71 seconds
+2026-01-18 17:29:37,806 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 17:29:40,407 | INFO | Process-69 | Number of variables: 187851
+2026-01-18 17:29:40,407 | INFO | Process-69 | Number of clauses: 935085
+2026-01-18 17:29:40,407 | INFO | Process-69 | Real nums of clauses: 935511
+2026-01-18 17:29:40,407 | INFO | Process-69 | Real nums of variables: 187850
+2026-01-18 17:29:41,110 | INFO | Process-69 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w62.cnf
+2026-01-18 17:29:41,110 | ERROR | Process-69 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 17:29:47,684 | RESULT | Process-69 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 17:29:47,872 | INFO | MainProcess | Found a solution 62
+2026-01-18 17:29:47,872 | INFO | MainProcess | [Test k=221, w=62] Time: 10.07 seconds
+2026-01-18 17:29:47,936 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 17:29:50,448 | INFO | Process-70 | Number of variables: 187851
+2026-01-18 17:29:50,448 | INFO | Process-70 | Number of clauses: 935085
+2026-01-18 17:29:50,448 | INFO | Process-70 | Real nums of clauses: 935511
+2026-01-18 17:29:50,448 | INFO | Process-70 | Real nums of variables: 187850
+2026-01-18 17:29:51,135 | INFO | Process-70 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w63.cnf
+2026-01-18 17:29:51,135 | ERROR | Process-70 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 17:31:30,596 | RESULT | Process-70 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 17:31:30,769 | INFO | MainProcess | Found a solution 63
+2026-01-18 17:31:30,769 | INFO | MainProcess | [Test k=221, w=63] Time: 102.83 seconds
+2026-01-18 17:31:30,882 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 17:31:33,237 | INFO | Process-71 | Number of variables: 187851
+2026-01-18 17:31:33,237 | INFO | Process-71 | Number of clauses: 935085
+2026-01-18 17:31:33,237 | INFO | Process-71 | Real nums of clauses: 935511
+2026-01-18 17:31:33,237 | INFO | Process-71 | Real nums of variables: 187850
+2026-01-18 17:31:33,884 | INFO | Process-71 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w64.cnf
+2026-01-18 17:31:33,885 | ERROR | Process-71 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 17:33:00,423 | RESULT | Process-71 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 17:33:00,595 | INFO | MainProcess | Found a solution 64
+2026-01-18 17:33:00,595 | INFO | MainProcess | [Test k=221, w=64] Time: 89.71 seconds
+2026-01-18 17:33:00,656 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 17:33:03,019 | INFO | Process-72 | Number of variables: 187851
+2026-01-18 17:33:03,019 | INFO | Process-72 | Number of clauses: 935085
+2026-01-18 17:33:03,019 | INFO | Process-72 | Real nums of clauses: 935511
+2026-01-18 17:33:03,019 | INFO | Process-72 | Real nums of variables: 187850
+2026-01-18 17:33:03,675 | INFO | Process-72 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w65.cnf
+2026-01-18 17:33:03,675 | ERROR | Process-72 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 17:34:42,313 | RESULT | Process-72 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 17:34:42,492 | INFO | MainProcess | Found a solution 65
+2026-01-18 17:34:42,492 | INFO | MainProcess | [Test k=221, w=65] Time: 101.84 seconds
+2026-01-18 17:34:42,557 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 17:34:44,956 | INFO | Process-73 | Number of variables: 187851
+2026-01-18 17:34:44,956 | INFO | Process-73 | Number of clauses: 935085
+2026-01-18 17:34:44,957 | INFO | Process-73 | Real nums of clauses: 935511
+2026-01-18 17:34:44,957 | INFO | Process-73 | Real nums of variables: 187850
+2026-01-18 17:34:45,626 | INFO | Process-73 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w66.cnf
+2026-01-18 17:34:45,627 | ERROR | Process-73 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 17:36:18,217 | RESULT | Process-73 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 17:36:18,391 | INFO | MainProcess | Found a solution 66
+2026-01-18 17:36:18,391 | INFO | MainProcess | [Test k=221, w=66] Time: 95.83 seconds
+2026-01-18 17:36:18,458 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 17:36:20,857 | INFO | Process-74 | Number of variables: 187851
+2026-01-18 17:36:20,857 | INFO | Process-74 | Number of clauses: 935085
+2026-01-18 17:36:20,857 | INFO | Process-74 | Real nums of clauses: 935511
+2026-01-18 17:36:20,857 | INFO | Process-74 | Real nums of variables: 187850
+2026-01-18 17:36:21,532 | INFO | Process-74 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w67.cnf
+2026-01-18 17:36:21,532 | ERROR | Process-74 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 17:40:39,716 | RESULT | Process-74 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 17:40:39,899 | INFO | MainProcess | Found a solution 67
+2026-01-18 17:40:39,899 | INFO | MainProcess | [Test k=221, w=67] Time: 261.44 seconds
+2026-01-18 17:40:39,969 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 17:40:42,321 | INFO | Process-75 | Number of variables: 187851
+2026-01-18 17:40:42,322 | INFO | Process-75 | Number of clauses: 935085
+2026-01-18 17:40:42,322 | INFO | Process-75 | Real nums of clauses: 935511
+2026-01-18 17:40:42,322 | INFO | Process-75 | Real nums of variables: 187850
+2026-01-18 17:40:42,988 | INFO | Process-75 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w68.cnf
+2026-01-18 17:40:42,988 | ERROR | Process-75 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 17:55:14,959 | RESULT | Process-75 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 17:55:15,164 | INFO | MainProcess | Found a solution 68
+2026-01-18 17:55:15,164 | INFO | MainProcess | [Test k=221, w=68] Time: 875.19 seconds
+2026-01-18 17:55:15,232 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 17:55:17,688 | INFO | Process-76 | Number of variables: 187851
+2026-01-18 17:55:17,688 | INFO | Process-76 | Number of clauses: 935085
+2026-01-18 17:55:17,688 | INFO | Process-76 | Real nums of clauses: 935511
+2026-01-18 17:55:17,688 | INFO | Process-76 | Real nums of variables: 187850
+2026-01-18 17:55:18,356 | INFO | Process-76 | CNF written to cnf/v2\O_n425_k221\O_n425_k221_w69.cnf
+2026-01-18 17:55:18,356 | ERROR | Process-76 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 17:57:07,656 | INFO | MainProcess | No solution found 69
+2026-01-18 17:57:07,656 | INFO | MainProcess | [Test k=221, w=69] Time: 112.42 seconds
+2026-01-18 17:57:07,728 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 17:57:07,729 | INFO | MainProcess | $$$$
+2026-01-18 17:57:07,729 | INFO | MainProcess | -68
+2026-01-18 17:57:07,729 | INFO | MainProcess | $$$$
+2026-01-18 17:57:07,729 | INFO | MainProcess | Time taken for O-impcol_d.mtx.rnd with k = 221: 1800.2179300785065 seconds
+2026-01-18 17:57:07,729 | INFO | MainProcess | Maximum width before timeout for O-impcol_d.mtx.rnd is 68
+2026-01-18 17:57:07,729 | INFO | MainProcess | time out
+2026-01-18 17:57:11,528 | INFO | Process-77 | Number of variables: 296371
+2026-01-18 17:57:11,528 | INFO | Process-77 | Number of clauses: 1712395
+2026-01-18 17:57:11,528 | INFO | Process-77 | Real nums of clauses: 1712841
+2026-01-18 17:57:11,529 | INFO | Process-77 | Real nums of variables: 296370
+2026-01-18 17:57:12,788 | INFO | Process-77 | CNF written to cnf/v2\P_n445_k333\P_n445_k333_w58.cnf
+2026-01-18 17:57:12,788 | ERROR | Process-77 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 17:59:33,565 | RESULT | Process-77 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 17:59:33,806 | INFO | MainProcess | Found a solution 58
+2026-01-18 17:59:33,807 | INFO | MainProcess | [Test k=333, w=58] Time: 146.07 seconds
+2026-01-18 17:59:33,870 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 17:59:37,468 | INFO | Process-78 | Number of variables: 296371
+2026-01-18 17:59:37,468 | INFO | Process-78 | Number of clauses: 1712395
+2026-01-18 17:59:37,468 | INFO | Process-78 | Real nums of clauses: 1712841
+2026-01-18 17:59:37,468 | INFO | Process-78 | Real nums of variables: 296370
+2026-01-18 17:59:38,750 | INFO | Process-78 | CNF written to cnf/v2\P_n445_k333\P_n445_k333_w59.cnf
+2026-01-18 17:59:38,750 | ERROR | Process-78 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 18:01:15,713 | RESULT | Process-78 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 18:01:15,952 | INFO | MainProcess | Found a solution 59
+2026-01-18 18:01:15,952 | INFO | MainProcess | [Test k=333, w=59] Time: 102.08 seconds
+2026-01-18 18:01:16,018 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 18:01:19,743 | INFO | Process-79 | Number of variables: 296371
+2026-01-18 18:01:19,743 | INFO | Process-79 | Number of clauses: 1712395
+2026-01-18 18:01:19,743 | INFO | Process-79 | Real nums of clauses: 1712841
+2026-01-18 18:01:19,743 | INFO | Process-79 | Real nums of variables: 296370
+2026-01-18 18:01:21,020 | INFO | Process-79 | CNF written to cnf/v2\P_n445_k333\P_n445_k333_w60.cnf
+2026-01-18 18:01:21,020 | ERROR | Process-79 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 18:05:58,437 | RESULT | Process-79 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 18:05:58,691 | INFO | MainProcess | Found a solution 60
+2026-01-18 18:05:58,691 | INFO | MainProcess | [Test k=333, w=60] Time: 282.67 seconds
+2026-01-18 18:05:58,758 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 18:06:02,407 | INFO | Process-80 | Number of variables: 296371
+2026-01-18 18:06:02,408 | INFO | Process-80 | Number of clauses: 1712395
+2026-01-18 18:06:02,408 | INFO | Process-80 | Real nums of clauses: 1712841
+2026-01-18 18:06:02,408 | INFO | Process-80 | Real nums of variables: 296370
+2026-01-18 18:06:03,684 | INFO | Process-80 | CNF written to cnf/v2\P_n445_k333\P_n445_k333_w61.cnf
+2026-01-18 18:06:03,684 | ERROR | Process-80 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 18:10:42,381 | RESULT | Process-80 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 18:10:42,574 | INFO | MainProcess | Found a solution 61
+2026-01-18 18:10:42,574 | INFO | MainProcess | [Test k=333, w=61] Time: 283.82 seconds
+2026-01-18 18:10:42,628 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 18:10:46,038 | INFO | Process-81 | Number of variables: 296371
+2026-01-18 18:10:46,038 | INFO | Process-81 | Number of clauses: 1712395
+2026-01-18 18:10:46,038 | INFO | Process-81 | Real nums of clauses: 1712841
+2026-01-18 18:10:46,038 | INFO | Process-81 | Real nums of variables: 296370
+2026-01-18 18:10:47,240 | INFO | Process-81 | CNF written to cnf/v2\P_n445_k333\P_n445_k333_w62.cnf
+2026-01-18 18:10:47,240 | ERROR | Process-81 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 18:14:43,003 | RESULT | Process-81 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 18:14:43,156 | INFO | MainProcess | Found a solution 62
+2026-01-18 18:14:43,156 | INFO | MainProcess | [Test k=333, w=62] Time: 240.53 seconds
+2026-01-18 18:14:43,214 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 18:14:45,555 | INFO | Process-82 | Number of variables: 296371
+2026-01-18 18:14:45,555 | INFO | Process-82 | Number of clauses: 1712395
+2026-01-18 18:14:45,555 | INFO | Process-82 | Real nums of clauses: 1712841
+2026-01-18 18:14:45,555 | INFO | Process-82 | Real nums of variables: 296370
+2026-01-18 18:14:46,507 | INFO | Process-82 | CNF written to cnf/v2\P_n445_k333\P_n445_k333_w63.cnf
+2026-01-18 18:14:46,507 | ERROR | Process-82 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 18:24:55,694 | RESULT | Process-82 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 18:24:55,886 | INFO | MainProcess | Found a solution 63
+2026-01-18 18:24:55,886 | INFO | MainProcess | [Test k=333, w=63] Time: 612.67 seconds
+2026-01-18 18:24:55,938 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 18:24:58,779 | INFO | Process-83 | Number of variables: 296371
+2026-01-18 18:24:58,779 | INFO | Process-83 | Number of clauses: 1712395
+2026-01-18 18:24:58,779 | INFO | Process-83 | Real nums of clauses: 1712841
+2026-01-18 18:24:58,779 | INFO | Process-83 | Real nums of variables: 296370
+2026-01-18 18:24:59,631 | INFO | Process-83 | CNF written to cnf/v2\P_n445_k333\P_n445_k333_w64.cnf
+2026-01-18 18:24:59,631 | ERROR | Process-83 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 18:27:07,841 | INFO | MainProcess | No solution found 64
+2026-01-18 18:27:07,841 | INFO | MainProcess | [Test k=333, w=64] Time: 131.9 seconds
+2026-01-18 18:27:07,883 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 18:27:07,883 | INFO | MainProcess | $$$$
+2026-01-18 18:27:07,883 | INFO | MainProcess | -63
+2026-01-18 18:27:07,883 | INFO | MainProcess | $$$$
+2026-01-18 18:27:07,883 | INFO | MainProcess | Time taken for P-can__445.mtx.rnd with k = 333: 1800.154215335846 seconds
+2026-01-18 18:27:07,883 | INFO | MainProcess | Maximum width before timeout for P-can__445.mtx.rnd is 63
+2026-01-18 18:27:07,883 | INFO | MainProcess | time out
+2026-01-18 18:27:09,541 | INFO | Process-84 | Number of variables: 322089
+2026-01-18 18:27:09,541 | INFO | Process-84 | Number of clauses: 1025586
+2026-01-18 18:27:09,541 | INFO | Process-84 | Real nums of clauses: 1026081
+2026-01-18 18:27:09,541 | INFO | Process-84 | Real nums of variables: 322088
+2026-01-18 18:27:10,005 | INFO | Process-84 | CNF written to cnf/v2\Q_n494_k326\Q_n494_k326_w144.cnf
+2026-01-18 18:27:10,005 | ERROR | Process-84 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 18:28:59,440 | RESULT | Process-84 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 18:28:59,584 | INFO | MainProcess | Found a solution 144
+2026-01-18 18:28:59,584 | INFO | MainProcess | [Test k=326, w=144] Time: 111.69 seconds
+2026-01-18 18:28:59,628 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 18:29:01,352 | INFO | Process-85 | Number of variables: 322089
+2026-01-18 18:29:01,352 | INFO | Process-85 | Number of clauses: 1025586
+2026-01-18 18:29:01,352 | INFO | Process-85 | Real nums of clauses: 1026081
+2026-01-18 18:29:01,352 | INFO | Process-85 | Real nums of variables: 322088
+2026-01-18 18:29:01,895 | INFO | Process-85 | CNF written to cnf/v2\Q_n494_k326\Q_n494_k326_w145.cnf
+2026-01-18 18:29:01,895 | ERROR | Process-85 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 18:31:52,419 | RESULT | Process-85 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 18:31:52,528 | INFO | MainProcess | Found a solution 145
+2026-01-18 18:31:52,528 | INFO | MainProcess | [Test k=326, w=145] Time: 172.9 seconds
+2026-01-18 18:31:52,613 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 18:31:54,216 | INFO | Process-86 | Number of variables: 322089
+2026-01-18 18:31:54,216 | INFO | Process-86 | Number of clauses: 1025586
+2026-01-18 18:31:54,216 | INFO | Process-86 | Real nums of clauses: 1026081
+2026-01-18 18:31:54,216 | INFO | Process-86 | Real nums of variables: 322088
+2026-01-18 18:31:54,690 | INFO | Process-86 | CNF written to cnf/v2\Q_n494_k326\Q_n494_k326_w146.cnf
+2026-01-18 18:31:54,690 | ERROR | Process-86 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 18:34:01,013 | RESULT | Process-86 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 18:34:01,127 | INFO | MainProcess | Found a solution 146
+2026-01-18 18:34:01,127 | INFO | MainProcess | [Test k=326, w=146] Time: 128.51 seconds
+2026-01-18 18:34:01,167 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 18:34:02,802 | INFO | Process-87 | Number of variables: 322089
+2026-01-18 18:34:02,802 | INFO | Process-87 | Number of clauses: 1025586
+2026-01-18 18:34:02,802 | INFO | Process-87 | Real nums of clauses: 1026081
+2026-01-18 18:34:02,802 | INFO | Process-87 | Real nums of variables: 322088
+2026-01-18 18:34:03,288 | INFO | Process-87 | CNF written to cnf/v2\Q_n494_k326\Q_n494_k326_w147.cnf
+2026-01-18 18:34:03,288 | ERROR | Process-87 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 18:35:50,838 | RESULT | Process-87 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 18:35:50,945 | INFO | MainProcess | Found a solution 147
+2026-01-18 18:35:50,945 | INFO | MainProcess | [Test k=326, w=147] Time: 109.78 seconds
+2026-01-18 18:35:50,987 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 18:35:52,486 | INFO | Process-88 | Number of variables: 322089
+2026-01-18 18:35:52,486 | INFO | Process-88 | Number of clauses: 1025586
+2026-01-18 18:35:52,486 | INFO | Process-88 | Real nums of clauses: 1026081
+2026-01-18 18:35:52,486 | INFO | Process-88 | Real nums of variables: 322088
+2026-01-18 18:35:53,025 | INFO | Process-88 | CNF written to cnf/v2\Q_n494_k326\Q_n494_k326_w148.cnf
+2026-01-18 18:35:53,025 | ERROR | Process-88 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 18:38:58,809 | RESULT | Process-88 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 18:38:58,924 | INFO | MainProcess | Found a solution 148
+2026-01-18 18:38:58,924 | INFO | MainProcess | [Test k=326, w=148] Time: 187.94 seconds
+2026-01-18 18:38:58,976 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 18:39:00,677 | INFO | Process-89 | Number of variables: 322089
+2026-01-18 18:39:00,677 | INFO | Process-89 | Number of clauses: 1025586
+2026-01-18 18:39:00,677 | INFO | Process-89 | Real nums of clauses: 1026081
+2026-01-18 18:39:00,677 | INFO | Process-89 | Real nums of variables: 322088
+2026-01-18 18:39:01,157 | INFO | Process-89 | CNF written to cnf/v2\Q_n494_k326\Q_n494_k326_w149.cnf
+2026-01-18 18:39:01,158 | ERROR | Process-89 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 18:40:50,834 | RESULT | Process-89 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 18:40:50,958 | INFO | MainProcess | Found a solution 149
+2026-01-18 18:40:50,958 | INFO | MainProcess | [Test k=326, w=149] Time: 111.98 seconds
+2026-01-18 18:40:50,993 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 18:40:52,533 | INFO | Process-90 | Number of variables: 322089
+2026-01-18 18:40:52,533 | INFO | Process-90 | Number of clauses: 1025586
+2026-01-18 18:40:52,533 | INFO | Process-90 | Real nums of clauses: 1026081
+2026-01-18 18:40:52,533 | INFO | Process-90 | Real nums of variables: 322088
+2026-01-18 18:40:53,084 | INFO | Process-90 | CNF written to cnf/v2\Q_n494_k326\Q_n494_k326_w150.cnf
+2026-01-18 18:40:53,084 | ERROR | Process-90 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 18:43:48,159 | RESULT | Process-90 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 18:43:48,290 | INFO | MainProcess | Found a solution 150
+2026-01-18 18:43:48,290 | INFO | MainProcess | [Test k=326, w=150] Time: 177.3 seconds
+2026-01-18 18:43:48,330 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 18:43:50,061 | INFO | Process-91 | Number of variables: 322089
+2026-01-18 18:43:50,061 | INFO | Process-91 | Number of clauses: 1025586
+2026-01-18 18:43:50,061 | INFO | Process-91 | Real nums of clauses: 1026081
+2026-01-18 18:43:50,061 | INFO | Process-91 | Real nums of variables: 322088
+2026-01-18 18:43:50,631 | INFO | Process-91 | CNF written to cnf/v2\Q_n494_k326\Q_n494_k326_w151.cnf
+2026-01-18 18:43:50,631 | ERROR | Process-91 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 18:47:07,869 | RESULT | Process-91 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 18:47:07,970 | INFO | MainProcess | Found a solution 151
+2026-01-18 18:47:07,970 | INFO | MainProcess | [Test k=326, w=151] Time: 199.64 seconds
+2026-01-18 18:47:08,006 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 18:47:09,578 | INFO | Process-92 | Number of variables: 322089
+2026-01-18 18:47:09,578 | INFO | Process-92 | Number of clauses: 1025586
+2026-01-18 18:47:09,578 | INFO | Process-92 | Real nums of clauses: 1026081
+2026-01-18 18:47:09,578 | INFO | Process-92 | Real nums of variables: 322088
+2026-01-18 18:47:10,066 | INFO | Process-92 | CNF written to cnf/v2\Q_n494_k326\Q_n494_k326_w152.cnf
+2026-01-18 18:47:10,066 | ERROR | Process-92 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 18:51:28,370 | RESULT | Process-92 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 18:51:28,496 | INFO | MainProcess | Found a solution 152
+2026-01-18 18:51:28,496 | INFO | MainProcess | [Test k=326, w=152] Time: 260.49 seconds
+2026-01-18 18:51:28,534 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 18:51:29,969 | INFO | Process-93 | Number of variables: 322089
+2026-01-18 18:51:29,969 | INFO | Process-93 | Number of clauses: 1025586
+2026-01-18 18:51:29,969 | INFO | Process-93 | Real nums of clauses: 1026081
+2026-01-18 18:51:29,969 | INFO | Process-93 | Real nums of variables: 322088
+2026-01-18 18:51:30,532 | INFO | Process-93 | CNF written to cnf/v2\Q_n494_k326\Q_n494_k326_w153.cnf
+2026-01-18 18:51:30,532 | ERROR | Process-93 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 18:56:00,626 | RESULT | Process-93 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 18:56:00,757 | INFO | MainProcess | Found a solution 153
+2026-01-18 18:56:00,757 | INFO | MainProcess | [Test k=326, w=153] Time: 272.22 seconds
+2026-01-18 18:56:00,798 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 18:56:02,420 | INFO | Process-94 | Number of variables: 322089
+2026-01-18 18:56:02,420 | INFO | Process-94 | Number of clauses: 1025586
+2026-01-18 18:56:02,420 | INFO | Process-94 | Real nums of clauses: 1026081
+2026-01-18 18:56:02,420 | INFO | Process-94 | Real nums of variables: 322088
+2026-01-18 18:56:02,936 | INFO | Process-94 | CNF written to cnf/v2\Q_n494_k326\Q_n494_k326_w154.cnf
+2026-01-18 18:56:02,936 | ERROR | Process-94 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 18:57:08,010 | INFO | MainProcess | No solution found 154
+2026-01-18 18:57:08,010 | INFO | MainProcess | [Test k=326, w=154] Time: 67.21 seconds
+2026-01-18 18:57:08,052 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 18:57:08,052 | INFO | MainProcess | $$$$
+2026-01-18 18:57:08,052 | INFO | MainProcess | -153
+2026-01-18 18:57:08,052 | INFO | MainProcess | $$$$
+2026-01-18 18:57:08,052 | INFO | MainProcess | Time taken for Q-494_bus.mtx.rnd with k = 326: 1800.1692411899567 seconds
+2026-01-18 18:57:08,052 | INFO | MainProcess | Maximum width before timeout for Q-494_bus.mtx.rnd is 153
+2026-01-18 18:57:08,052 | INFO | MainProcess | time out
+2026-01-18 18:57:11,581 | INFO | Process-95 | Number of variables: 349083
+2026-01-18 18:57:11,581 | INFO | Process-95 | Number of clauses: 2614333
+2026-01-18 18:57:11,581 | INFO | Process-95 | Real nums of clauses: 2614837
+2026-01-18 18:57:11,581 | INFO | Process-95 | Real nums of variables: 349082
+2026-01-18 18:57:12,976 | INFO | Process-95 | CNF written to cnf/v2\R_n503_k347\R_n503_k347_w31.cnf
+2026-01-18 18:57:12,976 | ERROR | Process-95 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 18:57:28,737 | RESULT | Process-95 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 18:57:29,031 | INFO | MainProcess | Found a solution 31
+2026-01-18 18:57:29,031 | INFO | MainProcess | [Test k=347, w=31] Time: 20.97 seconds
+2026-01-18 18:57:29,088 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 18:57:32,822 | INFO | Process-96 | Number of variables: 349083
+2026-01-18 18:57:32,822 | INFO | Process-96 | Number of clauses: 2614333
+2026-01-18 18:57:32,822 | INFO | Process-96 | Real nums of clauses: 2614837
+2026-01-18 18:57:32,822 | INFO | Process-96 | Real nums of variables: 349082
+2026-01-18 18:57:34,436 | INFO | Process-96 | CNF written to cnf/v2\R_n503_k347\R_n503_k347_w32.cnf
+2026-01-18 18:57:34,436 | ERROR | Process-96 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 18:57:47,871 | RESULT | Process-96 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 18:57:48,069 | INFO | MainProcess | Found a solution 32
+2026-01-18 18:57:48,069 | INFO | MainProcess | [Test k=347, w=32] Time: 18.98 seconds
+2026-01-18 18:57:48,117 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 18:57:51,911 | INFO | Process-97 | Number of variables: 349083
+2026-01-18 18:57:51,911 | INFO | Process-97 | Number of clauses: 2614333
+2026-01-18 18:57:51,911 | INFO | Process-97 | Real nums of clauses: 2614837
+2026-01-18 18:57:51,911 | INFO | Process-97 | Real nums of variables: 349082
+2026-01-18 18:57:53,295 | INFO | Process-97 | CNF written to cnf/v2\R_n503_k347\R_n503_k347_w33.cnf
+2026-01-18 18:57:53,295 | ERROR | Process-97 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 18:58:11,209 | RESULT | Process-97 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 18:58:11,403 | INFO | MainProcess | Found a solution 33
+2026-01-18 18:58:11,403 | INFO | MainProcess | [Test k=347, w=33] Time: 23.29 seconds
+2026-01-18 18:58:11,444 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 18:58:14,697 | INFO | Process-98 | Number of variables: 349083
+2026-01-18 18:58:14,697 | INFO | Process-98 | Number of clauses: 2614333
+2026-01-18 18:58:14,697 | INFO | Process-98 | Real nums of clauses: 2614837
+2026-01-18 18:58:14,697 | INFO | Process-98 | Real nums of variables: 349082
+2026-01-18 18:58:16,058 | INFO | Process-98 | CNF written to cnf/v2\R_n503_k347\R_n503_k347_w34.cnf
+2026-01-18 18:58:16,058 | ERROR | Process-98 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 18:58:34,346 | RESULT | Process-98 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 18:58:34,592 | INFO | MainProcess | Found a solution 34
+2026-01-18 18:58:34,592 | INFO | MainProcess | [Test k=347, w=34] Time: 23.15 seconds
+2026-01-18 18:58:34,644 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 18:58:38,042 | INFO | Process-99 | Number of variables: 349083
+2026-01-18 18:58:38,042 | INFO | Process-99 | Number of clauses: 2614333
+2026-01-18 18:58:38,042 | INFO | Process-99 | Real nums of clauses: 2614837
+2026-01-18 18:58:38,042 | INFO | Process-99 | Real nums of variables: 349082
+2026-01-18 18:58:39,423 | INFO | Process-99 | CNF written to cnf/v2\R_n503_k347\R_n503_k347_w35.cnf
+2026-01-18 18:58:39,423 | ERROR | Process-99 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 18:58:59,304 | RESULT | Process-99 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 18:58:59,521 | INFO | MainProcess | Found a solution 35
+2026-01-18 18:58:59,522 | INFO | MainProcess | [Test k=347, w=35] Time: 24.88 seconds
+2026-01-18 18:58:59,577 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 18:59:02,923 | INFO | Process-100 | Number of variables: 349083
+2026-01-18 18:59:02,923 | INFO | Process-100 | Number of clauses: 2614333
+2026-01-18 18:59:02,923 | INFO | Process-100 | Real nums of clauses: 2614837
+2026-01-18 18:59:02,923 | INFO | Process-100 | Real nums of variables: 349082
+2026-01-18 18:59:04,296 | INFO | Process-100 | CNF written to cnf/v2\R_n503_k347\R_n503_k347_w36.cnf
+2026-01-18 18:59:04,296 | ERROR | Process-100 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 18:59:57,292 | RESULT | Process-100 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 18:59:57,537 | INFO | MainProcess | Found a solution 36
+2026-01-18 18:59:57,537 | INFO | MainProcess | [Test k=347, w=36] Time: 57.96 seconds
+2026-01-18 18:59:57,577 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 19:00:00,739 | INFO | Process-101 | Number of variables: 349083
+2026-01-18 19:00:00,739 | INFO | Process-101 | Number of clauses: 2614333
+2026-01-18 19:00:00,739 | INFO | Process-101 | Real nums of clauses: 2614837
+2026-01-18 19:00:00,739 | INFO | Process-101 | Real nums of variables: 349082
+2026-01-18 19:00:02,106 | INFO | Process-101 | CNF written to cnf/v2\R_n503_k347\R_n503_k347_w37.cnf
+2026-01-18 19:00:02,107 | ERROR | Process-101 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 19:00:34,971 | RESULT | Process-101 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 19:00:35,159 | INFO | MainProcess | Found a solution 37
+2026-01-18 19:00:35,159 | INFO | MainProcess | [Test k=347, w=37] Time: 37.58 seconds
+2026-01-18 19:00:35,205 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 19:00:38,482 | INFO | Process-102 | Number of variables: 349083
+2026-01-18 19:00:38,483 | INFO | Process-102 | Number of clauses: 2614333
+2026-01-18 19:00:38,483 | INFO | Process-102 | Real nums of clauses: 2614837
+2026-01-18 19:00:38,483 | INFO | Process-102 | Real nums of variables: 349082
+2026-01-18 19:00:39,936 | INFO | Process-102 | CNF written to cnf/v2\R_n503_k347\R_n503_k347_w38.cnf
+2026-01-18 19:00:39,936 | ERROR | Process-102 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 19:01:53,261 | RESULT | Process-102 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 19:01:53,482 | INFO | MainProcess | Found a solution 38
+2026-01-18 19:01:53,482 | INFO | MainProcess | [Test k=347, w=38] Time: 78.28 seconds
+2026-01-18 19:01:53,522 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 19:01:56,815 | INFO | Process-103 | Number of variables: 349083
+2026-01-18 19:01:56,815 | INFO | Process-103 | Number of clauses: 2614333
+2026-01-18 19:01:56,815 | INFO | Process-103 | Real nums of clauses: 2614837
+2026-01-18 19:01:56,815 | INFO | Process-103 | Real nums of variables: 349082
+2026-01-18 19:01:58,257 | INFO | Process-103 | CNF written to cnf/v2\R_n503_k347\R_n503_k347_w39.cnf
+2026-01-18 19:01:58,257 | ERROR | Process-103 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 19:04:03,086 | RESULT | Process-103 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 19:04:03,361 | INFO | MainProcess | Found a solution 39
+2026-01-18 19:04:03,361 | INFO | MainProcess | [Test k=347, w=39] Time: 129.84 seconds
+2026-01-18 19:04:03,426 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 19:04:06,759 | INFO | Process-104 | Number of variables: 349083
+2026-01-18 19:04:06,759 | INFO | Process-104 | Number of clauses: 2614333
+2026-01-18 19:04:06,759 | INFO | Process-104 | Real nums of clauses: 2614837
+2026-01-18 19:04:06,759 | INFO | Process-104 | Real nums of variables: 349082
+2026-01-18 19:04:08,352 | INFO | Process-104 | CNF written to cnf/v2\R_n503_k347\R_n503_k347_w40.cnf
+2026-01-18 19:04:08,352 | ERROR | Process-104 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 19:06:09,745 | RESULT | Process-104 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 19:06:10,001 | INFO | MainProcess | Found a solution 40
+2026-01-18 19:06:10,001 | INFO | MainProcess | [Test k=347, w=40] Time: 126.58 seconds
+2026-01-18 19:06:10,064 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 19:06:13,569 | INFO | Process-105 | Number of variables: 349083
+2026-01-18 19:06:13,569 | INFO | Process-105 | Number of clauses: 2614333
+2026-01-18 19:06:13,569 | INFO | Process-105 | Real nums of clauses: 2614837
+2026-01-18 19:06:13,569 | INFO | Process-105 | Real nums of variables: 349082
+2026-01-18 19:06:14,990 | INFO | Process-105 | CNF written to cnf/v2\R_n503_k347\R_n503_k347_w41.cnf
+2026-01-18 19:06:14,991 | ERROR | Process-105 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 19:08:23,087 | RESULT | Process-105 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 19:08:23,371 | INFO | MainProcess | Found a solution 41
+2026-01-18 19:08:23,371 | INFO | MainProcess | [Test k=347, w=41] Time: 133.31 seconds
+2026-01-18 19:08:23,436 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 19:08:26,678 | INFO | Process-106 | Number of variables: 349083
+2026-01-18 19:08:26,679 | INFO | Process-106 | Number of clauses: 2614333
+2026-01-18 19:08:26,679 | INFO | Process-106 | Real nums of clauses: 2614837
+2026-01-18 19:08:26,679 | INFO | Process-106 | Real nums of variables: 349082
+2026-01-18 19:08:28,076 | INFO | Process-106 | CNF written to cnf/v2\R_n503_k347\R_n503_k347_w42.cnf
+2026-01-18 19:08:28,076 | ERROR | Process-106 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 19:27:08,248 | INFO | MainProcess | No solution found 42
+2026-01-18 19:27:08,248 | INFO | MainProcess | [Test k=347, w=42] Time: 1124.81 seconds
+2026-01-18 19:27:08,346 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 19:27:08,347 | INFO | MainProcess | $$$$
+2026-01-18 19:27:08,347 | INFO | MainProcess | -41
+2026-01-18 19:27:08,347 | INFO | MainProcess | $$$$
+2026-01-18 19:27:08,347 | INFO | MainProcess | Time taken for R-dwt__503.mtx.rnd with k = 347: 1800.2946300506592 seconds
+2026-01-18 19:27:08,347 | INFO | MainProcess | Maximum width before timeout for R-dwt__503.mtx.rnd is 41
+2026-01-18 19:27:08,347 | INFO | MainProcess | time out
+2026-01-18 19:27:13,890 | INFO | Process-107 | Number of variables: 351625
+2026-01-18 19:27:13,890 | INFO | Process-107 | Number of clauses: 1566082
+2026-01-18 19:27:13,890 | INFO | Process-107 | Real nums of clauses: 1566629
+2026-01-18 19:27:13,890 | INFO | Process-107 | Real nums of variables: 351624
+2026-01-18 19:27:15,012 | INFO | Process-107 | CNF written to cnf/v2\S_n546_k322\S_n546_k322_w151.cnf
+2026-01-18 19:27:15,012 | ERROR | Process-107 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 19:48:18,514 | RESULT | Process-107 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 19:48:18,750 | INFO | MainProcess | Found a solution 151
+2026-01-18 19:48:18,750 | INFO | MainProcess | [Test k=322, w=151] Time: 1270.39 seconds
+2026-01-18 19:48:18,831 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 19:48:22,474 | INFO | Process-108 | Number of variables: 351625
+2026-01-18 19:48:22,475 | INFO | Process-108 | Number of clauses: 1566082
+2026-01-18 19:48:22,475 | INFO | Process-108 | Real nums of clauses: 1566629
+2026-01-18 19:48:22,475 | INFO | Process-108 | Real nums of variables: 351624
+2026-01-18 19:48:23,566 | INFO | Process-108 | CNF written to cnf/v2\S_n546_k322\S_n546_k322_w152.cnf
+2026-01-18 19:48:23,567 | ERROR | Process-108 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 19:52:32,613 | RESULT | Process-108 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 19:52:32,858 | INFO | MainProcess | Found a solution 152
+2026-01-18 19:52:32,858 | INFO | MainProcess | [Test k=322, w=152] Time: 254.03 seconds
+2026-01-18 19:52:32,940 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 19:52:36,495 | INFO | Process-109 | Number of variables: 351625
+2026-01-18 19:52:36,496 | INFO | Process-109 | Number of clauses: 1566082
+2026-01-18 19:52:36,496 | INFO | Process-109 | Real nums of clauses: 1566629
+2026-01-18 19:52:36,496 | INFO | Process-109 | Real nums of variables: 351624
+2026-01-18 19:52:37,625 | INFO | Process-109 | CNF written to cnf/v2\S_n546_k322\S_n546_k322_w153.cnf
+2026-01-18 19:52:37,626 | ERROR | Process-109 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 19:57:08,496 | INFO | MainProcess | No solution found 153
+2026-01-18 19:57:08,497 | INFO | MainProcess | [Test k=322, w=153] Time: 275.56 seconds
+2026-01-18 19:57:08,578 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 19:57:08,579 | INFO | MainProcess | $$$$
+2026-01-18 19:57:08,579 | INFO | MainProcess | -152
+2026-01-18 19:57:08,579 | INFO | MainProcess | $$$$
+2026-01-18 19:57:08,579 | INFO | MainProcess | Time taken for S-sherman4.mtx.rnd with k = 322: 1800.232186794281 seconds
+2026-01-18 19:57:08,579 | INFO | MainProcess | Maximum width before timeout for S-sherman4.mtx.rnd is 152
+2026-01-18 19:57:08,579 | INFO | MainProcess | time out
+2026-01-18 19:57:13,750 | INFO | Process-110 | Number of variables: 447553
+2026-01-18 19:57:13,750 | INFO | Process-110 | Number of clauses: 2599834
+2026-01-18 19:57:13,750 | INFO | Process-110 | Real nums of clauses: 2600427
+2026-01-18 19:57:13,750 | INFO | Process-110 | Real nums of variables: 447552
+2026-01-18 19:57:15,689 | INFO | Process-110 | CNF written to cnf/v2\T_n592_k378\T_n592_k378_w65.cnf
+2026-01-18 19:57:15,689 | ERROR | Process-110 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 19:59:20,920 | RESULT | Process-110 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 19:59:21,227 | INFO | MainProcess | Found a solution 65
+2026-01-18 19:59:21,227 | INFO | MainProcess | [Test k=378, w=65] Time: 132.64 seconds
+2026-01-18 19:59:21,303 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 19:59:25,986 | INFO | Process-111 | Number of variables: 447553
+2026-01-18 19:59:25,986 | INFO | Process-111 | Number of clauses: 2599834
+2026-01-18 19:59:25,987 | INFO | Process-111 | Real nums of clauses: 2600427
+2026-01-18 19:59:25,987 | INFO | Process-111 | Real nums of variables: 447552
+2026-01-18 19:59:27,829 | INFO | Process-111 | CNF written to cnf/v2\T_n592_k378\T_n592_k378_w66.cnf
+2026-01-18 19:59:27,829 | ERROR | Process-111 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 20:00:43,443 | RESULT | Process-111 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 20:00:43,795 | INFO | MainProcess | Found a solution 66
+2026-01-18 20:00:43,795 | INFO | MainProcess | [Test k=378, w=66] Time: 82.49 seconds
+2026-01-18 20:00:43,989 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 20:00:49,355 | INFO | Process-112 | Number of variables: 447553
+2026-01-18 20:00:49,355 | INFO | Process-112 | Number of clauses: 2599834
+2026-01-18 20:00:49,355 | INFO | Process-112 | Real nums of clauses: 2600427
+2026-01-18 20:00:49,355 | INFO | Process-112 | Real nums of variables: 447552
+2026-01-18 20:00:51,278 | INFO | Process-112 | CNF written to cnf/v2\T_n592_k378\T_n592_k378_w67.cnf
+2026-01-18 20:00:51,278 | ERROR | Process-112 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 20:03:10,972 | RESULT | Process-112 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 20:03:11,326 | INFO | MainProcess | Found a solution 67
+2026-01-18 20:03:11,326 | INFO | MainProcess | [Test k=378, w=67] Time: 147.34 seconds
+2026-01-18 20:03:11,398 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 20:03:16,707 | INFO | Process-113 | Number of variables: 447553
+2026-01-18 20:03:16,707 | INFO | Process-113 | Number of clauses: 2599834
+2026-01-18 20:03:16,707 | INFO | Process-113 | Real nums of clauses: 2600427
+2026-01-18 20:03:16,707 | INFO | Process-113 | Real nums of variables: 447552
+2026-01-18 20:03:18,634 | INFO | Process-113 | CNF written to cnf/v2\T_n592_k378\T_n592_k378_w68.cnf
+2026-01-18 20:03:18,635 | ERROR | Process-113 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 20:11:52,783 | RESULT | Process-113 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 20:11:53,174 | INFO | MainProcess | Found a solution 68
+2026-01-18 20:11:53,174 | INFO | MainProcess | [Test k=378, w=68] Time: 521.78 seconds
+2026-01-18 20:11:53,253 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 20:11:58,678 | INFO | Process-114 | Number of variables: 447553
+2026-01-18 20:11:58,678 | INFO | Process-114 | Number of clauses: 2599834
+2026-01-18 20:11:58,678 | INFO | Process-114 | Real nums of clauses: 2600427
+2026-01-18 20:11:58,679 | INFO | Process-114 | Real nums of variables: 447552
+2026-01-18 20:12:00,638 | INFO | Process-114 | CNF written to cnf/v2\T_n592_k378\T_n592_k378_w69.cnf
+2026-01-18 20:12:00,638 | ERROR | Process-114 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 20:19:34,788 | RESULT | Process-114 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 20:19:35,139 | INFO | MainProcess | Found a solution 69
+2026-01-18 20:19:35,141 | INFO | MainProcess | [Test k=378, w=69] Time: 461.89 seconds
+2026-01-18 20:19:35,219 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 20:19:40,854 | INFO | Process-115 | Number of variables: 447553
+2026-01-18 20:19:40,855 | INFO | Process-115 | Number of clauses: 2599834
+2026-01-18 20:19:40,855 | INFO | Process-115 | Real nums of clauses: 2600427
+2026-01-18 20:19:40,855 | INFO | Process-115 | Real nums of variables: 447552
+2026-01-18 20:19:42,818 | INFO | Process-115 | CNF written to cnf/v2\T_n592_k378\T_n592_k378_w70.cnf
+2026-01-18 20:19:42,818 | ERROR | Process-115 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 20:27:08,755 | INFO | MainProcess | No solution found 70
+2026-01-18 20:27:08,756 | INFO | MainProcess | [Test k=378, w=70] Time: 453.54 seconds
+2026-01-18 20:27:08,835 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 20:27:08,835 | INFO | MainProcess | $$$$
+2026-01-18 20:27:08,835 | INFO | MainProcess | -69
+2026-01-18 20:27:08,835 | INFO | MainProcess | $$$$
+2026-01-18 20:27:08,835 | INFO | MainProcess | Time taken for T-dwt__592.mtx.rnd with k = 378: 1800.2561166286469 seconds
+2026-01-18 20:27:08,835 | INFO | MainProcess | Maximum width before timeout for T-dwt__592.mtx.rnd is 69
+2026-01-18 20:27:08,835 | INFO | MainProcess | time out
+2026-01-18 20:27:13,604 | INFO | Process-116 | Number of variables: 683185
+2026-01-18 20:27:13,604 | INFO | Process-116 | Number of clauses: 2300552
+2026-01-18 20:27:13,604 | INFO | Process-116 | Real nums of clauses: 2301215
+2026-01-18 20:27:13,604 | INFO | Process-116 | Real nums of variables: 683184
+2026-01-18 20:27:15,291 | INFO | Process-116 | CNF written to cnf/v2\U_n662_k516\U_n662_k516_w170.cnf
+2026-01-18 20:27:15,291 | ERROR | Process-116 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 20:36:25,086 | RESULT | Process-116 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 20:36:25,408 | INFO | MainProcess | Found a solution 170
+2026-01-18 20:36:25,409 | INFO | MainProcess | [Test k=516, w=170] Time: 556.56 seconds
+2026-01-18 20:36:25,482 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 20:36:30,054 | INFO | Process-117 | Number of variables: 683185
+2026-01-18 20:36:30,055 | INFO | Process-117 | Number of clauses: 2300552
+2026-01-18 20:36:30,055 | INFO | Process-117 | Real nums of clauses: 2301215
+2026-01-18 20:36:30,055 | INFO | Process-117 | Real nums of variables: 683184
+2026-01-18 20:36:31,661 | INFO | Process-117 | CNF written to cnf/v2\U_n662_k516\U_n662_k516_w171.cnf
+2026-01-18 20:36:31,661 | ERROR | Process-117 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 20:41:14,836 | RESULT | Process-117 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 20:41:15,125 | INFO | MainProcess | Found a solution 171
+2026-01-18 20:41:15,125 | INFO | MainProcess | [Test k=516, w=171] Time: 289.64 seconds
+2026-01-18 20:41:15,201 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 20:41:19,805 | INFO | Process-118 | Number of variables: 683185
+2026-01-18 20:41:19,805 | INFO | Process-118 | Number of clauses: 2300552
+2026-01-18 20:41:19,805 | INFO | Process-118 | Real nums of clauses: 2301215
+2026-01-18 20:41:19,805 | INFO | Process-118 | Real nums of variables: 683184
+2026-01-18 20:41:21,434 | INFO | Process-118 | CNF written to cnf/v2\U_n662_k516\U_n662_k516_w172.cnf
+2026-01-18 20:41:21,434 | ERROR | Process-118 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 20:41:21,845 | RESULT | Process-118 | No solution exists
+2026-01-18 20:41:21,845 | RESULT | Process-118 | Time taken: 5.883267402648926 seconds
+2026-01-18 20:41:22,401 | INFO | MainProcess | No solution found 172
+2026-01-18 20:41:22,401 | INFO | MainProcess | [Test k=516, w=172] Time: 7.2 seconds
+2026-01-18 20:41:22,470 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 20:41:22,471 | INFO | MainProcess | $$$$
+2026-01-18 20:41:22,471 | INFO | MainProcess | 171
+2026-01-18 20:41:22,471 | INFO | MainProcess | $$$$
+2026-01-18 20:41:22,471 | INFO | MainProcess | Time taken for U-662_bus.mtx.rnd with k = 516: 853.6360459327698 seconds
+2026-01-18 20:41:22,471 | INFO | MainProcess | Maximum width for U-662_bus.mtx.rnd is 171
+2026-01-18 20:41:26,946 | INFO | Process-119 | Number of variables: 546751
+2026-01-18 20:41:26,946 | INFO | Process-119 | Number of clauses: 2137455
+2026-01-18 20:41:26,946 | INFO | Process-119 | Real nums of clauses: 2138131
+2026-01-18 20:41:26,946 | INFO | Process-119 | Real nums of variables: 546750
+2026-01-18 20:41:28,384 | INFO | Process-119 | CNF written to cnf/v2\V_n675_k405\V_n675_k405_w195.cnf
+2026-01-18 20:41:28,384 | ERROR | Process-119 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 21:11:22,638 | INFO | MainProcess | No solution found 195
+2026-01-18 21:11:22,639 | INFO | MainProcess | [Test k=405, w=195] Time: 1800.16 seconds
+2026-01-18 21:11:22,728 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 21:11:22,728 | INFO | MainProcess | $$$$
+2026-01-18 21:11:22,728 | INFO | MainProcess | -9999
+2026-01-18 21:11:22,728 | INFO | MainProcess | $$$$
+2026-01-18 21:11:22,728 | INFO | MainProcess | Time taken for V-nos6.mtx.rnd with k = 405: 1800.257206439972 seconds
+2026-01-18 21:11:22,728 | INFO | MainProcess | No answer before timeout for V-nos6.mtx.rnd
+2026-01-18 21:11:22,728 | INFO | MainProcess | time out
+2026-01-18 21:11:27,510 | INFO | Process-120 | Number of variables: 543891
+2026-01-18 21:11:27,510 | INFO | Process-120 | Number of clauses: 2104715
+2026-01-18 21:11:27,511 | INFO | Process-120 | Real nums of clauses: 2105401
+2026-01-18 21:11:27,511 | INFO | Process-120 | Real nums of variables: 543890
+2026-01-18 21:11:29,078 | INFO | Process-120 | CNF written to cnf/v2\W_n685_k397\W_n685_k397_w78.cnf
+2026-01-18 21:11:29,078 | ERROR | Process-120 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 21:12:23,353 | RESULT | Process-120 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 21:12:23,700 | INFO | MainProcess | Found a solution 78
+2026-01-18 21:12:23,700 | INFO | MainProcess | [Test k=397, w=78] Time: 60.96 seconds
+2026-01-18 21:12:23,777 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 21:12:28,209 | INFO | Process-121 | Number of variables: 543891
+2026-01-18 21:12:28,209 | INFO | Process-121 | Number of clauses: 2104715
+2026-01-18 21:12:28,209 | INFO | Process-121 | Real nums of clauses: 2105401
+2026-01-18 21:12:28,209 | INFO | Process-121 | Real nums of variables: 543890
+2026-01-18 21:12:29,703 | INFO | Process-121 | CNF written to cnf/v2\W_n685_k397\W_n685_k397_w79.cnf
+2026-01-18 21:12:29,703 | ERROR | Process-121 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 21:13:34,510 | RESULT | Process-121 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 21:13:34,810 | INFO | MainProcess | Found a solution 79
+2026-01-18 21:13:34,810 | INFO | MainProcess | [Test k=397, w=79] Time: 71.03 seconds
+2026-01-18 21:13:34,881 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 21:13:39,149 | INFO | Process-122 | Number of variables: 543891
+2026-01-18 21:13:39,151 | INFO | Process-122 | Number of clauses: 2104715
+2026-01-18 21:13:39,151 | INFO | Process-122 | Real nums of clauses: 2105401
+2026-01-18 21:13:39,151 | INFO | Process-122 | Real nums of variables: 543890
+2026-01-18 21:13:40,638 | INFO | Process-122 | CNF written to cnf/v2\W_n685_k397\W_n685_k397_w80.cnf
+2026-01-18 21:13:40,638 | ERROR | Process-122 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 21:13:42,281 | RESULT | Process-122 | No solution exists
+2026-01-18 21:13:42,281 | RESULT | Process-122 | Time taken: 6.636727333068848 seconds
+2026-01-18 21:13:42,574 | INFO | MainProcess | No solution found 80
+2026-01-18 21:13:42,574 | INFO | MainProcess | [Test k=397, w=80] Time: 7.69 seconds
+2026-01-18 21:13:42,714 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 21:13:42,715 | INFO | MainProcess | $$$$
+2026-01-18 21:13:42,715 | INFO | MainProcess | 79
+2026-01-18 21:13:42,715 | INFO | MainProcess | $$$$
+2026-01-18 21:13:42,715 | INFO | MainProcess | Time taken for W-685_bus.mtx.rnd with k = 397: 139.986554145813 seconds
+2026-01-18 21:13:42,715 | INFO | MainProcess | Maximum width for W-685_bus.mtx.rnd is 79
+2026-01-18 21:13:51,336 | INFO | Process-123 | Number of variables: 715001
+2026-01-18 21:13:51,337 | INFO | Process-123 | Number of clauses: 4404070
+2026-01-18 21:13:51,337 | INFO | Process-123 | Real nums of clauses: 4404786
+2026-01-18 21:13:51,337 | INFO | Process-123 | Real nums of variables: 715000
+2026-01-18 21:13:54,527 | INFO | Process-123 | CNF written to cnf/v2\X_n715_k500\X_n715_k500_w78.cnf
+2026-01-18 21:13:54,527 | ERROR | Process-123 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 21:25:52,931 | RESULT | Process-123 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 21:25:53,546 | INFO | MainProcess | Found a solution 78
+2026-01-18 21:25:53,546 | INFO | MainProcess | [Test k=500, w=78] Time: 730.81 seconds
+2026-01-18 21:25:53,623 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 21:26:02,545 | INFO | Process-124 | Number of variables: 715001
+2026-01-18 21:26:02,545 | INFO | Process-124 | Number of clauses: 4404070
+2026-01-18 21:26:02,545 | INFO | Process-124 | Real nums of clauses: 4404786
+2026-01-18 21:26:02,545 | INFO | Process-124 | Real nums of variables: 715000
+2026-01-18 21:26:05,935 | INFO | Process-124 | CNF written to cnf/v2\X_n715_k500\X_n715_k500_w79.cnf
+2026-01-18 21:26:05,935 | ERROR | Process-124 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 21:40:09,823 | RESULT | Process-124 | [VALIDATE][PYSAT] True | VALID SOLUTION
+2026-01-18 21:40:10,391 | INFO | MainProcess | Found a solution 79
+2026-01-18 21:40:10,393 | INFO | MainProcess | [Test k=500, w=79] Time: 856.77 seconds
+2026-01-18 21:40:10,471 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 21:40:19,212 | INFO | Process-125 | Number of variables: 715001
+2026-01-18 21:40:19,213 | INFO | Process-125 | Number of clauses: 4404070
+2026-01-18 21:40:19,213 | INFO | Process-125 | Real nums of clauses: 4404786
+2026-01-18 21:40:19,213 | INFO | Process-125 | Real nums of variables: 715000
+2026-01-18 21:40:22,568 | INFO | Process-125 | CNF written to cnf/v2\X_n715_k500\X_n715_k500_w80.cnf
+2026-01-18 21:40:22,568 | ERROR | Process-125 | Some thing wrong with PAINLESS, Solving with PySAT...
+2026-01-18 21:43:43,664 | INFO | MainProcess | No solution found 80
+2026-01-18 21:43:43,664 | INFO | MainProcess | [Test k=500, w=80] Time: 213.19 seconds
+2026-01-18 21:43:43,762 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Cadical_NoSymmetry.xlsx
+2026-01-18 21:43:43,763 | INFO | MainProcess | $$$$
+2026-01-18 21:43:43,763 | INFO | MainProcess | -79
+2026-01-18 21:43:43,763 | INFO | MainProcess | $$$$
+2026-01-18 21:43:43,763 | INFO | MainProcess | Time taken for X-can__715.mtx.rnd with k = 500: 1801.04767203331 seconds
+2026-01-18 21:43:43,763 | INFO | MainProcess | Maximum width before timeout for X-can__715.mtx.rnd is 79
+2026-01-18 21:43:43,763 | INFO | MainProcess | time out

@@ -1,0 +1,9 @@
+2026-01-19 23:46:40,477 | INFO | MainProcess | === Start solve() ===
+2026-01-19 23:46:40,510 | INFO | Process-1 | Number of clauses before symmetry breaking: 1
+2026-01-19 23:46:40,511 | INFO | Process-1 | Number of clauses after symmetry breaking: 163
+2026-01-19 23:46:41,537 | INFO | Process-1 | Number of variables: 322089
+2026-01-19 23:46:41,537 | INFO | Process-1 | Number of clauses: 1022945
+2026-01-19 23:46:41,538 | INFO | Process-1 | Real nums of clauses: 1026243
+2026-01-19 23:46:41,538 | INFO | Process-1 | Real nums of variables: 322088
+2026-01-19 23:46:42,441 | INFO | Process-1 | CNF written to cnf/v2/Q_n494_k326/Q_n494_k326_w144.cnf
+2026-01-19 23:46:42,443 | INFO | Process-1 | [PAINLESS] Running: ./painless/build/release/painless_release -c=8 -solver=cccckkkk cnf/v2/Q_n494_k326/Q_n494_k326_w144.cnf

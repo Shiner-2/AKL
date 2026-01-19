@@ -1,0 +1,32 @@
+2026-01-18 23:18:44,621 | INFO | MainProcess | === Start solve() ===
+2026-01-18 23:18:44,644 | INFO | Process-1 | Number of clauses before symmetry breaking: 1
+2026-01-18 23:18:44,645 | INFO | Process-1 | Number of clauses after symmetry breaking: 202
+2026-01-18 23:18:46,536 | INFO | Process-1 | Number of variables: 546751
+2026-01-18 23:18:46,537 | INFO | Process-1 | Number of clauses: 2133416
+2026-01-18 23:18:46,537 | INFO | Process-1 | Real nums of clauses: 2138332
+2026-01-18 23:18:46,538 | INFO | Process-1 | Real nums of variables: 546750
+2026-01-18 23:18:49,962 | INFO | Process-1 | CNF written to cnf/v2/V_n675_k405/V_n675_k405_w195.cnf
+2026-01-18 23:18:49,963 | INFO | Process-1 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/V_n675_k405/V_n675_k405_w195.cnf
+2026-01-18 23:40:38,229 | INFO | Process-1 | [PAINLESS] status=SAT rc=10 time=1308.27s
+2026-01-18 23:40:38,231 | RESULT | Process-1 | [PAINLESS] result: status=SAT time=1308.27s rc=10
+2026-01-18 23:40:38,281 | RESULT | Process-1 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 23:40:38,519 | INFO | MainProcess | Found a solution 195
+2026-01-18 23:40:38,519 | INFO | MainProcess | [Test k=405, w=195] Time: 1313.89 seconds
+2026-01-18 23:40:40,614 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry_fix.xlsx
+2026-01-18 23:40:40,631 | INFO | Process-2 | Number of clauses before symmetry breaking: 1
+2026-01-18 23:40:40,631 | INFO | Process-2 | Number of clauses after symmetry breaking: 202
+2026-01-18 23:40:42,525 | INFO | Process-2 | Number of variables: 546751
+2026-01-18 23:40:42,526 | INFO | Process-2 | Number of clauses: 2133392
+2026-01-18 23:40:42,527 | INFO | Process-2 | Real nums of clauses: 2138332
+2026-01-18 23:40:42,527 | INFO | Process-2 | Real nums of variables: 546750
+2026-01-18 23:40:43,570 | INFO | Process-2 | CNF written to cnf/v2/V_n675_k405/V_n675_k405_w196.cnf
+2026-01-18 23:40:43,571 | INFO | Process-2 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/V_n675_k405/V_n675_k405_w196.cnf
+2026-01-18 23:49:14,991 | INFO | MainProcess | No solution found 196
+2026-01-18 23:49:14,992 | INFO | MainProcess | [Test k=405, w=196] Time: 514.38 seconds
+2026-01-18 23:49:15,064 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry_fix.xlsx
+2026-01-18 23:49:15,064 | INFO | MainProcess | $$$$
+2026-01-18 23:49:15,064 | INFO | MainProcess | -195
+2026-01-18 23:49:15,064 | INFO | MainProcess | $$$$
+2026-01-18 23:49:15,064 | INFO | MainProcess | Time taken for V-nos6.mtx.rnd with k = 405: 1830.4413957595825 seconds
+2026-01-18 23:49:15,064 | INFO | MainProcess | Maximum width before timeout for V-nos6.mtx.rnd is 195
+2026-01-18 23:49:15,065 | INFO | MainProcess | time out

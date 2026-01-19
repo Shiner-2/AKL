@@ -1,0 +1,1885 @@
+2026-01-18 01:17:37,321 | INFO | MainProcess | === Start solve() ===
+2026-01-18 01:17:37,340 | INFO | Process-1 | Number of variables: 1381
+2026-01-18 01:17:37,340 | INFO | Process-1 | Number of clauses: 7461
+2026-01-18 01:17:37,340 | INFO | Process-1 | Real nums of clauses: 7492
+2026-01-18 01:17:37,341 | INFO | Process-1 | Real nums of variables: 1380
+2026-01-18 01:17:37,361 | INFO | Process-1 | CNF written to cnf/v2/A_n30_k23/A_n30_k23_w4.cnf
+2026-01-18 01:17:37,365 | INFO | Process-1 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/A_n30_k23/A_n30_k23_w4.cnf
+2026-01-18 01:17:37,441 | INFO | Process-1 | [PAINLESS] status=SAT rc=10 time=0.08s
+2026-01-18 01:17:37,441 | RESULT | Process-1 | [PAINLESS] result: status=SAT time=0.08s rc=10
+2026-01-18 01:17:37,441 | RESULT | Process-1 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 01:17:37,443 | INFO | MainProcess | Found a solution 4
+2026-01-18 01:17:37,443 | INFO | MainProcess | [Test k=23, w=4] Time: 0.12 seconds
+2026-01-18 01:17:39,086 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 01:17:39,096 | INFO | Process-2 | Number of variables: 1381
+2026-01-18 01:17:39,096 | INFO | Process-2 | Number of clauses: 7461
+2026-01-18 01:17:39,096 | INFO | Process-2 | Real nums of clauses: 7492
+2026-01-18 01:17:39,096 | INFO | Process-2 | Real nums of variables: 1380
+2026-01-18 01:17:39,110 | INFO | Process-2 | CNF written to cnf/v2/A_n30_k23/A_n30_k23_w5.cnf
+2026-01-18 01:17:39,114 | INFO | Process-2 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/A_n30_k23/A_n30_k23_w5.cnf
+2026-01-18 01:17:39,165 | INFO | Process-2 | [PAINLESS] status=SAT rc=10 time=0.05s
+2026-01-18 01:17:39,165 | RESULT | Process-2 | [PAINLESS] result: status=SAT time=0.05s rc=10
+2026-01-18 01:17:39,165 | RESULT | Process-2 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 01:17:39,167 | INFO | MainProcess | Found a solution 5
+2026-01-18 01:17:39,167 | INFO | MainProcess | [Test k=23, w=5] Time: 0.08 seconds
+2026-01-18 01:17:39,198 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 01:17:39,208 | INFO | Process-3 | Number of variables: 1381
+2026-01-18 01:17:39,208 | INFO | Process-3 | Number of clauses: 7461
+2026-01-18 01:17:39,209 | INFO | Process-3 | Real nums of clauses: 7492
+2026-01-18 01:17:39,209 | INFO | Process-3 | Real nums of variables: 1380
+2026-01-18 01:17:39,222 | INFO | Process-3 | CNF written to cnf/v2/A_n30_k23/A_n30_k23_w6.cnf
+2026-01-18 01:17:39,226 | INFO | Process-3 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/A_n30_k23/A_n30_k23_w6.cnf
+2026-01-18 01:17:39,276 | INFO | Process-3 | [PAINLESS] status=UNSAT rc=20 time=0.05s
+2026-01-18 01:17:39,277 | RESULT | Process-3 | [PAINLESS] result: status=UNSAT time=0.05s rc=20
+2026-01-18 01:17:39,277 | RESULT | Process-3 | [PAINLESS] Shortcut: UNSAT at width=6
+2026-01-18 01:17:39,277 | RESULT | Process-3 | Time taken: 0.07657957077026367 seconds
+2026-01-18 01:17:39,279 | INFO | MainProcess | No solution found 6
+2026-01-18 01:17:39,279 | INFO | MainProcess | [Test k=23, w=6] Time: 0.08 seconds
+2026-01-18 01:17:39,295 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 01:17:39,295 | INFO | MainProcess | $$$$
+2026-01-18 01:17:39,295 | INFO | MainProcess | 5
+2026-01-18 01:17:39,295 | INFO | MainProcess | $$$$
+2026-01-18 01:17:39,295 | INFO | MainProcess | Time taken for A-pores_1.mtx.rnd with k = 23: 1.9724602699279785 seconds
+2026-01-18 01:17:39,295 | INFO | MainProcess | Maximum width for A-pores_1.mtx.rnd is 5
+2026-01-18 01:17:39,305 | INFO | Process-4 | Number of variables: 1153
+2026-01-18 01:17:39,305 | INFO | Process-4 | Number of clauses: 5498
+2026-01-18 01:17:39,305 | INFO | Process-4 | Real nums of clauses: 5531
+2026-01-18 01:17:39,306 | INFO | Process-4 | Real nums of variables: 1152
+2026-01-18 01:17:39,319 | INFO | Process-4 | CNF written to cnf/v2/B_n32_k18/B_n32_k18_w5.cnf
+2026-01-18 01:17:39,323 | INFO | Process-4 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/B_n32_k18/B_n32_k18_w5.cnf
+2026-01-18 01:17:39,371 | INFO | Process-4 | [PAINLESS] status=SAT rc=10 time=0.05s
+2026-01-18 01:17:39,371 | RESULT | Process-4 | [PAINLESS] result: status=SAT time=0.05s rc=10
+2026-01-18 01:17:39,371 | RESULT | Process-4 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 01:17:39,373 | INFO | MainProcess | Found a solution 5
+2026-01-18 01:17:39,373 | INFO | MainProcess | [Test k=18, w=5] Time: 0.08 seconds
+2026-01-18 01:17:39,390 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 01:17:39,398 | INFO | Process-5 | Number of variables: 1153
+2026-01-18 01:17:39,399 | INFO | Process-5 | Number of clauses: 5498
+2026-01-18 01:17:39,399 | INFO | Process-5 | Real nums of clauses: 5531
+2026-01-18 01:17:39,399 | INFO | Process-5 | Real nums of variables: 1152
+2026-01-18 01:17:39,410 | INFO | Process-5 | CNF written to cnf/v2/B_n32_k18/B_n32_k18_w6.cnf
+2026-01-18 01:17:39,414 | INFO | Process-5 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/B_n32_k18/B_n32_k18_w6.cnf
+2026-01-18 01:17:39,464 | INFO | Process-5 | [PAINLESS] status=UNSAT rc=20 time=0.05s
+2026-01-18 01:17:39,465 | RESULT | Process-5 | [PAINLESS] result: status=UNSAT time=0.05s rc=20
+2026-01-18 01:17:39,465 | RESULT | Process-5 | [PAINLESS] Shortcut: UNSAT at width=6
+2026-01-18 01:17:39,465 | RESULT | Process-5 | Time taken: 0.07320833206176758 seconds
+2026-01-18 01:17:39,467 | INFO | MainProcess | No solution found 6
+2026-01-18 01:17:39,467 | INFO | MainProcess | [Test k=18, w=6] Time: 0.08 seconds
+2026-01-18 01:17:39,486 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 01:17:39,486 | INFO | MainProcess | $$$$
+2026-01-18 01:17:39,486 | INFO | MainProcess | 5
+2026-01-18 01:17:39,486 | INFO | MainProcess | $$$$
+2026-01-18 01:17:39,486 | INFO | MainProcess | Time taken for B-ibm32.mtx.rnd with k = 18: 0.19107460975646973 seconds
+2026-01-18 01:17:39,487 | INFO | MainProcess | Maximum width for B-ibm32.mtx.rnd is 5
+2026-01-18 01:17:39,495 | INFO | Process-6 | Number of variables: 1639
+2026-01-18 01:17:39,495 | INFO | Process-6 | Number of clauses: 5151
+2026-01-18 01:17:39,496 | INFO | Process-6 | Real nums of clauses: 5191
+2026-01-18 01:17:39,496 | INFO | Process-6 | Real nums of variables: 1638
+2026-01-18 01:17:39,507 | INFO | Process-6 | CNF written to cnf/v2/C_n39_k21/C_n39_k21_w8.cnf
+2026-01-18 01:17:39,511 | INFO | Process-6 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/C_n39_k21/C_n39_k21_w8.cnf
+2026-01-18 01:17:39,559 | INFO | Process-6 | [PAINLESS] status=SAT rc=10 time=0.05s
+2026-01-18 01:17:39,560 | RESULT | Process-6 | [PAINLESS] result: status=SAT time=0.05s rc=10
+2026-01-18 01:17:39,560 | RESULT | Process-6 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 01:17:39,562 | INFO | MainProcess | Found a solution 8
+2026-01-18 01:17:39,562 | INFO | MainProcess | [Test k=21, w=8] Time: 0.07 seconds
+2026-01-18 01:17:39,578 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 01:17:39,586 | INFO | Process-7 | Number of variables: 1639
+2026-01-18 01:17:39,586 | INFO | Process-7 | Number of clauses: 5151
+2026-01-18 01:17:39,586 | INFO | Process-7 | Real nums of clauses: 5191
+2026-01-18 01:17:39,586 | INFO | Process-7 | Real nums of variables: 1638
+2026-01-18 01:17:39,598 | INFO | Process-7 | CNF written to cnf/v2/C_n39_k21/C_n39_k21_w9.cnf
+2026-01-18 01:17:39,602 | INFO | Process-7 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/C_n39_k21/C_n39_k21_w9.cnf
+2026-01-18 01:17:39,649 | INFO | Process-7 | [PAINLESS] status=SAT rc=10 time=0.05s
+2026-01-18 01:17:39,649 | RESULT | Process-7 | [PAINLESS] result: status=SAT time=0.05s rc=10
+2026-01-18 01:17:39,650 | RESULT | Process-7 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 01:17:39,652 | INFO | MainProcess | Found a solution 9
+2026-01-18 01:17:39,652 | INFO | MainProcess | [Test k=21, w=9] Time: 0.07 seconds
+2026-01-18 01:17:39,670 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 01:17:39,677 | INFO | Process-8 | Number of variables: 1639
+2026-01-18 01:17:39,678 | INFO | Process-8 | Number of clauses: 5151
+2026-01-18 01:17:39,678 | INFO | Process-8 | Real nums of clauses: 5191
+2026-01-18 01:17:39,678 | INFO | Process-8 | Real nums of variables: 1638
+2026-01-18 01:17:39,689 | INFO | Process-8 | CNF written to cnf/v2/C_n39_k21/C_n39_k21_w10.cnf
+2026-01-18 01:17:39,693 | INFO | Process-8 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/C_n39_k21/C_n39_k21_w10.cnf
+2026-01-18 01:17:39,741 | INFO | Process-8 | [PAINLESS] status=SAT rc=10 time=0.05s
+2026-01-18 01:17:39,741 | RESULT | Process-8 | [PAINLESS] result: status=SAT time=0.05s rc=10
+2026-01-18 01:17:39,742 | RESULT | Process-8 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 01:17:39,744 | INFO | MainProcess | Found a solution 10
+2026-01-18 01:17:39,744 | INFO | MainProcess | [Test k=21, w=10] Time: 0.07 seconds
+2026-01-18 01:17:39,763 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 01:17:39,772 | INFO | Process-9 | Number of variables: 1639
+2026-01-18 01:17:39,773 | INFO | Process-9 | Number of clauses: 4779
+2026-01-18 01:17:39,773 | INFO | Process-9 | Real nums of clauses: 5283
+2026-01-18 01:17:39,773 | INFO | Process-9 | Real nums of variables: 1638
+2026-01-18 01:17:39,784 | INFO | Process-9 | CNF written to cnf/v2/C_n39_k21/C_n39_k21_w11.cnf
+2026-01-18 01:17:39,789 | INFO | Process-9 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/C_n39_k21/C_n39_k21_w11.cnf
+2026-01-18 01:17:39,838 | INFO | Process-9 | [PAINLESS] status=UNSAT rc=20 time=0.05s
+2026-01-18 01:17:39,838 | RESULT | Process-9 | [PAINLESS] result: status=UNSAT time=0.05s rc=20
+2026-01-18 01:17:39,838 | RESULT | Process-9 | [PAINLESS] Shortcut: UNSAT at width=11
+2026-01-18 01:17:39,838 | RESULT | Process-9 | Time taken: 0.07257199287414551 seconds
+2026-01-18 01:17:39,840 | INFO | MainProcess | No solution found 11
+2026-01-18 01:17:39,840 | INFO | MainProcess | [Test k=21, w=11] Time: 0.08 seconds
+2026-01-18 01:17:39,857 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 01:17:39,857 | INFO | MainProcess | $$$$
+2026-01-18 01:17:39,857 | INFO | MainProcess | 10
+2026-01-18 01:17:39,857 | INFO | MainProcess | $$$$
+2026-01-18 01:17:39,857 | INFO | MainProcess | Time taken for C-bcspwr01.mtx.rnd with k = 21: 0.37070417404174805 seconds
+2026-01-18 01:17:39,858 | INFO | MainProcess | Maximum width for C-bcspwr01.mtx.rnd is 10
+2026-01-18 01:17:39,873 | INFO | Process-10 | Number of variables: 2785
+2026-01-18 01:17:39,873 | INFO | Process-10 | Number of clauses: 15709
+2026-01-18 01:17:39,873 | INFO | Process-10 | Real nums of clauses: 15758
+2026-01-18 01:17:39,873 | INFO | Process-10 | Real nums of variables: 2784
+2026-01-18 01:17:39,895 | INFO | Process-10 | CNF written to cnf/v2/D_n48_k29/D_n48_k29_w4.cnf
+2026-01-18 01:17:39,899 | INFO | Process-10 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/D_n48_k29/D_n48_k29_w4.cnf
+2026-01-18 01:17:39,954 | INFO | Process-10 | [PAINLESS] status=SAT rc=10 time=0.05s
+2026-01-18 01:17:39,954 | RESULT | Process-10 | [PAINLESS] result: status=SAT time=0.05s rc=10
+2026-01-18 01:17:39,954 | RESULT | Process-10 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 01:17:39,957 | INFO | MainProcess | Found a solution 4
+2026-01-18 01:17:39,957 | INFO | MainProcess | [Test k=29, w=4] Time: 0.1 seconds
+2026-01-18 01:17:39,973 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 01:17:39,986 | INFO | Process-11 | Number of variables: 2785
+2026-01-18 01:17:39,987 | INFO | Process-11 | Number of clauses: 15709
+2026-01-18 01:17:39,987 | INFO | Process-11 | Real nums of clauses: 15758
+2026-01-18 01:17:39,987 | INFO | Process-11 | Real nums of variables: 2784
+2026-01-18 01:17:40,009 | INFO | Process-11 | CNF written to cnf/v2/D_n48_k29/D_n48_k29_w5.cnf
+2026-01-18 01:17:40,013 | INFO | Process-11 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/D_n48_k29/D_n48_k29_w5.cnf
+2026-01-18 01:17:40,071 | INFO | Process-11 | [PAINLESS] status=SAT rc=10 time=0.06s
+2026-01-18 01:17:40,071 | RESULT | Process-11 | [PAINLESS] result: status=SAT time=0.06s rc=10
+2026-01-18 01:17:40,072 | RESULT | Process-11 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 01:17:40,074 | INFO | MainProcess | Found a solution 5
+2026-01-18 01:17:40,074 | INFO | MainProcess | [Test k=29, w=5] Time: 0.1 seconds
+2026-01-18 01:17:40,091 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 01:17:40,105 | INFO | Process-12 | Number of variables: 2785
+2026-01-18 01:17:40,105 | INFO | Process-12 | Number of clauses: 15709
+2026-01-18 01:17:40,105 | INFO | Process-12 | Real nums of clauses: 15758
+2026-01-18 01:17:40,106 | INFO | Process-12 | Real nums of variables: 2784
+2026-01-18 01:17:40,127 | INFO | Process-12 | CNF written to cnf/v2/D_n48_k29/D_n48_k29_w6.cnf
+2026-01-18 01:17:40,134 | INFO | Process-12 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/D_n48_k29/D_n48_k29_w6.cnf
+2026-01-18 01:17:40,201 | INFO | Process-12 | [PAINLESS] status=UNSAT rc=20 time=0.07s
+2026-01-18 01:17:40,201 | RESULT | Process-12 | [PAINLESS] result: status=UNSAT time=0.07s rc=20
+2026-01-18 01:17:40,201 | RESULT | Process-12 | [PAINLESS] Shortcut: UNSAT at width=6
+2026-01-18 01:17:40,202 | RESULT | Process-12 | Time taken: 0.10853290557861328 seconds
+2026-01-18 01:17:40,205 | INFO | MainProcess | No solution found 6
+2026-01-18 01:17:40,205 | INFO | MainProcess | [Test k=29, w=6] Time: 0.11 seconds
+2026-01-18 01:17:40,236 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 01:17:40,237 | INFO | MainProcess | $$$$
+2026-01-18 01:17:40,237 | INFO | MainProcess | 5
+2026-01-18 01:17:40,237 | INFO | MainProcess | $$$$
+2026-01-18 01:17:40,237 | INFO | MainProcess | Time taken for D-bcsstk01.mtx.rnd with k = 29: 0.3791050910949707 seconds
+2026-01-18 01:17:40,237 | INFO | MainProcess | Maximum width for D-bcsstk01.mtx.rnd is 5
+2026-01-18 01:17:40,250 | INFO | Process-13 | Number of variables: 3431
+2026-01-18 01:17:40,250 | INFO | Process-13 | Number of clauses: 10927
+2026-01-18 01:17:40,250 | INFO | Process-13 | Real nums of clauses: 10977
+2026-01-18 01:17:40,251 | INFO | Process-13 | Real nums of variables: 3430
+2026-01-18 01:17:40,271 | INFO | Process-13 | CNF written to cnf/v2/E_n49_k35/E_n49_k35_w15.cnf
+2026-01-18 01:17:40,277 | INFO | Process-13 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/E_n49_k35/E_n49_k35_w15.cnf
+2026-01-18 01:17:40,334 | INFO | Process-13 | [PAINLESS] status=SAT rc=10 time=0.06s
+2026-01-18 01:17:40,334 | RESULT | Process-13 | [PAINLESS] result: status=SAT time=0.06s rc=10
+2026-01-18 01:17:40,335 | RESULT | Process-13 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 01:17:40,337 | INFO | MainProcess | Found a solution 15
+2026-01-18 01:17:40,337 | INFO | MainProcess | [Test k=35, w=15] Time: 0.1 seconds
+2026-01-18 01:17:40,356 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 01:17:40,367 | INFO | Process-14 | Number of variables: 3431
+2026-01-18 01:17:40,367 | INFO | Process-14 | Number of clauses: 10927
+2026-01-18 01:17:40,367 | INFO | Process-14 | Real nums of clauses: 10977
+2026-01-18 01:17:40,368 | INFO | Process-14 | Real nums of variables: 3430
+2026-01-18 01:17:40,383 | INFO | Process-14 | CNF written to cnf/v2/E_n49_k35/E_n49_k35_w16.cnf
+2026-01-18 01:17:40,388 | INFO | Process-14 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/E_n49_k35/E_n49_k35_w16.cnf
+2026-01-18 01:17:40,440 | INFO | Process-14 | [PAINLESS] status=SAT rc=10 time=0.05s
+2026-01-18 01:17:40,441 | RESULT | Process-14 | [PAINLESS] result: status=SAT time=0.05s rc=10
+2026-01-18 01:17:40,441 | RESULT | Process-14 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 01:17:40,443 | INFO | MainProcess | Found a solution 16
+2026-01-18 01:17:40,444 | INFO | MainProcess | [Test k=35, w=16] Time: 0.09 seconds
+2026-01-18 01:17:40,461 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 01:17:40,472 | INFO | Process-15 | Number of variables: 3431
+2026-01-18 01:17:40,473 | INFO | Process-15 | Number of clauses: 10927
+2026-01-18 01:17:40,473 | INFO | Process-15 | Real nums of clauses: 10977
+2026-01-18 01:17:40,473 | INFO | Process-15 | Real nums of variables: 3430
+2026-01-18 01:17:40,488 | INFO | Process-15 | CNF written to cnf/v2/E_n49_k35/E_n49_k35_w17.cnf
+2026-01-18 01:17:40,492 | INFO | Process-15 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/E_n49_k35/E_n49_k35_w17.cnf
+2026-01-18 01:17:38,879 | INFO | Process-15 | [PAINLESS] status=SAT rc=10 time=-1.61s
+2026-01-18 01:17:38,879 | RESULT | Process-15 | [PAINLESS] result: status=SAT time=-1.61s rc=10
+2026-01-18 01:17:38,880 | RESULT | Process-15 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 01:17:38,882 | INFO | MainProcess | Found a solution 17
+2026-01-18 01:17:38,882 | INFO | MainProcess | [Test k=35, w=17] Time: -1.58 seconds
+2026-01-18 01:17:38,904 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 01:17:38,916 | INFO | Process-16 | Number of variables: 3431
+2026-01-18 01:17:38,916 | INFO | Process-16 | Number of clauses: 10537
+2026-01-18 01:17:38,916 | INFO | Process-16 | Real nums of clauses: 11095
+2026-01-18 01:17:38,917 | INFO | Process-16 | Real nums of variables: 3430
+2026-01-18 01:17:38,932 | INFO | Process-16 | CNF written to cnf/v2/E_n49_k35/E_n49_k35_w18.cnf
+2026-01-18 01:17:38,936 | INFO | Process-16 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/E_n49_k35/E_n49_k35_w18.cnf
+2026-01-18 01:17:38,994 | INFO | Process-16 | [PAINLESS] status=UNSAT rc=20 time=0.06s
+2026-01-18 01:17:38,994 | RESULT | Process-16 | [PAINLESS] result: status=UNSAT time=0.06s rc=20
+2026-01-18 01:17:38,994 | RESULT | Process-16 | [PAINLESS] Shortcut: UNSAT at width=18
+2026-01-18 01:17:38,994 | RESULT | Process-16 | Time taken: 0.08784246444702148 seconds
+2026-01-18 01:17:38,996 | INFO | MainProcess | No solution found 18
+2026-01-18 01:17:38,997 | INFO | MainProcess | [Test k=35, w=18] Time: 0.09 seconds
+2026-01-18 01:17:40,987 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 01:17:40,987 | INFO | MainProcess | $$$$
+2026-01-18 01:17:40,987 | INFO | MainProcess | 17
+2026-01-18 01:17:40,987 | INFO | MainProcess | $$$$
+2026-01-18 01:17:40,987 | INFO | MainProcess | Time taken for E-bcspwr02.mtx.rnd with k = 35: 0.7499971389770508 seconds
+2026-01-18 01:17:40,987 | INFO | MainProcess | Maximum width for E-bcspwr02.mtx.rnd is 17
+2026-01-18 01:17:41,001 | INFO | Process-17 | Number of variables: 3565
+2026-01-18 01:17:41,002 | INFO | Process-17 | Number of clauses: 15237
+2026-01-18 01:17:41,002 | INFO | Process-17 | Real nums of clauses: 15292
+2026-01-18 01:17:41,002 | INFO | Process-17 | Real nums of variables: 3564
+2026-01-18 01:17:41,019 | INFO | Process-17 | CNF written to cnf/v2/F_n54_k33/F_n54_k33_w7.cnf
+2026-01-18 01:17:41,023 | INFO | Process-17 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/F_n54_k33/F_n54_k33_w7.cnf
+2026-01-18 01:17:41,078 | INFO | Process-17 | [PAINLESS] status=SAT rc=10 time=0.05s
+2026-01-18 01:17:41,078 | RESULT | Process-17 | [PAINLESS] result: status=SAT time=0.05s rc=10
+2026-01-18 01:17:41,079 | RESULT | Process-17 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 01:17:41,081 | INFO | MainProcess | Found a solution 7
+2026-01-18 01:17:41,081 | INFO | MainProcess | [Test k=33, w=7] Time: 0.09 seconds
+2026-01-18 01:17:41,104 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 01:17:41,117 | INFO | Process-18 | Number of variables: 3565
+2026-01-18 01:17:41,117 | INFO | Process-18 | Number of clauses: 15237
+2026-01-18 01:17:41,117 | INFO | Process-18 | Real nums of clauses: 15292
+2026-01-18 01:17:41,118 | INFO | Process-18 | Real nums of variables: 3564
+2026-01-18 01:17:41,136 | INFO | Process-18 | CNF written to cnf/v2/F_n54_k33/F_n54_k33_w8.cnf
+2026-01-18 01:17:41,140 | INFO | Process-18 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/F_n54_k33/F_n54_k33_w8.cnf
+2026-01-18 01:17:41,198 | INFO | Process-18 | [PAINLESS] status=SAT rc=10 time=0.06s
+2026-01-18 01:17:41,198 | RESULT | Process-18 | [PAINLESS] result: status=SAT time=0.06s rc=10
+2026-01-18 01:17:41,198 | RESULT | Process-18 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 01:17:41,201 | INFO | MainProcess | Found a solution 8
+2026-01-18 01:17:41,201 | INFO | MainProcess | [Test k=33, w=8] Time: 0.1 seconds
+2026-01-18 01:17:41,220 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 01:17:41,234 | INFO | Process-19 | Number of variables: 3565
+2026-01-18 01:17:41,234 | INFO | Process-19 | Number of clauses: 15237
+2026-01-18 01:17:41,234 | INFO | Process-19 | Real nums of clauses: 15292
+2026-01-18 01:17:41,234 | INFO | Process-19 | Real nums of variables: 3564
+2026-01-18 01:17:41,253 | INFO | Process-19 | CNF written to cnf/v2/F_n54_k33/F_n54_k33_w9.cnf
+2026-01-18 01:17:41,257 | INFO | Process-19 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/F_n54_k33/F_n54_k33_w9.cnf
+2026-01-18 01:17:41,314 | INFO | Process-19 | [PAINLESS] status=UNSAT rc=20 time=0.06s
+2026-01-18 01:17:41,314 | RESULT | Process-19 | [PAINLESS] result: status=UNSAT time=0.06s rc=20
+2026-01-18 01:17:41,314 | RESULT | Process-19 | [PAINLESS] Shortcut: UNSAT at width=9
+2026-01-18 01:17:41,314 | RESULT | Process-19 | Time taken: 0.0921478271484375 seconds
+2026-01-18 01:17:41,317 | INFO | MainProcess | No solution found 9
+2026-01-18 01:17:41,317 | INFO | MainProcess | [Test k=33, w=9] Time: 0.1 seconds
+2026-01-18 01:17:41,336 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 01:17:41,336 | INFO | MainProcess | $$$$
+2026-01-18 01:17:41,336 | INFO | MainProcess | 8
+2026-01-18 01:17:41,336 | INFO | MainProcess | $$$$
+2026-01-18 01:17:41,337 | INFO | MainProcess | Time taken for F-curtis54.mtx.rnd with k = 33: 0.3493075370788574 seconds
+2026-01-18 01:17:41,337 | INFO | MainProcess | Maximum width for F-curtis54.mtx.rnd is 8
+2026-01-18 01:17:41,352 | INFO | Process-20 | Number of variables: 3535
+2026-01-18 01:17:41,353 | INFO | Process-20 | Number of clauses: 14859
+2026-01-18 01:17:41,353 | INFO | Process-20 | Real nums of clauses: 14917
+2026-01-18 01:17:41,353 | INFO | Process-20 | Real nums of variables: 3534
+2026-01-18 01:17:41,370 | INFO | Process-20 | CNF written to cnf/v2/G_n57_k31/G_n57_k31_w6.cnf
+2026-01-18 01:17:41,373 | INFO | Process-20 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/G_n57_k31/G_n57_k31_w6.cnf
+2026-01-18 01:17:41,509 | INFO | Process-20 | [PAINLESS] status=SAT rc=10 time=0.14s
+2026-01-18 01:17:41,509 | RESULT | Process-20 | [PAINLESS] result: status=SAT time=0.14s rc=10
+2026-01-18 01:17:41,510 | RESULT | Process-20 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 01:17:41,512 | INFO | MainProcess | Found a solution 6
+2026-01-18 01:17:41,512 | INFO | MainProcess | [Test k=31, w=6] Time: 0.17 seconds
+2026-01-18 01:17:41,530 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 01:17:41,544 | INFO | Process-21 | Number of variables: 3535
+2026-01-18 01:17:41,544 | INFO | Process-21 | Number of clauses: 14859
+2026-01-18 01:17:41,544 | INFO | Process-21 | Real nums of clauses: 14917
+2026-01-18 01:17:41,544 | INFO | Process-21 | Real nums of variables: 3534
+2026-01-18 01:17:41,560 | INFO | Process-21 | CNF written to cnf/v2/G_n57_k31/G_n57_k31_w7.cnf
+2026-01-18 01:17:41,564 | INFO | Process-21 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/G_n57_k31/G_n57_k31_w7.cnf
+2026-01-18 01:17:41,696 | INFO | Process-21 | [PAINLESS] status=SAT rc=10 time=0.13s
+2026-01-18 01:17:41,696 | RESULT | Process-21 | [PAINLESS] result: status=SAT time=0.13s rc=10
+2026-01-18 01:17:41,696 | RESULT | Process-21 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 01:17:41,699 | INFO | MainProcess | Found a solution 7
+2026-01-18 01:17:41,699 | INFO | MainProcess | [Test k=31, w=7] Time: 0.17 seconds
+2026-01-18 01:17:41,718 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 01:17:41,730 | INFO | Process-22 | Number of variables: 3535
+2026-01-18 01:17:41,730 | INFO | Process-22 | Number of clauses: 14859
+2026-01-18 01:17:41,731 | INFO | Process-22 | Real nums of clauses: 14917
+2026-01-18 01:17:41,731 | INFO | Process-22 | Real nums of variables: 3534
+2026-01-18 01:17:41,748 | INFO | Process-22 | CNF written to cnf/v2/G_n57_k31/G_n57_k31_w8.cnf
+2026-01-18 01:17:41,753 | INFO | Process-22 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/G_n57_k31/G_n57_k31_w8.cnf
+2026-01-18 01:17:41,881 | INFO | Process-22 | [PAINLESS] status=UNSAT rc=20 time=0.13s
+2026-01-18 01:17:41,881 | RESULT | Process-22 | [PAINLESS] result: status=UNSAT time=0.13s rc=20
+2026-01-18 01:17:41,881 | RESULT | Process-22 | [PAINLESS] Shortcut: UNSAT at width=8
+2026-01-18 01:17:41,882 | RESULT | Process-22 | Time taken: 0.16194987297058105 seconds
+2026-01-18 01:17:41,884 | INFO | MainProcess | No solution found 8
+2026-01-18 01:17:41,884 | INFO | MainProcess | [Test k=31, w=8] Time: 0.17 seconds
+2026-01-18 01:17:41,903 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 01:17:41,903 | INFO | MainProcess | $$$$
+2026-01-18 01:17:41,904 | INFO | MainProcess | 7
+2026-01-18 01:17:41,904 | INFO | MainProcess | $$$$
+2026-01-18 01:17:41,904 | INFO | MainProcess | Time taken for G-will57.mtx.rnd with k = 31: 0.5667955875396729 seconds
+2026-01-18 01:17:41,904 | INFO | MainProcess | Maximum width for G-will57.mtx.rnd is 7
+2026-01-18 01:17:41,925 | INFO | Process-23 | Number of variables: 4367
+2026-01-18 01:17:41,925 | INFO | Process-23 | Number of clauses: 29445
+2026-01-18 01:17:41,925 | INFO | Process-23 | Real nums of clauses: 29505
+2026-01-18 01:17:41,925 | INFO | Process-23 | Real nums of variables: 4366
+2026-01-18 01:17:41,953 | INFO | Process-23 | CNF written to cnf/v2/H_n59_k37/H_n59_k37_w5.cnf
+2026-01-18 01:17:41,958 | INFO | Process-23 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/H_n59_k37/H_n59_k37_w5.cnf
+2026-01-18 01:17:42,024 | INFO | Process-23 | [PAINLESS] status=SAT rc=10 time=0.07s
+2026-01-18 01:17:42,024 | RESULT | Process-23 | [PAINLESS] result: status=SAT time=0.07s rc=10
+2026-01-18 01:17:42,024 | RESULT | Process-23 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 01:17:42,027 | INFO | MainProcess | Found a solution 5
+2026-01-18 01:17:42,028 | INFO | MainProcess | [Test k=37, w=5] Time: 0.12 seconds
+2026-01-18 01:17:42,046 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 01:17:42,086 | INFO | Process-24 | Number of variables: 4367
+2026-01-18 01:17:42,087 | INFO | Process-24 | Number of clauses: 29445
+2026-01-18 01:17:42,087 | INFO | Process-24 | Real nums of clauses: 29505
+2026-01-18 01:17:42,087 | INFO | Process-24 | Real nums of variables: 4366
+2026-01-18 01:17:42,115 | INFO | Process-24 | CNF written to cnf/v2/H_n59_k37/H_n59_k37_w6.cnf
+2026-01-18 01:17:42,120 | INFO | Process-24 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/H_n59_k37/H_n59_k37_w6.cnf
+2026-01-18 01:17:42,246 | INFO | Process-24 | [PAINLESS] status=UNSAT rc=20 time=0.13s
+2026-01-18 01:17:42,246 | RESULT | Process-24 | [PAINLESS] result: status=UNSAT time=0.13s rc=20
+2026-01-18 01:17:42,246 | RESULT | Process-24 | [PAINLESS] Shortcut: UNSAT at width=6
+2026-01-18 01:17:42,246 | RESULT | Process-24 | Time taken: 0.19839787483215332 seconds
+2026-01-18 01:17:42,249 | INFO | MainProcess | No solution found 6
+2026-01-18 01:17:42,249 | INFO | MainProcess | [Test k=37, w=6] Time: 0.2 seconds
+2026-01-18 01:17:42,270 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 01:17:42,270 | INFO | MainProcess | $$$$
+2026-01-18 01:17:42,270 | INFO | MainProcess | 5
+2026-01-18 01:17:42,270 | INFO | MainProcess | $$$$
+2026-01-18 01:17:42,270 | INFO | MainProcess | Time taken for H-impcol_b.mtx.rnd with k = 37: 0.3664591312408447 seconds
+2026-01-18 01:17:42,271 | INFO | MainProcess | Maximum width for H-impcol_b.mtx.rnd is 5
+2026-01-18 01:17:42,323 | INFO | Process-25 | Number of variables: 11391
+2026-01-18 01:17:42,323 | INFO | Process-25 | Number of clauses: 52023
+2026-01-18 01:17:42,323 | INFO | Process-25 | Real nums of clauses: 52109
+2026-01-18 01:17:42,324 | INFO | Process-25 | Real nums of variables: 11390
+2026-01-18 01:17:42,357 | INFO | Process-25 | CNF written to cnf/v2/I_n85_k67/I_n85_k67_w15.cnf
+2026-01-18 01:17:42,361 | INFO | Process-25 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/I_n85_k67/I_n85_k67_w15.cnf
+2026-01-18 01:17:42,481 | INFO | Process-25 | [PAINLESS] status=SAT rc=10 time=0.12s
+2026-01-18 01:17:42,481 | RESULT | Process-25 | [PAINLESS] result: status=SAT time=0.12s rc=10
+2026-01-18 01:17:42,482 | RESULT | Process-25 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 01:17:42,486 | INFO | MainProcess | Found a solution 15
+2026-01-18 01:17:42,487 | INFO | MainProcess | [Test k=67, w=15] Time: 0.21 seconds
+2026-01-18 01:17:42,507 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 01:17:42,558 | INFO | Process-26 | Number of variables: 11391
+2026-01-18 01:17:42,558 | INFO | Process-26 | Number of clauses: 52023
+2026-01-18 01:17:42,559 | INFO | Process-26 | Real nums of clauses: 52109
+2026-01-18 01:17:42,559 | INFO | Process-26 | Real nums of variables: 11390
+2026-01-18 01:17:42,593 | INFO | Process-26 | CNF written to cnf/v2/I_n85_k67/I_n85_k67_w16.cnf
+2026-01-18 01:17:42,597 | INFO | Process-26 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/I_n85_k67/I_n85_k67_w16.cnf
+2026-01-18 01:17:42,888 | INFO | Process-26 | [PAINLESS] status=SAT rc=10 time=0.29s
+2026-01-18 01:17:42,888 | RESULT | Process-26 | [PAINLESS] result: status=SAT time=0.29s rc=10
+2026-01-18 01:17:42,889 | RESULT | Process-26 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 01:17:42,894 | INFO | MainProcess | Found a solution 16
+2026-01-18 01:17:42,894 | INFO | MainProcess | [Test k=67, w=16] Time: 0.39 seconds
+2026-01-18 01:17:42,912 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 01:17:42,963 | INFO | Process-27 | Number of variables: 11391
+2026-01-18 01:17:42,963 | INFO | Process-27 | Number of clauses: 52023
+2026-01-18 01:17:42,963 | INFO | Process-27 | Real nums of clauses: 52109
+2026-01-18 01:17:42,963 | INFO | Process-27 | Real nums of variables: 11390
+2026-01-18 01:17:42,995 | INFO | Process-27 | CNF written to cnf/v2/I_n85_k67/I_n85_k67_w17.cnf
+2026-01-18 01:17:42,999 | INFO | Process-27 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/I_n85_k67/I_n85_k67_w17.cnf
+2026-01-18 01:17:43,138 | INFO | Process-27 | [PAINLESS] status=SAT rc=10 time=0.14s
+2026-01-18 01:17:43,138 | RESULT | Process-27 | [PAINLESS] result: status=SAT time=0.14s rc=10
+2026-01-18 01:17:43,140 | RESULT | Process-27 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 01:17:43,144 | INFO | MainProcess | Found a solution 17
+2026-01-18 01:17:43,144 | INFO | MainProcess | [Test k=67, w=17] Time: 0.23 seconds
+2026-01-18 01:17:43,164 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 01:17:43,214 | INFO | Process-28 | Number of variables: 11391
+2026-01-18 01:17:43,215 | INFO | Process-28 | Number of clauses: 52023
+2026-01-18 01:17:43,215 | INFO | Process-28 | Real nums of clauses: 52109
+2026-01-18 01:17:43,215 | INFO | Process-28 | Real nums of variables: 11390
+2026-01-18 01:17:43,246 | INFO | Process-28 | CNF written to cnf/v2/I_n85_k67/I_n85_k67_w18.cnf
+2026-01-18 01:17:43,250 | INFO | Process-28 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/I_n85_k67/I_n85_k67_w18.cnf
+2026-01-18 01:17:43,530 | INFO | Process-28 | [PAINLESS] status=SAT rc=10 time=0.28s
+2026-01-18 01:17:43,530 | RESULT | Process-28 | [PAINLESS] result: status=SAT time=0.28s rc=10
+2026-01-18 01:17:43,532 | RESULT | Process-28 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 01:17:43,536 | INFO | MainProcess | Found a solution 18
+2026-01-18 01:17:43,537 | INFO | MainProcess | [Test k=67, w=18] Time: 0.37 seconds
+2026-01-18 01:17:43,556 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 01:17:43,606 | INFO | Process-29 | Number of variables: 11391
+2026-01-18 01:17:43,607 | INFO | Process-29 | Number of clauses: 52023
+2026-01-18 01:17:43,607 | INFO | Process-29 | Real nums of clauses: 52109
+2026-01-18 01:17:43,607 | INFO | Process-29 | Real nums of variables: 11390
+2026-01-18 01:17:43,643 | INFO | Process-29 | CNF written to cnf/v2/I_n85_k67/I_n85_k67_w19.cnf
+2026-01-18 01:17:43,647 | INFO | Process-29 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/I_n85_k67/I_n85_k67_w19.cnf
+2026-01-18 01:18:11,581 | INFO | Process-29 | [PAINLESS] status=SAT rc=10 time=27.93s
+2026-01-18 01:18:11,582 | RESULT | Process-29 | [PAINLESS] result: status=SAT time=27.93s rc=10
+2026-01-18 01:18:11,583 | RESULT | Process-29 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 01:18:11,587 | INFO | MainProcess | Found a solution 19
+2026-01-18 01:18:11,587 | INFO | MainProcess | [Test k=67, w=19] Time: 28.03 seconds
+2026-01-18 01:18:11,607 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 01:18:11,654 | INFO | Process-30 | Number of variables: 11391
+2026-01-18 01:18:11,655 | INFO | Process-30 | Number of clauses: 52023
+2026-01-18 01:18:11,655 | INFO | Process-30 | Real nums of clauses: 52109
+2026-01-18 01:18:11,655 | INFO | Process-30 | Real nums of variables: 11390
+2026-01-18 01:18:11,684 | INFO | Process-30 | CNF written to cnf/v2/I_n85_k67/I_n85_k67_w20.cnf
+2026-01-18 01:18:11,688 | INFO | Process-30 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/I_n85_k67/I_n85_k67_w20.cnf
+2026-01-18 01:49:54,500 | INFO | MainProcess | No solution found 20
+2026-01-18 01:49:54,505 | INFO | MainProcess | [Test k=67, w=20] Time: 1902.89 seconds
+2026-01-18 01:49:54,536 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 01:49:54,536 | INFO | MainProcess | $$$$
+2026-01-18 01:49:54,536 | INFO | MainProcess | -19
+2026-01-18 01:49:54,536 | INFO | MainProcess | $$$$
+2026-01-18 01:49:54,536 | INFO | MainProcess | Time taken for I-ash85.mtx.rnd with k = 67: 1932.2654466629028 seconds
+2026-01-18 01:49:54,536 | INFO | MainProcess | Maximum width before timeout for I-ash85.mtx.rnd is 19
+2026-01-18 01:49:54,536 | INFO | MainProcess | time out
+2026-01-18 01:49:54,595 | INFO | Process-31 | Number of variables: 11201
+2026-01-18 01:49:54,595 | INFO | Process-31 | Number of clauses: 49920
+2026-01-18 01:49:54,595 | INFO | Process-31 | Real nums of clauses: 50021
+2026-01-18 01:49:54,596 | INFO | Process-31 | Real nums of variables: 11200
+2026-01-18 01:49:54,637 | INFO | Process-31 | CNF written to cnf/v2/J_n100_k56/J_n100_k56_w17.cnf
+2026-01-18 01:49:54,638 | INFO | Process-31 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/J_n100_k56/J_n100_k56_w17.cnf
+2026-01-18 01:49:54,726 | INFO | Process-31 | [PAINLESS] status=SAT rc=10 time=0.09s
+2026-01-18 01:49:54,727 | RESULT | Process-31 | [PAINLESS] result: status=SAT time=0.09s rc=10
+2026-01-18 01:49:54,728 | RESULT | Process-31 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 01:49:54,733 | INFO | MainProcess | Found a solution 17
+2026-01-18 01:49:54,734 | INFO | MainProcess | [Test k=56, w=17] Time: 0.2 seconds
+2026-01-18 01:49:54,760 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 01:49:54,813 | INFO | Process-32 | Number of variables: 11201
+2026-01-18 01:49:54,813 | INFO | Process-32 | Number of clauses: 49920
+2026-01-18 01:49:54,813 | INFO | Process-32 | Real nums of clauses: 50021
+2026-01-18 01:49:54,813 | INFO | Process-32 | Real nums of variables: 11200
+2026-01-18 01:49:54,849 | INFO | Process-32 | CNF written to cnf/v2/J_n100_k56/J_n100_k56_w18.cnf
+2026-01-18 01:49:54,850 | INFO | Process-32 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/J_n100_k56/J_n100_k56_w18.cnf
+2026-01-18 01:49:54,989 | INFO | Process-32 | [PAINLESS] status=SAT rc=10 time=0.14s
+2026-01-18 01:49:54,989 | RESULT | Process-32 | [PAINLESS] result: status=SAT time=0.14s rc=10
+2026-01-18 01:49:54,991 | RESULT | Process-32 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 01:49:54,995 | INFO | MainProcess | Found a solution 18
+2026-01-18 01:49:54,996 | INFO | MainProcess | [Test k=56, w=18] Time: 0.24 seconds
+2026-01-18 01:49:55,020 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 01:49:55,074 | INFO | Process-33 | Number of variables: 11201
+2026-01-18 01:49:55,074 | INFO | Process-33 | Number of clauses: 49920
+2026-01-18 01:49:55,074 | INFO | Process-33 | Real nums of clauses: 50021
+2026-01-18 01:49:55,075 | INFO | Process-33 | Real nums of variables: 11200
+2026-01-18 01:49:55,107 | INFO | Process-33 | CNF written to cnf/v2/J_n100_k56/J_n100_k56_w19.cnf
+2026-01-18 01:49:55,108 | INFO | Process-33 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/J_n100_k56/J_n100_k56_w19.cnf
+2026-01-18 01:49:55,191 | INFO | Process-33 | [PAINLESS] status=SAT rc=10 time=0.08s
+2026-01-18 01:49:55,192 | RESULT | Process-33 | [PAINLESS] result: status=SAT time=0.08s rc=10
+2026-01-18 01:49:55,193 | RESULT | Process-33 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 01:49:55,198 | INFO | MainProcess | Found a solution 19
+2026-01-18 01:49:55,198 | INFO | MainProcess | [Test k=56, w=19] Time: 0.18 seconds
+2026-01-18 01:49:55,222 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 01:49:55,275 | INFO | Process-34 | Number of variables: 11201
+2026-01-18 01:49:55,276 | INFO | Process-34 | Number of clauses: 49920
+2026-01-18 01:49:55,276 | INFO | Process-34 | Real nums of clauses: 50021
+2026-01-18 01:49:55,276 | INFO | Process-34 | Real nums of variables: 11200
+2026-01-18 01:49:55,312 | INFO | Process-34 | CNF written to cnf/v2/J_n100_k56/J_n100_k56_w20.cnf
+2026-01-18 01:49:55,312 | INFO | Process-34 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/J_n100_k56/J_n100_k56_w20.cnf
+2026-01-18 01:49:55,396 | INFO | Process-34 | [PAINLESS] status=SAT rc=10 time=0.08s
+2026-01-18 01:49:55,396 | RESULT | Process-34 | [PAINLESS] result: status=SAT time=0.08s rc=10
+2026-01-18 01:49:55,397 | RESULT | Process-34 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 01:49:55,402 | INFO | MainProcess | Found a solution 20
+2026-01-18 01:49:55,403 | INFO | MainProcess | [Test k=56, w=20] Time: 0.18 seconds
+2026-01-18 01:49:55,427 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 01:49:55,479 | INFO | Process-35 | Number of variables: 11201
+2026-01-18 01:49:55,479 | INFO | Process-35 | Number of clauses: 49920
+2026-01-18 01:49:55,479 | INFO | Process-35 | Real nums of clauses: 50021
+2026-01-18 01:49:55,480 | INFO | Process-35 | Real nums of variables: 11200
+2026-01-18 01:49:55,510 | INFO | Process-35 | CNF written to cnf/v2/J_n100_k56/J_n100_k56_w21.cnf
+2026-01-18 01:49:55,511 | INFO | Process-35 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/J_n100_k56/J_n100_k56_w21.cnf
+2026-01-18 01:49:55,609 | INFO | Process-35 | [PAINLESS] status=SAT rc=10 time=0.10s
+2026-01-18 01:49:55,610 | RESULT | Process-35 | [PAINLESS] result: status=SAT time=0.10s rc=10
+2026-01-18 01:49:55,611 | RESULT | Process-35 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 01:49:55,616 | INFO | MainProcess | Found a solution 21
+2026-01-18 01:49:55,616 | INFO | MainProcess | [Test k=56, w=21] Time: 0.19 seconds
+2026-01-18 01:49:55,641 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 01:49:55,692 | INFO | Process-36 | Number of variables: 11201
+2026-01-18 01:49:55,692 | INFO | Process-36 | Number of clauses: 49920
+2026-01-18 01:49:55,693 | INFO | Process-36 | Real nums of clauses: 50021
+2026-01-18 01:49:55,693 | INFO | Process-36 | Real nums of variables: 11200
+2026-01-18 01:49:55,730 | INFO | Process-36 | CNF written to cnf/v2/J_n100_k56/J_n100_k56_w22.cnf
+2026-01-18 01:49:55,731 | INFO | Process-36 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/J_n100_k56/J_n100_k56_w22.cnf
+2026-01-18 01:50:01,478 | INFO | Process-36 | [PAINLESS] status=UNSAT rc=20 time=5.75s
+2026-01-18 01:50:01,479 | RESULT | Process-36 | [PAINLESS] result: status=UNSAT time=5.75s rc=20
+2026-01-18 01:50:01,479 | RESULT | Process-36 | [PAINLESS] Shortcut: UNSAT at width=22
+2026-01-18 01:50:01,479 | RESULT | Process-36 | Time taken: 5.836066246032715 seconds
+2026-01-18 01:50:01,484 | INFO | MainProcess | No solution found 22
+2026-01-18 01:50:01,484 | INFO | MainProcess | [Test k=56, w=22] Time: 5.84 seconds
+2026-01-18 01:50:01,508 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 01:50:01,508 | INFO | MainProcess | $$$$
+2026-01-18 01:50:01,508 | INFO | MainProcess | 21
+2026-01-18 01:50:01,508 | INFO | MainProcess | $$$$
+2026-01-18 01:50:01,508 | INFO | MainProcess | Time taken for J-nos4.mtx.rnd with k = 56: 6.97215461730957 seconds
+2026-01-18 01:50:01,509 | INFO | MainProcess | Maximum width for J-nos4.mtx.rnd is 21
+2026-01-18 01:50:01,568 | INFO | Process-37 | Number of variables: 18721
+2026-01-18 01:50:01,568 | INFO | Process-37 | Number of clauses: 63206
+2026-01-18 01:50:01,568 | INFO | Process-37 | Real nums of clauses: 63324
+2026-01-18 01:50:01,569 | INFO | Process-37 | Real nums of variables: 18720
+2026-01-18 01:50:01,613 | INFO | Process-37 | CNF written to cnf/v2/K_n117_k80/K_n117_k80_w31.cnf
+2026-01-18 01:50:01,614 | INFO | Process-37 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/K_n117_k80/K_n117_k80_w31.cnf
+2026-01-18 01:50:01,828 | INFO | Process-37 | [PAINLESS] status=SAT rc=10 time=0.21s
+2026-01-18 01:50:01,828 | RESULT | Process-37 | [PAINLESS] result: status=SAT time=0.21s rc=10
+2026-01-18 01:50:01,830 | RESULT | Process-37 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 01:50:01,836 | INFO | MainProcess | Found a solution 31
+2026-01-18 01:50:01,836 | INFO | MainProcess | [Test k=80, w=31] Time: 0.33 seconds
+2026-01-18 01:50:01,877 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 01:50:01,911 | INFO | Process-38 | Number of variables: 18721
+2026-01-18 01:50:01,911 | INFO | Process-38 | Number of clauses: 63206
+2026-01-18 01:50:01,912 | INFO | Process-38 | Real nums of clauses: 63324
+2026-01-18 01:50:01,912 | INFO | Process-38 | Real nums of variables: 18720
+2026-01-18 01:50:01,948 | INFO | Process-38 | CNF written to cnf/v2/K_n117_k80/K_n117_k80_w32.cnf
+2026-01-18 01:50:01,949 | INFO | Process-38 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/K_n117_k80/K_n117_k80_w32.cnf
+2026-01-18 01:50:02,086 | INFO | Process-38 | [PAINLESS] status=SAT rc=10 time=0.14s
+2026-01-18 01:50:02,086 | RESULT | Process-38 | [PAINLESS] result: status=SAT time=0.14s rc=10
+2026-01-18 01:50:02,088 | RESULT | Process-38 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 01:50:02,093 | INFO | MainProcess | Found a solution 32
+2026-01-18 01:50:02,094 | INFO | MainProcess | [Test k=80, w=32] Time: 0.22 seconds
+2026-01-18 01:50:02,123 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 01:50:02,157 | INFO | Process-39 | Number of variables: 18721
+2026-01-18 01:50:02,157 | INFO | Process-39 | Number of clauses: 63206
+2026-01-18 01:50:02,158 | INFO | Process-39 | Real nums of clauses: 63324
+2026-01-18 01:50:02,158 | INFO | Process-39 | Real nums of variables: 18720
+2026-01-18 01:50:02,200 | INFO | Process-39 | CNF written to cnf/v2/K_n117_k80/K_n117_k80_w33.cnf
+2026-01-18 01:50:02,200 | INFO | Process-39 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/K_n117_k80/K_n117_k80_w33.cnf
+2026-01-18 01:50:02,293 | INFO | Process-39 | [PAINLESS] status=SAT rc=10 time=0.09s
+2026-01-18 01:50:02,294 | RESULT | Process-39 | [PAINLESS] result: status=SAT time=0.09s rc=10
+2026-01-18 01:50:02,296 | RESULT | Process-39 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 01:50:02,302 | INFO | MainProcess | Found a solution 33
+2026-01-18 01:50:02,302 | INFO | MainProcess | [Test k=80, w=33] Time: 0.18 seconds
+2026-01-18 01:50:02,326 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 01:50:02,366 | INFO | Process-40 | Number of variables: 18721
+2026-01-18 01:50:02,366 | INFO | Process-40 | Number of clauses: 63206
+2026-01-18 01:50:02,366 | INFO | Process-40 | Real nums of clauses: 63324
+2026-01-18 01:50:02,367 | INFO | Process-40 | Real nums of variables: 18720
+2026-01-18 01:50:02,411 | INFO | Process-40 | CNF written to cnf/v2/K_n117_k80/K_n117_k80_w34.cnf
+2026-01-18 01:50:02,412 | INFO | Process-40 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/K_n117_k80/K_n117_k80_w34.cnf
+2026-01-18 01:50:02,666 | INFO | Process-40 | [PAINLESS] status=SAT rc=10 time=0.25s
+2026-01-18 01:50:02,667 | RESULT | Process-40 | [PAINLESS] result: status=SAT time=0.25s rc=10
+2026-01-18 01:50:02,669 | RESULT | Process-40 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 01:50:02,676 | INFO | MainProcess | Found a solution 34
+2026-01-18 01:50:02,676 | INFO | MainProcess | [Test k=80, w=34] Time: 0.35 seconds
+2026-01-18 01:50:02,702 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 01:50:02,737 | INFO | Process-41 | Number of variables: 18721
+2026-01-18 01:50:02,737 | INFO | Process-41 | Number of clauses: 63206
+2026-01-18 01:50:02,738 | INFO | Process-41 | Real nums of clauses: 63324
+2026-01-18 01:50:02,738 | INFO | Process-41 | Real nums of variables: 18720
+2026-01-18 01:50:02,773 | INFO | Process-41 | CNF written to cnf/v2/K_n117_k80/K_n117_k80_w35.cnf
+2026-01-18 01:50:02,774 | INFO | Process-41 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/K_n117_k80/K_n117_k80_w35.cnf
+2026-01-18 01:50:03,314 | INFO | Process-41 | [PAINLESS] status=SAT rc=10 time=0.54s
+2026-01-18 01:50:03,315 | RESULT | Process-41 | [PAINLESS] result: status=SAT time=0.54s rc=10
+2026-01-18 01:50:03,316 | RESULT | Process-41 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 01:50:03,322 | INFO | MainProcess | Found a solution 35
+2026-01-18 01:50:03,322 | INFO | MainProcess | [Test k=80, w=35] Time: 0.62 seconds
+2026-01-18 01:50:03,345 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 01:50:03,379 | INFO | Process-42 | Number of variables: 18721
+2026-01-18 01:50:03,379 | INFO | Process-42 | Number of clauses: 63206
+2026-01-18 01:50:03,379 | INFO | Process-42 | Real nums of clauses: 63324
+2026-01-18 01:50:03,380 | INFO | Process-42 | Real nums of variables: 18720
+2026-01-18 01:50:03,416 | INFO | Process-42 | CNF written to cnf/v2/K_n117_k80/K_n117_k80_w36.cnf
+2026-01-18 01:50:03,417 | INFO | Process-42 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/K_n117_k80/K_n117_k80_w36.cnf
+2026-01-18 01:50:03,517 | INFO | Process-42 | [PAINLESS] status=SAT rc=10 time=0.10s
+2026-01-18 01:50:03,517 | RESULT | Process-42 | [PAINLESS] result: status=SAT time=0.10s rc=10
+2026-01-18 01:50:03,520 | RESULT | Process-42 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 01:50:03,525 | INFO | MainProcess | Found a solution 36
+2026-01-18 01:50:03,526 | INFO | MainProcess | [Test k=80, w=36] Time: 0.18 seconds
+2026-01-18 01:50:03,550 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 01:50:03,586 | INFO | Process-43 | Number of variables: 18721
+2026-01-18 01:50:03,586 | INFO | Process-43 | Number of clauses: 63206
+2026-01-18 01:50:03,586 | INFO | Process-43 | Real nums of clauses: 63324
+2026-01-18 01:50:03,587 | INFO | Process-43 | Real nums of variables: 18720
+2026-01-18 01:50:03,633 | INFO | Process-43 | CNF written to cnf/v2/K_n117_k80/K_n117_k80_w37.cnf
+2026-01-18 01:50:03,634 | INFO | Process-43 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/K_n117_k80/K_n117_k80_w37.cnf
+2026-01-18 01:50:06,590 | INFO | Process-43 | [PAINLESS] status=SAT rc=10 time=2.96s
+2026-01-18 01:50:06,590 | RESULT | Process-43 | [PAINLESS] result: status=SAT time=2.96s rc=10
+2026-01-18 01:50:06,592 | RESULT | Process-43 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 01:50:06,598 | INFO | MainProcess | Found a solution 37
+2026-01-18 01:50:06,598 | INFO | MainProcess | [Test k=80, w=37] Time: 3.05 seconds
+2026-01-18 01:50:06,621 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 01:50:06,656 | INFO | Process-44 | Number of variables: 18721
+2026-01-18 01:50:06,657 | INFO | Process-44 | Number of clauses: 63206
+2026-01-18 01:50:06,657 | INFO | Process-44 | Real nums of clauses: 63324
+2026-01-18 01:50:06,657 | INFO | Process-44 | Real nums of variables: 18720
+2026-01-18 01:50:06,695 | INFO | Process-44 | CNF written to cnf/v2/K_n117_k80/K_n117_k80_w38.cnf
+2026-01-18 01:50:06,696 | INFO | Process-44 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/K_n117_k80/K_n117_k80_w38.cnf
+2026-01-18 01:50:20,788 | INFO | Process-44 | [PAINLESS] status=SAT rc=10 time=14.09s
+2026-01-18 01:50:20,788 | RESULT | Process-44 | [PAINLESS] result: status=SAT time=14.09s rc=10
+2026-01-18 01:50:20,790 | RESULT | Process-44 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 01:50:20,796 | INFO | MainProcess | Found a solution 38
+2026-01-18 01:50:20,796 | INFO | MainProcess | [Test k=80, w=38] Time: 14.17 seconds
+2026-01-18 01:50:20,824 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 01:50:20,860 | INFO | Process-45 | Number of variables: 18721
+2026-01-18 01:50:20,861 | INFO | Process-45 | Number of clauses: 63206
+2026-01-18 01:50:20,861 | INFO | Process-45 | Real nums of clauses: 63324
+2026-01-18 01:50:20,861 | INFO | Process-45 | Real nums of variables: 18720
+2026-01-18 01:50:20,899 | INFO | Process-45 | CNF written to cnf/v2/K_n117_k80/K_n117_k80_w39.cnf
+2026-01-18 01:50:20,899 | INFO | Process-45 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/K_n117_k80/K_n117_k80_w39.cnf
+2026-01-18 01:50:51,146 | INFO | Process-45 | [PAINLESS] status=SAT rc=10 time=30.25s
+2026-01-18 01:50:51,147 | RESULT | Process-45 | [PAINLESS] result: status=SAT time=30.25s rc=10
+2026-01-18 01:50:51,149 | RESULT | Process-45 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 01:50:51,154 | INFO | MainProcess | Found a solution 39
+2026-01-18 01:50:51,154 | INFO | MainProcess | [Test k=80, w=39] Time: 30.33 seconds
+2026-01-18 01:50:51,180 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 01:50:51,214 | INFO | Process-46 | Number of variables: 18721
+2026-01-18 01:50:51,215 | INFO | Process-46 | Number of clauses: 63206
+2026-01-18 01:50:51,215 | INFO | Process-46 | Real nums of clauses: 63324
+2026-01-18 01:50:51,215 | INFO | Process-46 | Real nums of variables: 18720
+2026-01-18 01:50:51,253 | INFO | Process-46 | CNF written to cnf/v2/K_n117_k80/K_n117_k80_w40.cnf
+2026-01-18 01:50:51,253 | INFO | Process-46 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/K_n117_k80/K_n117_k80_w40.cnf
+2026-01-18 01:50:51,343 | INFO | Process-46 | [PAINLESS] status=UNSAT rc=20 time=0.09s
+2026-01-18 01:50:51,344 | RESULT | Process-46 | [PAINLESS] result: status=UNSAT time=0.09s rc=20
+2026-01-18 01:50:51,344 | RESULT | Process-46 | [PAINLESS] Shortcut: UNSAT at width=40
+2026-01-18 01:50:51,345 | RESULT | Process-46 | Time taken: 0.1628704071044922 seconds
+2026-01-18 01:50:51,350 | INFO | MainProcess | No solution found 40
+2026-01-18 01:50:51,351 | INFO | MainProcess | [Test k=80, w=40] Time: 0.17 seconds
+2026-01-18 01:50:51,374 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 01:50:51,374 | INFO | MainProcess | $$$$
+2026-01-18 01:50:51,374 | INFO | MainProcess | 39
+2026-01-18 01:50:51,374 | INFO | MainProcess | $$$$
+2026-01-18 01:50:51,375 | INFO | MainProcess | Time taken for K-dwt__234.mtx.rnd with k = 80: 49.86598443984985 seconds
+2026-01-18 01:50:51,375 | INFO | MainProcess | Maximum width for K-dwt__234.mtx.rnd is 39
+2026-01-18 01:50:51,406 | INFO | Process-47 | Number of variables: 14633
+2026-01-18 01:50:51,407 | INFO | Process-47 | Number of clauses: 51286
+2026-01-18 01:50:51,407 | INFO | Process-47 | Real nums of clauses: 51405
+2026-01-18 01:50:51,407 | INFO | Process-47 | Real nums of variables: 14632
+2026-01-18 01:50:51,451 | INFO | Process-47 | CNF written to cnf/v2/L_n118_k62/L_n118_k62_w20.cnf
+2026-01-18 01:50:51,452 | INFO | Process-47 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/L_n118_k62/L_n118_k62_w20.cnf
+2026-01-18 01:50:51,537 | INFO | Process-47 | [PAINLESS] status=SAT rc=10 time=0.08s
+2026-01-18 01:50:51,537 | RESULT | Process-47 | [PAINLESS] result: status=SAT time=0.08s rc=10
+2026-01-18 01:50:51,539 | RESULT | Process-47 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 01:50:51,544 | INFO | MainProcess | Found a solution 20
+2026-01-18 01:50:51,544 | INFO | MainProcess | [Test k=62, w=20] Time: 0.17 seconds
+2026-01-18 01:50:51,570 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 01:50:51,604 | INFO | Process-48 | Number of variables: 14633
+2026-01-18 01:50:51,604 | INFO | Process-48 | Number of clauses: 51286
+2026-01-18 01:50:51,605 | INFO | Process-48 | Real nums of clauses: 51405
+2026-01-18 01:50:51,605 | INFO | Process-48 | Real nums of variables: 14632
+2026-01-18 01:50:51,643 | INFO | Process-48 | CNF written to cnf/v2/L_n118_k62/L_n118_k62_w21.cnf
+2026-01-18 01:50:51,644 | INFO | Process-48 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/L_n118_k62/L_n118_k62_w21.cnf
+2026-01-18 01:50:51,723 | INFO | Process-48 | [PAINLESS] status=UNSAT rc=20 time=0.08s
+2026-01-18 01:50:51,724 | RESULT | Process-48 | [PAINLESS] result: status=UNSAT time=0.08s rc=20
+2026-01-18 01:50:51,724 | RESULT | Process-48 | [PAINLESS] Shortcut: UNSAT at width=21
+2026-01-18 01:50:51,724 | RESULT | Process-48 | Time taken: 0.15183067321777344 seconds
+2026-01-18 01:50:51,730 | INFO | MainProcess | No solution found 21
+2026-01-18 01:50:51,731 | INFO | MainProcess | [Test k=62, w=21] Time: 0.16 seconds
+2026-01-18 01:50:51,755 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 01:50:51,755 | INFO | MainProcess | $$$$
+2026-01-18 01:50:51,755 | INFO | MainProcess | 20
+2026-01-18 01:50:51,756 | INFO | MainProcess | $$$$
+2026-01-18 01:50:51,756 | INFO | MainProcess | Time taken for L-bcspwr03.mtx.rnd with k = 62: 0.38071608543395996 seconds
+2026-01-18 01:50:51,756 | INFO | MainProcess | Maximum width for L-bcspwr03.mtx.rnd is 20
+2026-01-18 01:50:54,085 | INFO | Process-49 | Number of variables: 271321
+2026-01-18 01:50:54,085 | INFO | Process-49 | Number of clauses: 2945243
+2026-01-18 01:50:54,086 | INFO | Process-49 | Real nums of clauses: 2945664
+2026-01-18 01:50:54,086 | INFO | Process-49 | Real nums of variables: 271320
+2026-01-18 01:50:55,574 | INFO | Process-49 | CNF written to cnf/v2/M_n420_k323/M_n420_k323_w21.cnf
+2026-01-18 01:50:55,575 | INFO | Process-49 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/M_n420_k323/M_n420_k323_w21.cnf
+2026-01-18 01:51:02,993 | INFO | Process-49 | [PAINLESS] status=SAT rc=10 time=7.42s
+2026-01-18 01:51:02,993 | RESULT | Process-49 | [PAINLESS] result: status=SAT time=7.42s rc=10
+2026-01-18 01:51:03,017 | RESULT | Process-49 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 01:51:03,166 | INFO | MainProcess | Found a solution 21
+2026-01-18 01:51:03,167 | INFO | MainProcess | [Test k=323, w=21] Time: 11.41 seconds
+2026-01-18 01:51:03,192 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 01:51:05,489 | INFO | Process-50 | Number of variables: 271321
+2026-01-18 01:51:05,490 | INFO | Process-50 | Number of clauses: 2945243
+2026-01-18 01:51:05,490 | INFO | Process-50 | Real nums of clauses: 2945664
+2026-01-18 01:51:05,490 | INFO | Process-50 | Real nums of variables: 271320
+2026-01-18 01:51:06,959 | INFO | Process-50 | CNF written to cnf/v2/M_n420_k323/M_n420_k323_w22.cnf
+2026-01-18 01:51:06,959 | INFO | Process-50 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/M_n420_k323/M_n420_k323_w22.cnf
+2026-01-18 01:51:18,318 | INFO | Process-50 | [PAINLESS] status=SAT rc=10 time=11.36s
+2026-01-18 01:51:18,318 | RESULT | Process-50 | [PAINLESS] result: status=SAT time=11.36s rc=10
+2026-01-18 01:51:18,342 | RESULT | Process-50 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 01:51:18,503 | INFO | MainProcess | Found a solution 22
+2026-01-18 01:51:18,504 | INFO | MainProcess | [Test k=323, w=22] Time: 15.31 seconds
+2026-01-18 01:51:18,526 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 01:51:20,687 | INFO | Process-51 | Number of variables: 271321
+2026-01-18 01:51:20,687 | INFO | Process-51 | Number of clauses: 2945243
+2026-01-18 01:51:20,688 | INFO | Process-51 | Real nums of clauses: 2945664
+2026-01-18 01:51:20,688 | INFO | Process-51 | Real nums of variables: 271320
+2026-01-18 01:51:24,923 | INFO | Process-51 | CNF written to cnf/v2/M_n420_k323/M_n420_k323_w23.cnf
+2026-01-18 01:51:24,924 | INFO | Process-51 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/M_n420_k323/M_n420_k323_w23.cnf
+2026-01-18 01:51:51,819 | INFO | Process-51 | [PAINLESS] status=SAT rc=10 time=26.90s
+2026-01-18 01:51:51,820 | RESULT | Process-51 | [PAINLESS] result: status=SAT time=26.90s rc=10
+2026-01-18 01:51:51,844 | RESULT | Process-51 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 01:51:52,018 | INFO | MainProcess | Found a solution 23
+2026-01-18 01:51:52,018 | INFO | MainProcess | [Test k=323, w=23] Time: 33.49 seconds
+2026-01-18 01:51:52,044 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 01:51:54,313 | INFO | Process-52 | Number of variables: 271321
+2026-01-18 01:51:54,314 | INFO | Process-52 | Number of clauses: 2945243
+2026-01-18 01:51:54,314 | INFO | Process-52 | Real nums of clauses: 2945664
+2026-01-18 01:51:54,314 | INFO | Process-52 | Real nums of variables: 271320
+2026-01-18 01:51:55,796 | INFO | Process-52 | CNF written to cnf/v2/M_n420_k323/M_n420_k323_w24.cnf
+2026-01-18 01:51:55,797 | INFO | Process-52 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/M_n420_k323/M_n420_k323_w24.cnf
+2026-01-18 01:52:28,312 | INFO | Process-52 | [PAINLESS] status=SAT rc=10 time=32.52s
+2026-01-18 01:52:28,313 | RESULT | Process-52 | [PAINLESS] result: status=SAT time=32.52s rc=10
+2026-01-18 01:52:28,336 | RESULT | Process-52 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 01:52:28,553 | INFO | MainProcess | Found a solution 24
+2026-01-18 01:52:28,554 | INFO | MainProcess | [Test k=323, w=24] Time: 36.51 seconds
+2026-01-18 01:52:28,576 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 01:52:30,820 | INFO | Process-53 | Number of variables: 271321
+2026-01-18 01:52:30,820 | INFO | Process-53 | Number of clauses: 2945243
+2026-01-18 01:52:30,821 | INFO | Process-53 | Real nums of clauses: 2945664
+2026-01-18 01:52:30,821 | INFO | Process-53 | Real nums of variables: 271320
+2026-01-18 01:52:32,328 | INFO | Process-53 | CNF written to cnf/v2/M_n420_k323/M_n420_k323_w25.cnf
+2026-01-18 01:52:32,328 | INFO | Process-53 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/M_n420_k323/M_n420_k323_w25.cnf
+2026-01-18 01:53:19,254 | INFO | Process-53 | [PAINLESS] status=SAT rc=10 time=46.93s
+2026-01-18 01:53:19,255 | RESULT | Process-53 | [PAINLESS] result: status=SAT time=46.93s rc=10
+2026-01-18 01:53:19,279 | RESULT | Process-53 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 01:53:19,552 | INFO | MainProcess | Found a solution 25
+2026-01-18 01:53:19,552 | INFO | MainProcess | [Test k=323, w=25] Time: 50.98 seconds
+2026-01-18 01:53:19,579 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 01:53:21,889 | INFO | Process-54 | Number of variables: 271321
+2026-01-18 01:53:21,889 | INFO | Process-54 | Number of clauses: 2945243
+2026-01-18 01:53:21,889 | INFO | Process-54 | Real nums of clauses: 2945664
+2026-01-18 01:53:21,890 | INFO | Process-54 | Real nums of variables: 271320
+2026-01-18 01:53:23,423 | INFO | Process-54 | CNF written to cnf/v2/M_n420_k323/M_n420_k323_w26.cnf
+2026-01-18 01:53:23,423 | INFO | Process-54 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/M_n420_k323/M_n420_k323_w26.cnf
+2026-01-18 02:09:05,011 | INFO | Process-54 | [PAINLESS] status=SAT rc=10 time=941.59s
+2026-01-18 02:09:05,011 | RESULT | Process-54 | [PAINLESS] result: status=SAT time=941.59s rc=10
+2026-01-18 02:09:05,037 | RESULT | Process-54 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 02:09:05,332 | INFO | MainProcess | Found a solution 26
+2026-01-18 02:09:05,333 | INFO | MainProcess | [Test k=323, w=26] Time: 945.75 seconds
+2026-01-18 02:09:05,361 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 02:09:07,702 | INFO | Process-55 | Number of variables: 271321
+2026-01-18 02:09:07,702 | INFO | Process-55 | Number of clauses: 2945243
+2026-01-18 02:09:07,703 | INFO | Process-55 | Real nums of clauses: 2945664
+2026-01-18 02:09:07,703 | INFO | Process-55 | Real nums of variables: 271320
+2026-01-18 02:09:09,204 | INFO | Process-55 | CNF written to cnf/v2/M_n420_k323/M_n420_k323_w27.cnf
+2026-01-18 02:09:09,204 | INFO | Process-55 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/M_n420_k323/M_n420_k323_w27.cnf
+2026-01-18 02:21:53,111 | INFO | MainProcess | No solution found 27
+2026-01-18 02:21:53,112 | INFO | MainProcess | [Test k=323, w=27] Time: 767.75 seconds
+2026-01-18 02:21:53,150 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 02:21:53,150 | INFO | MainProcess | $$$$
+2026-01-18 02:21:53,151 | INFO | MainProcess | -26
+2026-01-18 02:21:53,151 | INFO | MainProcess | $$$$
+2026-01-18 02:21:53,151 | INFO | MainProcess | Time taken for M-bcsstk06.mtx.rnd with k = 323: 1861.3948137760162 seconds
+2026-01-18 02:21:53,151 | INFO | MainProcess | Maximum width before timeout for M-bcsstk06.mtx.rnd is 26
+2026-01-18 02:21:53,151 | INFO | MainProcess | time out
+2026-01-18 02:21:57,506 | INFO | Process-56 | Number of variables: 187851
+2026-01-18 02:21:57,507 | INFO | Process-56 | Number of clauses: 935085
+2026-01-18 02:21:57,507 | INFO | Process-56 | Real nums of clauses: 935511
+2026-01-18 02:21:57,507 | INFO | Process-56 | Real nums of variables: 187850
+2026-01-18 02:21:58,311 | INFO | Process-56 | CNF written to cnf/v2/O_n425_k221/O_n425_k221_w47.cnf
+2026-01-18 02:21:58,312 | INFO | Process-56 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/O_n425_k221/O_n425_k221_w47.cnf
+2026-01-18 02:22:00,004 | INFO | Process-56 | [PAINLESS] status=SAT rc=10 time=1.69s
+2026-01-18 02:22:00,004 | RESULT | Process-56 | [PAINLESS] result: status=SAT time=1.69s rc=10
+2026-01-18 02:22:00,024 | RESULT | Process-56 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 02:22:00,101 | INFO | MainProcess | Found a solution 47
+2026-01-18 02:22:00,102 | INFO | MainProcess | [Test k=221, w=47] Time: 6.95 seconds
+2026-01-18 02:22:00,135 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 02:22:01,100 | INFO | Process-57 | Number of variables: 187851
+2026-01-18 02:22:01,101 | INFO | Process-57 | Number of clauses: 935085
+2026-01-18 02:22:01,101 | INFO | Process-57 | Real nums of clauses: 935511
+2026-01-18 02:22:01,102 | INFO | Process-57 | Real nums of variables: 187850
+2026-01-18 02:22:01,863 | INFO | Process-57 | CNF written to cnf/v2/O_n425_k221/O_n425_k221_w48.cnf
+2026-01-18 02:22:01,865 | INFO | Process-57 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/O_n425_k221/O_n425_k221_w48.cnf
+2026-01-18 02:22:03,491 | INFO | Process-57 | [PAINLESS] status=SAT rc=10 time=1.63s
+2026-01-18 02:22:03,492 | RESULT | Process-57 | [PAINLESS] result: status=SAT time=1.63s rc=10
+2026-01-18 02:22:03,515 | RESULT | Process-57 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 02:22:03,602 | INFO | MainProcess | Found a solution 48
+2026-01-18 02:22:03,603 | INFO | MainProcess | [Test k=221, w=48] Time: 3.47 seconds
+2026-01-18 02:22:03,640 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 02:22:04,598 | INFO | Process-58 | Number of variables: 187851
+2026-01-18 02:22:04,599 | INFO | Process-58 | Number of clauses: 935085
+2026-01-18 02:22:04,600 | INFO | Process-58 | Real nums of clauses: 935511
+2026-01-18 02:22:04,600 | INFO | Process-58 | Real nums of variables: 187850
+2026-01-18 02:22:05,379 | INFO | Process-58 | CNF written to cnf/v2/O_n425_k221/O_n425_k221_w49.cnf
+2026-01-18 02:22:05,380 | INFO | Process-58 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/O_n425_k221/O_n425_k221_w49.cnf
+2026-01-18 02:22:06,965 | INFO | Process-58 | [PAINLESS] status=SAT rc=10 time=1.58s
+2026-01-18 02:22:06,966 | RESULT | Process-58 | [PAINLESS] result: status=SAT time=1.58s rc=10
+2026-01-18 02:22:06,983 | RESULT | Process-58 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 02:22:07,057 | INFO | MainProcess | Found a solution 49
+2026-01-18 02:22:07,058 | INFO | MainProcess | [Test k=221, w=49] Time: 3.42 seconds
+2026-01-18 02:22:07,100 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 02:22:08,054 | INFO | Process-59 | Number of variables: 187851
+2026-01-18 02:22:08,055 | INFO | Process-59 | Number of clauses: 935085
+2026-01-18 02:22:08,055 | INFO | Process-59 | Real nums of clauses: 935511
+2026-01-18 02:22:08,055 | INFO | Process-59 | Real nums of variables: 187850
+2026-01-18 02:22:08,812 | INFO | Process-59 | CNF written to cnf/v2/O_n425_k221/O_n425_k221_w50.cnf
+2026-01-18 02:22:08,813 | INFO | Process-59 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/O_n425_k221/O_n425_k221_w50.cnf
+2026-01-18 02:22:10,291 | INFO | Process-59 | [PAINLESS] status=SAT rc=10 time=1.48s
+2026-01-18 02:22:10,291 | RESULT | Process-59 | [PAINLESS] result: status=SAT time=1.48s rc=10
+2026-01-18 02:22:10,310 | RESULT | Process-59 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 02:22:10,394 | INFO | MainProcess | Found a solution 50
+2026-01-18 02:22:10,395 | INFO | MainProcess | [Test k=221, w=50] Time: 3.29 seconds
+2026-01-18 02:22:10,434 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 02:22:11,360 | INFO | Process-60 | Number of variables: 187851
+2026-01-18 02:22:11,360 | INFO | Process-60 | Number of clauses: 935085
+2026-01-18 02:22:11,360 | INFO | Process-60 | Real nums of clauses: 935511
+2026-01-18 02:22:11,361 | INFO | Process-60 | Real nums of variables: 187850
+2026-01-18 02:22:12,117 | INFO | Process-60 | CNF written to cnf/v2/O_n425_k221/O_n425_k221_w51.cnf
+2026-01-18 02:22:12,118 | INFO | Process-60 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/O_n425_k221/O_n425_k221_w51.cnf
+2026-01-18 02:22:13,788 | INFO | Process-60 | [PAINLESS] status=SAT rc=10 time=1.67s
+2026-01-18 02:22:13,789 | RESULT | Process-60 | [PAINLESS] result: status=SAT time=1.67s rc=10
+2026-01-18 02:22:13,808 | RESULT | Process-60 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 02:22:13,885 | INFO | MainProcess | Found a solution 51
+2026-01-18 02:22:13,886 | INFO | MainProcess | [Test k=221, w=51] Time: 3.45 seconds
+2026-01-18 02:22:13,929 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 02:22:14,820 | INFO | Process-61 | Number of variables: 187851
+2026-01-18 02:22:14,821 | INFO | Process-61 | Number of clauses: 935085
+2026-01-18 02:22:14,821 | INFO | Process-61 | Real nums of clauses: 935511
+2026-01-18 02:22:14,822 | INFO | Process-61 | Real nums of variables: 187850
+2026-01-18 02:22:15,608 | INFO | Process-61 | CNF written to cnf/v2/O_n425_k221/O_n425_k221_w52.cnf
+2026-01-18 02:22:15,609 | INFO | Process-61 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/O_n425_k221/O_n425_k221_w52.cnf
+2026-01-18 02:22:17,498 | INFO | Process-61 | [PAINLESS] status=SAT rc=10 time=1.89s
+2026-01-18 02:22:17,498 | RESULT | Process-61 | [PAINLESS] result: status=SAT time=1.89s rc=10
+2026-01-18 02:22:17,517 | RESULT | Process-61 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 02:22:17,593 | INFO | MainProcess | Found a solution 52
+2026-01-18 02:22:17,594 | INFO | MainProcess | [Test k=221, w=52] Time: 3.66 seconds
+2026-01-18 02:22:17,634 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 02:22:18,622 | INFO | Process-62 | Number of variables: 187851
+2026-01-18 02:22:18,622 | INFO | Process-62 | Number of clauses: 935085
+2026-01-18 02:22:18,623 | INFO | Process-62 | Real nums of clauses: 935511
+2026-01-18 02:22:18,623 | INFO | Process-62 | Real nums of variables: 187850
+2026-01-18 02:22:19,370 | INFO | Process-62 | CNF written to cnf/v2/O_n425_k221/O_n425_k221_w53.cnf
+2026-01-18 02:22:19,371 | INFO | Process-62 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/O_n425_k221/O_n425_k221_w53.cnf
+2026-01-18 02:22:21,053 | INFO | Process-62 | [PAINLESS] status=SAT rc=10 time=1.68s
+2026-01-18 02:22:21,054 | RESULT | Process-62 | [PAINLESS] result: status=SAT time=1.68s rc=10
+2026-01-18 02:22:21,071 | RESULT | Process-62 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 02:22:21,146 | INFO | MainProcess | Found a solution 53
+2026-01-18 02:22:21,146 | INFO | MainProcess | [Test k=221, w=53] Time: 3.51 seconds
+2026-01-18 02:22:21,184 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 02:22:22,089 | INFO | Process-63 | Number of variables: 187851
+2026-01-18 02:22:22,089 | INFO | Process-63 | Number of clauses: 935085
+2026-01-18 02:22:22,090 | INFO | Process-63 | Real nums of clauses: 935511
+2026-01-18 02:22:22,090 | INFO | Process-63 | Real nums of variables: 187850
+2026-01-18 02:22:22,876 | INFO | Process-63 | CNF written to cnf/v2/O_n425_k221/O_n425_k221_w54.cnf
+2026-01-18 02:22:22,877 | INFO | Process-63 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/O_n425_k221/O_n425_k221_w54.cnf
+2026-01-18 02:22:25,993 | INFO | Process-63 | [PAINLESS] status=SAT rc=10 time=3.12s
+2026-01-18 02:22:25,994 | RESULT | Process-63 | [PAINLESS] result: status=SAT time=3.12s rc=10
+2026-01-18 02:22:26,011 | RESULT | Process-63 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 02:22:26,083 | INFO | MainProcess | Found a solution 54
+2026-01-18 02:22:26,083 | INFO | MainProcess | [Test k=221, w=54] Time: 4.9 seconds
+2026-01-18 02:22:26,122 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 02:22:26,994 | INFO | Process-64 | Number of variables: 187851
+2026-01-18 02:22:26,995 | INFO | Process-64 | Number of clauses: 935085
+2026-01-18 02:22:26,996 | INFO | Process-64 | Real nums of clauses: 935511
+2026-01-18 02:22:26,996 | INFO | Process-64 | Real nums of variables: 187850
+2026-01-18 02:22:27,731 | INFO | Process-64 | CNF written to cnf/v2/O_n425_k221/O_n425_k221_w55.cnf
+2026-01-18 02:22:27,731 | INFO | Process-64 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/O_n425_k221/O_n425_k221_w55.cnf
+2026-01-18 02:22:34,401 | INFO | Process-64 | [PAINLESS] status=SAT rc=10 time=6.67s
+2026-01-18 02:22:34,402 | RESULT | Process-64 | [PAINLESS] result: status=SAT time=6.67s rc=10
+2026-01-18 02:22:34,418 | RESULT | Process-64 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 02:22:34,500 | INFO | MainProcess | Found a solution 55
+2026-01-18 02:22:34,501 | INFO | MainProcess | [Test k=221, w=55] Time: 8.38 seconds
+2026-01-18 02:22:34,550 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 02:22:35,461 | INFO | Process-65 | Number of variables: 187851
+2026-01-18 02:22:35,461 | INFO | Process-65 | Number of clauses: 935085
+2026-01-18 02:22:35,462 | INFO | Process-65 | Real nums of clauses: 935511
+2026-01-18 02:22:35,462 | INFO | Process-65 | Real nums of variables: 187850
+2026-01-18 02:22:36,219 | INFO | Process-65 | CNF written to cnf/v2/O_n425_k221/O_n425_k221_w56.cnf
+2026-01-18 02:22:36,220 | INFO | Process-65 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/O_n425_k221/O_n425_k221_w56.cnf
+2026-01-18 02:22:37,941 | INFO | Process-65 | [PAINLESS] status=SAT rc=10 time=1.72s
+2026-01-18 02:22:37,942 | RESULT | Process-65 | [PAINLESS] result: status=SAT time=1.72s rc=10
+2026-01-18 02:22:37,960 | RESULT | Process-65 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 02:22:38,041 | INFO | MainProcess | Found a solution 56
+2026-01-18 02:22:38,041 | INFO | MainProcess | [Test k=221, w=56] Time: 3.49 seconds
+2026-01-18 02:22:38,081 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 02:22:39,031 | INFO | Process-66 | Number of variables: 187851
+2026-01-18 02:22:39,032 | INFO | Process-66 | Number of clauses: 935085
+2026-01-18 02:22:39,032 | INFO | Process-66 | Real nums of clauses: 935511
+2026-01-18 02:22:39,033 | INFO | Process-66 | Real nums of variables: 187850
+2026-01-18 02:22:39,785 | INFO | Process-66 | CNF written to cnf/v2/O_n425_k221/O_n425_k221_w57.cnf
+2026-01-18 02:22:39,786 | INFO | Process-66 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/O_n425_k221/O_n425_k221_w57.cnf
+2026-01-18 02:22:41,420 | INFO | Process-66 | [PAINLESS] status=SAT rc=10 time=1.63s
+2026-01-18 02:22:41,421 | RESULT | Process-66 | [PAINLESS] result: status=SAT time=1.63s rc=10
+2026-01-18 02:22:41,439 | RESULT | Process-66 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 02:22:41,512 | INFO | MainProcess | Found a solution 57
+2026-01-18 02:22:41,513 | INFO | MainProcess | [Test k=221, w=57] Time: 3.43 seconds
+2026-01-18 02:22:41,551 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 02:22:42,452 | INFO | Process-67 | Number of variables: 187851
+2026-01-18 02:22:42,453 | INFO | Process-67 | Number of clauses: 935085
+2026-01-18 02:22:42,453 | INFO | Process-67 | Real nums of clauses: 935511
+2026-01-18 02:22:42,454 | INFO | Process-67 | Real nums of variables: 187850
+2026-01-18 02:22:43,224 | INFO | Process-67 | CNF written to cnf/v2/O_n425_k221/O_n425_k221_w58.cnf
+2026-01-18 02:22:43,224 | INFO | Process-67 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/O_n425_k221/O_n425_k221_w58.cnf
+2026-01-18 02:22:45,070 | INFO | Process-67 | [PAINLESS] status=SAT rc=10 time=1.85s
+2026-01-18 02:22:45,070 | RESULT | Process-67 | [PAINLESS] result: status=SAT time=1.85s rc=10
+2026-01-18 02:22:45,088 | RESULT | Process-67 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 02:22:45,164 | INFO | MainProcess | Found a solution 58
+2026-01-18 02:22:45,164 | INFO | MainProcess | [Test k=221, w=58] Time: 3.61 seconds
+2026-01-18 02:22:45,204 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 02:22:46,165 | INFO | Process-68 | Number of variables: 187851
+2026-01-18 02:22:46,166 | INFO | Process-68 | Number of clauses: 935085
+2026-01-18 02:22:46,166 | INFO | Process-68 | Real nums of clauses: 935511
+2026-01-18 02:22:46,167 | INFO | Process-68 | Real nums of variables: 187850
+2026-01-18 02:22:46,931 | INFO | Process-68 | CNF written to cnf/v2/O_n425_k221/O_n425_k221_w59.cnf
+2026-01-18 02:22:46,932 | INFO | Process-68 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/O_n425_k221/O_n425_k221_w59.cnf
+2026-01-18 02:22:48,901 | INFO | Process-68 | [PAINLESS] status=SAT rc=10 time=1.97s
+2026-01-18 02:22:48,901 | RESULT | Process-68 | [PAINLESS] result: status=SAT time=1.97s rc=10
+2026-01-18 02:22:48,922 | RESULT | Process-68 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 02:22:48,996 | INFO | MainProcess | Found a solution 59
+2026-01-18 02:22:48,997 | INFO | MainProcess | [Test k=221, w=59] Time: 3.79 seconds
+2026-01-18 02:22:49,037 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 02:22:50,002 | INFO | Process-69 | Number of variables: 187851
+2026-01-18 02:22:50,003 | INFO | Process-69 | Number of clauses: 935085
+2026-01-18 02:22:50,003 | INFO | Process-69 | Real nums of clauses: 935511
+2026-01-18 02:22:50,004 | INFO | Process-69 | Real nums of variables: 187850
+2026-01-18 02:22:50,767 | INFO | Process-69 | CNF written to cnf/v2/O_n425_k221/O_n425_k221_w60.cnf
+2026-01-18 02:22:50,768 | INFO | Process-69 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/O_n425_k221/O_n425_k221_w60.cnf
+2026-01-18 02:22:52,759 | INFO | Process-69 | [PAINLESS] status=SAT rc=10 time=1.99s
+2026-01-18 02:22:52,760 | RESULT | Process-69 | [PAINLESS] result: status=SAT time=1.99s rc=10
+2026-01-18 02:22:52,778 | RESULT | Process-69 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 02:22:52,857 | INFO | MainProcess | Found a solution 60
+2026-01-18 02:22:52,858 | INFO | MainProcess | [Test k=221, w=60] Time: 3.82 seconds
+2026-01-18 02:22:52,929 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 02:22:53,928 | INFO | Process-70 | Number of variables: 187851
+2026-01-18 02:22:53,928 | INFO | Process-70 | Number of clauses: 935085
+2026-01-18 02:22:53,929 | INFO | Process-70 | Real nums of clauses: 935511
+2026-01-18 02:22:53,929 | INFO | Process-70 | Real nums of variables: 187850
+2026-01-18 02:22:54,699 | INFO | Process-70 | CNF written to cnf/v2/O_n425_k221/O_n425_k221_w61.cnf
+2026-01-18 02:22:54,700 | INFO | Process-70 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/O_n425_k221/O_n425_k221_w61.cnf
+2026-01-18 02:22:56,594 | INFO | Process-70 | [PAINLESS] status=SAT rc=10 time=1.89s
+2026-01-18 02:22:56,595 | RESULT | Process-70 | [PAINLESS] result: status=SAT time=1.89s rc=10
+2026-01-18 02:22:56,618 | RESULT | Process-70 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 02:22:56,724 | INFO | MainProcess | Found a solution 61
+2026-01-18 02:22:56,725 | INFO | MainProcess | [Test k=221, w=61] Time: 3.79 seconds
+2026-01-18 02:22:56,768 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 02:22:57,731 | INFO | Process-71 | Number of variables: 187851
+2026-01-18 02:22:57,731 | INFO | Process-71 | Number of clauses: 935085
+2026-01-18 02:22:57,731 | INFO | Process-71 | Real nums of clauses: 935511
+2026-01-18 02:22:57,732 | INFO | Process-71 | Real nums of variables: 187850
+2026-01-18 02:22:58,513 | INFO | Process-71 | CNF written to cnf/v2/O_n425_k221/O_n425_k221_w62.cnf
+2026-01-18 02:22:58,514 | INFO | Process-71 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/O_n425_k221/O_n425_k221_w62.cnf
+2026-01-18 02:23:00,306 | INFO | Process-71 | [PAINLESS] status=SAT rc=10 time=1.79s
+2026-01-18 02:23:00,307 | RESULT | Process-71 | [PAINLESS] result: status=SAT time=1.79s rc=10
+2026-01-18 02:23:00,324 | RESULT | Process-71 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 02:23:00,398 | INFO | MainProcess | Found a solution 62
+2026-01-18 02:23:00,399 | INFO | MainProcess | [Test k=221, w=62] Time: 3.63 seconds
+2026-01-18 02:23:00,439 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 02:23:01,375 | INFO | Process-72 | Number of variables: 187851
+2026-01-18 02:23:01,376 | INFO | Process-72 | Number of clauses: 935085
+2026-01-18 02:23:01,377 | INFO | Process-72 | Real nums of clauses: 935511
+2026-01-18 02:23:01,377 | INFO | Process-72 | Real nums of variables: 187850
+2026-01-18 02:23:02,159 | INFO | Process-72 | CNF written to cnf/v2/O_n425_k221/O_n425_k221_w63.cnf
+2026-01-18 02:23:02,160 | INFO | Process-72 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/O_n425_k221/O_n425_k221_w63.cnf
+2026-01-18 02:23:03,991 | INFO | Process-72 | [PAINLESS] status=SAT rc=10 time=1.83s
+2026-01-18 02:23:03,992 | RESULT | Process-72 | [PAINLESS] result: status=SAT time=1.83s rc=10
+2026-01-18 02:23:04,010 | RESULT | Process-72 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 02:23:04,082 | INFO | MainProcess | Found a solution 63
+2026-01-18 02:23:04,083 | INFO | MainProcess | [Test k=221, w=63] Time: 3.64 seconds
+2026-01-18 02:23:04,130 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 02:23:05,045 | INFO | Process-73 | Number of variables: 187851
+2026-01-18 02:23:05,046 | INFO | Process-73 | Number of clauses: 935085
+2026-01-18 02:23:05,046 | INFO | Process-73 | Real nums of clauses: 935511
+2026-01-18 02:23:05,047 | INFO | Process-73 | Real nums of variables: 187850
+2026-01-18 02:23:05,832 | INFO | Process-73 | CNF written to cnf/v2/O_n425_k221/O_n425_k221_w64.cnf
+2026-01-18 02:23:08,823 | INFO | Process-73 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/O_n425_k221/O_n425_k221_w64.cnf
+2026-01-18 02:23:10,926 | INFO | Process-73 | [PAINLESS] status=SAT rc=10 time=2.10s
+2026-01-18 02:23:10,927 | RESULT | Process-73 | [PAINLESS] result: status=SAT time=2.10s rc=10
+2026-01-18 02:23:10,944 | RESULT | Process-73 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 02:23:11,020 | INFO | MainProcess | Found a solution 64
+2026-01-18 02:23:11,020 | INFO | MainProcess | [Test k=221, w=64] Time: 6.89 seconds
+2026-01-18 02:23:11,062 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 02:23:11,945 | INFO | Process-74 | Number of variables: 187851
+2026-01-18 02:23:11,946 | INFO | Process-74 | Number of clauses: 935085
+2026-01-18 02:23:11,946 | INFO | Process-74 | Real nums of clauses: 935511
+2026-01-18 02:23:11,947 | INFO | Process-74 | Real nums of variables: 187850
+2026-01-18 02:23:12,687 | INFO | Process-74 | CNF written to cnf/v2/O_n425_k221/O_n425_k221_w65.cnf
+2026-01-18 02:23:12,688 | INFO | Process-74 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/O_n425_k221/O_n425_k221_w65.cnf
+2026-01-18 02:23:14,696 | INFO | Process-74 | [PAINLESS] status=SAT rc=10 time=2.01s
+2026-01-18 02:23:14,697 | RESULT | Process-74 | [PAINLESS] result: status=SAT time=2.01s rc=10
+2026-01-18 02:23:14,715 | RESULT | Process-74 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 02:23:14,794 | INFO | MainProcess | Found a solution 65
+2026-01-18 02:23:14,795 | INFO | MainProcess | [Test k=221, w=65] Time: 3.73 seconds
+2026-01-18 02:23:14,841 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 02:23:15,701 | INFO | Process-75 | Number of variables: 187851
+2026-01-18 02:23:15,702 | INFO | Process-75 | Number of clauses: 935085
+2026-01-18 02:23:15,703 | INFO | Process-75 | Real nums of clauses: 935511
+2026-01-18 02:23:15,703 | INFO | Process-75 | Real nums of variables: 187850
+2026-01-18 02:23:16,477 | INFO | Process-75 | CNF written to cnf/v2/O_n425_k221/O_n425_k221_w66.cnf
+2026-01-18 02:23:16,478 | INFO | Process-75 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/O_n425_k221/O_n425_k221_w66.cnf
+2026-01-18 02:23:18,505 | INFO | Process-75 | [PAINLESS] status=SAT rc=10 time=2.03s
+2026-01-18 02:23:18,506 | RESULT | Process-75 | [PAINLESS] result: status=SAT time=2.03s rc=10
+2026-01-18 02:23:18,531 | RESULT | Process-75 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 02:23:18,608 | INFO | MainProcess | Found a solution 66
+2026-01-18 02:23:18,609 | INFO | MainProcess | [Test k=221, w=66] Time: 3.77 seconds
+2026-01-18 02:23:18,646 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 02:23:19,537 | INFO | Process-76 | Number of variables: 187851
+2026-01-18 02:23:19,538 | INFO | Process-76 | Number of clauses: 935085
+2026-01-18 02:23:19,538 | INFO | Process-76 | Real nums of clauses: 935511
+2026-01-18 02:23:19,538 | INFO | Process-76 | Real nums of variables: 187850
+2026-01-18 02:23:20,286 | INFO | Process-76 | CNF written to cnf/v2/O_n425_k221/O_n425_k221_w67.cnf
+2026-01-18 02:23:20,287 | INFO | Process-76 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/O_n425_k221/O_n425_k221_w67.cnf
+2026-01-18 02:23:22,453 | INFO | Process-76 | [PAINLESS] status=SAT rc=10 time=2.17s
+2026-01-18 02:23:22,454 | RESULT | Process-76 | [PAINLESS] result: status=SAT time=2.17s rc=10
+2026-01-18 02:23:22,476 | RESULT | Process-76 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 02:23:22,558 | INFO | MainProcess | Found a solution 67
+2026-01-18 02:23:22,559 | INFO | MainProcess | [Test k=221, w=67] Time: 3.91 seconds
+2026-01-18 02:23:22,604 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 02:23:23,473 | INFO | Process-77 | Number of variables: 187851
+2026-01-18 02:23:23,473 | INFO | Process-77 | Number of clauses: 935085
+2026-01-18 02:23:23,474 | INFO | Process-77 | Real nums of clauses: 935511
+2026-01-18 02:23:23,474 | INFO | Process-77 | Real nums of variables: 187850
+2026-01-18 02:23:24,220 | INFO | Process-77 | CNF written to cnf/v2/O_n425_k221/O_n425_k221_w68.cnf
+2026-01-18 02:23:24,221 | INFO | Process-77 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/O_n425_k221/O_n425_k221_w68.cnf
+2026-01-18 02:23:35,326 | INFO | Process-77 | [PAINLESS] status=SAT rc=10 time=11.10s
+2026-01-18 02:23:35,326 | RESULT | Process-77 | [PAINLESS] result: status=SAT time=11.10s rc=10
+2026-01-18 02:23:35,346 | RESULT | Process-77 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 02:23:35,422 | INFO | MainProcess | Found a solution 68
+2026-01-18 02:23:35,423 | INFO | MainProcess | [Test k=221, w=68] Time: 12.82 seconds
+2026-01-18 02:23:35,455 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 02:23:36,328 | INFO | Process-78 | Number of variables: 187851
+2026-01-18 02:23:36,329 | INFO | Process-78 | Number of clauses: 935085
+2026-01-18 02:23:36,330 | INFO | Process-78 | Real nums of clauses: 935511
+2026-01-18 02:23:36,330 | INFO | Process-78 | Real nums of variables: 187850
+2026-01-18 02:23:37,045 | INFO | Process-78 | CNF written to cnf/v2/O_n425_k221/O_n425_k221_w69.cnf
+2026-01-18 02:23:37,045 | INFO | Process-78 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/O_n425_k221/O_n425_k221_w69.cnf
+2026-01-18 02:23:48,086 | INFO | Process-78 | [PAINLESS] status=SAT rc=10 time=11.04s
+2026-01-18 02:23:48,086 | RESULT | Process-78 | [PAINLESS] result: status=SAT time=11.04s rc=10
+2026-01-18 02:23:48,103 | RESULT | Process-78 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 02:23:48,170 | INFO | MainProcess | Found a solution 69
+2026-01-18 02:23:48,171 | INFO | MainProcess | [Test k=221, w=69] Time: 12.71 seconds
+2026-01-18 02:23:48,212 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 02:23:49,055 | INFO | Process-79 | Number of variables: 187851
+2026-01-18 02:23:49,056 | INFO | Process-79 | Number of clauses: 935085
+2026-01-18 02:23:49,057 | INFO | Process-79 | Real nums of clauses: 935511
+2026-01-18 02:23:49,058 | INFO | Process-79 | Real nums of variables: 187850
+2026-01-18 02:23:49,804 | INFO | Process-79 | CNF written to cnf/v2/O_n425_k221/O_n425_k221_w70.cnf
+2026-01-18 02:23:49,805 | INFO | Process-79 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/O_n425_k221/O_n425_k221_w70.cnf
+2026-01-18 02:24:14,156 | INFO | Process-79 | [PAINLESS] status=SAT rc=10 time=24.35s
+2026-01-18 02:24:14,157 | RESULT | Process-79 | [PAINLESS] result: status=SAT time=24.35s rc=10
+2026-01-18 02:24:14,176 | RESULT | Process-79 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 02:24:14,277 | INFO | MainProcess | Found a solution 70
+2026-01-18 02:24:14,277 | INFO | MainProcess | [Test k=221, w=70] Time: 26.06 seconds
+2026-01-18 02:24:14,323 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 02:24:15,274 | INFO | Process-80 | Number of variables: 187851
+2026-01-18 02:24:15,275 | INFO | Process-80 | Number of clauses: 935085
+2026-01-18 02:24:15,275 | INFO | Process-80 | Real nums of clauses: 935511
+2026-01-18 02:24:15,276 | INFO | Process-80 | Real nums of variables: 187850
+2026-01-18 02:24:15,985 | INFO | Process-80 | CNF written to cnf/v2/O_n425_k221/O_n425_k221_w71.cnf
+2026-01-18 02:24:15,986 | INFO | Process-80 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/O_n425_k221/O_n425_k221_w71.cnf
+2026-01-18 02:25:47,798 | INFO | Process-80 | [PAINLESS] status=SAT rc=10 time=91.81s
+2026-01-18 02:25:47,799 | RESULT | Process-80 | [PAINLESS] result: status=SAT time=91.81s rc=10
+2026-01-18 02:25:47,817 | RESULT | Process-80 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 02:25:47,909 | INFO | MainProcess | Found a solution 71
+2026-01-18 02:25:47,910 | INFO | MainProcess | [Test k=221, w=71] Time: 93.59 seconds
+2026-01-18 02:25:47,953 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 02:25:48,850 | INFO | Process-81 | Number of variables: 187851
+2026-01-18 02:25:48,851 | INFO | Process-81 | Number of clauses: 935085
+2026-01-18 02:25:48,851 | INFO | Process-81 | Real nums of clauses: 935511
+2026-01-18 02:25:48,852 | INFO | Process-81 | Real nums of variables: 187850
+2026-01-18 02:25:49,631 | INFO | Process-81 | CNF written to cnf/v2/O_n425_k221/O_n425_k221_w72.cnf
+2026-01-18 02:25:49,632 | INFO | Process-81 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/O_n425_k221/O_n425_k221_w72.cnf
+2026-01-18 02:54:34,008 | INFO | MainProcess | No solution found 72
+2026-01-18 02:54:34,009 | INFO | MainProcess | [Test k=221, w=72] Time: 1726.05 seconds
+2026-01-18 02:54:34,069 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 02:54:34,069 | INFO | MainProcess | $$$$
+2026-01-18 02:54:34,069 | INFO | MainProcess | -71
+2026-01-18 02:54:34,070 | INFO | MainProcess | $$$$
+2026-01-18 02:54:34,070 | INFO | MainProcess | Time taken for O-impcol_d.mtx.rnd with k = 221: 1960.918663263321 seconds
+2026-01-18 02:54:34,070 | INFO | MainProcess | Maximum width before timeout for O-impcol_d.mtx.rnd is 71
+2026-01-18 02:54:34,070 | INFO | MainProcess | time out
+2026-01-18 02:54:36,341 | INFO | Process-82 | Number of variables: 296371
+2026-01-18 02:54:36,341 | INFO | Process-82 | Number of clauses: 1712395
+2026-01-18 02:54:36,342 | INFO | Process-82 | Real nums of clauses: 1712841
+2026-01-18 02:54:36,342 | INFO | Process-82 | Real nums of variables: 296370
+2026-01-18 02:54:38,106 | INFO | Process-82 | CNF written to cnf/v2/P_n445_k333/P_n445_k333_w58.cnf
+2026-01-18 02:54:38,107 | INFO | Process-82 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/P_n445_k333/P_n445_k333_w58.cnf
+2026-01-18 02:54:47,663 | INFO | Process-82 | [PAINLESS] status=SAT rc=10 time=9.56s
+2026-01-18 02:54:47,663 | RESULT | Process-82 | [PAINLESS] result: status=SAT time=9.56s rc=10
+2026-01-18 02:54:47,697 | RESULT | Process-82 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 02:54:47,876 | INFO | MainProcess | Found a solution 58
+2026-01-18 02:54:47,877 | INFO | MainProcess | [Test k=333, w=58] Time: 13.8 seconds
+2026-01-18 02:54:47,927 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 02:54:50,135 | INFO | Process-83 | Number of variables: 296371
+2026-01-18 02:54:50,139 | INFO | Process-83 | Number of clauses: 1712395
+2026-01-18 02:54:50,140 | INFO | Process-83 | Real nums of clauses: 1712841
+2026-01-18 02:54:50,140 | INFO | Process-83 | Real nums of variables: 296370
+2026-01-18 02:54:51,783 | INFO | Process-83 | CNF written to cnf/v2/P_n445_k333/P_n445_k333_w59.cnf
+2026-01-18 02:54:51,784 | INFO | Process-83 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/P_n445_k333/P_n445_k333_w59.cnf
+2026-01-18 02:54:57,342 | INFO | Process-83 | [PAINLESS] status=SAT rc=10 time=5.56s
+2026-01-18 02:54:57,343 | RESULT | Process-83 | [PAINLESS] result: status=SAT time=5.56s rc=10
+2026-01-18 02:54:57,393 | RESULT | Process-83 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 02:54:57,529 | INFO | MainProcess | Found a solution 59
+2026-01-18 02:54:57,529 | INFO | MainProcess | [Test k=333, w=59] Time: 9.6 seconds
+2026-01-18 02:54:57,591 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 02:54:59,718 | INFO | Process-84 | Number of variables: 296371
+2026-01-18 02:54:59,719 | INFO | Process-84 | Number of clauses: 1712395
+2026-01-18 02:54:59,719 | INFO | Process-84 | Real nums of clauses: 1712841
+2026-01-18 02:54:59,720 | INFO | Process-84 | Real nums of variables: 296370
+2026-01-18 02:55:01,384 | INFO | Process-84 | CNF written to cnf/v2/P_n445_k333/P_n445_k333_w60.cnf
+2026-01-18 02:55:01,385 | INFO | Process-84 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/P_n445_k333/P_n445_k333_w60.cnf
+2026-01-18 02:55:29,526 | INFO | Process-84 | [PAINLESS] status=SAT rc=10 time=28.14s
+2026-01-18 02:55:29,526 | RESULT | Process-84 | [PAINLESS] result: status=SAT time=28.14s rc=10
+2026-01-18 02:55:29,570 | RESULT | Process-84 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 02:55:29,777 | INFO | MainProcess | Found a solution 60
+2026-01-18 02:55:29,778 | INFO | MainProcess | [Test k=333, w=60] Time: 32.19 seconds
+2026-01-18 02:55:29,836 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 02:55:31,947 | INFO | Process-85 | Number of variables: 296371
+2026-01-18 02:55:31,947 | INFO | Process-85 | Number of clauses: 1712395
+2026-01-18 02:55:31,948 | INFO | Process-85 | Real nums of clauses: 1712841
+2026-01-18 02:55:31,949 | INFO | Process-85 | Real nums of variables: 296370
+2026-01-18 02:55:33,619 | INFO | Process-85 | CNF written to cnf/v2/P_n445_k333/P_n445_k333_w61.cnf
+2026-01-18 02:55:33,620 | INFO | Process-85 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/P_n445_k333/P_n445_k333_w61.cnf
+2026-01-18 02:55:47,844 | INFO | Process-85 | [PAINLESS] status=SAT rc=10 time=14.22s
+2026-01-18 02:55:47,844 | RESULT | Process-85 | [PAINLESS] result: status=SAT time=14.22s rc=10
+2026-01-18 02:55:47,881 | RESULT | Process-85 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 02:55:48,063 | INFO | MainProcess | Found a solution 61
+2026-01-18 02:55:48,063 | INFO | MainProcess | [Test k=333, w=61] Time: 18.23 seconds
+2026-01-18 02:55:48,117 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 02:55:50,304 | INFO | Process-86 | Number of variables: 296371
+2026-01-18 02:55:50,305 | INFO | Process-86 | Number of clauses: 1712395
+2026-01-18 02:55:50,305 | INFO | Process-86 | Real nums of clauses: 1712841
+2026-01-18 02:55:50,306 | INFO | Process-86 | Real nums of variables: 296370
+2026-01-18 02:55:51,967 | INFO | Process-86 | CNF written to cnf/v2/P_n445_k333/P_n445_k333_w62.cnf
+2026-01-18 02:55:51,968 | INFO | Process-86 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/P_n445_k333/P_n445_k333_w62.cnf
+2026-01-18 02:56:10,379 | INFO | Process-86 | [PAINLESS] status=SAT rc=10 time=18.41s
+2026-01-18 02:56:10,380 | RESULT | Process-86 | [PAINLESS] result: status=SAT time=18.41s rc=10
+2026-01-18 02:56:10,407 | RESULT | Process-86 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 02:56:10,554 | INFO | MainProcess | Found a solution 62
+2026-01-18 02:56:10,555 | INFO | MainProcess | [Test k=333, w=62] Time: 22.44 seconds
+2026-01-18 02:56:10,612 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 02:56:12,710 | INFO | Process-87 | Number of variables: 296371
+2026-01-18 02:56:12,710 | INFO | Process-87 | Number of clauses: 1712395
+2026-01-18 02:56:12,711 | INFO | Process-87 | Real nums of clauses: 1712841
+2026-01-18 02:56:12,712 | INFO | Process-87 | Real nums of variables: 296370
+2026-01-18 02:56:14,409 | INFO | Process-87 | CNF written to cnf/v2/P_n445_k333/P_n445_k333_w63.cnf
+2026-01-18 02:56:14,410 | INFO | Process-87 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/P_n445_k333/P_n445_k333_w63.cnf
+2026-01-18 02:56:38,432 | INFO | Process-87 | [PAINLESS] status=SAT rc=10 time=24.02s
+2026-01-18 02:56:38,432 | RESULT | Process-87 | [PAINLESS] result: status=SAT time=24.02s rc=10
+2026-01-18 02:56:38,460 | RESULT | Process-87 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 02:56:38,655 | INFO | MainProcess | Found a solution 63
+2026-01-18 02:56:38,656 | INFO | MainProcess | [Test k=333, w=63] Time: 28.04 seconds
+2026-01-18 02:56:38,714 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 02:56:40,633 | INFO | Process-88 | Number of variables: 296371
+2026-01-18 02:56:40,634 | INFO | Process-88 | Number of clauses: 1712395
+2026-01-18 02:56:40,634 | INFO | Process-88 | Real nums of clauses: 1712841
+2026-01-18 02:56:40,634 | INFO | Process-88 | Real nums of variables: 296370
+2026-01-18 02:56:42,206 | INFO | Process-88 | CNF written to cnf/v2/P_n445_k333/P_n445_k333_w64.cnf
+2026-01-18 02:56:42,208 | INFO | Process-88 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/P_n445_k333/P_n445_k333_w64.cnf
+2026-01-18 02:57:53,661 | INFO | Process-88 | [PAINLESS] status=SAT rc=10 time=71.45s
+2026-01-18 02:57:53,661 | RESULT | Process-88 | [PAINLESS] result: status=SAT time=71.45s rc=10
+2026-01-18 02:57:53,701 | RESULT | Process-88 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 02:57:53,957 | INFO | MainProcess | Found a solution 64
+2026-01-18 02:57:53,958 | INFO | MainProcess | [Test k=333, w=64] Time: 75.24 seconds
+2026-01-18 02:57:54,020 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 02:57:56,022 | INFO | Process-89 | Number of variables: 296371
+2026-01-18 02:57:56,023 | INFO | Process-89 | Number of clauses: 1712395
+2026-01-18 02:57:56,023 | INFO | Process-89 | Real nums of clauses: 1712841
+2026-01-18 02:57:56,024 | INFO | Process-89 | Real nums of variables: 296370
+2026-01-18 02:57:57,715 | INFO | Process-89 | CNF written to cnf/v2/P_n445_k333/P_n445_k333_w65.cnf
+2026-01-18 02:57:57,715 | INFO | Process-89 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/P_n445_k333/P_n445_k333_w65.cnf
+2026-01-18 02:58:26,734 | INFO | Process-89 | [PAINLESS] status=SAT rc=10 time=29.02s
+2026-01-18 02:58:26,735 | RESULT | Process-89 | [PAINLESS] result: status=SAT time=29.02s rc=10
+2026-01-18 02:58:26,761 | RESULT | Process-89 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 02:58:26,900 | INFO | MainProcess | Found a solution 65
+2026-01-18 02:58:26,900 | INFO | MainProcess | [Test k=333, w=65] Time: 32.88 seconds
+2026-01-18 02:58:26,957 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 02:58:29,101 | INFO | Process-90 | Number of variables: 296371
+2026-01-18 02:58:29,102 | INFO | Process-90 | Number of clauses: 1712395
+2026-01-18 02:58:29,103 | INFO | Process-90 | Real nums of clauses: 1712841
+2026-01-18 02:58:29,103 | INFO | Process-90 | Real nums of variables: 296370
+2026-01-18 02:58:30,791 | INFO | Process-90 | CNF written to cnf/v2/P_n445_k333/P_n445_k333_w66.cnf
+2026-01-18 02:58:30,792 | INFO | Process-90 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/P_n445_k333/P_n445_k333_w66.cnf
+2026-01-18 03:03:49,572 | INFO | Process-90 | [PAINLESS] status=SAT rc=10 time=318.78s
+2026-01-18 03:03:49,573 | RESULT | Process-90 | [PAINLESS] result: status=SAT time=318.78s rc=10
+2026-01-18 03:03:49,608 | RESULT | Process-90 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 03:03:49,809 | INFO | MainProcess | Found a solution 66
+2026-01-18 03:03:49,810 | INFO | MainProcess | [Test k=333, w=66] Time: 322.85 seconds
+2026-01-18 03:03:49,864 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 03:03:52,044 | INFO | Process-91 | Number of variables: 296371
+2026-01-18 03:03:52,045 | INFO | Process-91 | Number of clauses: 1712395
+2026-01-18 03:03:52,046 | INFO | Process-91 | Real nums of clauses: 1712841
+2026-01-18 03:03:52,047 | INFO | Process-91 | Real nums of variables: 296370
+2026-01-18 03:03:53,444 | INFO | Process-91 | CNF written to cnf/v2/P_n445_k333/P_n445_k333_w67.cnf
+2026-01-18 03:03:53,445 | INFO | Process-91 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/P_n445_k333/P_n445_k333_w67.cnf
+2026-01-18 03:05:21,957 | INFO | Process-91 | [PAINLESS] status=SAT rc=10 time=88.51s
+2026-01-18 03:05:21,958 | RESULT | Process-91 | [PAINLESS] result: status=SAT time=88.51s rc=10
+2026-01-18 03:05:21,985 | RESULT | Process-91 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 03:05:22,187 | INFO | MainProcess | Found a solution 67
+2026-01-18 03:05:22,188 | INFO | MainProcess | [Test k=333, w=67] Time: 92.32 seconds
+2026-01-18 03:05:22,241 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 03:05:24,301 | INFO | Process-92 | Number of variables: 296371
+2026-01-18 03:05:24,302 | INFO | Process-92 | Number of clauses: 1712395
+2026-01-18 03:05:24,302 | INFO | Process-92 | Real nums of clauses: 1712841
+2026-01-18 03:05:24,302 | INFO | Process-92 | Real nums of variables: 296370
+2026-01-18 03:05:25,953 | INFO | Process-92 | CNF written to cnf/v2/P_n445_k333/P_n445_k333_w68.cnf
+2026-01-18 03:05:25,954 | INFO | Process-92 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/P_n445_k333/P_n445_k333_w68.cnf
+2026-01-18 03:07:25,338 | INFO | Process-92 | [PAINLESS] status=SAT rc=10 time=119.38s
+2026-01-18 03:07:25,338 | RESULT | Process-92 | [PAINLESS] result: status=SAT time=119.38s rc=10
+2026-01-18 03:07:25,373 | RESULT | Process-92 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 03:07:25,587 | INFO | MainProcess | Found a solution 68
+2026-01-18 03:07:25,588 | INFO | MainProcess | [Test k=333, w=68] Time: 123.35 seconds
+2026-01-18 03:07:25,643 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 03:07:27,896 | INFO | Process-93 | Number of variables: 296371
+2026-01-18 03:07:27,897 | INFO | Process-93 | Number of clauses: 1712395
+2026-01-18 03:07:27,898 | INFO | Process-93 | Real nums of clauses: 1712841
+2026-01-18 03:07:27,898 | INFO | Process-93 | Real nums of variables: 296370
+2026-01-18 03:07:29,542 | INFO | Process-93 | CNF written to cnf/v2/P_n445_k333/P_n445_k333_w69.cnf
+2026-01-18 03:07:29,544 | INFO | Process-93 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/P_n445_k333/P_n445_k333_w69.cnf
+2026-01-18 03:10:54,709 | INFO | Process-93 | [PAINLESS] status=SAT rc=10 time=205.17s
+2026-01-18 03:10:54,710 | RESULT | Process-93 | [PAINLESS] result: status=SAT time=205.17s rc=10
+2026-01-18 03:10:54,737 | RESULT | Process-93 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 03:10:54,936 | INFO | MainProcess | Found a solution 69
+2026-01-18 03:10:54,937 | INFO | MainProcess | [Test k=333, w=69] Time: 209.29 seconds
+2026-01-18 03:10:54,988 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 03:10:57,241 | INFO | Process-94 | Number of variables: 296371
+2026-01-18 03:10:57,241 | INFO | Process-94 | Number of clauses: 1712395
+2026-01-18 03:10:57,242 | INFO | Process-94 | Real nums of clauses: 1712841
+2026-01-18 03:10:57,242 | INFO | Process-94 | Real nums of variables: 296370
+2026-01-18 03:10:58,673 | INFO | Process-94 | CNF written to cnf/v2/P_n445_k333/P_n445_k333_w70.cnf
+2026-01-18 03:10:58,674 | INFO | Process-94 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/P_n445_k333/P_n445_k333_w70.cnf
+2026-01-18 03:26:03,838 | INFO | MainProcess | No solution found 70
+2026-01-18 03:26:03,839 | INFO | MainProcess | [Test k=333, w=70] Time: 908.85 seconds
+2026-01-18 03:26:03,906 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 03:26:03,906 | INFO | MainProcess | $$$$
+2026-01-18 03:26:03,907 | INFO | MainProcess | -69
+2026-01-18 03:26:03,907 | INFO | MainProcess | $$$$
+2026-01-18 03:26:03,907 | INFO | MainProcess | Time taken for P-can__445.mtx.rnd with k = 333: 1889.836326599121 seconds
+2026-01-18 03:26:03,907 | INFO | MainProcess | Maximum width before timeout for P-can__445.mtx.rnd is 69
+2026-01-18 03:26:03,907 | INFO | MainProcess | time out
+2026-01-18 03:26:05,513 | INFO | Process-95 | Number of variables: 322089
+2026-01-18 03:26:05,514 | INFO | Process-95 | Number of clauses: 1025586
+2026-01-18 03:26:05,514 | INFO | Process-95 | Real nums of clauses: 1026081
+2026-01-18 03:26:05,514 | INFO | Process-95 | Real nums of variables: 322088
+2026-01-18 03:26:06,376 | INFO | Process-95 | CNF written to cnf/v2/Q_n494_k326/Q_n494_k326_w144.cnf
+2026-01-18 03:26:06,377 | INFO | Process-95 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/Q_n494_k326/Q_n494_k326_w144.cnf
+2026-01-18 03:33:45,457 | INFO | Process-95 | [PAINLESS] status=SAT rc=10 time=459.08s
+2026-01-18 03:33:45,460 | RESULT | Process-95 | [PAINLESS] result: status=SAT time=459.08s rc=10
+2026-01-18 03:33:45,494 | RESULT | Process-95 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 03:33:45,696 | INFO | MainProcess | Found a solution 144
+2026-01-18 03:33:45,708 | INFO | MainProcess | [Test k=326, w=144] Time: 461.78 seconds
+2026-01-18 03:33:46,335 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 03:33:47,567 | INFO | Process-96 | Number of variables: 322089
+2026-01-18 03:33:47,568 | INFO | Process-96 | Number of clauses: 1025586
+2026-01-18 03:33:47,568 | INFO | Process-96 | Real nums of clauses: 1026081
+2026-01-18 03:33:47,568 | INFO | Process-96 | Real nums of variables: 322088
+2026-01-18 03:33:48,356 | INFO | Process-96 | CNF written to cnf/v2/Q_n494_k326/Q_n494_k326_w145.cnf
+2026-01-18 03:33:48,357 | INFO | Process-96 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/Q_n494_k326/Q_n494_k326_w145.cnf
+2026-01-18 03:36:01,121 | INFO | Process-96 | [PAINLESS] status=SAT rc=10 time=132.76s
+2026-01-18 03:36:01,122 | RESULT | Process-96 | [PAINLESS] result: status=SAT time=132.76s rc=10
+2026-01-18 03:36:01,163 | RESULT | Process-96 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 03:36:01,328 | INFO | MainProcess | Found a solution 145
+2026-01-18 03:36:01,329 | INFO | MainProcess | [Test k=326, w=145] Time: 134.99 seconds
+2026-01-18 03:36:01,385 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 03:36:02,785 | INFO | Process-97 | Number of variables: 322089
+2026-01-18 03:36:02,786 | INFO | Process-97 | Number of clauses: 1025586
+2026-01-18 03:36:02,787 | INFO | Process-97 | Real nums of clauses: 1026081
+2026-01-18 03:36:02,788 | INFO | Process-97 | Real nums of variables: 322088
+2026-01-18 03:36:03,756 | INFO | Process-97 | CNF written to cnf/v2/Q_n494_k326/Q_n494_k326_w146.cnf
+2026-01-18 03:36:03,757 | INFO | Process-97 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/Q_n494_k326/Q_n494_k326_w146.cnf
+2026-01-18 03:43:06,028 | INFO | Process-97 | [PAINLESS] status=SAT rc=10 time=422.27s
+2026-01-18 03:43:06,029 | RESULT | Process-97 | [PAINLESS] result: status=SAT time=422.27s rc=10
+2026-01-18 03:43:06,066 | RESULT | Process-97 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 03:43:06,179 | INFO | MainProcess | Found a solution 146
+2026-01-18 03:43:06,180 | INFO | MainProcess | [Test k=326, w=146] Time: 424.79 seconds
+2026-01-18 03:43:06,231 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 03:43:07,660 | INFO | Process-98 | Number of variables: 322089
+2026-01-18 03:43:07,660 | INFO | Process-98 | Number of clauses: 1025586
+2026-01-18 03:43:07,660 | INFO | Process-98 | Real nums of clauses: 1026081
+2026-01-18 03:43:07,661 | INFO | Process-98 | Real nums of variables: 322088
+2026-01-18 03:43:08,510 | INFO | Process-98 | CNF written to cnf/v2/Q_n494_k326/Q_n494_k326_w147.cnf
+2026-01-18 03:43:08,512 | INFO | Process-98 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/Q_n494_k326/Q_n494_k326_w147.cnf
+2026-01-18 03:47:00,731 | INFO | Process-98 | [PAINLESS] status=SAT rc=10 time=232.22s
+2026-01-18 03:47:00,731 | RESULT | Process-98 | [PAINLESS] result: status=SAT time=232.22s rc=10
+2026-01-18 03:47:00,781 | RESULT | Process-98 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 03:47:00,915 | INFO | MainProcess | Found a solution 147
+2026-01-18 03:47:00,916 | INFO | MainProcess | [Test k=326, w=147] Time: 234.68 seconds
+2026-01-18 03:47:00,979 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 03:47:02,400 | INFO | Process-99 | Number of variables: 322089
+2026-01-18 03:47:02,401 | INFO | Process-99 | Number of clauses: 1025586
+2026-01-18 03:47:02,401 | INFO | Process-99 | Real nums of clauses: 1026081
+2026-01-18 03:47:02,401 | INFO | Process-99 | Real nums of variables: 322088
+2026-01-18 03:47:03,324 | INFO | Process-99 | CNF written to cnf/v2/Q_n494_k326/Q_n494_k326_w148.cnf
+2026-01-18 03:47:03,325 | INFO | Process-99 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/Q_n494_k326/Q_n494_k326_w148.cnf
+2026-01-18 03:50:23,804 | INFO | Process-99 | [PAINLESS] status=SAT rc=10 time=200.48s
+2026-01-18 03:50:23,805 | RESULT | Process-99 | [PAINLESS] result: status=SAT time=200.48s rc=10
+2026-01-18 03:50:23,847 | RESULT | Process-99 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 03:50:23,963 | INFO | MainProcess | Found a solution 148
+2026-01-18 03:50:23,963 | INFO | MainProcess | [Test k=326, w=148] Time: 202.98 seconds
+2026-01-18 03:50:24,021 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 03:50:25,381 | INFO | Process-100 | Number of variables: 322089
+2026-01-18 03:50:25,382 | INFO | Process-100 | Number of clauses: 1025586
+2026-01-18 03:50:25,383 | INFO | Process-100 | Real nums of clauses: 1026081
+2026-01-18 03:50:25,383 | INFO | Process-100 | Real nums of variables: 322088
+2026-01-18 03:50:26,330 | INFO | Process-100 | CNF written to cnf/v2/Q_n494_k326/Q_n494_k326_w149.cnf
+2026-01-18 03:50:26,331 | INFO | Process-100 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/Q_n494_k326/Q_n494_k326_w149.cnf
+2026-01-18 03:56:43,202 | INFO | MainProcess | No solution found 149
+2026-01-18 03:56:43,205 | INFO | MainProcess | [Test k=326, w=149] Time: 379.18 seconds
+2026-01-18 03:56:43,369 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 03:56:43,370 | INFO | MainProcess | $$$$
+2026-01-18 03:56:43,370 | INFO | MainProcess | -148
+2026-01-18 03:56:43,370 | INFO | MainProcess | $$$$
+2026-01-18 03:56:43,371 | INFO | MainProcess | Time taken for Q-494_bus.mtx.rnd with k = 326: 1839.463279724121 seconds
+2026-01-18 03:56:43,371 | INFO | MainProcess | Maximum width before timeout for Q-494_bus.mtx.rnd is 148
+2026-01-18 03:56:43,371 | INFO | MainProcess | time out
+2026-01-18 03:56:47,048 | INFO | Process-101 | Number of variables: 349083
+2026-01-18 03:56:47,049 | INFO | Process-101 | Number of clauses: 2614333
+2026-01-18 03:56:47,049 | INFO | Process-101 | Real nums of clauses: 2614837
+2026-01-18 03:56:47,049 | INFO | Process-101 | Real nums of variables: 349082
+2026-01-18 03:56:49,420 | INFO | Process-101 | CNF written to cnf/v2/R_n503_k347/R_n503_k347_w31.cnf
+2026-01-18 03:56:49,421 | INFO | Process-101 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/R_n503_k347/R_n503_k347_w31.cnf
+2026-01-18 03:56:57,235 | INFO | Process-101 | [PAINLESS] status=SAT rc=10 time=7.81s
+2026-01-18 03:56:57,236 | RESULT | Process-101 | [PAINLESS] result: status=SAT time=7.81s rc=10
+2026-01-18 03:56:57,296 | RESULT | Process-101 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 03:56:57,591 | INFO | MainProcess | Found a solution 31
+2026-01-18 03:56:57,591 | INFO | MainProcess | [Test k=347, w=31] Time: 14.21 seconds
+2026-01-18 03:56:57,652 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 03:57:01,045 | INFO | Process-102 | Number of variables: 349083
+2026-01-18 03:57:01,045 | INFO | Process-102 | Number of clauses: 2614333
+2026-01-18 03:57:01,046 | INFO | Process-102 | Real nums of clauses: 2614837
+2026-01-18 03:57:01,046 | INFO | Process-102 | Real nums of variables: 349082
+2026-01-18 03:57:03,694 | INFO | Process-102 | CNF written to cnf/v2/R_n503_k347/R_n503_k347_w32.cnf
+2026-01-18 03:57:03,696 | INFO | Process-102 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/R_n503_k347/R_n503_k347_w32.cnf
+2026-01-18 03:57:21,878 | INFO | Process-102 | [PAINLESS] status=SAT rc=10 time=18.18s
+2026-01-18 03:57:21,878 | RESULT | Process-102 | [PAINLESS] result: status=SAT time=18.18s rc=10
+2026-01-18 03:57:21,916 | RESULT | Process-102 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 03:57:22,151 | INFO | MainProcess | Found a solution 32
+2026-01-18 03:57:22,151 | INFO | MainProcess | [Test k=347, w=32] Time: 24.5 seconds
+2026-01-18 03:57:22,206 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 03:57:25,541 | INFO | Process-103 | Number of variables: 349083
+2026-01-18 03:57:25,542 | INFO | Process-103 | Number of clauses: 2614333
+2026-01-18 03:57:25,542 | INFO | Process-103 | Real nums of clauses: 2614837
+2026-01-18 03:57:25,543 | INFO | Process-103 | Real nums of variables: 349082
+2026-01-18 03:57:28,195 | INFO | Process-103 | CNF written to cnf/v2/R_n503_k347/R_n503_k347_w33.cnf
+2026-01-18 03:57:28,197 | INFO | Process-103 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/R_n503_k347/R_n503_k347_w33.cnf
+2026-01-18 03:57:37,986 | INFO | Process-103 | [PAINLESS] status=SAT rc=10 time=9.79s
+2026-01-18 03:57:37,987 | RESULT | Process-103 | [PAINLESS] result: status=SAT time=9.79s rc=10
+2026-01-18 03:57:38,022 | RESULT | Process-103 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 03:57:38,267 | INFO | MainProcess | Found a solution 33
+2026-01-18 03:57:38,268 | INFO | MainProcess | [Test k=347, w=33] Time: 16.06 seconds
+2026-01-18 03:57:38,315 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 03:57:41,755 | INFO | Process-104 | Number of variables: 349083
+2026-01-18 03:57:41,755 | INFO | Process-104 | Number of clauses: 2614333
+2026-01-18 03:57:41,756 | INFO | Process-104 | Real nums of clauses: 2614837
+2026-01-18 03:57:41,756 | INFO | Process-104 | Real nums of variables: 349082
+2026-01-18 03:57:48,071 | INFO | Process-104 | CNF written to cnf/v2/R_n503_k347/R_n503_k347_w34.cnf
+2026-01-18 03:57:48,073 | INFO | Process-104 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/R_n503_k347/R_n503_k347_w34.cnf
+2026-01-18 03:58:00,565 | INFO | Process-104 | [PAINLESS] status=SAT rc=10 time=12.49s
+2026-01-18 03:58:00,565 | RESULT | Process-104 | [PAINLESS] result: status=SAT time=12.49s rc=10
+2026-01-18 03:58:00,625 | RESULT | Process-104 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 03:58:00,871 | INFO | MainProcess | Found a solution 34
+2026-01-18 03:58:00,871 | INFO | MainProcess | [Test k=347, w=34] Time: 22.56 seconds
+2026-01-18 03:58:00,935 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 03:58:04,443 | INFO | Process-105 | Number of variables: 349083
+2026-01-18 03:58:04,444 | INFO | Process-105 | Number of clauses: 2614333
+2026-01-18 03:58:04,444 | INFO | Process-105 | Real nums of clauses: 2614837
+2026-01-18 03:58:04,444 | INFO | Process-105 | Real nums of variables: 349082
+2026-01-18 03:58:07,036 | INFO | Process-105 | CNF written to cnf/v2/R_n503_k347/R_n503_k347_w35.cnf
+2026-01-18 03:58:07,037 | INFO | Process-105 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/R_n503_k347/R_n503_k347_w35.cnf
+2026-01-18 03:58:24,876 | INFO | Process-105 | [PAINLESS] status=SAT rc=10 time=17.84s
+2026-01-18 03:58:24,877 | RESULT | Process-105 | [PAINLESS] result: status=SAT time=17.84s rc=10
+2026-01-18 03:58:24,920 | RESULT | Process-105 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 03:58:25,144 | INFO | MainProcess | Found a solution 35
+2026-01-18 03:58:25,144 | INFO | MainProcess | [Test k=347, w=35] Time: 24.21 seconds
+2026-01-18 03:58:25,190 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 03:58:28,602 | INFO | Process-106 | Number of variables: 349083
+2026-01-18 03:58:28,603 | INFO | Process-106 | Number of clauses: 2614333
+2026-01-18 03:58:28,603 | INFO | Process-106 | Real nums of clauses: 2614837
+2026-01-18 03:58:28,603 | INFO | Process-106 | Real nums of variables: 349082
+2026-01-18 03:58:31,212 | INFO | Process-106 | CNF written to cnf/v2/R_n503_k347/R_n503_k347_w36.cnf
+2026-01-18 03:58:31,214 | INFO | Process-106 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/R_n503_k347/R_n503_k347_w36.cnf
+2026-01-18 03:58:46,356 | INFO | Process-106 | [PAINLESS] status=SAT rc=10 time=15.14s
+2026-01-18 03:58:46,356 | RESULT | Process-106 | [PAINLESS] result: status=SAT time=15.14s rc=10
+2026-01-18 03:58:46,404 | RESULT | Process-106 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 03:58:46,681 | INFO | MainProcess | Found a solution 36
+2026-01-18 03:58:46,681 | INFO | MainProcess | [Test k=347, w=36] Time: 21.49 seconds
+2026-01-18 03:58:46,746 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 03:58:49,939 | INFO | Process-107 | Number of variables: 349083
+2026-01-18 03:58:49,940 | INFO | Process-107 | Number of clauses: 2614333
+2026-01-18 03:58:49,940 | INFO | Process-107 | Real nums of clauses: 2614837
+2026-01-18 03:58:49,940 | INFO | Process-107 | Real nums of variables: 349082
+2026-01-18 03:58:52,438 | INFO | Process-107 | CNF written to cnf/v2/R_n503_k347/R_n503_k347_w37.cnf
+2026-01-18 03:58:52,439 | INFO | Process-107 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/R_n503_k347/R_n503_k347_w37.cnf
+2026-01-18 03:59:16,607 | INFO | Process-107 | [PAINLESS] status=SAT rc=10 time=24.17s
+2026-01-18 03:59:16,607 | RESULT | Process-107 | [PAINLESS] result: status=SAT time=24.17s rc=10
+2026-01-18 03:59:16,656 | RESULT | Process-107 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 03:59:16,920 | INFO | MainProcess | Found a solution 37
+2026-01-18 03:59:16,920 | INFO | MainProcess | [Test k=347, w=37] Time: 30.17 seconds
+2026-01-18 03:59:16,976 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 03:59:20,495 | INFO | Process-108 | Number of variables: 349083
+2026-01-18 03:59:20,501 | INFO | Process-108 | Number of clauses: 2614333
+2026-01-18 03:59:20,502 | INFO | Process-108 | Real nums of clauses: 2614837
+2026-01-18 03:59:20,503 | INFO | Process-108 | Real nums of variables: 349082
+2026-01-18 03:59:23,096 | INFO | Process-108 | CNF written to cnf/v2/R_n503_k347/R_n503_k347_w38.cnf
+2026-01-18 03:59:23,097 | INFO | Process-108 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/R_n503_k347/R_n503_k347_w38.cnf
+2026-01-18 03:59:49,187 | INFO | Process-108 | [PAINLESS] status=SAT rc=10 time=26.09s
+2026-01-18 03:59:49,187 | RESULT | Process-108 | [PAINLESS] result: status=SAT time=26.09s rc=10
+2026-01-18 03:59:49,245 | RESULT | Process-108 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 03:59:49,549 | INFO | MainProcess | Found a solution 38
+2026-01-18 03:59:49,550 | INFO | MainProcess | [Test k=347, w=38] Time: 32.57 seconds
+2026-01-18 03:59:49,626 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 03:59:53,199 | INFO | Process-109 | Number of variables: 349083
+2026-01-18 03:59:53,200 | INFO | Process-109 | Number of clauses: 2614333
+2026-01-18 03:59:53,200 | INFO | Process-109 | Real nums of clauses: 2614837
+2026-01-18 03:59:53,200 | INFO | Process-109 | Real nums of variables: 349082
+2026-01-18 03:59:55,781 | INFO | Process-109 | CNF written to cnf/v2/R_n503_k347/R_n503_k347_w39.cnf
+2026-01-18 03:59:55,781 | INFO | Process-109 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/R_n503_k347/R_n503_k347_w39.cnf
+2026-01-18 04:00:49,497 | INFO | Process-109 | [PAINLESS] status=SAT rc=10 time=53.72s
+2026-01-18 04:00:49,503 | RESULT | Process-109 | [PAINLESS] result: status=SAT time=53.72s rc=10
+2026-01-18 04:00:49,544 | RESULT | Process-109 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 04:00:49,813 | INFO | MainProcess | Found a solution 39
+2026-01-18 04:00:49,814 | INFO | MainProcess | [Test k=347, w=39] Time: 60.19 seconds
+2026-01-18 04:00:49,870 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 04:00:53,098 | INFO | Process-110 | Number of variables: 349083
+2026-01-18 04:00:53,099 | INFO | Process-110 | Number of clauses: 2614333
+2026-01-18 04:00:53,099 | INFO | Process-110 | Real nums of clauses: 2614837
+2026-01-18 04:00:53,099 | INFO | Process-110 | Real nums of variables: 349082
+2026-01-18 04:00:55,709 | INFO | Process-110 | CNF written to cnf/v2/R_n503_k347/R_n503_k347_w40.cnf
+2026-01-18 04:00:55,710 | INFO | Process-110 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/R_n503_k347/R_n503_k347_w40.cnf
+2026-01-18 04:01:46,876 | INFO | Process-110 | [PAINLESS] status=SAT rc=10 time=51.17s
+2026-01-18 04:01:46,877 | RESULT | Process-110 | [PAINLESS] result: status=SAT time=51.17s rc=10
+2026-01-18 04:01:46,929 | RESULT | Process-110 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 04:01:47,167 | INFO | MainProcess | Found a solution 40
+2026-01-18 04:01:47,168 | INFO | MainProcess | [Test k=347, w=40] Time: 57.3 seconds
+2026-01-18 04:01:47,215 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 04:01:50,478 | INFO | Process-111 | Number of variables: 349083
+2026-01-18 04:01:50,478 | INFO | Process-111 | Number of clauses: 2614333
+2026-01-18 04:01:50,479 | INFO | Process-111 | Real nums of clauses: 2614837
+2026-01-18 04:01:50,479 | INFO | Process-111 | Real nums of variables: 349082
+2026-01-18 04:01:53,066 | INFO | Process-111 | CNF written to cnf/v2/R_n503_k347/R_n503_k347_w41.cnf
+2026-01-18 04:01:53,068 | INFO | Process-111 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/R_n503_k347/R_n503_k347_w41.cnf
+2026-01-18 04:03:20,834 | INFO | Process-111 | [PAINLESS] status=SAT rc=10 time=87.77s
+2026-01-18 04:03:20,834 | RESULT | Process-111 | [PAINLESS] result: status=SAT time=87.77s rc=10
+2026-01-18 04:03:20,895 | RESULT | Process-111 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 04:03:21,147 | INFO | MainProcess | Found a solution 41
+2026-01-18 04:03:21,147 | INFO | MainProcess | [Test k=347, w=41] Time: 93.93 seconds
+2026-01-18 04:03:21,212 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 04:03:24,238 | INFO | Process-112 | Number of variables: 349083
+2026-01-18 04:03:24,239 | INFO | Process-112 | Number of clauses: 2614333
+2026-01-18 04:03:24,239 | INFO | Process-112 | Real nums of clauses: 2614837
+2026-01-18 04:03:24,240 | INFO | Process-112 | Real nums of variables: 349082
+2026-01-18 04:03:26,887 | INFO | Process-112 | CNF written to cnf/v2/R_n503_k347/R_n503_k347_w42.cnf
+2026-01-18 04:03:26,888 | INFO | Process-112 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/R_n503_k347/R_n503_k347_w42.cnf
+2026-01-18 04:05:12,268 | INFO | Process-112 | [PAINLESS] status=SAT rc=10 time=105.38s
+2026-01-18 04:05:12,268 | RESULT | Process-112 | [PAINLESS] result: status=SAT time=105.38s rc=10
+2026-01-18 04:05:12,318 | RESULT | Process-112 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 04:05:12,613 | INFO | MainProcess | Found a solution 42
+2026-01-18 04:05:12,613 | INFO | MainProcess | [Test k=347, w=42] Time: 111.4 seconds
+2026-01-18 04:05:12,673 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 04:05:15,900 | INFO | Process-113 | Number of variables: 349083
+2026-01-18 04:05:15,900 | INFO | Process-113 | Number of clauses: 2614333
+2026-01-18 04:05:15,901 | INFO | Process-113 | Real nums of clauses: 2614837
+2026-01-18 04:05:15,901 | INFO | Process-113 | Real nums of variables: 349082
+2026-01-18 04:05:18,588 | INFO | Process-113 | CNF written to cnf/v2/R_n503_k347/R_n503_k347_w43.cnf
+2026-01-18 04:05:18,589 | INFO | Process-113 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/R_n503_k347/R_n503_k347_w43.cnf
+2026-01-18 04:29:07,487 | INFO | MainProcess | No solution found 43
+2026-01-18 04:29:07,493 | INFO | MainProcess | [Test k=347, w=43] Time: 1434.81 seconds
+2026-01-18 04:29:07,663 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 04:29:07,663 | INFO | MainProcess | $$$$
+2026-01-18 04:29:07,664 | INFO | MainProcess | -42
+2026-01-18 04:29:07,664 | INFO | MainProcess | $$$$
+2026-01-18 04:29:07,664 | INFO | MainProcess | Time taken for R-dwt__503.mtx.rnd with k = 347: 1944.2923460006714 seconds
+2026-01-18 04:29:07,664 | INFO | MainProcess | Maximum width before timeout for R-dwt__503.mtx.rnd is 42
+2026-01-18 04:29:07,664 | INFO | MainProcess | time out
+2026-01-18 04:29:10,099 | INFO | Process-114 | Number of variables: 351625
+2026-01-18 04:29:10,099 | INFO | Process-114 | Number of clauses: 1566082
+2026-01-18 04:29:10,099 | INFO | Process-114 | Real nums of clauses: 1566629
+2026-01-18 04:29:10,099 | INFO | Process-114 | Real nums of variables: 351624
+2026-01-18 04:29:11,376 | INFO | Process-114 | CNF written to cnf/v2/S_n546_k322/S_n546_k322_w151.cnf
+2026-01-18 04:29:11,377 | INFO | Process-114 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/S_n546_k322/S_n546_k322_w151.cnf
+2026-01-18 04:56:52,350 | INFO | Process-114 | [PAINLESS] status=SAT rc=10 time=1660.97s
+2026-01-18 04:56:52,372 | RESULT | Process-114 | [PAINLESS] result: status=SAT time=1660.97s rc=10
+2026-01-18 04:56:52,476 | RESULT | Process-114 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 04:56:55,660 | INFO | MainProcess | Found a solution 151
+2026-01-18 04:56:55,670 | INFO | MainProcess | [Test k=322, w=151] Time: 1667.97 seconds
+2026-01-18 04:56:56,014 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 04:56:57,843 | INFO | Process-115 | Number of variables: 351625
+2026-01-18 04:56:57,844 | INFO | Process-115 | Number of clauses: 1566082
+2026-01-18 04:56:57,844 | INFO | Process-115 | Real nums of clauses: 1566629
+2026-01-18 04:56:57,845 | INFO | Process-115 | Real nums of variables: 351624
+2026-01-18 04:56:59,098 | INFO | Process-115 | CNF written to cnf/v2/S_n546_k322/S_n546_k322_w152.cnf
+2026-01-18 04:56:59,099 | INFO | Process-115 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/S_n546_k322/S_n546_k322_w152.cnf
+2026-01-18 04:59:22,108 | INFO | MainProcess | No solution found 152
+2026-01-18 04:59:22,109 | INFO | MainProcess | [Test k=322, w=152] Time: 146.09 seconds
+2026-01-18 04:59:22,232 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 04:59:22,232 | INFO | MainProcess | $$$$
+2026-01-18 04:59:22,232 | INFO | MainProcess | -151
+2026-01-18 04:59:22,232 | INFO | MainProcess | $$$$
+2026-01-18 04:59:22,232 | INFO | MainProcess | Time taken for S-sherman4.mtx.rnd with k = 322: 1814.5677218437195 seconds
+2026-01-18 04:59:22,232 | INFO | MainProcess | Maximum width before timeout for S-sherman4.mtx.rnd is 151
+2026-01-18 04:59:22,233 | INFO | MainProcess | time out
+2026-01-18 04:59:25,312 | INFO | Process-116 | Number of variables: 447553
+2026-01-18 04:59:25,313 | INFO | Process-116 | Number of clauses: 2599834
+2026-01-18 04:59:25,313 | INFO | Process-116 | Real nums of clauses: 2600427
+2026-01-18 04:59:25,314 | INFO | Process-116 | Real nums of variables: 447552
+2026-01-18 04:59:27,799 | INFO | Process-116 | CNF written to cnf/v2/T_n592_k378/T_n592_k378_w65.cnf
+2026-01-18 04:59:27,800 | INFO | Process-116 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/T_n592_k378/T_n592_k378_w65.cnf
+2026-01-18 04:59:35,915 | INFO | Process-116 | [PAINLESS] status=SAT rc=10 time=8.11s
+2026-01-18 04:59:35,916 | RESULT | Process-116 | [PAINLESS] result: status=SAT time=8.11s rc=10
+2026-01-18 04:59:35,974 | RESULT | Process-116 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 04:59:36,220 | INFO | MainProcess | Found a solution 65
+2026-01-18 04:59:36,220 | INFO | MainProcess | [Test k=378, w=65] Time: 13.97 seconds
+2026-01-18 04:59:36,268 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 04:59:42,956 | INFO | Process-117 | Number of variables: 447553
+2026-01-18 04:59:42,959 | INFO | Process-117 | Number of clauses: 2599834
+2026-01-18 04:59:42,960 | INFO | Process-117 | Real nums of clauses: 2600427
+2026-01-18 04:59:42,961 | INFO | Process-117 | Real nums of variables: 447552
+2026-01-18 04:59:45,469 | INFO | Process-117 | CNF written to cnf/v2/T_n592_k378/T_n592_k378_w66.cnf
+2026-01-18 04:59:45,470 | INFO | Process-117 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/T_n592_k378/T_n592_k378_w66.cnf
+2026-01-18 04:59:53,381 | INFO | Process-117 | [PAINLESS] status=SAT rc=10 time=7.91s
+2026-01-18 04:59:53,383 | RESULT | Process-117 | [PAINLESS] result: status=SAT time=7.91s rc=10
+2026-01-18 04:59:53,451 | RESULT | Process-117 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 04:59:53,751 | INFO | MainProcess | Found a solution 66
+2026-01-18 04:59:53,752 | INFO | MainProcess | [Test k=378, w=66] Time: 17.48 seconds
+2026-01-18 04:59:53,824 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 04:59:56,868 | INFO | Process-118 | Number of variables: 447553
+2026-01-18 04:59:56,869 | INFO | Process-118 | Number of clauses: 2599834
+2026-01-18 04:59:56,869 | INFO | Process-118 | Real nums of clauses: 2600427
+2026-01-18 04:59:56,869 | INFO | Process-118 | Real nums of variables: 447552
+2026-01-18 04:59:59,399 | INFO | Process-118 | CNF written to cnf/v2/T_n592_k378/T_n592_k378_w67.cnf
+2026-01-18 04:59:59,400 | INFO | Process-118 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/T_n592_k378/T_n592_k378_w67.cnf
+2026-01-18 05:00:28,578 | INFO | Process-118 | [PAINLESS] status=SAT rc=10 time=29.18s
+2026-01-18 05:00:28,578 | RESULT | Process-118 | [PAINLESS] result: status=SAT time=29.18s rc=10
+2026-01-18 05:00:28,655 | RESULT | Process-118 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 05:00:28,878 | INFO | MainProcess | Found a solution 67
+2026-01-18 05:00:28,878 | INFO | MainProcess | [Test k=378, w=67] Time: 35.05 seconds
+2026-01-18 05:00:28,949 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 05:00:32,292 | INFO | Process-119 | Number of variables: 447553
+2026-01-18 05:00:32,293 | INFO | Process-119 | Number of clauses: 2599834
+2026-01-18 05:00:32,294 | INFO | Process-119 | Real nums of clauses: 2600427
+2026-01-18 05:00:32,294 | INFO | Process-119 | Real nums of variables: 447552
+2026-01-18 05:00:34,804 | INFO | Process-119 | CNF written to cnf/v2/T_n592_k378/T_n592_k378_w68.cnf
+2026-01-18 05:00:34,806 | INFO | Process-119 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/T_n592_k378/T_n592_k378_w68.cnf
+2026-01-18 05:00:44,412 | INFO | Process-119 | [PAINLESS] status=SAT rc=10 time=9.61s
+2026-01-18 05:00:44,412 | RESULT | Process-119 | [PAINLESS] result: status=SAT time=9.61s rc=10
+2026-01-18 05:00:44,474 | RESULT | Process-119 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 05:00:44,755 | INFO | MainProcess | Found a solution 68
+2026-01-18 05:00:44,756 | INFO | MainProcess | [Test k=378, w=68] Time: 15.81 seconds
+2026-01-18 05:00:44,816 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 05:00:48,011 | INFO | Process-120 | Number of variables: 447553
+2026-01-18 05:00:48,012 | INFO | Process-120 | Number of clauses: 2599834
+2026-01-18 05:00:48,012 | INFO | Process-120 | Real nums of clauses: 2600427
+2026-01-18 05:00:48,012 | INFO | Process-120 | Real nums of variables: 447552
+2026-01-18 05:00:50,523 | INFO | Process-120 | CNF written to cnf/v2/T_n592_k378/T_n592_k378_w69.cnf
+2026-01-18 05:00:50,525 | INFO | Process-120 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/T_n592_k378/T_n592_k378_w69.cnf
+2026-01-18 05:01:19,987 | INFO | Process-120 | [PAINLESS] status=SAT rc=10 time=29.46s
+2026-01-18 05:01:19,987 | RESULT | Process-120 | [PAINLESS] result: status=SAT time=29.46s rc=10
+2026-01-18 05:01:20,042 | RESULT | Process-120 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 05:01:20,269 | INFO | MainProcess | Found a solution 69
+2026-01-18 05:01:20,270 | INFO | MainProcess | [Test k=378, w=69] Time: 35.45 seconds
+2026-01-18 05:01:20,326 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 05:01:23,643 | INFO | Process-121 | Number of variables: 447553
+2026-01-18 05:01:23,643 | INFO | Process-121 | Number of clauses: 2599834
+2026-01-18 05:01:23,643 | INFO | Process-121 | Real nums of clauses: 2600427
+2026-01-18 05:01:23,644 | INFO | Process-121 | Real nums of variables: 447552
+2026-01-18 05:01:26,173 | INFO | Process-121 | CNF written to cnf/v2/T_n592_k378/T_n592_k378_w70.cnf
+2026-01-18 05:01:26,174 | INFO | Process-121 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/T_n592_k378/T_n592_k378_w70.cnf
+2026-01-18 05:01:50,881 | INFO | Process-121 | [PAINLESS] status=SAT rc=10 time=24.71s
+2026-01-18 05:01:50,881 | RESULT | Process-121 | [PAINLESS] result: status=SAT time=24.71s rc=10
+2026-01-18 05:01:50,937 | RESULT | Process-121 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 05:01:51,190 | INFO | MainProcess | Found a solution 70
+2026-01-18 05:01:51,191 | INFO | MainProcess | [Test k=378, w=70] Time: 30.86 seconds
+2026-01-18 05:01:51,249 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 05:01:54,416 | INFO | Process-122 | Number of variables: 447553
+2026-01-18 05:01:54,417 | INFO | Process-122 | Number of clauses: 2599834
+2026-01-18 05:01:54,417 | INFO | Process-122 | Real nums of clauses: 2600427
+2026-01-18 05:01:54,417 | INFO | Process-122 | Real nums of variables: 447552
+2026-01-18 05:01:56,592 | INFO | Process-122 | CNF written to cnf/v2/T_n592_k378/T_n592_k378_w71.cnf
+2026-01-18 05:01:56,593 | INFO | Process-122 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/T_n592_k378/T_n592_k378_w71.cnf
+2026-01-18 05:02:51,808 | INFO | Process-122 | [PAINLESS] status=SAT rc=10 time=55.21s
+2026-01-18 05:02:51,809 | RESULT | Process-122 | [PAINLESS] result: status=SAT time=55.21s rc=10
+2026-01-18 05:02:51,862 | RESULT | Process-122 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 05:02:52,100 | INFO | MainProcess | Found a solution 71
+2026-01-18 05:02:52,100 | INFO | MainProcess | [Test k=378, w=71] Time: 60.85 seconds
+2026-01-18 05:02:52,158 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 05:02:55,562 | INFO | Process-123 | Number of variables: 447553
+2026-01-18 05:02:55,563 | INFO | Process-123 | Number of clauses: 2599834
+2026-01-18 05:02:55,563 | INFO | Process-123 | Real nums of clauses: 2600427
+2026-01-18 05:02:55,564 | INFO | Process-123 | Real nums of variables: 447552
+2026-01-18 05:02:57,731 | INFO | Process-123 | CNF written to cnf/v2/T_n592_k378/T_n592_k378_w72.cnf
+2026-01-18 05:02:57,732 | INFO | Process-123 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/T_n592_k378/T_n592_k378_w72.cnf
+2026-01-18 05:03:46,333 | INFO | Process-123 | [PAINLESS] status=SAT rc=10 time=48.60s
+2026-01-18 05:03:46,333 | RESULT | Process-123 | [PAINLESS] result: status=SAT time=48.60s rc=10
+2026-01-18 05:03:46,394 | RESULT | Process-123 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 05:03:46,614 | INFO | MainProcess | Found a solution 72
+2026-01-18 05:03:46,615 | INFO | MainProcess | [Test k=378, w=72] Time: 54.46 seconds
+2026-01-18 05:03:46,667 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 05:03:49,905 | INFO | Process-124 | Number of variables: 447553
+2026-01-18 05:03:49,906 | INFO | Process-124 | Number of clauses: 2599834
+2026-01-18 05:03:49,907 | INFO | Process-124 | Real nums of clauses: 2600427
+2026-01-18 05:03:49,907 | INFO | Process-124 | Real nums of variables: 447552
+2026-01-18 05:03:56,043 | INFO | Process-124 | CNF written to cnf/v2/T_n592_k378/T_n592_k378_w73.cnf
+2026-01-18 05:03:56,045 | INFO | Process-124 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/T_n592_k378/T_n592_k378_w73.cnf
+2026-01-18 05:05:51,077 | INFO | Process-124 | [PAINLESS] status=SAT rc=10 time=115.03s
+2026-01-18 05:05:51,077 | RESULT | Process-124 | [PAINLESS] result: status=SAT time=115.03s rc=10
+2026-01-18 05:05:51,144 | RESULT | Process-124 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 05:05:51,386 | INFO | MainProcess | Found a solution 73
+2026-01-18 05:05:51,387 | INFO | MainProcess | [Test k=378, w=73] Time: 124.72 seconds
+2026-01-18 05:05:51,449 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 05:05:54,710 | INFO | Process-125 | Number of variables: 447553
+2026-01-18 05:05:54,710 | INFO | Process-125 | Number of clauses: 2599834
+2026-01-18 05:05:54,711 | INFO | Process-125 | Real nums of clauses: 2600427
+2026-01-18 05:05:54,711 | INFO | Process-125 | Real nums of variables: 447552
+2026-01-18 05:05:57,165 | INFO | Process-125 | CNF written to cnf/v2/T_n592_k378/T_n592_k378_w74.cnf
+2026-01-18 05:05:57,166 | INFO | Process-125 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/T_n592_k378/T_n592_k378_w74.cnf
+2026-01-18 05:08:56,088 | INFO | Process-125 | [PAINLESS] status=SAT rc=10 time=178.92s
+2026-01-18 05:08:56,090 | RESULT | Process-125 | [PAINLESS] result: status=SAT time=178.92s rc=10
+2026-01-18 05:08:56,136 | RESULT | Process-125 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 05:08:56,394 | INFO | MainProcess | Found a solution 74
+2026-01-18 05:08:56,395 | INFO | MainProcess | [Test k=378, w=74] Time: 184.94 seconds
+2026-01-18 05:08:56,482 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 05:08:59,250 | INFO | Process-126 | Number of variables: 447553
+2026-01-18 05:08:59,251 | INFO | Process-126 | Number of clauses: 2599834
+2026-01-18 05:08:59,251 | INFO | Process-126 | Real nums of clauses: 2600427
+2026-01-18 05:08:59,251 | INFO | Process-126 | Real nums of variables: 447552
+2026-01-18 05:09:01,531 | INFO | Process-126 | CNF written to cnf/v2/T_n592_k378/T_n592_k378_w75.cnf
+2026-01-18 05:09:01,532 | INFO | Process-126 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/T_n592_k378/T_n592_k378_w75.cnf
+2026-01-18 05:10:16,796 | INFO | Process-126 | [PAINLESS] status=SAT rc=10 time=75.26s
+2026-01-18 05:10:16,796 | RESULT | Process-126 | [PAINLESS] result: status=SAT time=75.26s rc=10
+2026-01-18 05:10:16,844 | RESULT | Process-126 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 05:10:17,073 | INFO | MainProcess | Found a solution 75
+2026-01-18 05:10:17,074 | INFO | MainProcess | [Test k=378, w=75] Time: 80.59 seconds
+2026-01-18 05:10:17,115 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 05:10:19,680 | INFO | Process-127 | Number of variables: 447553
+2026-01-18 05:10:19,681 | INFO | Process-127 | Number of clauses: 2599834
+2026-01-18 05:10:19,681 | INFO | Process-127 | Real nums of clauses: 2600427
+2026-01-18 05:10:19,681 | INFO | Process-127 | Real nums of variables: 447552
+2026-01-18 05:10:21,938 | INFO | Process-127 | CNF written to cnf/v2/T_n592_k378/T_n592_k378_w76.cnf
+2026-01-18 05:10:21,939 | INFO | Process-127 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/T_n592_k378/T_n592_k378_w76.cnf
+2026-01-18 05:11:18,126 | INFO | Process-127 | [PAINLESS] status=SAT rc=10 time=56.19s
+2026-01-18 05:11:18,126 | RESULT | Process-127 | [PAINLESS] result: status=SAT time=56.19s rc=10
+2026-01-18 05:11:18,178 | RESULT | Process-127 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 05:11:18,406 | INFO | MainProcess | Found a solution 76
+2026-01-18 05:11:18,406 | INFO | MainProcess | [Test k=378, w=76] Time: 61.29 seconds
+2026-01-18 05:11:18,455 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 05:11:20,931 | INFO | Process-128 | Number of variables: 447553
+2026-01-18 05:11:20,931 | INFO | Process-128 | Number of clauses: 2599834
+2026-01-18 05:11:20,932 | INFO | Process-128 | Real nums of clauses: 2600427
+2026-01-18 05:11:20,932 | INFO | Process-128 | Real nums of variables: 447552
+2026-01-18 05:11:23,106 | INFO | Process-128 | CNF written to cnf/v2/T_n592_k378/T_n592_k378_w77.cnf
+2026-01-18 05:11:23,107 | INFO | Process-128 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/T_n592_k378/T_n592_k378_w77.cnf
+2026-01-18 05:13:02,758 | INFO | Process-128 | [PAINLESS] status=SAT rc=10 time=99.65s
+2026-01-18 05:13:02,759 | RESULT | Process-128 | [PAINLESS] result: status=SAT time=99.65s rc=10
+2026-01-18 05:13:02,817 | RESULT | Process-128 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 05:13:03,038 | INFO | MainProcess | Found a solution 77
+2026-01-18 05:13:03,039 | INFO | MainProcess | [Test k=378, w=77] Time: 104.58 seconds
+2026-01-18 05:13:03,089 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 05:13:05,638 | INFO | Process-129 | Number of variables: 447553
+2026-01-18 05:13:05,639 | INFO | Process-129 | Number of clauses: 2599834
+2026-01-18 05:13:05,639 | INFO | Process-129 | Real nums of clauses: 2600427
+2026-01-18 05:13:05,640 | INFO | Process-129 | Real nums of variables: 447552
+2026-01-18 05:13:07,879 | INFO | Process-129 | CNF written to cnf/v2/T_n592_k378/T_n592_k378_w78.cnf
+2026-01-18 05:13:07,880 | INFO | Process-129 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/T_n592_k378/T_n592_k378_w78.cnf
+2026-01-18 05:14:40,311 | INFO | Process-129 | [PAINLESS] status=SAT rc=10 time=92.43s
+2026-01-18 05:14:40,312 | RESULT | Process-129 | [PAINLESS] result: status=SAT time=92.43s rc=10
+2026-01-18 05:14:40,356 | RESULT | Process-129 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 05:14:40,574 | INFO | MainProcess | Found a solution 78
+2026-01-18 05:14:40,575 | INFO | MainProcess | [Test k=378, w=78] Time: 97.48 seconds
+2026-01-18 05:14:40,616 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 05:14:46,703 | INFO | Process-130 | Number of variables: 447553
+2026-01-18 05:14:46,703 | INFO | Process-130 | Number of clauses: 2599834
+2026-01-18 05:14:46,703 | INFO | Process-130 | Real nums of clauses: 2600427
+2026-01-18 05:14:46,704 | INFO | Process-130 | Real nums of variables: 447552
+2026-01-18 05:14:48,908 | INFO | Process-130 | CNF written to cnf/v2/T_n592_k378/T_n592_k378_w79.cnf
+2026-01-18 05:14:48,910 | INFO | Process-130 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/T_n592_k378/T_n592_k378_w79.cnf
+2026-01-18 05:19:58,755 | INFO | Process-130 | [PAINLESS] status=SAT rc=10 time=309.85s
+2026-01-18 05:19:58,756 | RESULT | Process-130 | [PAINLESS] result: status=SAT time=309.85s rc=10
+2026-01-18 05:19:58,800 | RESULT | Process-130 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 05:19:59,028 | INFO | MainProcess | Found a solution 79
+2026-01-18 05:19:59,029 | INFO | MainProcess | [Test k=378, w=79] Time: 318.41 seconds
+2026-01-18 05:19:59,079 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 05:20:01,731 | INFO | Process-131 | Number of variables: 447553
+2026-01-18 05:20:01,731 | INFO | Process-131 | Number of clauses: 2599834
+2026-01-18 05:20:01,731 | INFO | Process-131 | Real nums of clauses: 2600427
+2026-01-18 05:20:01,731 | INFO | Process-131 | Real nums of variables: 447552
+2026-01-18 05:20:03,972 | INFO | Process-131 | CNF written to cnf/v2/T_n592_k378/T_n592_k378_w80.cnf
+2026-01-18 05:20:03,973 | INFO | Process-131 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/T_n592_k378/T_n592_k378_w80.cnf
+2026-01-18 05:22:40,576 | INFO | Process-131 | [PAINLESS] status=SAT rc=10 time=156.60s
+2026-01-18 05:22:40,576 | RESULT | Process-131 | [PAINLESS] result: status=SAT time=156.60s rc=10
+2026-01-18 05:22:40,620 | RESULT | Process-131 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 05:22:40,829 | INFO | MainProcess | Found a solution 80
+2026-01-18 05:22:40,830 | INFO | MainProcess | [Test k=378, w=80] Time: 161.75 seconds
+2026-01-18 05:22:40,883 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 05:22:43,341 | INFO | Process-132 | Number of variables: 447553
+2026-01-18 05:22:43,342 | INFO | Process-132 | Number of clauses: 2599834
+2026-01-18 05:22:43,342 | INFO | Process-132 | Real nums of clauses: 2600427
+2026-01-18 05:22:43,342 | INFO | Process-132 | Real nums of variables: 447552
+2026-01-18 05:22:45,512 | INFO | Process-132 | CNF written to cnf/v2/T_n592_k378/T_n592_k378_w81.cnf
+2026-01-18 05:22:45,513 | INFO | Process-132 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/T_n592_k378/T_n592_k378_w81.cnf
+2026-01-18 05:24:40,217 | INFO | Process-132 | [PAINLESS] status=SAT rc=10 time=114.70s
+2026-01-18 05:24:40,219 | RESULT | Process-132 | [PAINLESS] result: status=SAT time=114.70s rc=10
+2026-01-18 05:24:40,267 | RESULT | Process-132 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 05:24:40,553 | INFO | MainProcess | Found a solution 81
+2026-01-18 05:24:40,553 | INFO | MainProcess | [Test k=378, w=81] Time: 119.67 seconds
+2026-01-18 05:24:40,629 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 05:24:43,178 | INFO | Process-133 | Number of variables: 447553
+2026-01-18 05:24:43,179 | INFO | Process-133 | Number of clauses: 2599834
+2026-01-18 05:24:43,179 | INFO | Process-133 | Real nums of clauses: 2600427
+2026-01-18 05:24:43,179 | INFO | Process-133 | Real nums of variables: 447552
+2026-01-18 05:24:45,284 | INFO | Process-133 | CNF written to cnf/v2/T_n592_k378/T_n592_k378_w82.cnf
+2026-01-18 05:24:45,285 | INFO | Process-133 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/T_n592_k378/T_n592_k378_w82.cnf
+2026-01-18 05:26:47,690 | INFO | Process-133 | [PAINLESS] status=SAT rc=10 time=122.40s
+2026-01-18 05:26:47,690 | RESULT | Process-133 | [PAINLESS] result: status=SAT time=122.40s rc=10
+2026-01-18 05:26:47,734 | RESULT | Process-133 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 05:26:47,979 | INFO | MainProcess | Found a solution 82
+2026-01-18 05:26:47,979 | INFO | MainProcess | [Test k=378, w=82] Time: 127.35 seconds
+2026-01-18 05:26:48,066 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 05:26:50,492 | INFO | Process-134 | Number of variables: 447553
+2026-01-18 05:26:50,493 | INFO | Process-134 | Number of clauses: 2599834
+2026-01-18 05:26:50,493 | INFO | Process-134 | Real nums of clauses: 2600427
+2026-01-18 05:26:50,494 | INFO | Process-134 | Real nums of variables: 447552
+2026-01-18 05:26:52,645 | INFO | Process-134 | CNF written to cnf/v2/T_n592_k378/T_n592_k378_w83.cnf
+2026-01-18 05:26:52,646 | INFO | Process-134 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/T_n592_k378/T_n592_k378_w83.cnf
+2026-01-18 05:29:36,821 | INFO | MainProcess | No solution found 83
+2026-01-18 05:29:36,822 | INFO | MainProcess | [Test k=378, w=83] Time: 168.75 seconds
+2026-01-18 05:29:36,884 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 05:29:36,884 | INFO | MainProcess | $$$$
+2026-01-18 05:29:36,884 | INFO | MainProcess | -82
+2026-01-18 05:29:36,884 | INFO | MainProcess | $$$$
+2026-01-18 05:29:36,885 | INFO | MainProcess | Time taken for T-dwt__592.mtx.rnd with k = 378: 1814.651891708374 seconds
+2026-01-18 05:29:36,885 | INFO | MainProcess | Maximum width before timeout for T-dwt__592.mtx.rnd is 82
+2026-01-18 05:29:36,885 | INFO | MainProcess | time out
+2026-01-18 05:29:39,936 | INFO | Process-135 | Number of variables: 683185
+2026-01-18 05:29:39,937 | INFO | Process-135 | Number of clauses: 2300552
+2026-01-18 05:29:39,938 | INFO | Process-135 | Real nums of clauses: 2301215
+2026-01-18 05:29:39,938 | INFO | Process-135 | Real nums of variables: 683184
+2026-01-18 05:29:42,096 | INFO | Process-135 | CNF written to cnf/v2/U_n662_k516/U_n662_k516_w170.cnf
+2026-01-18 05:29:42,097 | INFO | Process-135 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/U_n662_k516/U_n662_k516_w170.cnf
+2026-01-18 05:34:15,293 | INFO | Process-135 | [PAINLESS] status=SAT rc=10 time=273.20s
+2026-01-18 05:34:15,295 | RESULT | Process-135 | [PAINLESS] result: status=SAT time=273.20s rc=10
+2026-01-18 05:34:15,383 | RESULT | Process-135 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 05:34:15,653 | INFO | MainProcess | Found a solution 170
+2026-01-18 05:34:15,654 | INFO | MainProcess | [Test k=516, w=170] Time: 278.76 seconds
+2026-01-18 05:34:15,753 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 05:34:18,820 | INFO | Process-136 | Number of variables: 683185
+2026-01-18 05:34:18,820 | INFO | Process-136 | Number of clauses: 2300552
+2026-01-18 05:34:18,821 | INFO | Process-136 | Real nums of clauses: 2301215
+2026-01-18 05:34:18,821 | INFO | Process-136 | Real nums of variables: 683184
+2026-01-18 05:34:20,995 | INFO | Process-136 | CNF written to cnf/v2/U_n662_k516/U_n662_k516_w171.cnf
+2026-01-18 05:34:20,996 | INFO | Process-136 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/U_n662_k516/U_n662_k516_w171.cnf
+2026-01-18 05:42:41,128 | INFO | Process-136 | [PAINLESS] status=SAT rc=10 time=500.12s
+2026-01-18 05:42:41,152 | RESULT | Process-136 | [PAINLESS] result: status=SAT time=500.12s rc=10
+2026-01-18 05:42:41,465 | RESULT | Process-136 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 05:42:48,883 | INFO | MainProcess | Found a solution 171
+2026-01-18 05:42:48,895 | INFO | MainProcess | [Test k=516, w=171] Time: 513.12 seconds
+2026-01-18 05:42:49,289 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 05:42:52,394 | INFO | Process-137 | Number of variables: 683185
+2026-01-18 05:42:52,395 | INFO | Process-137 | Number of clauses: 2300552
+2026-01-18 05:42:52,395 | INFO | Process-137 | Real nums of clauses: 2301215
+2026-01-18 05:42:52,395 | INFO | Process-137 | Real nums of variables: 683184
+2026-01-18 05:42:54,498 | INFO | Process-137 | CNF written to cnf/v2/U_n662_k516/U_n662_k516_w172.cnf
+2026-01-18 05:42:54,499 | INFO | Process-137 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/U_n662_k516/U_n662_k516_w172.cnf
+2026-01-18 05:43:01,999 | INFO | Process-137 | [PAINLESS] status=UNSAT rc=20 time=7.50s
+2026-01-18 05:43:02,000 | RESULT | Process-137 | [PAINLESS] result: status=UNSAT time=7.50s rc=20
+2026-01-18 05:43:02,000 | RESULT | Process-137 | [PAINLESS] Shortcut: UNSAT at width=172
+2026-01-18 05:43:02,000 | RESULT | Process-137 | Time taken: 12.696401596069336 seconds
+2026-01-18 05:43:02,215 | INFO | MainProcess | No solution found 172
+2026-01-18 05:43:02,215 | INFO | MainProcess | [Test k=516, w=172] Time: 12.92 seconds
+2026-01-18 05:43:02,282 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 05:43:02,283 | INFO | MainProcess | $$$$
+2026-01-18 05:43:02,283 | INFO | MainProcess | 171
+2026-01-18 05:43:02,283 | INFO | MainProcess | $$$$
+2026-01-18 05:43:02,284 | INFO | MainProcess | Time taken for U-662_bus.mtx.rnd with k = 516: 805.3984107971191 seconds
+2026-01-18 05:43:02,284 | INFO | MainProcess | Maximum width for U-662_bus.mtx.rnd is 171
+2026-01-18 05:43:04,988 | INFO | Process-138 | Number of variables: 546751
+2026-01-18 05:43:04,989 | INFO | Process-138 | Number of clauses: 2137455
+2026-01-18 05:43:04,990 | INFO | Process-138 | Real nums of clauses: 2138131
+2026-01-18 05:43:04,990 | INFO | Process-138 | Real nums of variables: 546750
+2026-01-18 05:43:06,879 | INFO | Process-138 | CNF written to cnf/v2/V_n675_k405/V_n675_k405_w195.cnf
+2026-01-18 05:43:06,880 | INFO | Process-138 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/V_n675_k405/V_n675_k405_w195.cnf
+2026-01-18 06:16:20,789 | INFO | MainProcess | No solution found 195
+2026-01-18 06:16:20,807 | INFO | MainProcess | [Test k=405, w=195] Time: 1998.49 seconds
+2026-01-18 06:16:21,363 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 06:16:21,365 | INFO | MainProcess | $$$$
+2026-01-18 06:16:21,365 | INFO | MainProcess | -9999
+2026-01-18 06:16:21,366 | INFO | MainProcess | $$$$
+2026-01-18 06:16:21,366 | INFO | MainProcess | Time taken for V-nos6.mtx.rnd with k = 405: 1999.082118988037 seconds
+2026-01-18 06:16:21,367 | INFO | MainProcess | No answer before timeout for V-nos6.mtx.rnd
+2026-01-18 06:16:21,367 | INFO | MainProcess | time out
+2026-01-18 06:16:24,574 | INFO | Process-139 | Number of variables: 543891
+2026-01-18 06:16:24,575 | INFO | Process-139 | Number of clauses: 2104715
+2026-01-18 06:16:24,575 | INFO | Process-139 | Real nums of clauses: 2105401
+2026-01-18 06:16:24,575 | INFO | Process-139 | Real nums of variables: 543890
+2026-01-18 06:16:26,621 | INFO | Process-139 | CNF written to cnf/v2/W_n685_k397/W_n685_k397_w78.cnf
+2026-01-18 06:16:26,622 | INFO | Process-139 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/W_n685_k397/W_n685_k397_w78.cnf
+2026-01-18 06:16:32,471 | INFO | Process-139 | [PAINLESS] status=SAT rc=10 time=5.85s
+2026-01-18 06:16:32,472 | RESULT | Process-139 | [PAINLESS] result: status=SAT time=5.85s rc=10
+2026-01-18 06:16:32,540 | RESULT | Process-139 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 06:16:32,758 | INFO | MainProcess | Found a solution 78
+2026-01-18 06:16:32,759 | INFO | MainProcess | [Test k=397, w=78] Time: 11.38 seconds
+2026-01-18 06:16:32,825 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 06:16:35,709 | INFO | Process-140 | Number of variables: 543891
+2026-01-18 06:16:35,710 | INFO | Process-140 | Number of clauses: 2104715
+2026-01-18 06:16:35,710 | INFO | Process-140 | Real nums of clauses: 2105401
+2026-01-18 06:16:35,711 | INFO | Process-140 | Real nums of variables: 543890
+2026-01-18 06:16:41,341 | INFO | Process-140 | CNF written to cnf/v2/W_n685_k397/W_n685_k397_w79.cnf
+2026-01-18 06:16:41,342 | INFO | Process-140 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/W_n685_k397/W_n685_k397_w79.cnf
+2026-01-18 06:16:47,265 | INFO | Process-140 | [PAINLESS] status=SAT rc=10 time=5.92s
+2026-01-18 06:16:47,266 | RESULT | Process-140 | [PAINLESS] result: status=SAT time=5.92s rc=10
+2026-01-18 06:16:47,350 | RESULT | Process-140 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 06:16:47,600 | INFO | MainProcess | Found a solution 79
+2026-01-18 06:16:47,601 | INFO | MainProcess | [Test k=397, w=79] Time: 14.77 seconds
+2026-01-18 06:16:47,673 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 06:16:50,525 | INFO | Process-141 | Number of variables: 543891
+2026-01-18 06:16:50,526 | INFO | Process-141 | Number of clauses: 2104715
+2026-01-18 06:16:50,526 | INFO | Process-141 | Real nums of clauses: 2105401
+2026-01-18 06:16:50,527 | INFO | Process-141 | Real nums of variables: 543890
+2026-01-18 06:16:52,570 | INFO | Process-141 | CNF written to cnf/v2/W_n685_k397/W_n685_k397_w80.cnf
+2026-01-18 06:16:52,572 | INFO | Process-141 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/W_n685_k397/W_n685_k397_w80.cnf
+2026-01-18 06:16:56,890 | INFO | Process-141 | [PAINLESS] status=UNSAT rc=20 time=4.32s
+2026-01-18 06:16:56,890 | RESULT | Process-141 | [PAINLESS] result: status=UNSAT time=4.32s rc=20
+2026-01-18 06:16:56,891 | RESULT | Process-141 | [PAINLESS] Shortcut: UNSAT at width=80
+2026-01-18 06:16:56,891 | RESULT | Process-141 | Time taken: 9.214375019073486 seconds
+2026-01-18 06:16:57,124 | INFO | MainProcess | No solution found 80
+2026-01-18 06:16:57,125 | INFO | MainProcess | [Test k=397, w=80] Time: 9.45 seconds
+2026-01-18 06:16:57,194 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 06:16:57,195 | INFO | MainProcess | $$$$
+2026-01-18 06:16:57,195 | INFO | MainProcess | 79
+2026-01-18 06:16:57,195 | INFO | MainProcess | $$$$
+2026-01-18 06:16:57,195 | INFO | MainProcess | Time taken for W-685_bus.mtx.rnd with k = 397: 35.8284273147583 seconds
+2026-01-18 06:16:57,196 | INFO | MainProcess | Maximum width for W-685_bus.mtx.rnd is 79
+2026-01-18 06:17:03,027 | INFO | Process-142 | Number of variables: 715001
+2026-01-18 06:17:03,027 | INFO | Process-142 | Number of clauses: 4404070
+2026-01-18 06:17:03,028 | INFO | Process-142 | Real nums of clauses: 4404786
+2026-01-18 06:17:03,028 | INFO | Process-142 | Real nums of variables: 715000
+2026-01-18 06:17:07,352 | INFO | Process-142 | CNF written to cnf/v2/X_n715_k500/X_n715_k500_w78.cnf
+2026-01-18 06:17:07,353 | INFO | Process-142 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/X_n715_k500/X_n715_k500_w78.cnf
+2026-01-18 06:18:02,922 | INFO | Process-142 | [PAINLESS] status=SAT rc=10 time=55.57s
+2026-01-18 06:18:02,923 | RESULT | Process-142 | [PAINLESS] result: status=SAT time=55.57s rc=10
+2026-01-18 06:18:03,019 | RESULT | Process-142 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 06:18:03,536 | INFO | MainProcess | Found a solution 78
+2026-01-18 06:18:03,537 | INFO | MainProcess | [Test k=500, w=78] Time: 66.33 seconds
+2026-01-18 06:18:03,641 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 06:18:09,539 | INFO | Process-143 | Number of variables: 715001
+2026-01-18 06:18:09,540 | INFO | Process-143 | Number of clauses: 4404070
+2026-01-18 06:18:09,541 | INFO | Process-143 | Real nums of clauses: 4404786
+2026-01-18 06:18:09,541 | INFO | Process-143 | Real nums of variables: 715000
+2026-01-18 06:18:13,887 | INFO | Process-143 | CNF written to cnf/v2/X_n715_k500/X_n715_k500_w79.cnf
+2026-01-18 06:18:13,888 | INFO | Process-143 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/X_n715_k500/X_n715_k500_w79.cnf
+2026-01-18 06:22:24,328 | INFO | Process-143 | [PAINLESS] status=SAT rc=10 time=250.44s
+2026-01-18 06:22:24,328 | RESULT | Process-143 | [PAINLESS] result: status=SAT time=250.44s rc=10
+2026-01-18 06:22:24,439 | RESULT | Process-143 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 06:22:24,880 | INFO | MainProcess | Found a solution 79
+2026-01-18 06:22:24,881 | INFO | MainProcess | [Test k=500, w=79] Time: 261.24 seconds
+2026-01-18 06:22:24,936 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 06:22:30,597 | INFO | Process-144 | Number of variables: 715001
+2026-01-18 06:22:30,598 | INFO | Process-144 | Number of clauses: 4404070
+2026-01-18 06:22:30,598 | INFO | Process-144 | Real nums of clauses: 4404786
+2026-01-18 06:22:30,598 | INFO | Process-144 | Real nums of variables: 715000
+2026-01-18 06:22:34,428 | INFO | Process-144 | CNF written to cnf/v2/X_n715_k500/X_n715_k500_w80.cnf
+2026-01-18 06:22:34,429 | INFO | Process-144 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/X_n715_k500/X_n715_k500_w80.cnf
+2026-01-18 06:27:59,238 | INFO | Process-144 | [PAINLESS] status=SAT rc=10 time=324.81s
+2026-01-18 06:27:59,242 | RESULT | Process-144 | [PAINLESS] result: status=SAT time=324.81s rc=10
+2026-01-18 06:27:59,343 | RESULT | Process-144 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 06:27:59,870 | INFO | MainProcess | Found a solution 80
+2026-01-18 06:27:59,871 | INFO | MainProcess | [Test k=500, w=80] Time: 334.93 seconds
+2026-01-18 06:27:59,970 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 06:28:09,188 | INFO | Process-145 | Number of variables: 715001
+2026-01-18 06:28:09,188 | INFO | Process-145 | Number of clauses: 4404070
+2026-01-18 06:28:09,189 | INFO | Process-145 | Real nums of clauses: 4404786
+2026-01-18 06:28:09,189 | INFO | Process-145 | Real nums of variables: 715000
+2026-01-18 06:28:13,481 | INFO | Process-145 | CNF written to cnf/v2/X_n715_k500/X_n715_k500_w81.cnf
+2026-01-18 06:28:13,482 | INFO | Process-145 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/X_n715_k500/X_n715_k500_w81.cnf
+2026-01-18 06:33:24,636 | INFO | Process-145 | [PAINLESS] status=SAT rc=10 time=311.15s
+2026-01-18 06:33:24,642 | RESULT | Process-145 | [PAINLESS] result: status=SAT time=311.15s rc=10
+2026-01-18 06:33:24,737 | RESULT | Process-145 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 06:33:25,236 | INFO | MainProcess | Found a solution 81
+2026-01-18 06:33:25,238 | INFO | MainProcess | [Test k=500, w=81] Time: 325.27 seconds
+2026-01-18 06:33:25,494 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 06:33:34,607 | INFO | Process-146 | Number of variables: 715001
+2026-01-18 06:33:34,608 | INFO | Process-146 | Number of clauses: 4404070
+2026-01-18 06:33:34,609 | INFO | Process-146 | Real nums of clauses: 4404786
+2026-01-18 06:33:34,609 | INFO | Process-146 | Real nums of variables: 715000
+2026-01-18 06:33:39,037 | INFO | Process-146 | CNF written to cnf/v2/X_n715_k500/X_n715_k500_w82.cnf
+2026-01-18 06:33:39,038 | INFO | Process-146 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/X_n715_k500/X_n715_k500_w82.cnf
+2026-01-18 06:38:58,698 | INFO | Process-146 | [PAINLESS] status=SAT rc=10 time=319.66s
+2026-01-18 06:38:58,700 | RESULT | Process-146 | [PAINLESS] result: status=SAT time=319.66s rc=10
+2026-01-18 06:38:58,827 | RESULT | Process-146 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 06:38:59,379 | INFO | MainProcess | Found a solution 82
+2026-01-18 06:38:59,380 | INFO | MainProcess | [Test k=500, w=82] Time: 333.88 seconds
+2026-01-18 06:38:59,500 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 06:39:05,395 | INFO | Process-147 | Number of variables: 715001
+2026-01-18 06:39:05,396 | INFO | Process-147 | Number of clauses: 4404070
+2026-01-18 06:39:05,396 | INFO | Process-147 | Real nums of clauses: 4404786
+2026-01-18 06:39:05,396 | INFO | Process-147 | Real nums of variables: 715000
+2026-01-18 06:39:09,849 | INFO | Process-147 | CNF written to cnf/v2/X_n715_k500/X_n715_k500_w83.cnf
+2026-01-18 06:39:09,851 | INFO | Process-147 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/X_n715_k500/X_n715_k500_w83.cnf
+2026-01-18 06:44:28,161 | INFO | Process-147 | [PAINLESS] status=SAT rc=10 time=318.30s
+2026-01-18 06:44:28,181 | RESULT | Process-147 | [PAINLESS] result: status=SAT time=318.30s rc=10
+2026-01-18 06:44:28,428 | RESULT | Process-147 | [VALIDATE][PAINLESS] True | VALID SOLUTION
+2026-01-18 06:44:33,977 | INFO | MainProcess | Found a solution 83
+2026-01-18 06:44:33,979 | INFO | MainProcess | [Test k=500, w=83] Time: 334.48 seconds
+2026-01-18 06:44:34,110 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 06:44:40,309 | INFO | Process-148 | Number of variables: 715001
+2026-01-18 06:44:40,310 | INFO | Process-148 | Number of clauses: 4404070
+2026-01-18 06:44:40,310 | INFO | Process-148 | Real nums of clauses: 4404786
+2026-01-18 06:44:40,310 | INFO | Process-148 | Real nums of variables: 715000
+2026-01-18 06:44:44,646 | INFO | Process-148 | CNF written to cnf/v2/X_n715_k500/X_n715_k500_w84.cnf
+2026-01-18 06:44:44,647 | INFO | Process-148 | [PAINLESS] Running: ./painless/build/release/painless_release -c=4 -solver=cckk cnf/v2/X_n715_k500/X_n715_k500_w84.cnf
+2026-01-18 06:47:11,847 | INFO | MainProcess | No solution found 84
+2026-01-18 06:47:11,849 | INFO | MainProcess | [Test k=500, w=84] Time: 157.74 seconds
+2026-01-18 06:47:11,956 | INFO | MainProcess | Data append to output/version2fixed/output_version_2_fixed_EO_Painless_NoSymmetry.xlsx
+2026-01-18 06:47:11,961 | INFO | MainProcess | $$$$
+2026-01-18 06:47:11,961 | INFO | MainProcess | -83
+2026-01-18 06:47:11,961 | INFO | MainProcess | $$$$
+2026-01-18 06:47:11,962 | INFO | MainProcess | Time taken for X-can__715.mtx.rnd with k = 500: 1814.7657668590546 seconds
+2026-01-18 06:47:11,962 | INFO | MainProcess | Maximum width before timeout for X-can__715.mtx.rnd is 83
+2026-01-18 06:47:11,968 | INFO | MainProcess | time out
