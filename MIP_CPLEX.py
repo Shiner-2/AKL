@@ -3,22 +3,20 @@ import os
 import time
 import logging
 import pandas as pd
-from typing import Optional
-from docplex.cp.model import CpoModel
+from docplex.mp.model import Model
 
 
 # ================= CONFIG =================
-name = "DE_CP_4corestest"
+name = "DE_MIP_testCP3"
 LOG_FILE = f"logs/DE/log_{name}.txt"
 EXCEL_FILE = f"output/DE/output_{name}.xlsx"
 
 TIME_LIMIT_DEFAULT = 1800
-MAX_WORKERS = 4
 # ==========================================
 
 
 # ================= LOGGING =================
-def setup_logger(name="cp", log_file=LOG_FILE):
+def setup_logger(name="mip", log_file=LOG_FILE):
     logger = logging.getLogger(name)
     if getattr(logger, "_configured", False):
         return logger
@@ -53,53 +51,79 @@ def read_input(file_path):
 # ==========================================
 
 
-# ================= CP SOLVER ===============
-def solve_cp(graph, k, lb, ub, timeout_sec):
+# ================= CPLEX MIP SOLVER =================
+def solve_mip(graph, k, lb, ub, timeout_sec):
     n = len(graph)
-    mdl = CpoModel(name="AntiKLabeling_MaxWidth")
+    M = 2 * k  # Big-M (giữ đúng như Gurobi)
+
+    mdl = Model(name="AntiKLabeling_CPLEX_MIP")
 
     # -------- variables --------
     label = {
-        i: mdl.integer_var(1, k, name=f"label_{i}")
+        i: mdl.integer_var(lb=1, ub=k, name=f"label_{i}")
         for i in range(1, n + 1)
     }
 
-    width = mdl.integer_var(lb, ub, name="width")
+    width = mdl.integer_var(lb=lb, ub=ub, name="width")
+
+    # y[i,l] = 1 if node i uses label l
+    y = {
+        (i, l): mdl.binary_var(name=f"y_{i}_{l}")
+        for i in range(1, n + 1)
+        for l in range(1, k + 1)
+    }
+
+    # -------- link label & y --------
+    for i in range(1, n + 1):
+        mdl.add(
+            mdl.sum(l * y[i, l] for l in range(1, k + 1)) == label[i]
+        )
+        mdl.add(
+            mdl.sum(y[i, l] for l in range(1, k + 1)) == 1
+        )
 
     # -------- no-hole --------
     for l in range(1, k + 1):
-        mdl.add(mdl.count(label.values(), l) >= 1)
+        mdl.add(
+            mdl.sum(y[i, l] for i in range(1, n + 1)) >= 1
+        )
 
     # -------- anti-k-labeling --------
+    added = set()
+
     for u in graph:
         for v in graph[u]:
-            mdl.add(mdl.abs(label[u] - label[v]) >= width)
+            if (v, u) in added:
+                continue
+            added.add((u, v))
+
+            b = mdl.binary_var(name=f"b_{u}_{v}")
+            mdl.add(label[u] - label[v] >= width - M * (1 - b))
+            mdl.add(label[v] - label[u] >= width - M * b)
 
     # -------- symmetry breaking --------
-    cnt = {i: 0 for i in range(1, n + 1)}
+    deg = {i: 0 for i in range(1, n + 1)}
     for u in graph:
         for v in graph[u]:
-            cnt[u] += 1
-            cnt[v] += 1
+            deg[u] += 1
+            deg[v] += 1
 
-    node = min(cnt, key=lambda x: cnt[x])
+    node = min(deg, key=lambda x: deg[x])
     mdl.add(label[node] <= k // 2)
 
     # -------- objective --------
     mdl.maximize(width)
 
+    # -------- time limit --------
+    mdl.context.cplex_parameters.timelimit = timeout_sec
+
     # -------- solve --------
-    sol = mdl.solve(
-        TimeLimit=timeout_sec,
-        Workers=MAX_WORKERS,
-        LogVerbosity="Quiet"
-    )
+    sol = mdl.solve(log_output=True)
 
     if sol:
-        return True, sol[width]
+        return True, int(sol[width])
     return False, None
-# ==========================================
-
+# ====================================================
 
 # ================= PIPELINE ================
 res = [["filename", "n", "k", "lb", "ub",
@@ -120,7 +144,7 @@ def solve_for_ans(graph, k, lb, ub, filename, time_limit):
     logger = setup_logger()
 
     t0 = time.time()
-    ok, best_width = solve_cp(graph, k, lb, ub, time_limit)
+    ok, best_width = solve_mip(graph, k, lb, ub, time_limit)
     elapsed = round(time.time() - t0, 2)
 
     res.append([
@@ -149,7 +173,6 @@ def solve_for_ans(graph, k, lb, ub, filename, time_limit):
 def solve():
     logger = setup_logger()
 
-    # clear files
     open(LOG_FILE, "w").close()
     if os.path.exists(EXCEL_FILE):
         os.remove(EXCEL_FILE)
@@ -157,19 +180,15 @@ def solve():
     folder_path = "data/hb"
     files = glob.glob(f"{folder_path}/*")
 
-    for file_path in files[:10]:
+    for file_path in files:
+        print("Solving file:", file_path)
         t0 = time.time()
 
         graph, k, lb, ub = read_input(file_path)
         fname = os.path.basename(file_path)
 
         ans = solve_for_ans(
-            graph,
-            k,
-            lb,
-            ub,
-            fname,
-            TIME_LIMIT_DEFAULT
+            graph, k, lb, ub, fname, TIME_LIMIT_DEFAULT
         )
 
         logger.info("$$$$")

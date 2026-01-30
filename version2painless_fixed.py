@@ -22,7 +22,7 @@ EXCEL_FILE = "output/version2fixed/output_" + name + ".xlsx"
 
 # --- Painless runner config ---
 PAINLESS_BIN = "./painless/build/release/painless_release"  # đổi nếu khác
-PAINLESS_ARGS = ["-c=8", "-solver=cccckkkk"]       # tuỳ chọn
+PAINLESS_ARGS = ["-c=4", "-solver=ccck"]       # tuỳ chọn
 RUN_PAINLESS = True                                         # bật/tắt chạy Painless
 
 top_id = 2
