@@ -197,6 +197,7 @@ def solve():
         logger.info(
             f"Time total: {round(time.time() - t0, 2)}s"
         )
+        
 
 
 if __name__ == "__main__":

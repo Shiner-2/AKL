@@ -16,13 +16,13 @@ from typing import Optional, Dict, Any
 #  ./painless/build/release/painless_release cnf/K_n117_k80/K_n117_k80_w38.cnf   -c=4   -solver=cckk -no-model
 
 # Global config
-name = "version_2_fixed_EO_Painless_Q_fix"
+name = "version_2_fixed_EO_Painless_28core_ccckkkl"
 LOG_FILE = "logs/version2fixed/log_" + name + ".txt" 
 EXCEL_FILE = "output/version2fixed/output_" + name + ".xlsx"
 
 # --- Painless runner config ---
 PAINLESS_BIN = "./painless/build/release/painless_release"  # đổi nếu khác
-PAINLESS_ARGS = ["-c=4", "-solver=ccck"]       # tuỳ chọn
+PAINLESS_ARGS = ["-c=28", "-solver=ccckkkl"]       # tuỳ chọn
 RUN_PAINLESS = True                                         # bật/tắt chạy Painless
 
 top_id = 2
@@ -629,7 +629,7 @@ def solve():
         lst.append(os.path.join(folder_path, os.path.basename(file)))
         filename.append(os.path.basename(file))
 
-    for i in range(15, 16):
+    for i in range(0, len(lst)):
 
         time_start = time.time()
         graph = read_input(lst[i])

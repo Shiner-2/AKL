@@ -5,3 +5,7 @@ venv_wsl/
 *.pyc
 gurobi.lic
 note.txt
+painless
+kissat
+.gitignore
+logs
